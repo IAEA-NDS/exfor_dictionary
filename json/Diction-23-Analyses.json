@@ -1,0 +1,161 @@
+{
+  "diction_num": "23",
+  "diction_def": "Analyses",
+  "children": {
+    "4PI1A": {
+      "x4code": "4PI1A",
+      "description": "4Pi Times Differential Cross Section At One Angle",
+      "active": true
+    },
+    "ANC": {
+      "x4code": "ANC",
+      "description": "Asymptotic Normalization Constant",
+      "active": true
+    },
+    "AREA": {
+      "x4code": "AREA",
+      "description": "Area Analysis",
+      "active": true
+    },
+    "CHGDS": {
+      "x4code": "CHGDS",
+      "description": "Corrected For Charge Distribution",
+      "active": true
+    },
+    "CORAB": {
+      "x4code": "CORAB",
+      "description": "Correction On Isotopic Abundance",
+      "active": true
+    },
+    "DECAY": {
+      "x4code": "DECAY",
+      "description": "Decay Curve Analysis",
+      "active": true
+    },
+    "DTBAL": {
+      "x4code": "DTBAL",
+      "description": "Detailed Balance",
+      "active": true
+    },
+    "ERCSN": {
+      "x4code": "ERCSN",
+      "description": "Extracted From Ericson Fluctuation",
+      "active": true
+    },
+    "INTAD": {
+      "x4code": "INTAD",
+      "description": "Integration Of Angular Distribution",
+      "active": true
+    },
+    "INTED": {
+      "x4code": "INTED",
+      "description": "Integration Of Energy Distribution",
+      "active": true
+    },
+    "INTEF": {
+      "x4code": "INTEF",
+      "description": "Integration Of Excitation Function",
+      "active": true
+    },
+    "INTPD": {
+      "x4code": "INTPD",
+      "description": "Integration Of Momentum Distribution",
+      "active": true
+    },
+    "MLA": {
+      "x4code": "MLA",
+      "description": "Multilevel Analysis",
+      "active": true
+    },
+    "NTRTH": {
+      "x4code": "NTRTH",
+      "description": "Normalized To Rutherford Scattering Cross Section",
+      "active": true
+    },
+    "PES": {
+      "x4code": "PES",
+      "description": "Extracted From Equilibrium Particle Emission Spectra",
+      "active": true
+    },
+    "PGS": {
+      "x4code": "PGS",
+      "description": "Extracted From Primary Gamma Spectra",
+      "active": true
+    },
+    "RFN": {
+      "x4code": "RFN",
+      "description": "R-Function Formalism",
+      "active": false
+    },
+    "SHAPE": {
+      "x4code": "SHAPE",
+      "description": "Shape Analysis",
+      "active": true
+    },
+    "SLA": {
+      "x4code": "SLA",
+      "description": "Single Level Analysis",
+      "active": true
+    },
+    "SURGT": {
+      "x4code": "SURGT",
+      "description": "Surrogate Reaction Method",
+      "active": true
+    },
+    "TROJA": {
+      "x4code": "TROJA",
+      "description": "Trojan-Horse Method",
+      "active": true
+    },
+    "TTUNF": {
+      "x4code": "TTUNF",
+      "description": "Calculated From Thick Target Using Unfolding Proced.",
+      "active": true
+    },
+    "UNFLD": {
+      "x4code": "UNFLD",
+      "description": "Unfolding Procedure",
+      "active": true
+    },
+    "WSP": {
+      "x4code": "WSP",
+      "description": "Woods-Saxon Potential",
+      "active": false
+    },
+    "DIFFR": {
+      "x4code": "DIFFR",
+      "description": "Difference Spectrum",
+      "active": true
+    },
+    "LEAST": {
+      "x4code": "LEAST",
+      "description": "Least Structure Method",
+      "active": true
+    },
+    "PHDIF": {
+      "x4code": "PHDIF",
+      "description": "Photon Difference",
+      "active": true
+    },
+    "PLA": {
+      "x4code": "PLA",
+      "description": "Penfold-Leiss Method",
+      "active": true
+    },
+    "REDUC": {
+      "x4code": "REDUC",
+      "description": "Reduction Method",
+      "active": true
+    },
+    "REGUL": {
+      "x4code": "REGUL",
+      "description": "Regularization Method",
+      "active": true
+    },
+    "THIES": {
+      "x4code": "THIES",
+      "description": "Thies'S Method",
+      "active": true
+    }
+  }
+}

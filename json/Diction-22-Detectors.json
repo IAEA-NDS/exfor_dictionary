@@ -1,0 +1,281 @@
+{
+  "diction_num": "22",
+  "diction_def": "Detectors",
+  "children": {
+    "BAF2": {
+      "x4code": "BAF2",
+      "description": "Scintillator Baf2",
+      "active": true
+    },
+    "BGO": {
+      "x4code": "BGO",
+      "description": "Bismuth-Germanate Crystal Detector",
+      "active": true
+    },
+    "BUBLC": {
+      "x4code": "BUBLC",
+      "description": "Bubble Chamber",
+      "active": true
+    },
+    "CEREN": {
+      "x4code": "CEREN",
+      "description": "Cerenkov Detector",
+      "active": true
+    },
+    "COIN": {
+      "x4code": "COIN",
+      "description": "Coincidence Counter Arrangement",
+      "active": true
+    },
+    "COMPL": {
+      "x4code": "COMPL",
+      "description": "Compton Polarimeter",
+      "active": true
+    },
+    "CSICR": {
+      "x4code": "CSICR",
+      "description": "Cesium-Iodide Crystal",
+      "active": true
+    },
+    "D4PI": {
+      "x4code": "D4PI",
+      "description": "4Pi Detector",
+      "active": true
+    },
+    "DRFTC": {
+      "x4code": "DRFTC",
+      "description": "Drift Chamber",
+      "active": true
+    },
+    "FISCH": {
+      "x4code": "FISCH",
+      "description": "Fission Chamber",
+      "active": true
+    },
+    "GEMUC": {
+      "x4code": "GEMUC",
+      "description": "Geiger-Mueller Counter",
+      "active": true
+    },
+    "GLASD": {
+      "x4code": "GLASD",
+      "description": "Glass Detector",
+      "active": true
+    },
+    "IMPSI": {
+      "x4code": "IMPSI",
+      "description": "Passivated Implanted Planar Si Detector",
+      "active": true
+    },
+    "IOCH": {
+      "x4code": "IOCH",
+      "description": "Ionization Chamber",
+      "active": true
+    },
+    "MAGSP": {
+      "x4code": "MAGSP",
+      "description": "Magnetic Spectrometer",
+      "active": true
+    },
+    "MCPLT": {
+      "x4code": "MCPLT",
+      "description": "Microchannel Plate",
+      "active": true
+    },
+    "MTANK": {
+      "x4code": "MTANK",
+      "description": "Moderating Tank Detector",
+      "active": true
+    },
+    "MWDC": {
+      "x4code": "MWDC",
+      "description": "Multi-Wire Drift Chamber",
+      "active": true
+    },
+    "MWPC": {
+      "x4code": "MWPC",
+      "description": "Multi-Wire Proportional Counter",
+      "active": true
+    },
+    "MWSC": {
+      "x4code": "MWSC",
+      "description": "Multi-Wire Spark Counter",
+      "active": true
+    },
+    "NAICR": {
+      "x4code": "NAICR",
+      "description": "Sodium-Iodide Crystal",
+      "active": true
+    },
+    "PGAC": {
+      "x4code": "PGAC",
+      "description": "Parallel-Grid Avalanche Detector",
+      "active": true
+    },
+    "PHVC": {
+      "x4code": "PHVC",
+      "description": "Photovoltaic Cell",
+      "active": true
+    },
+    "PLATE": {
+      "x4code": "PLATE",
+      "description": "Nuclear Plates",
+      "active": true
+    },
+    "PPAC": {
+      "x4code": "PPAC",
+      "description": "Parallel Plate Avalanche Counter",
+      "active": true
+    },
+    "PROPC": {
+      "x4code": "PROPC",
+      "description": "Proportional Counter",
+      "active": true
+    },
+    "PS": {
+      "x4code": "PS",
+      "description": "Position Sensitive Detector",
+      "active": true
+    },
+    "PSSCN": {
+      "x4code": "PSSCN",
+      "description": "Position Sensitive Scintillator",
+      "active": false
+    },
+    "PSSSD": {
+      "x4code": "PSSSD",
+      "description": "Position Sensitive Solid State Detector",
+      "active": false
+    },
+    "SCIN": {
+      "x4code": "SCIN",
+      "description": "Scintillation Detector",
+      "active": true
+    },
+    "SI": {
+      "x4code": "SI",
+      "description": "Silicon Detector",
+      "active": true
+    },
+    "SIBAR": {
+      "x4code": "SIBAR",
+      "description": "Silicon Surface Barrier Detector",
+      "active": true
+    },
+    "SILI": {
+      "x4code": "SILI",
+      "description": "Silicon-Lithium Detector",
+      "active": true
+    },
+    "SISD": {
+      "x4code": "SISD",
+      "description": "Silicon Strip Detector",
+      "active": true
+    },
+    "SOLST": {
+      "x4code": "SOLST",
+      "description": "Solid-State Detector",
+      "active": true
+    },
+    "SPEC": {
+      "x4code": "SPEC",
+      "description": "Large Spectrometer System",
+      "active": true
+    },
+    "STANK": {
+      "x4code": "STANK",
+      "description": "Scintillator Tank",
+      "active": true
+    },
+    "SWPC": {
+      "x4code": "SWPC",
+      "description": "Single-Wire Proportional Counter",
+      "active": true
+    },
+    "TELES": {
+      "x4code": "TELES",
+      "description": "Counter Telescope",
+      "active": true
+    },
+    "TFBC": {
+      "x4code": "TFBC",
+      "description": "Thin-Film Breakdown Counter",
+      "active": true
+    },
+    "THRES": {
+      "x4code": "THRES",
+      "description": "Threshold Detector",
+      "active": true
+    },
+    "TPC": {
+      "x4code": "TPC",
+      "description": "Time Projection Chamber",
+      "active": true
+    },
+    "TRD": {
+      "x4code": "TRD",
+      "description": "Track Detector",
+      "active": true
+    },
+    "BPAIR": {
+      "x4code": "BPAIR",
+      "description": "Electron-Pair Spectrometer",
+      "active": true
+    },
+    "GE": {
+      "x4code": "GE",
+      "description": "Germanium Detector",
+      "active": true
+    },
+    "GE-IN": {
+      "x4code": "GE-IN",
+      "description": "Germanium Intrinsic Detector",
+      "active": true
+    },
+    "GELI": {
+      "x4code": "GELI",
+      "description": "Germanium-Lithium Detector",
+      "active": true
+    },
+    "HPGE": {
+      "x4code": "HPGE",
+      "description": "Hyperpure Germanium Detector",
+      "active": true
+    },
+    "LEGE": {
+      "x4code": "LEGE",
+      "description": "Low Energy Germanium Detector",
+      "active": true
+    },
+    "MOXR": {
+      "x4code": "MOXR",
+      "description": "Moxon-Rae Detector",
+      "active": true
+    },
+    "XHPGE": {
+      "x4code": "XHPGE",
+      "description": "Extended Range Germanium Gamma Detector",
+      "active": true
+    },
+    "BF3": {
+      "x4code": "BF3",
+      "description": "Boron Trifluoride Neutron Detector",
+      "active": true
+    },
+    "HE3SP": {
+      "x4code": "HE3SP",
+      "description": "He-3 Spectrometer",
+      "active": true
+    },
+    "HORBU": {
+      "x4code": "HORBU",
+      "description": "Hornyak Button Detector",
+      "active": true
+    },
+    "LONGC": {
+      "x4code": "LONGC",
+      "description": "Long Counter",
+      "active": true
+    }
+  }
+}

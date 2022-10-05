@@ -1,0 +1,82 @@
+DICTION             22     202206 Detectors                       3000002200001 
+           =======================================================3000002200002 
+           General use                                            3000002200003 
+           =======================================================3000002200004 
+BAF2       (Scintillator BaF2)                                    3000002200005 
+BGO        (Bismuth-Germanate crystal detector)                   3000002200006 
+BUBLC      (Bubble chamber)                                       3000002200007 
+CEREN      (Cerenkov detector)                                    3000002200008 
+COIN       (Coincidence counter arrangement)                      3000002200009 
+            Detectors used in coincidence follow in the form      3000002200010 
+            (COIN,DET1,DET2). Other detectors must not be coded   3000002200011 
+            within the same parentheses but must be coded in a    3000002200012 
+            separate line.                                        3000002200013 
+COMPL      (Compton Polarimeter)                                  3000002200014 
+CSICR      (Cesium-Iodide crystal)                                3000002200015 
+D4PI       (4pi detector)                                         3000002200016 
+DRFTC      (Drift chamber)                                        3000002200017 
+FISCH      (Fission chamber)                                      3000002200018 
+GEMUC      (Geiger-Mueller counter)                               3000002200019 
+GLASD      (Glass detector)                                       3000002200020 
+IMPSI      (Passivated implanted planar Si detector)              3000002200021 
+IOCH       (Ionization chamber)                                   3000002200022 
+MAGSP      (Magnetic spectrometer)                                3000002200023 
+            or spectrograph                                       3000002200024 
+MCPLT      (Microchannel plate)                                   3000002200025 
+MTANK      (Moderating tank detector)                             3000002200026 
+MWDC       (Multi-wire drift chamber)                             3000002200027 
+MWPC       (Multi-wire proportional counter)                      3000002200028 
+MWSC       (Multi-wire spark counter)                             3000002200029 
+NAICR      (Sodium-Iodide crystal)                                3000002200030 
+PGAC       (Parallel-grid avalanche detector)                     3000002200031 
+PHVC       (Photovoltaic Cell)                                    3000002200032 
+PLATE      (Nuclear plates)                                       3000002200033 
+PPAC       (Parallel plate avalanche counter)                     3000002200034 
+PROPC      (Proportional counter)                                 3000002200035 
+PS         (Position sensitive detector)                          3000002200036 
+            Specific detector type follows in the form            3000002200037 
+            (PS,DET), e.g. (PS,MWPC). Other detectors must not    3000002200038 
+            be coded within the same parentheses but must be      3000002200039 
+            coded in a separate line.                             3000002200040 
+PSSCN      (Position sensitive scintillator)                      3000002200041O
+PSSSD      (Position sensitive solid state detector)              3000002200042O
+SCIN       (Scintillation detector)                               3000002200043 
+SI         (Silicon detector)                                     3000002200044 
+            to be used when specific type is not known            3000002200045 
+SIBAR      (Silicon surface barrier detector)                     3000002200046 
+SILI       (Silicon-Lithium detector)                             3000002200047 
+SISD       (Silicon strip detector)                               3000002200048 
+SOLST      (Solid-state detector)                                 3000002200049 
+SPEC       (Large spectrometer system)                            3000002200050 
+            for spectrometer which cannot be expressed by a set of3000002200051 
+            detector codes clearly                                3000002200052 
+STANK      (Scintillator tank)                                    3000002200053 
+SWPC       (Single-wire proportional counter)                     3000002200054 
+TELES      (Counter telescope)                                    3000002200055 
+            Detectors used may follow in the form                 3000002200056 
+            (TELES,DET1,DET2). Other detectors used must not be   3000002200057 
+            coded within the same parenthesis but must be coded   3000002200058 
+            in a separate line                                    3000002200059 
+TFBC       (Thin-film Breakdown Counter)                          3000002200060 
+THRES      (Threshold detector)                                   3000002200061 
+TPC        (Time projection chamber)                              3000002200062 
+TRD        (Track detector)                                       3000002200063 
+           =======================================================3000002200064 
+           Gamma detectors                                        3000002200065 
+           =======================================================3000002200066 
+BPAIR      (Electron-pair spectrometer)                           3000002200067 
+GE         (Germanium detector)                                   3000002200068 
+            to be used when specific type is not known            3000002200069 
+GE-IN      (Germanium intrinsic detector)                         3000002200070 
+GELI       (Germanium-Lithium detector)                           3000002200071 
+HPGE       (Hyperpure Germanium detector)                         3000002200072 
+LEGE       (Low energy Germanium Detector)                        3000002200073 
+MOXR       (Moxon-Rae detector)                                   3000002200074 
+XHPGE      (Extended range Germanium gamma detector)              3000002200075 
+           =======================================================3000002200076 
+           Neutron detectors                                      3000002200077 
+           =======================================================3000002200078 
+BF3        (Boron Trifluoride neutron detector)                   3000002200079 
+HE3SP      (He-3 spectrometer)                                    3000002200080 
+HORBU      (Hornyak button detector)                              3000002200081 
+LONGC      (Long counter)                                         3000002200082 

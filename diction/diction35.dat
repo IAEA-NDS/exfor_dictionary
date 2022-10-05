@@ -1,0 +1,17 @@
+DICTION             35     202206 Data types (REACTION SF 9)      3000003500001 
+CALC       (Calculated data)                                      3000003500002 
+CRCTD      (Data corrected by other than the author)              3000003500003 
+           Data corrected or reassessed by other than the author  3000003500004 
+DERIV      (Derived data)                                         3000003500005 
+           Data not derived from the experimental data by the most3000003500006 
+           direct method, but are calculated from other data      3000003500007 
+           obtained in the analysis of the experimental data.     3000003500008 
+           Only values derived by the experimentalist from their  3000003500009 
+           own data should be entered in this way.                3000003500010 
+DEROT      (Data derived by other than the author)                3000003500011 
+EVAL       (Evaluated data)                                       3000003500012 
+            Using best available experimental and theoretical     3000003500013 
+            information                                           3000003500014 
+EXP        (Experimental data)                                    3000003500015O
+RECOM      (Recommended data)                                     3000003500016 
+            Recommended at the time the entry was prepared        3000003500017 

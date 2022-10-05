@@ -1,0 +1,107 @@
+DICTION             31     202206 Branches (REACTION SF 5)        3000003100001 
+(CUM)      Compiler uncertain if cumulative                       3000003100002 
+           Application of the code 'CUM' uncertain. Explanation is3000003100003 
+           obligatory.                                            3000003100004 
+           To be used only with process codes 'F' or 'X'          3000003100005 
+(M)        Uncertain if formation via isomeric trans. included    3000003100006 
+           Whether formation via isomeric transition is included  3000003100007 
+           is regarded by the compiler as uncertain. Explanation  3000003100008 
+           is obligatory.                                         3000003100009 
+(SEC)      Compiler uncertain if secondary                        3000003100010 
+           (for fission product yields)                           3000003100011 
+1          Channel 1, e.g., in Reich-Moore res.pars.              3000003100012 
+2          Channel 2, e.g., in Reich-Moore res.pars.              3000003100013 
+20         0th component of the 2nd rank spherical tensor         3000003100014 
+21         1st component of the 2nd rank spherical tensor         3000003100015 
+22         2nd component of the 2nd rank spherical tensor         3000003100016 
+3          Channel 3, e.g., in Reich-Moore res.pars.              3000003100017 
+31         1st component of the 3rd rank spherical tensor         3000003100018 
+32         2nd component of the 3rd rank spherical tensor         3000003100019 
+33         3rd component of the 3rd rank spherical tensor         3000003100020 
+4          Channel 4, e.g., in Reich-Moore res.pars.              3000003100021 
+40         0th component of the 4th rank spherical tensor         3000003100022 
+BA         Bound atom                                             3000003100023 
+BIN        Binary fission                                         3000003100024 
+CHG        Total element yield (of fission products)              3000003100025 
+CHN        Total chain                                            3000003100026 
+CN         Compound-nucleus part                                  3000003100027 
+COH        Coherent                                               3000003100028 
+CON        For a range of continuum gammas, discrete gammas exclud3000003100029 
+CRN        More than two fragments are specified                  3000003100030 
+           To be used when more than two atomic and/or mass       3000003100031 
+           numbers are specified under headings ELEM1, MASS1 etc. 3000003100032 
+CUM        Cumulative production of product nucleus               3000003100033 
+           (Cumulative) Production of the product nucleus via     3000003100034 
+           direct formation and radioactive decay.                3000003100035 
+           To be used only with process codes 'F' or 'X'.         3000003100036 
+DI         Direct-interaction part                                3000003100037 
+DIS        For a range of discrete gammas, continuum gammas exclud3000003100038 
+DL         Delayed                                                3000003100039 
+           For use in fission.                                    3000003100040 
+EM         Emission cross section (excluding elastic scattering)  3000003100041 
+           ===Use only when outgoing particle considered equals   3000003100042 
+           the incident particle                                  3000003100043 
+EP         For a given electric polarity component                3000003100044 
+FA         Free atom                                              3000003100045 
+FIS        High-energy fission cross section                      3000003100046 
+FRG        Referring to fragment specified                        3000003100047 
+GRP        For a given half-life group                            3000003100048 
+ICL        Uncorrected for other channels emitting same particle  3000003100049 
+IM         Imaginary part                                         3000003100050 
+INC        Incoherent                                             3000003100051 
+IND        Independent production of product nucleus              3000003100052 
+           (Independent) Production of the product nucleus via    3000003100053 
+           direct formation only. To be used only with process    3000003100054 
+           codes 'F' or 'X' and only in cases where cumulative    3000003100055 
+           production (SF5 = CUM) can occur also.                 3000003100056 
+ISP        Partial with respect to level of intermediate products 3000003100057 
+LL         Longitudinal-longitudinal (zz) component               3000003100058 
+           Beam and target spins parallel to beam direction in    3000003100059 
+           scattering plane (=zz)                                 3000003100060 
+LON        Longitudinally polarized                               3000003100061 
+LP         For longitudinal component of linear momentum          3000003100062 
+LS         Longitudinal-sideward (zx) component                   3000003100063 
+M+         Including formation via isomeric transition            3000003100064 
+M-         Excluding formation via isomeric transition            3000003100065 
+MP         For a given magnetic polarity component                3000003100066 
+NL         Normal-longitudinal (yz) component                     3000003100067 
+NN         Normal-normal (yy) component                           3000003100068 
+           Beam and target spins normal to scattering plane       3000003100069 
+           (=yy)                                                  3000003100070 
+NUM        For number of outgoing particles                       3000003100071 
+PAR        Partial                                                3000003100072 
+           leaving the residual nucleus in a specific level or    3000003100073 
+           emitting a specific gamma or particle group.           3000003100074 
+PM+        Paramagnetic effects included                          3000003100075 
+           (for thermal scattering)                               3000003100076 
+POT        Potential                                              3000003100077 
+           (for scattering)                                       3000003100078 
+PR         Prompt                                                 3000003100079 
+           (for use in fission)                                   3000003100080 
+PRE        Primary                                                3000003100081 
+           (for fission product yields)                           3000003100082 
+PRV        Provisional                                            3000003100083 
+           (for fission product yields)                           3000003100084 
+QTR        Quaternary fission                                     3000003100085 
+SEC        Secondary                                              3000003100086 
+           (for fission product yields)                           3000003100087 
+SEQ        Particle sequence as specified in SF3                  3000003100088 
+           Indicates that the sequence of outgoing particles is   3000003100089 
+           as specified in subfield 3.                            3000003100090 
+SL         Sideward-longitudinal (xz) component                   3000003100091 
+           Beam spin perpendicular, target spin parallel to       3000003100092 
+           beam direction in scattering plane                     3000003100093 
+SPL        Spallation cross section                               3000003100094 
+SS         Sideward-sideward (xx) component                       3000003100095 
+           Target and beam spins perpendicular to beam            3000003100096 
+           direction in scattering plane                          3000003100097 
+TER        Ternary fission                                        3000003100098 
+TP         For transverse component of linear momentum            3000003100099 
+TRS        Transversely polarized                                 3000003100100 
+UND        Reaction channel undefined                             3000003100101O
+           outgoing particles represent only sum of emitted       3000003100102O
+           nucleons.                                              3000003100103O
+           ===Not to be used with process codes 'X' or 'F'.       3000003100104O
+           So far used only for charged particle data.            3000003100105O
+UNW        Unweighted production cross section                    3000003100106 
+           not weighted by multiplicity of outgoing particle      3000003100107 

@@ -1,0 +1,241 @@
+{
+  "diction_num": "2",
+  "diction_def": "Information identifiers",
+  "children": {
+    "ADD-RES": {
+      "x4code": "ADD-RES",
+      "description": "Additional Results",
+      "active": true
+    },
+    "ANALYSIS": {
+      "x4code": "ANALYSIS",
+      "description": "Analysis",
+      "active": true
+    },
+    "ANG-SEC": {
+      "x4code": "ANG-SEC",
+      "description": "Secondary Angle",
+      "active": true
+    },
+    "ASSUMED": {
+      "x4code": "ASSUMED",
+      "description": "Assumed Values",
+      "active": true
+    },
+    "AUTHOR": {
+      "x4code": "AUTHOR",
+      "description": "Author",
+      "active": true
+    },
+    "CMPD-QUANT": {
+      "x4code": "CMPD-QUANT",
+      "description": "Quantity Given",
+      "active": false
+    },
+    "COMMENT": {
+      "x4code": "COMMENT",
+      "description": "Comment",
+      "active": true
+    },
+    "CORRECTION": {
+      "x4code": "CORRECTION",
+      "description": "Corrections",
+      "active": true
+    },
+    "COVARIANCE": {
+      "x4code": "COVARIANCE",
+      "description": "Covariance",
+      "active": true
+    },
+    "CRITIQUE": {
+      "x4code": "CRITIQUE",
+      "description": "Critique",
+      "active": true
+    },
+    "DECAY-DATA": {
+      "x4code": "DECAY-DATA",
+      "description": "Decay Data",
+      "active": true
+    },
+    "DECAY-MON": {
+      "x4code": "DECAY-MON",
+      "description": "Standard Decay Data",
+      "active": true
+    },
+    "DETECTOR": {
+      "x4code": "DETECTOR",
+      "description": "Detector",
+      "active": true
+    },
+    "EMS-SEC": {
+      "x4code": "EMS-SEC",
+      "description": "Secondary Effective Mass",
+      "active": false
+    },
+    "EN-SEC": {
+      "x4code": "EN-SEC",
+      "description": "Secondary Energy",
+      "active": true
+    },
+    "ERR-ANALYS": {
+      "x4code": "ERR-ANALYS",
+      "description": "Error Analysis",
+      "active": true
+    },
+    "EXP-YEAR": {
+      "x4code": "EXP-YEAR",
+      "description": "Experiment Year",
+      "active": true
+    },
+    "FACILITY": {
+      "x4code": "FACILITY",
+      "description": "Facility",
+      "active": true
+    },
+    "FLAG": {
+      "x4code": "FLAG",
+      "description": "Flag",
+      "active": true
+    },
+    "GEOMETRY": {
+      "x4code": "GEOMETRY",
+      "description": "Geometry",
+      "active": false
+    },
+    "HALF-LIFE": {
+      "x4code": "HALF-LIFE",
+      "description": "Half-Life",
+      "active": true
+    },
+    "HISTORY": {
+      "x4code": "HISTORY",
+      "description": "History",
+      "active": true
+    },
+    "INC-SOURCE": {
+      "x4code": "INC-SOURCE",
+      "description": "Incident Particle Source",
+      "active": true
+    },
+    "INC-SPECT": {
+      "x4code": "INC-SPECT",
+      "description": "Incident Spectrum",
+      "active": true
+    },
+    "INSTITUTE": {
+      "x4code": "INSTITUTE",
+      "description": "Institute",
+      "active": true
+    },
+    "ISO-QUANT": {
+      "x4code": "ISO-QUANT",
+      "description": "Quantity Given",
+      "active": false
+    },
+    "LEVEL-PROP": {
+      "x4code": "LEVEL-PROP",
+      "description": "Level Properties",
+      "active": true
+    },
+    "METHOD": {
+      "x4code": "METHOD",
+      "description": "Method",
+      "active": true
+    },
+    "MISC-COL": {
+      "x4code": "MISC-COL",
+      "description": "Miscellaneous Columns",
+      "active": true
+    },
+    "MOM-SEC": {
+      "x4code": "MOM-SEC",
+      "description": "Secondary Linear Momentum",
+      "active": true
+    },
+    "MONIT-REF": {
+      "x4code": "MONIT-REF",
+      "description": "Standard Reference",
+      "active": true
+    },
+    "MONITOR": {
+      "x4code": "MONITOR",
+      "description": "Standard",
+      "active": true
+    },
+    "N-SOURCE": {
+      "x4code": "N-SOURCE",
+      "description": "Incident Particle Source",
+      "active": false
+    },
+    "NUC-QUANT": {
+      "x4code": "NUC-QUANT",
+      "description": "Quantity Given",
+      "active": false
+    },
+    "PART-DET": {
+      "x4code": "PART-DET",
+      "description": "Particle Detected",
+      "active": true
+    },
+    "RAD-DET": {
+      "x4code": "RAD-DET",
+      "description": "Radiation Detected",
+      "active": true
+    },
+    "REACTION": {
+      "x4code": "REACTION",
+      "description": "Quantity Given",
+      "active": true
+    },
+    "REFERENCE": {
+      "x4code": "REFERENCE",
+      "description": "Reference",
+      "active": true
+    },
+    "REL-REF": {
+      "x4code": "REL-REF",
+      "description": "Related Reference",
+      "active": true
+    },
+    "RESID-NUC": {
+      "x4code": "RESID-NUC",
+      "description": "Product Nucleus",
+      "active": false
+    },
+    "RESULT": {
+      "x4code": "RESULT",
+      "description": "Result",
+      "active": true
+    },
+    "SAMPLE": {
+      "x4code": "SAMPLE",
+      "description": "Sample",
+      "active": true
+    },
+    "STANDARD": {
+      "x4code": "STANDARD",
+      "description": "Standard",
+      "active": false
+    },
+    "STATUS": {
+      "x4code": "STATUS",
+      "description": "Status",
+      "active": true
+    },
+    "SUPPL-INF": {
+      "x4code": "SUPPL-INF",
+      "description": "Supplemental Information",
+      "active": true
+    },
+    "TABLE-NR": {
+      "x4code": "TABLE-NR",
+      "description": "Table Number",
+      "active": false
+    },
+    "TITLE": {
+      "x4code": "TITLE",
+      "description": "Title",
+      "active": true
+    }
+  }
+}

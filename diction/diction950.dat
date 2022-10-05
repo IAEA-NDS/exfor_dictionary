@@ -1,0 +1,43 @@
+DICTION            950     202206 List of Dictionaries            3000095000001 
+  1        System identifiers                                     3000095000002 
+  2        Information identifiers                                3000095000003 
+  3        Institutes                                             3000095000004 
+  4        Reference types                                        3000095000005 
+  5        Journals                                               3000095000006 
+  6        Reports                                                3000095000007 
+  7        Conferences                                            3000095000008 
+  8        Elements                                               3000095000009 
+ 15        History                                                3000095000010 
+ 16        Status                                                 3000095000011 
+ 17        Related reference types                                3000095000012 
+ 18        Facilities                                             3000095000013 
+ 19        Incident sources                                       3000095000014 
+ 20        Additional results                                     3000095000015 
+ 21        Methods                                                3000095000016 
+ 22        Detectors                                              3000095000017 
+ 23        Analyses                                               3000095000018 
+ 24        Data headings                                          3000095000019 
+ 25        Data units                                             3000095000020 
+ 30        Processes (REACTION SF 3)                              3000095000021 
+ 31        Branches (REACTION SF 5)                               3000095000022 
+ 32        Parameters (REACTION SF 6)                             3000095000023 
+ 33        Particles                                              3000095000024 
+ 34        Modifiers (REACTION SF 8)                              3000095000025 
+ 35        Data types (REACTION SF 9)                             3000095000026 
+ 37        Results                                                3000095000027 
+ 38        Supplemental information                               3000095000028 
+ 43        NLIB for evaluated libraries                           3000095000029 
+ 45        New CINDA quantities                                   3000095000030 
+ 47        Old / New CINDA quantities                             3000095000031 
+ 48        Alphabetic energy values                               3000095000032 
+ 52        CINDA readers                                          3000095000033 
+113        Web quantities                                         3000095000034 
+144        Data libraries                                         3000095000035 
+207        Books                                                  3000095000036 
+209        Compounds                                              3000095000037 
+213        Reaction types                                         3000095000038 
+227        Nuclides and nat.isot.mixtures                         3000095000039 
+235        Work types                                             3000095000040 
+236        Quantities (REACTION SF 5-8)                           3000095000041 
+ENDDICTION          40          0                                 3000095099999 
+ENDTRANS            41          0                                 9999999999999 

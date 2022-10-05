@@ -1,0 +1,13 @@
+DICTION             15     202206 History                         3000001500001 
+A          (Altered)         Important alterations                3000001500002 
+C          (Compiled)        Compiled at the data center          3000001500003 
+D          (Deleted)         Entry or subentry deleted            3000001500004 
+            This must be followed by free text justifying the     3000001500005 
+            deletion.                                             3000001500006 
+E          (Transmitted)     Transmitted to other data centers    3000001500007 
+L          (Entered)         Entered into other data library      3000001500008 
+            Entered to NEUDADA, DASTAR etc.                       3000001500009 
+R          (Received)        Data received at the data center     3000001500010 
+S          (Restored)        Data restored from archive           3000001500011 
+T          (Converted)       Converted from previous compilation  3000001500012 
+U          (Altered)         Unimportant alterations              3000001500013 

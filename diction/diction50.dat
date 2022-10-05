@@ -1,0 +1,38 @@
+DICTION             50     900703 LIST OF DICTIONARIES            3000005000001 
+ 1         SYSTEM-IDENTIFIERS                                     3000005000002 
+ 2         INFORMATION IDENTIFIER KEYWORDS                        3000005000003 
+ 3         INSTITUTES (SORTED BY CODE)                            3000005000004 
+ 3S        INSTITUTES (SORTED BY LST 3 CHARACTERS OF CODE)        3000005000005 
+ 4         TYPE OF REFERENCE                                      3000005000006 
+ 5         JOURNALS (SORTED BY CODE)                              3000005000007 
+ 5S        JOURNALS (SORTED BY COUNTRY)                           3000005000008 
+ 6         REPORTS (SORTED BY INSTITUTE)                          3000005000009 
+ 6S        REPORTS (SORTED BY CODE)                               3000005000010 
+ 7         BOOKS AND CONFERENCES                                  3000005000011 
+ 8         ELEMENTS                                               3000005000012 
+ 9         COMPOUNDS                                              3000005000013 
+13         PARTICLES                                              3000005000017 
+15         HISTORY                                                3000005000019 
+16         STATUS                                                 3000005000020 
+17         REL-REF SUBFIELD 1                                     3000005000021 
+18         FACILITY                                               3000005000022 
+19         SOURCE OF INCIDENT PARTICLES                           3000005000023 
+20         ADDITIONAL RESULTS                                     3000005000024 
+21         METHOD                                                 3000005000025 
+22         DETECTORS                                              3000005000026 
+23         ANALYSIS                                               3000005000027 
+24         DATA-HEADING KEYWORDS                                  3000005000028 
+25         DATA-UNIT KEYWORDS                                     3000005000029 
+27         NUCLIDES                                               3000005000030 
+28         INCIDENT PARTCILES (REACTION SF2)                      3000005000031 
+29         PRODUCT PARTCILES (REACTION SF3)                       3000005000032 
+30         PROCESS (REACTION SF3)                                 3000005000033 
+31         BRANCH (REACTION SF5)                                  3000005000034 
+32         PARAMETER (REACTION SF6)                               3000005000035 
+33         PARTICLES CONSIDERED (REACTION SF7)                    3000005000036 
+34         MODIFIERS (REACTION SF8)                               3000005000037 
+35         DATA-TYPE (REACTION SF9)                               3000005000038 
+36         QUANTITIES (REACTION SF5-SF8)                          3000005000039 
+37         RESULT                                                 3000005000040 
+42         CINDA-QUANTITIES                                       3000005000042 
+43         NLIB CODES FOR ENDF-6                                  3000005000043 

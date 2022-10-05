@@ -1,0 +1,102 @@
+DICTION             21     202206 Methods                         3000002100001 
+           =======================================================3000002100002 
+           General use                                            3000002100003 
+           =======================================================3000002100004 
+ACTIV      (Activation)                                           3000002100005 
+AMS        (Accelerator mass spectrometry)                        3000002100006 
+ASEP       (Off-line mass separation of a product)                3000002100007 
+ASPEC      (Alpha spectrometry)                                   3000002100008 
+ASSOP      (Associated particle)                                  3000002100009 
+            for neutron flux determination                        3000002100010 
+BCINT      (Beam current integrated)                              3000002100011 
+            Code used only if values given in the data section are3000002100012 
+            based on this measurement                             3000002100013 
+BGCT       (Beta-gamma coincidence technique)                     3000002100014 
+BSPEC      (Beta ray spectrometry)                                3000002100015 
+CHARG      (Measurements in gas discharge)                        3000002100016 
+CHSEP      (Chemical separation of products)                      3000002100017 
+            including radiochemical separation                    3000002100018 
+COINC      (Coincidence)                                          3000002100019 
+DSCAT      (Double scattering)                                    3000002100020 
+            for polarization determination                        3000002100021 
+EDE        (Particle identification by 'E/Delta E' measurement)   3000002100022 
+EDEG       (Energy degradation by foils)                          3000002100023 
+            The projectile energy was considerably degraded before3000002100024 
+            hitting the target. The initial projectile energy and 3000002100025 
+            the reference of the energy loss relation used should 3000002100026 
+            be stated.                                            3000002100027 
+EXTB       (Irradiation with external beam)                       3000002100028 
+FNB        (Filtered neutron beam)                                3000002100029 
+GSPEC      (Gamma ray spectrometry)                               3000002100030 
+HE-AC      (Helium accumulation method)                           3000002100031 
+            for helium determination by vaporization and          3000002100032 
+            mass spectrometry                                     3000002100033 
+HEJET      (Collection by He jet)                                 3000002100034 
+            for reaction product transportation                   3000002100035 
+INTB       (Irradiation with internal beam)                       3000002100036 
+JET        (Collection by gas jet)                                3000002100037 
+LRASY      (Left-right asymmetry)                                 3000002100038 
+            for polarization determination                        3000002100039 
+MAGFR      (Magnetic field rotation)                              3000002100040 
+            for polarized beam production                         3000002100041 
+MASSP      (Mass spectrometry of a product)                       3000002100042O
+            Obsolete. Use ASEP or OLMS.                           3000002100043O
+MOMIX      (Mixed monitor)                                        3000002100044 
+            Monitor and target combined as chemical compound or   3000002100045 
+            mixture, or monitor reaction has the same target      3000002100046 
+            nuclide as the reaction given under 'REACTION'        3000002100047 
+MOSEP      (Separate monitor foil)                                3000002100048 
+OLMS       (On-line mass separation of a product)                 3000002100049 
+PHD        (Pulse-height discrimination)                          3000002100050 
+PHWT       (Pulse-height weighting technique)                     3000002100051 
+PLSED      (Pulse die-away)                                       3000002100052 
+PSD        (Pulse-shape discrimination)                           3000002100053 
+REC        (Collection of recoils)                                3000002100054 
+RINGR      (Ring ratio method)                                    3000002100055 
+            for neutron energy determination                      3000002100056 
+SFLIP      (Spin flip)                                            3000002100057 
+SITA       (Single target irradiation)                            3000002100058 
+STATD      (Statistically determined)                             3000002100059 
+STTA       (Stacked target irradiation)                           3000002100060 
+THERM      (Gas thermochromatographic separation)                 3000002100061 
+TOF        (Time-of-flight)                                       3000002100062 
+TOFDE      (Particle identification by 'TOF-Delta E' measurement) 3000002100063 
+TRN        (Transmission method)                                  3000002100064 
+TTM        (Thick-target method)                                  3000002100065 
+            for excitation function determination                 3000002100066 
+XSPEC      (X-ray spectrometry)                                   3000002100067 
+           =======================================================3000002100068 
+           Neutron data only                                      3000002100069 
+           =======================================================3000002100070 
+BURN       (Burn-up)                                              3000002100071 
+CADMB      (Cadmium bath)                                         3000002100072 
+CHRFL      (Christiansen filter)                                  3000002100073 
+DIFFR      (Diffraction)                                          3000002100074 
+MANGB      (Manganese bath)                                       3000002100075 
+REAC       (Reactivity measurement)                               3000002100076 
+REFL       (Total reflection from mirrors)                        3000002100077 
+SHELT      (Shell transmission)                                   3000002100078 
+SLODT      (Slowing-down time)                                    3000002100079 
+            for neutron energy determination                      3000002100080 
+           =======================================================3000002100081 
+           Fission product yields                                 3000002100082 
+           =======================================================3000002100083 
+ABSFY      (Absolute fission yield measurement)                   3000002100084 
+            i.e., not relative to another fission yield, though   3000002100085 
+            may be relative to a monitor cross section            3000002100086 
+FISCT      (Absolute fission counting)                            3000002100087 
+            of the total number of fissions with a detector to    3000002100088 
+            be specified                                          3000002100089 
+FLUX       (Neutron flux monitoring)                              3000002100090 
+            by a reaction to be coded under MONITOR               3000002100091 
+FPGAM      (Direct gamma-ray spectrometry)                        3000002100092 
+            of unseparated fission products                       3000002100093 
+HADT       (Heavy atom difference technique)                      3000002100094 
+            by mass spectrometry                                  3000002100095 
+HATOM      (Hot atom method)                                      3000002100096 
+RCHEM      (Radiochemical separation)                             3000002100097O
+            Obsolete. Use CHSEP.                                  3000002100098O
+RELFY      (Relative fission yield measurement)                   3000002100099 
+            i.e., relative to another fission yield value         3000002100100 
+RVAL       (R-value measurement)                                  3000002100101 
+            see LEXFOR under Fission Yields                       3000002100102 

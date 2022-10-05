@@ -1,0 +1,130 @@
+DICTION            213     202206 Reaction types                  3000021300001 
+ALF        ALF  CS  Alpha (capture-to-fission cs ratio)           3000021300002 
+ALR        ALF  CS  Alpha at resonance                            3000021300003 
+AP         MAS  ZAP Most probable mass                            3000021300004 
+APA        MAS  ZAP Most probable mass as a fn. of angle          3000021300005 
+APP        MAS  ZAP Most probable mass for given fragment energy  3000021300006 
+APR        MAS  ZAP Most probable mass at resonance               3000021300007 
+CP4        CSP  CSP Partial differential d/dAngle * 4pi           3000021300008 
+CRP        CSP  CSP Partial cross section at resonance            3000021300009 
+CS         CS   CS  Cross section                                 3000021300010 
+CS+        CS   CS  Cross section (nonstandard)                   3000021300011 
+CS4        CS   CS  Differential d/dAngle * 4pi                   3000021300012 
+CSG        CS   CS  Cross section for specific half-life group    3000021300013 
+CSN        CS   CS  Cross section for emission of N products      3000021300014 
+CSP        CSP  CSP Partial cross section                         3000021300015 
+CSR        CS   CS  Cross section at resonance                    3000021300016 
+CST        CST  CST Temperature dependent cross section           3000021300017 
+D2P        DAA  DA  Partial double differential dAngle1/dAngle2   3000021300018 
+D2T        DAE  DAE Double diff. dA/dE' at other than room temp.  3000021300019 
+D3A        D3A  DAE Triple differential dAngle1/dAngle2/dE'       3000021300020 
+D3E        D3E  DAE Triple differential dAngle/dE1'/dE2'          3000021300021 
+D4A        D4A  DAE Quadruple diff. dAng1/dAng2/dE1'/dE2'         3000021300022 
+DA         DA   DA  Differential d/dAngle                         3000021300023 
+DAA        DAA  DA  Double differential dAngle1/dAngle2           3000021300024 
+DAE        DAE  DAE Double differential dAngle/dE'                3000021300025 
+DAP        DAP  DAP Partial differential d/dAngle                 3000021300026 
+DAR        DA   DA  Differential d/dAngle at resonance            3000021300027 
+DAT        DA   DA  Differential d/dAng at other than room temp.  3000021300028 
+DE         DE   DE  Differential d/dE'                            3000021300029 
+DE4        DE   DE  Differential d/dAngle/dE' * 4pi               3000021300030 
+DEP        DEP  DEP Energy spectrum for specific energy group     3000021300031 
+DP         DP   DE  Diff.by linear momentum of outg.part.         3000021300032C
+DPP        DP   DE  Diff.by lin.mom.of outg.part.,partl react.    3000021300033 
+DPR        DAP  DAP Partial angular distribution at resonance     3000021300034 
+DT         DT   DA  Diff.by 4-momentum transfer squared           3000021300035C
+E          KE   E   Kinetic energy                                3000021300036 
+EA         KE   E   Kinetic energy as a fn. of angle              3000021300037 
+EDA        KE   E   Kinetic energy, differential, d/dAngle        3000021300038 
+EG         KE   E   Kinetic energy for specific half-life group   3000021300039 
+EP         KE   E   Kinetic energy for specific energy group      3000021300040 
+ETA        ETA  NU  Neutron yield (Eta)                           3000021300041 
+ETR        ETA  NU  Neutron yield (Eta) at resonance              3000021300042 
+FC         DA   DA  Cosine coefficient                            3000021300043 
+FCP        DAP  DAP Partial cosine coefficient                    3000021300044 
+FL         DA   DA  Legendre coefficient                          3000021300045 
+FLP        DAP  DAP Legendre coefficient, partial or d/dE         3000021300046 
+FS2        DA   DA  Sine**2 coefficient                           3000021300047 
+FSP        DAP  DAP Sine**2 coefficient, partial                  3000021300048 
+FY         FY   FY  Fission product yield                         3000021300049 
+FY2        FY   FY  Fission product yield, differential, d/dA/dE  3000021300050 
+FYA        FY   FY  Fission product yield as fn. of angle         3000021300051 
+FYE        FY   FY  Fission product yield, differential, d/dE     3000021300052 
+FYP        FY   FY  Fiss.prod.yield as fn.of sec.part.energy      3000021300053 
+FYR        FY   FY  Fission product yield at resonance            3000021300054 
+FYS        FY   FY  Production cross section of fission products  3000021300055 
+FYZ        FY   FY  Fission mass or element yield                 3000021300056 
+IAP        INT  INT Cs integral over inc.en for partl.angle       3000021300057 
+IAR        INT  INT Cs integral over inc.en. at resonance         3000021300058 
+IDA        INT  INT Cross section integral over inc.en., d/dAngle 3000021300059 
+IDE        INT  INT Cs integral over inc.en., d/dE'               3000021300060 
+INP        INT  INT Cs integral over inc.en.for given E' or level 3000021300061 
+INT        INT  INT Cross section integral over incident energy   3000021300062 
+IP4        INT  INT Cs integral over inc.en.,d/dA*4pi,for E'or lvl3000021300063 
+IT4        INT  INT Cs integral over inc.en., d/dAngle * 4pi      3000021300064 
+KER        KER  SQ  Kerma factor                                  3000021300065 
+KRP        KER  SQ  Partial kerma factor                          3000021300066 
+L          AMP  L   Scattering length                             3000021300067 
+MLT        MLT  MLT Multiplicity                                  3000021300068 
+MTA        MLT  MLT Multiplicity d/dA                             3000021300069 
+MTE        MLT  MLT Multiplicity, partial or d/dE                 3000021300070 
+MTR        MLT  MLT Multiplicity at resonance                     3000021300071 
+NAE        MFQ  MFQ Neutron yield d/dAngle/dE'                    3000021300072 
+NGP        NUD  NU  Partial neutron yield for spec.half-life group3000021300073 
+NQ         NQ   NQ  Nuclear quantity                              3000021300074 
+NU         NU   NU  Neutron yield (nu-bar)                        3000021300075 
+NUA        MFQ  MFQ Neutron yield dep.on angle                    3000021300076 
+NUD        NUD  NU  Delayed neutron yield (nu-bar delayed)        3000021300077 
+NUE        MFQ  MFQ Neutron yield dep.on sec.particle energy      3000021300078 
+NUG        NUD  NU  Neutron yield for specific half-life group    3000021300079 
+NUN        NU   NU  Probability for emission of N neutrons        3000021300080 
+NUP        NU   NU  Partial neutron yield (nu-bar)                3000021300081 
+NUR        NU   NU  Neutron yield at resonance                    3000021300082 
+P2A        POD  POL Analyzing power dA1/dA2 for 2 particles       3000021300083 
+P3A        POD  POL Analyzing power dA1/dA2/dE1 for 2 particles   3000021300084 
+P4A        POD  POL Anal.power dA1/dA2/dE1/dE2 for 2 particles    3000021300085 
+PDE        POD  POL Differential polarization, d/dAngle/dE'       3000021300086 
+PDR        POD  POL Differential polarization, d/dAng at resonance3000021300087 
+PDT        POD  POL Differential polarization, d/d(-t)            3000021300088 
+PN         NUD  NU  Delayed neutron emission probability          3000021300089 
+PNE        MFQ  MFQ Delayed neutron spect. from individ. precursor3000021300090 
+PNP        NUD  NU  Partial delayed neutron emission probability  3000021300091 
+PO         POL  POL Polarization                                  3000021300092 
+POD        POD  POL Differential polarization, d/dAngle           3000021300093 
+POF        POL  POL Polarization fitting coefficient              3000021300094 
+POT        POT  CS  Potential scattering cross section            3000021300095 
+PPD        POD  POL Partial differential polarization, d/dAngle   3000021300096 
+PPF        POL  POL Partial polarization fitting coefficient      3000021300097 
+PPO        POL  POL Partial polarization                          3000021300098 
+PTD        POD  POL Differential polarization, d/dAngle, tensor   3000021300099 
+PTP        POD  POL Partial diff.polarization, d/dAngle, tensor   3000021300100 
+PY         PY   PY  Product yield (other than fission)            3000021300101 
+PY2        PY   PY  Double-diff. Product yield d/dAngle/dEnergy   3000021300102 
+PYA        PY   PY  Product yield d/dAngle                        3000021300103 
+PYP        PY   PY  Partial product yield                         3000021300104 
+PZ         MLT  MLT Partial multiplicity                          3000021300105 
+PZR        MLT  MLT Partial multiplicity at resonance             3000021300106 
+RE         RP   RP  Resonance energy                              3000021300107 
+RI         RI   RI  Resonance integral                            3000021300108 
+RIL        RI   RI  Resonance integral over limited energy range  3000021300109 
+RP         RP   RP  Resonance parameter                           3000021300110 
+RPE        KE   E   Resonance kinetic energy                      3000021300111 
+RPP        RP   RP  Partial resonance parameter                   3000021300112 
+RR         RR   RR  Reaction rate                                 3000021300113 
+RRP        RR   RR  Partial reaction rate                         3000021300114 
+SP         SPC  SP  Secondary energy spectrum                     3000021300115 
+SPA        SPC  SP  Secondary energy spectrum as a funct.of angle 3000021300116 
+SPP        SPC  SP  Partial sec. energy spectrum (for given level)3000021300117 
+SPR        SPC  SP  Spectrum at resonance                         3000021300118 
+TAE        TTD  TTD Differential thick target yield, d/dAngle/dE' 3000021300119 
+TAP        TTD  TTD Partial thick target yield, d/dAngle          3000021300120 
+TDA        TTD  TTD Differential thick target yield, d/dAngle     3000021300121 
+TDE        TTD  TTD Differential thick target yield, d/dE'        3000021300122 
+TDP        TTD  TTD Partial diff. thick target yield, d/dAngle    3000021300123 
+TOF        CS   CS  Time-of-flight spectrum                       3000021300124 
+TOT        CST  CST Time-of-flight spect.other than the room temp.3000021300125 
+TSL        TSL  CS  Thermal-neutron scattering cross section      3000021300126 
+TT         TT   TT  Thick target yield                            3000021300127 
+TTP        TTP  TTP Partial thick target yield                    3000021300128 
+ZP         CHG  ZAP Most probable charge                          3000021300129 
+ZPP        CHG  ZAP Most probable charge for given fragment energy3000021300130 

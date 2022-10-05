@@ -1,0 +1,326 @@
+{
+  "diction_num": "31",
+  "diction_def": "Branches (REACTION SF 5)",
+  "children": {
+    "(CUM)": {
+      "x4code": "(CUM)",
+      "description": "Compiler uncertain if cumulative",
+      "active": true
+    },
+    "(M)": {
+      "x4code": "(M)",
+      "description": "Uncertain if formation via isomeric trans. included",
+      "active": true
+    },
+    "(SEC)": {
+      "x4code": "(SEC)",
+      "description": "Compiler uncertain if secondary",
+      "active": true
+    },
+    "1": {
+      "x4code": "1",
+      "description": "Channel 1, e.g., in Reich-Moore res.pars.",
+      "active": true
+    },
+    "2": {
+      "x4code": "2",
+      "description": "Channel 2, e.g., in Reich-Moore res.pars.",
+      "active": true
+    },
+    "20": {
+      "x4code": "20",
+      "description": "0th component of the 2nd rank spherical tensor",
+      "active": true
+    },
+    "21": {
+      "x4code": "21",
+      "description": "1st component of the 2nd rank spherical tensor",
+      "active": true
+    },
+    "22": {
+      "x4code": "22",
+      "description": "2nd component of the 2nd rank spherical tensor",
+      "active": true
+    },
+    "3": {
+      "x4code": "3",
+      "description": "Channel 3, e.g., in Reich-Moore res.pars.",
+      "active": true
+    },
+    "31": {
+      "x4code": "31",
+      "description": "1st component of the 3rd rank spherical tensor",
+      "active": true
+    },
+    "32": {
+      "x4code": "32",
+      "description": "2nd component of the 3rd rank spherical tensor",
+      "active": true
+    },
+    "33": {
+      "x4code": "33",
+      "description": "3rd component of the 3rd rank spherical tensor",
+      "active": true
+    },
+    "4": {
+      "x4code": "4",
+      "description": "Channel 4, e.g., in Reich-Moore res.pars.",
+      "active": true
+    },
+    "40": {
+      "x4code": "40",
+      "description": "0th component of the 4th rank spherical tensor",
+      "active": true
+    },
+    "BA": {
+      "x4code": "BA",
+      "description": "Bound atom",
+      "active": true
+    },
+    "BIN": {
+      "x4code": "BIN",
+      "description": "Binary fission",
+      "active": true
+    },
+    "CHG": {
+      "x4code": "CHG",
+      "description": "Total element yield (of fission products)",
+      "active": true
+    },
+    "CHN": {
+      "x4code": "CHN",
+      "description": "Total chain",
+      "active": true
+    },
+    "CN": {
+      "x4code": "CN",
+      "description": "Compound-nucleus part",
+      "active": true
+    },
+    "COH": {
+      "x4code": "COH",
+      "description": "Coherent",
+      "active": true
+    },
+    "CON": {
+      "x4code": "CON",
+      "description": "For a range of continuum gammas, discrete gammas exclud",
+      "active": true
+    },
+    "CRN": {
+      "x4code": "CRN",
+      "description": "More than two fragments are specified",
+      "active": true
+    },
+    "CUM": {
+      "x4code": "CUM",
+      "description": "Cumulative production of product nucleus",
+      "active": true
+    },
+    "DI": {
+      "x4code": "DI",
+      "description": "Direct-interaction part",
+      "active": true
+    },
+    "DIS": {
+      "x4code": "DIS",
+      "description": "For a range of discrete gammas, continuum gammas exclud",
+      "active": true
+    },
+    "DL": {
+      "x4code": "DL",
+      "description": "Delayed",
+      "active": true
+    },
+    "EM": {
+      "x4code": "EM",
+      "description": "Emission cross section (excluding elastic scattering)",
+      "active": true
+    },
+    "EP": {
+      "x4code": "EP",
+      "description": "For a given electric polarity component",
+      "active": true
+    },
+    "FA": {
+      "x4code": "FA",
+      "description": "Free atom",
+      "active": true
+    },
+    "FIS": {
+      "x4code": "FIS",
+      "description": "High-energy fission cross section",
+      "active": true
+    },
+    "FRG": {
+      "x4code": "FRG",
+      "description": "Referring to fragment specified",
+      "active": true
+    },
+    "GRP": {
+      "x4code": "GRP",
+      "description": "For a given half-life group",
+      "active": true
+    },
+    "ICL": {
+      "x4code": "ICL",
+      "description": "Uncorrected for other channels emitting same particle",
+      "active": true
+    },
+    "IM": {
+      "x4code": "IM",
+      "description": "Imaginary part",
+      "active": true
+    },
+    "INC": {
+      "x4code": "INC",
+      "description": "Incoherent",
+      "active": true
+    },
+    "IND": {
+      "x4code": "IND",
+      "description": "Independent production of product nucleus",
+      "active": true
+    },
+    "ISP": {
+      "x4code": "ISP",
+      "description": "Partial with respect to level of intermediate products",
+      "active": true
+    },
+    "LL": {
+      "x4code": "LL",
+      "description": "Longitudinal-longitudinal (zz) component",
+      "active": true
+    },
+    "LON": {
+      "x4code": "LON",
+      "description": "Longitudinally polarized",
+      "active": true
+    },
+    "LP": {
+      "x4code": "LP",
+      "description": "For longitudinal component of linear momentum",
+      "active": true
+    },
+    "LS": {
+      "x4code": "LS",
+      "description": "Longitudinal-sideward (zx) component",
+      "active": true
+    },
+    "M+": {
+      "x4code": "M+",
+      "description": "Including formation via isomeric transition",
+      "active": true
+    },
+    "M-": {
+      "x4code": "M-",
+      "description": "Excluding formation via isomeric transition",
+      "active": true
+    },
+    "MP": {
+      "x4code": "MP",
+      "description": "For a given magnetic polarity component",
+      "active": true
+    },
+    "NL": {
+      "x4code": "NL",
+      "description": "Normal-longitudinal (yz) component",
+      "active": true
+    },
+    "NN": {
+      "x4code": "NN",
+      "description": "Normal-normal (yy) component",
+      "active": true
+    },
+    "NUM": {
+      "x4code": "NUM",
+      "description": "For number of outgoing particles",
+      "active": true
+    },
+    "PAR": {
+      "x4code": "PAR",
+      "description": "Partial",
+      "active": true
+    },
+    "PM+": {
+      "x4code": "PM+",
+      "description": "Paramagnetic effects included",
+      "active": true
+    },
+    "POT": {
+      "x4code": "POT",
+      "description": "Potential",
+      "active": true
+    },
+    "PR": {
+      "x4code": "PR",
+      "description": "Prompt",
+      "active": true
+    },
+    "PRE": {
+      "x4code": "PRE",
+      "description": "Primary",
+      "active": true
+    },
+    "PRV": {
+      "x4code": "PRV",
+      "description": "Provisional",
+      "active": true
+    },
+    "QTR": {
+      "x4code": "QTR",
+      "description": "Quaternary fission",
+      "active": true
+    },
+    "SEC": {
+      "x4code": "SEC",
+      "description": "Secondary",
+      "active": true
+    },
+    "SEQ": {
+      "x4code": "SEQ",
+      "description": "Particle sequence as specified in SF3",
+      "active": true
+    },
+    "SL": {
+      "x4code": "SL",
+      "description": "Sideward-longitudinal (xz) component",
+      "active": true
+    },
+    "SPL": {
+      "x4code": "SPL",
+      "description": "Spallation cross section",
+      "active": true
+    },
+    "SS": {
+      "x4code": "SS",
+      "description": "Sideward-sideward (xx) component",
+      "active": true
+    },
+    "TER": {
+      "x4code": "TER",
+      "description": "Ternary fission",
+      "active": true
+    },
+    "TP": {
+      "x4code": "TP",
+      "description": "For transverse component of linear momentum",
+      "active": true
+    },
+    "TRS": {
+      "x4code": "TRS",
+      "description": "Transversely polarized",
+      "active": true
+    },
+    "UND": {
+      "x4code": "UND",
+      "description": "Reaction channel undefined",
+      "active": false
+    },
+    "UNW": {
+      "x4code": "UNW",
+      "description": "Unweighted production cross section",
+      "active": true
+    }
+  }
+}

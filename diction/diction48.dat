@@ -1,0 +1,11 @@
+DICTION             48     202206 Alphabetic energy values        3000004800001 
+COLD       Cold      Subthermal neutron spectrum                  3000004800002 
+FAST       Fast      Fast reactor spectrum                        3000004800003 
+FISS       Fiss      Unmoderated fission-neutron spectrum         3000004800004 
+MAXW       Maxwl     Maxwellian neutron spectrum                  3000004800005 
+                      (293 K or reactor temperature)              3000004800006 
+NDG        None      No data given                                3000004800007 
+PILE       Pile      Reactor spectrum with non-Maxw.energy distr. 3000004800008 
+SPON       Spont     Spontaneous fission                          3000004800009 
+TR         Thrsh     Threshold energy                             3000004800010 
+TR UP      Thrsh up  No upper limit specified above the threshold 3000004800011 

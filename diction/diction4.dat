@@ -1,0 +1,16 @@
+DICTION              4     202206 Reference types                 3000000400001 
+0          (DATA) Experimental data library                       3000000400002 
+           Preliminary or not yet compiled data                   3000000400003 
+3          (DATA) Evaluated data library                          3000000400004 
+4          (DATA) Experimental data library                       3000000400005 
+A          (CONF) Abstract of conference               DICT 7     3000000400006 
+B          (BOOK) Book                                 DICT07     3000000400007 
+C          (CONF) Conference                           DICT 7     3000000400008 
+J          (JOUR) Journal                              DICT 5     3000000400009 
+K          (JOUR) Abstract of journal                  DICT 5     3000000400010 
+P          (PROG) Progress report                      DICT 6     3000000400011 
+R          (REPT) Report other than progress report    DICT 6     3000000400012 
+S          (REPT) Report containing conference proc.   DICT 6     3000000400013 
+T          (THES) Thesis or dissertation                          3000000400014 
+W          (PRIV) Private communication                           3000000400015 
+X          (PREP) Preprint                                        3000000400016 

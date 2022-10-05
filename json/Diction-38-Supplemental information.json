@@ -1,0 +1,16 @@
+{
+  "diction_num": "38",
+  "diction_def": "Supplemental information",
+  "children": {
+    "INCSP": {
+      "x4code": "INCSP",
+      "description": "(Incident particle spectrum)",
+      "active": true
+    },
+    "RESFN": {
+      "x4code": "RESFN",
+      "description": "(Resolution (response) function)",
+      "active": true
+    }
+  }
+}

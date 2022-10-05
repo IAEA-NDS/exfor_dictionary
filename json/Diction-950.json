@@ -1,0 +1,162 @@
+{
+  "1": {
+    "description": "System identifiers",
+    "active": true
+  },
+  "2": {
+    "description": "Information identifiers",
+    "active": true
+  },
+  "3": {
+    "description": "Institutes",
+    "active": true
+  },
+  "4": {
+    "description": "Reference types",
+    "active": true
+  },
+  "5": {
+    "description": "Journals",
+    "active": true
+  },
+  "6": {
+    "description": "Reports",
+    "active": true
+  },
+  "7": {
+    "description": "Conferences",
+    "active": true
+  },
+  "8": {
+    "description": "Elements",
+    "active": true
+  },
+  "15": {
+    "description": "History",
+    "active": true
+  },
+  "16": {
+    "description": "Status",
+    "active": true
+  },
+  "17": {
+    "description": "Related reference types",
+    "active": true
+  },
+  "18": {
+    "description": "Facilities",
+    "active": true
+  },
+  "19": {
+    "description": "Incident sources",
+    "active": true
+  },
+  "20": {
+    "description": "Additional results",
+    "active": true
+  },
+  "21": {
+    "description": "Methods",
+    "active": true
+  },
+  "22": {
+    "description": "Detectors",
+    "active": true
+  },
+  "23": {
+    "description": "Analyses",
+    "active": true
+  },
+  "24": {
+    "description": "Data headings",
+    "active": true
+  },
+  "25": {
+    "description": "Data units",
+    "active": true
+  },
+  "30": {
+    "description": "Processes (REACTION SF 3)",
+    "active": true
+  },
+  "31": {
+    "description": "Branches (REACTION SF 5)",
+    "active": true
+  },
+  "32": {
+    "description": "Parameters (REACTION SF 6)",
+    "active": true
+  },
+  "33": {
+    "description": "Particles",
+    "active": true
+  },
+  "34": {
+    "description": "Modifiers (REACTION SF 8)",
+    "active": true
+  },
+  "35": {
+    "description": "Data types (REACTION SF 9)",
+    "active": true
+  },
+  "37": {
+    "description": "Results",
+    "active": true
+  },
+  "38": {
+    "description": "Supplemental information",
+    "active": true
+  },
+  "43": {
+    "description": "NLIB for evaluated libraries",
+    "active": true
+  },
+  "45": {
+    "description": "New CINDA quantities",
+    "active": true
+  },
+  "47": {
+    "description": "Old / New CINDA quantities",
+    "active": true
+  },
+  "48": {
+    "description": "Alphabetic energy values",
+    "active": true
+  },
+  "52": {
+    "description": "CINDA readers",
+    "active": true
+  },
+  "113": {
+    "description": "Web quantities",
+    "active": true
+  },
+  "144": {
+    "description": "Data libraries",
+    "active": true
+  },
+  "207": {
+    "description": "Books",
+    "active": true
+  },
+  "209": {
+    "description": "Compounds",
+    "active": true
+  },
+  "213": {
+    "description": "Reaction types",
+    "active": true
+  },
+  "227": {
+    "description": "Nuclides and nat.isot.mixtures",
+    "active": true
+  },
+  "235": {
+    "description": "Work types",
+    "active": true
+  },
+  "236": {
+    "description": "Quantities (REACTION SF 5-8)",
+    "active": true
+  }
+}

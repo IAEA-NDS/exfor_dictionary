@@ -1,0 +1,52 @@
+DICTION             23     202206 Analyses                        3000002300001 
+4PI1A      (4pi times differential cross section at one angle)    3000002300002 
+ANC        (Asymptotic normalization constant)                    3000002300003 
+AREA       (Area analysis)                                        3000002300004 
+            For derivation of resonance parameters                3000002300005 
+CHGDS      (Corrected for charge distribution)                    3000002300006 
+            For derivation of total chain yield                   3000002300007 
+CORAB      (Correction on isotopic abundance)                     3000002300008 
+DECAY      (Decay curve analysis)                                 3000002300009 
+DTBAL      (Detailed balance)                                     3000002300010 
+            For analysis of inverse reactions                     3000002300011 
+ERCSN      (Extracted from Ericson fluctuation)                   3000002300012 
+            For level density derivation                          3000002300013 
+INTAD      (Integration of angular distribution)                  3000002300014 
+INTED      (Integration of energy distribution)                   3000002300015 
+INTEF      (Integration of excitation function)                   3000002300016 
+            For derivation of thick target yield                  3000002300017 
+INTPD      (Integration of momentum distribution)                 3000002300018 
+MLA        (Multilevel analysis)                                  3000002300019 
+            For derivation of resonance parameters                3000002300020 
+NTRTH      (Normalized to Rutherford scattering cross section)    3000002300021 
+PES        (Extracted from equilibrium particle emission spectra) 3000002300022 
+            For level density derivation                          3000002300023 
+PGS        (Extracted from primary gamma spectra)                 3000002300024 
+            For level density derivation                          3000002300025 
+RFN        (R-function formalism)                                 3000002300026O
+            Special case of Reich-Moore (RM in REACTION SF8)      3000002300027O
+SHAPE      (Shape analysis)                                       3000002300028 
+            For derivation of resonance parameters                3000002300029 
+SLA        (Single level analysis)                                3000002300030 
+            For derivation of resonance parameters                3000002300031 
+SURGT      (Surrogate reaction method)                            3000002300032 
+TROJA      (Trojan-horse method)                                  3000002300033 
+TTUNF      (Calculated from thick target using unfolding proced.) 3000002300034 
+UNFLD      (Unfolding procedure)                                  3000002300035 
+WSP        (Woods-Saxon potential)                                3000002300036O
+DIFFR      (Difference spectrum)                                  3000002300037 
+            For unfolding of photonuclear cross section.          3000002300038 
+            Differentiation of outgoing particle spectra obtained 3000002300039 
+            by bremsstrahlung having different end-point energies 3000002300040 
+LEAST      (Least structure method)                               3000002300041 
+            For unfolding of photonuclear cross section           3000002300042 
+PHDIF      (Photon difference)                                    3000002300043 
+            For unfolding of photonuclear cross section.          3000002300044 
+            Differentiation of reaction yields obtained by        3000002300045 
+            bremsstrahlung having different end-point energies    3000002300046 
+PLA        (Penfold-Leiss method)                                 3000002300047 
+            For unfolding of photonuclear cross section           3000002300048 
+REDUC      (Reduction method)                                     3000002300049 
+REGUL      (Regularization method)                                3000002300050 
+            For unfolding of photonuclear cross section           3000002300051 
+THIES      (Thies's method)                                       3000002300052 

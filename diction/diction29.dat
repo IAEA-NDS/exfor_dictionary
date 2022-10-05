@@ -1,0 +1,12 @@
+DICTION             29     841217 PROD.PARTICLES (REACTION SF3)   3000002900001 
+0          (-) NO OUTGOING PARTICLE = PROPERTIES OF COMPOUND NUCL.3000002900002 
+G          (GAMMAS)                                               3000002900003 
+N          (NEUTRONS)                                             3000002900004 
+P          (PROTONS)                                              3000002900005 
+D          (DEUTERONS)                                            3000002900006 
+T          (TRITONS)                                              3000002900007 
+HE3        (HE-3)                                                 3000002900008 
+A          (ALPHAS) HE-4                                          3000002900009 
+B-         (BETA- PARTICLE)                                       3000002900010 
+PIP        (PIONS,POSITIVE)                                       3000002900011 
+PIN        (PIONS,NEGATIVE)                                       3000002900012 

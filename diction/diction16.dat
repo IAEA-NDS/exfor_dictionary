@@ -1,0 +1,99 @@
+DICTION             16     202206 Status                          3000001600001 
+APRVD      (Approved by author)                                   3000001600002 
+            Proof copy approved by author and author's corrections3000001600003 
+             entered.                                             3000001600004 
+            Free text = name and date of approval                 3000001600005 
+BERMN      (Data converted from file of B.Berman)                 3000001600006 
+CPX        (Data taken from data file of McGowan, et al.)         3000001600007 
+            The data are partly published in:                     3000001600008 
+             ORNL-CPX-1 (1964) for reactions with Mn, Fe, Co      3000001600009 
+             ORNL-CPX-2 (1964) for reactions with Ni, Cu          3000001600010 
+             Nucl.Data/A,1,203 (1966) for reactions with Li, Be, B3000001600011 
+             Nucl.Data/A,2,1 (1966) for reactions with C          3000001600012 
+             Nucl.Data/A,3,123 (1967) for reactions with N, O     3000001600013 
+            Some of the data in this file were obtained from      3000001600014 
+             curves with a data point reader.                     3000001600015 
+            The data sets compiled in area P entries (P0001 to    3000001600016 
+             P0148) are published in Physik Daten Nr.15-5.        3000001600017 
+CURVE      (Data read from a curve)                               3000001600018 
+DASTR      (Data converted from DASTAR file)                      3000001600019 
+ECSIL      (Data converted from ECSIL library)                    3000001600020I
+NACRE      (Data converted from NACRE files)                      3000001600021C
+            Nuclear Astrophysics Compilation of Reaction Rates    3000001600022 
+NCHKD      (Authenticity not confirmed)                           3000001600023 
+            Mainly used when original reference is not checked    3000001600024 
+             (e.g., translation from another compilation)         3000001600025 
+            Not allowed for newly inserted data sets.             3000001600026 
+NDD        (Data converted from NEUDADA file)                     3000001600027 
+PENTZ      (Data converted from GMA input file of W.P.Poenitz)    3000001600028 
+            Data compiled by W.P.Poenitz for the least-squares    3000001600029 
+             analysis of the neutron standard cross sections with 3000001600030 
+             the GMA code (Report ANL/NDM-139). Data obtained from3000001600031 
+             the authors and converted into the form of the       3000001600032 
+             'primary' measured quantities where it was needed for3000001600033 
+             the combined standards fit. Some partial components  3000001600034 
+             of the uncertainties may be assigned by Poenitz at   3000001600035 
+             the base of expert estimation.                       3000001600036 
+PRELM      (Preliminary data)                                     3000001600037 
+            Data labelled by author as preliminary                3000001600038 
+            Free text = author's information about finalizing the 3000001600039 
+             data.                                                3000001600040 
+            Also to be used for data not to be quoted prior to    3000001600041 
+             publication.                                         3000001600042 
+RCALC      (Ratio to standard calculated by other than author)    3000001600043 
+RIDER      (Data converted from file of B.F.Rider)                3000001600044 
+SCSRS      (Data converted from SCISRS file)                      3000001600045 
+            Information is incomplete due to automatic            3000001600046 
+             conversion from SCISRS.                              3000001600047 
+SGMBS      (Data converted from Sigmabase)                        3000001600048 
+            Cross section compilation for ion beam analysis       3000001600049 
+TABLE      (Data presented by authors)                            3000001600050 
+            Data shown in text or table in articles, or data      3000001600051 
+             received from authors. Previously used for data      3000001600052 
+             received by centre in tabular form.                  3000001600053 
+UNOBT      (Data unobtainable from author)                        3000001600054 
+            Free text = explanation of why unobtainable           3000001600055 
+           ------------------------------------------------------ 3000001600056 
+           The following codes must be followed by an accession   3000001600057 
+            number indicating a cross-reference, e.g.,            3000001600058 
+           (COREL,B0123004)= Data correlated with subentry        3000001600059 
+                             B0123004                             3000001600060 
+           (DEP,10048007)= Data deduced from subentry 10048007    3000001600061 
+           ------------------------------------------------------ 3000001600062 
+COREL      (Data correlated with another data set)               R3000001600063 
+            Example: different results obtained by different      3000001600064 
+              analyses of the same experimental data.             3000001600065 
+CRCTD      (Data corrected by other than author)                 R3000001600066 
+            Accession number follows: original data coded under   3000001600067 
+             that accession number.                               3000001600068 
+DEP        (Dependent data)                                      R3000001600069 
+            Example: Gamma width obtained by subtraction of       3000001600070 
+              independently measured total width and neutron      3000001600071 
+              width.                                              3000001600072 
+            Free text = cross-reference to the data from which    3000001600073 
+                        the dependent data were derived.          3000001600074 
+RNORM      (Data renormalized by other than author)              R3000001600075 
+            Free text = explanation of renormalization and        3000001600076 
+              cross-reference to author's original data           3000001600077 
+            =NOTE= To be used only for non-trivial renormalization3000001600078 
+                   by an evaluator.  Compilation centers should   3000001600079 
+                   generally store the author's normalization.    3000001600080 
+SUPPL      (Supplemental information compiled separately)        R3000001600081 
+           ------------------------------------------------------ 3000001600082 
+           The following codes may be followed by an accession    3000001600083 
+            number indicating a cross-reference, e.g.,            3000001600084 
+           (SPSDD,10048009)= Superseded by subentry 10048009      3000001600085 
+           ------------------------------------------------------ 3000001600086 
+OUTDT      (Normalization out-of-date)                           S3000001600087 
+            Reason or cross-reference to renormalized data        3000001600088 
+SPSDD      (Data superseded or withdrawn)                        S3000001600089 
+            Superseded by author's decision.                      3000001600090 
+            Accession number follows: revised data coded under    3000001600091 
+             that accession number.                               3000001600092 
+            No subaccession number follows for:                   3000001600093 
+             - data withdrawn by author with no replacement       3000001600094 
+             - replacing data not yet entered at time of          3000001600095 
+               compilation                                        3000001600096 
+             - old entries before 1977 when accession number field3000001600097 
+               was not used.                                      3000001600098 
+             Free text explanation required.                      3000001600099 

@@ -1,0 +1,101 @@
+{
+  "diction_num": "20",
+  "diction_def": "Additional results",
+  "children": {
+    "A-DIS": {
+      "x4code": "A-DIS",
+      "description": "Mass Distribution",
+      "active": true
+    },
+    "AMFF": {
+      "x4code": "AMFF",
+      "description": "Angular Momentum Of Fission Fragments",
+      "active": true
+    },
+    "ANGD": {
+      "x4code": "ANGD",
+      "description": "Angular Distribution",
+      "active": true
+    },
+    "COMP": {
+      "x4code": "COMP",
+      "description": "Comparison With Calculated Values",
+      "active": true
+    },
+    "DECAY": {
+      "x4code": "DECAY",
+      "description": "Decay Properties Investigated",
+      "active": true
+    },
+    "E-DIS": {
+      "x4code": "E-DIS",
+      "description": "Energy Distribution",
+      "active": true
+    },
+    "G-SPC": {
+      "x4code": "G-SPC",
+      "description": "Gamma Spectra",
+      "active": true
+    },
+    "LD": {
+      "x4code": "LD",
+      "description": "Level Density",
+      "active": true
+    },
+    "N-SPC": {
+      "x4code": "N-SPC",
+      "description": "Neutron Spectra",
+      "active": true
+    },
+    "P-SPC": {
+      "x4code": "P-SPC",
+      "description": "Proton Spectra",
+      "active": true
+    },
+    "POT": {
+      "x4code": "POT",
+      "description": "Parameters Of Nuclear Potential",
+      "active": true
+    },
+    "RANGE": {
+      "x4code": "RANGE",
+      "description": "Range Of Recoils Measured",
+      "active": true
+    },
+    "RECIP": {
+      "x4code": "RECIP",
+      "description": "Calculated Data For Reciprocal Reaction",
+      "active": true
+    },
+    "RRATE": {
+      "x4code": "RRATE",
+      "description": "Reaction Rate",
+      "active": true
+    },
+    "STRUC": {
+      "x4code": "STRUC",
+      "description": "Nuclear Structure Data",
+      "active": true
+    },
+    "THEO": {
+      "x4code": "THEO",
+      "description": "Theory",
+      "active": true
+    },
+    "TRCS": {
+      "x4code": "TRCS",
+      "description": "Total Reaction Cross Section",
+      "active": true
+    },
+    "TTY-C": {
+      "x4code": "TTY-C",
+      "description": "Calculated Thick Target Yield",
+      "active": true
+    },
+    "Z-DIS": {
+      "x4code": "Z-DIS",
+      "description": "Charge Distribution",
+      "active": true
+    }
+  }
+}

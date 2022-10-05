@@ -1,0 +1,118 @@
+DICTION            144     202206 Data libraries                  3000014400001 
+AUSTR-DFN     Australian Library of Evaluated Neutron Cross       3000014400002 
+              Sections for Fission-Product Nuclei                 3000014400003 
+BENZI-DFN     Bologna Library of Evaluated Neutron Cross Sections 3000014400004 
+              for Fission-Product Nuclei                          3000014400005 
+BROND-        Russian Recommended Evaluated Neutron Data Library  3000014400006 
+              (BROND)                                             3000014400007 
+               1993 BROND-2.2                                     3000014400008 
+               1992 BROND-2                                       3000014400009 
+CENDL-        Chinese Evaluated Nuclear Data Library (CENDL)      3000014400010 
+               2009 CENDL-3.1                                     3000014400011 
+               1995 CENDL-2.1                                     3000014400012 
+               1991 CENDL-2.0                                     3000014400013 
+CNEN-CEA      Evaluated Data Library from CNEN (Italy) - CEA      3000014400014 
+              (France) Collaboration                              3000014400015 
+EFF-          European Fusion File                                3000014400016 
+              Last version: EFF-2.4 (1994)                        3000014400017 
+               1994 EFF-2.4                                       3000014400018 
+               1986 EFF-1                                         3000014400019 
+ENDF/B-       US Evaluated Nuclear Data File (ENDF) B Library     3000014400020 
+               2011 ENDF/B-VII.1                                  3000014400021 
+               2006 ENDF/B-VII.0                                  3000014400022 
+               2001 ENDF/B-VI.8                                   3000014400023 
+               2000 ENDF/B-VI.7                                   3000014400024 
+               1999 ENDF/B-VI.6                                   3000014400025 
+               1998 ENDF/B-VI.5                                   3000014400026 
+               1996 ENDF/B-VI.4                                   3000014400027 
+               1995 ENDF/B-VI.3                                   3000014400028 
+               1993 ENDF/B-VI.2                                   3000014400029 
+               1990 ENDF/B-VI                                     3000014400030 
+               1978 ENDF/B-V                                      3000014400031 
+               1974 ENDF/B-IV                                     3000014400032 
+               1972 ENDF/B-III                                    3000014400033 
+               1970 ENDF/B-II                                     3000014400034 
+               1968 ENDF/B-I                                      3000014400035 
+ENDL-         Livermore Evaluated Nuclear Data Library (ENDL)     3000014400036 
+               1986 ENDL-86                                       3000014400037 
+               1978 ENDL-78                                       3000014400038 
+EXFOR         EXFOR Experimental Nuclear Reaction Data Library    3000014400039 
+FENDL         Fusion Evaluated Nuclear Data Library (FENDL)       3000014400040 
+               2004 FENDL/E-2.1  (Evaluated data for n/g transport3000014400041 
+               1998 FENDL/E-2.0  (Evaluated data for n/g transport3000014400042 
+               1997 FENDL/A-2.0  (Activation)                     3000014400043 
+               1997 FENDL/D-2.0  (Decay)                          3000014400044 
+               1997 FENDL/DS-2.0 (Dosimetry)                      3000014400045 
+               1997 FENDL/C-2.0  (Charged-particle fusion xs)     3000014400046 
+INDL-         IAEA Nulear Data Library (INDL)                     3000014400047 
+              Files included in both INDL/A and INDL/V under the s3000014400048 
+              accession number                                    3000014400049 
+INDL/A-       IAEA Nuclear Data Library for evaluated neutron     3000014400050 
+              reaction data of Actinides (INDL/A)                 3000014400051 
+INDL/V-       IAEA Nuclear Data Library for Various neutron data  3000014400052 
+              evaluations in ENDF/B-5 format (INDL/V)             3000014400053 
+IRDF-         International Reactor Dosimetry File (IRDF) in      3000014400054 
+              ENDF/B-5 format                                     3000014400055 
+               2005 IRDF-2002                                     3000014400056 
+               1993 IRDF-90.2                                     3000014400057 
+               1990 IRDF-90.1                                     3000014400058 
+IRDFF-        International Reactor Dosimetry and Fusion File     3000014400059 
+               2019 IRDFF-II                                      3000014400060 
+               2014 IRDFF-1.05                                    3000014400061 
+               2012 IRDFF-1.02                                    3000014400062 
+JEF-          Joint Evaluated File (JEF)                          3000014400063 
+              compiled at the OECD Nuclear Energy Agency Data Bank3000014400064 
+              Last version: JEF-2.2 (1992)                        3000014400065 
+               1993 JEF-2.2                                       3000014400066 
+               1991 JEF-2.1                                       3000014400067 
+               1990 JEF-2.0                                       3000014400068 
+               1985 JEF-1                                         3000014400069 
+JEFF-         Joint Evaluated Fission and Fusion (JEFF) Library   3000014400070 
+              compiled at the OECD Nuclear Energy Agency Data Bank3000014400071 
+               2012 JEFF-3.1.2/GP (update of neutron data)        3000014400072 
+               2009 JEFF-3.1.1/GP (update of neutron data)        3000014400073 
+               2009 JEFF-3.1.1/FY (update of fission yields)      3000014400074 
+               2007 JEFF-3.1.1/DD (update of decay data)          3000014400075 
+               2005 JEFF-3.1 (general and special purpose files)  3000014400076 
+               2002 JEFF-3.0/GP (general purpose file)            3000014400077 
+JENDL-        Japanese Evaluated Nuclear Data Library (JENDL)     3000014400078 
+               2010 JENDL-4.0, General Purpose File               3000014400079 
+               2002 JENDL-3.3, General Purpose File               3000014400080 
+               1994 JENDL-3.2, General Purpose File               3000014400081 
+               1990 JENDL-3.1, General Purpose File               3000014400082 
+               1985 JENDL-2 (Addition of Fission Products)        3000014400083 
+               1984 JENDL-2 (Revised)                             3000014400084 
+               1982 JENDL-2                                       3000014400085 
+               1977 JENDL-1                                       3000014400086 
+JENDL-A-      JENDL Activation File (JENDL/A)                     3000014400087 
+               1996 JENDL/A-96                                    3000014400088 
+JENDL-AC-     JENDL Actinoid File  (JENDL/AC)                     3000014400089 
+               2008 JENDL/AC-2008                                 3000014400090 
+JENDL-AN-     JENDL (alpha,n) Reaction Data File (JENDL/AN)       3000014400091 
+               2005 JENDL/AN-2005                                 3000014400092 
+               2003 JENDL/AN-2003                                 3000014400093 
+JENDL-D-      JENDL Dosimetry File (JENDL/D)                      3000014400094 
+               1999 JENDL/D-99                                    3000014400095 
+               1991 JENDL/D-91                                    3000014400096 
+JENDL-F-      JENDL Fusion File (JENDL/F)                         3000014400097 
+               1999 JENDL/F-99                                    3000014400098 
+JENDL-FP-     JENDL Fission Product Decay Data (JENDL/FPD)        3000014400099 
+               2000 JENDL/FPD-2000                                3000014400100 
+JENDL-HE-     JENDL High Energy File (JENDL/HE)                   3000014400101 
+               2007 JENDL/HE-2007                                 3000014400102 
+               2004 JENDL/HE-2004                                 3000014400103 
+JENDL-PD-     JENDL Photonuclear Data File (JENDL/PD)             3000014400104 
+               2004 JENDL/PD-2004                                 3000014400105 
+JNDC-FFP-WG   Nuclear data evaluated by JNDC Fast FP WG           3000014400106X
+JNDC-FP       JNDC nuclear data library of Fission Products       3000014400107X
+              Decay data, fission yields and one group cross secti3000014400108X
+KEDAK-        Karlsruhe Evaluated Nuclear Data Library (KEDAK)    3000014400109X
+RCN-          ECN, Petten, Evaluated Fission Product Cross        3000014400110 
+              Section Library                                     3000014400111 
+SOKRATOR-     USSR Evaluated Nuclear Data Library                 3000014400112X
+              Superseded by BROND-2                               3000014400113X
+TENDL-        TALYS-based Evaluated Nuclear Data Library          3000014400114 
+UKFY2         UK Fission Yield library (UKFY) version 2           3000014400115 
+              in ENDF-6 format                                    3000014400116 
+UKNDL-DFN     United Kingdom Nuclear Data Library (UKNDL)         3000014400117 
+VIEN-V        Various International Evaluated Neutron data (VIEN) 3000014400118 

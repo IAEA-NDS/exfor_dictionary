@@ -1,0 +1,181 @@
+{
+  "diction_num": "144",
+  "diction_def": "Data libraries",
+  "children": {
+    "AUSTR-DFN": {
+      "x4code": "AUSTR-DFN",
+      "description": "   Australian Library of Evaluated Neutron Cross",
+      "active": true
+    },
+    "BENZI-DFN": {
+      "x4code": "BENZI-DFN",
+      "description": "   Bologna Library of Evaluated Neutron Cross Sections",
+      "active": true
+    },
+    "BROND-": {
+      "x4code": "BROND-",
+      "description": "   Russian Recommended Evaluated Neutron Data Library",
+      "active": true
+    },
+    "CENDL-": {
+      "x4code": "CENDL-",
+      "description": "   Chinese Evaluated Nuclear Data Library (CENDL)",
+      "active": true
+    },
+    "CNEN-CEA": {
+      "x4code": "CNEN-CEA",
+      "description": "   Evaluated Data Library from CNEN (Italy) - CEA",
+      "active": true
+    },
+    "EFF-": {
+      "x4code": "EFF-",
+      "description": "   European Fusion File",
+      "active": true
+    },
+    "ENDF/B-": {
+      "x4code": "ENDF/B-",
+      "description": "   US Evaluated Nuclear Data File (ENDF) B Library",
+      "active": true
+    },
+    "ENDL-": {
+      "x4code": "ENDL-",
+      "description": "   Livermore Evaluated Nuclear Data Library (ENDL)",
+      "active": true
+    },
+    "EXFOR": {
+      "x4code": "EXFOR",
+      "description": "   EXFOR Experimental Nuclear Reaction Data Library",
+      "active": true
+    },
+    "FENDL": {
+      "x4code": "FENDL",
+      "description": "   Fusion Evaluated Nuclear Data Library (FENDL)",
+      "active": true
+    },
+    "INDL-": {
+      "x4code": "INDL-",
+      "description": "   IAEA Nulear Data Library (INDL)",
+      "active": true
+    },
+    "INDL/A-": {
+      "x4code": "INDL/A-",
+      "description": "   IAEA Nuclear Data Library for evaluated neutron",
+      "active": true
+    },
+    "INDL/V-": {
+      "x4code": "INDL/V-",
+      "description": "   IAEA Nuclear Data Library for Various neutron data",
+      "active": true
+    },
+    "IRDF-": {
+      "x4code": "IRDF-",
+      "description": "   International Reactor Dosimetry File (IRDF) in",
+      "active": true
+    },
+    "IRDFF-": {
+      "x4code": "IRDFF-",
+      "description": "   International Reactor Dosimetry and Fusion File",
+      "active": true
+    },
+    "JEF-": {
+      "x4code": "JEF-",
+      "description": "   Joint Evaluated File (JEF)",
+      "active": true
+    },
+    "JEFF-": {
+      "x4code": "JEFF-",
+      "description": "   Joint Evaluated Fission and Fusion (JEFF) Library",
+      "active": true
+    },
+    "JENDL-": {
+      "x4code": "JENDL-",
+      "description": "   Japanese Evaluated Nuclear Data Library (JENDL)",
+      "active": true
+    },
+    "JENDL-A-": {
+      "x4code": "JENDL-A-",
+      "description": "   JENDL Activation File (JENDL/A)",
+      "active": true
+    },
+    "JENDL-AC-": {
+      "x4code": "JENDL-AC-",
+      "description": "   JENDL Actinoid File  (JENDL/AC)",
+      "active": true
+    },
+    "JENDL-AN-": {
+      "x4code": "JENDL-AN-",
+      "description": "   JENDL (alpha,n) Reaction Data File (JENDL/AN)",
+      "active": true
+    },
+    "JENDL-D-": {
+      "x4code": "JENDL-D-",
+      "description": "   JENDL Dosimetry File (JENDL/D)",
+      "active": true
+    },
+    "JENDL-F-": {
+      "x4code": "JENDL-F-",
+      "description": "   JENDL Fusion File (JENDL/F)",
+      "active": true
+    },
+    "JENDL-FP-": {
+      "x4code": "JENDL-FP-",
+      "description": "   JENDL Fission Product Decay Data (JENDL/FPD)",
+      "active": true
+    },
+    "JENDL-HE-": {
+      "x4code": "JENDL-HE-",
+      "description": "   JENDL High Energy File (JENDL/HE)",
+      "active": true
+    },
+    "JENDL-PD-": {
+      "x4code": "JENDL-PD-",
+      "description": "   JENDL Photonuclear Data File (JENDL/PD)",
+      "active": true
+    },
+    "JNDC-FFP-WG": {
+      "x4code": "JNDC-FFP-WG",
+      "description": "   Nuclear data evaluated by JNDC Fast FP WG",
+      "active": true
+    },
+    "JNDC-FP": {
+      "x4code": "JNDC-FP",
+      "description": "   JNDC nuclear data library of Fission Products",
+      "active": true
+    },
+    "KEDAK-": {
+      "x4code": "KEDAK-",
+      "description": "   Karlsruhe Evaluated Nuclear Data Library (KEDAK)",
+      "active": true
+    },
+    "RCN-": {
+      "x4code": "RCN-",
+      "description": "   ECN, Petten, Evaluated Fission Product Cross",
+      "active": true
+    },
+    "SOKRATOR-": {
+      "x4code": "SOKRATOR-",
+      "description": "   USSR Evaluated Nuclear Data Library",
+      "active": true
+    },
+    "TENDL-": {
+      "x4code": "TENDL-",
+      "description": "   TALYS-based Evaluated Nuclear Data Library",
+      "active": true
+    },
+    "UKFY2": {
+      "x4code": "UKFY2",
+      "description": "   UK Fission Yield library (UKFY) version 2",
+      "active": true
+    },
+    "UKNDL-DFN": {
+      "x4code": "UKNDL-DFN",
+      "description": "   United Kingdom Nuclear Data Library (UKNDL)",
+      "active": true
+    },
+    "VIEN-V": {
+      "x4code": "VIEN-V",
+      "description": "   Various International Evaluated Neutron data (VIEN)",
+      "active": true
+    }
+  }
+}
