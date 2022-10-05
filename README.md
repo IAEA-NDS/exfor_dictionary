@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shinokumura/exforparser/main?labpath=examples%2Fexample_bib_reaction_parse.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shinokumura/exfor_dictionary/main?labpath=example.ipynb)
 
 ## Introduction to the EXFOR dictionary in JSON
 You may find many mysterious keywords in EXFOR entries such as:
@@ -10,12 +10,12 @@ You may find many mysterious keywords in EXFOR entries such as:
 > REACTION   (2-HE-4(N,2N)2-HE-3,,SIG,,SPA)\
 > STATUS     (DEP,14737002)\
 
-These keywords are defined in the so-called EXFOR dictionary which is maintained in the IAEA Nuclear Data Section. The original format of EXFOR dictionary is in the Fortran style fixed width format. Each keyword is separated in the block that starts with ```DICTION```. There are 40 difinisions (```DICTION```) that define such keywords. For example, you will find ```1USALAS``` means "Los Alamos National Laboratory, NM" in ```DICTION 3 Institutes```.
+These keywords are defined in the so-called EXFOR dictionary which is maintained in the IAEA Nuclear Data Section. The original format of the EXFOR dictionary is in the Fortran style fixed-width format. Each keyword is separated in the block that starts with ```DICTION```. There are 40 definitions (```DICTION```) that define such keywords. For example, you will find ```1USALAS``` means "Los Alamos National Laboratory, NM" in ```DICTION 3 Institutes```.
 
 
 ## EXFOR dictionary
 The latest EXFOR dictionary is available at https://nds.iaea.org/nrdc/ndsx4/trans/dicts/. 
-The EXFOR dictionary consists of approx. 40 definitions of types of the EXFOR codes used in identifiers,  which is so called DICTION. The definitions of each DICTION can be found in [DICTION   950](original/diction950.dat) which looks like as below. For example, the institute codes that are coded under INSTITUTE identifier in BIB block are defined in [DICTION    3](original/diction3.dat). The most important DICTION would be [DICTION   236](original/diction236.dat), which defines all possible combinations of reaction strings.
+The EXFOR dictionary consists of approx. 40 definitions of types of the EXFOR codes used in identifiers,  which is the so-called DICTION. The definitions of each DICTION can be found in [DICTION   950](original/diction950.dat) which looks like as below. For example, the institute codes that are coded under INSTITUTE identifier in the BIB block are defined in [DICTION    3](original/diction3.dat). The most important DICTION would be [DICTION   236](original/diction236.dat), which defines all possible combinations of reaction strings.
 
 ```
 DICTION            950     202112 List of Dictionaries            3000095000001 
@@ -64,18 +64,18 @@ ENDDICTION          40          0                                 3000095099999
 
 
 ## EXFOR dictionary parser
-The EXFOR dictionary parser, ``exfor_dictionary.py``, will download the latest dictionary, trans.9***,  everytime it runs and the parser divides it into the unit of DICTION and store original format files in ``original`` directory and JSON converted files in ``json`` directory. While conversion, many abbreviations in the descritption will be expanded. You can check the [DICTION   236](json/diction236.json).
+The EXFOR dictionary parser, ``exfor_dictionary.py``, will download the latest dictionary, trans.9***,  every time it runs and the parser divides it into the unit of DICTION and store original format files in ``original`` directory and JSON converted files in ``json`` directory. While conversion, many abbreviations in the description will be expanded. You can check the [DICTION   236](json/diction236.json).
 
-Note that because of the EXFOR dictionary's troublesome formats, parsing all information is not yet possible. Currentry, JSON files include information that can be parsed and used for the main EXFOR parser. 
+Note that because of the EXFOR dictionary's troublesome formats, parsing all information is not yet possible. Currently, JSON files include information that can be parsed and used for the main EXFOR parser. 
 
 
 ## How to use
-See [.ipynb file](https://github.com/shinokumura/exfor_dictionary/blob/main/example.ipynb) If you don't have Jupyter notebook environment, you can run it from Binder from followin button. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shinokumura/exfor_dictionary/blob/main/example.ipynb)
+See [.ipynb file](https://github.com/shinokumura/exfor_dictionary/blob/main/example.ipynb) If you don't have Jupyter notebook environment, you can run it from Binder from the following button. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shinokumura/exfor_dictionary/main?labpath=example.ipynb)
 
 
 
 ## EXFOR dictionary parser API
-The API will be available soon, pelase ask API KEY to use it.
+The API will be available soon, please ask API KEY to use it.
 
 ```
 import requests
