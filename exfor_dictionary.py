@@ -11,20 +11,17 @@
 ####################################################################
 
 
-from asyncio import exceptions
 import requests
 from bs4 import BeautifulSoup
 import glob
 import re
 import os
 import json
-import pandas as pd
-import logging
-logging.basicConfig(filename="process.log", level=logging.DEBUG, filemode="w")
+# import logging
+# logging.basicConfig(filename="process.log", level=logging.DEBUG, filemode="w")
 
 from config import DICTIONARY_PATH, DICTIONARY_URL
 from abbreviations import abbreviations
-
 
 
 
@@ -75,15 +72,10 @@ def download_trans(transnum):
 
     if r.status_code == 404:
         print("Something wrong with retrieving new dictionary from the IAEA-NDS.")
-        logging.error(f"Something wrong with retrieving new dictionary from the IAEA-NDS.")
 
     else:
         file = dict_filename(transnum)
         open(file, "wb").write(r.content)
-        logging.info(f"Download trans.{transnum}")
-
-
-
 
 def download_all_trans():
     x = get_server_trans_nums()
@@ -105,7 +97,7 @@ def download_latest_dict():
 
     elif local_max > remote_max:
         print("Something wrong with dictionary file.")
-        raise exceptions
+        exit()
 
     else:
         download_trans(remote_max)
@@ -175,11 +167,6 @@ def get_diction_difinition(latest) -> dict:
             x4code = str(line[:11].rstrip().lstrip())
             desc = line[11:66].rstrip()
             flag = line[79:80]
-            dict2 = {
-                "diction": x4code,
-                "description": desc,
-                "active": False if flag == "O" else True,
-            }
 
             dict[x4code] = {
                 "description": desc,
@@ -209,7 +196,6 @@ def parse_dictionary(latest):
                     DICTIONARY_PATH, "diction", "diction" + str(diction_num) + ".dat"
                 )
                 o = open(fname, "w")
-                # o.write("# " + line[:66] + "\n")
                 o.write(line)
                 continue
 
@@ -219,7 +205,6 @@ def parse_dictionary(latest):
                 continue
 
             elif new:
-                # o.write(line[:66] + "\n")
                 o.write(line)
                 diction += [line]
 
@@ -229,6 +214,8 @@ def parse_dictionary(latest):
 
 def conv_dictionary_tojson(latest) -> dict:
     ## load pickles for additional info
+    import pandas as pd
+    
     institute_df = pd.read_pickle("pickles/institute.pickle")
     institute_df["code"] = institute_df["code"].str.rstrip()
     institute_df = institute_df.set_index("code")
