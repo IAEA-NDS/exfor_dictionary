@@ -1,32 +1,141 @@
-DICTION              9     790220 COMPOUNDS                       3000000900001 
-           -------------------------------------------------------3000000900002 
-           THE GENERAL COMPOUND CODE 'CMP' CAN BE COMBINED WITH   3000000900003 
-           ANY ELEMENT IN THE FORM (Z-S-CMP) WITHOUT ENTRY IN THIS3000000900004 
-           DICTIONARY, WHICH LISTS ONLY SPECIAL CASES.            3000000900005 
-           -------------------------------------------------------3000000900006 
-1-H-BNZ    (BENZENE) C6-H6                                        3000000900007 
-1-H-CMP    (HYDROGEN COMPOUND) EXCEPT WATER,METAL-HYDRIDES,ORGANIC3000000900008 
-                               OR AMMONIUM COMPOUND.              3000000900009 
-1-H-CXX    (ORGANIC COMPOUND) EXCEPT BNZ, MTH, PFN, PHL, PLE      3000000900010 
-1-H-MTH    (METHANE) C-H4                                         3000000900011 
-1-H-PFN    (PARAFFINE)                                            3000000900012 
-1-H-PHL    (PHENYL) DI-, TER-, POLY-                              3000000900013 
-1-H-PLE    (POLYETHYLENE)                                         3000000900014 
-1-H-WTR    (H2O) WATER, ICE, STEAM                                3000000900015 
-1-H-DXX    (DEUTERIUM COMPOUND) INCLUDING MIXED H-D COMPOUNDS AND 3000000900016 
-                      EXCLUDING HEAVY WATER AND ZR-DEUTERIDE      3000000900017 
-1-H-D2O    (HEAVY WATER) D2O AND HDO                              3000000900018 
-1-H-TXX    (TRITIUM COMPOUND) INCLUDING MIXED H-T OR D-T COMPOUNDS3000000900019 
-                      AND EXCLUDING ZR-TRITIDE                    3000000900020 
-1-D-DXX    (DEUTERIUM COMPOUND)  *** OBSOLETE. USE 1-H-DXX        3000000900021O
-1-D-D2O    (HEAVY WATER)         *** OBSOLETE. USE 1-H-D2O        3000000900022O
-1-T-TXX    (TRITIUM COMPOUND)    *** OBSOLETE. USE 1-H-TXX        3000000900023O
-4-BE-OXI   (BERYLLIUM OXIDE)                                      3000000900024 
-6-C-CMP    (CARBON-COMPOUND) EXCEPT CARBONATES AND HYDRO-CARBONS  3000000900025 
-7-N-AIR    (AIR)                                                  3000000900026 
-7-N-AMM    (AMMONIUM COMPOUND)                                    3000000900027 
-14-SI-OXI  (SILICON OXIDE) SI-O2, GLASS, QUARTZ                   3000000900028 
-26-FE-CMP  (IRON-COMPOUND) STEEL TO BE ENTERED UNDER 26-FE-0      3000000900029 
-40-ZR-ALY  (ZIRCALOY)                                             3000000900030 
-40-ZR-HYD  (ZIRCONIUM HYDRIDE) INCLUDING DEUTERIDE AND TRITIDE    3000000900031 
-92-U-OXI   (URANIUM OXIDE)                                        3000000900032 
+DICTION              9     201304 Compounds                       3000000900001 
+1-D-D2O    (Heavy Water)                                          3000000900002O
+           ===Obsolete, use 1-H-D2O                               3000000900003O
+1-D-DXX    (Deuterium Compound)                                   3000000900004O
+           ===Obsolete, use 1-H-DXX                               3000000900005O
+1-H-BNZ    (Benzene, benzyl compounds)                            3000000900006 
+            C6-H6                                                 3000000900007 
+1-H-BUT    (Butane, butyl compounds)                              3000000900008 
+            C4-H10                                                3000000900009 
+1-H-CMP    (Hydrogen Compound)                                    3000000900010 
+            except water, metal-hydrides, organic or ammonium     3000000900011 
+            compound                                              3000000900012 
+1-H-CXX    (Organic Compound)                                     3000000900013 
+            except BNZ, MTH, PFN, PHL, PLE                        3000000900014 
+1-H-D2O    (Heavy Water)                                          3000000900015 
+1-H-DXX    (Deuterium Compound)                                   3000000900016 
+            including mixed H-D compounds and excluding heavy     3000000900017 
+            water and Zr-deuteride                                3000000900018 
+1-H-ETH    (Ethane, ethyl compounds)                              3000000900019 
+            C2-H6                                                 3000000900020 
+1-H-MTH    (Methane, methyl compounds)                            3000000900021 
+            C-H4                                                  3000000900022 
+1-H-PFN    (Paraffin)                                             3000000900023 
+1-H-PHL    (Phenol, phenyl compounds)                             3000000900024 
+            C6-H5-OH. Di-, Ter-, Poly-                            3000000900025 
+1-H-PLE    (Polyethylene)                                         3000000900026 
+1-H-PRO    (Propane, propyl compounds)                            3000000900027 
+            C3-H8                                                 3000000900028 
+1-H-TXX    (Tritium Compound)                                     3000000900029 
+            including mixed H-T or D-T compounds and excluding    3000000900030 
+            Zr-tritide                                            3000000900031 
+1-H-WTR    (Water, Ice, Steam)                                    3000000900032 
+1-T-TXX    (Tritium Compound)                                     3000000900033O
+           ===Obsolete, use 1-H-TXX                               3000000900034O
+2-HE-CMP   (Helium Compound)                                      3000000900035 
+3-LI-CMP   (Lithium Compound)                                     3000000900036 
+4-BE-CMP   (Beryllium Compound)                                   3000000900037 
+4-BE-OXI   (Beryllium oxide)                                      3000000900038 
+5-B-CMP    (Boron compound)                                       3000000900039 
+5-B-OXI    (Boron oxide)                                          3000000900040 
+6-C-CMP    (Carbon Compound)                                      3000000900041 
+            except carbonates and hydro-carbons                   3000000900042 
+7-N-AIR    (Air)                                                  3000000900043 
+7-N-AMM    (Ammonium Compound)                                    3000000900044 
+7-N-CMP    (Nitrogen compound)                                    3000000900045 
+8-O-CMP    (Oxygen compound)                                      3000000900046 
+9-F-CMP    (Fluorine compound)                                    3000000900047 
+11-NA-CMP  (Sodium compound)                                      3000000900048 
+12-MG-CMP  (Magnesium compound)                                   3000000900049 
+12-MG-OXI  (Magnesium compound)                                   3000000900050 
+13-AL-CMP  (Aluminium compound)                                   3000000900051 
+13-AL-OXI  (Aluminium Oxide)                                      3000000900052 
+14-SI-CMP  (Silicon compound)                                     3000000900053 
+14-SI-OXI  (Silicon Oxide)                                        3000000900054 
+            Si-O2, glass, quartz                                  3000000900055 
+15-P-CMP   (Phosphorus compound)                                  3000000900056 
+16-S-CMP   (Sulphur compound)                                     3000000900057 
+17-CL-CMP  (Chlorine compound)                                    3000000900058 
+19-K-CMP   (Potassium compound)                                   3000000900059 
+20-CA-CMP  (Calcium compound)                                     3000000900060 
+20-CA-OXI  (Calcium oxide)                                        3000000900061 
+22-TI-CMP  (Titanium compound)                                    3000000900062 
+22-TI-OXI  (Titanium oxide)                                       3000000900063 
+23-V-CMP   (Vanadium compound)                                    3000000900064 
+24-CR-CMP  (Chromium compound)                                    3000000900065 
+25-MN-CMP  (Manganese compound)                                   3000000900066 
+26-FE-CMP  (Iron Compound)                                        3000000900067 
+            steel to be entered under 26-FE-0                     3000000900068 
+26-FE-OXI  (Iron oxide)                                           3000000900069 
+27-CO-CMP  (Cobalt compound)                                      3000000900070 
+27-CO-OXI  (Cobalt oxide)                                         3000000900071 
+28-NI-CMP  (Nickel compound)                                      3000000900072 
+29-CU-CMP  (Copper compound)                                      3000000900073 
+30-ZN-CMP  (Zinc compound)                                        3000000900074 
+32-GE-CMP  (Germanium compound)                                   3000000900075 
+32-GE-OXI  (Germanium oxide)                                      3000000900076 
+33-AS-CMP  (Arsenic compound)                                     3000000900077 
+34-SE-CMP  (Selenium compound)                                    3000000900078 
+35-BR-CMP  (Bromine compound)                                     3000000900079 
+37-RB-CMP  (Rubidium compound)                                    3000000900080 
+38-SR-CMP  (Strontium compound)                                   3000000900081 
+39-Y-CMP   (Yttrium compound)                                     3000000900082 
+40-ZR-ALY  (Zircalloy)                                            3000000900083 
+40-ZR-CMP  (Zirconium compound)                                   3000000900084 
+40-ZR-HYD  (Zirconium Hydride)                                    3000000900085 
+            including deuteride and tritide                       3000000900086 
+40-ZR-OXI  (Zirconium Oxide)                                      3000000900087 
+41-NB-CMP  (Niobium compound)                                     3000000900088 
+46-PD-CMP  (Palladium compound)                                   3000000900089 
+47-AG-CMP  (Silver compound)                                      3000000900090 
+48-CD-CMP  (Cadmium compound)                                     3000000900091 
+48-CD-OXI  (Cadmium oxide)                                        3000000900092 
+49-IN-CMP  (Indium compound)                                      3000000900093 
+50-SN-CMP  (Tin compound)                                         3000000900094 
+50-SN-OXI  (Tin oxide)                                            3000000900095 
+51-SB-CMP  (Antimony compound)                                    3000000900096 
+52-TE-CMP  (Tellurium compound)                                   3000000900097 
+52-TE-OXI  (Tellurium oxide)                                      3000000900098 
+53-I-CMP   (Iodine compound)                                      3000000900099 
+55-CS-CMP  (Cesium compound)                                      3000000900100 
+56-BA-CMP  (Barium compound)                                      3000000900101 
+57-LA-CMP  (Lanthanum compound)                                   3000000900102 
+57-LA-OXI  (Lanthanum oxide)                                      3000000900103 
+58-CE-CMP  (Cerium compound)                                      3000000900104 
+58-CE-OXI  (Cerium oxide)                                         3000000900105 
+59-PR-CMP  (Praseodymium compound)                                3000000900106 
+59-PR-OXI  (Praseodymium oxide)                                   3000000900107 
+60-ND-CMP  (Neodymium compound)                                   3000000900108 
+62-SM-CMP  (Samarium compound)                                    3000000900109 
+63-EU-CMP  (Europium compound)                                    3000000900110 
+63-EU-OXI  (Europium oxide)                                       3000000900111 
+65-TB-CMP  (Terbium compound)                                     3000000900112 
+65-TB-OXI  (Terbium oxide)                                        3000000900113 
+66-DY-CMP  (Dysprosium compound)                                  3000000900114 
+66-DY-OXI  (Dysprosium oxide)                                     3000000900115 
+67-HO-CMP  (Holmium  compound)                                    3000000900116 
+67-HO-OXI  (Holmium  oxide)                                       3000000900117 
+68-ER-CMP  (Erbium compound)                                      3000000900118 
+68-ER-OXI  (Erbium oxide)                                         3000000900119 
+69-TM-OXI  (Thulium oxide)                                        3000000900120 
+70-YB-CMP  (Ytterbium compound)                                   3000000900121 
+71-LU-OXI  (Lutetium oxide)                                       3000000900122 
+72-HF-CMP  (Hafnium compound)                                     3000000900123 
+73-TA-CMP  (Tantalum compound)                                    3000000900124 
+73-TA-OXI  (Tantalum oxide)                                       3000000900125 
+74-W-CMP   (Tungsten compound)                                    3000000900126 
+74-W-OXI   (Tungsten oxide)                                       3000000900127 
+75-RE-CMP  (Rhenium compound)                                     3000000900128 
+78-PT-CMP  (Platinum compound)                                    3000000900129 
+79-AU-CMP  (Gold compound)                                        3000000900130 
+80-HG-CMP  (Mercury compound)                                     3000000900131 
+81-TL-CMP  (Thallium compound)                                    3000000900132 
+81-TL-OXI  (Thallium oxide)                                       3000000900133 
+82-PB-CMP  (Lead compound)                                        3000000900134 
+83-BI-CMP  (Bismuth compound)                                     3000000900135 
+83-BI-OXI  (Bismuth oxide)                                        3000000900136 
+90-TH-CMP  (Thorium compound)                                     3000000900137 
+90-TH-OXI  (Thorium oxide)                                        3000000900138 
+92-U-CMP   (Uranium compound)                                     3000000900139 
+92-U-OXI   (Uranium Oxide)                                        3000000900140 
+94-PU-CMP  (Plutonium compound)                                   3000000900141 

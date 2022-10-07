@@ -11,6 +11,7 @@
 ####################################################################
 
 
+from asyncio import exceptions
 import requests
 from bs4 import BeautifulSoup
 import glob
@@ -26,12 +27,6 @@ from abbreviations import abbreviations
 
 
 
-def call_diction(diction_num):
-    file = diction_json_file(diction_num)
-    with open(file) as json_file:
-        return json.load(json_file)
-
-
 
 def skip_unused_lines(d):
     if "==" in d:
@@ -43,20 +38,19 @@ def skip_unused_lines(d):
 
 
 
-def get_local_trans_num():
+
+def get_local_trans_nums():
     local_dict_files = glob.glob(os.path.join(DICTIONARY_PATH, "trans_backup", "trans.*"))
     # check local dictionary files
     x = []
     for d in local_dict_files:
         x += [re.split(r"\.", os.path.basename(d))[1]]
-    if x:
-        return max(x)
-    else:
-        return "10"
+    return x
 
 
 
-def get_server_trans_num():
+
+def get_server_trans_nums():
     x = ["9000"]
     r = requests.get(DICTIONARY_URL)
     soup = BeautifulSoup(r.text, "html.parser")
@@ -67,8 +61,8 @@ def get_server_trans_num():
 
 
 
-def get_latest_trans_num():
-    x = get_server_trans_num()
+
+def get_latest_trans_num(x):
     return max(x)
 
 
@@ -90,30 +84,32 @@ def download_trans(transnum):
 
 
 
+
 def download_all_trans():
-    x = get_server_trans_num()
+    x = get_server_trans_nums()
     for xx in x:
         download_trans(xx)
 
 
 
+
 def download_latest_dict():
-    # get the latest dictionary from https://nds.iaea.org/nrdc/ndsx4/trans/dicts/
+    # get latest dictionary from https://nds.iaea.org/nrdc/ndsx4/trans/dicts/
     # filename must be in sequence e.g. trans.9124
-    local_max = get_local_trans_num()
-    latest = get_latest_trans_num()
+    local_max = get_latest_trans_num(get_local_trans_nums())
+    remote_max = get_latest_trans_num(get_server_trans_nums())
 
-    if local_max == latest:
+    if local_max == remote_max:
         print("Local dictionary is the latest version.")
-        pass
+        return local_max
 
-    elif local_max > latest:
+    elif local_max > remote_max:
         print("Something wrong with dictionary file.")
+        raise exceptions
 
     else:
-        download_trans(latest)
-
-    return latest
+        download_trans(remote_max)
+        return remote_max
 
 
 
@@ -126,12 +122,12 @@ def dict_filename(latest):
 
 def diction_json_file(diction_num: str):
     if diction_num == "950":
-        return os.path.join(DICTIONARY_PATH, "json", "Diction-" + str(diction_num) + ".json")
+        return os.path.join(DICTIONARY_PATH, "json", "dictions", "Diction-" + str(diction_num) + ".json")
     else:
-        j = open("json/Diction-950.json")
-        diction_def = json.load(j)
-        desc = diction_def[diction_num]["description"]
-        return os.path.join(DICTIONARY_PATH, "json", "Diction-" + str(diction_num) + "-" + desc + ".json")
+        j = open("json/dictions/Diction-950.json")
+        dictions = json.load(j)
+        desc = dictions[diction_num]["description"]
+        return os.path.join(DICTIONARY_PATH, "json", "dictions", "Diction-" + str(diction_num) + "-" + desc + ".json")
 
 
 
@@ -140,6 +136,14 @@ def write_diction_json(diction_num: str, diction_dict):
     file = diction_json_file(diction_num)
     with open(file, "w") as json_file:
         json.dump(diction_dict, json_file, indent=2)
+
+
+
+
+def write_trans_json_file(trans_num: str, exfor_dictionary):
+    file = os.path.join(DICTIONARY_PATH, "json", "trans." + str(trans_num) + ".json")
+    with open(file, "w") as json_file:
+        json.dump(exfor_dictionary, json_file, indent=2)
 
 
 
@@ -168,28 +172,28 @@ def get_diction_difinition(latest) -> dict:
 
         elif diction_950:
 
-            param = str(line[:11].rstrip().lstrip())
+            x4code = str(line[:11].rstrip().lstrip())
             desc = line[11:66].rstrip()
             flag = line[79:80]
             dict2 = {
-                "diction_num": param,
+                "diction": x4code,
                 "description": desc,
                 "active": False if flag == "O" else True,
             }
 
-            dict[param] = {
+            dict[x4code] = {
                 "description": desc,
                 "active": False if flag == "O" else True,
             }
 
     write_diction_json("950", dict)
-    # print(json.dumps(dict, indent=1))
+
     return dict
 
 
 
-def parse_dictionary(latest):
 
+def parse_dictionary(latest):
     ## start parsing all dictions
     file = dict_filename(latest)
     with open(file) as f:
@@ -222,13 +226,29 @@ def parse_dictionary(latest):
 
 
 
+
 def conv_dictionary_tojson(latest) -> dict:
-    ## From diction 950, get definitions of each diction
-    diction_def = get_diction_difinition(latest)
+    ## load pickles for additional info
+    institute_df = pd.read_pickle("pickles/institute.pickle")
+    institute_df["code"] = institute_df["code"].str.rstrip()
+    institute_df = institute_df.set_index("code")
+    institute_dict = institute_df.to_dict(orient="index")
 
-    for diction_num in diction_def:
-        print(diction_num)
+    country_df = pd.read_pickle("geo/country.pickle")
+    country_df = country_df.set_index("country_code")
+    country_dict = country_df.to_dict(orient="index")
 
+
+    ## Get definitions of each DICTION from DICTION 950
+    dictions = get_diction_difinition(latest)
+
+    ## initialize the json
+    exfor_dictionary = {}
+    exfor_dictionary["definitions"] = dictions
+    exfor_dictionary["dictionaries"] = {}
+
+
+    for diction_num in dictions:
         fname = os.path.join(
             DICTIONARY_PATH, "diction", "diction" + str(diction_num) + ".dat"
         )
@@ -238,16 +258,7 @@ def conv_dictionary_tojson(latest) -> dict:
         # print(diction)
         diction_dict = {}
 
-        institute_df = pd.read_pickle("pickles/institute.pickle")
-        institute_df["code"] = institute_df["code"].str.rstrip()
-        institute_df = institute_df.set_index("code")
-        institute_dict = institute_df.to_dict(orient="index")
-
-        country_df = pd.read_pickle("geo/country.pickle")
-        country_df = country_df.set_index("country_code")
-        country_dict = country_df.to_dict(orient="index")
-
-        parames = {}
+        codes = {}
         
         if int(diction_num) in [
             209,
@@ -270,14 +281,13 @@ def conv_dictionary_tojson(latest) -> dict:
             2,
         ]:
             for d in diction:
-                print(d)
                 if skip_unused_lines(d):
                     continue
 
                 if not d.startswith(" "):
                     from abbreviations import institute_abbr
 
-                    param = d[:11].rstrip()
+                    x4code = d[:11].rstrip()
                     regex = r"\((.*)\)"
                     desc = re.match(regex, d[11:66]).group(1)
                     desc = abbreviations(institute_abbr, desc)
@@ -285,24 +295,24 @@ def conv_dictionary_tojson(latest) -> dict:
 
                     if int(diction_num) == 3:
                         ### for DICTION 3: Institute
-                        if not param[1:4].rstrip() == param[4:7]:
+                        if not x4code[1:4].rstrip() == x4code[4:7]:
 
-                            if institute_dict.get(param):
-                                addr = institute_dict[param]["formatted_address"]
-                                lat = institute_dict[param]["lat"]
-                                lng = institute_dict[param]["lng"]
+                            if institute_dict.get(x4code):
+                                addr = institute_dict[x4code]["formatted_address"]
+                                lat = institute_dict[x4code]["lat"]
+                                lng = institute_dict[x4code]["lng"]
                             else:
                                 addr = lat = lng = None
 
-                        elif param[1:4].rstrip() == param[4:7]:
-                            lat = country_dict[param[0:4].rstrip()]["country_lat"]
-                            lng = country_dict[param[0:4].rstrip()]["country_lng"]
+                        elif x4code[1:4].rstrip() == x4code[4:7]:
+                            lat = country_dict[x4code[0:4].rstrip()]["country_lat"]
+                            lng = country_dict[x4code[0:4].rstrip()]["country_lng"]
 
                         else:
                             lat = lng = None
 
-                        parames[param] = {
-                            "x4code": param,
+                        codes[x4code] = {
+                            # "x4code": x4code,
                             "description": desc,
                             "latitude": lat,
                             "longitude": lng,
@@ -316,10 +326,10 @@ def conv_dictionary_tojson(latest) -> dict:
 
                         if country_dict.get(journal_contry):
 
-                            parames[param] = {
-                                "x4code": param,
+                            codes[x4code] = {
+                                # "x4code": x4code,
                                 "description": desc,
-                                "pulished_country": journal_contry,
+                                "pulished_country_code": journal_contry,
                                 "pulished_country_name": country_dict[journal_contry][
                                     "country_name"
                                 ],
@@ -327,23 +337,17 @@ def conv_dictionary_tojson(latest) -> dict:
                             }
 
                     else:
-                        parames[param] = {
-                            "x4code": param,
+                        codes[x4code] = {
+                            # "x4code": x4code,
                             "description": desc,
                             "active": False if flag == "O" else True,
                         }
-
-                    diction_dict = {
-                        "diction_num": diction_num,
-                        "diction_def": diction_def[str(diction_num)]["description"],
-                        "children": parames,
-                    }
 
         elif int(diction_num) in [144, 43, 38, 35, 34, 32, 31, 30, 6, 1]:
             for d in diction:
                 skip_unused_lines(d)
                 if not d.startswith(" "):
-                    param = d[:11].rstrip()
+                    x4code = d[:11].rstrip()
                     desc = d[11:66].rstrip()
                     flag = d[79:80]
 
@@ -351,8 +355,8 @@ def conv_dictionary_tojson(latest) -> dict:
                         ### for the DICTION   5  Reports
                         report_inst = d[59:66]
                         if institute_dict.get(report_inst):
-                            parames[param] = {
-                                "x4code": param,
+                            codes[x4code] = {
+                                # "x4code": x4code,
                                 "description": desc[:-7].rstrip(),
                                 "publisher": report_inst,
                                 "publisher_name": institute_dict[report_inst]["name"],
@@ -360,17 +364,11 @@ def conv_dictionary_tojson(latest) -> dict:
                             }
 
                     else:
-                        parames[param] = {
-                            "x4code": param,
+                        codes[x4code] = {
+                            # "x4code": x4code,
                             "description": desc,
                             "active": False if flag == "O" else True,
                         }
-
-                diction_dict = {
-                    "diction_num": diction_num,
-                    "diction_def": diction_def[str(diction_num)]["description"],
-                    "children": parames,
-                }
 
         elif int(diction_num) == 24:
             ### DICTION 24: Data headings
@@ -378,38 +376,32 @@ def conv_dictionary_tojson(latest) -> dict:
 
             desc = []
             for d in diction[11:]:
-                param = ""
+                x4code = ""
                 flag = ""
                 desc = ""
-                param2 = ""
+                additional_code = ""
                 if d[0].isalpha() or d[0].isdigit():
                     flag = d[79:80]  # obsolute or not
-                    param = d[:11].rstrip()
+                    x4code = d[:11].rstrip()
                     desc = d[11:65].rstrip()
-                    param2 = d[65:66].rstrip()
+                    additional_code = d[65:66].rstrip()
 
-                    if param.startswith("DATA") and not "ERR" in param:
-                        param2 = "DATA"
-                    elif param.startswith("DATA") and "ERR" in param:
-                        param2 = "DATA_E"
+                    if x4code.startswith("DATA") and not "ERR" in x4code:
+                        additional_code = "DATA"
+                    elif x4code.startswith("DATA") and "ERR" in x4code:
+                        additional_code = "DATA_E"
 
                 elif d.startswith(" " * 11):
                     continue
 
-                if param:
+                if x4code:
                     desc = abbreviations(head_unit_abbr, "".join(desc))
-                    parames[param] = {
-                        "x4code": param,
+                    codes[x4code] = {
+                        # "x4code": x4code,
                         "description": desc,
-                        "param2": param2,
+                        "additional_code": additional_code,
                         "active": False if flag == "O" else True,
                     }
-
-            diction_dict = {
-                "diction_num": diction_num,
-                "diction_def": diction_def[str(diction_num)]["description"],
-                "children": parames,
-            }
 
         elif int(diction_num) == 25:
             ### DICTION 25: Data units
@@ -419,58 +411,48 @@ def conv_dictionary_tojson(latest) -> dict:
             for d in diction[1:]:
                 if d[0].isalpha() or d[0].isdigit():
                     flag = d[79:80]  # obsolute or not
-                    param = d[:11].rstrip()
+                    x4code = d[:11].rstrip()
                     desc = d[11:44].rstrip()
-                    param2 = d[44:55].rstrip()
+                    additional_code = d[44:55].rstrip()
                     factor = d[55:66].strip()
 
                 elif d.startswith(" " * 11):
                     continue
 
-                if param:
+                if x4code:
                     desc = abbreviations(head_unit_abbr, "".join(desc))
-                    parames[param] = {
-                        "x4code": param,
+                    codes[x4code] = {
+                        # "x4code": x4code,
                         "description": desc,
-                        "param2": param2,
+                        "additional_code": additional_code,
                         "unit conversion factor": factor,
                         "active": False if flag == "O" else True,
                     }
 
-                diction_dict = {
-                    "diction_num": diction_num,
-                    "diction_def": diction_def[str(diction_num)]["description"],
-                    "children": parames,
-                }
                 desc = []
 
         elif int(diction_num) == 144:
-            ### DICTION 25: Data units
+            ### DICTION 114: Data libraries
             from abbreviations import head_unit_abbr
 
             desc = []
             for d in diction[1:]:
                 if d[0].isalpha() or d[0].isdigit():
                     flag = d[79:80]  # obsolute or not
-                    param = d[:15].rstrip()
+                    x4code = d[:15].rstrip()
                     desc = d[15:66].rstrip()
 
                 elif d.startswith(" " * 11):
                     continue
 
-                if param:
+                if x4code:
                     desc = abbreviations(head_unit_abbr, "".join(desc))
-                    parames[param] = {
-                        "x4code": param,
+                    codes[x4code] = {
+                        # "x4code": x4code,
                         "description": desc,
                         "active": False if flag == "O" else True,
                     }
 
-                diction_dict = {
-                    "diction_num": diction_num,
-                    "diction_def": diction_def[str(diction_num)]["description"],
-                    "children": parames,
-                }
                 desc = []
 
         elif int(diction_num) == 213:
@@ -481,29 +463,24 @@ def conv_dictionary_tojson(latest) -> dict:
             for d in diction[1:]:
                 if d[0].isalpha() or d[0].isdigit():
                     flag = d[79:80]  # obsolute or not
-                    param = d[:11].rstrip()
-                    param2 = d[11:16].rstrip()
-                    param3 = d[16:20].rstrip()
+                    x4code = d[:11].rstrip()
+                    additional_code = d[11:16].rstrip()
+                    x4code3 = d[16:20].rstrip()
                     desc = d[20:66].rstrip()
 
                 elif d.startswith(" " * 11):
                     continue
 
-                if param:
+                if x4code:
                     desc = abbreviations(head_unit_abbr, "".join(desc))
-                    parames[param] = {
-                        "x4code": param,
+                    codes[x4code] = {
+                        # "x4code": x4code,
                         "description": desc,
-                        "param2": param2,
-                        "param3": param3,
+                        "additional_code": additional_code,
+                        "x4code3": x4code3,
                         "active": False if flag == "O" else True,
                     }
 
-                diction_dict = {
-                    "diction_num": diction_num,
-                    "diction_def": diction_def[str(diction_num)]["description"],
-                    "children": parames,
-                }
                 desc = []
 
         elif int(diction_num) == 236:
@@ -520,6 +497,27 @@ def conv_dictionary_tojson(latest) -> dict:
                 if skip_unused_lines(d):
                     continue
 
+                ### get EXFOR code
+                ## Case 1
+                # ,POL/DA,,VAP      NO  (Vector analyzing power, iT(11))            3000023601237 
+                ## Case 2
+                # ,POL/DA/DA,*/*,ANANO  (Analyzing power d2/dA(*)/dA(*))            3000023601238 
+                ## Case 3
+                # PR,NU/DA/DE,N+*F/NFYAE(Diff.prompt neut.mult.d/dA(n+frag.spec.    3000023600699 
+                #                     )/dE(n))                                    3000023600700 
+                #                     (Differential prompt neutron multiplicity   3000023600701 
+                #                     with respect to angle between neutron and  3000023600702 
+                #                     fission fragment specified and energy of   3000023600703 
+                #                     neutron)                                   3000023600704  
+                ## Case 4
+                # ,POL/DA/DA/DE,*,ANA                                              93000023601239 
+                #                 NO  (Analyzing power dA1/dA2/dE f.particle      3000023601240 
+                #                     specified)                                 3000023601241 
+                ## Case 5
+                # ,POL/DA/DA/DE,*/*/*,ANA                                          93000023601244 
+                #                 NO  (Analyzing power dA1/dA2/dE1 f.particles    3000023601245 
+                #                     spec.)                                     3000023601246 
+
                 if (
                     d[0].isalpha()
                     or d[0].isdigit()
@@ -529,28 +527,29 @@ def conv_dictionary_tojson(latest) -> dict:
                     cont = False
                     flag = d[79:80]  # obsolute flag
 
-                    ### get EXFOR code
-                    if d[17] == " " and d[18].isalpha():
-                        ## for the case of reaction code with the second parameter flag
-                        param = d[:17].rstrip()
-                        param2 = d[18:22].rstrip()
 
-                    elif " " not in d[:22] and d[22] != "(":
-                        ## for the case of long reaction code
-                        param = d[:30].rstrip()
-                        cont = True
-                    else:
-                        param = d[:22].rstrip()
-                        param2 = ""
+                    if not d.startswith(" ") and d[22] == "(":
+                        ## Case 1, 2, and 3
+                        x4code = d[:18].rstrip()
+                        additional_code = d[18:22].rstrip()
+
+                    elif " " not in d[:18] and d[22] != "(":
+                        ## Case 4, 5
+                        x4code = d[:30].rstrip()
+
+                    elif d.startswith(" " * 18) and d[18] != " " and d[22] == "(":
+                        ## Case 4, 5
+                        additional_code = d[18:22].rstrip()
+
 
                     ## get description
                     if d[22] == "(":
                         desc = d[22:66].rstrip()
-                        if not desc[0].endswith(")"):
-                            cont = True
-                            continue
+                        cont = True
+                        if desc[-1].endswith(")"):
+                            cont = False
 
-                elif cont and d.startswith(" " * 22):
+                elif d.startswith(" " * 22):
                     desc += d[22:66].rstrip()
                     if not desc[-1].endswith(")"):
                         cont = True
@@ -560,49 +559,73 @@ def conv_dictionary_tojson(latest) -> dict:
                 else:
                     cont = False
                     desc = []
-                    continue
+                    # continue
 
-                if not cont and param:
+                if not cont and x4code:
                     desc = abbreviations(reaction_abbr, "".join(desc))
-                    parames[param] = {
-                        "x4code": param,
+                    codes[x4code] = {
                         "description": desc,
-                        "param2": param2,
+                        "additional_code": additional_code,
                         "active": False if flag == "O" else True,
                     }
 
-                    diction_dict = {
-                        "diction_num": diction_num,
-                        "diction_def": diction_def[str(diction_num)]["description"],
-                        "children": parames,
-                    }
                     desc = []
 
         else:
             """
-            Skip other unnecessary dictionaries: 43,45,47,48,52,37,35,16,213,227,235
+            Skip other unnecessary DICTION: 47,48,52,227,235
             """
-            pass
+            continue
 
-        ## save as JSON
+        # create dictionary content
+        diction_dict = { diction_num: {
+            "diction_name": dictions[str(diction_num)]["description"],
+            "codes": codes ,
+        }}
+
+
         if diction_dict:
+            # append dictionary content to trans.***.json
+            exfor_dictionary["dictionaries"].update(diction_dict)
+
+            # create individual diction-json files just in case
             write_diction_json(diction_num, diction_dict)
 
 
+    write_trans_json_file(latest, exfor_dictionary)
 
+    return exfor_dictionary
+
+
+
+
+def update_dictionary_to_latest():
+    ## check the latest number of trans file in remote server and download it
+    latest = download_latest_dict()
+
+    ## conversion to json
+    parse_dictionary(latest)
+    conv_dictionary_tojson(latest)
+
+    print("Latest dictionary trans file is trans."+latest)
+    return latest
+
+
+###################################################################
+###
+###   For exfor_parser
+###
+###################################################################
 class Diction:
     def __init__(self):
         self.diction_num = None
-
-        # self.incident_en_heads =self.get_incident_en_heads()
-
 
 
     def read_diction(self, diction_num):
         if diction_num:
             file = diction_json_file(diction_num)
             with open(file) as json_file:
-                return json.load(json_file)["parameters"]
+                return json.load(json_file)["x4codeeters"]
 
 
 
@@ -613,7 +636,7 @@ class Diction:
         return [
             h
             for h in diction.keys()
-            if diction[h]["param2"] == "A"
+            if diction[h]["additional_code"] == "A"
             and diction[h]["active"]
             and "-DN" not in h
             and "-NM" not in h
@@ -627,7 +650,7 @@ class Diction:
         return [
             h
             for h in diction.keys()
-            if diction[h]["param2"] == "B"
+            if diction[h]["additional_code"] == "B"
             and diction[h]["active"]
             and "-DN" not in h
             and "-NM" not in h
@@ -641,7 +664,7 @@ class Diction:
         return [
             h
             for h in diction.keys()
-            if diction[h]["param2"] == "DATA"
+            if diction[h]["additional_code"] == "DATA"
             and diction[h]["active"]
             and "-DN" not in h
             and "-NM" not in h
@@ -655,7 +678,7 @@ class Diction:
         return [
             h
             for h in diction.keys()
-            if diction[h]["param2"] == "DATA_E"
+            if diction[h]["additional_code"] == "DATA_E"
             and diction[h]["active"]
             and "-DN" not in h
             and "-NM" not in h
@@ -669,7 +692,7 @@ class Diction:
         return [
             h
             for h in diction.keys()
-            if diction[h]["param2"] == "E" and diction[h]["active"]
+            if diction[h]["additional_code"] == "E" and diction[h]["active"]
         ]
 
 
@@ -679,7 +702,7 @@ class Diction:
         return [
             h
             for h in diction.keys()
-            if diction[h]["param2"] == "L" and diction[h]["active"]
+            if diction[h]["additional_code"] == "L" and diction[h]["active"]
         ]
 
 
@@ -690,7 +713,7 @@ class Diction:
         return [
             h
             for h in diction.keys()
-            if diction[h]["param2"] == "G" and diction[h]["active"]
+            if diction[h]["additional_code"] == "G" and diction[h]["active"]
         ]
 
 
@@ -701,7 +724,7 @@ class Diction:
         return [
             h
             for h in diction.keys()
-            if diction[h]["param2"] == "J" and diction[h]["active"]
+            if diction[h]["additional_code"] == "J" and diction[h]["active"]
         ]
 
 
@@ -712,7 +735,7 @@ class Diction:
         return [
             h
             for h in diction.keys()
-            if diction[h]["param2"] == "I" and diction[h]["active"]
+            if diction[h]["additional_code"] == "I" and diction[h]["active"]
         ]
 
 
@@ -742,12 +765,9 @@ class Diction:
 
 
 if __name__ == "__main__":
+    # 9090 to 9126
 
-
-    latest = get_latest_trans_num()
-    download_trans(latest)
-    parse_dictionary(latest)
-    conv_dictionary_tojson(latest)
+    update_dictionary_to_latest()
 
 
 

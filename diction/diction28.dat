@@ -1,12 +1,17 @@
-DICTION             28     881216 INCID.PARTICLES (REACTION SF2)  3000002800001 
-0          (-) NO INCIDENT PARTICLE = SPONTANEOUS DECAY           3000002800002 
-G          (GAMMAS)                                               3000002800003 
-N          (NEUTRONS)                                             3000002800004 
-P          (PROTONS)                                              3000002800005 
-D          (DEUTERONS)                                            3000002800006 
-T          (TRITONS)                                              3000002800007 
-HE3        (HE-3)                                                 3000002800008 
-A          (ALPHAS) HE-4                                          3000002800009 
-PIP        (PIONS,POSITIVE)                                       3000002800010 
-PIN        (PIONS,NEGATIVE)                                       3000002800011 
-E          (ELECTRONS)                                            3000002800012 
+DICTION             28     200506 Inc. Particles (REACTION SF2)   30000 28    1 
+0          ( -)                                                   30000 28    2 
+            No incident particle - spontaneous decay              30000 28    3 
+A          (Alphas)                                               30000 28    4 
+D          (Deuterons)                                            30000 28    5 
+E          (Electrons)                                            30000 28    6 
+ETA        (Eta mesons)                                           30000 28    7 
+G          (Gammas)                                               30000 28    8 
+HE3        (He-3)                                                 30000 28    9 
+KN         (Kaons,negative)                                       30000 28   10 
+KP         (Kaons,positive)                                       30000 28   11 
+N          (Neutrons)                                             30000 28   12 
+P          (Protons)                                              30000 28   13 
+PI0        (Pions,neutral)                                        30000 28   14 
+PIN        (Pions,negative)                                       30000 28   15 
+PIP        (Pions,positive)                                       30000 28   16 
+T          (Tritons)                                              30000 28   17 

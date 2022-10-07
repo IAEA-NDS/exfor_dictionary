@@ -73,31 +73,3 @@ Note that because of the EXFOR dictionary's troublesome formats, parsing all inf
 See [.ipynb file](https://github.com/shinokumura/exfor_dictionary/blob/main/example.ipynb) If you don't have Jupyter notebook environment, you can run it from Binder from the following button. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shinokumura/exfor_dictionary/main?labpath=example.ipynb)
 
 
-
-## EXFOR dictionary parser API
-The API will be available soon, please ask API KEY to use it.
-
-```
-import requests
-import json
-
-url = "https://data.mongodb-api.com/app/data-qfzzc/endpoint/data/beta/action/findOne"
-
-payload = json.dumps(
-    {
-        "collection": "dictionary",
-        "database": "exfor",
-        "dataSource": "exparser",
-        "filter": {"diction_num": "236"},
-        "projection": {"_id": 0, "diction_num": 1, "diction_def": 1, "parameters": 1},
-    }
-)
-headers = {
-    "Content-Type": "application/json",
-    "Access-Control-Request-Headers": "*",
-    "api-key": <API-KEY>,
-}
-
-response = requests.request("POST", url, headers=headers, data=payload)
-print(json.dumps(response.json(), indent=2))
-```

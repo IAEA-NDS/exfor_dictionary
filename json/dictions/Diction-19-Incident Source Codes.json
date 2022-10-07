@@ -1,0 +1,215 @@
+{
+  "19": {
+    "diction_name": "Incident Source Codes",
+    "codes": {
+      "POLIS": {
+        "description": "Polarized Ion Source",
+        "active": true
+      },
+      "POLTR": {
+        "description": "Polarized Target",
+        "active": true
+      },
+      "SPALL": {
+        "description": "Spallation",
+        "active": true
+      },
+      "A-BE": {
+        "description": "Alpha-Beryllium",
+        "active": true
+      },
+      "AM-BE": {
+        "description": "Americium-Beryllium Neutron Source",
+        "active": true
+      },
+      "CF252": {
+        "description": "Spont.Fission Of Californium-252",
+        "active": true
+      },
+      "CM-BE": {
+        "description": "Curium-Beryllium Neutron Source",
+        "active": true
+      },
+      "CM244": {
+        "description": "Spont.Fission Of Curium-244",
+        "active": true
+      },
+      "CM246": {
+        "description": "Spont.Fission Of Curium-246",
+        "active": true
+      },
+      "CM248": {
+        "description": "Spont.Fission Of Curium-248",
+        "active": true
+      },
+      "D-BE": {
+        "description": "Deuteron-Beryllium",
+        "active": true
+      },
+      "D-C12": {
+        "description": "Deuteron-Carbon 12",
+        "active": true
+      },
+      "D-C14": {
+        "description": "Deuteron-Carbon 14",
+        "active": true
+      },
+      "D-D": {
+        "description": "Deuteron-Deuterium",
+        "active": true
+      },
+      "D-LI": {
+        "description": "Deuteron-Lithium",
+        "active": true
+      },
+      "D-LI7": {
+        "description": "Deuteron-Lithium 7",
+        "active": true
+      },
+      "D-N14": {
+        "description": "Deuteron-Nitrogen 14",
+        "active": true
+      },
+      "D-N15": {
+        "description": "Deuteron-Nitrogen 15",
+        "active": true
+      },
+      "D-T": {
+        "description": "Deuteron-Tritium",
+        "active": true
+      },
+      "EVAP": {
+        "description": "Evaporation Neutrons",
+        "active": true
+      },
+      "EXPLO": {
+        "description": "Nuclear Explosive Device",
+        "active": true
+      },
+      "P-BE": {
+        "description": "Proton-Beryllium",
+        "active": true
+      },
+      "P-D": {
+        "description": "Proton-Deuterium",
+        "active": true
+      },
+      "P-LI7": {
+        "description": "Proton-Lithium 7",
+        "active": true
+      },
+      "P-N15": {
+        "description": "Proton-Nitrogen 15",
+        "active": true
+      },
+      "P-T": {
+        "description": "Proton-Tritium",
+        "active": true
+      },
+      "PHOTO": {
+        "description": "Photo-Neutron",
+        "active": true
+      },
+      "PO-BE": {
+        "description": "Polonium-Beryllium Neutron Source",
+        "active": true
+      },
+      "POLNS": {
+        "description": "Polarized Neutron Source",
+        "active": true
+      },
+      "PU-BE": {
+        "description": "Plutonium-Beryllium Neutron Source",
+        "active": true
+      },
+      "PU240": {
+        "description": "Spont.Fission Of Plutonium-240",
+        "active": true
+      },
+      "PU242": {
+        "description": "Spont.Fission Of Plutonium-242",
+        "active": true
+      },
+      "RA-BE": {
+        "description": "Radium-Beryllium Neutron Source",
+        "active": true
+      },
+      "REAC": {
+        "description": "Reactor",
+        "active": true
+      },
+      "RN-BE": {
+        "description": "Radon-Beryllium Neutron Source",
+        "active": true
+      },
+      "TH-BE": {
+        "description": "Thorium-Beryllium Neutron Source",
+        "active": true
+      },
+      "THCOL": {
+        "description": "Thermal Column",
+        "active": true
+      },
+      "ARAD": {
+        "description": "Annihilation Radiation",
+        "active": true
+      },
+      "ATOMI": {
+        "description": "Atomic Beam Source",
+        "active": true
+      },
+      "BRST": {
+        "description": "Bremsstrahlung",
+        "active": true
+      },
+      "COMPT": {
+        "description": "Compton Scattering",
+        "active": false
+      },
+      "HARD": {
+        "description": "Hardened",
+        "active": true
+      },
+      "KINDT": {
+        "description": "Kinematically Determined",
+        "active": true
+      },
+      "LAMB": {
+        "description": "Lamb-Shift Source",
+        "active": true
+      },
+      "LASER": {
+        "description": "Laser Scattering",
+        "active": false
+      },
+      "LCS": {
+        "description": "Laser Compton Scattered Photons",
+        "active": true
+      },
+      "MPH": {
+        "description": "Monoenergetic Photons",
+        "active": true
+      },
+      "POLPS": {
+        "description": "Polarized Photon Source",
+        "active": true
+      },
+      "QMPH": {
+        "description": "Quasi-Monoenergetic Photons",
+        "active": true
+      },
+      "TAGD": {
+        "description": "Electron Tagged",
+        "active": true
+      },
+      "THRDT": {
+        "description": "Determined By Threshold Technique",
+        "active": true
+      },
+      "VPH": {
+        "description": "Virtual Photons",
+        "active": true
+      }
+    }
+  }
+}

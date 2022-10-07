@@ -1,0 +1,83 @@
+{
+  "20": {
+    "diction_name": "Additional results",
+    "codes": {
+      "A-DIS": {
+        "description": "mass distribution",
+        "active": true
+      },
+      "AMFF": {
+        "description": "angular momentum of fission fragments",
+        "active": true
+      },
+      "ANGD": {
+        "description": "angular distribution",
+        "active": true
+      },
+      "COMP": {
+        "description": "comparison with calculated values",
+        "active": true
+      },
+      "DECAY": {
+        "description": "decay properties investigated",
+        "active": true
+      },
+      "E-DIS": {
+        "description": "energy distribution",
+        "active": true
+      },
+      "G-SPC": {
+        "description": "gamma spectra",
+        "active": true
+      },
+      "LD": {
+        "description": "level density",
+        "active": true
+      },
+      "N-SPC": {
+        "description": "neutron spectra",
+        "active": true
+      },
+      "P-SPC": {
+        "description": "proton spectra",
+        "active": true
+      },
+      "POT": {
+        "description": "parameters of nuclear potential",
+        "active": true
+      },
+      "RANGE": {
+        "description": "range of recoils measured",
+        "active": true
+      },
+      "RECIP": {
+        "description": "calculated data for reciprocal reaction",
+        "active": true
+      },
+      "RRATE": {
+        "description": "reaction rate",
+        "active": true
+      },
+      "STRUC": {
+        "description": "nuclear structure data",
+        "active": true
+      },
+      "THEO": {
+        "description": "theory",
+        "active": true
+      },
+      "TRCS": {
+        "description": "total reaction cross section",
+        "active": true
+      },
+      "TTY-C": {
+        "description": "calculated thick target yield",
+        "active": true
+      },
+      "Z-DIS": {
+        "description": "charge distribution",
+        "active": true
+      }
+    }
+  }
+}

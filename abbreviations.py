@@ -24,6 +24,7 @@ reaction_abbr = {
     "correl.": "correlated",
     "curr.": "current",
     "cum.": "cumulative",
+    "Contrib.": "Contribution", 
     "doub.": "double",
     "diff.": "differencial",
     "diff.cs": "differencial cross section",
@@ -34,6 +35,7 @@ reaction_abbr = {
     "del.": "delayed",  # e.g. in Dl/GRp,siG,n
     "electr.": "electrical",
     "elec.": "electric",
+    "E.": "energy",
     "en.": "energy",
     "ene.": "energy",
     "energ.": "energy",
@@ -67,6 +69,7 @@ reaction_abbr = {
     "incl.": "including",
     "iso.": "isomeric",
     "isom.": "isomeric",
+    "Isomer.": "Isomeric",
     "int.": "integrate",
     "integr.": "integrate",
     "interact.": "interaction",
@@ -100,8 +103,10 @@ reaction_abbr = {
     "prob.": "probable",
     "par.": "partial",
     "ptl.": "partial",
+    "Pol.": "Polarization",
     "polar.": "polarized",
     "phys.": "physical",
+    "Pro.": "Production",
     "reac.": "reaction",
     "reson.": "resonance",
     "rel.": "relative",
@@ -117,11 +122,13 @@ reaction_abbr = {
     "spect.": "spectrum",
     "sys.": "system",
     "targ.": "target",
+    "Tar.": "Target",
     "tot.": "total",
     "ter.": "ternary",
     "tern.": "ternary",
     "ternar.": "ternary",
     "trans.": "transition",
+    "Transv.": "Transversely",
     "temp": "temperature",
     "yld.": "yield",
     "Vect.": "vector",
@@ -176,7 +183,7 @@ journal_abbr = {
 
 
 institute_abbr = {
-    # "Adm.": "wat?",
+    # "Adm.": "what?",
     "Acad.": "Academy",
     "Accel.": "Accelerator",
     "Centr": "Centre",
@@ -211,10 +218,14 @@ institute_abbr = {
 }
 
 
+
+
+
+
 def abbreviations(abb_dict, desc):
     for abb, corr in abb_dict.items():
         desc = desc.lower().replace(abb.lower(), corr.lower() + " ")
-    return desc.title().replace("  ", " ")  # or desc.title().replace("  ", " ") or desc.capitalize().replace("  ", " ")
+    return desc.replace("  ", " ")  # or desc.title().replace("  ", " ") or desc.capitalize().replace("  ", " ")
 
 
 if __name__ == "__main__":

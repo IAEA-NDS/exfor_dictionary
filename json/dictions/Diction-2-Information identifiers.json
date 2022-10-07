@@ -1,0 +1,195 @@
+{
+  "2": {
+    "diction_name": "Information identifiers",
+    "codes": {
+      "ADD-RES": {
+        "description": "additional results",
+        "active": true
+      },
+      "ANALYSIS": {
+        "description": "analysis",
+        "active": true
+      },
+      "ANG-SEC": {
+        "description": "secondary angle",
+        "active": true
+      },
+      "ASSUMED": {
+        "description": "assumed values",
+        "active": true
+      },
+      "AUTHOR": {
+        "description": "author",
+        "active": true
+      },
+      "CMPD-QUANT": {
+        "description": "quantity given",
+        "active": false
+      },
+      "COMMENT": {
+        "description": "comment",
+        "active": true
+      },
+      "CORRECTION": {
+        "description": "corrections",
+        "active": true
+      },
+      "COVARIANCE": {
+        "description": "covariance",
+        "active": true
+      },
+      "CRITIQUE": {
+        "description": "critique",
+        "active": true
+      },
+      "DECAY-DATA": {
+        "description": "decay data",
+        "active": true
+      },
+      "DECAY-MON": {
+        "description": "standard decay data",
+        "active": true
+      },
+      "DETECTOR": {
+        "description": "detector",
+        "active": true
+      },
+      "EMS-SEC": {
+        "description": "secondary effective mass",
+        "active": false
+      },
+      "EN-SEC": {
+        "description": "secondary energy",
+        "active": true
+      },
+      "ERR-ANALYS": {
+        "description": "error analysis",
+        "active": true
+      },
+      "EXP-YEAR": {
+        "description": "experiment year",
+        "active": true
+      },
+      "FACILITY": {
+        "description": "facility",
+        "active": true
+      },
+      "FLAG": {
+        "description": "flag",
+        "active": true
+      },
+      "GEOMETRY": {
+        "description": "geometry",
+        "active": false
+      },
+      "HALF-LIFE": {
+        "description": "half-life",
+        "active": true
+      },
+      "HISTORY": {
+        "description": "history",
+        "active": true
+      },
+      "INC-SOURCE": {
+        "description": "incident particle source",
+        "active": true
+      },
+      "INC-SPECT": {
+        "description": "incident spectrum",
+        "active": true
+      },
+      "INSTITUTE": {
+        "description": "institute",
+        "active": true
+      },
+      "ISO-QUANT": {
+        "description": "quantity given",
+        "active": false
+      },
+      "LEVEL-PROP": {
+        "description": "level properties",
+        "active": true
+      },
+      "METHOD": {
+        "description": "method",
+        "active": true
+      },
+      "MISC-COL": {
+        "description": "miscellaneous columns",
+        "active": true
+      },
+      "MOM-SEC": {
+        "description": "secondary linear momentum",
+        "active": true
+      },
+      "MONIT-REF": {
+        "description": "standard reference",
+        "active": true
+      },
+      "MONITOR": {
+        "description": "standard",
+        "active": true
+      },
+      "N-SOURCE": {
+        "description": "incident particle source",
+        "active": false
+      },
+      "NUC-QUANT": {
+        "description": "quantity given",
+        "active": false
+      },
+      "PART-DET": {
+        "description": "particle detected",
+        "active": true
+      },
+      "RAD-DET": {
+        "description": "radiation detected",
+        "active": true
+      },
+      "REACTION": {
+        "description": "quantity given",
+        "active": true
+      },
+      "REFERENCE": {
+        "description": "reference",
+        "active": true
+      },
+      "REL-REF": {
+        "description": "related reference",
+        "active": true
+      },
+      "RESID-NUC": {
+        "description": "product nucleus",
+        "active": false
+      },
+      "RESULT": {
+        "description": "result",
+        "active": true
+      },
+      "SAMPLE": {
+        "description": "sample",
+        "active": true
+      },
+      "STANDARD": {
+        "description": "standard",
+        "active": false
+      },
+      "STATUS": {
+        "description": "status",
+        "active": true
+      },
+      "SUPPL-INF": {
+        "description": "supplemental information",
+        "active": true
+      },
+      "TABLE-NR": {
+        "description": "table number",
+        "active": false
+      },
+      "TITLE": {
+        "description": "title",
+        "active": true
+      }
+    }
+  }
+}

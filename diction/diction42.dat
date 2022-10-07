@@ -1,100 +1,144 @@
-DICTION             42     841217 CINDA-QUANTITIES                3000004200001 
-EVL    1   (EVALUATION) A COMPLETE AND CONSISTENT SET OF CROSS-   3000004200002 
-           SECTIONS IN SOME ENERGY RANGE                          3000004200003 
-TOT    3   (TOTAL) THE TOTAL NEUTRON CROSS-SECTION                3000004200004 
-SEL    5   (ELASTIC) THE TOTAL ELASTIC SCATTERING CROSS-SECTION,  3000004200005 
-           INTEGRATED OVER ALL ANGLES.                            3000004200006 
-DEL    7   (DIFF ELASTIC) ANGULAR DISTRIBUTION OR DIFFERENTIAL    3000004200007 
-           SCATTERING CROSS SECTION FOR ELASTICALLY SCATTERED     3000004200008 
-           NEUTRONS.                                              3000004200009 
-POL    9   (POLARIZATION) POLARIZATION OF NEUTRONS IN THE EXIT    3000004200010 
-           CHANNEL.                                               3000004200011 
-POT   11   (POTNTAL SCAT) THAT PART OF THE SCATTERING CROSS-      3000004200012 
-           SECTION WHICH CORRESPONDS TO SCATTERING BY A HARD      3000004200013 
-           SPHERE.                                                3000004200014 
-SIN   13   (TOT INELASTC) THE TOTAL INELASTIC SCATTERING CROSS-   3000004200015 
-           SECTION,INTEGRATED OVER ALL ANGLES AND EXCITED LEVELS. 3000004200016 
-DIN   15   (DIFF INELAST) ANGULAR DISTRIBUTIONS OR ENERGY SPECTRA 3000004200017 
-           OF INELASTICALLY SCATTERED NEUTRONS, OR PARTIAL CROSS- 3000004200018 
-           SECTIONS FOR INELASTIC SCATTERING.                     3000004200019 
-TSL   17   (THERMAL SCAT) ELASTIC OR INELASTIC SCATTERING OF SLOW 3000004200020 
-           NEUTRONS DEPENDING ON STRUCTURE OF TARGET MATERIAL,    3000004200021 
-           E.G. CHEMICAL BINDING,CRYSTAL VIBRATIONS,ETC.          3000004200022 
-SCT   19   (SCATTERING) THE TOTAL SCATTERING CROSS-SECTION        3000004200023 
-SNE   21   (NONELASTIC) THE SUM OF ALL NON-ELASTIC CROSS-SECTIONS 3000004200024 
-ABS   23   (ABSORPTION) THE ABSORPTION CROSS-SECTION,I.E. THE SUM 3000004200025 
-           OF ALL NON-SCATTERING CROSS-SECTIONS.                  3000004200026 
-RIA   25   (RES INT ABS) THE RESONANCE INTEGRAL FOR ABSORPTION.   3000004200027 
-NG    29   (N,GAMMA) THE RADIATIVE CAPTURE CROSS-SECTION.         3000004200028 
-RIG   31   (RES INT CAPT) THE CAPTURE RESONANCE INTEGRAL,FOR      3000004200029 
-           FISSIONING NUCLIDES ONLY.                              3000004200030 
-SNG   33   (SPEC N,GAMMA) SPECTRUM OF GAMMA RAYS OR CONVERSION    3000004200031 
-           ELECTRONS FOLLOWING NEUTRON CAPTURE.                   3000004200032 
-DNG   35   (INELAST GAM) PRODUCTION CROSS-SECTION, ANGULAR        3000004200033 
-           DISTRIBUTIONS OR ENERGY SPECTRA FOR GAMMA RAYS         3000004200034 
-           FOLLOWING INELASTIC SCATTERING OF NEUTRONS.            3000004200035 
-NEG   37   (NONELAST GAM) PRODUCTION CROSS-SECTION, ANGULAR       3000004200036 
-           DISTRIBUTIONS OR ENERGY SPECTRA FOR GAMMA RAYS         3000004200037 
-           FOLLOWING UNSEPARATED NEUTRON INDUCED NONELASTIC       3000004200038 
-           PROCESSES.                                             3000004200039 
-N2N   39   (N,2N) THE (N,2N) OR (N,2NC) REACTION (C=CHARGED       3000004200040 
-           PARTICLES). INTEGRAL AND DIFFERENTIAL DATA.            3000004200041 
-NXN   41   (N,XN X=3,4..) REACTIONS PRODUCING AT LEAST 3 NEUTRONS,3000004200042 
-           INTEGRAL AND DIFFERENTIAL DATA.                        3000004200043 
-NEM   43   (N EMISSION) THE SUM CROSS-SECTION FOR ALL NONELASTIC  3000004200044 
-           PROCESSES RESULTING IN NEUTRON EMISSION, WEIGHTED FOR  3000004200045 
-           THE NUMBER OF NEUTRONS PRODUCED.                       3000004200046 
-NP    45   (N,P) THE (N,PROTON) REACTION, INTEGRAL AND            3000004200047 
-           DIFFERENTIAL DATA.                                     3000004200048 
-NNP   47   (N,NP) INTEGRAL AND DIFFERENTIAL DATA OF (N,NP).       3000004200049 
-PEM   48   (P EMISSION) PROTON EMISSION CROSS SECTION             3000004200050 
-ND    49   (N,D) THE (N,DEUTERON) REACTION, INTEGRAL AND          3000004200051 
-           DIFFERENTIAL DATA.                                     3000004200052 
-NND   51   (N,ND) INTEGRAL AND DIFFERENTIAL DATA OF (N,ND)        3000004200053 
-DEM   52   (D EMISSION) DEUTERON EMISSION CROSS SECTION           3000004200054 
-NT    53   (N,T) THE (N,TRITON) REACTION, INTEGRAL AND            3000004200055 
-           DIFFERENTIAL DATA.                                     3000004200056 
-NNT   55   (N,NT) INTEGRAL AND DIFFERENTIAL DATA OF (N,NT)        3000004200057 
-TEM   56   (T EMISSION) TRITON EMISSION CROSS SECTION             3000004200058 
-NHE   57   (N,HE3) INTEGRAL AND DIFFERENTIAL DATA OF THE (N,HE3)  3000004200059 
-           REACTION.                                              3000004200060 
-NA    59   (N,ALFA) INTEGRAL AND DIFFERENTIAL DATA                3000004200061 
-NNA   61   (N,N+ALFA) INTEGRAL AND DIFFERENTIAL DATA              3000004200062 
-AEM   62   (ALPHA EMISS) ALPHA EMISSION CROSS SECTION             3000004200063 
-NF    63   (N,FISSION) THE CROSS-SECTION FOR NEUTRON INDUCED      3000004200064 
-           FISSION, OR FOR INELASTIC SCATTERING TO THE            3000004200065 
-           SPONTANEOUSLY FISSIONING ISOMER.                       3000004200066 
-RIF   65   (RES INT FISS) THE RESONANCE INTEGRAL FOR FISSION      3000004200067 
-ALF   67   (ALPHA) THE CAPTURE TO FISSION CROSS-SECTION RATIO.    3000004200068 
-ETA   69   (ETA) FOR FISSIONABLE NUCLIDES: THE NUMBER OF NEUTRONS 3000004200069 
-           EMITTED PER ABSORPTION                                 3000004200070 
-NU    71   (NU) THE NUMBER OF PROMPT NEUTRONS EMITTED PER FISSION,3000004200071 
-           ALSO AVERAGE NUMBER OF PROMPT OR TOTAL NEUTRONS PER    3000004200072 
-           FISSION.                                               3000004200073 
-NUD   73   (DELAYD NEUTS) DELAYED NEUTRONS FROM FISSION. TOTAL    3000004200074 
-           OR GROUP YIELDS,ENERGIES.                              3000004200075 
-NUF   75   (FRAG NEUTS) NUMBER OR ENERGY OF NEUTRONS EMITTED BY   3000004200076 
-           GIVEN FISSION FRAGMENTS.                               3000004200077 
-SFN   77   (SPEC FISS N) ENERGY SPECTRUM OR MEAN ENERGY OF PROMPT 3000004200078 
-           FISSION NEUTRONS.                                      3000004200079 
-SFG   79   (SPEC FIS GAM) SPECTRUM OF PROMPT GAMMA RAYS EMITTED   3000004200080 
-           IN FISSION.                                            3000004200081 
-FPG   81   (FIS PROD GAM) SPECTRUM,YIELDS ETC. OF THE DELAYED     3000004200082 
-           GAMMA RAYS FROM UNSEPARATED FISSION PRODUCTS.          3000004200083 
-FPB   82   (FISPROD BETA) SPECTRA, MEAN ENERGIES ETC. OF          3000004200084 
-           BETA-RAYS FROM THE UNSEPARATED FISSION PRODUCTS.       3000004200085 
-NFY   83   (FISS YIELD) YIELDS OF FISSION FRAGMENTS OR PRODUCTS.  3000004200086 
-FRS   85   (FRAG SPECTRA) THE ENERGY OR ANGULAR DISTRIBUTION OF   3000004200087 
-           FISSION PRODUCTS.                                      3000004200088 
-CHG   87   (FRAG CHARGE) CHARGE DISTRIBUTION OF FISSION FRAGMENTS:3000004200089 
-           CHARGE DISPERSION, MOST PROBABLE CHARGE OF MASS-CHAIN, 3000004200090 
-           FRACTIONAL YIELDS.                                     3000004200091 
-RES   89   (RESON PARAMS) INDIVIDUAL AND AVERAGED NEUTRON         3000004200092 
-           RESONANCE PARAMETERS.                                  3000004200093 
-STF   91   (STRNTH FNCTN) THE NEUTRON STRENGTH FUNCTION.          3000004200094 
-LDL   93   (LVL DENSITY) DENSITY OF LEVELS IN THE CONTINUUM, AS   3000004200095 
-           DETERMINED FROM PARTICLES EMITTED IN NEUTRON REACTIONS.3000004200096 
-GN    95   (GAMMA,N) THE (GAMMA,N) REACTION,INTEGRAL AND          3000004200097 
-           DIFFERENTIAL DATA.                                     3000004200098 
-GF    97   (PHOTO-FISSN) THE PHOTON INDUCED FISSION: CROSS-       3000004200099 
-           SECTIONS, YIELDS AND SPECTRA OF NEUTRONS,FRAGMENTS,ETC.3000004200100 
+DICTION             42     201304 CINDA Quantities                3000004200001 
+EVL    1   (Evaluation)                                           3000004200002 
+            Complete and consistent set of cross sections in      3000004200003 
+             some energy range.                                   3000004200004 
+TOT    3   (Total)                                                3000004200005 
+            Total neutron cross section                           3000004200006 
+SEL    5   (Elastic)                                              3000004200007 
+            Total elastic scattering cross section, integrated    3000004200008 
+             over all angles.                                     3000004200009 
+DEL    7   (Diff elastic)                                         3000004200010 
+            Angular distribution or differential scattering       3000004200011 
+             cross section for elastically scattered neutrons.    3000004200012 
+POL    9   (Polarization)                                         3000004200013 
+            Polarization of neutrons in the exit channel.         3000004200014 
+POT   11   (Potntal scat)                                         3000004200015 
+            That part of the scattering cross section which       3000004200016 
+             corresponds to scattering by a hard sphere.          3000004200017 
+SIN   13   (Tot Inelastc)                                         3000004200018 
+            Total inelastic scattering cross section, integrated  3000004200019 
+             over all angles and excited levels.                  3000004200020 
+DIN   15   (Diff inelast)                                         3000004200021 
+            Angular distributions or energy spectra of            3000004200022 
+             inelastically scattered neutrons, or partial cross   3000004200023 
+             sections for inelastic scattering.                   3000004200024 
+TSL   17   (Thermal Scat)                                         3000004200025 
+            Elastic or inelastic scattering of slow neutrons      3000004200026 
+             depending on the structure of target material, e.g., 3000004200027 
+             chemical binding, crystal vibrations, etc.           3000004200028 
+SCT   19   (Scattering)                                           3000004200029 
+            Total scattering cross section                        3000004200030 
+SNE   21   (nonelastic)                                           3000004200031 
+            Sum  of all non-elastic cross sections                3000004200032 
+ABS   23   (Absorption)                                           3000004200033 
+            Absorption cross section, i.e., sum of all            3000004200034 
+             non-scattering cross sections.                       3000004200035 
+RIA   25   (Res Int Abs)                                          3000004200036 
+            Resonance integral for absorption.                    3000004200037 
+NG    29   ((n,gamma))                                            3000004200038 
+            Radiative capture cross section.                      3000004200039 
+RIG   31   (Res Int Capt)                                         3000004200040 
+            Capture resonance integral, for fissioning nuclides   3000004200041 
+             only.                                                3000004200042 
+SNG   33   (Spec n,gamma)                                         3000004200043 
+            Spectrum of gamma rays or conversion electrons        3000004200044 
+             following neutron capture.                           3000004200045 
+DNG   35   (Inelastic gam)                                        3000004200046 
+            Production cross section, angular distributions or    3000004200047 
+             energy spectra for gamma rays following inelastic    3000004200048 
+             scattering of neutrons.                              3000004200049 
+NEG   37   (Nonelast gam)                                         3000004200050 
+            Production cross section, angular distributions or    3000004200051 
+             energy spectra for gamma rays following unseparated  3000004200052 
+             neutron induced nonelastic processes.                3000004200053 
+N2N   39   ((n,2n))                                               3000004200054 
+            (n,2n) or (n,2n+CP) reaction (CP=charged particles).  3000004200055 
+             Integral and differential data.                      3000004200056 
+NXN   41   ((n,xn x=3,4..))                                       3000004200057 
+            Reactions producing at least 3 neutrons. Integral and 3000004200058 
+             differential data.                                   3000004200059 
+NEM   43   (n emission)                                           3000004200060 
+            Sum cross section for all nonelastic processes        3000004200061 
+             resulting in neutron emission, weighted for the      3000004200062 
+             number of neutrons produced.                         3000004200063 
+NX    44   (Nucl Product)                                         3000004200064 
+            Sum of all (unspecified) processes in a given target  3000004200065 
+             producing a given nuclide.                           3000004200066 
+NP    45   ((n,p))                                                3000004200067 
+            (n,proton) reaction. Integral and differential data.  3000004200068 
+NNP   47   ((n,np))                                               3000004200069 
+            (n,n'p) reaction. Integral and differential data.     3000004200070 
+PEM   48   (p emission)                                           3000004200071 
+            Proton emission cross section                         3000004200072 
+ND    49   ((n,d))                                                3000004200073 
+            (n,deuteron) reaction. Integral and differential data.3000004200074 
+NND   51   ((n,nd))                                               3000004200075 
+            (n,n'd) reaction. Integral and differential data.     3000004200076 
+DEM   52   (d emission)                                           3000004200077 
+            Deuteron emission cross section                       3000004200078 
+NT    53   ((n,t))                                                3000004200079 
+            (N,triton) reaction. Integral and differential data.  3000004200080 
+NNT   55   ((n,nt))                                               3000004200081 
+            (n,n't) reaction. Integral and differential data.     3000004200082 
+TEM   56   (t emission)                                           3000004200083 
+            Triton emission cross section                         3000004200084 
+NHE   57   ((n,He3))                                              3000004200085 
+            (n,3He) reaction. Integral and differential data.     3000004200086 
+NA    59   ((n,alfa))                                             3000004200087 
+            (n,alpha) reaction. Integral and differential data    3000004200088 
+NNA   61   ((n,n+alfa))                                           3000004200089 
+            (n,n'alpha) reaction. Integral and differential data. 3000004200090 
+AEM   62   (Alpha Emiss)                                          3000004200091 
+            Alpha emission cross section                          3000004200092 
+NF    63   ((n,fission))                                          3000004200093 
+            Cross section for neutron induced fission, or for     3000004200094 
+             inelastic scattering to a spontaneously fissioning   3000004200095 
+             isomer.                                              3000004200096 
+RIF   65   (Res int fiss)                                         3000004200097 
+            Resonance integral for fission                        3000004200098 
+ALF   67   (Alpha)                                                3000004200099 
+            Capture to fission cross section ratio.               3000004200100 
+ETA   69   (Eta)                                                  3000004200101 
+            For fissionable nuclides: number of neutrons          3000004200102 
+             emitted per absorption                               3000004200103 
+NU    71   (Nu)                                                   3000004200104 
+            Number of prompt neutrons emitted per fission, also   3000004200105 
+             average number of prompt or total neutrons per       3000004200106 
+             fission.                                             3000004200107 
+NUD   73   (Delayd neuts)                                         3000004200108 
+            Delayed neutrons from fission. Total or group yields, 3000004200109 
+             energies.                                            3000004200110 
+NUF   75   (Frag neuts)                                           3000004200111 
+            Number or energy of neutrons emitted by given fission 3000004200112 
+             fragments.                                           3000004200113 
+SFN   77   (Spect Fiss n)                                         3000004200114 
+            Energy spectrum or mean energy of prompt fission      3000004200115 
+             neutrons.                                            3000004200116 
+SFG   79   (Spec fis gam)                                         3000004200117 
+            Spectrum of prompt gamma rays emitted in fission.     3000004200118 
+FPG   81   (Fis Prod gams)                                        3000004200119 
+            Spectrum, yields, etc., of delayed gamma rays from    3000004200120 
+             unseparated fission products.                        3000004200121 
+FPB   82   (FisProd beta)                                         3000004200122 
+            Spectra, mean energies, etc., of beta-rays from THE   3000004200123 
+             unseparated fission products.                        3000004200124 
+NFY   83   (Fiss yield)                                           3000004200125 
+            Yields of fission fragments or products.              3000004200126 
+FRS   85   (Frag spectra)                                         3000004200127 
+            Energy or angular distribution of fission products.   3000004200128 
+CHG   87   (Frag Charge)                                          3000004200129 
+            Charge distribution of fission fragments: charge      3000004200130 
+             dispersion, most probable charge of mass chain,      3000004200131 
+             fractional yields.                                   3000004200132 
+RES   89   (Reson Params)                                         3000004200133 
+            Individual and averaged neutron resonance parameters. 3000004200134 
+STF   91   (Strnth fnctn)                                         3000004200135 
+            Neutron strength function.                            3000004200136 
+LDL   93   (Lvl Density)                                          3000004200137 
+            Density of levels in the continuum, as determined     3000004200138 
+             from particles emitted in neutron reactions.         3000004200139 
+GN    95   (Gamma-n)                                              3000004200140 
+            (gamma,n) reaction. Integral and differential data.   3000004200141 
+GF    97   (Photo-fissn)                                          3000004200142 
+            Photon induced fission: cross sections, yields and    3000004200143 
+             spectra of neutrons, fragments, etc.                 3000004200144 

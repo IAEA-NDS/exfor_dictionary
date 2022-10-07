@@ -1,0 +1,775 @@
+{
+  "213": {
+    "diction_name": "Reaction types",
+    "codes": {
+      "ALR": {
+        "description": "alpha at resonance",
+        "additional_code": "ALF",
+        "x4code3": "CS",
+        "active": true
+      },
+      "AP": {
+        "description": "most probable mass",
+        "additional_code": "MAS",
+        "x4code3": "ZAP",
+        "active": true
+      },
+      "APA": {
+        "description": "most probable mass as a fn. of angle",
+        "additional_code": "MAS",
+        "x4code3": "ZAP",
+        "active": true
+      },
+      "APP": {
+        "description": "most probable mass for given fragment energy",
+        "additional_code": "MAS",
+        "x4code3": "ZAP",
+        "active": true
+      },
+      "APR": {
+        "description": "most probable mass at resonance",
+        "additional_code": "MAS",
+        "x4code3": "ZAP",
+        "active": true
+      },
+      "CP4": {
+        "description": "partial differential d/dangle * 4pi",
+        "additional_code": "CSP",
+        "x4code3": "CSP",
+        "active": true
+      },
+      "CRP": {
+        "description": "partial cross section at resonance",
+        "additional_code": "CSP",
+        "x4code3": "CSP",
+        "active": true
+      },
+      "CS": {
+        "description": "cross section",
+        "additional_code": "CS",
+        "x4code3": "CS",
+        "active": true
+      },
+      "CS+": {
+        "description": "cross section (nonstandard)",
+        "additional_code": "CS",
+        "x4code3": "CS",
+        "active": true
+      },
+      "CS4": {
+        "description": "differential d/dangle * 4pi",
+        "additional_code": "CS",
+        "x4code3": "CS",
+        "active": true
+      },
+      "CSG": {
+        "description": "cross section for specific half-life group",
+        "additional_code": "CS",
+        "x4code3": "CS",
+        "active": true
+      },
+      "CSN": {
+        "description": "cross section for emission of n products",
+        "additional_code": "CS",
+        "x4code3": "CS",
+        "active": true
+      },
+      "CSP": {
+        "description": "partial cross section",
+        "additional_code": "CSP",
+        "x4code3": "CSP",
+        "active": true
+      },
+      "CSR": {
+        "description": "cross section at resonance",
+        "additional_code": "CS",
+        "x4code3": "CS",
+        "active": true
+      },
+      "CST": {
+        "description": "temperature dependent cross section",
+        "additional_code": "CST",
+        "x4code3": "CST",
+        "active": true
+      },
+      "D2P": {
+        "description": "partial double differential dangle1/dangle2",
+        "additional_code": "DAA",
+        "x4code3": "DA",
+        "active": true
+      },
+      "D2T": {
+        "description": "double diff. da/de' at other than room temp.",
+        "additional_code": "DAE",
+        "x4code3": "DAE",
+        "active": true
+      },
+      "D3A": {
+        "description": "triple differential dangle1/dangle2/de'",
+        "additional_code": "D3A",
+        "x4code3": "DAE",
+        "active": true
+      },
+      "D3E": {
+        "description": "triple differential dangle/de1'/de2'",
+        "additional_code": "D3E",
+        "x4code3": "DAE",
+        "active": true
+      },
+      "D4A": {
+        "description": "quadruple diff. dang1/dang2/de1'/de2'",
+        "additional_code": "D4A",
+        "x4code3": "DAE",
+        "active": true
+      },
+      "DA": {
+        "description": "differential d/dangle",
+        "additional_code": "DA",
+        "x4code3": "DA",
+        "active": true
+      },
+      "DAA": {
+        "description": "double differential dangle1/dangle2",
+        "additional_code": "DAA",
+        "x4code3": "DA",
+        "active": true
+      },
+      "DAE": {
+        "description": "double differential dangle/de'",
+        "additional_code": "DAE",
+        "x4code3": "DAE",
+        "active": true
+      },
+      "DAP": {
+        "description": "partial differential d/dangle",
+        "additional_code": "DAP",
+        "x4code3": "DAP",
+        "active": true
+      },
+      "DAR": {
+        "description": "differential d/dangle at resonance",
+        "additional_code": "DA",
+        "x4code3": "DA",
+        "active": true
+      },
+      "DAT": {
+        "description": "differential d/dang at other than room temp.",
+        "additional_code": "DA",
+        "x4code3": "DA",
+        "active": true
+      },
+      "DE": {
+        "description": "differential d/de'",
+        "additional_code": "DE",
+        "x4code3": "DE",
+        "active": true
+      },
+      "DE4": {
+        "description": "differential d/dangle/de' * 4pi",
+        "additional_code": "DE",
+        "x4code3": "DE",
+        "active": true
+      },
+      "DEP": {
+        "description": "energy spectrum for specific energy group",
+        "additional_code": "DEP",
+        "x4code3": "DEP",
+        "active": true
+      },
+      "DP": {
+        "description": "diff.by linear momentum of outg.particle ",
+        "additional_code": "DP",
+        "x4code3": "DE",
+        "active": true
+      },
+      "DPP": {
+        "description": "diff.by lin.mom.of outg.particle ,partl react.",
+        "additional_code": "DP",
+        "x4code3": "DE",
+        "active": true
+      },
+      "DPR": {
+        "description": "partial angular distribution at resonance",
+        "additional_code": "DAP",
+        "x4code3": "DAP",
+        "active": true
+      },
+      "DT": {
+        "description": "diff.by 4-momentum transfer squared",
+        "additional_code": "DT",
+        "x4code3": "DA",
+        "active": true
+      },
+      "E": {
+        "description": "kinetic energy",
+        "additional_code": "KE",
+        "x4code3": "E",
+        "active": true
+      },
+      "EA": {
+        "description": "kinetic energy as a fn. of angle",
+        "additional_code": "KE",
+        "x4code3": "E",
+        "active": true
+      },
+      "EDA": {
+        "description": "kinetic energy, differential, d/dangle",
+        "additional_code": "KE",
+        "x4code3": "E",
+        "active": true
+      },
+      "EG": {
+        "description": "kinetic energy for specific half-life group",
+        "additional_code": "KE",
+        "x4code3": "E",
+        "active": true
+      },
+      "EP": {
+        "description": "kinetic energy for specific energy group",
+        "additional_code": "KE",
+        "x4code3": "E",
+        "active": true
+      },
+      "ETA": {
+        "description": "neutron yield (eta)",
+        "additional_code": "ETA",
+        "x4code3": "NU",
+        "active": true
+      },
+      "ETR": {
+        "description": "neutron yield (eta) at resonance",
+        "additional_code": "ETA",
+        "x4code3": "NU",
+        "active": true
+      },
+      "FC": {
+        "description": "cosine coefficient",
+        "additional_code": "DA",
+        "x4code3": "DA",
+        "active": true
+      },
+      "FCP": {
+        "description": "partial cosine coefficient",
+        "additional_code": "DAP",
+        "x4code3": "DAP",
+        "active": true
+      },
+      "FL": {
+        "description": "legendre coefficient",
+        "additional_code": "DA",
+        "x4code3": "DA",
+        "active": true
+      },
+      "FLP": {
+        "description": "legendre coefficient, partial or d/de",
+        "additional_code": "DAP",
+        "x4code3": "DAP",
+        "active": true
+      },
+      "FS2": {
+        "description": "sine**2 coefficient",
+        "additional_code": "DA",
+        "x4code3": "DA",
+        "active": true
+      },
+      "FSP": {
+        "description": "sine**2 coefficient, partial",
+        "additional_code": "DAP",
+        "x4code3": "DAP",
+        "active": true
+      },
+      "FY": {
+        "description": "fission product yield",
+        "additional_code": "FY",
+        "x4code3": "FY",
+        "active": true
+      },
+      "FY2": {
+        "description": "fission product yield, differential, d/da/de",
+        "additional_code": "FY",
+        "x4code3": "FY",
+        "active": true
+      },
+      "FYA": {
+        "description": "fission product yield as fn. of angle",
+        "additional_code": "FY",
+        "x4code3": "FY",
+        "active": true
+      },
+      "FYE": {
+        "description": "fission product yield, differential, d/de",
+        "additional_code": "FY",
+        "x4code3": "FY",
+        "active": true
+      },
+      "FYP": {
+        "description": "fiss.prod.yield as fn.of sec.particle energy",
+        "additional_code": "FY",
+        "x4code3": "FY",
+        "active": true
+      },
+      "FYR": {
+        "description": "fission product yield at resonance",
+        "additional_code": "FY",
+        "x4code3": "FY",
+        "active": true
+      },
+      "FYS": {
+        "description": "production cross section of fission products",
+        "additional_code": "FY",
+        "x4code3": "FY",
+        "active": true
+      },
+      "FYZ": {
+        "description": "fission mass or element yield",
+        "additional_code": "FY",
+        "x4code3": "FY",
+        "active": true
+      },
+      "IAP": {
+        "description": "cs integral over incident en for partl.angle",
+        "additional_code": "INT",
+        "x4code3": "INT",
+        "active": true
+      },
+      "IAR": {
+        "description": "cs integral over incident energy at resonance",
+        "additional_code": "INT",
+        "x4code3": "INT",
+        "active": true
+      },
+      "IDA": {
+        "description": "cross section integral over incident energy , d/dangle",
+        "additional_code": "INT",
+        "x4code3": "INT",
+        "active": true
+      },
+      "IDE": {
+        "description": "cs integral over incident energy , d/de'",
+        "additional_code": "INT",
+        "x4code3": "INT",
+        "active": true
+      },
+      "INP": {
+        "description": "cs integral over incident energy for given e' or level",
+        "additional_code": "INT",
+        "x4code3": "INT",
+        "active": true
+      },
+      "INT": {
+        "description": "cross section integral over incident energy",
+        "additional_code": "INT",
+        "x4code3": "INT",
+        "active": true
+      },
+      "IP4": {
+        "description": "cs integral over incident energy ,d/da*4pi,for e'or lvl",
+        "additional_code": "INT",
+        "x4code3": "INT",
+        "active": true
+      },
+      "IT4": {
+        "description": "cs integral over incident energy , d/dangle * 4pi",
+        "additional_code": "INT",
+        "x4code3": "INT",
+        "active": true
+      },
+      "KER": {
+        "description": "kerma factor",
+        "additional_code": "KER",
+        "x4code3": "SQ",
+        "active": true
+      },
+      "KRP": {
+        "description": "partial kerma factor",
+        "additional_code": "KER",
+        "x4code3": "SQ",
+        "active": true
+      },
+      "L": {
+        "description": "scattering length",
+        "additional_code": "AMP",
+        "x4code3": "L",
+        "active": true
+      },
+      "MLT": {
+        "description": "multiplicity",
+        "additional_code": "MLT",
+        "x4code3": "MLT",
+        "active": true
+      },
+      "MTA": {
+        "description": "multiplicity d/da",
+        "additional_code": "MLT",
+        "x4code3": "MLT",
+        "active": true
+      },
+      "MTE": {
+        "description": "multiplicity, partial or d/de",
+        "additional_code": "MLT",
+        "x4code3": "MLT",
+        "active": true
+      },
+      "MTR": {
+        "description": "multiplicity at resonance",
+        "additional_code": "MLT",
+        "x4code3": "MLT",
+        "active": true
+      },
+      "NAE": {
+        "description": "neutron yield d/dangle/de'",
+        "additional_code": "MFQ",
+        "x4code3": "MFQ",
+        "active": true
+      },
+      "NGP": {
+        "description": "partial neutron yield for spec.half-life group",
+        "additional_code": "NUD",
+        "x4code3": "NU",
+        "active": true
+      },
+      "NQ": {
+        "description": "nuclear quantity",
+        "additional_code": "NQ",
+        "x4code3": "NQ",
+        "active": true
+      },
+      "NU": {
+        "description": "neutron yield (nu-bar)",
+        "additional_code": "NU",
+        "x4code3": "NU",
+        "active": true
+      },
+      "NUA": {
+        "description": "neutron yield dep.on angle",
+        "additional_code": "MFQ",
+        "x4code3": "MFQ",
+        "active": true
+      },
+      "NUD": {
+        "description": "delayed neutron yield (nu-bar delayed)",
+        "additional_code": "NUD",
+        "x4code3": "NU",
+        "active": true
+      },
+      "NUE": {
+        "description": "neutron yield dep.on sec.particle energy",
+        "additional_code": "MFQ",
+        "x4code3": "MFQ",
+        "active": true
+      },
+      "NUG": {
+        "description": "neutron yield for specific half-life group",
+        "additional_code": "NUD",
+        "x4code3": "NU",
+        "active": true
+      },
+      "NUN": {
+        "description": "probability for emission of n neutrons",
+        "additional_code": "NU",
+        "x4code3": "NU",
+        "active": true
+      },
+      "NUP": {
+        "description": "partial neutron yield (nu-bar)",
+        "additional_code": "NU",
+        "x4code3": "NU",
+        "active": true
+      },
+      "NUR": {
+        "description": "neutron yield at resonance",
+        "additional_code": "NU",
+        "x4code3": "NU",
+        "active": true
+      },
+      "P2A": {
+        "description": "analyzing power da1/da2 for 2 particles",
+        "additional_code": "POD",
+        "x4code3": "POL",
+        "active": true
+      },
+      "P3A": {
+        "description": "analyzing power da1/da2/de1 for 2 particles",
+        "additional_code": "POD",
+        "x4code3": "POL",
+        "active": true
+      },
+      "P4A": {
+        "description": "anal.power da1/da2/de1/de2 for 2 particles",
+        "additional_code": "POD",
+        "x4code3": "POL",
+        "active": true
+      },
+      "PDE": {
+        "description": "differential polarization, d/dangle/de'",
+        "additional_code": "POD",
+        "x4code3": "POL",
+        "active": true
+      },
+      "PDR": {
+        "description": "differential polarization, d/dang at resonance",
+        "additional_code": "POD",
+        "x4code3": "POL",
+        "active": true
+      },
+      "PDT": {
+        "description": "differential polarization, d/d(-t)",
+        "additional_code": "POD",
+        "x4code3": "POL",
+        "active": true
+      },
+      "PN": {
+        "description": "delayed neutron emission probability",
+        "additional_code": "NUD",
+        "x4code3": "NU",
+        "active": true
+      },
+      "PNE": {
+        "description": "delayed neutron spect. from individ. precursor",
+        "additional_code": "MFQ",
+        "x4code3": "MFQ",
+        "active": true
+      },
+      "PNP": {
+        "description": "partial delayed neutron emission probability",
+        "additional_code": "NUD",
+        "x4code3": "NU",
+        "active": true
+      },
+      "PO": {
+        "description": "polarization",
+        "additional_code": "POL",
+        "x4code3": "POL",
+        "active": true
+      },
+      "POD": {
+        "description": "differential polarization, d/dangle",
+        "additional_code": "POD",
+        "x4code3": "POL",
+        "active": true
+      },
+      "POF": {
+        "description": "polarization fitting coefficient",
+        "additional_code": "POL",
+        "x4code3": "POL",
+        "active": true
+      },
+      "POT": {
+        "description": "potential scattering cross section",
+        "additional_code": "POT",
+        "x4code3": "CS",
+        "active": true
+      },
+      "PPD": {
+        "description": "partial differential polarization, d/dangle",
+        "additional_code": "POD",
+        "x4code3": "POL",
+        "active": true
+      },
+      "PPF": {
+        "description": "partial polarization fitting coefficient",
+        "additional_code": "POL",
+        "x4code3": "POL",
+        "active": true
+      },
+      "PPO": {
+        "description": "partial polarization",
+        "additional_code": "POL",
+        "x4code3": "POL",
+        "active": true
+      },
+      "PTD": {
+        "description": "differential polarization, d/dangle, tensor",
+        "additional_code": "POD",
+        "x4code3": "POL",
+        "active": true
+      },
+      "PTP": {
+        "description": "partial diff.polarization, d/dangle, tensor",
+        "additional_code": "POD",
+        "x4code3": "POL",
+        "active": true
+      },
+      "PY": {
+        "description": "product yield (other than fission)",
+        "additional_code": "PY",
+        "x4code3": "PY",
+        "active": true
+      },
+      "PY2": {
+        "description": "double-diff. product yield d/dangle/denergy",
+        "additional_code": "PY",
+        "x4code3": "PY",
+        "active": true
+      },
+      "PYA": {
+        "description": "product yield d/dangle",
+        "additional_code": "PY",
+        "x4code3": "PY",
+        "active": true
+      },
+      "PYP": {
+        "description": "partial product yield",
+        "additional_code": "PY",
+        "x4code3": "PY",
+        "active": true
+      },
+      "PZ": {
+        "description": "partial multiplicity",
+        "additional_code": "MLT",
+        "x4code3": "MLT",
+        "active": true
+      },
+      "PZR": {
+        "description": "partial multiplicity at resonance",
+        "additional_code": "MLT",
+        "x4code3": "MLT",
+        "active": true
+      },
+      "RE": {
+        "description": "resonance energy",
+        "additional_code": "RP",
+        "x4code3": "RP",
+        "active": true
+      },
+      "RI": {
+        "description": "resonance integral",
+        "additional_code": "RI",
+        "x4code3": "RI",
+        "active": true
+      },
+      "RIL": {
+        "description": "resonance integral over limited energy range",
+        "additional_code": "RI",
+        "x4code3": "RI",
+        "active": true
+      },
+      "RP": {
+        "description": "resonance parameter",
+        "additional_code": "RP",
+        "x4code3": "RP",
+        "active": true
+      },
+      "RPE": {
+        "description": "resonance kinetic energy",
+        "additional_code": "KE",
+        "x4code3": "E",
+        "active": true
+      },
+      "RPP": {
+        "description": "partial resonance parameter",
+        "additional_code": "RP",
+        "x4code3": "RP",
+        "active": true
+      },
+      "RR": {
+        "description": "reaction rate",
+        "additional_code": "RR",
+        "x4code3": "RR",
+        "active": true
+      },
+      "RRP": {
+        "description": "partial reaction rate",
+        "additional_code": "RR",
+        "x4code3": "RR",
+        "active": true
+      },
+      "SP": {
+        "description": "secondary energy spectrum",
+        "additional_code": "SPC",
+        "x4code3": "SP",
+        "active": true
+      },
+      "SPA": {
+        "description": "secondary energy spectrum as a funct.of angle",
+        "additional_code": "SPC",
+        "x4code3": "SP",
+        "active": true
+      },
+      "SPP": {
+        "description": "partial sec. energy spectrum (for given level)",
+        "additional_code": "SPC",
+        "x4code3": "SP",
+        "active": true
+      },
+      "SPR": {
+        "description": "spectrum at resonance",
+        "additional_code": "SPC",
+        "x4code3": "SP",
+        "active": true
+      },
+      "TAE": {
+        "description": "differential thick target yield, d/dangle/de'",
+        "additional_code": "TTD",
+        "x4code3": "TTD",
+        "active": true
+      },
+      "TAP": {
+        "description": "partial thick target yield, d/dangle",
+        "additional_code": "TTD",
+        "x4code3": "TTD",
+        "active": true
+      },
+      "TDA": {
+        "description": "differential thick target yield, d/dangle",
+        "additional_code": "TTD",
+        "x4code3": "TTD",
+        "active": true
+      },
+      "TDE": {
+        "description": "differential thick target yield, d/de'",
+        "additional_code": "TTD",
+        "x4code3": "TTD",
+        "active": true
+      },
+      "TDP": {
+        "description": "partial diff. thick target yield, d/dangle",
+        "additional_code": "TTD",
+        "x4code3": "TTD",
+        "active": true
+      },
+      "TOF": {
+        "description": "time-of-flight spectrum",
+        "additional_code": "CS",
+        "x4code3": "CS",
+        "active": true
+      },
+      "TOT": {
+        "description": "time-of-flight spect.other than the room temp.",
+        "additional_code": "CST",
+        "x4code3": "CST",
+        "active": true
+      },
+      "TSL": {
+        "description": "thermal-neutron scattering cross section",
+        "additional_code": "TSL",
+        "x4code3": "CS",
+        "active": true
+      },
+      "TT": {
+        "description": "thick target yield",
+        "additional_code": "TT",
+        "x4code3": "TT",
+        "active": true
+      },
+      "TTP": {
+        "description": "partial thick target yield",
+        "additional_code": "TTP",
+        "x4code3": "TTP",
+        "active": true
+      },
+      "ZP": {
+        "description": "most probable charge",
+        "additional_code": "CHG",
+        "x4code3": "ZAP",
+        "active": true
+      },
+      "ZPP": {
+        "description": "most probable charge for given fragment energy",
+        "additional_code": "CHG",
+        "x4code3": "ZAP",
+        "active": true
+      }
+    }
+  }
+}

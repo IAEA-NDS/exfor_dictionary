@@ -1,0 +1,15 @@
+{
+  "38": {
+    "diction_name": "Supplemental information",
+    "codes": {
+      "INCSP": {
+        "description": "(Incident particle spectrum)",
+        "active": true
+      },
+      "RESFN": {
+        "description": "(Resolution (response) function)",
+        "active": true
+      }
+    }
+  }
+}

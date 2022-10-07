@@ -1,39 +1,52 @@
-DICTION             13     840511 PARTICLES                       3000001300001 
-           FOR USE UNDER THE KEYWORDS 'PART-DET', 'RAD-DET',      3000001300002 
-           'DECAY-DATA', 'DECAY-MON', 'EN-SEC'.                   3000001300003 
-           THE FIRST CODES FROM G TO FF ARE ALSO USED IN THE      3000001300004 
-           FOURTH QUANTITY SUBFIELD UNDER 'ISO-QUANT'.            3000001300005 
-           SEE DICTIONARIES 28,29,33 FOR PARTICLE CODES PERMITTED 3000001300006 
-           IN SF2, SF3 RESP SF7 UNDER 'REACTION' OR CORRESPONDING-3000001300007 
-           LY UNDER 'MONITOR' RESP 'ASSUMED'.                     3000001300008 
-           -------------------------------------------------------3000001300009 
-G          (GAMMAS) EXCEPT DECAY GAMMAS                           3000001300010 
-N          (NEUTRONS)                                             3000001300011 
-P          (PROTONS)                                              3000001300012 
-D          (DEUTERONS)                                            3000001300013 
-T          (TRITONS)                                              3000001300014 
-HE3        (HE-3)                                                 3000001300015 
-A          (ALPHAS) HE-4                                          3000001300016 
-FF         (FISSION FRAGMENTS)                                    3000001300017 
-           -------------------------------------------------------3000001300018 
-XR         (X-RAYS) ALL TYPES, K,L,M, ETC                         3000001300019 
-DG         (DECAY GAMMAS) USED FOR GAMMAS EMITTED FROM METASTABLE 3000001300020 
-           STATES AND FOR GAMMAS FOLLOWING A PARTICLE-EMITTING    3000001300021 
-           DECAY (E.G. BETA DECAY)                                3000001300022 
-AR         (ANNIHILATION RADIATION)                               3000001300023 
-B-         (DECAY BETA-)                                          3000001300024 
-B          (DECAY BETAS) UNSPECIFIED WHETHER B+ OR B-             3000001300025 
-B+         (DECAY BETA+) POSITRONS                                3000001300026 
-ICE        (INTERNAL-CONVERSION ELECTRONS)                        3000001300027 
-E          (ELECTRONS) WHERE NO MORE SPECIFIC CODE APPLIES        3000001300028 
-           E.G. AUGER-EL., COMPTON-EL., ETC.  (NOTE=  THIS CODE   3000001300029 
-           MAY HAVE BEEN USED MORE GENERALLY IN EARLIER ENTRIES)  3000001300030 
-EC         (ELECTRON CAPTURE)                                     3000001300031 
-RCL        (RECOIL NUCLEUS)                                       3000001300032 
-RSD        (RESIDUAL NUCLEUS)                                     3000001300033 
-PN         (PROMPT NEUTRONS)                                      3000001300034 
-DN         (DELAYED NEUTRONS)                                     3000001300035 
-SF         (FRAGMENTS FROM SPONTANEOUS FISSION)                   3000001300036 
-PI         (PIONS,UNSPECIFIED)                                    3000001300037 
-PIP        (PIONS,POSITIVE)                                       3000001300038 
-PIN        (PIONS,NEGATIVE)                                       3000001300039 
+DICTION             13     200506 Particles                       30000 13    1 
+            For use with the keywords PART-DET, RAD-DET,          30000 13    2 
+             DECAY-DATA, DECAY-MON, EN-SEC.                       30000 13    3 
+            See dictionaries 28, 29, 33 for particle codes        30000 13    4 
+             permitted in SF2, SF3, SF7, respectively, under      30000 13    5 
+             REACTION or correspondingly under MONITOR or         30000 13    6 
+             ASSUMED.                                             30000 13    7 
+            ----------------------------------------------------  30000 13    8 
+A          (Alphas)                                               30000 13    9 
+            He-4                                                  30000 13   10 
+AP         (Antiprotons)                                          30000 13   11 
+AR         (Annihilation radiation)                               30000 13   12 
+B          (Decay Betas)                                          30000 13   13 
+            unspecified whether B+ or B-                          30000 13   14 
+B+         (Decay Beta+)                                          30000 13   15 
+            positrons                                             30000 13   16 
+B-         (Decay Beta-)                                          30000 13   17 
+D          (Deuterons)                                            30000 13   18 
+DG         (Decay Gammas)                                         30000 13   19 
+            Used for gammas emitted from metastable states and for30000 13   20 
+             gammas following a particle-emitting decay (e.g.,    30000 13   21 
+             beta decay)                                          30000 13   22 
+DN         (Delayed Neutrons)                                     30000 13   23 
+E          (Electrons)                                            30000 13   24 
+            Where no more specific code applies, e.g., Auger      30000 13   25 
+             electrons, Compton electrons, etc.                   30000 13   26 
+            =NOTE= This code may have been used more generally in 30000 13   27 
+                   earlier entries.                               30000 13   28 
+EC         (Electron Capture)                                     30000 13   29 
+ETA        (Eta mesons)                                           30000 13   30 
+FF         (Fission Fragments)                                    30000 13   31 
+G          (Gammas)                                               30000 13   32 
+            except decay gammas                                   30000 13   33 
+HE2        (He-2)                                                 30000 13   34 
+HE3        (He-3)                                                 30000 13   35 
+ICE        (Internal-Conversion Electrons)                        30000 13   36 
+K          (Kaons,unspecified)                                    30000 13   37 
+KN         (Kaons,negative)                                       30000 13   38 
+KP         (Kaons,positive)                                       30000 13   39 
+N          (Neutrons)                                             30000 13   40 
+P          (Protons)                                              30000 13   41 
+PI         (Pions,unspecified)                                    30000 13   42 
+PI0        (Pions,neutral)                                        30000 13   43 
+PIN        (Pions,negative)                                       30000 13   44 
+PIP        (Pions,positive)                                       30000 13   45 
+PN         (Prompt Neutrons)                                      30000 13   46 
+RCL        (Recoil Nucleus)                                       30000 13   47O
+RSD        (Residual Nucleus)                                     30000 13   48 
+SF         (Fragments from Spontaneous Fission)                   30000 13   49 
+T          (Tritons)                                              30000 13   50 
+XR         (X-rays)                                               30000 13   51 
+            all types, K, L, M, etc.                              30000 13   52 

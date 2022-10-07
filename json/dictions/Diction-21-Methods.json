@@ -1,0 +1,251 @@
+{
+  "21": {
+    "diction_name": "Methods",
+    "codes": {
+      "ACTIV": {
+        "description": "activation",
+        "active": true
+      },
+      "AMS": {
+        "description": "accelerator mass spectrometry",
+        "active": true
+      },
+      "ASEP": {
+        "description": "off-line mass separation of a product",
+        "active": true
+      },
+      "ASPEC": {
+        "description": "alpha spectrometry",
+        "active": true
+      },
+      "ASSOP": {
+        "description": "associated particle",
+        "active": true
+      },
+      "BCINT": {
+        "description": "beam current integrated",
+        "active": true
+      },
+      "BGCT": {
+        "description": "beta-gamma coincidence technique",
+        "active": true
+      },
+      "BSPEC": {
+        "description": "beta ray spectrometry",
+        "active": true
+      },
+      "CHARG": {
+        "description": "measurements in gas discharge",
+        "active": true
+      },
+      "CHSEP": {
+        "description": "chemical separation of products",
+        "active": true
+      },
+      "COINC": {
+        "description": "coincidence",
+        "active": true
+      },
+      "DSCAT": {
+        "description": "double scattering",
+        "active": true
+      },
+      "EDE": {
+        "description": "particle identification by 'e/delta e' measurement",
+        "active": true
+      },
+      "EDEG": {
+        "description": "energy degradation by foils",
+        "active": true
+      },
+      "EXTB": {
+        "description": "irradiation with external beam",
+        "active": true
+      },
+      "FNB": {
+        "description": "filtered neutron beam",
+        "active": true
+      },
+      "GSPEC": {
+        "description": "gamma ray spectrometry",
+        "active": true
+      },
+      "HE-AC": {
+        "description": "helium accumulation method",
+        "active": true
+      },
+      "HEJET": {
+        "description": "collection by he jet",
+        "active": true
+      },
+      "INTB": {
+        "description": "irradiation with internal beam",
+        "active": true
+      },
+      "JET": {
+        "description": "collection by gas jet",
+        "active": true
+      },
+      "LRASY": {
+        "description": "left-right asymmetry",
+        "active": true
+      },
+      "MAGFR": {
+        "description": "magnetic field rotation",
+        "active": true
+      },
+      "MASSP": {
+        "description": "mass spectrometry of a product",
+        "active": false
+      },
+      "MOMIX": {
+        "description": "mixed monitor",
+        "active": true
+      },
+      "MOSEP": {
+        "description": "separate monitor foil",
+        "active": true
+      },
+      "OLMS": {
+        "description": "on-line mass separation of a product",
+        "active": true
+      },
+      "PHD": {
+        "description": "pulse-height discrimination",
+        "active": true
+      },
+      "PHWT": {
+        "description": "pulse-height weighting technique",
+        "active": true
+      },
+      "PLSED": {
+        "description": "pulse die-away",
+        "active": true
+      },
+      "PSD": {
+        "description": "pulse-shape discrimination",
+        "active": true
+      },
+      "REC": {
+        "description": "collection of recoils",
+        "active": true
+      },
+      "RINGR": {
+        "description": "ring ratio method",
+        "active": true
+      },
+      "SFLIP": {
+        "description": "spin flip",
+        "active": true
+      },
+      "SITA": {
+        "description": "single target irradiation",
+        "active": true
+      },
+      "STATD": {
+        "description": "statistically determined",
+        "active": true
+      },
+      "STTA": {
+        "description": "stacked target irradiation",
+        "active": true
+      },
+      "THERM": {
+        "description": "gas thermochromatographic separation",
+        "active": true
+      },
+      "TOF": {
+        "description": "time-of-flight",
+        "active": true
+      },
+      "TOFDE": {
+        "description": "particle identification by 'tof-delta e' measurement",
+        "active": true
+      },
+      "TRN": {
+        "description": "transmission method",
+        "active": true
+      },
+      "TTM": {
+        "description": "thick-target method",
+        "active": true
+      },
+      "XSPEC": {
+        "description": "x-ray spectrometry",
+        "active": true
+      },
+      "BURN": {
+        "description": "burn-up",
+        "active": true
+      },
+      "CADMB": {
+        "description": "cadmium bath",
+        "active": true
+      },
+      "CHRFL": {
+        "description": "christiansen filter",
+        "active": true
+      },
+      "DIFFR": {
+        "description": "diffraction",
+        "active": true
+      },
+      "MANGB": {
+        "description": "manganese bath",
+        "active": true
+      },
+      "REAC": {
+        "description": "reactivity measurement",
+        "active": true
+      },
+      "REFL": {
+        "description": "total reflection from mirrors",
+        "active": true
+      },
+      "SHELT": {
+        "description": "shell transmission",
+        "active": true
+      },
+      "SLODT": {
+        "description": "slowing-down time",
+        "active": true
+      },
+      "ABSFY": {
+        "description": "absolute fission yield measurement",
+        "active": true
+      },
+      "FISCT": {
+        "description": "absolute fission counting",
+        "active": true
+      },
+      "FLUX": {
+        "description": "neutron flux monitoring",
+        "active": true
+      },
+      "FPGAM": {
+        "description": "direct gamma-ray spectrometry",
+        "active": true
+      },
+      "HADT": {
+        "description": "heavy atom difference technique",
+        "active": true
+      },
+      "HATOM": {
+        "description": "hot atom method",
+        "active": true
+      },
+      "RCHEM": {
+        "description": "radiochemical separation",
+        "active": false
+      },
+      "RELFY": {
+        "description": "relative fission yield measurement",
+        "active": true
+      },
+      "RVAL": {
+        "description": "r-value measurement",
+        "active": true
+      }
+    }
+  }
+}

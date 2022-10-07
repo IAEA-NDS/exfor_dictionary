@@ -1,12 +1,20 @@
-DICTION             29     841217 PROD.PARTICLES (REACTION SF3)   3000002900001 
-0          (-) NO OUTGOING PARTICLE = PROPERTIES OF COMPOUND NUCL.3000002900002 
-G          (GAMMAS)                                               3000002900003 
-N          (NEUTRONS)                                             3000002900004 
-P          (PROTONS)                                              3000002900005 
-D          (DEUTERONS)                                            3000002900006 
-T          (TRITONS)                                              3000002900007 
-HE3        (HE-3)                                                 3000002900008 
-A          (ALPHAS) HE-4                                          3000002900009 
-B-         (BETA- PARTICLE)                                       3000002900010 
-PIP        (PIONS,POSITIVE)                                       3000002900011 
-PIN        (PIONS,NEGATIVE)                                       3000002900012 
+DICTION             29     200506 Prod.Particles (REACTION SF3)   30000 29    1 
+0          ( -)                                                   30000 29    2 
+            No outgoing particle - property of compound nucleus   30000 29    3 
+A          (Alphas)                                               30000 29    4 
+AP         (Antiprotons)                                          30000 29    5 
+B-         (Decay Beta-)                                          30000 29    6 
+D          (Deuterons)                                            30000 29    7 
+ETA        (Eta mesons)                                           30000 29    8 
+G          (Gammas)                                               30000 29    9 
+HE2        (He-2)                                                 30000 29   10 
+HE3        (He-3)                                                 30000 29   11 
+KN         (Kaons,negative)                                       30000 29   12 
+KP         (Kaons,positive)                                       30000 29   13 
+N          (Neutrons)                                             30000 29   14 
+P          (Protons)                                              30000 29   15 
+PI         (Pions,unspecified)                                    30000 29   16 
+PI0        (Pions,neutral)                                        30000 29   17 
+PIN        (Pions,negative)                                       30000 29   18 
+PIP        (Pions,positive)                                       30000 29   19 
+T          (Tritons)                                              30000 29   20 
