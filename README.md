@@ -15,7 +15,7 @@ These keywords are defined in the EXFOR dictionary which is maintained in the IA
 
 
 ## EXFOR dictionary
-The EXFOR dictionary consists of approx. 40 definitions of types of the identifiers, which is the so-called ```DICTION```. The original format of the EXFOR dictionary is in the FORTRAN style fixed-width format. Each identifier is separated in the block that starts with ```DICTION```. Inside a certain  ```DICTION```, the keywords (EXFOR codes) are defined with small descriptions. For example, you will find ```1USALAS``` means "Los Alamos National Laboratory, NM" in ```DICTION 3 Institutes```. All definitions of ```DICTION``` can be found in ```DICTION   950```.
+The EXFOR dictionary consists of approx. 40 definitions of identifiers, so-called ```DICTION```. The original EXFOR dictionary format is in the FORTRAN style fixed-width format. Each block starts with ```DICTION``` and keywords (EXFOR codes) are defined with small descriptions in the ```DICTION``` block. All keywords (EXFOR codes) in EXFOR belong to the certain identifier. For example, you will find ```1USALAS```, which means "Los Alamos National Laboratory, NM", in ```DICTION 3 Institutes```. All definitions of identifiers (```DICTION```) can be found in ```DICTION   950```. 
 
 ```
 DICTION            950     202112 List of Dictionaries  
@@ -67,7 +67,7 @@ ENDDICTION          40          0
 ## Use JSON format EXFOR dictionary
 See [.ipynb file](https://github.com/shinokumura/exfor_dictionary/blob/main/example.ipynb) 
 
-If you don't have Jupyter notebook environment, you can run it from Binder from the following button. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shinokumura/exfor_dictionary/main?labpath=example.ipynb)
+If you don't have Jupyter notebook environment, you can run it on Binder from the following button. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shinokumura/exfor_dictionary/main?labpath=example.ipynb)
 
 
 
