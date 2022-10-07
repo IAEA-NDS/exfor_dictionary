@@ -17,28 +17,14 @@ import glob
 import re
 import os
 import json
-# import logging
-# logging.basicConfig(filename="process.log", level=logging.DEBUG, filemode="w")
 
 from config import DICTIONARY_PATH, DICTIONARY_URL
 from abbreviations import abbreviations
 
 
 
-def skip_unused_lines(d):
-    if "==" in d:
-        return True
-    elif d[:11] == " " * 11 and d[11].isalpha():
-        return True
-    else:
-        return False
-
-
-
-
 def get_local_trans_nums():
     local_dict_files = glob.glob(os.path.join(DICTIONARY_PATH, "trans_backup", "trans.*"))
-    # check local dictionary files
     x = []
     for d in local_dict_files:
         x += [re.split(r"\.", os.path.basename(d))[1]]
@@ -87,7 +73,7 @@ def download_all_trans():
 
 def download_latest_dict():
     # get latest dictionary from https://nds.iaea.org/nrdc/ndsx4/trans/dicts/
-    # filename must be in sequence e.g. trans.9124
+    # filename must be in sequence e.g. trans.9123, trans.9124..
     local_max = get_latest_trans_num(get_local_trans_nums())
     remote_max = get_latest_trans_num(get_server_trans_nums())
 
@@ -181,8 +167,9 @@ def get_diction_difinition(latest) -> dict:
 
 
 def parse_dictionary(latest):
-    ## start parsing all dictions
+
     file = dict_filename(latest)
+
     with open(file) as f:
         lines = f.readlines()
 
@@ -211,11 +198,26 @@ def parse_dictionary(latest):
 
 
 
+def skip_unused_lines(d):
+    if "==" in d:
+        return True
+    elif d[:11] == " " * 11 and d[11].isalpha():
+        return True
+    else:
+        return False
+
+
+
+
 
 def conv_dictionary_tojson(latest) -> dict:
     ## load pickles for additional info
+
     import pandas as pd
-    
+    '''
+    Note: these pickle are included in the main EXFOR parser reporsitory
+    '''
+
     institute_df = pd.read_pickle("pickles/institute.pickle")
     institute_df["code"] = institute_df["code"].str.rstrip()
     institute_df = institute_df.set_index("code")
@@ -229,7 +231,7 @@ def conv_dictionary_tojson(latest) -> dict:
     ## Get definitions of each DICTION from DICTION 950
     dictions = get_diction_difinition(latest)
 
-    ## initialize the json
+    ## initialize dict
     exfor_dictionary = {}
     exfor_dictionary["definitions"] = dictions
     exfor_dictionary["dictionaries"] = {}
@@ -242,9 +244,8 @@ def conv_dictionary_tojson(latest) -> dict:
 
         with open(fname) as f:
             diction = f.read().splitlines()[1:]
-        # print(diction)
-        diction_dict = {}
 
+        diction_dict = {}
         codes = {}
         
         if int(diction_num) in [
@@ -299,7 +300,6 @@ def conv_dictionary_tojson(latest) -> dict:
                             lat = lng = None
 
                         codes[x4code] = {
-                            # "x4code": x4code,
                             "description": desc,
                             "latitude": lat,
                             "longitude": lng,
@@ -314,7 +314,6 @@ def conv_dictionary_tojson(latest) -> dict:
                         if country_dict.get(journal_contry):
 
                             codes[x4code] = {
-                                # "x4code": x4code,
                                 "description": desc,
                                 "pulished_country_code": journal_contry,
                                 "pulished_country_name": country_dict[journal_contry][
@@ -325,7 +324,6 @@ def conv_dictionary_tojson(latest) -> dict:
 
                     else:
                         codes[x4code] = {
-                            # "x4code": x4code,
                             "description": desc,
                             "active": False if flag == "O" else True,
                         }
@@ -343,7 +341,6 @@ def conv_dictionary_tojson(latest) -> dict:
                         report_inst = d[59:66]
                         if institute_dict.get(report_inst):
                             codes[x4code] = {
-                                # "x4code": x4code,
                                 "description": desc[:-7].rstrip(),
                                 "publisher": report_inst,
                                 "publisher_name": institute_dict[report_inst]["name"],
@@ -352,7 +349,6 @@ def conv_dictionary_tojson(latest) -> dict:
 
                     else:
                         codes[x4code] = {
-                            # "x4code": x4code,
                             "description": desc,
                             "active": False if flag == "O" else True,
                         }
@@ -368,7 +364,7 @@ def conv_dictionary_tojson(latest) -> dict:
                 desc = ""
                 additional_code = ""
                 if d[0].isalpha() or d[0].isdigit():
-                    flag = d[79:80]  # obsolute or not
+                    flag = d[79:80]  # obsolete flag
                     x4code = d[:11].rstrip()
                     desc = d[11:65].rstrip()
                     additional_code = d[65:66].rstrip()
@@ -384,7 +380,6 @@ def conv_dictionary_tojson(latest) -> dict:
                 if x4code:
                     desc = abbreviations(head_unit_abbr, "".join(desc))
                     codes[x4code] = {
-                        # "x4code": x4code,
                         "description": desc,
                         "additional_code": additional_code,
                         "active": False if flag == "O" else True,
@@ -397,7 +392,7 @@ def conv_dictionary_tojson(latest) -> dict:
             desc = []
             for d in diction[1:]:
                 if d[0].isalpha() or d[0].isdigit():
-                    flag = d[79:80]  # obsolute or not
+                    flag = d[79:80]  # obsolete flag
                     x4code = d[:11].rstrip()
                     desc = d[11:44].rstrip()
                     additional_code = d[44:55].rstrip()
@@ -409,7 +404,6 @@ def conv_dictionary_tojson(latest) -> dict:
                 if x4code:
                     desc = abbreviations(head_unit_abbr, "".join(desc))
                     codes[x4code] = {
-                        # "x4code": x4code,
                         "description": desc,
                         "additional_code": additional_code,
                         "unit conversion factor": factor,
@@ -425,7 +419,7 @@ def conv_dictionary_tojson(latest) -> dict:
             desc = []
             for d in diction[1:]:
                 if d[0].isalpha() or d[0].isdigit():
-                    flag = d[79:80]  # obsolute or not
+                    flag = d[79:80]  # obsolete flag
                     x4code = d[:15].rstrip()
                     desc = d[15:66].rstrip()
 
@@ -435,7 +429,6 @@ def conv_dictionary_tojson(latest) -> dict:
                 if x4code:
                     desc = abbreviations(head_unit_abbr, "".join(desc))
                     codes[x4code] = {
-                        # "x4code": x4code,
                         "description": desc,
                         "active": False if flag == "O" else True,
                     }
@@ -449,7 +442,7 @@ def conv_dictionary_tojson(latest) -> dict:
             desc = []
             for d in diction[1:]:
                 if d[0].isalpha() or d[0].isdigit():
-                    flag = d[79:80]  # obsolute or not
+                    flag = d[79:80]  # obsolete flag
                     x4code = d[:11].rstrip()
                     additional_code = d[11:16].rstrip()
                     x4code3 = d[16:20].rstrip()
@@ -461,7 +454,6 @@ def conv_dictionary_tojson(latest) -> dict:
                 if x4code:
                     desc = abbreviations(head_unit_abbr, "".join(desc))
                     codes[x4code] = {
-                        # "x4code": x4code,
                         "description": desc,
                         "additional_code": additional_code,
                         "x4code3": x4code3,
@@ -475,7 +467,28 @@ def conv_dictionary_tojson(latest) -> dict:
             reaction string
             exception for TRS,POL/DA/DA/DE,*/*/*+*,ANA, and
             multiline of description are not implemented yet.
+
+            # Case 1
+            ,POL/DA,,VAP      NO  (Vector analyzing power, iT(11))            3000023601237 
+            # Case 2
+            ,POL/DA/DA,*/*,ANANO  (Analyzing power d2/dA(*)/dA(*))            3000023601238 
+            # Case 3
+            PR,NU/DA/DE,N+*F/NFYAE(Diff.prompt neut.mult.d/dA(n+frag.spec.    3000023600699 
+                                )/dE(n))                                    3000023600700 
+                                (Differential prompt neutron multiplicity   3000023600701 
+                                with respect to angle between neutron and  3000023600702 
+                                fission fragment specified and energy of   3000023600703 
+                                neutron)                                   3000023600704  
+            # Case 4
+            ,POL/DA/DA/DE,*,ANA                                              93000023601239 
+                            NO  (Analyzing power dA1/dA2/dE f.particle      3000023601240 
+                                specified)                                 3000023601241 
+            # Case 5
+            ,POL/DA/DA/DE,*/*/*,ANA                                          93000023601244 
+                            NO  (Analyzing power dA1/dA2/dE1 f.particles    3000023601245 
+                                spec.)                                     3000023601246 
             """
+
             from abbreviations import reaction_abbr
 
             cont = False
@@ -485,26 +498,6 @@ def conv_dictionary_tojson(latest) -> dict:
                     continue
 
                 ### get EXFOR code
-                ## Case 1
-                # ,POL/DA,,VAP      NO  (Vector analyzing power, iT(11))            3000023601237 
-                ## Case 2
-                # ,POL/DA/DA,*/*,ANANO  (Analyzing power d2/dA(*)/dA(*))            3000023601238 
-                ## Case 3
-                # PR,NU/DA/DE,N+*F/NFYAE(Diff.prompt neut.mult.d/dA(n+frag.spec.    3000023600699 
-                #                     )/dE(n))                                    3000023600700 
-                #                     (Differential prompt neutron multiplicity   3000023600701 
-                #                     with respect to angle between neutron and  3000023600702 
-                #                     fission fragment specified and energy of   3000023600703 
-                #                     neutron)                                   3000023600704  
-                ## Case 4
-                # ,POL/DA/DA/DE,*,ANA                                              93000023601239 
-                #                 NO  (Analyzing power dA1/dA2/dE f.particle      3000023601240 
-                #                     specified)                                 3000023601241 
-                ## Case 5
-                # ,POL/DA/DA/DE,*/*/*,ANA                                          93000023601244 
-                #                 NO  (Analyzing power dA1/dA2/dE1 f.particles    3000023601245 
-                #                     spec.)                                     3000023601246 
-
                 if (
                     d[0].isalpha()
                     or d[0].isdigit()
@@ -512,7 +505,7 @@ def conv_dictionary_tojson(latest) -> dict:
                     or not cont
                 ):
                     cont = False
-                    flag = d[79:80]  # obsolute flag
+                    flag = d[79:80]  # obsolete flag
 
 
                     if not d.startswith(" ") and d[22] == "(":
@@ -536,6 +529,7 @@ def conv_dictionary_tojson(latest) -> dict:
                         if desc[-1].endswith(")"):
                             cont = False
 
+
                 elif d.startswith(" " * 22):
                     desc += d[22:66].rstrip()
                     if not desc[-1].endswith(")"):
@@ -543,10 +537,11 @@ def conv_dictionary_tojson(latest) -> dict:
                     elif desc[-1].endswith(")"):
                         cont = False
 
+
                 else:
                     cont = False
                     desc = []
-                    # continue
+
 
                 if not cont and x4code:
                     desc = abbreviations(reaction_abbr, "".join(desc))
@@ -568,14 +563,15 @@ def conv_dictionary_tojson(latest) -> dict:
         diction_dict = { diction_num: {
             "diction_name": dictions[str(diction_num)]["description"],
             "codes": codes ,
-        }}
+            }
+        }
 
 
         if diction_dict:
-            # append dictionary content to trans.***.json
+            # append dictionary content to json/trans.***.json
             exfor_dictionary["dictionaries"].update(diction_dict)
 
-            # create individual diction-json files just in case
+            # create individual diction-json files just in case, will be deleted in the future
             write_diction_json(diction_num, diction_dict)
 
 
@@ -588,11 +584,14 @@ def conv_dictionary_tojson(latest) -> dict:
 
 def update_dictionary_to_latest():
     ## check the latest number of trans file in remote server and download it
+    ## note that the oldest file that this parser can process is trans.9090.
     latest = download_latest_dict()
+
 
     ## conversion to json
     parse_dictionary(latest)
     conv_dictionary_tojson(latest)
+
 
     print("Latest dictionary trans file is trans."+latest)
     return latest
@@ -752,8 +751,6 @@ class Diction:
 
 
 if __name__ == "__main__":
-    # 9090 to 9126
-
     update_dictionary_to_latest()
 
 

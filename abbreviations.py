@@ -1,7 +1,17 @@
-### Abbreviations in the EXFOR
+####################################################################
+#
+# This file is part of exfor-parser.
+# Copyright (C) 2022 International Atomic Energy Agency (IAEA)
+#
+# Disclaimer: The code is still under developments and not ready
+#             to use. It has been made public to share the progress
+#             among collaborators.
+# Contact:    nds.contact-point@iaea.org
+#
+####################################################################
+ 
+### Abbreviations in the EXFOR dictionary
 
-
-## abbreviations conversion list for diction 236 and 24
 reaction_abbr = {
     "abun.": "abundance",
     "abund.": "abundance",
@@ -45,14 +55,14 @@ reaction_abbr = {
     "excl.": "excluding",
     "evap.": "evapolation",
     #  "f.": "fragment or factor or fission or for or final",  # use cases of factor:pAR,pOl/DA/DA/DE,,AnA, for: CHn,siG,
-    # "f.thick": "what?",
+    # "f.thick": "For thick target?",
     "frag.": "fragment",
     "fr.": "fragment",
     "fragm.": "fragment",
     "fis.": "fission",
     "fiss.": "fission",
     "fn.": "function",
-    "fct.": "function",  # for ttY
+    "fct.": "function",  # in ttY
     "fct.": "factor",  # in general
     "form.": "formation",
     "gam.": "gamma",
@@ -216,9 +226,6 @@ institute_abbr = {
     "techn.": "technology",
     "Univ.": "University",
 }
-
-
-
 
 
 
