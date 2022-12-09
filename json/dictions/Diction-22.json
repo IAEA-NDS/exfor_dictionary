@@ -1,0 +1,227 @@
+{
+  "22": {
+    "diction_name": "Detectors",
+    "codes": {
+      "BAF2": {
+        "description": "Scintillator BaF2",
+        "active": true
+      },
+      "BGO": {
+        "description": "Bismuth-Germanate crystal detector",
+        "active": true
+      },
+      "BUBLC": {
+        "description": "Bubble chamber",
+        "active": true
+      },
+      "CEREN": {
+        "description": "Cerenkov detector",
+        "active": true
+      },
+      "COIN": {
+        "description": "Coincidence counter arrangement",
+        "active": true
+      },
+      "COMPL": {
+        "description": "Compton Polarimeter",
+        "active": true
+      },
+      "CSICR": {
+        "description": "Cesium-Iodide crystal",
+        "active": true
+      },
+      "D4PI": {
+        "description": "4pi detector",
+        "active": true
+      },
+      "DRFTC": {
+        "description": "Drift chamber",
+        "active": true
+      },
+      "FISCH": {
+        "description": "Fission chamber",
+        "active": true
+      },
+      "GEMUC": {
+        "description": "Geiger-Mueller counter",
+        "active": true
+      },
+      "GLASD": {
+        "description": "Glass detector",
+        "active": true
+      },
+      "IMPSI": {
+        "description": "Passivated implanted planar Si detector",
+        "active": true
+      },
+      "IOCH": {
+        "description": "Ionization chamber",
+        "active": true
+      },
+      "MAGSP": {
+        "description": "Magnetic spectrometer",
+        "active": true
+      },
+      "MCPLT": {
+        "description": "Microchannel plate",
+        "active": true
+      },
+      "MTANK": {
+        "description": "Moderating tank detector",
+        "active": true
+      },
+      "MWDC": {
+        "description": "Multi-wire drift chamber",
+        "active": true
+      },
+      "MWPC": {
+        "description": "Multi-wire proportional counter",
+        "active": true
+      },
+      "MWSC": {
+        "description": "Multi-wire spark counter",
+        "active": true
+      },
+      "NAICR": {
+        "description": "Sodium-Iodide crystal",
+        "active": true
+      },
+      "PGAC": {
+        "description": "Parallel-grid avalanche detector",
+        "active": true
+      },
+      "PHVC": {
+        "description": "Photovoltaic Cell",
+        "active": true
+      },
+      "PLATE": {
+        "description": "Nuclear plates",
+        "active": true
+      },
+      "PPAC": {
+        "description": "Parallel plate avalanche counter",
+        "active": true
+      },
+      "PROPC": {
+        "description": "Proportional counter",
+        "active": true
+      },
+      "PS": {
+        "description": "Position sensitive detector",
+        "active": true
+      },
+      "PSSCN": {
+        "description": "Position sensitive scintillator",
+        "active": false
+      },
+      "PSSSD": {
+        "description": "Position sensitive solid state detector",
+        "active": false
+      },
+      "SCIN": {
+        "description": "Scintillation detector",
+        "active": true
+      },
+      "SI": {
+        "description": "Silicon detector",
+        "active": true
+      },
+      "SIBAR": {
+        "description": "Silicon surface barrier detector",
+        "active": true
+      },
+      "SILI": {
+        "description": "Silicon-Lithium detector",
+        "active": true
+      },
+      "SISD": {
+        "description": "Silicon strip detector",
+        "active": true
+      },
+      "SOLST": {
+        "description": "Solid-state detector",
+        "active": true
+      },
+      "SPEC": {
+        "description": "Large spectrometer system",
+        "active": true
+      },
+      "STANK": {
+        "description": "Scintillator tank",
+        "active": true
+      },
+      "SWPC": {
+        "description": "Single-wire proportional counter",
+        "active": true
+      },
+      "TELES": {
+        "description": "Counter telescope",
+        "active": true
+      },
+      "TFBC": {
+        "description": "Thin-film Breakdown Counter",
+        "active": true
+      },
+      "THRES": {
+        "description": "Threshold detector",
+        "active": true
+      },
+      "TPC": {
+        "description": "Time projection chamber",
+        "active": true
+      },
+      "TRD": {
+        "description": "Track detector",
+        "active": true
+      },
+      "BPAIR": {
+        "description": "Electron-pair spectrometer",
+        "active": true
+      },
+      "GE": {
+        "description": "Germanium detector",
+        "active": true
+      },
+      "GE-IN": {
+        "description": "Germanium intrinsic detector",
+        "active": true
+      },
+      "GELI": {
+        "description": "Germanium-Lithium detector",
+        "active": true
+      },
+      "HPGE": {
+        "description": "Hyperpure Germanium detector",
+        "active": true
+      },
+      "LEGE": {
+        "description": "Low energy Germanium Detector",
+        "active": true
+      },
+      "MOXR": {
+        "description": "Moxon-Rae detector",
+        "active": true
+      },
+      "XHPGE": {
+        "description": "Extended range Germanium gamma detector",
+        "active": true
+      },
+      "BF3": {
+        "description": "Boron Trifluoride neutron detector",
+        "active": true
+      },
+      "HE3SP": {
+        "description": "He-3 spectrometer",
+        "active": true
+      },
+      "HORBU": {
+        "description": "Hornyak button detector",
+        "active": true
+      },
+      "LONGC": {
+        "description": "Long counter",
+        "active": true
+      }
+    }
+  }
+}

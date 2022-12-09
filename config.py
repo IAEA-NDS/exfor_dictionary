@@ -11,5 +11,6 @@
 ####################################################################
 
 
-DICTIONARY_URL = "https://nds.iaea.org/nrdc/ndsx4/trans/dicts/"
+DICTIONARY_URL = "https://nds.iaea.org/nrdc/ndsx4/trans/dictionaries/"
+# DICTIONARY_PATH = "./exfor_dictionary/"
 DICTIONARY_PATH = "./"

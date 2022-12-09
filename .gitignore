@@ -165,3 +165,7 @@ venv.bak/
 # This repository
 geo/
 pickles/
+invenio.py
+*.log
+*.bak
+

@@ -1,0 +1,247 @@
+{
+  "32": {
+    "diction_name": "Parameters (REACTION SF 6)",
+    "codes": {
+      "AG": {
+        "description": "Symmetry coefficient",
+        "active": true
+      },
+      "AH": {
+        "description": "Asymmetry coefficient",
+        "active": true
+      },
+      "AKE": {
+        "description": "Average kinetic energy",
+        "active": true
+      },
+      "ALF": {
+        "description": "Alpha = capture/fission cross-section ratio",
+        "active": true
+      },
+      "AMP": {
+        "description": "Scattering length",
+        "active": true
+      },
+      "AP": {
+        "description": "Most probable mass of fission-fragments",
+        "active": true
+      },
+      "ARE": {
+        "description": "Resonance-area",
+        "active": true
+      },
+      "D": {
+        "description": "Average level-spacing",
+        "active": true
+      },
+      "DA": {
+        "description": "Differential with angle of outgoing particle",
+        "active": true
+      },
+      "DA2": {
+        "description": "Double-diff. by angle (for quadruple-diff cs only)",
+        "active": true
+      },
+      "DE": {
+        "description": "Differential with energy of outgoing particle",
+        "active": true
+      },
+      "DE2": {
+        "description": "Double-diff. by energy (for quadruple-diff.cs only)",
+        "active": true
+      },
+      "DEN": {
+        "description": "Differential with incident energy",
+        "active": true
+      },
+      "DP": {
+        "description": "Differential with lin.momentum of outgoing particles",
+        "active": true
+      },
+      "DT": {
+        "description": "Diff.with 4-momentum transfer squared of outg.particles",
+        "active": true
+      },
+      "EN": {
+        "description": "Resonance-energy",
+        "active": true
+      },
+      "ETA": {
+        "description": "Average neutron yield per nonelastic event",
+        "active": true
+      },
+      "FM": {
+        "description": "Product of polarization and cross section",
+        "active": true
+      },
+      "FY": {
+        "description": "Fission-product yield",
+        "active": true
+      },
+      "INT": {
+        "description": "Cross-section integral over incident energy",
+        "active": true
+      },
+      "IPA": {
+        "description": "Cs integrated over partial angular range",
+        "active": true
+      },
+      "IPP": {
+        "description": "Cs integrated over partial momentum range",
+        "active": true
+      },
+      "J": {
+        "description": "Spin J",
+        "active": true
+      },
+      "KE": {
+        "description": "Kinetic energy",
+        "active": true
+      },
+      "KEM": {
+        "description": "Temperature of Maxwellian distr.of outgoing particles",
+        "active": true
+      },
+      "KEP": {
+        "description": "Most probable kinetic energy of outgoing particle",
+        "active": true
+      },
+      "KER": {
+        "description": "Kerma factor",
+        "active": true
+      },
+      "L": {
+        "description": "Angular momentum L",
+        "active": true
+      },
+      "LD": {
+        "description": "Level-density",
+        "active": true
+      },
+      "LDP": {
+        "description": "Level-density parameter",
+        "active": true
+      },
+      "MLT": {
+        "description": "Multiplicity (particle yield per event)",
+        "active": true
+      },
+      "NU": {
+        "description": "Fission-neutron yield, nu-bar",
+        "active": true
+      },
+      "PHS": {
+        "description": "Reich-Moore phase",
+        "active": true
+      },
+      "PN": {
+        "description": "Pn-value or delayed neutron emission probability",
+        "active": true
+      },
+      "POL": {
+        "description": "Polarization",
+        "active": true
+      },
+      "PTY": {
+        "description": "Parity",
+        "active": true
+      },
+      "PY": {
+        "description": "Product yield",
+        "active": true
+      },
+      "RAD": {
+        "description": "Scattering radius",
+        "active": true
+      },
+      "RAT": {
+        "description": "Ratio",
+        "active": true
+      },
+      "RED": {
+        "description": "Reduced",
+        "active": true
+      },
+      "RI": {
+        "description": "Resonance integral",
+        "active": true
+      },
+      "RYL": {
+        "description": "Reaction yield",
+        "active": true
+      },
+      "SCO": {
+        "description": "Spin cut-off factor",
+        "active": true
+      },
+      "SGV": {
+        "description": "Thermonuclear reaction rate",
+        "active": true
+      },
+      "SIF": {
+        "description": "Self-indication function",
+        "active": true
+      },
+      "SIG": {
+        "description": "Cross section",
+        "active": true
+      },
+      "SPC": {
+        "description": "Intensity of discrete gamma-lines",
+        "active": true
+      },
+      "STF": {
+        "description": "Strength function",
+        "active": true
+      },
+      "STR": {
+        "description": "Strength",
+        "active": true
+      },
+      "SUM": {
+        "description": "Sum",
+        "active": false
+      },
+      "SWG": {
+        "description": "Statistical weight g",
+        "active": true
+      },
+      "TEM": {
+        "description": "Nuclear temperature",
+        "active": true
+      },
+      "TKE": {
+        "description": "Total kinetic energy",
+        "active": true
+      },
+      "TMP": {
+        "description": "Temperature-dependent quantity",
+        "active": false
+      },
+      "TRN": {
+        "description": "Transmission",
+        "active": true
+      },
+      "TTT": {
+        "description": "Thick-target yield per unit time",
+        "active": true
+      },
+      "TTY": {
+        "description": "Thick-target yield of the specified reaction product.",
+        "active": true
+      },
+      "TYA": {
+        "description": "Differential with respect to Treiman-Yang angle",
+        "active": true
+      },
+      "WID": {
+        "description": "Resonance width",
+        "active": true
+      },
+      "ZP": {
+        "description": "Most probable charge of fission fragments",
+        "active": true
+      }
+    }
+  }
+}

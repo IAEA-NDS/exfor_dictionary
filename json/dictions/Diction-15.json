@@ -1,0 +1,43 @@
+{
+  "15": {
+    "diction_name": "History",
+    "codes": {
+      "A": {
+        "description": "Altered",
+        "active": true
+      },
+      "C": {
+        "description": "Compiled",
+        "active": true
+      },
+      "D": {
+        "description": "Deleted",
+        "active": true
+      },
+      "E": {
+        "description": "Transmitted",
+        "active": true
+      },
+      "L": {
+        "description": "Entered",
+        "active": true
+      },
+      "R": {
+        "description": "Received",
+        "active": true
+      },
+      "S": {
+        "description": "Restored",
+        "active": true
+      },
+      "T": {
+        "description": "Converted",
+        "active": true
+      },
+      "U": {
+        "description": "Altered",
+        "active": true
+      }
+    }
+  }
+}

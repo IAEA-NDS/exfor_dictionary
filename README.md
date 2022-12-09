@@ -69,7 +69,29 @@ See [.ipynb file](https://github.com/shinokumura/exfor_dictionary/blob/main/exam
 
 If you don't have Jupyter notebook environment, you can run it on Binder from the following button. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shinokumura/exfor_dictionary/main?labpath=example.ipynb)
 
+```
+import json
+from exfor_dictionary import *
+# Latest dictionary sequential number
+latest = "9126"
 
+# latest number of dictionary file (see trans_backup/trans.****)
+j = open("json/trans." + latest + ".json")
+exfor_dictionary = json.load(j)
+```
+
+To check what DICTION contain what kind of information:
+
+```
+for i, k in exfor_dictionary["definitions"].items():
+    print(i, "-->   ", k["description"])
+```
+
+To see what is ```INSTITUTE  (1USALAS)```:
+
+```
+print(json.dumps(exfor_dictionary["dictionaries"]["3"]["codes"]["1USALAS"], indent = 2))
+```
 
 
 ## EXFOR dictionary parser

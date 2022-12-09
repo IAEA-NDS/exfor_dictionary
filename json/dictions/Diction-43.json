@@ -1,0 +1,87 @@
+{
+  "43": {
+    "diction_name": "NLIB for evaluated libraries",
+    "codes": {
+      "21": {
+        "description": "IFPL",
+        "active": true
+      },
+      "31": {
+        "description": "INDL/V",
+        "active": true
+      },
+      "32": {
+        "description": "INDL/A",
+        "active": true
+      },
+      "33": {
+        "description": "FENDL/E, FENDL/C, FENDL/D",
+        "active": true
+      },
+      "34": {
+        "description": "IRDFF",
+        "active": true
+      },
+      "35": {
+        "description": "BROND-NDS",
+        "active": true
+      },
+      "36": {
+        "description": "INGDB-90",
+        "active": true
+      },
+      "37": {
+        "description": "FENDL/A",
+        "active": true
+      },
+      "38": {
+        "description": "SPALLDOS",
+        "active": true
+      },
+      "41": {
+        "description": "BROND",
+        "active": true
+      },
+      "49": {
+        "description": "MENDL-2",
+        "active": true
+      },
+      "51": {
+        "description": "ADL-3",
+        "active": true
+      },
+      "52": {
+        "description": "MINSK-ACT",
+        "active": true
+      },
+      "53": {
+        "description": "YAVSHITS",
+        "active": true
+      },
+      "54": {
+        "description": "WIND",
+        "active": true
+      },
+      "55": {
+        "description": "IAEA-Medical",
+        "active": true
+      },
+      "56": {
+        "description": "IBA-EVAL",
+        "active": true
+      },
+      "57": {
+        "description": "IAEA-STD",
+        "active": true
+      },
+      "58": {
+        "description": "PADF",
+        "active": true
+      },
+      "59": {
+        "description": "RUSFOND",
+        "active": true
+      }
+    }
+  }
+}

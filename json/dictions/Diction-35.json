@@ -1,0 +1,35 @@
+{
+  "35": {
+    "diction_name": "Data types (REACTION SF 9)",
+    "codes": {
+      "CALC": {
+        "description": "(Calculated data)",
+        "active": true
+      },
+      "CRCTD": {
+        "description": "(Data corrected by other than the author)",
+        "active": true
+      },
+      "DERIV": {
+        "description": "(Derived data)",
+        "active": true
+      },
+      "DEROT": {
+        "description": "(Data derived by other than the author)",
+        "active": true
+      },
+      "EVAL": {
+        "description": "(Evaluated data)",
+        "active": true
+      },
+      "EXP": {
+        "description": "(Experimental data)",
+        "active": false
+      },
+      "RECOM": {
+        "description": "(Recommended data)",
+        "active": true
+      }
+    }
+  }
+}
