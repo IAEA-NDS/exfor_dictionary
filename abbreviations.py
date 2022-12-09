@@ -196,7 +196,7 @@ institute_abbr = {
     # "Adm.": "what?",
     "Acad.": "Academy",
     "Accel.": "Accelerator",
-    "Centr": "Centre",
+    "Centr.": "Center",
     "Develop.": "Development",
     "Dept.": "Department",
     "Div.": "Division",
@@ -205,22 +205,25 @@ institute_abbr = {
     "Fac.": "Facility",
     "Facil.": "Facility",
     "Facult.": "Faculty",
-    "int.": "International",
-    "internat.": "International",
+    "Int.": "International",
+    "Internat.": "International",
     "inst.": "Institute",
+    "Inst.": "Institute",
     "instit.": "Instituto",  # in 3BZl
-    "info.": "Information",
-    "lab.": "Laboratory",
+    "Info.": "Information",
+    "Lab.": "Laboratory",
+    "lab.": "laboratory",
     "math.": "mathmatics",
     "mathem.": "mathmatics",
-    "nat.": "National",
-    "nucl.": "Nuclear",
-    "nuc.": "Nuclear",
+    "Nat.": "National",
+    "Nucl.": "Nuclear",
+    "Nuc.": "Nuclear",
     "Occupat.": "Occupational",
     "math.": "mathmatics",
     "phys.": "physics",
+    "Phys.": "Physics",
     "res.": "research",
-    "suppl.": "supplemental",
+    "Res.": "Research",
     "sect.": "section",
     "sci.": "science",
     "techn.": "technology",
@@ -231,7 +234,7 @@ institute_abbr = {
 
 def abbreviations(abb_dict, desc):
     for abb, corr in abb_dict.items():
-        desc = desc.lower().replace(abb.lower(), corr.lower() + " ")
+        desc = desc.replace(abb, corr + " ")
     return desc.replace("  ", " ")  # or desc.title().replace("  ", " ") or desc.capitalize().replace("  ", " ")
 
 

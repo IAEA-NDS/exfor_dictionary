@@ -1,0 +1,1943 @@
+{
+  "7": {
+    "diction_name": "Conferences",
+    "codes": {
+      "55ANS": {
+        "description": "Nuclear Sci.and Engineering Congress, Cleveland 1955",
+        "active": true
+      },
+      "55GENEVA": {
+        "description": "1st UN Conf.Peaceful Uses Atomic Energy, Geneva 1955",
+        "active": true
+      },
+      "55MOSCOW": {
+        "description": "USSR Conf. Peaceful Uses of At. Energy , Moscow 1955",
+        "active": true
+      },
+      "56AMSTERDM": {
+        "description": "Conf. on Nuclear Reactions., Amsterdam 1956",
+        "active": false
+      },
+      "56BNL": {
+        "description": "Resonance Absorption Conf., Brookhaven 1956",
+        "active": false
+      },
+      "56KIEV": {
+        "description": "Kiev Conf., Kiev 1956",
+        "active": true
+      },
+      "57ANS": {
+        "description": "American Nuclear Society Meeting, New York 1957",
+        "active": true
+      },
+      "57COLUMBIA": {
+        "description": "Columbia Conf., New York 1957",
+        "active": false
+      },
+      "57MOSCOW": {
+        "description": "Low and Medium Energy Nuclear Reactons, Moscow 1957",
+        "active": true
+      },
+      "57PARIS": {
+        "description": "Radioisotopes in Scient.Research , UNESCO, Paris 1957",
+        "active": true
+      },
+      "58BERKELEY": {
+        "description": "Application of Pulsed Neutron Source Techniques Symp.",
+        "active": false
+      },
+      "58GENEVA": {
+        "description": "Second International At.Energy Conf., Geneva 1958",
+        "active": true
+      },
+      "58PARIS": {
+        "description": "Nuclear Physics Congress, Paris 1958",
+        "active": true
+      },
+      "59ANL": {
+        "description": "Physics of Breeding Conf",
+        "active": false
+      },
+      "59CALCUTTA": {
+        "description": "Low Energy Nuclear Physics Symp., Calcutta 1959",
+        "active": true
+      },
+      "59LONDON": {
+        "description": "Conf.Nuclear Forces and Few-Nucleon Probl.,London 1959",
+        "active": true
+      },
+      "59TASHKENT": {
+        "description": "Peaceful Uses of At. Energy Conf., Tashkent 1959",
+        "active": true
+      },
+      "59VIENNA": {
+        "description": "Panel on Heavy Water Lattices, Vienna 1959",
+        "active": true
+      },
+      "60BASEL": {
+        "description": "Conf.on Polariz.Phenom.in Nuclear React.,Basel 1960",
+        "active": true
+      },
+      "60KINGSTON": {
+        "description": "Nuclear Structure Conf., Kingston 1960",
+        "active": true
+      },
+      "60LONDON": {
+        "description": "Conf.Nuclear Forces and Few-Nucleon Probl.,London 1959",
+        "active": false
+      },
+      "60MOSCOW": {
+        "description": "Low and Medium Energy Nuclear Reactons, Moscow 1960",
+        "active": true
+      },
+      "60SVIENNA": {
+        "description": "Radiation Dosimetry Symp., Vienna, 1960",
+        "active": true
+      },
+      "60VIENNA": {
+        "description": "Pile Neutron Research Symp., Vienna 1960",
+        "active": true
+      },
+      "60WALTAIR": {
+        "description": "Low Energy Nuclear Physics Symp., Waltair 1960",
+        "active": true
+      },
+      "60WIEN": {
+        "description": "Neutron Inelastic Scattering Symp., Vienna 1960",
+        "active": true
+      },
+      "61BOMBAY": {
+        "description": "Nuclear Physics Symp., Bombay 1961",
+        "active": true
+      },
+      "61BRUSSELS": {
+        "description": "Neutron Time-of-Flight Colloquium, Brussels 1961",
+        "active": true
+      },
+      "61BUCHAR": {
+        "description": "Research Reactors Conf., Bucuresti,1961",
+        "active": true
+      },
+      "61DUBNA": {
+        "description": "Slow Neutron Physics Conf., Dubna 1961",
+        "active": true
+      },
+      "61MANCH": {
+        "description": "Rutherford Conf., Manchester 1961",
+        "active": true
+      },
+      "61RPI": {
+        "description": "Neutron Physics Symp., Rensselaer Polytech 1961",
+        "active": true
+      },
+      "61SACLAY": {
+        "description": "Time of Flight Methods Conf., Saclay 1961",
+        "active": true
+      },
+      "61VIENNA": {
+        "description": "Reactor Physics Sem., Vienna 1961",
+        "active": true
+      },
+      "61WIEN": {
+        "description": "Programming and Utiliz.of Research Reactors Symp.Wien,1961",
+        "active": true
+      },
+      "62BNL": {
+        "description": "Neutron Thermalization Conf., Brookhaven 1962",
+        "active": false
+      },
+      "62CHALKR": {
+        "description": "Neutron Inelastic Scattering Symp., Chalk River 1962",
+        "active": true
+      },
+      "62HARWELL": {
+        "description": "Neutron Dosimetry Symp., Harwell 1962",
+        "active": true
+      },
+      "62LOSANG": {
+        "description": "Radiation Effects Symp., Los Angeles 1962",
+        "active": true
+      },
+      "62MADRAS": {
+        "description": "Nuclear Physics Symp., Madras 1962",
+        "active": true
+      },
+      "62MEXICO": {
+        "description": "Peaceful Appl.of Nuclear Energy Symp., Mexico City 1962",
+        "active": true
+      },
+      "62PADUA": {
+        "description": "Nuclear Reaction Mechanisms Conf., Padua 1962",
+        "active": true
+      },
+      "62TRIESTE": {
+        "description": "Theoretical Physics Lectures, Trieste 1962",
+        "active": true
+      },
+      "62WIEN": {
+        "description": "Light Water Lattices Panel, Vienna 1962",
+        "active": true
+      },
+      "63ADAM": {
+        "description": "Expon. and Critical Expts.Symp., Amsterdam 1963",
+        "active": true
+      },
+      "63ANL": {
+        "description": "Nuclear Physics with Reactor Neutrons Conf.,Argonne 1963",
+        "active": false
+      },
+      "63BOMBAY": {
+        "description": "Nuclear and Sol.State Physics Symp., Bombay 1963",
+        "active": true
+      },
+      "63GATLNB": {
+        "description": "Conf.on Compound Nuclear States,Gatlinburg 1963",
+        "active": true
+      },
+      "63HOUSTON": {
+        "description": "Fast Neutron Physics Conf., Houston 1963",
+        "active": true
+      },
+      "63KRLSRH": {
+        "description": "Neutron Physics Conf., Karlsruhe 1963",
+        "active": true
+      },
+      "63MANCHST": {
+        "description": "Nuclear Physics Conf., Manchester 1963",
+        "active": true
+      },
+      "63OXFORD": {
+        "description": "Neutron Flux Detection Symp., Oxford 1963",
+        "active": false
+      },
+      "63SPAULO": {
+        "description": "Research Reactor Utilisation Symp., Sao Paulo 1963",
+        "active": true
+      },
+      "64ATHENS": {
+        "description": "Crystal Diffraction of Nuclear Gamma Rays, Athens,1964",
+        "active": true
+      },
+      "64BOMBAY": {
+        "description": "Neutron Inelastic Scatt.Symp., Bombay 1964",
+        "active": true
+      },
+      "64CHANDGRH": {
+        "description": "Nuclear and Solid State Physics Symp., Chandigarh 1964",
+        "active": true
+      },
+      "64DUBNA": {
+        "description": "Neutron Interactions Conf., Dubna 1964",
+        "active": false
+      },
+      "64GENEVA": {
+        "description": "Third International At.Energy Conf., Geneva 1964",
+        "active": true
+      },
+      "64PARIS": {
+        "description": "Nuclear Physics Congress, Paris 1964",
+        "active": true
+      },
+      "64VIENNA": {
+        "description": "Plutonium for Power Production Panel, Vienna, 1964",
+        "active": true
+      },
+      "64WIEN": {
+        "description": "In-Pile Dosimetry Panel, Vienna, 1964",
+        "active": true
+      },
+      "65ANTWERP": {
+        "description": "Nuclear Structure Study with Neutrons, Antwerp 1965",
+        "active": true
+      },
+      "65CALCUTTA": {
+        "description": "Nuclear and Solid State Physics Symp., Calcutta 1965",
+        "active": true
+      },
+      "65IAEA": {
+        "description": "Accident Dosimetry Symp., Vienna 1965",
+        "active": true
+      },
+      "65KFK": {
+        "description": "Polarization Symp., Karlsruhe 1965",
+        "active": true
+      },
+      "65KRLSRH": {
+        "description": "Pulsed Neutron Symp., Karlsruhe 1965",
+        "active": true
+      },
+      "65SALZBURG": {
+        "description": "Physics and Chemistry of Fission Conf., Salzburg 1965",
+        "active": true
+      },
+      "66ANL": {
+        "description": "Fast Critical Experiments Conf., Argonne 1966",
+        "active": false
+      },
+      "66ARGONNE": {
+        "description": "Capture-Gamma Spectroscopy Conf, Argonne, 1966",
+        "active": false
+      },
+      "66BERKELEY": {
+        "description": "Radiation Measurements Conf., Berkeley 1966",
+        "active": true
+      },
+      "66BOMBAY": {
+        "description": "Nuclear and Solid State Physics Symp., Bombay 1966",
+        "active": true
+      },
+      "66DUBNA": {
+        "description": "Nuclear Pulsed Systems Panel, Dubna 1966",
+        "active": true
+      },
+      "66GATLNBG": {
+        "description": "International Conf.on Nuclear Physics, Gatlinburg, 1966",
+        "active": true
+      },
+      "66LYON": {
+        "description": "Light Nuclei Colloquium, Lyon, 1966",
+        "active": true
+      },
+      "66MOSCOW": {
+        "description": "Nuclear Spectroscopy Conf., Moscow 1966",
+        "active": true
+      },
+      "66OXFORD": {
+        "description": "Conf.on Nuclear Struct.and Elem.Part.,Oxford 1966",
+        "active": true
+      },
+      "66PARIS": {
+        "description": "Nuclear Data For Reactors Conf., Paris 1966",
+        "active": true
+      },
+      "66ROME": {
+        "description": "Measurements in Power Reactors Sem., Rome 1966",
+        "active": true
+      },
+      "66ROSSDF": {
+        "description": "Nuclear Reactions and Structure Conf., Rossendorf 1966",
+        "active": false
+      },
+      "66SDIEGO": {
+        "description": "Reactor Physics Conf., San Diego 1966",
+        "active": true
+      },
+      "66TRIESTE": {
+        "description": "Fundamentals in Nuclear Theory Lectures, Trieste 1966",
+        "active": true
+      },
+      "66VIENNA": {
+        "description": "Symp.on Standardization of Radionuclides,Vienna 1966",
+        "active": true
+      },
+      "66WASH": {
+        "description": "Neutron Cross-Section Techn. Conf., Washington 1966",
+        "active": true
+      },
+      "67ANNARB": {
+        "description": "Neutron Thermalization Symp. Ann Arbor, Mich, 1967",
+        "active": true
+      },
+      "67BORDEAUX": {
+        "description": "Nuclear Physics Colloquium, Bordeaux 1967",
+        "active": true
+      },
+      "67BRELA": {
+        "description": "Light Nuclei Symp., Brela 1967",
+        "active": true
+      },
+      "67BRUSSELS": {
+        "description": "Symp.on Plutonium as a Reactor Fuel, Brussels 1967",
+        "active": true
+      },
+      "67BRXL": {
+        "description": "Neutron Cross-Sections Standards Panel, Brussels 1967",
+        "active": false
+      },
+      "67COLLEG": {
+        "description": "Nuclear Physics Research w.Low Energy Accelerator , U.Maryland 1967",
+        "active": true
+      },
+      "67GNSVLLE": {
+        "description": "Nucleon-Nucleon Interaction Conf., Gainsville 1967",
+        "active": true
+      },
+      "67JUELICH": {
+        "description": "Neutron Physics at Reactors Conf., Juelich 1967",
+        "active": true
+      },
+      "67KANPUR": {
+        "description": "Nuclear and Solid State Physics Symp., Kanpur 1967",
+        "active": false
+      },
+      "67KARLSR": {
+        "description": "Symp.on Fast Reactor Physics,Karlsruhe 1967",
+        "active": true
+      },
+      "67KHARKOV": {
+        "description": "Nuclear Spectroscopy and Structure Conf., Kharkov 1967",
+        "active": true
+      },
+      "67KRAKOW": {
+        "description": "Nuclear Spectroscopy Sem., Krakow 1967",
+        "active": true
+      },
+      "67LUBLIN": {
+        "description": "Polish Physics Congress, Lublin 1967",
+        "active": true
+      },
+      "67MARYLD": {
+        "description": "Symp.on Nuclear Physics Research w.Low Energy Accelerator , Maryland 1967",
+        "active": true
+      },
+      "67MCHG": {
+        "description": "Neutron Thermalization Symp. Ann Arbor, Mich, 1967",
+        "active": false
+      },
+      "67ROS": {
+        "description": "Second Nuclear Reactions+Structure Conf.Rossendorf 1967",
+        "active": false
+      },
+      "67SCHFFHSN": {
+        "description": "Swiss Physical Soc. Meeting, Schaffhausen 1967",
+        "active": true
+      },
+      "67TOKAI": {
+        "description": "Utilization of Research Reactors Meeting,Tokai,1967",
+        "active": true
+      },
+      "67TOKYO": {
+        "description": "Nuclear Structure Conf., Tokyo 1967",
+        "active": true
+      },
+      "67VIENNA": {
+        "description": "Panel on Delayed Fission Neutrons, Vienna 1967",
+        "active": true
+      },
+      "67WIEN": {
+        "description": "Panel on Fuel Burn-Up Predictions,Vienna 1967",
+        "active": true
+      },
+      "68BOMBAY": {
+        "description": "Nuclear and Solid State Physics Symp., Bombay 1968",
+        "active": true
+      },
+      "68COPENHGN": {
+        "description": "Neutron Inelastic Scattering Symp., Copenhagen 1968",
+        "active": true
+      },
+      "68DEBRECEN": {
+        "description": "Electron Capture in Nuclear Decays Conf.,Debrecen,1968",
+        "active": true
+      },
+      "68DUBNA": {
+        "description": "Nuclear Data for Computations Sem., Dubna 1968",
+        "active": true
+      },
+      "68DUBPA": {
+        "description": "Nuclear Structure Studies Panel, Dubna 1968",
+        "active": false
+      },
+      "68DUBSY": {
+        "description": "Symp.on Nuclear Structure, Dubna, USSR, 4-11 Jul 1968",
+        "active": true
+      },
+      "68JINR": {
+        "description": "Nuclear Structure Studies Panel, Dubna 1968",
+        "active": true
+      },
+      "68MADRAS": {
+        "description": "Nuclear and Solid State Physics Symp., Madras 1968",
+        "active": true
+      },
+      "68RIGA": {
+        "description": "Nuclear Spectroscopy and Structure Conf., Riga 1968",
+        "active": true
+      },
+      "68WASH": {
+        "description": "Nuclear Cross-Sections Techn. Conf., Washington 1968",
+        "active": true
+      },
+      "69BIRMIN": {
+        "description": "1st Conf.2 Body Prob.Nuclear Part.Physics , Birmingham 1969",
+        "active": true
+      },
+      "69BOCHUM": {
+        "description": "Clustering Phenomena Conf., Bochum,Germany,1969",
+        "active": true
+      },
+      "69CHAND": {
+        "description": "Chemistry Symp., Chandigarh 1969",
+        "active": true
+      },
+      "69EREVAN": {
+        "description": "Nuclear Spectroscopy Conf., Erevan 1969",
+        "active": true
+      },
+      "69HOUSTON": {
+        "description": "Welch Found.Conf.on Chem.Research ,Houston,1969,Vol.13",
+        "active": true
+      },
+      "69KINSHASA": {
+        "description": "Peaceful Uses of At.Energy in Africa,Kinshasa,1969",
+        "active": true
+      },
+      "69LONDON": {
+        "description": "Physics of Fast Reac.Oper.+ Design,Conf.,London 1969",
+        "active": true
+      },
+      "69MONTRL": {
+        "description": "Conf.on Properties of Nuclear States,Montreal,1969",
+        "active": true
+      },
+      "69RIO": {
+        "description": "Nuclear Physics Symp., Rio de Janeiro 1969",
+        "active": true
+      },
+      "69ROORKEE": {
+        "description": "Nuclear and Solid State Physics Symp., Roorkee 1969",
+        "active": true
+      },
+      "69STUDSVIK": {
+        "description": "Neutron Capture Gamma-Ray Spectroscopy,Studsvik,1969",
+        "active": true
+      },
+      "69TRIESTE": {
+        "description": "Trieste Lectures 1969",
+        "active": true
+      },
+      "69VIENNA": {
+        "description": "Physics and Chemistry of Fission Symp., Vienna 1969",
+        "active": true
+      },
+      "69WIEN": {
+        "description": "Instrumentation for Neut.Inelast.Scat.Research ,Vienna1969",
+        "active": true
+      },
+      "70ANL": {
+        "description": "Neutron Standards Symp., Argonne 1970",
+        "active": true
+      },
+      "70BARCEL": {
+        "description": "7.International Conf.on Corpuscular Photography, Barcelona 1970",
+        "active": true
+      },
+      "70CHICAGO": {
+        "description": "APS Meeting Chicago 1970",
+        "active": false
+      },
+      "70HELSINKI": {
+        "description": "Nuclear Data for Reactors Conf., Helsinki 1970",
+        "active": true
+      },
+      "70LENING": {
+        "description": "Nuclear Spectroscopy Conf.,Leningrad 1970",
+        "active": true
+      },
+      "70LVEG": {
+        "description": "ANS Nuclear Expl.Symp.,Las Vegas 1970",
+        "active": true
+      },
+      "70MADISON": {
+        "description": "Polarization Phenomena Conf., Madison 1970",
+        "active": true
+      },
+      "70MADRAS": {
+        "description": "Chemistry Symp., ITT, Madras 1970",
+        "active": true
+      },
+      "70MADURAI": {
+        "description": "Nuclear and Solid State Physics Symp., Madurai 1970",
+        "active": true
+      },
+      "70MARBG": {
+        "description": "7.International Conf.on Electrom.Isotope Separatn, Marburg 1970",
+        "active": true
+      },
+      "70PARIS": {
+        "description": "Reactor Shielding Specialist Meeting, Paris, 1970",
+        "active": true
+      },
+      "70SFE": {
+        "description": "Plutonium 1970 Symp. Santa Fe 1970",
+        "active": true
+      },
+      "71ALBANY": {
+        "description": "Conf.on Statistical Properties of Nuclei,Albany,1971",
+        "active": true
+      },
+      "71BUDAPEST": {
+        "description": "Symp.on The Nuclear 3-Body Problem, Budapest 1971",
+        "active": false
+      },
+      "71CANT": {
+        "description": "Chemical Nuclear Data Conf.,Canterbury 1971",
+        "active": true
+      },
+      "71KIEV": {
+        "description": "Neutron Physics Conf., Kiev 1971",
+        "active": true
+      },
+      "71KNOX": {
+        "description": "3rd Conf.Neutron Cross-Sections+Tech.,Knoxville 1971",
+        "active": true
+      },
+      "71MOCKBA": {
+        "description": "Neutron Metrology Conf, Moscow 1971",
+        "active": true
+      },
+      "71MOSCOW": {
+        "description": "Nuclear Spectroscopy Conf., Moscow 1971",
+        "active": true
+      },
+      "71VIENNA": {
+        "description": "Prompt Fission Neutron Spectra Meeting, Vienna 1971",
+        "active": true
+      },
+      "72ALUSHTA": {
+        "description": "Nuclear Structure Lectures, Alushta 1972",
+        "active": false
+      },
+      "72BOMBAY": {
+        "description": "14.Nuclear and Solid State Physics Symp, Bombay 1972",
+        "active": true
+      },
+      "72BUD": {
+        "description": "Nuclear Structure Conf.,Budapest 1972",
+        "active": true
+      },
+      "72CHANDG": {
+        "description": "15.Nuclear and Solid State Physics Symp. Chandigarh 1972",
+        "active": true
+      },
+      "72DENVER": {
+        "description": "18.Conf.on Magnetism and Magnetic Mat.,Denver 1972",
+        "active": true
+      },
+      "72GRENOBLE": {
+        "description": "Neutron Inelastic Scattering Symp., Grenoble 1972",
+        "active": true
+      },
+      "72KIAMESHA": {
+        "description": "Conf.on Developm.in Reactor Physics ,Kiamesha Lake 1972",
+        "active": true
+      },
+      "72KIEV": {
+        "description": "22. Nuclear Spectroscopy Conf, Kiev 1972",
+        "active": true
+      },
+      "72LANZH": {
+        "description": "Conf.on Low Energy Nuclear Physics ,Lanzhou,1972",
+        "active": true
+      },
+      "72LOSANG": {
+        "description": "Conf. on Few-Particle Problems, Los Angeles 1972",
+        "active": true
+      },
+      "72NEUHER": {
+        "description": "1.Symp.on Neutron Dosimetry,Munich-Neuherberg,May1972",
+        "active": true
+      },
+      "72PARIS": {
+        "description": "4.International Reactor Shielding Conf., Paris 1972",
+        "active": true
+      },
+      "72PREDEAL": {
+        "description": "Summer School Nuclear Data and React.Physics ,Predeal 1972",
+        "active": true
+      },
+      "72SENDAI": {
+        "description": "Conf.Nuclear Structure Studies, Sendai, Japan, 1972",
+        "active": true
+      },
+      "72VIENNA": {
+        "description": "Panel on Neutron Standard Reference Data,Vienna,1972",
+        "active": true
+      },
+      "73BANGLO": {
+        "description": "16.Nuclear and Solid State Physics Symp.,Bangalore,1973",
+        "active": true
+      },
+      "73BOLOGNA": {
+        "description": "IAEA Panel on Fission-Product Nuclear Data",
+        "active": false
+      },
+      "73BOSTON": {
+        "description": "19.Conf.on Magnetism and Magnetic Mat.,Boston 1973",
+        "active": true
+      },
+      "73DUBNA": {
+        "description": "13. Nuclear Spectroscopy Symp., Dubna 1973",
+        "active": false
+      },
+      "73GAUSSIG": {
+        "description": "3.Sem.on Interact.of Fast Neutrons,Gaussig 1973",
+        "active": false
+      },
+      "73KARLSR": {
+        "description": "Capture Cross-Sections Panel, Karlsruhe 1973",
+        "active": false
+      },
+      "73KIEV": {
+        "description": "2.Conf.on Neutron Physics, Kiev 1973",
+        "active": true
+      },
+      "73MUNICH": {
+        "description": "International Conf.on Nuclear Physics,Munich 1973",
+        "active": true
+      },
+      "73PACIFI": {
+        "description": "International Conf.on Photonucl.Reactions,Pacific Grove 1973",
+        "active": true
+      },
+      "73PARIS": {
+        "description": "Applications of Nuclear Data Symp., Paris 1973",
+        "active": true
+      },
+      "73PETTEN": {
+        "description": "Nuclear Physics Symp., Petten 1973",
+        "active": true
+      },
+      "73ROCH": {
+        "description": "3.Physics+Chemistry of Fission Symp., Rochester 1973",
+        "active": true
+      },
+      "73TBILISI": {
+        "description": "23. Nuclear Spectroscopy Conf., Tbilisi 1973",
+        "active": true
+      },
+      "73TOKAI": {
+        "description": "Meeting on Fast Reactor Physics, Tokai 1973",
+        "active": true
+      },
+      "73TRIEST": {
+        "description": "International Extend.Sem.on Nuclear Physics,Trieste 1973",
+        "active": true
+      },
+      "74AMSTER": {
+        "description": "Conf.on Nuclear Struct.and Spectroscopy,Amsterdam 1974",
+        "active": true
+      },
+      "74BOMBAY": {
+        "description": "17.Nuclear and Solid State Physics Symp.,Bombay 1974",
+        "active": true
+      },
+      "74CALCUT": {
+        "description": "International Symp.on Radiation Physics, Calcutta 1974",
+        "active": true
+      },
+      "74COLUMB": {
+        "description": "2.Conf.on Nuclear Meth.in Envir.Research ,Columbia 1974",
+        "active": true
+      },
+      "74DACCA": {
+        "description": "Physics Symp., Dhaka,18-21 Nov.1974",
+        "active": true
+      },
+      "74GAUSSIG": {
+        "description": "5.Sem.on Interact.of Fast Neutrons,Gaussig 1974",
+        "active": false
+      },
+      "74KHARKOV": {
+        "description": "24.Conf.on Nuclear Spectr.and Nuclear Struct.,Kharkov 1974",
+        "active": false
+      },
+      "74KHARKV": {
+        "description": "24.Conf.on Nuclear Spectr.and Nuclear Struct.,Kharkov 1974",
+        "active": true
+      },
+      "74NASH": {
+        "description": "International Conf.on React.Betw.Complex Nuclei,Nashville 1974",
+        "active": true
+      },
+      "74PETTEN": {
+        "description": "2.Symp.on Neutr.Capt.Gamma Ray Spectrosc.,Petten 1974",
+        "active": true
+      },
+      "74SHANGH": {
+        "description": "Conf.on Nuclear Physics,Shanghai 1974",
+        "active": true
+      },
+      "74SMOLEN": {
+        "description": "International Symp.on Neutron Induced Reactions,Smolenice 1974",
+        "active": false
+      },
+      "75CALCUTTA": {
+        "description": "18.Nuclear and Solid State Physics Symp.,Calcutta,1975",
+        "active": true
+      },
+      "75DEBREC": {
+        "description": "Symp.on Fast Neutr.Interactions,Debrecen 1975",
+        "active": false
+      },
+      "75DELHI": {
+        "description": "7.Conf.on Few-Body Problems,Delhi Dec.1975/Jan.1976",
+        "active": true
+      },
+      "75GATLIN": {
+        "description": "Conf.Rad.Eff.Trit.Tech.for Fus.React.,Gatlinburg,1975",
+        "active": true
+      },
+      "75GAUSSIG": {
+        "description": "5.Sem.on Interact.of Fast Neutrons,Gaussig 1975",
+        "active": true
+      },
+      "75GOTHEN": {
+        "description": "Conf.in Physics,Gothenburg,10-12 Jun 1975",
+        "active": true
+      },
+      "75HARWELL": {
+        "description": "Europhysics Conf.on Nuclear Interactions, Harwell 1975",
+        "active": true
+      },
+      "75KARLSR": {
+        "description": "Seminar on Aspects of Cf-252,Karlsruhe 1975",
+        "active": true
+      },
+      "75KIEV": {
+        "description": "3.All Union Conf.on Neutron Physics ,Kiev,9-13 Jun 1975",
+        "active": true
+      },
+      "75LENING": {
+        "description": "25.Conf.on Nuclear Spect.and Nuclear Struct.,Leningrad 1975",
+        "active": true
+      },
+      "75MRYLND": {
+        "description": "2.Conf.on Clustering Phen.in Nuclei,Maryland 1975",
+        "active": true
+      },
+      "75WASH": {
+        "description": "Conf.on Nuclear Cross-Sect.and Techn.,Washington 1975",
+        "active": true
+      },
+      "75ZUERI": {
+        "description": "7.International Conf.on Cyclotrons,Zuerich 1975",
+        "active": true
+      },
+      "75ZURICH": {
+        "description": "4.International Symp.on Polarization Phen.,Zuerich 1975",
+        "active": true
+      },
+      "76AHMEDABA": {
+        "description": "19.Nuclear Physics Solid State Physics Symp.,Ahmedabad,1976",
+        "active": true
+      },
+      "76ANL": {
+        "description": "Meet.Fast Neutr.Cross Sect.of U and Pu,Argonne 1976",
+        "active": true
+      },
+      "76ANL-2": {
+        "description": "Symp.on Macrosc.React.of Heavy Ion Coll.,Argonne 1976",
+        "active": true
+      },
+      "76BAKU": {
+        "description": "Conf.on Nuclear Spectr.and Nuclear Struct.,Baku 1976",
+        "active": true
+      },
+      "76BOMBAY": {
+        "description": "Symp.on Reactor Physics, Bombay, 1-3 Mar 1976",
+        "active": true
+      },
+      "76CAEN": {
+        "description": "European Conf.on Nuclear Physics with Heavy Ions,Caen 1976",
+        "active": true
+      },
+      "76CORSICA": {
+        "description": "3.International Conf.on Nuclei Far from Stability,Cargese,1976",
+        "active": true
+      },
+      "76GARMIS": {
+        "description": "9th Symp. on Fusion Technology, Garmisch 1976",
+        "active": true
+      },
+      "76LOWELL": {
+        "description": "International Conf.on Interact.of Neutr.with Nuclei,Lowell 1976",
+        "active": true
+      },
+      "76NEUHER": {
+        "description": "9.Conf.Solid State Nuclear Track Detect.,Neuherberg 1976",
+        "active": true
+      },
+      "76PARIS": {
+        "description": "Paris.Symp.of International Symp.Cf-252 Utilization, Paris 1976",
+        "active": true
+      },
+      "76RIGA": {
+        "description": "School on Neutron Metrology, Riga, 22 Nov-3 Dec 1976",
+        "active": true
+      },
+      "77BNL": {
+        "description": "Symp.on Neutr.Cross-Sect. 10 - 40 MeV,Brookhaven 1977",
+        "active": true
+      },
+      "77BNL-2": {
+        "description": "Meeting on Accelerator Breeding,Brookhaven 1977",
+        "active": true
+      },
+      "77GEEL": {
+        "description": "Meet.on Neutr.Data of Struct.Mat.,Geel 1977",
+        "active": true
+      },
+      "77KIEV": {
+        "description": "4.All Union Conf.on Neutron Physics ,Kiev,18-22 Apr 1977",
+        "active": true
+      },
+      "77MANNHE": {
+        "description": "Reaktortagung 1977, Mannheim, Germany, Mar 1977",
+        "active": true
+      },
+      "77NBS": {
+        "description": "Symp.on Neutron Standards,Gaithersburg 1977",
+        "active": true
+      },
+      "77PALOALTO": {
+        "description": "2nd Symposium on Reactor Dosimetry, Palo Alto 1977",
+        "active": true
+      },
+      "77PARIS": {
+        "description": "Meeting on Natural Fission Reactors,Paris 1977",
+        "active": true
+      },
+      "77PLOVDIV": {
+        "description": "15th International Cosmic Ray Conf., Plovdiv 1977",
+        "active": true
+      },
+      "77PUNE": {
+        "description": "20.Nuclear Physics and Solid State Physics Symp.,Poona 1977",
+        "active": true
+      },
+      "77TASHKENT": {
+        "description": "27.Conf.on Nuclear Spectr.and Nuclear Struct.,Tashkent 1977",
+        "active": true
+      },
+      "77TENN": {
+        "description": "Conf.on Heavy Ion Collisions,Falls Creek,Tenn. 1977",
+        "active": true
+      },
+      "77TOKYO": {
+        "description": "International Conf.on Nuclear Structure, Tokyo, 5-10 Sep 1977",
+        "active": true
+      },
+      "77VIENNA": {
+        "description": "Symp.on Neutron Inelastic Scattering, Vienna 1977",
+        "active": true
+      },
+      "78ALMAATA": {
+        "description": "28.Conf.on Nuclear Spectr.and Nuclear Struct.,Alma-Ata 1978",
+        "active": true
+      },
+      "78ALUSHTA": {
+        "description": "3.International School on Neutron Physics, Alushta 1978",
+        "active": true
+      },
+      "78BNL": {
+        "description": "3.Symp.Neutr.Capt.Gamma Ray Spectr.,Brookhaven 1978",
+        "active": true
+      },
+      "78BNL-2": {
+        "description": "Meet.Nuclear Data Higher Pu and Am Isot.,Brookhaven 1978",
+        "active": false
+      },
+      "78BOMBAY": {
+        "description": "21.Nuclear Physics and Solid State Physics Symp., Bombay 1978",
+        "active": true
+      },
+      "78GRAZ": {
+        "description": "International Conf.on Few Body Syst.and Nuclear Forces,Graz 1978",
+        "active": true
+      },
+      "78HARWELL": {
+        "description": "International Conf.on Neutr.Physics and Nuclear Data,Harwell 1978",
+        "active": true
+      },
+      "78HEIDLB": {
+        "description": "Meet.on Nuclear and High Energy Physics,Heidelberg 1978",
+        "active": true
+      },
+      "78LUSHAN": {
+        "description": "3.Chinese Nuclear Physics Conf.,Lushan,China,Aug.1978",
+        "active": true
+      },
+      "78MAYAG": {
+        "description": "Conf.on Computers in Activ.Analysis,Mayaguez 1978",
+        "active": true
+      },
+      "79AIX": {
+        "description": "Symp.on Fast Reactor Physics,Aix-en-Provence 1979",
+        "active": true
+      },
+      "79BOLOGN": {
+        "description": "Meet.Neutr.Cross Sect.of Fiss.Prod.Nuclear ,Bologna 1979",
+        "active": true
+      },
+      "79GAUSSIG": {
+        "description": "9.Symp.on Interact.of Fast Neutrons,Gaussig 1979",
+        "active": false
+      },
+      "79GEEL": {
+        "description": "Meet.on Neutr.Cross Sect.For Struct.Mat.,Geel 1979",
+        "active": true
+      },
+      "79GHENT": {
+        "description": "Meeting on Nuclear Physics, Ghent, 26-30 Mar 1979",
+        "active": true
+      },
+      "79GRENOB": {
+        "description": "Workshop Nuclear Spectr. of Fiss. Prod., Grenoble, 1979",
+        "active": true
+      },
+      "79INNSBR": {
+        "description": "17.Meet.of the Ges.f.Nuklearmedizin,Innsbruck 1979",
+        "active": true
+      },
+      "79JUELICH": {
+        "description": "IAEA Symp.on Physics and Chem.of Fission,Juelich 1979",
+        "active": true
+      },
+      "79KNOX": {
+        "description": "Conf.on Nuclear Cross Sections F.Techn.,Knoxville 1979",
+        "active": true
+      },
+      "79LYON": {
+        "description": "10.Conf.on Solid State Nuclear Track Detect.,Lyon 1979",
+        "active": true
+      },
+      "79MADRAS": {
+        "description": "22.Nuclear Physics and Solid State Physics Symp.,Madras 1979",
+        "active": true
+      },
+      "79RHODES": {
+        "description": "Conf.on Structure of Medium-Heavy Nuclei, Rhodes 1979",
+        "active": true
+      },
+      "79RIGA": {
+        "description": "29.Conf.on Nuclear Spectr.and Nuclear Struct.,Riga 1979",
+        "active": true
+      },
+      "79SMOLENIC": {
+        "description": "2.Symp.on Neutron Induced Reactions,Smolenice 1979",
+        "active": true
+      },
+      "80BEIJING": {
+        "description": "Theories and Meth.of Nuclear Reactions,Beijing 1980",
+        "active": true
+      },
+      "80BERKELEY": {
+        "description": "International Conf.Nuclear Physics, Berkeley,California,1980",
+        "active": true
+      },
+      "80BNL": {
+        "description": "Symp.on Neutr.Cross Sect.10-50 MeV,Brookhaven 1980",
+        "active": true
+      },
+      "80BNL-2": {
+        "description": "Conf.on Nuclear Data Eval.Methods,Brookhaven 1980",
+        "active": true
+      },
+      "80DELHI": {
+        "description": "23.Nuclear Physics A.Solid State Physics Symp.,New Delhi 1980",
+        "active": true
+      },
+      "80KIEV": {
+        "description": "5.All Union Conf.on Neutron Physics ,Kiev,15-19 Sep 1980",
+        "active": true
+      },
+      "80KOPPENN": {
+        "description": "Meet.Technol.Contr.Nuclear Fusion,King of Prussia 1980",
+        "active": true
+      },
+      "80LANZHO": {
+        "description": "4.Chinese Nuclear Physics Conf.,Lanzhou,China,Oct.1980",
+        "active": true
+      },
+      "80LENGRD": {
+        "description": "30.Conf.Nuclear Spectr.and Nuclear Struct.,Leningrad 1980",
+        "active": true
+      },
+      "80MUNICH": {
+        "description": "Meeting on Nuclear Physics, Munich, 17-22 Mar 1980",
+        "active": true
+      },
+      "80SANTA": {
+        "description": "5.Symp.on Polar.Phen.in Nuclear Physics ,Santa Fe 1980",
+        "active": true
+      },
+      "80SANTA FE": {
+        "description": "5.Symp.on Polar.Phen.in Nuclear Physics ,Santa Fe 1980",
+        "active": false
+      },
+      "80WALTAI": {
+        "description": "Nuclear Chem.and Radiochem.Symp.,Waltair,India 1980",
+        "active": true
+      },
+      "81ANL": {
+        "description": "Neutron Scattering Conf.,Argonne National Laboratory 1981",
+        "active": true
+      },
+      "81BOMBAY": {
+        "description": "24.Nuclear Physics and Solid State Physics Symp.,Bombay 1981",
+        "active": true
+      },
+      "81GRENOB": {
+        "description": "4.Symp.Neutr.Capt.Gamma-Ray Spectrosc.,Grenoble 1981",
+        "active": true
+      },
+      "81NEUHERBG": {
+        "description": "4.Symp.on Neutron Dosimetry, Munich-Neuherberg 1981",
+        "active": true
+      },
+      "81SAMAR": {
+        "description": "31.Conf.Nuclear Spectr.and Nuclear Struct.,Samarkand 1981",
+        "active": true
+      },
+      "82ANTWER": {
+        "description": "Conf.on Nuclear Data for Sci.and Technol.,Antwerp 1982",
+        "active": true
+      },
+      "82GAITHERS": {
+        "description": "4th Symp. on Reactor Dosimetry, Washington D.C. 1982",
+        "active": true
+      },
+      "82KIAMES": {
+        "description": "Meet.on Adv.in Reactor Physics ,Kiamesha Lake 1982",
+        "active": true
+      },
+      "82KIEV": {
+        "description": "32.Conf.on Nuclear Spectr.and Nuclear Struct.,Kiev 1982",
+        "active": true
+      },
+      "82SMOLEN": {
+        "description": "Conf.on Neutron Induced Reactions,Smolenice 1982",
+        "active": true
+      },
+      "82VARANA": {
+        "description": "25.Nuclear Physics A.Solid State Physics Symp.,Varanasi 1982",
+        "active": true
+      },
+      "82WASH": {
+        "description": "4.Symp.on Radiation Dosimetry,Washington D.C. 1982",
+        "active": false
+      },
+      "83GAUSSG": {
+        "description": "13.International Conf.on Nuclear Physics , Gaussig 1983",
+        "active": false
+      },
+      "83KIEV": {
+        "description": "6.All-Union Conf.on Neutron Physics,Kiev,2-6 Oct.1983",
+        "active": true
+      },
+      "83MOSCOW": {
+        "description": "33.Conf.on Nuclear Spectr.and Nuclear Struct.,Moscow 1983",
+        "active": true
+      },
+      "83MOSKVA": {
+        "description": "3.Meet.on Neutron Radiation Metrology,Moscow 1983",
+        "active": true
+      },
+      "83MYSORE": {
+        "description": "26.Nuclear Physics and Solid State Physics Symp.,Mysore 1983",
+        "active": true
+      },
+      "83TOKYO": {
+        "description": "Symp.on High Energy Photonucl.Reactions, Tokyo 1983",
+        "active": true
+      },
+      "83TURKU": {
+        "description": "3.Symp.on Med.Appl.of Cyclotrons, Turku, Finland,1983",
+        "active": true
+      },
+      "83WASH": {
+        "description": "Symp.Ultrashort-Lived Radionucl.,Washington D.C.1983",
+        "active": true
+      },
+      "84ALMAAT": {
+        "description": "34.Conf.on Nuclear Spectr.A.Nuclear Struct.,Alma-Ata 1984",
+        "active": true
+      },
+      "84DEBREC": {
+        "description": "International Symp.on In-Beam Nuclear Spectroscopy, Debrecen 1984",
+        "active": true
+      },
+      "84FUJI": {
+        "description": "International Symp.on Heavy Ion Nuclear Physics,Fuji 1984",
+        "active": true
+      },
+      "84GAUSSIG": {
+        "description": "14.Symp.on Nuclear Physics ,Gaussig,DDR,1984",
+        "active": true
+      },
+      "84GEESTH": {
+        "description": "5th Symposium on Reactor Dosimetry, Geesthacht, 1984",
+        "active": true
+      },
+      "84KNOX": {
+        "description": "Symp.on Capt.Gamma Ray Spectroscopy,Knoxville 1984",
+        "active": true
+      },
+      "84OHIO": {
+        "description": "Conf.on Neutron-Nucleus Collisions,Glouster 1984",
+        "active": true
+      },
+      "84OSAKA": {
+        "description": "Symp.on Nuclear Spectr.and Nuclear Interact.,Osaka 1984",
+        "active": true
+      },
+      "84TRIUMF": {
+        "description": "TRIUMF-ISOL Workshop, Mont Gabriel, Quebec, 1984",
+        "active": true
+      },
+      "84UPPSAL": {
+        "description": "Conf.on Transactinium Isotope Nuclear Data,Uppsala 1984",
+        "active": false
+      },
+      "84VARESE": {
+        "description": "13th Symposium on Fusion Technology, Varese,Sept.1984",
+        "active": true
+      },
+      "84VENICE": {
+        "description": "6.Symp.Safeguards and Nuclear Mat.Managem.,Venice 1984",
+        "active": true
+      },
+      "85CHIANG": {
+        "description": "Fast Neutrons in Sci.and Techn.Symp.,Chiang Mai 1985",
+        "active": true
+      },
+      "85CHICAG": {
+        "description": "Nuclei Off Line of Stability Symp.,Chicago,1985",
+        "active": true
+      },
+      "85GAUSSI": {
+        "description": "15.Symp.on Nuclear Physics ,Nuclear Fission,Gaussig,DDR,1985",
+        "active": false
+      },
+      "85JAIPUR": {
+        "description": "Symp.on Nuclear Physics ,Jaipur,16-20 Dec.1985",
+        "active": true
+      },
+      "85JUELIC": {
+        "description": "Conf.on Neutron Scatt.in the Nineties,Juelich 1985",
+        "active": true
+      },
+      "85LENING": {
+        "description": "35.Conf.Nuclear Spectr.and Nuclear Struct.,Leningrad 1985",
+        "active": true
+      },
+      "85SANTA": {
+        "description": "Conf.on Nuclear Data f.Basic a.Appl.Sci.,Santa Fe 1985",
+        "active": true
+      },
+      "86BEIJIN": {
+        "description": "International Conf.Nuclear Radiochemistry, Beijing, 1-5 Sept.1986",
+        "active": true
+      },
+      "86BIRMIN": {
+        "description": "Delayed Neutr.Prop.Meeting, Birmingham 1986",
+        "active": true
+      },
+      "86DUBRO2": {
+        "description": "Conf.Nuclear Struct.,Reactions,Symmetries,Dubrovnik 1986",
+        "active": true
+      },
+      "86DUBROV": {
+        "description": "International Conf.on Fast Neutr.Physics ,Dubrovnik,26-31 May 1986",
+        "active": true
+      },
+      "86HABAY": {
+        "description": "Sem.on Fission, Habay-la-Neuve,Belgium,22-23 May 1986",
+        "active": true
+      },
+      "86HARROG": {
+        "description": "International Nuclear Physics Conf., Harrogate,U.K.,25-30 Aug.1986",
+        "active": true
+      },
+      "86KHARKO": {
+        "description": "36.Conf.Nuclear Spectrosc.and Nuclear Struct.,Kharkov 1986",
+        "active": true
+      },
+      "86TEL-AV": {
+        "description": "Nuclear Soc.of Israel Meeting,Tel Aviv,17-18 Feb.1986",
+        "active": true
+      },
+      "86TURKU": {
+        "description": "4.Symp.on Med.Appl.of Cyclotrons, Turku, Finland,1986",
+        "active": true
+      },
+      "86WASH": {
+        "description": "Conf.3-Body Force in 3-Nucleon Syst.,Washington D.C.",
+        "active": true
+      },
+      "87BADHON": {
+        "description": "Symp.on Dynamics of Collective Phen.,Bad Honnef 1987",
+        "active": true
+      },
+      "87JURMAL": {
+        "description": "37.Conf.Nuclear Spectrosc.and Nuclear Struct.,Jurmala 1987",
+        "active": true
+      },
+      "87KIEV": {
+        "description": "1.International Conf.on Neutron Physics, Kiev,14-18 Sep 1987",
+        "active": true
+      },
+      "87LEUVEN": {
+        "description": "6.Conf.on Capture Gamma-ray Spectroscopy, Leuven 1987",
+        "active": true
+      },
+      "87ROSSEA": {
+        "description": "5.Conf.on Nuclei Far from Stability,Rosseau Lake 1987",
+        "active": true
+      },
+      "87VIENNA": {
+        "description": "IAEA Meet.on Fusion Eval.Nuclear Data,Vienna,Nov.1987",
+        "active": true
+      },
+      "87ZVENIGRD": {
+        "description": "Program of Exp.Research at Meson Factory INR AS USSR 1987",
+        "active": true
+      },
+      "88BADHON": {
+        "description": "Conf.on Nuclear Struct.of the Zr Region,Bad Honnef 1988",
+        "active": true
+      },
+      "88BAKU": {
+        "description": "38.Conf.Nuclear Spectrosc.and Nuclear Struct., Baku 1988",
+        "active": true
+      },
+      "88BOMBAY": {
+        "description": "31.Nuclear Physics Symp., Bombay, 27 - 31 Dec.1988",
+        "active": true
+      },
+      "88GAUSSI": {
+        "description": "18.International Conf.on Nuclear Physics , Gaussig 1988",
+        "active": true
+      },
+      "88JACKHO": {
+        "description": "International Reactor Physics Conf.,Jackson Hole,18-22 Sep.1988",
+        "active": false
+      },
+      "88MITO": {
+        "description": "Conf.on Nuclear Data For Sci.and Technol.,Mito 1988",
+        "active": true
+      },
+      "88SMOLEN": {
+        "description": "Symp.on Nucleon Induced Reactions, Smolenice 1988",
+        "active": true
+      },
+      "88TRIEST": {
+        "description": "Worksh.on Applied Nuclear Theory, Trieste 1988",
+        "active": true
+      },
+      "89ALBUQU": {
+        "description": "High Energy &Heavy Ion Beams in Mat.An.,Albuquerque 1989",
+        "active": true
+      },
+      "89ALIGAR": {
+        "description": "32nd Nuclear Physics Symp., Aligarh, 26-30 Dec.1989",
+        "active": true
+      },
+      "89BANGLO": {
+        "description": "International Sem.on Direct Nuclear Reactions,Bangalore, 1989",
+        "active": true
+      },
+      "89BERLIN": {
+        "description": "International Conf.on 50 Years Research in Nuclear Fiss., Berlin 1989",
+        "active": false
+      },
+      "89BRAUNS": {
+        "description": "Nuclear Decay Data Symp., Braunschweig 1989",
+        "active": false
+      },
+      "89LENING": {
+        "description": "International Conf.50th Anniv.of Nuclear Fission, Leningrad 1989",
+        "active": true
+      },
+      "89TASHKE": {
+        "description": "39.Conf.Nuclear Spectrosc.and Nuclear Struct.,Tashkent 1989",
+        "active": true
+      },
+      "89TURKU": {
+        "description": "5.Symp.on Med.Appl.of Cyclotrons, Turku, Finland,1989",
+        "active": true
+      },
+      "89WASH": {
+        "description": "50 Years Nuclear Fission Conf., Washington D.C., 1989",
+        "active": true
+      },
+      "90ASILOM": {
+        "description": "7.Symp.on Capture Gamma Ray Spectrosc.,Asilomar 1990",
+        "active": true
+      },
+      "90BOMBAY": {
+        "description": "Indo-Japan Sem.on Thorium Utilization,Bombay 1990",
+        "active": true
+      },
+      "90LENING": {
+        "description": "40.Conf.Nuclear Spectroscopy Nuclear Struct.,Leningrad 1990",
+        "active": true
+      },
+      "90MARSEI": {
+        "description": "International Conf.on the Physics of Reactors, Marseille 1990",
+        "active": true
+      },
+      "90STRASB": {
+        "description": "7.International Symposium on Reactor Dosimetry, Strasbourg,1990",
+        "active": true
+      },
+      "91BEIJIN": {
+        "description": "Symp.on Fast Neutron Physics, Beijing, 9-13 Sep 1991",
+        "active": true
+      },
+      "91GAUSSG": {
+        "description": "21.International Symp.on Nuclear Physics , Gaussig 1991",
+        "active": true
+      },
+      "91JUELIC": {
+        "description": "Conf.on Nuclear Data for Sci.and Technol.,Juelich 1991",
+        "active": true
+      },
+      "91MINSK": {
+        "description": "41.Conf.Nuclear Spectroscopy Nuclear Struct.,Minsk 1991",
+        "active": true
+      },
+      "91UPPSAL": {
+        "description": "Meet.on Neutron Cross Section Standards, Uppsala 1991",
+        "active": false
+      },
+      "91VILLIG": {
+        "description": "4.International Worksh.on Targetry, Villigen, Switzerland,1991",
+        "active": true
+      },
+      "92ADELAI": {
+        "description": "13.International Conf.on Few Body Problems,Adelaide,Jan.1992",
+        "active": true
+      },
+      "92ALMAAT": {
+        "description": "International Conf.Nuclear Spectroscopy Nuclear Struct.,Alma-Ata 1992",
+        "active": true
+      },
+      "92BERNKAST": {
+        "description": "6th Conf.Nuclear Far Stab., Bernkastel-Kues, July 1992",
+        "active": true
+      },
+      "92BNL": {
+        "description": "International Symp.on Nuclear Data Eval.Methodology, BNL, Oct.1992",
+        "active": true
+      },
+      "92BOMBAY": {
+        "description": "35.Nuclear Physics Symp., Bombay, 21 - 24 Dec.1992",
+        "active": true
+      },
+      "92KARLSR": {
+        "description": "Conf.on Nuclei in the Cosmos, Karlsruhe, July 1992",
+        "active": true
+      },
+      "92TRIEST": {
+        "description": "Workshop on Comput.and Anal.of Nuclear Data,Trieste 1992",
+        "active": true
+      },
+      "92TURKU": {
+        "description": "6.Symp.on Med.Appl.of Cyclotrons, Turku, Finland,1992",
+        "active": true
+      },
+      "93CALICUT": {
+        "description": "36th Nuclear Physics Symposium, Calicut, 1993",
+        "active": true
+      },
+      "93DUBNS": {
+        "description": "43.International Conf.Nuclear Spectrosc.Nuclear Struct.,Dubna 1993",
+        "active": true
+      },
+      "93FRIBOU": {
+        "description": "8.International Conf.Capture Gamma-Ray Spectrosc.,Fribourg 1993",
+        "active": true
+      },
+      "93VAIL": {
+        "description": "8th Symposium on Reactor Dosimetry, Vail, CO, 1993",
+        "active": true
+      },
+      "94AQUI": {
+        "description": "Conf.on Nuclei in the Cosmos, L'Aquila, 1994   1994",
+        "active": true
+      },
+      "94BOLOGN": {
+        "description": "Meas.,Calc.and Eval.of Photon Prod.Data,Bologna 1994",
+        "active": true
+      },
+      "94CRETE": {
+        "description": "Conf.on Neutrons and Their Appl.,Crete,Greece,1994",
+        "active": true
+      },
+      "94DENTON": {
+        "description": "Conf.on Appl.of Accelerator in Research and Ind.,Denton,USA,1994",
+        "active": true
+      },
+      "94GATLIN": {
+        "description": "Conf.on Nuclear Data for Sci.and Techn.,Gatlinburg 1994",
+        "active": true
+      },
+      "94PARIS": {
+        "description": "Specialists' Meet.Intermed.Ene.Nuclear Data, Paris, 1994",
+        "active": true
+      },
+      "94PETRBG": {
+        "description": "Conf.Nuclear Spectrosc.Nuclear Struct.,St.Petersburg 1994",
+        "active": true
+      },
+      "95ARLES": {
+        "description": "Conf.Exotic Nuclei and Atomic Masses, Arles, 1995",
+        "active": true
+      },
+      "95HABAY": {
+        "description": "Sem.on Fission, Habay-la-Neuve, Belgium, 1995",
+        "active": true
+      },
+      "95OBNIN": {
+        "description": "13.Meeting on Physics of Nuclear Fission, Obninsk 1995",
+        "active": true
+      },
+      "95PETRBG": {
+        "description": "Conf.Nuclear Spectrosc.Nuclear Struct.,St.Petersburg 1995",
+        "active": true
+      },
+      "95TURKU": {
+        "description": "7.Symp.on Med.Appl.of Cyclotrons, Turku, Finland,1995",
+        "active": true
+      },
+      "95VANCOU": {
+        "description": "6th Worksh.on Targetry, Vancouver, Canada,1995",
+        "active": true
+      },
+      "96BUDA": {
+        "description": "9.Symp.on Capture Gamma Ray Spect., Budapest, 1996",
+        "active": true
+      },
+      "96DENTON": {
+        "description": "Conf.on Appl.of Accelerator in Research and Ind.,Denton,USA,1996",
+        "active": true
+      },
+      "96KALMAR": {
+        "description": "Conf.on Accelerator Driven Transmut.Tech.Appl.,Kalmar, 1996",
+        "active": true
+      },
+      "96MITO": {
+        "description": "Conf.on the Physics of Reactors, Mito, Japan 1996",
+        "active": true
+      },
+      "96MOSCOW": {
+        "description": "Conf.Nuclear Spectrosc.Nuclear Struct., Moscow, June 1996",
+        "active": true
+      },
+      "96NOTRED": {
+        "description": "Conf.on Nuclei in the Cosmos IV, Notre Dame, 1996",
+        "active": true
+      },
+      "96PANTNG": {
+        "description": "Department Atom.Energ.Symp.on Nuclear Physics , Pantnagar, 1996",
+        "active": true
+      },
+      "96PRAHA": {
+        "description": "9.International Symposium on Reactor Dosimetry,Prague,1996",
+        "active": true
+      },
+      "96SAROV": {
+        "description": "Worksh.Exact Meas.in Nuclear Spect., Sarov, Russia 1996",
+        "active": true
+      },
+      "97OBNIN": {
+        "description": "Conf.Nuclear Spectrosc.Nuclear Struct., Obninsk 1997",
+        "active": true
+      },
+      "97PHILAD": {
+        "description": "Symp.Synth.Isot.Labelled Comp.,Philadelphia,PA 1997",
+        "active": true
+      },
+      "97SANIB": {
+        "description": "Fission,Prop.of Neutron-Rich Nuclear ,Sanibel,USA,1997",
+        "active": true
+      },
+      "97TOKYO": {
+        "description": "Symp. New Facet of Spin of Giant Research ,Tokyo 1997",
+        "active": true
+      },
+      "97TRIEST": {
+        "description": "Conf.on Nuclear Data for Sci.and Techn., Trieste 1997",
+        "active": true
+      },
+      "98BELAIR": {
+        "description": "Conf.Exotic Nuclei & At.Masses, Bellaire, USA, 1998",
+        "active": true
+      },
+      "98CAEN": {
+        "description": "15.Conf.on Cyclotrons and Appl., Caen, France, 1998",
+        "active": true
+      },
+      "98DENTON": {
+        "description": "Conf.on Appl.of Accelerator in Research and Ind.,Denton,TX,1998",
+        "active": true
+      },
+      "98GATLIN": {
+        "description": "Nuclear Structure 98 Conf., Gatlinburg, USA, 1998",
+        "active": true
+      },
+      "98MARSEI": {
+        "description": "20.Symp.on Fusion Technology, Marseille,France, 1998",
+        "active": true
+      },
+      "98MOSCOW": {
+        "description": "Conf.Nuclear Spectrosc.Nuclear Struct., Moscow, June 1998",
+        "active": true
+      },
+      "98SEYSS": {
+        "description": "Nuclear Fiss.&Fiss.-Prod.Spectr.,Seyssins,France, 1998",
+        "active": true
+      },
+      "98VOLOS": {
+        "description": "5. Nuclei in the Cosmos Conf., Volos, Greece, 1998",
+        "active": true
+      },
+      "99BUCHAR": {
+        "description": "Symp.on Adv.in Nuclear Physics , Bucharest, Romania, 1999",
+        "active": true
+      },
+      "99HABAY": {
+        "description": "Sem.on Fission, Habay-la-Neuve, Belgium, 1999",
+        "active": true
+      },
+      "99OSAKA": {
+        "description": "10th International Symp.on Reactor Dosimetry, Osaka, 1999",
+        "active": true
+      },
+      "99PRAHA": {
+        "description": "Conf.on Accelerator Driven Transmutation, Prague 1999",
+        "active": true
+      },
+      "99RAB": {
+        "description": "Conf.Cluster.Aspects of Nuclear Struct.& Dynam.,Rab 1999",
+        "active": true
+      },
+      "99SANTA": {
+        "description": "Symp.on Capt.Gamma Ray Spectroscopy, Santa Fe,NM 1999",
+        "active": true
+      },
+      "99SARAT": {
+        "description": "Workshop on Beam Dynamics and Optimiz, Saratov 1999",
+        "active": true
+      },
+      "99ST.AND": {
+        "description": "Conf.on Fission+Neutron-Rich Nuclear ,St.Andrews, 1999",
+        "active": true
+      },
+      "99TSUKUB": {
+        "description": "Conf.on Radiation Shielding, Tsukuba, Japan, 1999",
+        "active": true
+      },
+      "99VANCOU": {
+        "description": "International Conf.on Isotopes (3ICI), Vancouver, Sept.1999",
+        "active": true
+      },
+      "2000IZMIR": {
+        "description": "Eurasia Conf. Nuclear Science & Appl., Izmir, 2000",
+        "active": true
+      },
+      "2000PITTSB": {
+        "description": "PHYSOR 2000, Pittsburgh, PA, 2000",
+        "active": true
+      },
+      "2000STPETR": {
+        "description": "Conf.Nuclear Spectr.Nuclear Struct.,St.Petersbg.,June 2000",
+        "active": true
+      },
+      "2001BERKEL": {
+        "description": "Nuclear Physics in the 21st Cent.,Berkeley, CA,USA,2001",
+        "active": true
+      },
+      "2001CASTAP": {
+        "description": "Dyn.Aspects of Nuclear Fiss.,Casta-Papiernicka 2001",
+        "active": true
+      },
+      "2001DUBNA": {
+        "description": "Interaction of Neutrons with Nuclei, Dubna 2001",
+        "active": false
+      },
+      "2001SARAT": {
+        "description": "Workshop on Beam Dynamics and Optimiz, Saratov 2001",
+        "active": true
+      },
+      "2001SAROV": {
+        "description": "Conf.Nuclear Spectrosc.Nuclear Struct.,Sarov, Russia,2001",
+        "active": true
+      },
+      "2001TSUKUB": {
+        "description": "Conf.on Nuclear Data for Sci.and Techn., Tsukuba 2001",
+        "active": true
+      },
+      "2002BERKEL": {
+        "description": "Conf. on Frontier of Nuclear Physics, Berkeley 2002",
+        "active": true
+      },
+      "2002BRUSS": {
+        "description": "11th Inter.Symp.on Reactor Dosimetry, Brussels, 2002",
+        "active": true
+      },
+      "2002DUBNA": {
+        "description": "International Sem.Interaction of Neutrons w.Nuclei,Moscow,2002",
+        "active": false
+      },
+      "2002MOSCOW": {
+        "description": "Conf.Nuclear Spectrosc.Nuclear Struct.,Moscow,Russia,2002",
+        "active": true
+      },
+      "2002PRAHA": {
+        "description": "Workshop on Activation Data - EAF 2003, Prague 2002",
+        "active": true
+      },
+      "2002PRUHON": {
+        "description": "Symp.on Capt.Gamma Ray Spectroscopy, Pruhonice, 2002",
+        "active": true
+      },
+      "2002SANIB": {
+        "description": "Fission,Prop.of Neutron-Rich Nuclear ,Sanibel,USA,2002",
+        "active": true
+      },
+      "2002SANTA": {
+        "description": "Meeting on Radiation Shielding,Santa Fe,NM,USA, 2002",
+        "active": true
+      },
+      "2002SEOUL": {
+        "description": "PHYSOR 2002, Physics of Reactors, Seoul, Korea, 2002",
+        "active": true
+      },
+      "2003DARMST": {
+        "description": "Worksh.Nuclear Data for Transmutation, Darmstadt, 2003",
+        "active": true
+      },
+      "2003HABAY": {
+        "description": "Sem.on Fission, Habay-la-Neuve, Belgium, 2003",
+        "active": true
+      },
+      "2003MOSCOW": {
+        "description": "Conf.Nuclear Spectrosc.Nuclear Struct.,Moscow,Russia,2003",
+        "active": true
+      },
+      "2003SDIEGO": {
+        "description": "International Meet.on Nuclear Appl.of Accelerator Tech., San Diego 2003",
+        "active": true
+      },
+      "2004ARGON": {
+        "description": "Conf.on Nuclei at the Limits, Argonne, July 2004",
+        "active": true
+      },
+      "2004BELGOR": {
+        "description": "Conf.Nuclear Spectrosc.Nuclear Struct.,Belgorod,Russia,2004",
+        "active": true
+      },
+      "2004BORMIO": {
+        "description": "International Meeting on Nuclear Physics, Bormio, Italy, 2004",
+        "active": true
+      },
+      "2004CHICAG": {
+        "description": "PHYSOR 2004, Physics of Reactors, Chicago,IL,USA,2004",
+        "active": true
+      },
+      "2004EURAD": {
+        "description": "Conf.Manag.and Disposal of Rad.Waste,Luxembourg 2004",
+        "active": true
+      },
+      "2004PETERH": {
+        "description": "International Symp. on Exotic Nuclei, Peterhof, 2004",
+        "active": true
+      },
+      "2004SANTA": {
+        "description": "Conf.on Nuclear Data for Sci.and Techn., Santa Fe 2004",
+        "active": true
+      },
+      "2005BRUSS": {
+        "description": "International Conf.on Isotopes (5ICI), Brussels, April 2005",
+        "active": true
+      },
+      "2005KOS": {
+        "description": "Frontiers in Nuclear Structure,Kos,Greece,Sept.2005",
+        "active": true
+      },
+      "2005NOTRED": {
+        "description": "Symp.on Capt.Gamma Ray Spectroscopy, Notre Dame 2005",
+        "active": true
+      },
+      "2005PAVIA": {
+        "description": "Nuclear Physics Divisional Conf., Pavia, Italy, Sept.2005",
+        "active": true
+      },
+      "2005SANTA": {
+        "description": "International Collaboratory on Adv.Neutron Sources,Santa Fe,April 2005",
+        "active": true
+      },
+      "2005SEVILL": {
+        "description": "International Conf.on Ion Beam Analysis, Sevilla, 2005",
+        "active": true
+      },
+      "2005ULAANB": {
+        "description": "3rd International School on Contemp.Physics, Ulaanbaatar, 2005",
+        "active": true
+      },
+      "2006BOROVE": {
+        "description": "Workshop Neutron Meas., Eval.& Appl., Borovets, 2006",
+        "active": false
+      },
+      "2006CAPE": {
+        "description": "Workshop on Fast Neut.Det. & Appl., Rondebosch, 2006",
+        "active": true
+      },
+      "2006CERN": {
+        "description": "9.International Symp.Nuclei in the Cosmos, CERN, Geneva, 2006",
+        "active": true
+      },
+      "2006KYIV": {
+        "description": "International Conf.Cur.Prob.in Nuclear Physics Atom.Energ.,Kyiv,2006",
+        "active": true
+      },
+      "2006MANGAL": {
+        "description": "Nuclear Data f.Adv.Nuclear Systems, Mangalore, India, 2006",
+        "active": true
+      },
+      "2006SAROV": {
+        "description": "Conf.Nuclear Spectrosc.Nuclear Struct.,Sarov, Russia,2006",
+        "active": true
+      },
+      "2006SMOLEN": {
+        "description": "6th International Conf.Dynamical Aspects Nuclear Fiss., Smolenice",
+        "active": true
+      },
+      "2006VANCOU": {
+        "description": "Advances in Nuclear Analysis and Simul.,Vancouver, 2006",
+        "active": true
+      },
+      "2007CORSEN": {
+        "description": "Seminar on Fissssion, Corsendonk Priory, 2007",
+        "active": true
+      },
+      "2007LUXOR": {
+        "description": "6th International National Conf.Nuclear & Part.Physics ,Luxor,Egypt 2007",
+        "active": true
+      },
+      "2007NICE": {
+        "description": "Conf.on Nuclear Data for Sci. and Technology, Nice 2007",
+        "active": true
+      },
+      "2007SANIB": {
+        "description": "Conf.Fiss.Prop.Neutron-Rich Nuclear ,Sanibel Island 2007",
+        "active": true
+      },
+      "2007TOKAI": {
+        "description": "Symp.on Nuclear Data, Tokai, Japan, Jan. 2007",
+        "active": false
+      },
+      "2007TOKYO": {
+        "description": "23rd International Nuclear Physics Conf., Tokyo 2007",
+        "active": true
+      },
+      "2008AKERSL": {
+        "description": "13th Inter.Symp.on Reactor Dosimetry, Akersloot, 2008",
+        "active": true
+      },
+      "2008AOMORI": {
+        "description": "16th Pacific Basin Nuclear Conference, Aomori 2008",
+        "active": true
+      },
+      "2008BUDA": {
+        "description": "7th International Conf. on Nuclear and Radiochem., Budapest, 2008",
+        "active": true
+      },
+      "2008INTLAK": {
+        "description": "International Conf. on the Physics of Reactors, Interlaken, 2008",
+        "active": true
+      },
+      "2008KYIV": {
+        "description": "2 International Conf.Cur.Prob.in Nuclear Physics Atom.Ene.,Kyiv,2008",
+        "active": true
+      },
+      "2008MACKIN": {
+        "description": "10th Symp.on Nuclear in the Cosmos, Mackinac Island 2008",
+        "active": true
+      },
+      "2008MOSCOW": {
+        "description": "International Conf.Nuclear Spectroscopy Nuclear Struct., Moscow, 2008",
+        "active": true
+      },
+      "2008VILLIG": {
+        "description": "1 International Worksh.on Acc.Radat.Ind.Activ., Villigen, 2008",
+        "active": true
+      },
+      "2009BUDA": {
+        "description": "Workshop Nuclear Data Meas., Theo.&Appl., Budapest,2009",
+        "active": true
+      },
+      "2009VARENN": {
+        "description": "12th International Conf. on Nuclear React.Mechanism, Varenna,2009",
+        "active": false
+      },
+      "2010HEIDLB": {
+        "description": "11th Symp. on Nuclei in the Cosmos, Heidelberg, 2010",
+        "active": true
+      },
+      "2010KRAKOW": {
+        "description": "6 Workshop Neutron Meas., Eval.& Appl., Krakow, 2010",
+        "active": true
+      },
+      "2010KYIV": {
+        "description": "3 International Conf.Cur.Prob.in Nuclear Physics Atom.Ene.,Kyiv,2010",
+        "active": true
+      },
+      "2010STPETR": {
+        "description": "Conf.Meth.Nuclear Phy.Femt.Nanotech.,St.Petersburg,2010",
+        "active": true
+      },
+      "2011BRETTO": {
+        "description": "14th International Symp.on Reactor Dosimetry,Bretton Woods,2011",
+        "active": true
+      },
+      "2011GHENT": {
+        "description": "2nd Conf.Adv.Nuclear Instrum.Meas.Meth.&Their Appl.,2011",
+        "active": true
+      },
+      "2012CAIRNS": {
+        "description": "12th Symp. on Nuclei in the Cosmos, Cairns, 2012",
+        "active": true
+      },
+      "2012DUBNA": {
+        "description": "11th International Seminar on High Energ.Physics Prob., Dubna,2012",
+        "active": true
+      },
+      "2012KNOX": {
+        "description": "International Conf. on the Physics of Reactors, Knoxville, 2012",
+        "active": true
+      },
+      "2012KYIV": {
+        "description": "4 International Conf.Cur.Prob.in Nuclear Physics Atom.Ene.,Kyiv,2012",
+        "active": true
+      },
+      "2014DEBREC": {
+        "description": "13th Symp. on Nuclei in the Cosmos, Debrecen, 2014",
+        "active": true
+      },
+      "2015WASH": {
+        "description": "12th International Meet. on Nuclear Appl.of Acc., Washington, 2015",
+        "active": true
+      },
+      "2017ALMATY": {
+        "description": "International Conf.Nuclear Spectroscopy Nuclear Struct., Almaty, 2017",
+        "active": true
+      },
+      "2017ATTICA": {
+        "description": "Ann. Symp. of Hellenic Nuclear Physics Soc., Attica, 2017",
+        "active": true
+      },
+      "2017QUEBEC": {
+        "description": "13th International Meeting on Nuclear Appl.of Accelerator , Quebec, 2017",
+        "active": true
+      },
+      "2018VORNZH": {
+        "description": "International Conf.Nuclear Spectroscopy Nuclear Struct.,Voronezh,2018",
+        "active": true
+      }
+    }
+  }
+}

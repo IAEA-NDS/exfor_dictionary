@@ -1,0 +1,5075 @@
+{
+  "3": {
+    "diction_name": "Institutes",
+    "codes": {
+      "1CANALA": {
+        "description": "University of Alberta, Edmonton, Alberta",
+        "active": true
+      },
+      "1CANBUQ": {
+        "description": "Bishop University, Lennoxville, Quebec",
+        "active": true
+      },
+      "1CANCAN": {
+        "description": "Canada",
+        "active": true
+      },
+      "1CANCPO": {
+        "description": "A.E.C.L. Commercial Products, Ottawa, Ontario",
+        "active": true
+      },
+      "1CANCRC": {
+        "description": "A.E.C.L., Chalk River, Ontario",
+        "active": true
+      },
+      "1CANCRL": {
+        "description": "Carleton University, Ottawa, Ontario",
+        "active": true
+      },
+      "1CANGUE": {
+        "description": "University of Guelph, Guelph, Ontario",
+        "active": true
+      },
+      "1CANKQU": {
+        "description": "Queen's University, Kingston, Ontario",
+        "active": false
+      },
+      "1CANLUQ": {
+        "description": "Laval University, Sainte-Foy, Quebec",
+        "active": true
+      },
+      "1CANMCG": {
+        "description": "McGill University, Montreal,Quebec",
+        "active": true
+      },
+      "1CANMCM": {
+        "description": "McMaster University, Hamilton, Ontario",
+        "active": true
+      },
+      "1CANMGW": {
+        "description": "Sir George Williams University , Montreal, Quebec",
+        "active": true
+      },
+      "1CANMNA": {
+        "description": "University of Manitoba, Cyclotron Laboratory , Winnipeg, Manitoba",
+        "active": true
+      },
+      "1CANMON": {
+        "description": "University of Montreal, Montreal, Quebec",
+        "active": true
+      },
+      "1CANMPT": {
+        "description": "Ecole Polytechnique de Montreal, Quebec",
+        "active": true
+      },
+      "1CANMRC": {
+        "description": "National Research Council, Montreal Laboratory , Quebec",
+        "active": true
+      },
+      "1CANOTC": {
+        "description": "National Research Council, Ottawa, Ontario",
+        "active": true
+      },
+      "1CANOTU": {
+        "description": "University of Ottawa, Ottawa, Ontario",
+        "active": true
+      },
+      "1CANPIN": {
+        "description": "A.E.C.L., Whiteshell Nuclear Research Establ.,Pinaua,Manitoba",
+        "active": true
+      },
+      "1CANQU": {
+        "description": "Queen's University , Kingston, Ontario",
+        "active": true
+      },
+      "1CANSAS": {
+        "description": "University of Saskatchewan, Saskatoon, Saskatchewan",
+        "active": true
+      },
+      "1CANSFU": {
+        "description": "Simon Frazer University, Burnaby, B.C.",
+        "active": true
+      },
+      "1CANSMR": {
+        "description": "Saint Mary's University , Halifax, Nova Scotia",
+        "active": true
+      },
+      "1CANTMF": {
+        "description": "Tri University Meson Facility, Vancouver, B.C.",
+        "active": true
+      },
+      "1CANTOR": {
+        "description": "University of Toronto, Toronto, Ontario",
+        "active": true
+      },
+      "1CANUBC": {
+        "description": "University of British Columbia, Vancouver, B.C.",
+        "active": true
+      },
+      "1CANUWO": {
+        "description": "University of Western Ontario, London, Ontario",
+        "active": true
+      },
+      "1CANVCT": {
+        "description": "University of Victoria, Victoria, B.C.",
+        "active": true
+      },
+      "1USAABD": {
+        "description": "U.S. Army Aberdeen Research + Development Center, Aberdeen, MD",
+        "active": true
+      },
+      "1USAACC": {
+        "description": "Exxon Nuclear Idaho Co., ID",
+        "active": true
+      },
+      "1USAAEC": {
+        "description": "U.S. Atomic Energy Commission, Washington, DC",
+        "active": true
+      },
+      "1USAAFT": {
+        "description": "Air Force Institute Technology, Wright-Patterson AFB, OH",
+        "active": true
+      },
+      "1USAAFW": {
+        "description": "Air Force Weapons Laboratory , Kirkland AFB, Albuquerque, NM",
+        "active": true
+      },
+      "1USAAGN": {
+        "description": "Aerojet-General Nucleonics, San Ramon, CA",
+        "active": true
+      },
+      "1USAAI": {
+        "description": "Rockwell International , Energy Systems Group, Canoga Park, CA",
+        "active": true
+      },
+      "1USAAIF": {
+        "description": "Argonne National Laboratory - West, Idaho Falls, ID",
+        "active": true
+      },
+      "1USAAIP": {
+        "description": "American Institute of Physics, New York, NY",
+        "active": true
+      },
+      "1USAALB": {
+        "description": "State University of New York, Albany, NY",
+        "active": true
+      },
+      "1USAALS": {
+        "description": "Alabama State University, Montgomery, AL",
+        "active": true
+      },
+      "1USAAMH": {
+        "description": "Amherst College, Amherst, MA",
+        "active": true
+      },
+      "1USAAMW": {
+        "description": "American Universit, Washington, DC",
+        "active": true
+      },
+      "1USAANA": {
+        "description": "U.S. Naval Academy, Annapolis, MD",
+        "active": true
+      },
+      "1USAAND": {
+        "description": "Andrews University , Berrien Springs, MI",
+        "active": true
+      },
+      "1USAANL": {
+        "description": "Argonne National Laboratory, Argonne, IL",
+        "active": true
+      },
+      "1USAAPD": {
+        "description": "Atomic Power Development Associates, Detroit, MI",
+        "active": true
+      },
+      "1USAARC": {
+        "description": "Atlantic Richfield Hanford Company, Richland, WA",
+        "active": true
+      },
+      "1USAARF": {
+        "description": "Armour Research Foundation, Chicago, IL",
+        "active": false
+      },
+      "1USAARK": {
+        "description": "University of Arkansas, Fayetteville, AR",
+        "active": true
+      },
+      "1USAARL": {
+        "description": "Aerospace Research Labs, Wright-Patterson A.F. Base, OH",
+        "active": true
+      },
+      "1USAARS": {
+        "description": "Aerospace Research Labs.",
+        "active": false
+      },
+      "1USAAST": {
+        "description": "Astra Inc., Raleigh, NC",
+        "active": true
+      },
+      "1USAASU": {
+        "description": "Arizona State University, Tempe, AZ",
+        "active": true
+      },
+      "1USAAUB": {
+        "description": "Auburn University, Auburn, AL",
+        "active": true
+      },
+      "1USAAUI": {
+        "description": "University of Illinois, Urbana-Champaign, IL",
+        "active": false
+      },
+      "1USAB+W": {
+        "description": "Babcock and Wilcox, Lynchburgh, VA",
+        "active": true
+      },
+      "1USABAR": {
+        "description": "Bartol Research Foundation, Swarthmore, PA",
+        "active": true
+      },
+      "1USABAT": {
+        "description": "Battelle Memorial Institute, Columbus, OH",
+        "active": true
+      },
+      "1USABCC": {
+        "description": "J.T.Baker Chemical Company, Phillipsburg, NJ",
+        "active": true
+      },
+      "1USABCM": {
+        "description": "Boston College, Chestnut Hill, MA",
+        "active": true
+      },
+      "1USABEL": {
+        "description": "AT&T Bell Laboratories, Murray Hill, NJ",
+        "active": true
+      },
+      "1USABET": {
+        "description": "Bettis Atomic Power Laboratory , Westinghouse, Pittsburgh,PA",
+        "active": true
+      },
+      "1USABLN": {
+        "description": "Brooklyn College of the C.U.N.Y., Brooklyn, NY",
+        "active": true
+      },
+      "1USABNL": {
+        "description": "Brookhaven National Laboratory, Upton, NY",
+        "active": true
+      },
+      "1USABNW": {
+        "description": "Pacific Northwest Laboratories, Richland, WA",
+        "active": true
+      },
+      "1USABOE": {
+        "description": "Boeing Scientific Research Labs, Seattle, WA",
+        "active": true
+      },
+      "1USABRK": {
+        "description": "Lawrence Berkeley National Laboratory, Berkeley, CA",
+        "active": true
+      },
+      "1USABRL": {
+        "description": "Ballistic Research Labs, Aberdeen Proving Grounds, MD",
+        "active": true
+      },
+      "1USABRN": {
+        "description": "Brown University, Providence, RI",
+        "active": true
+      },
+      "1USABST": {
+        "description": "Boston University, Boston, MA",
+        "active": true
+      },
+      "1USABSU": {
+        "description": "Ball State University , Muncie, IN",
+        "active": true
+      },
+      "1USABYU": {
+        "description": "Brigham Young University, Provo, UT",
+        "active": true
+      },
+      "1USACAL": {
+        "description": "California Institute of Technology, Pasadena, CA",
+        "active": true
+      },
+      "1USACAR": {
+        "description": "Carnegie Institute of Technology, Pittsburgh, PA,",
+        "active": true
+      },
+      "1USACAW": {
+        "description": "Carnegie Institute, Washington, DC",
+        "active": true
+      },
+      "1USACBE": {
+        "description": "Combustion Engineering, Windsor, CN",
+        "active": true
+      },
+      "1USACBF": {
+        "description": "Thomas Jefferson Nat'l Accelerator Facility , Newport News, VA",
+        "active": true
+      },
+      "1USACFN": {
+        "description": "California State University, Northridge, CA",
+        "active": true
+      },
+      "1USACHI": {
+        "description": "University of Chicago, IL",
+        "active": true
+      },
+      "1USACLA": {
+        "description": "University of California, Los Angeles, CA",
+        "active": true
+      },
+      "1USACLI": {
+        "description": "Clinton Labs, Knoxville, TN",
+        "active": true
+      },
+      "1USACLK": {
+        "description": "Clark University, Worcester, MA",
+        "active": true
+      },
+      "1USACLS": {
+        "description": "Cleveland State University, Cleveland, OH",
+        "active": true
+      },
+      "1USACLU": {
+        "description": "Colorado University, Boulder, CO",
+        "active": true
+      },
+      "1USACMU": {
+        "description": "Carnegie-Mellon University, Pittsburgh, PA",
+        "active": false
+      },
+      "1USACOL": {
+        "description": "Columbia University, New York, NY",
+        "active": true
+      },
+      "1USACON": {
+        "description": "Convair, San Diego, CA",
+        "active": true
+      },
+      "1USACOR": {
+        "description": "Cornell University, Ithaca, NY",
+        "active": true
+      },
+      "1USACOU": {
+        "description": "Courant Institute of Mathematical Sciences, New York, NY",
+        "active": true
+      },
+      "1USACRD": {
+        "description": "California Research and Development Co., Livermore,CA",
+        "active": true
+      },
+      "1USACSD": {
+        "description": "University of California, San Diego, CA",
+        "active": true
+      },
+      "1USACSE": {
+        "description": "Case Western Reserve University, Cleveland, OH",
+        "active": true
+      },
+      "1USACSI": {
+        "description": "Columbia Scientific Industries Corp., Lafayette, LA",
+        "active": true
+      },
+      "1USACSM": {
+        "description": "Colorado School of Mines, Golden, CO",
+        "active": true
+      },
+      "1USACSS": {
+        "description": "California State University, Sacramento, CA",
+        "active": true
+      },
+      "1USACST": {
+        "description": "California State University, Los Angeles, CA",
+        "active": true
+      },
+      "1USACSU": {
+        "description": "Colorado State University, Fort Collins, CO",
+        "active": true
+      },
+      "1USACUA": {
+        "description": "Catholic University of America, Washington, DC",
+        "active": true
+      },
+      "1USACUW": {
+        "description": "Curtiss-Wright Corp., Quehanna, PA",
+        "active": true
+      },
+      "1USACWR": {
+        "description": "Curtiss-Wright Corp., Quehanna, Pa",
+        "active": false
+      },
+      "1USADAV": {
+        "description": "University of California, Davis, CA",
+        "active": true
+      },
+      "1USADKE": {
+        "description": "Duke University, Durham, NC",
+        "active": true
+      },
+      "1USADLS": {
+        "description": "University of Dallas, Irving, TX",
+        "active": true
+      },
+      "1USADNS": {
+        "description": "Denison University, Granville, OH",
+        "active": true
+      },
+      "1USADOD": {
+        "description": "Department of Defense, DASA, Washington, DC",
+        "active": true
+      },
+      "1USADOE": {
+        "description": "Department of Energy, Washington, DC",
+        "active": true
+      },
+      "1USADOF": {
+        "description": "Diamond Ordnance Fuse Laboratory",
+        "active": true
+      },
+      "1USADRF": {
+        "description": "Dow Chemical Co., Rocky Flats, CO",
+        "active": true
+      },
+      "1USAEGG": {
+        "description": "E G+G Energy Measurements, Santa Barbara, CA",
+        "active": true
+      },
+      "1USAEMY": {
+        "description": "Emory University, Atlanta, GA",
+        "active": true
+      },
+      "1USAERD": {
+        "description": "U.S. Energy Research & Development Adm., Washington, DC",
+        "active": true
+      },
+      "1USAETS": {
+        "description": "East Texas State University",
+        "active": true
+      },
+      "1USAFLA": {
+        "description": "University of Florida, Gainesville, FL",
+        "active": true
+      },
+      "1USAFSU": {
+        "description": "Florida State University, Tallahassee, FL",
+        "active": true
+      },
+      "1USAGA": {
+        "description": "Gulf Energy and Environmental Systems, San Diego, CA",
+        "active": true
+      },
+      "1USAGDT": {
+        "description": "General Dynamics, Fort Worth, TX",
+        "active": true
+      },
+      "1USAGEA": {
+        "description": "General Electric, Aircraft Nuclear Prop.Department , Ohio",
+        "active": true
+      },
+      "1USAGEB": {
+        "description": "General Electric Breeder React.Dev.Op., Sunnyvale, CA",
+        "active": true
+      },
+      "1USAGEC": {
+        "description": "General Electric Company, San Jose, CA",
+        "active": true
+      },
+      "1USAGEF": {
+        "description": "General Electric, Space Science Laboratory , PA",
+        "active": true
+      },
+      "1USAGEN": {
+        "description": "General Electric, Nuclear Materials, PA",
+        "active": true
+      },
+      "1USAGEO": {
+        "description": "University of Georgia, Athens, GA",
+        "active": true
+      },
+      "1USAGEP": {
+        "description": "General Electric, Nucleonics Laboratory , Pleasanton, CA",
+        "active": true
+      },
+      "1USAGES": {
+        "description": "General Electric, Schenectady, NY",
+        "active": true
+      },
+      "1USAGEV": {
+        "description": "General Electric, Vallecitos Atomic Laboratory , CA",
+        "active": true
+      },
+      "1USAGGA": {
+        "description": "Gulf General Atomic, San Diego, CA",
+        "active": true
+      },
+      "1USAGIT": {
+        "description": "Georgia Institute of Technology, Atlanta, GA",
+        "active": true
+      },
+      "1USAGRT": {
+        "description": "Gulf Radiation Technology, San Diego, CA",
+        "active": true
+      },
+      "1USAGSF": {
+        "description": "Nasa Goddard Space Flight Center, Greenbelt, MD",
+        "active": true
+      },
+      "1USAGSU": {
+        "description": "Georgia State University, Atlanta, GA",
+        "active": true
+      },
+      "1USAGWU": {
+        "description": "George Washington University, Washington, DC",
+        "active": true
+      },
+      "1USAHAN": {
+        "description": "Hanford Atomic Products, Richland, WA",
+        "active": true
+      },
+      "1USAHED": {
+        "description": "Hanford Engineering Development Laboratory , Richland, WA",
+        "active": true
+      },
+      "1USAHNS": {
+        "description": "Hazelton Nuclear Science Corp., Palo Alto, CA",
+        "active": true
+      },
+      "1USAHOU": {
+        "description": "University of Houston, Houston, TX",
+        "active": true
+      },
+      "1USAHPE": {
+        "description": "Hope College, Holland, MI",
+        "active": true
+      },
+      "1USAHRV": {
+        "description": "Harvard University, Cambridge, MA",
+        "active": true
+      },
+      "1USAHSL": {
+        "description": "U.S.A.E.C. Health and Safety Laboratory , NY",
+        "active": true
+      },
+      "1USAIAP": {
+        "description": "Institute for Advanced Studies, Princeton, NJ",
+        "active": true
+      },
+      "1USAIBM": {
+        "description": "I B M Research Laboratory , San Jose, CA",
+        "active": true
+      },
+      "1USAIIT": {
+        "description": "Illinois Institute of Technology, Chicago, IL",
+        "active": true
+      },
+      "1USAINL": {
+        "description": "Idaho National Laboratory, Idaho Falls, ID",
+        "active": true
+      },
+      "1USAINU": {
+        "description": "Indiana University, Bloomington, IN",
+        "active": true
+      },
+      "1USAIOW": {
+        "description": "University of Iowa, Iowa City, IA",
+        "active": true
+      },
+      "1USAIRT": {
+        "description": "Intelcom Radiation Technology, San Diego, CA",
+        "active": true
+      },
+      "1USAIRV": {
+        "description": "University of California, Irvine, CA",
+        "active": true
+      },
+      "1USAISB": {
+        "description": "Indiana University, South Bend, IN",
+        "active": true
+      },
+      "1USAISU": {
+        "description": "Idaho State University, Pocatello, ID",
+        "active": true
+      },
+      "1USAJHU": {
+        "description": "Johns Hopkins University, Baltimore, MD",
+        "active": true
+      },
+      "1USAKAN": {
+        "description": "University of Kansas, Lawrence, KS",
+        "active": true
+      },
+      "1USAKAP": {
+        "description": "Knolls Atomic Power Laboratory, Schenectady, NY",
+        "active": true
+      },
+      "1USAKNT": {
+        "description": "Kent State University, Kent, OH",
+        "active": true
+      },
+      "1USAKSU": {
+        "description": "Kansas State University, Manhattan, KS",
+        "active": true
+      },
+      "1USAKTY": {
+        "description": "University of Kentucky, Lexington, KY",
+        "active": true
+      },
+      "1USALAN": {
+        "description": "Langley Research Center, NASA Langley Station, VA",
+        "active": true
+      },
+      "1USALAS": {
+        "description": "Los Alamos National Laboratory, NM",
+        "active": true
+      },
+      "1USALBL": {
+        "description": "Lawrence Berkeley Lab, Berkeley, CA",
+        "active": false
+      },
+      "1USALMS": {
+        "description": "Lockheed Missiles and Space Division , Palo Alto, CA",
+        "active": true
+      },
+      "1USALOK": {
+        "description": "Lockheed Aircraft Corp., Sunnyvale, CA",
+        "active": true
+      },
+      "1USALOW": {
+        "description": "Lowell Technological Institute, Lowell, MA",
+        "active": false
+      },
+      "1USALOY": {
+        "description": "Loyola University, Los Angeles, CA",
+        "active": true
+      },
+      "1USALRC": {
+        "description": "NASA-Lewis Research Center, Cleveland, OH",
+        "active": true
+      },
+      "1USALRL": {
+        "description": "Lawrence Livermore National Laboratory, Livermore, CA",
+        "active": true
+      },
+      "1USALSU": {
+        "description": "Louisiana State University, Baton Rouge, LA",
+        "active": true
+      },
+      "1USALTI": {
+        "description": "University of Massachusetts at Lowell, MA",
+        "active": true
+      },
+      "1USALVL": {
+        "description": "University of Louisville, Louisville, KY",
+        "active": true
+      },
+      "1USAMAG": {
+        "description": "MAGI, Elmsford, NY",
+        "active": true
+      },
+      "1USAMAR": {
+        "description": "Marquette University, Milwaukee, WI",
+        "active": true
+      },
+      "1USAMGH": {
+        "description": "Massachusetts General Hospital, Boston, MA",
+        "active": true
+      },
+      "1USAMGT": {
+        "description": "Michigan Technological University, Houghton, MI",
+        "active": true
+      },
+      "1USAMHD": {
+        "description": "University of Michigan, Dearborn, MI",
+        "active": true
+      },
+      "1USAMHG": {
+        "description": "University of Michigan, Ann Arbor, MI",
+        "active": true
+      },
+      "1USAMIN": {
+        "description": "University of Minnesota, Minneapolis, MN",
+        "active": true
+      },
+      "1USAMIS": {
+        "description": "University of Missouri, Columbia, MO",
+        "active": true
+      },
+      "1USAMIT": {
+        "description": "Massachusetts Institute of Technology, Cambridge, MA",
+        "active": true
+      },
+      "1USAMIU": {
+        "description": "Miami University, Oxford, OH",
+        "active": true
+      },
+      "1USAMND": {
+        "description": "Mound Laboratory, Miamisburg, OH",
+        "active": true
+      },
+      "1USAMRD": {
+        "description": "University of Maryland, College Park, MD",
+        "active": false
+      },
+      "1USAMRY": {
+        "description": "University of Maryland, College Park, MD",
+        "active": true
+      },
+      "1USAMSM": {
+        "description": "Mount Sinai Medical Center, Miami Beach, FL",
+        "active": true
+      },
+      "1USAMSS": {
+        "description": "Mississippi State University, Mississippi State, MS",
+        "active": true
+      },
+      "1USAMST": {
+        "description": "Mississippi State University, Mississippi State, MS",
+        "active": false
+      },
+      "1USAMSU": {
+        "description": "Michigan State University, East Lansing, MI",
+        "active": true
+      },
+      "1USAMTR": {
+        "description": "Idaho Nuclear Corp., Idaho Falls, ID",
+        "active": true
+      },
+      "1USAMTS": {
+        "description": "Middle Tennessee State University, Murfreesboro, TN",
+        "active": true
+      },
+      "1USAMTU": {
+        "description": "Montana State University, Missoula, MT",
+        "active": true
+      },
+      "1USAMUR": {
+        "description": "Murray State University, Murray, KY",
+        "active": true
+      },
+      "1USANAL": {
+        "description": "Fermi National Laboratory, Batavia, IL",
+        "active": true
+      },
+      "1USANAS": {
+        "description": "NASA, Washington, DC",
+        "active": true
+      },
+      "1USANBS": {
+        "description": "National Bureau of Standards, Washington, DC",
+        "active": true
+      },
+      "1USANCA": {
+        "description": "University of North Carolina, Chapel Hill, NC",
+        "active": true
+      },
+      "1USANCC": {
+        "description": "North Carolina Central University, Durham, NC",
+        "active": true
+      },
+      "1USANCS": {
+        "description": "North Carolina State University, Raleigh, NC",
+        "active": true
+      },
+      "1USANDA": {
+        "description": "Nuclear Development Associates Inc.",
+        "active": true
+      },
+      "1USANDL": {
+        "description": "U.S. Army Nuclear Defence Laboratory , Edgewood Arsenal, MD",
+        "active": true
+      },
+      "1USANEB": {
+        "description": "North Eastern University, Boston, MA",
+        "active": true
+      },
+      "1USANEL": {
+        "description": "U.S. Nuclear Effects Laboratory , Edgewood Arsenal, MD",
+        "active": true
+      },
+      "1USANGC": {
+        "description": "North Georgia College, Dahlonega, NC",
+        "active": true
+      },
+      "1USANIH": {
+        "description": "National Institutes of Health, Bethesda, MD",
+        "active": true
+      },
+      "1USANIS": {
+        "description": "National Institute of Standards & Techn., Gaithersburg, MD",
+        "active": true
+      },
+      "1USANIU": {
+        "description": "Northern Illinois University, Dekalb, IL",
+        "active": true
+      },
+      "1USANMS": {
+        "description": "New Mexico State University, Las Cruces, NM",
+        "active": true
+      },
+      "1USANMX": {
+        "description": "University of New Mexico, Albuquerque, NM",
+        "active": true
+      },
+      "1USANOL": {
+        "description": "U.S. Navy Ordinance Laboratory , Silver Springs, MD",
+        "active": true
+      },
+      "1USANOT": {
+        "description": "University of Notre Dame, Notre Dame, IN",
+        "active": true
+      },
+      "1USANRD": {
+        "description": "U.S. Naval Radiolog. Defense Laboratory , San Francisco, CA",
+        "active": true
+      },
+      "1USANRL": {
+        "description": "U.S. Naval Research Laboratory , Washington, DC",
+        "active": true
+      },
+      "1USANTS": {
+        "description": "North Texas State University, Denton, TX",
+        "active": true
+      },
+      "1USANWU": {
+        "description": "Northwestern University, Evanston, IL",
+        "active": true
+      },
+      "1USANYB": {
+        "description": "State University of New York, Buffalo, NY",
+        "active": true
+      },
+      "1USANYU": {
+        "description": "New York University, New York, NY",
+        "active": true
+      },
+      "1USAOAU": {
+        "description": "Oak Ridge Associated Universities, Oak Ridge, TN",
+        "active": true
+      },
+      "1USAOBR": {
+        "description": "Oberlin College, Oberlin, OH",
+        "active": true
+      },
+      "1USAOHO": {
+        "description": "Ohio University, Athens, OH",
+        "active": true
+      },
+      "1USAOKL": {
+        "description": "University of Oklahoma, Norman, OK",
+        "active": true
+      },
+      "1USAORD": {
+        "description": "Nuclear Data Project, ORNL, Oak Ridge, TN",
+        "active": true
+      },
+      "1USAORE": {
+        "description": "University of Oregon, Eugene, OR",
+        "active": true
+      },
+      "1USAORL": {
+        "description": "Oak Ridge National Laboratory, Oak Ridge, TN",
+        "active": true
+      },
+      "1USAORS": {
+        "description": "Radiation Shielding Inf. Center, ORNL, Oak Ridge, TN",
+        "active": true
+      },
+      "1USAORU": {
+        "description": "Oregon State University, Corvallis, OR",
+        "active": true
+      },
+      "1USAOSU": {
+        "description": "Ohio State University, Columbus, OH",
+        "active": true
+      },
+      "1USAPCT": {
+        "description": "Picatinny Arsenal, Dover, NJ",
+        "active": true
+      },
+      "1USAPEN": {
+        "description": "University of Pennsylvania, Philadelphia, PA",
+        "active": true
+      },
+      "1USAPPO": {
+        "description": "Phillips Petroleum Co., Bartletsville, OK",
+        "active": true
+      },
+      "1USAPR": {
+        "description": "Puerto Rico",
+        "active": true
+      },
+      "1USAPRW": {
+        "description": "Pratt + Whitney, Middletown, CT",
+        "active": true
+      },
+      "1USAPSU": {
+        "description": "Pennsylvania State University, University Park, PA",
+        "active": true
+      },
+      "1USAPTN": {
+        "description": "Princeton University, Princeton, NJ",
+        "active": true
+      },
+      "1USAPUP": {
+        "description": "University of Pittsburgh, Pittsburgh, PA",
+        "active": true
+      },
+      "1USAPUR": {
+        "description": "Purdue University, West Lafayette, IN",
+        "active": true
+      },
+      "1USARAN": {
+        "description": "The Rand Corporation, Santa Monica, CA",
+        "active": true
+      },
+      "1USARDI": {
+        "description": "Radiation Dynamics, Inc., Westbury, NY",
+        "active": true
+      },
+      "1USARDL": {
+        "description": "University of Redlands, Redlands, CA",
+        "active": true
+      },
+      "1USARED": {
+        "description": "Redstone Arsenal, AL",
+        "active": true
+      },
+      "1USAREN": {
+        "description": "Reno Metallurgical Research Center, Reno, NV",
+        "active": true
+      },
+      "1USARES": {
+        "description": "Division of Research, USAEC, Washington, DC",
+        "active": true
+      },
+      "1USARHI": {
+        "description": "Rhode Island University, Kingston, RI",
+        "active": true
+      },
+      "1USARIC": {
+        "description": "Rice University, Houston, TX",
+        "active": true
+      },
+      "1USARL": {
+        "description": "Richland Operations Office, Richland, WA",
+        "active": true
+      },
+      "1USAROC": {
+        "description": "University of Rochester, Rochester, NY",
+        "active": true
+      },
+      "1USARPI": {
+        "description": "Rensselaer Polytechnic Institute, Troy, NY",
+        "active": true
+      },
+      "1USARUT": {
+        "description": "Rutgers University, New Brunswick, NJ",
+        "active": true
+      },
+      "1USASAI": {
+        "description": "Science Applications International Corp., San Diego, CA",
+        "active": true
+      },
+      "1USASC": {
+        "description": "Sandia National Laboratory, Albuquerque, NM",
+        "active": true
+      },
+      "1USASCA": {
+        "description": "University of South Carolina, Columbia, SC",
+        "active": true
+      },
+      "1USASDC": {
+        "description": "San Diego State College, San Diego, CA",
+        "active": true
+      },
+      "1USASIG": {
+        "description": "National Nuclear Data Center, BNL, Upton, NY",
+        "active": true
+      },
+      "1USASJS": {
+        "description": "San Jose State University, San Jose, CA",
+        "active": true
+      },
+      "1USASLU": {
+        "description": "Saint Louis University, Saint Louis, MO",
+        "active": true
+      },
+      "1USASMU": {
+        "description": "Southern Methodist University, Dallas, TX",
+        "active": true
+      },
+      "1USASNI": {
+        "description": "Southern University Nuclear Institute , Baton Rouge, LA",
+        "active": true
+      },
+      "1USASNP": {
+        "description": "Space Nuclear Propulsion Office, Cleveland, OH",
+        "active": true
+      },
+      "1USASOC": {
+        "description": "Socony Mobil Oil Co., Dallas, TX",
+        "active": true
+      },
+      "1USASPC": {
+        "description": "SPire Corp., Bedford, MA",
+        "active": true
+      },
+      "1USASRE": {
+        "description": "Space Radiation Effects Laboratory , Newport News, VA",
+        "active": true
+      },
+      "1USASRI": {
+        "description": "Stanford Research Institute , Menlo Park, CA",
+        "active": true
+      },
+      "1USASRL": {
+        "description": "Savannah River Laboratory , E.I. Dupont, Aiken, SC",
+        "active": true
+      },
+      "1USASTB": {
+        "description": "State University of New York, Stony Brook, NY",
+        "active": true
+      },
+      "1USASTF": {
+        "description": "Stanford University, Stanford, CA",
+        "active": true
+      },
+      "1USASTM": {
+        "description": "Saint Mary's College of Maryland, St. Mary's City, MD",
+        "active": true
+      },
+      "1USASUB": {
+        "description": "State University of New York, Binghamtom, NY",
+        "active": true
+      },
+      "1USASUI": {
+        "description": "Iowa State University, Ames, IA",
+        "active": true
+      },
+      "1USASWL": {
+        "description": "University of Southwestern Louisiana, Lafayette, LA",
+        "active": true
+      },
+      "1USASYR": {
+        "description": "Syracuse University, Syracuse, NY",
+        "active": true
+      },
+      "1USATAM": {
+        "description": "Texas A & M University, College Station, TX",
+        "active": true
+      },
+      "1USATEM": {
+        "description": "Temple University, Philadelphia, PA",
+        "active": true
+      },
+      "1USATEN": {
+        "description": "University of Tennessee, Knoxville, TN",
+        "active": true
+      },
+      "1USATEX": {
+        "description": "University of Texas, Austin, TX",
+        "active": true
+      },
+      "1USATID": {
+        "description": "Division of Technical Information , USAEC, Oak Ridge, TN",
+        "active": true
+      },
+      "1USATNC": {
+        "description": "Texas Nuclear Corp., Austin, TX",
+        "active": true
+      },
+      "1USATNL": {
+        "description": "Triangle Universities Nuclear Laboratory , Durham, NC",
+        "active": true
+      },
+      "1USATRW": {
+        "description": "T R W, Redondo Beach, CA",
+        "active": true
+      },
+      "1USATTU": {
+        "description": "Tennessee Technological University , Cookeville, TN",
+        "active": true
+      },
+      "1USATUL": {
+        "description": "Tulane University, New Orleans, LA",
+        "active": true
+      },
+      "1USAUAL": {
+        "description": "University of Alabama, AL",
+        "active": true
+      },
+      "1USAUAZ": {
+        "description": "Arizona University , Tucson, AZ",
+        "active": true
+      },
+      "1USAUCB": {
+        "description": "United Nuclear Corp., Tuxedo, NY",
+        "active": true
+      },
+      "1USAUCN": {
+        "description": "University of Cincinnati, Cincinnati, OH",
+        "active": true
+      },
+      "1USAUCO": {
+        "description": "University of Connecticut, Groton, CT",
+        "active": true
+      },
+      "1USAUCS": {
+        "description": "Union Carbide, Sterling Forest Research Center, Tuxedo,NY",
+        "active": true
+      },
+      "1USAUCX": {
+        "description": "University of California, Berkeley, CA",
+        "active": true
+      },
+      "1USAUI": {
+        "description": "University of Illinois, Urbana-Champaign, IL",
+        "active": true
+      },
+      "1USAUID": {
+        "description": "University of Idaho, Moscow, ID",
+        "active": true
+      },
+      "1USAUMA": {
+        "description": "University of Massachusetts, Amherst, MA",
+        "active": true
+      },
+      "1USAUMT": {
+        "description": "University of Montana, Helena, MT",
+        "active": true
+      },
+      "1USAUNB": {
+        "description": "University of Nebraska, Lincoln, NE",
+        "active": true
+      },
+      "1USAUNC": {
+        "description": "United Nuclear Corp., Elmsford, NY",
+        "active": true
+      },
+      "1USAUNH": {
+        "description": "University of New Hampshire, Durham, NH",
+        "active": true
+      },
+      "1USAURS": {
+        "description": "Ursinus College, Collegeville, PA",
+        "active": true
+      },
+      "1USAUSA": {
+        "description": "United States of America",
+        "active": true
+      },
+      "1USAUSC": {
+        "description": "University of Southern California, Los Angeles, CA",
+        "active": true
+      },
+      "1USAUSU": {
+        "description": "Utah State University, Loagn, UT",
+        "active": true
+      },
+      "1USAUWY": {
+        "description": "University of Wyoming, Laramie, WY",
+        "active": true
+      },
+      "1USAVBT": {
+        "description": "Vanderbilt University, Nashville, TN",
+        "active": true
+      },
+      "1USAVIP": {
+        "description": "Virginia Polytechnic Institute ,Blacksburg, VA",
+        "active": true
+      },
+      "1USAVIR": {
+        "description": "University of Virginia, Charlottesville, VA",
+        "active": true
+      },
+      "1USAWAD": {
+        "description": "Wright Air Development Center, OH",
+        "active": true
+      },
+      "1USAWAL": {
+        "description": "Westinghouse Astronuclear Laboratory , Pittsburgh, PA",
+        "active": true
+      },
+      "1USAWAP": {
+        "description": "Westinghouse Atomic Power Division , Pittsburgh, PA",
+        "active": true
+      },
+      "1USAWAS": {
+        "description": "Washington University, St.Louis, MO",
+        "active": true
+      },
+      "1USAWAT": {
+        "description": "Watertown Arsenal, Watertown, MA",
+        "active": true
+      },
+      "1USAWAU": {
+        "description": "University of Washington, Seattle, WA",
+        "active": true
+      },
+      "1USAWAY": {
+        "description": "Wayne State University, Detroit, MI",
+        "active": true
+      },
+      "1USAWES": {
+        "description": "Westinghouse Research Laboratory , Pittsburgh, PA",
+        "active": true
+      },
+      "1USAWEW": {
+        "description": "Westinghouse Advanced Reactor Division , Pittsburgh, PA",
+        "active": true
+      },
+      "1USAWGC": {
+        "description": "West Georgia College, Carrolton, GA",
+        "active": true
+      },
+      "1USAWIS": {
+        "description": "University of Wisconsin, Madison, WI",
+        "active": true
+      },
+      "1USAWKU": {
+        "description": "Western Kentucky University, Bowling Green, KY",
+        "active": true
+      },
+      "1USAWLY": {
+        "description": "Wesleyan University, Middletown, CT",
+        "active": true
+      },
+      "1USAWMC": {
+        "description": "College of William and Mary, Williamsburg, VA",
+        "active": true
+      },
+      "1USAWMU": {
+        "description": "Western Michigan University, Kalamazoo, MI",
+        "active": true
+      },
+      "1USAWPI": {
+        "description": "Worcester Polytechnic Institute, Worcester, MA",
+        "active": true
+      },
+      "1USAWRU": {
+        "description": "Western Reserve University, Cleveland, OH",
+        "active": true
+      },
+      "1USAWSA": {
+        "description": "White Sands Missile Range, White Sands, NM",
+        "active": true
+      },
+      "1USAWSU": {
+        "description": "Washington State University, Pullman, WA",
+        "active": true
+      },
+      "1USAWVU": {
+        "description": "University of West Virginia, Morgentown, WV",
+        "active": true
+      },
+      "1USAWWS": {
+        "description": "Western Washington State College, Bellingham, WA",
+        "active": true
+      },
+      "1USAYAL": {
+        "description": "Yale University, New Haven, CT",
+        "active": true
+      },
+      "2AUSATI": {
+        "description": "Atominstitut der Technischen Universitaet Wien,Vienna",
+        "active": true
+      },
+      "2AUSAUS": {
+        "description": "Austria",
+        "active": true
+      },
+      "2AUSGFK": {
+        "description": "Technische Universitaet Graz, Graz",
+        "active": true
+      },
+      "2AUSIRK": {
+        "description": "Institute fuer Isotopenforschung und Kernphysik, Vienna",
+        "active": true
+      },
+      "2AUSKUL": {
+        "description": "Johannes-Kepler-Universitaet, Linz",
+        "active": true
+      },
+      "2AUSPVI": {
+        "description": "Institute fuer Experimentalphysik, Universitaet Wien",
+        "active": false
+      },
+      "2AUSSGA": {
+        "description": "Oest.Forschungszentrum Seibersdorf, Wien+Seibersdorf",
+        "active": true
+      },
+      "2AUSTHV": {
+        "description": "Technische Universitaet Wien, Vienna",
+        "active": true
+      },
+      "2AUSTPG": {
+        "description": "Universitaet Graz, Graz",
+        "active": true
+      },
+      "2AUSVIE": {
+        "description": "Universitaet Wien, Vienna",
+        "active": true
+      },
+      "2BLGBLG": {
+        "description": "Belgium",
+        "active": true
+      },
+      "2BLGBN": {
+        "description": "Belgonucleaire",
+        "active": true
+      },
+      "2BLGBRU": {
+        "description": "Universite Libre de Bruxelles, Bruxelles",
+        "active": true
+      },
+      "2BLGGHT": {
+        "description": "Universiteit Gent, Gent",
+        "active": true
+      },
+      "2BLGLEU": {
+        "description": "Katholieke University Leuven, Leuven",
+        "active": true
+      },
+      "2BLGLIE": {
+        "description": "University of Liege, Liege",
+        "active": true
+      },
+      "2BLGLVN": {
+        "description": "Catholic University of Louvain, Louvain-la-Neuve",
+        "active": true
+      },
+      "2BLGMOL": {
+        "description": "C.E.N., Mol",
+        "active": true
+      },
+      "2BLGNAM": {
+        "description": "University \"Notre Dame de la Paix\", Namur",
+        "active": true
+      },
+      "2BLGPCL": {
+        "description": "Institute de Physique Corpusculaire, Louvain-la-Neuve",
+        "active": true
+      },
+      "2BLGUIA": {
+        "description": "University Instelling, Anvers",
+        "active": true
+      },
+      "2BLGUMK": {
+        "description": "Union Miniere du Haut Katanga, Bruxelles",
+        "active": true
+      },
+      "2BLGVUB": {
+        "description": "Vrije Universiteit Brussels, Brussels",
+        "active": true
+      },
+      "2DENAAU": {
+        "description": "Aarhus University, Aarhus",
+        "active": true
+      },
+      "2DENCOP": {
+        "description": "University of Copenhagen, Copenhagen",
+        "active": true
+      },
+      "2DENDEN": {
+        "description": "Denmark",
+        "active": true
+      },
+      "2DENNBI": {
+        "description": "Niels Bohr Institute , Copenhagen",
+        "active": true
+      },
+      "2DENNTA": {
+        "description": "Nordita, Denmark",
+        "active": true
+      },
+      "2DENRIS": {
+        "description": "Riso, Roskilde",
+        "active": true
+      },
+      "2EIREIR": {
+        "description": "Ireland",
+        "active": true
+      },
+      "2EIRUCD": {
+        "description": "University College, Dublin",
+        "active": true
+      },
+      "2FR AAA": {
+        "description": "Groupement Atomique Alsacienne Atlantique",
+        "active": true
+      },
+      "2FR ARN": {
+        "description": "GIP Arronax, Saint Herblain",
+        "active": true
+      },
+      "2FR BOR": {
+        "description": "Universite de Bordeaux",
+        "active": true
+      },
+      "2FR BRC": {
+        "description": "CEA/DAM Ile-de-France, Bruyeres-le-Chatel, Arpajon",
+        "active": true
+      },
+      "2FR CAD": {
+        "description": "CEA/Cadarache",
+        "active": true
+      },
+      "2FR CAE": {
+        "description": "Universite de Caen",
+        "active": true
+      },
+      "2FR CEL": {
+        "description": "CEN Limeil",
+        "active": true
+      },
+      "2FR CLE": {
+        "description": "Universite Blaise Pascal, Clermont-Ferrand",
+        "active": true
+      },
+      "2FR CRI": {
+        "description": "Centre d'Etudes et de Rech. par Irrad., CNRS-Orleans",
+        "active": true
+      },
+      "2FR CSN": {
+        "description": "Centre Sci. Nuclear et Sci. Matiere (CSNSM), Orsay",
+        "active": true
+      },
+      "2FR EDF": {
+        "description": "Electricite de France, Paris",
+        "active": true
+      },
+      "2FR ENS": {
+        "description": "Ecole Normale Superieure, Paris",
+        "active": true
+      },
+      "2FR FAR": {
+        "description": "CEA/Fontenay-aux-Roses",
+        "active": true
+      },
+      "2FR FR": {
+        "description": "France",
+        "active": true
+      },
+      "2FR GAN": {
+        "description": "Grand Accelerateur National d'Ions Lourds, Caen",
+        "active": true
+      },
+      "2FR GRA": {
+        "description": "Centre d'Etudes Nucleaires de Bordeaux-Gradignan",
+        "active": true
+      },
+      "2FR GRE": {
+        "description": "Universite Joseph Fourier, Grenoble",
+        "active": true
+      },
+      "2FR ILL": {
+        "description": "Institut Laue-Langevin, Grenoble",
+        "active": true
+      },
+      "2FR ITL": {
+        "description": "CEA/Valduc, Is-sur-tille",
+        "active": true
+      },
+      "2FR LIM": {
+        "description": "CEN Limeil",
+        "active": true
+      },
+      "2FR LRM": {
+        "description": "Laboratory de Recherche des Musees de France, Paris",
+        "active": true
+      },
+      "2FR LYO": {
+        "description": "Universite de Lyon",
+        "active": true
+      },
+      "2FR NTE": {
+        "description": "Universite de Nantes",
+        "active": true
+      },
+      "2FR PAR": {
+        "description": "Universite de Paris",
+        "active": true
+      },
+      "2FR PAU": {
+        "description": "Department de Recherches Physiques, St-Paul-les-Durance",
+        "active": false
+      },
+      "2FR PCF": {
+        "description": "College de France, Paris",
+        "active": true
+      },
+      "2FR SAC": {
+        "description": "CEA/Saclay",
+        "active": true
+      },
+      "2FR SAT": {
+        "description": "Laboratoire National SATURNE, Saclay",
+        "active": true
+      },
+      "2FR STR": {
+        "description": "IPHC, Strasbourg",
+        "active": true
+      },
+      "2FR TOU": {
+        "description": "Universite de Toulouse",
+        "active": true
+      },
+      "2FR ULP": {
+        "description": "Universite de Strasbourg, Strasbourg",
+        "active": true
+      },
+      "2FR VNV": {
+        "description": "Centre d'Etudes de Limeil, Villeneuve-Saint-Georges",
+        "active": true
+      },
+      "2GERALK": {
+        "description": "Alkem GMBH, Leopoldshafen",
+        "active": true
+      },
+      "2GERBBC": {
+        "description": "Brown-Boveri/Krupp, Mannheim",
+        "active": true
+      },
+      "2GERBER": {
+        "description": "Hahn-Meitner-Institute , Berlin",
+        "active": true
+      },
+      "2GERBOC": {
+        "description": "Ruhr-Universitaet Bochum",
+        "active": true
+      },
+      "2GERBON": {
+        "description": "University of Bonn",
+        "active": true
+      },
+      "2GERDKZ": {
+        "description": "Deutsches Krebsforschungszentrum, Heidelberg",
+        "active": true
+      },
+      "2GERDOR": {
+        "description": "Dortmund University , F.R.Germany",
+        "active": true
+      },
+      "2GERDRE": {
+        "description": "Technische Universitaet Dresden, Dresden and Pirna",
+        "active": true
+      },
+      "2GERFRB": {
+        "description": "Freiburg im Breisgau, Universitaet",
+        "active": true
+      },
+      "2GERFRK": {
+        "description": "J.W.Goethe University , Frankfurt/Main",
+        "active": true
+      },
+      "2GERGAR": {
+        "description": "Max-Planck-Institut fuer Plasmaphysik, Garching",
+        "active": true
+      },
+      "2GERGEE": {
+        "description": "Geesthacht, GKSS",
+        "active": false
+      },
+      "2GERGER": {
+        "description": "Germany",
+        "active": true
+      },
+      "2GERGOE": {
+        "description": "University of Goettingen",
+        "active": true
+      },
+      "2GERGSI": {
+        "description": "GSI Helmholtzzent. f. Schwerionenforschung, Darmstadt",
+        "active": true
+      },
+      "2GERHAM": {
+        "description": "Hamburg, Universitaet",
+        "active": true
+      },
+      "2GERHEI": {
+        "description": "Heidelberg, Universitaet",
+        "active": true
+      },
+      "2GERIAK": {
+        "description": "Institute fuer Angewandte Kernphysik, Karlsruhe",
+        "active": false
+      },
+      "2GERIFS": {
+        "description": "Institute fuer Strahlenphysik, Stuttgart",
+        "active": false
+      },
+      "2GERIKA": {
+        "description": "Informationssystem Karlsruhe,",
+        "active": true
+      },
+      "2GERINA": {
+        "description": "Interatom, Bensberg",
+        "active": true
+      },
+      "2GERJEU": {
+        "description": "Jena University ",
+        "active": true
+      },
+      "2GERJLU": {
+        "description": "Justus Liebig University , Giessen",
+        "active": true
+      },
+      "2GERJUL": {
+        "description": "Forschungszentrum Juelich",
+        "active": true
+      },
+      "2GERKFK": {
+        "description": "Karlsruhe Institute of Technology (KIT)",
+        "active": true
+      },
+      "2GERKIG": {
+        "description": "GKSS, Geesthacht",
+        "active": true
+      },
+      "2GERKIL": {
+        "description": "University of Kiel, Kiel",
+        "active": true
+      },
+      "2GERKLN": {
+        "description": "Universitaet zu Koeln",
+        "active": true
+      },
+      "2GERKRU": {
+        "description": "Karlsruhe, University ",
+        "active": true
+      },
+      "2GERLMU": {
+        "description": "Ludwig-Maximilians Universitaet Muenchen",
+        "active": true
+      },
+      "2GERMBG": {
+        "description": "University of Marburg",
+        "active": true
+      },
+      "2GERMNZ": {
+        "description": "Johannes Gutenberg-Universitaet Mainz, Mainz",
+        "active": true
+      },
+      "2GERMPH": {
+        "description": "Max-Planck-Institut fuer Kernphysik, Heidelberg",
+        "active": true
+      },
+      "2GERMPM": {
+        "description": "Max-Planck-Institut fuer Chemie, Mainz",
+        "active": true
+      },
+      "2GERMST": {
+        "description": "Westfaelische Wilhelms-Universitaet Muenster,Muenster",
+        "active": true
+      },
+      "2GERMUE": {
+        "description": "Muenchen, Techn.University ",
+        "active": false
+      },
+      "2GERMUN": {
+        "description": "Technische Universitaet Muenchen",
+        "active": true
+      },
+      "2GERMUU": {
+        "description": "University of Munich, Munich",
+        "active": true
+      },
+      "2GERPTB": {
+        "description": "Physikal. Techn. Bundesanst., Braunschweig",
+        "active": true
+      },
+      "2GERSBU": {
+        "description": "University of Saarland, Saarbruecken",
+        "active": true
+      },
+      "2GERSFN": {
+        "description": "Forschungszentrum fur Umwelt u. Gesundheit,Neuherberg",
+        "active": true
+      },
+      "2GERSIE": {
+        "description": "Siemens, Erlangen",
+        "active": true
+      },
+      "2GERTHA": {
+        "description": "Tech.Hochschule, Aachen",
+        "active": true
+      },
+      "2GERTHB": {
+        "description": "Tech.Hochschule, Braunschweig",
+        "active": true
+      },
+      "2GERTHD": {
+        "description": "Tech.Universitaet, Darmstadt",
+        "active": true
+      },
+      "2GERTHS": {
+        "description": "Universitaet Stuttgart",
+        "active": true
+      },
+      "2GERTUB": {
+        "description": "Tech.University , Berlin",
+        "active": true
+      },
+      "2GERTUE": {
+        "description": "Universitaet Tuebingen",
+        "active": true
+      },
+      "2GERTUH": {
+        "description": "Techn. University Hannover",
+        "active": false
+      },
+      "2GERUDE": {
+        "description": "Universitaet Duisburg-Essen",
+        "active": true
+      },
+      "2GERUEN": {
+        "description": "University of Erlangen-Nuernberg",
+        "active": true
+      },
+      "2GERUH": {
+        "description": "University Hannover (previously Tech.University Hannover)",
+        "active": true
+      },
+      "2GERUSI": {
+        "description": "University Siegen",
+        "active": true
+      },
+      "2GERWUU": {
+        "description": "Wuerzburg, Universitaet",
+        "active": true
+      },
+      "2GERZFK": {
+        "description": "Helmholtz-Zentrum Dresden-Rossendorf, Dresden",
+        "active": true
+      },
+      "2GRCARU": {
+        "description": "Aristotle University of Thessaloniki",
+        "active": true
+      },
+      "2GRCATH": {
+        "description": "NCSR Demokritos, Aghia Paraskevi, Athens",
+        "active": true
+      },
+      "2GRCGRC": {
+        "description": "Greece",
+        "active": true
+      },
+      "2GRCIOA": {
+        "description": "University of Ioannina, Ioannina",
+        "active": true
+      },
+      "2GRCTUA": {
+        "description": "National Techn. University of Athens",
+        "active": true
+      },
+      "2ICEICE": {
+        "description": "Iceland",
+        "active": true
+      },
+      "2ITYBAU": {
+        "description": "Universita degli Studi di Bari + INFN Bari",
+        "active": true
+      },
+      "2ITYBOL": {
+        "description": "ENEA Centro Ricerche Energia di Bologna",
+        "active": true
+      },
+      "2ITYCAG": {
+        "description": "University of Cagliari",
+        "active": true
+      },
+      "2ITYCAM": {
+        "description": "Universita degli Studi di Camerino",
+        "active": true
+      },
+      "2ITYCAS": {
+        "description": "Centro di Studi Nucleari della Casaccia, Rome",
+        "active": true
+      },
+      "2ITYCAT": {
+        "description": "Universita degli Studi di Catania + INFN Catania",
+        "active": true
+      },
+      "2ITYCIS": {
+        "description": "C.I.S.E., Milan",
+        "active": true
+      },
+      "2ITYEFR": {
+        "description": "ENEA Centro Ricerche Frascati, Frascati",
+        "active": true
+      },
+      "2ITYENI": {
+        "description": "ENI, San Donato, Milan",
+        "active": true
+      },
+      "2ITYENN": {
+        "description": "Universita degli Studi di Enna \"Kore\", Enna",
+        "active": true
+      },
+      "2ITYFIR": {
+        "description": "Universita degli Studi di Firenze + INFN Firenze",
+        "active": true
+      },
+      "2ITYFRA": {
+        "description": "INFN Laboratori Nazionali di Frascati",
+        "active": true
+      },
+      "2ITYFSN": {
+        "description": "Universita degli Studi della Campania, Caserta",
+        "active": true
+      },
+      "2ITYGVA": {
+        "description": "U.+INFN., Genova",
+        "active": true
+      },
+      "2ITYISR": {
+        "description": "Istituto Superiore di Sanita, Roma",
+        "active": true
+      },
+      "2ITYITY": {
+        "description": "Italy",
+        "active": true
+      },
+      "2ITYLEC": {
+        "description": "University degli Studi Lecce + INFN Lecce",
+        "active": true
+      },
+      "2ITYLGS": {
+        "description": "Laboratory Naz.del Gran Sasso, Ist.Naz.di Fis.Nuclear ,Assergi",
+        "active": true
+      },
+      "2ITYLNS": {
+        "description": "INFN Laboratori Nazionali del Sud, Catania",
+        "active": true
+      },
+      "2ITYMES": {
+        "description": "University of Messina",
+        "active": true
+      },
+      "2ITYMIL": {
+        "description": "Universita degli Studi di Milano + INFN Milano",
+        "active": true
+      },
+      "2ITYMIP": {
+        "description": "Politecnico di Milano",
+        "active": true
+      },
+      "2ITYNAP": {
+        "description": "University degli Studi di Napoli Federico II + INFN Napoli",
+        "active": true
+      },
+      "2ITYOAC": {
+        "description": "Osservatorio Astronomico di Collurania, Teramo",
+        "active": true
+      },
+      "2ITYPAD": {
+        "description": "INFN Laboratori Nazionali di Legnaro, Legnaro, Padova",
+        "active": true
+      },
+      "2ITYPAV": {
+        "description": "University degli Studi di Pavia + INFN Pavia",
+        "active": true
+      },
+      "2ITYROM": {
+        "description": "University degli Studi di Roma \"La Sapienza\" + INFN Roma 1",
+        "active": true
+      },
+      "2ITYSAL": {
+        "description": "Sorin Nuclear Research Centre Saluggia",
+        "active": true
+      },
+      "2ITYSIC": {
+        "description": "Centro Sicil.di Fisica Nuclear CSFNSM, Catania",
+        "active": true
+      },
+      "2ITYTRI": {
+        "description": "Universita degli Studi di Trieste + INFN Trieste",
+        "active": true
+      },
+      "2ITYTUP": {
+        "description": "Politecnico di Torino",
+        "active": true
+      },
+      "2ITYTUR": {
+        "description": "Universita degli Studi di Torino + INFN Torino",
+        "active": true
+      },
+      "2ITYUBO": {
+        "description": "Bologna, University + Ist. Naz. di Fis. Nuclear ",
+        "active": true
+      },
+      "2ITYUDN": {
+        "description": "Universita degli Studi di Udine + INFN Udine",
+        "active": true
+      },
+      "2ITYUPV": {
+        "description": "Universita degli Studi di Padova + INFN Padova",
+        "active": true
+      },
+      "2ITYUTV": {
+        "description": "University degli Studi di Roma \"Tor Vergata\" + INFN Roma 2",
+        "active": true
+      },
+      "2JAPFE": {
+        "description": "Fuji Electric",
+        "active": false
+      },
+      "2JAPHIR": {
+        "description": "Hiroshima, University of Hiroshima",
+        "active": false
+      },
+      "2JAPHOS": {
+        "description": "Hosei University, Tokyo",
+        "active": false
+      },
+      "2JAPHYO": {
+        "description": "Hyogo Agricult.University , Sasayama",
+        "active": false
+      },
+      "2JAPISS": {
+        "description": "Institute of Solid State Physics, University of Tokyo",
+        "active": false
+      },
+      "2JAPJAE": {
+        "description": "JAERI,rTokaib., Institute of Physics + Chem. Research , Saitama",
+        "active": false
+      },
+      "2JAPJAP": {
+        "description": "Japan",
+        "active": false
+      },
+      "2JAPJCL": {
+        "description": "Cyclotron Laboratory , Institute of Physics + Chem. Research , Saitama",
+        "active": false
+      },
+      "2JAPJEL": {
+        "description": "Electoric Pow.Dev.Corp., AED, Tokyo",
+        "active": false
+      },
+      "2JAPKON": {
+        "description": "Konan University , Kobe",
+        "active": false
+      },
+      "2JAPKTO": {
+        "description": "Kyoto University , Kyoto",
+        "active": false
+      },
+      "2JAPKYU": {
+        "description": "Kyushu University , Department of Nuclear Eng., Fukuoka",
+        "active": false
+      },
+      "2JAPNAG": {
+        "description": "University of Nagoya",
+        "active": false
+      },
+      "2JAPNIG": {
+        "description": "Toshiba Corporation",
+        "active": false
+      },
+      "2JAPNII": {
+        "description": "Niigata University , Niigata",
+        "active": false
+      },
+      "2JAPOSA": {
+        "description": "Osaka University , Osaka",
+        "active": false
+      },
+      "2JAPOSP": {
+        "description": "Radiation Centre of Osaka Prefecture, Sakai, Osaka",
+        "active": false
+      },
+      "2JAPPNC": {
+        "description": "Power Reactor and Nuclear Fuel Devel. Corp., Tokai",
+        "active": false
+      },
+      "2JAPSAE": {
+        "description": "Sumitomo Atomic Energy Industries",
+        "active": false
+      },
+      "2JAPSHR": {
+        "description": "Ship Research Institute , Ministry of Transport, Japan",
+        "active": false
+      },
+      "2JAPTIT": {
+        "description": "Tokyo Institute of Technology, Tokyo",
+        "active": false
+      },
+      "2JAPTOH": {
+        "description": "Tohoku University , Sendai",
+        "active": false
+      },
+      "2JAPTOK": {
+        "description": "Tokyo University , Tokyo",
+        "active": false
+      },
+      "2JAPTSU": {
+        "description": "University of Tsukuba, Ibaraki",
+        "active": false
+      },
+      "2JAPWDA": {
+        "description": "Waseda University , Tokyo",
+        "active": false
+      },
+      "2JAPYAM": {
+        "description": "Yamanashi University , Kofu",
+        "active": false
+      },
+      "2JAPYOK": {
+        "description": "Rikkyo (St.Paul) University , Yokosuka and Tokyo",
+        "active": false
+      },
+      "2JPNAIS": {
+        "description": "National Institute of Adv.Ind.Sci.Tech.(AIST), Tsukuba",
+        "active": true
+      },
+      "2JPNAIT": {
+        "description": "Ashikaga Institute of Technology, Ashikaga, Tochigi",
+        "active": true
+      },
+      "2JPNAKT": {
+        "description": "Akita University , Akita",
+        "active": true
+      },
+      "2JPNAOY": {
+        "description": "Aoyama Gakuin University , Tokyo",
+        "active": true
+      },
+      "2JPNCIT": {
+        "description": "Chiba Institute of Technology, Narashino, Chiba",
+        "active": true
+      },
+      "2JPNETL": {
+        "description": "Electrotechnical Laboratory, Tsukuba",
+        "active": true
+      },
+      "2JPNFE": {
+        "description": "Fuji Electric",
+        "active": true
+      },
+      "2JPNFUK": {
+        "description": "Fukuoka University , Fukuoka",
+        "active": true
+      },
+      "2JPNGMT": {
+        "description": "Gifu College of Medical Technologies, Gifu",
+        "active": true
+      },
+      "2JPNHIR": {
+        "description": "Hiroshima University , Hiroshima and Higashi-Hiroshima",
+        "active": true
+      },
+      "2JPNHIT": {
+        "description": "University of Hyogo, Himeji",
+        "active": true
+      },
+      "2JPNHOK": {
+        "description": "Hokkaido Univesity, Sapporo",
+        "active": true
+      },
+      "2JPNHOS": {
+        "description": "Hosei University, Tokyo",
+        "active": true
+      },
+      "2JPNHYO": {
+        "description": "Hyogo Agricult.University , Sasayama",
+        "active": true
+      },
+      "2JPNICU": {
+        "description": "International Christian University , Mitaka, Tokyo",
+        "active": true
+      },
+      "2JPNIPC": {
+        "description": "Institute of Physical and Chemical Research (RIKEN), Wako",
+        "active": true
+      },
+      "2JPNIRS": {
+        "description": "National Institute for Quantum & Radiol.Sci.& Tech., Chiba",
+        "active": true
+      },
+      "2JPNISS": {
+        "description": "Institute of Solid State Physics, University of Tokyo",
+        "active": true
+      },
+      "2JPNJAE": {
+        "description": "Japan Atomic Energy Agency (JAEA)",
+        "active": true
+      },
+      "2JPNJCL": {
+        "description": "Cyclotron Laboratory , Institute of Physics & Chem. Research, Wakou",
+        "active": false
+      },
+      "2JPNJEL": {
+        "description": "Electoric Pow.Dev.Corp., AED, Tokyo",
+        "active": true
+      },
+      "2JPNJNC": {
+        "description": "Japan Nuclear Cycle Development Institute , Tokai-mura",
+        "active": true
+      },
+      "2JPNJPN": {
+        "description": "Japan",
+        "active": true
+      },
+      "2JPNJSR": {
+        "description": "Japan Synchrotron Rad.Research Institute (JASRI), Hyogo",
+        "active": true
+      },
+      "2JPNJTD": {
+        "description": "Juntendo University , Chiba",
+        "active": true
+      },
+      "2JPNKEK": {
+        "description": "High Energy Accelerator Research Org. (KEK), Tsukuba",
+        "active": true
+      },
+      "2JPNKIT": {
+        "description": "University of Occupational and Environmental Health, Kitakyushu",
+        "active": true
+      },
+      "2JPNKNK": {
+        "description": "Kinki University ,Higashi Osaka",
+        "active": true
+      },
+      "2JPNKNZ": {
+        "description": "Kanazawa University , Kanazawa",
+        "active": true
+      },
+      "2JPNKON": {
+        "description": "Konan University , Kobe",
+        "active": true
+      },
+      "2JPNKTJ": {
+        "description": "Kobe Tokiwa University , Kobe",
+        "active": true
+      },
+      "2JPNKTO": {
+        "description": "Kyoto University , Kyoto",
+        "active": true
+      },
+      "2JPNKUE": {
+        "description": "Kyoto University of Education, Kyoto",
+        "active": true
+      },
+      "2JPNKYO": {
+        "description": "Kyoritsu College of Pharmacy, Tokyo",
+        "active": true
+      },
+      "2JPNKYP": {
+        "description": "Kyoto Prefectural University , Kyoto",
+        "active": true
+      },
+      "2JPNKYU": {
+        "description": "Kyushu University , Fukuoka",
+        "active": true
+      },
+      "2JPNLEP": {
+        "description": "National laboratory for High Energy Physics, Oho, Ibaraki",
+        "active": true
+      },
+      "2JPNMZK": {
+        "description": "Miyazaki University , Miyazaki",
+        "active": true
+      },
+      "2JPNNAG": {
+        "description": "Nagoya University , Nagoya",
+        "active": true
+      },
+      "2JPNNCT": {
+        "description": "Oita National College of Technology, Oita",
+        "active": true
+      },
+      "2JPNNIA": {
+        "description": "Nagasaki Institute of Applied Science, Nagasaki",
+        "active": true
+      },
+      "2JPNNIF": {
+        "description": "National Institute for Fusion Science, Toki, Gifu",
+        "active": true
+      },
+      "2JPNNIG": {
+        "description": "Toshiba Corporation",
+        "active": true
+      },
+      "2JPNNII": {
+        "description": "Niigata University , Niigata",
+        "active": true
+      },
+      "2JPNOEC": {
+        "description": "Osaka Electro-Communication University , Neyagawa, Osaka",
+        "active": true
+      },
+      "2JPNOSA": {
+        "description": "Osaka University , Osaka",
+        "active": true
+      },
+      "2JPNOSP": {
+        "description": "Radiation Centre of Osaka Prefecture, Sakai, Osaka",
+        "active": true
+      },
+      "2JPNPNC": {
+        "description": "Power Reactor and Nuclear Fuel Devel. Corp., Tokai",
+        "active": true
+      },
+      "2JPNSAE": {
+        "description": "Sumitomo Atomic Energy Industries",
+        "active": true
+      },
+      "2JPNSHR": {
+        "description": "Ship Research Institute , Ministry of Transport, Japan",
+        "active": true
+      },
+      "2JPNSHZ": {
+        "description": "Shizuoka University , Shizuoka",
+        "active": true
+      },
+      "2JPNSTA": {
+        "description": "Science and Technology Agency, Chiyoda-ku, Tokyo",
+        "active": true
+      },
+      "2JPNSUT": {
+        "description": "Tokyo University of Science, Noda, Chiba",
+        "active": true
+      },
+      "2JPNSUU": {
+        "description": "Saitama University, Urawa, Saitama",
+        "active": true
+      },
+      "2JPNTAK": {
+        "description": "National Institute for Quantum & Radiol.Sci.& Tech., Takasaki",
+        "active": true
+      },
+      "2JPNTIT": {
+        "description": "Tokyo Institute of Technology, Tokyo",
+        "active": true
+      },
+      "2JPNTKE": {
+        "description": "Tokyo University of Education, Tokyo",
+        "active": true
+      },
+      "2JPNTKS": {
+        "description": "Tokushima University , Tokushima",
+        "active": true
+      },
+      "2JPNTMU": {
+        "description": "Tokyo Metropolitan University , Hachioji, Tokyo",
+        "active": true
+      },
+      "2JPNTOH": {
+        "description": "Tohoku University , Sendai",
+        "active": true
+      },
+      "2JPNTOI": {
+        "description": "Tohoku Institute of Technology, Sendai",
+        "active": true
+      },
+      "2JPNTOK": {
+        "description": "University of Tokyo, Tokyo",
+        "active": true
+      },
+      "2JPNTSU": {
+        "description": "University of Tsukuba, Tsukuba",
+        "active": true
+      },
+      "2JPNWDA": {
+        "description": "Waseda University , Tokyo",
+        "active": true
+      },
+      "2JPNWER": {
+        "description": "Wakasa Wan Energy Research Center, Tsuruga, Fukui",
+        "active": true
+      },
+      "2JPNYAM": {
+        "description": "Yamanashi University , Kofu",
+        "active": true
+      },
+      "2JPNYMG": {
+        "description": "Yamagata University , Yamagata",
+        "active": true
+      },
+      "2JPNYOK": {
+        "description": "Rikkyo (St.Paul) University , Yokosuka and Tokyo",
+        "active": true
+      },
+      "2LUXLUX": {
+        "description": "Luxembourg",
+        "active": true
+      },
+      "2MCOMCO": {
+        "description": "Monaco",
+        "active": true
+      },
+      "2NEDAMS": {
+        "description": "University of Amsterdam, Amsterdam",
+        "active": true
+      },
+      "2NEDDEL": {
+        "description": "Technical University , Delft",
+        "active": true
+      },
+      "2NEDENT": {
+        "description": "Eindhoven University of Technology",
+        "active": true
+      },
+      "2NEDFUL": {
+        "description": "Vrije Universiteit te Amsterdam, De Boelelaan",
+        "active": true
+      },
+      "2NEDGRN": {
+        "description": "Groningen",
+        "active": false
+      },
+      "2NEDIKO": {
+        "description": "Nat'l Institute for Nuclear and High Energy Physics, Sect.K",
+        "active": true
+      },
+      "2NEDKVI": {
+        "description": "Kernfysich Versneller Institute , Groningen",
+        "active": true
+      },
+      "2NEDLEI": {
+        "description": "University of Leiden",
+        "active": true
+      },
+      "2NEDNED": {
+        "description": "Netherlands",
+        "active": true
+      },
+      "2NEDNRG": {
+        "description": "Nuclear Research and Consultancy Group, Petten",
+        "active": true
+      },
+      "2NEDRCN": {
+        "description": "Netherland's Energy Research Foundation, Petten",
+        "active": true
+      },
+      "2NEDRUG": {
+        "description": "Rijksuniversiteit Groningen, Groningen",
+        "active": true
+      },
+      "2NEDUTR": {
+        "description": "University of Utrecht",
+        "active": true
+      },
+      "2NEDVDN": {
+        "description": "Central Bureau der V.D.E.N., Arnhem",
+        "active": true
+      },
+      "2NORBGN": {
+        "description": "University of Bergen",
+        "active": true
+      },
+      "2NORHAL": {
+        "description": "Halden, Institute for Energiteknikk",
+        "active": true
+      },
+      "2NORJEN": {
+        "description": "Institute for Atomenergi, Kjeller",
+        "active": false
+      },
+      "2NORKJL": {
+        "description": "Institutt for Energiteknikk (IFE), Kjeller",
+        "active": true
+      },
+      "2NORNOR": {
+        "description": "Norway",
+        "active": true
+      },
+      "2NOROSL": {
+        "description": "University of Oslo, Oslo",
+        "active": true
+      },
+      "2PRTCMB": {
+        "description": "Universidade de Coimbra, Coimbra",
+        "active": true
+      },
+      "2PRTFNL": {
+        "description": "Centro de Fisica Nuclear, Lisboa",
+        "active": false
+      },
+      "2PRTJES": {
+        "description": "Junta de Energia Nuclear, Sacavem",
+        "active": true
+      },
+      "2PRTLFE": {
+        "description": "Instituto Tecnologico e Nuclear, Sacavem",
+        "active": true
+      },
+      "2PRTLIS": {
+        "description": "Universidade de Lisboa, Lisboa",
+        "active": true
+      },
+      "2PRTNOV": {
+        "description": "Universidade Nova de Lisboa, Lisboa",
+        "active": true
+      },
+      "2PRTPRT": {
+        "description": "Portugal",
+        "active": true
+      },
+      "2SF ABA": {
+        "description": "Abo Akademi, Turku",
+        "active": true
+      },
+      "2SF HLS": {
+        "description": "University of Helsinki, Helsinki",
+        "active": true
+      },
+      "2SF HLT": {
+        "description": "Helsinki Tech.University , Otaniemi",
+        "active": true
+      },
+      "2SF JYV": {
+        "description": "University of Jyvaskyla, Jyvaskyla",
+        "active": true
+      },
+      "2SF OUL": {
+        "description": "University of Oulu, Oulu",
+        "active": true
+      },
+      "2SF SF": {
+        "description": "Finland",
+        "active": true
+      },
+      "2SF TKU": {
+        "description": "Turku University",
+        "active": true
+      },
+      "2SPNAUT": {
+        "description": "Universidad Autonoma de Madrid, Madrid",
+        "active": true
+      },
+      "2SPNGRU": {
+        "description": "Universidad de Granada, Granada",
+        "active": true
+      },
+      "2SPNHLV": {
+        "description": "Universidad de Huelva, Huelva",
+        "active": true
+      },
+      "2SPNIEM": {
+        "description": "Instituto de Estructura de la Materia, Madrid",
+        "active": true
+      },
+      "2SPNJNE": {
+        "description": "Junta de Energia Nuclear, Madrid",
+        "active": true
+      },
+      "2SPNPCM": {
+        "description": "Centro para Invest. Energ., Medio. y Tecnol. (CIEMAT)",
+        "active": true
+      },
+      "2SPNSAU": {
+        "description": "Universidad de Santiago de Compostela",
+        "active": true
+      },
+      "2SPNSEU": {
+        "description": "Universidad de Sevilla, Seville",
+        "active": true
+      },
+      "2SPNSPN": {
+        "description": "Spain",
+        "active": true
+      },
+      "2SPNUPC": {
+        "description": "Universitat Politecnica de Catalunya, Barcelona",
+        "active": true
+      },
+      "2SPNUPM": {
+        "description": "Universidad Politecnica de Madrid, Madrid",
+        "active": true
+      },
+      "2SPNVAL": {
+        "description": "Universidad de Valencia, Valencia",
+        "active": true
+      },
+      "2SPNVIG": {
+        "description": "Universidad de Vigo, Vigo",
+        "active": true
+      },
+      "2SPNVLD": {
+        "description": "Universidad de Valladolid",
+        "active": true
+      },
+      "2SWDAE": {
+        "description": "Studsvik Energiteknik AB",
+        "active": true
+      },
+      "2SWDCTH": {
+        "description": "Chalmers University of Tech., Gothenburg",
+        "active": true
+      },
+      "2SWDFOA": {
+        "description": "Research Institute for National Defence, Stockholm",
+        "active": true
+      },
+      "2SWDFOI": {
+        "description": "Swedish Defence Research Agency (FOI), Stockholm",
+        "active": true
+      },
+      "2SWDIPS": {
+        "description": "Research Institute of Physics (form.Nobel Institute ), Stockholm",
+        "active": true
+      },
+      "2SWDKTH": {
+        "description": "Royal Institute of Tech., Stockholm",
+        "active": true
+      },
+      "2SWDLND": {
+        "description": "Lund University + Tech.University ",
+        "active": true
+      },
+      "2SWDRIP": {
+        "description": "Research Institute of Physics , Stockholm",
+        "active": false
+      },
+      "2SWDSTK": {
+        "description": "Stockholm",
+        "active": false
+      },
+      "2SWDSWD": {
+        "description": "Sweden",
+        "active": true
+      },
+      "2SWDSWR": {
+        "description": "Studsvik Science Research Laboratory",
+        "active": true
+      },
+      "2SWDTLU": {
+        "description": "Tandem Laboratory, Uppsala",
+        "active": false
+      },
+      "2SWDUPP": {
+        "description": "University of Uppsala",
+        "active": true
+      },
+      "2SWDUST": {
+        "description": "Stockholm University",
+        "active": true
+      },
+      "2SWTBAS": {
+        "description": "Basel University ",
+        "active": true
+      },
+      "2SWTETH": {
+        "description": "Eidgenossische Technische Hochschule, Zuerich",
+        "active": true
+      },
+      "2SWTFRS": {
+        "description": "University of Fribourg",
+        "active": true
+      },
+      "2SWTGVE": {
+        "description": "University of Geneva",
+        "active": true
+      },
+      "2SWTLAU": {
+        "description": "University of Lausanne",
+        "active": true
+      },
+      "2SWTNEU": {
+        "description": "University of Neuchatel",
+        "active": true
+      },
+      "2SWTPSI": {
+        "description": "Paul Scherrer Institute , Villigen",
+        "active": true
+      },
+      "2SWTSWT": {
+        "description": "Switzerland",
+        "active": true
+      },
+      "2SWTUBE": {
+        "description": "Universitaet Bern, Bern",
+        "active": true
+      },
+      "2SWTVIL": {
+        "description": "Swiss.Institute for Nuclear Physics Research , Villigen",
+        "active": true
+      },
+      "2SWTWUR": {
+        "description": "Eidgenossisches Institute fuer Reakt.Forsch., Wuerenlingen",
+        "active": true
+      },
+      "2SWTZUR": {
+        "description": "Zurich",
+        "active": true
+      },
+      "2TUKANK": {
+        "description": "Ankara University + Middle East Technical University , Ankara",
+        "active": true
+      },
+      "2TUKANR": {
+        "description": "Ankara Nuclear Research and Training Centre",
+        "active": true
+      },
+      "2TUKCNA": {
+        "description": "Cekmece Nuclear Research Centre, Istanbul",
+        "active": true
+      },
+      "2TUKGZU": {
+        "description": "Gazi University, Ankara",
+        "active": true
+      },
+      "2TUKKOC": {
+        "description": "Kocaeli University, Kocaeli",
+        "active": true
+      },
+      "2TUKSTU": {
+        "description": "Istanbul University",
+        "active": true
+      },
+      "2TUKTUK": {
+        "description": "Turkey",
+        "active": true
+      },
+      "2TUKYTU": {
+        "description": "Yildiz Technical University, Istanbul",
+        "active": true
+      },
+      "2UK ALD": {
+        "description": "Atomic Weapons Establishment (AWE), Aldermaston",
+        "active": true
+      },
+      "2UK BCT": {
+        "description": "Battersea College of Technology, London",
+        "active": true
+      },
+      "2UK BIA": {
+        "description": "University of Aston, Birmingham",
+        "active": true
+      },
+      "2UK BIR": {
+        "description": "University of Birmingham, England",
+        "active": true
+      },
+      "2UK BLF": {
+        "description": "University of Belfast, N.Ireland",
+        "active": true
+      },
+      "2UK BRD": {
+        "description": "University of Bradford, England",
+        "active": true
+      },
+      "2UK BRI": {
+        "description": "University of Bristol, England",
+        "active": true
+      },
+      "2UK CAV": {
+        "description": "Cavendish Laboratory , Cambridge, Engl.",
+        "active": true
+      },
+      "2UK CCH": {
+        "description": "UKAEA Reactor Materials Laboratory, Warrington",
+        "active": true
+      },
+      "2UK CEG": {
+        "description": "Berkeley Nuclear Laboratories (BNL), Berkeley",
+        "active": true
+      },
+      "2UK CRN": {
+        "description": "Royal Military Coll.of Sci.,Cranfield University ,Swindon",
+        "active": true
+      },
+      "2UK CUL": {
+        "description": "UKAEA Fusion, Culham Science Centre, Abingdon",
+        "active": true
+      },
+      "2UK DAR": {
+        "description": "Daresbury Laboratory, Warrington",
+        "active": true
+      },
+      "2UK DOU": {
+        "description": "Dounreay Experimental Reactor Establishment, Thurso",
+        "active": true
+      },
+      "2UK DUR": {
+        "description": "University of Durham, England",
+        "active": true
+      },
+      "2UK EDG": {
+        "description": "University of Edinburgh, Scotland",
+        "active": true
+      },
+      "2UK EE": {
+        "description": "English Electric Company, Wheatstone, Leics",
+        "active": true
+      },
+      "2UK GLS": {
+        "description": "University of Glasgow, Glasgow, Scotland",
+        "active": true
+      },
+      "2UK HAR": {
+        "description": "Atomic Energy Research Establishment (AERE), Harwell",
+        "active": true
+      },
+      "2UK HFS": {
+        "description": "University of Hertfordshire, Hatfield, Hertfordshire",
+        "active": true
+      },
+      "2UK HHL": {
+        "description": "M.R.C.Cyclotron Unit, Hammersmith Hospital, London",
+        "active": true
+      },
+      "2UK IST": {
+        "description": "Imp.Coll.of Sci.+Techn., London",
+        "active": true
+      },
+      "2UK KCL": {
+        "description": "King's College London, London",
+        "active": true
+      },
+      "2UK KEN": {
+        "description": "University of Kent, Canterbury, England",
+        "active": true
+      },
+      "2UK KEU": {
+        "description": "Keele University , Keele, Staffordshire, England",
+        "active": true
+      },
+      "2UK LEE": {
+        "description": "University of Leeds, Leeds, England",
+        "active": true
+      },
+      "2UK LON": {
+        "description": "University of London, London, England",
+        "active": true
+      },
+      "2UK LVP": {
+        "description": "University of Liverpool, England",
+        "active": true
+      },
+      "2UK MAN": {
+        "description": "University of Manchester, England",
+        "active": true
+      },
+      "2UK MVE": {
+        "description": "Metropolitan-Vickers Electrical H.V. Laboratory ",
+        "active": true
+      },
+      "2UK NEW": {
+        "description": "University of Newcastle-on-Tyne",
+        "active": true
+      },
+      "2UK NIN": {
+        "description": "Rutherford Appleton Laboratory, Chilton, England",
+        "active": true
+      },
+      "2UK NPL": {
+        "description": "National Physics Laboratory , Teddington",
+        "active": true
+      },
+      "2UK NRP": {
+        "description": "National Radiological Protection Board, Harwell",
+        "active": true
+      },
+      "2UK OXF": {
+        "description": "University of Oxford, Oxford",
+        "active": true
+      },
+      "2UK QML": {
+        "description": "Queen Mary College, London",
+        "active": true
+      },
+      "2UK REA": {
+        "description": "University of Reading",
+        "active": true
+      },
+      "2UK RLY": {
+        "description": "UKAEA, Risley",
+        "active": true
+      },
+      "2UK RR": {
+        "description": "Rolls-Royce",
+        "active": true
+      },
+      "2UK SBL": {
+        "description": "Polytechnic of South Bank, London",
+        "active": true
+      },
+      "2UK SHE": {
+        "description": "University of Sheffield",
+        "active": true
+      },
+      "2UK SRC": {
+        "description": "Scottish Reactor Centre, E.Kilbride, Scotland",
+        "active": true
+      },
+      "2UK SSX": {
+        "description": "University of Sussex, Brighton",
+        "active": true
+      },
+      "2UK SUR": {
+        "description": "University of Surrey, Guildford",
+        "active": true
+      },
+      "2UK UK": {
+        "description": "United Kingdom",
+        "active": true
+      },
+      "2UK UKW": {
+        "description": "Windscale Reactor Development Labs., UKAEA",
+        "active": true
+      },
+      "2UK WIN": {
+        "description": "Atomic Energy Establishment (AEE), Winfrith, Dorset",
+        "active": true
+      },
+      "2UK YRK": {
+        "description": "University of York, York",
+        "active": true
+      },
+      "2ZZZBIP": {
+        "description": "Bureau International des Poids et Mesures, Sevres",
+        "active": true
+      },
+      "2ZZZCER": {
+        "description": "CERN, Geneva",
+        "active": true
+      },
+      "2ZZZDGE": {
+        "description": "EURATOM, Bruxelles",
+        "active": true
+      },
+      "2ZZZEC": {
+        "description": "European Commission",
+        "active": true
+      },
+      "2ZZZESR": {
+        "description": "The European Synchrotron Radiation Facility, Grenoble",
+        "active": true
+      },
+      "2ZZZGEL": {
+        "description": "EC Joint Research Centre (EC-JRC), Geel",
+        "active": true
+      },
+      "2ZZZISP": {
+        "description": "EC Joint Research Center (EC-JRC), Ispra",
+        "active": true
+      },
+      "2ZZZITU": {
+        "description": "EC Joint Research Centre (EC-JRC), Karlsruhe",
+        "active": true
+      },
+      "2ZZZNDC": {
+        "description": "NEA Data Bank, Paris",
+        "active": true
+      },
+      "2ZZZNEA": {
+        "description": "OECD Nuclear Energy Agency (NEA)",
+        "active": true
+      },
+      "2ZZZNTF": {
+        "description": "The nTOF Collaboration",
+        "active": false
+      },
+      "3AFGAFG": {
+        "description": "Afghanistan",
+        "active": true
+      },
+      "3ALGALG": {
+        "description": "Algeria",
+        "active": true
+      },
+      "3ALGCDT": {
+        "description": "Centre de Recherche Nucleaire d'Alger (CRNA), Algiers",
+        "active": true
+      },
+      "3ALGRNB": {
+        "description": "Centre de Recherche Nucleaire de Birine (CRNB),Birine",
+        "active": true
+      },
+      "3ALGUAG": {
+        "description": "Universite d'Alger, Algiers",
+        "active": true
+      },
+      "3ALGUHB": {
+        "description": "Universite Sci. et Tech. Houari Boumediene, Algiers",
+        "active": true
+      },
+      "3ANGANG": {
+        "description": "Angola",
+        "active": true
+      },
+      "3ARGARG": {
+        "description": "Argentina",
+        "active": true
+      },
+      "3ARGCAB": {
+        "description": "Institute Balseiro y Centro Atomico Bariloche, Bariloche",
+        "active": true
+      },
+      "3ARGCDO": {
+        "description": "Centro de Documentacion Cientifica, Buenos Aires",
+        "active": true
+      },
+      "3ARGCIN": {
+        "description": "Consejo Nac. de Invest. Cientificas y Tec. (CONICET)",
+        "active": true
+      },
+      "3ARGCNE": {
+        "description": "Comision Nacional de Energia Atomica, Buenos Aires",
+        "active": true
+      },
+      "3ARGCRB": {
+        "description": "Center Nacional de Rad. Cosmica, Buenos Aires",
+        "active": true
+      },
+      "3ARGIIA": {
+        "description": "Institute de Investig.Aeronaut.y Espacial, Buenos Aires",
+        "active": true
+      },
+      "3ARGUBA": {
+        "description": "Universidad de Buenos Aires",
+        "active": true
+      },
+      "3ARGUPA": {
+        "description": "Universidad de La Plata, Buenos Aires",
+        "active": true
+      },
+      "3AULAIN": {
+        "description": "A.I.N.S.E., Lucas Heights, NSW",
+        "active": true
+      },
+      "3AULAML": {
+        "description": "University of Melbourne, Parkville, Victoria",
+        "active": true
+      },
+      "3AULARP": {
+        "description": "Australian Radiat.Protect.&Nuclear Safe.Agency,Melbourne",
+        "active": true
+      },
+      "3AULASY": {
+        "description": "University of Sydney, Sydney",
+        "active": true
+      },
+      "3AULAUA": {
+        "description": "Australian Nuclear Sci.and Techn.Org., Lucas Heights,NSW",
+        "active": true
+      },
+      "3AULAUF": {
+        "description": "Flinders University , Bedford Park, Adelaide",
+        "active": true
+      },
+      "3AULAUL": {
+        "description": "Australia",
+        "active": true
+      },
+      "3AULCBR": {
+        "description": "Australian National University, Canberra",
+        "active": true
+      },
+      "3AULMOU": {
+        "description": "Monash University",
+        "active": true
+      },
+      "3AULNSW": {
+        "description": "University of New South Wales",
+        "active": true
+      },
+      "3AULQUC": {
+        "description": "University Coll., Townsville, Queensl.",
+        "active": true
+      },
+      "3AULQUE": {
+        "description": "University of Queensland",
+        "active": true
+      },
+      "3AULTAS": {
+        "description": "University of Tasmania",
+        "active": true
+      },
+      "3AULUNE": {
+        "description": "University of New England",
+        "active": true
+      },
+      "3AULUWA": {
+        "description": "University of Western Australia, Nedlands",
+        "active": true
+      },
+      "3AULWAI": {
+        "description": "Western Australian Institute of Tech., West Bentley",
+        "active": true
+      },
+      "3AULWUC": {
+        "description": "Wollongong University College, Wollongong",
+        "active": true
+      },
+      "3BANBAN": {
+        "description": "Bangladesh",
+        "active": true
+      },
+      "3BANDAC": {
+        "description": "University of Dhaka, Dhaka",
+        "active": true
+      },
+      "3BANDAE": {
+        "description": "Atomic Energy Centre, Dhaka",
+        "active": false
+      },
+      "3BANRAJ": {
+        "description": "University of Rajshahi",
+        "active": true
+      },
+      "3BANRAM": {
+        "description": "Atomic Energy Centre, Ramna, Dhaka",
+        "active": true
+      },
+      "3BANSAV": {
+        "description": "Institute Nuclear Science & Technology, AERE, Savar, Dhaka",
+        "active": true
+      },
+      "3BLVBLV": {
+        "description": "Bolivia",
+        "active": true
+      },
+      "3BLVIBC": {
+        "description": "Institute Boliviano de Ciencia y Tecnologia Nuclear , La Paz",
+        "active": true
+      },
+      "3BLVLFC": {
+        "description": "Laboratorio de Fisica Cosmica, Chacaltaya",
+        "active": true
+      },
+      "3BULBLA": {
+        "description": "Sofia, Institute of Nuclear Research and Nuclear Energy",
+        "active": true
+      },
+      "3BULBUL": {
+        "description": "Bulgaria",
+        "active": true
+      },
+      "3BULPLV": {
+        "description": "Plovdivski Univercitet \"Paisii Hiledarski\", Plovdiv",
+        "active": true
+      },
+      "3BULSOF": {
+        "description": "University of Sofia",
+        "active": true
+      },
+      "3BURBUR": {
+        "description": "Myanmar (formerly Burma)",
+        "active": true
+      },
+      "3BURRAS": {
+        "description": "Rangoon Arts and Science University , Rangoon",
+        "active": true
+      },
+      "3BWABWA": {
+        "description": "Botswana",
+        "active": true
+      },
+      "3BZLABC": {
+        "description": "Academia Brasileira de Ciencias, Rio de Janeiro",
+        "active": true
+      },
+      "3BZLBSP": {
+        "description": "IEA and University, Sao Paulo",
+        "active": false
+      },
+      "3BZLBZL": {
+        "description": "Brazil",
+        "active": true
+      },
+      "3BZLCTA": {
+        "description": "Instituto de Estudos Avancados, Sao Jose dos Campos",
+        "active": true
+      },
+      "3BZLIDF": {
+        "description": "Institute de Fisica,University do Rio Grande do Sul,Porto Alegre",
+        "active": true
+      },
+      "3BZLIEA": {
+        "description": "Instituto de Energia Atomica, Sao Paulo",
+        "active": false
+      },
+      "3BZLIEN": {
+        "description": "Instit. de Engenharia Nuclear, Rio de Janeiro",
+        "active": true
+      },
+      "3BZLIPE": {
+        "description": "Institute de Pesquisas Energeticas e Nucleares, Sao Paulo",
+        "active": true
+      },
+      "3BZLIPR": {
+        "description": "Instit. de Pesquisas Radioativas, Belo Horizonte",
+        "active": true
+      },
+      "3BZLITA": {
+        "description": "Institute Tecnologico de Aeronautica, Sao Jose dos Campos",
+        "active": true
+      },
+      "3BZLLDD": {
+        "description": "Laboratory de Dosimetria, Rio de Janeiro",
+        "active": true
+      },
+      "3BZLPUJ": {
+        "description": "Pontif. Universidad Catolica, Rio de Janeiro",
+        "active": true
+      },
+      "3BZLREC": {
+        "description": "Centro Regional de Ciencias Nucleares, Recife",
+        "active": true
+      },
+      "3BZLRIO": {
+        "description": "Centro Brazil.de Pesquisas Fisicas, Rio de Janeiro",
+        "active": true
+      },
+      "3BZLUEC": {
+        "description": "University Estadual de Campinas, Institute de Fisica, Campinas",
+        "active": true
+      },
+      "3BZLUFF": {
+        "description": "University Federal Fluminense, Niteroi",
+        "active": true
+      },
+      "3BZLUFP": {
+        "description": "University Federal de Pernambuco, Recife",
+        "active": true
+      },
+      "3BZLUFR": {
+        "description": "University Federal do Rio de Janeiro",
+        "active": true
+      },
+      "3BZLUSP": {
+        "description": "University de Sao Paulo, Sao Paulo",
+        "active": true
+      },
+      "3CGOCGO": {
+        "description": "Zaire",
+        "active": false
+      },
+      "3CHFCHF": {
+        "description": "China, Taiwan",
+        "active": true
+      },
+      "3CHFNTU": {
+        "description": "National Taiwan University , Taipei",
+        "active": true
+      },
+      "3CHFSHI": {
+        "description": "Institute of Nuclear Energy Research, Lung-Tan",
+        "active": true
+      },
+      "3CHFTHU": {
+        "description": "National Tsing Hua University , Hsin-Chu",
+        "active": true
+      },
+      "3CHLCEC": {
+        "description": "Comision de Energia Nuclear, Santiago",
+        "active": true
+      },
+      "3CHLCHL": {
+        "description": "Chile",
+        "active": true
+      },
+      "3CHLSAN": {
+        "description": "Universidad de Chile, Santiago",
+        "active": true
+      },
+      "3CHLUCC": {
+        "description": "University de Chile, Facility de Ciencias, Santiago",
+        "active": false
+      },
+      "3CHPAEP": {
+        "description": "China Institute of Atomic Energy, Beijing",
+        "active": false
+      },
+      "3CHPBJG": {
+        "description": "Peking University , Beijing",
+        "active": false
+      },
+      "3CHPBNU": {
+        "description": "Beijing Normal University , Beijing",
+        "active": false
+      },
+      "3CHPCHP": {
+        "description": "China Nuclear Inf.Centre, Beijing",
+        "active": false
+      },
+      "3CHPFUD": {
+        "description": "Fudan University , Shanghai",
+        "active": false
+      },
+      "3CHPIHP": {
+        "description": "Institute of High-Energy Physics, Academy Sinica, Beijing",
+        "active": false
+      },
+      "3CHPIMP": {
+        "description": "Institute of Modern Physics, Academy Sinica, Lanzhou",
+        "active": false
+      },
+      "3CHPLNZ": {
+        "description": "Lanzhou University , Lanzhou",
+        "active": false
+      },
+      "3CHPZHN": {
+        "description": "Zheng-Zhou University ",
+        "active": false
+      },
+      "3CLMCLM": {
+        "description": "Columbia, Rep.",
+        "active": true
+      },
+      "3CLMIAN": {
+        "description": "Institute de Asuntos Nuclear , Bogota",
+        "active": true
+      },
+      "3CMRCMR": {
+        "description": "Cameroon",
+        "active": true
+      },
+      "3COSCOS": {
+        "description": "Costa Rica",
+        "active": true
+      },
+      "3CPRAEP": {
+        "description": "China Institute of Atomic Energy, Beijing",
+        "active": true
+      },
+      "3CPRBHN": {
+        "description": "Beihang University , Beijing",
+        "active": true
+      },
+      "3CPRBJG": {
+        "description": "Peking University , Beijing",
+        "active": true
+      },
+      "3CPRBNT": {
+        "description": "Beijing National Tandem Accelerator Laboratory , Beijing",
+        "active": false
+      },
+      "3CPRBNU": {
+        "description": "Beijing Normal University , Beijing",
+        "active": true
+      },
+      "3CPRCNI": {
+        "description": "China Nuclear Inf.Centre, Beijing",
+        "active": true
+      },
+      "3CPRCPR": {
+        "description": "China, People's Rep.",
+        "active": true
+      },
+      "3CPRFUD": {
+        "description": "Fudan University , Shanghai",
+        "active": true
+      },
+      "3CPRHST": {
+        "description": "Chinese University of Sci. and Tech., Hefei",
+        "active": true
+      },
+      "3CPRHXU": {
+        "description": "Hexi University , Zhangye",
+        "active": true
+      },
+      "3CPRIHP": {
+        "description": "Institute of High Energy Physics, Academy Sinica, Beijing",
+        "active": true
+      },
+      "3CPRIMP": {
+        "description": "Institute of Modern Physics, Academy Sinica, Lanzhou",
+        "active": true
+      },
+      "3CPRINT": {
+        "description": "Northwest Institute of Nuclear Technology, Xian",
+        "active": false
+      },
+      "3CPRIPM": {
+        "description": "Institute of Applied Physics and Computational Math., Beijing",
+        "active": true
+      },
+      "3CPRJIL": {
+        "description": "Jilin University , Changchun",
+        "active": true
+      },
+      "3CPRLNZ": {
+        "description": "Lanzhou University , Lanzhou",
+        "active": true
+      },
+      "3CPRNAN": {
+        "description": "Nanjing University , Nanjing",
+        "active": true
+      },
+      "3CPRNIX": {
+        "description": "Northwest Institute of Nuclear Technology, Xian",
+        "active": true
+      },
+      "3CPRNPC": {
+        "description": "Southwest Institute Nuclear Physics and Chem.,Mianyang,Sichuan",
+        "active": true
+      },
+      "3CPRNRS": {
+        "description": "Shanghai Institute of Applied Physics, Chinese Academy Sci.",
+        "active": true
+      },
+      "3CPRPDU": {
+        "description": "Pingdingshan University , Pingdingshan",
+        "active": true
+      },
+      "3CPRSHN": {
+        "description": "Shaanxi Normal University , Xian",
+        "active": true
+      },
+      "3CPRSIU": {
+        "description": "Sichuan University , Chengdu",
+        "active": true
+      },
+      "3CPRSNU": {
+        "description": "Shanxi Normal University, Linfen",
+        "active": true
+      },
+      "3CPRSST": {
+        "description": "Shanghai University of Science and Technology",
+        "active": true
+      },
+      "3CPRSZH": {
+        "description": "Sun Yat-Sen University, Zhuhai",
+        "active": true
+      },
+      "3CPRSZN": {
+        "description": "Shenzhen University, Shenzhen",
+        "active": true
+      },
+      "3CPRTSI": {
+        "description": "Tsinghua University , Beijing",
+        "active": true
+      },
+      "3CPRUCA": {
+        "description": "University of Chinese Academy of Sciences, Beijing",
+        "active": true
+      },
+      "3CPRUPD": {
+        "description": "University of Petroleum, Dongying, Shandong",
+        "active": true
+      },
+      "3CPRZHN": {
+        "description": "Zheng-Zhou University ",
+        "active": true
+      },
+      "3CROCRO": {
+        "description": "Croatia",
+        "active": true
+      },
+      "3CRORBZ": {
+        "description": "Institute Rudjer Boskovic, Zagreb",
+        "active": true
+      },
+      "3CROZAG": {
+        "description": "University of Zagreb, Zagreb",
+        "active": true
+      },
+      "3CSRCHE": {
+        "description": "Institute of High Energy Physics , Prague",
+        "active": false
+      },
+      "3CSRCHU": {
+        "description": "Charles University ,Faculty of Mathem.and Physics, Prague",
+        "active": false
+      },
+      "3CSRCSR": {
+        "description": "Czechoslovakia",
+        "active": true
+      },
+      "3CSRCTI": {
+        "description": "Czech.Technical University , Prague",
+        "active": false
+      },
+      "3CSRCZA": {
+        "description": "Czech.Academy of Sciences, Prague",
+        "active": false
+      },
+      "3CSRPFU": {
+        "description": "Pf University , Nuclear Physics Department , Bratislava",
+        "active": false
+      },
+      "3CSRSLO": {
+        "description": "Slovak Academy of Sciences, Physics Institute , Bratislava",
+        "active": false
+      },
+      "3CSRUB": {
+        "description": "Komenskeho (Comenius) University , Bratislava",
+        "active": false
+      },
+      "3CSRUJF": {
+        "description": "Institute of Nuclear Physics of Czech.Academy Sci., Rez u Prahy",
+        "active": false
+      },
+      "3CSRUJV": {
+        "description": "Institute of Nuclear Research , Rez u Prahy",
+        "active": false
+      },
+      "3CUBCUB": {
+        "description": "Cuba",
+        "active": true
+      },
+      "3CUBHAB": {
+        "description": "Higher Institute Tech. and Applied Sci.(InSTEC), Habana",
+        "active": true
+      },
+      "3CUBPLY": {
+        "description": "Center for Development Nuclear Ene.&Appl.Tech.(CEADEN),Playa",
+        "active": true
+      },
+      "3CZRCHE": {
+        "description": "Institute of High Energy Physics, Prague",
+        "active": true
+      },
+      "3CZRCHU": {
+        "description": "Charles University , Prague",
+        "active": true
+      },
+      "3CZRCTI": {
+        "description": "Czech Technical University , Prague",
+        "active": true
+      },
+      "3CZRCZA": {
+        "description": "Czech Academy of Sciences, Prague",
+        "active": true
+      },
+      "3CZRCZR": {
+        "description": "Czech Republic",
+        "active": true
+      },
+      "3CZRUJF": {
+        "description": "Nuclear Physics Institute of Czech Academy Sci., Rez",
+        "active": true
+      },
+      "3CZRUJV": {
+        "description": "Research Centre Rez, Husinec-Rez",
+        "active": true
+      },
+      "3DDRBEH": {
+        "description": "Humboldt University Berlin + DAW Zeuthen",
+        "active": true
+      },
+      "3DDRBEP": {
+        "description": "VEB Atomkraft, Berlin-Pankow",
+        "active": true
+      },
+      "3DDRBFR": {
+        "description": "Bergakademie Freiberg",
+        "active": true
+      },
+      "3DDRDDR": {
+        "description": "German Democratic Republic",
+        "active": true
+      },
+      "3DDRJNA": {
+        "description": "Jena, University ",
+        "active": true
+      },
+      "3DDRROS": {
+        "description": "Zentralinstitut fuer Kernforschung (ZFK), Rossendorf",
+        "active": true
+      },
+      "3DDRTUD": {
+        "description": "Dresden, Techn.University at Dresden and Pirna",
+        "active": true
+      },
+      "3DDRZFI": {
+        "description": "ZentralInstitute Isotopen- und Strahlenforschung, Leipzig",
+        "active": true
+      },
+      "3ECUECU": {
+        "description": "Ecuador",
+        "active": true
+      },
+      "3EGYASM": {
+        "description": "Ain Shams University , Cairo",
+        "active": true
+      },
+      "3EGYCAI": {
+        "description": "Atomic Energy Authority (AEA), Cairo",
+        "active": true
+      },
+      "3EGYEGY": {
+        "description": "Egypt",
+        "active": true
+      },
+      "3EGYTNT": {
+        "description": "Tanta University , Tanta",
+        "active": true
+      },
+      "3ETPETP": {
+        "description": "Ethiopia",
+        "active": true
+      },
+      "3GHAGHA": {
+        "description": "Ghana",
+        "active": true
+      },
+      "3GHALGN": {
+        "description": "National Nuclear Research Institute, Legon",
+        "active": true
+      },
+      "3GUAGUA": {
+        "description": "Guatemala",
+        "active": true
+      },
+      "3HKGHKG": {
+        "description": "Hongkong",
+        "active": true
+      },
+      "3HKGHKU": {
+        "description": "Chinese University of Hongkong",
+        "active": true
+      },
+      "3HKGUHK": {
+        "description": "The University of Hong Kong",
+        "active": true
+      },
+      "3HUNDEB": {
+        "description": "Institute for Nuclear Research (ATOMKI), Debrecen",
+        "active": true
+      },
+      "3HUNELU": {
+        "description": "Eotvos Lorand University , Budapest",
+        "active": true
+      },
+      "3HUNHUN": {
+        "description": "Hungary",
+        "active": true
+      },
+      "3HUNII": {
+        "description": "MTA Izotop Intezete, Budapest",
+        "active": true
+      },
+      "3HUNKFI": {
+        "description": "Centre for Energy Research (EK), Budapest",
+        "active": true
+      },
+      "3HUNKOS": {
+        "description": "University of Debrecen, Debrecen",
+        "active": true
+      },
+      "3HUNNBM": {
+        "description": "National Bureau of Measurements, Budapest",
+        "active": true
+      },
+      "3HUNTBP": {
+        "description": "Budapest University of Technology and Economics, Budapest",
+        "active": true
+      },
+      "3HUNWRC": {
+        "description": "Wigner Research Centre for Physics, Budapest",
+        "active": true
+      },
+      "3INDALU": {
+        "description": "Allahabad University , Allahabad",
+        "active": true
+      },
+      "3INDAUW": {
+        "description": "Andhra University , Visakhapatnam",
+        "active": true
+      },
+      "3INDBDA": {
+        "description": "M.S. University of Baroda, Baroda",
+        "active": true
+      },
+      "3INDBGL": {
+        "description": "Bangalore University, Bengaluru",
+        "active": true
+      },
+      "3INDBHU": {
+        "description": "Banaras Hindu University , Varanasi",
+        "active": true
+      },
+      "3INDBOM": {
+        "description": "Bombay",
+        "active": false
+      },
+      "3INDBOS": {
+        "description": "Bose Institute, Kolkata",
+        "active": true
+      },
+      "3INDCAU": {
+        "description": "Kolkata, University",
+        "active": true
+      },
+      "3INDCCM": {
+        "description": "National Centre for Composit. Charact. of Mat., Hyderabad",
+        "active": true
+      },
+      "3INDCCT": {
+        "description": "Calicut University, Calicut",
+        "active": true
+      },
+      "3INDCLC": {
+        "description": "Calcutta",
+        "active": false
+      },
+      "3INDDLH": {
+        "description": "Delhi University , Delhi",
+        "active": true
+      },
+      "3INDFRI": {
+        "description": "Central Fuel Research Institute , FRI, Bihar",
+        "active": true
+      },
+      "3INDGUJ": {
+        "description": "Gauhati University , Jalukbari, Guwahati",
+        "active": true
+      },
+      "3INDGUL": {
+        "description": "Gulmarg Research Observat., Kashmir",
+        "active": true
+      },
+      "3INDIAC": {
+        "description": "Ind.Ass.Cult.of Sc., Kolkata",
+        "active": true
+      },
+      "3INDIIB": {
+        "description": "Indian Institute of Technology, Mumbai",
+        "active": true
+      },
+      "3INDIID": {
+        "description": "Indian Institute of Technology, Delhi",
+        "active": true
+      },
+      "3INDIIK": {
+        "description": "Indian Institute of Technology, Kharagpur",
+        "active": true
+      },
+      "3INDIIR": {
+        "description": "Indian Institute of Technology, Ropar",
+        "active": true
+      },
+      "3INDIND": {
+        "description": "India",
+        "active": true
+      },
+      "3INDIPB": {
+        "description": "Institute of Physics, Bhubaneswar",
+        "active": true
+      },
+      "3INDIRR": {
+        "description": "Indian Institute of Technology, Roorkee",
+        "active": true
+      },
+      "3INDISI": {
+        "description": "Indian Statistical Institute, Kolkata",
+        "active": true
+      },
+      "3INDITK": {
+        "description": "Indian Institute of Technology, Kanpur",
+        "active": true
+      },
+      "3INDJCB": {
+        "description": "Janta College, Bakewar",
+        "active": true
+      },
+      "3INDJNU": {
+        "description": "Jawaharlal Nehru University , New Delhi",
+        "active": true
+      },
+      "3INDKAL": {
+        "description": "Indira Gandhi Centre for Atomic Research, Kalpakkam",
+        "active": true
+      },
+      "3INDKUD": {
+        "description": "Karnatak University, Dharwad",
+        "active": true
+      },
+      "3INDKUK": {
+        "description": "Kurukshetra University , Kurukshetra",
+        "active": true
+      },
+      "3INDLUL": {
+        "description": "Lucknow University , Lucknow",
+        "active": true
+      },
+      "3INDMAD": {
+        "description": "Indian Institute of Technology, Madras",
+        "active": true
+      },
+      "3INDMGA": {
+        "description": "Mahatma Ghandi Science Institute of Technology, Ahmedabad",
+        "active": true
+      },
+      "3INDMNG": {
+        "description": "Mangalore University, Mangalagangotri, Konaje",
+        "active": true
+      },
+      "3INDMNP": {
+        "description": "Manipal University, Manipal",
+        "active": true
+      },
+      "3INDMUA": {
+        "description": "Aligarh Muslim University , Aligarh",
+        "active": true
+      },
+      "3INDNEH": {
+        "description": "North Eastern Hill University, Meghalaya",
+        "active": true
+      },
+      "3INDNSD": {
+        "description": "Inter-University Accelerator Centre, New Delhi",
+        "active": true
+      },
+      "3INDOSM": {
+        "description": "Osmania University, Hyderabad",
+        "active": true
+      },
+      "3INDPAT": {
+        "description": "Punjabi University , Patiala",
+        "active": true
+      },
+      "3INDPOO": {
+        "description": "University of Pune",
+        "active": true
+      },
+      "3INDPRA": {
+        "description": "Physics Research Laboratory, Ahmedabad",
+        "active": true
+      },
+      "3INDPUC": {
+        "description": "Punjab University , Chandigarh",
+        "active": true
+      },
+      "3INDSAH": {
+        "description": "Saha Institute of Nuclear Physics, Kolkata",
+        "active": true
+      },
+      "3INDSRA": {
+        "description": "Saurashtra University , Rajkot",
+        "active": true
+      },
+      "3INDSUK": {
+        "description": "Shivaji University , Kolhapur",
+        "active": true
+      },
+      "3INDTAT": {
+        "description": "Tata Institute, Mumbai",
+        "active": true
+      },
+      "3INDTHO": {
+        "description": "Thoubal College, Thouba",
+        "active": true
+      },
+      "3INDTRM": {
+        "description": "Bhabha Atomic Research Centre, Trombay, Mumbai",
+        "active": true
+      },
+      "3INDURJ": {
+        "description": "University of Rajasthan, Jaipur",
+        "active": true
+      },
+      "3INDURR": {
+        "description": "University of Roorkee, Roorkee",
+        "active": true
+      },
+      "3INDVEC": {
+        "description": "Variable Energy Cyclotron Centre, Kolkata",
+        "active": true
+      },
+      "3INDVUU": {
+        "description": "Vikram University , Ujjain",
+        "active": true
+      },
+      "3INSBNG": {
+        "description": "Bandung Reactor Center, Bandung",
+        "active": true
+      },
+      "3INSINS": {
+        "description": "Indonesia",
+        "active": true
+      },
+      "3IRNAMU": {
+        "description": "Sharif University of Technology, Tehran",
+        "active": true
+      },
+      "3IRNIRN": {
+        "description": "Iran",
+        "active": true
+      },
+      "3IRNKRJ": {
+        "description": "Agricult., Med. & Indust. Research School (AMIRS), Karaj",
+        "active": true
+      },
+      "3IRNNRT": {
+        "description": "Nuclear Sci. and Technol. Research Institute , AEOI, Tehran",
+        "active": true
+      },
+      "3IRNPAH": {
+        "description": "Pahlavi University , Daneshgah, Shiraz",
+        "active": true
+      },
+      "3IRNTEH": {
+        "description": "University of Tehran, Tehran",
+        "active": true
+      },
+      "3IRQBAG": {
+        "description": "University Baghdad",
+        "active": true
+      },
+      "3IRQIRQ": {
+        "description": "Iraq",
+        "active": true
+      },
+      "3IRQNRI": {
+        "description": "Nuclear Research Center, Baghdad",
+        "active": true
+      },
+      "3ISLHEB": {
+        "description": "Hebrew University , Jerusalem",
+        "active": true
+      },
+      "3ISLHFA": {
+        "description": "Technion Haifa",
+        "active": true
+      },
+      "3ISLISL": {
+        "description": "Israel",
+        "active": true
+      },
+      "3ISLNEG": {
+        "description": "Ben Gurion University of the Negev, Beer-Sheva",
+        "active": true
+      },
+      "3ISLREH": {
+        "description": "Rehovoth Laboratory , Israel AEC.",
+        "active": true
+      },
+      "3ISLSOR": {
+        "description": "Soreq Research Centre, Yavne",
+        "active": true
+      },
+      "3ISLTEL": {
+        "description": "Tel Aviv University",
+        "active": true
+      },
+      "3ISLWZI": {
+        "description": "Weizmann Institute , Rehovoth",
+        "active": true
+      },
+      "3IVCIVC": {
+        "description": "Ivory Coast",
+        "active": true
+      },
+      "3JAMJAM": {
+        "description": "Jamaica",
+        "active": true
+      },
+      "3JAMUWI": {
+        "description": "West-Indies University , Kingston",
+        "active": true
+      },
+      "3JORJOR": {
+        "description": "Jordan",
+        "active": true
+      },
+      "3KDRKDR": {
+        "description": "Democratic People's Rep. of Korea",
+        "active": true
+      },
+      "3KDRPYN": {
+        "description": "Institute of Radiochemistry, Pyongyang",
+        "active": true
+      },
+      "3KORCHA": {
+        "description": "Chung-Ang University, Seoul",
+        "active": true
+      },
+      "3KORDAU": {
+        "description": "Donga University, Busan",
+        "active": true
+      },
+      "3KORDRM": {
+        "description": "Dongnam Institute of Radiological & Medical Sci., Busan",
+        "active": true
+      },
+      "3KORIBS": {
+        "description": "Institute for Basic Science, Daejeon",
+        "active": true
+      },
+      "3KORKAE": {
+        "description": "Korea Atomic Energy Research Instit. (KAERI), Daejeon",
+        "active": true
+      },
+      "3KORKBU": {
+        "description": "National Kyong-Buk University, Taegu",
+        "active": false
+      },
+      "3KORKGM": {
+        "description": "Korea Institute Geoscience & Mineral Resources (KIGAM),Daejeon",
+        "active": true
+      },
+      "3KORKNU": {
+        "description": "Kyungpook National University, Daegu",
+        "active": true
+      },
+      "3KORKOR": {
+        "description": "Republic of Korea",
+        "active": true
+      },
+      "3KORKRM": {
+        "description": "Korea Institute Radiological & Medical Sci.(KIRAMS), Seoul",
+        "active": true
+      },
+      "3KORKSR": {
+        "description": "Korea Research Institute of Standards & Science, Daejeon",
+        "active": true
+      },
+      "3KORKUS": {
+        "description": "Korea University, Seoul",
+        "active": true
+      },
+      "3KORNSU": {
+        "description": "Seoul National University, Seoul",
+        "active": true
+      },
+      "3KORPNU": {
+        "description": "Pusan National University, Busan",
+        "active": true
+      },
+      "3KORPUE": {
+        "description": "Pohang University of Science and Technology, Pohang",
+        "active": true
+      },
+      "3KORSEO": {
+        "description": "Atomic Energy Research Institute (AERI), Seoul",
+        "active": true
+      },
+      "3KORULS": {
+        "description": "University of Ulsan, Ulsan",
+        "active": true
+      },
+      "3KORYON": {
+        "description": "Yonsei University, Seoul",
+        "active": true
+      },
+      "3KUWKUW": {
+        "description": "Kuwait",
+        "active": true
+      },
+      "3KYAKYA": {
+        "description": "Kenya",
+        "active": true
+      },
+      "3KYANAI": {
+        "description": "University College, Nairobi",
+        "active": true
+      },
+      "3LE LE": {
+        "description": "Lebanon",
+        "active": true
+      },
+      "3LIBLIB": {
+        "description": "Libya",
+        "active": true
+      },
+      "3LIBTAJ": {
+        "description": "Tajura Nuclear Research Center, Tripoli",
+        "active": true
+      },
+      "3LIBUGB": {
+        "description": "University of Garyounis, Benghazi",
+        "active": true
+      },
+      "3MA MA": {
+        "description": "Madagascar",
+        "active": true
+      },
+      "3MAKMAK": {
+        "description": "Macedonia",
+        "active": true
+      },
+      "3MALMAL": {
+        "description": "Malaysia",
+        "active": true
+      },
+      "3MALUKM": {
+        "description": "University Kebangsaan Malaysia, Bangi",
+        "active": true
+      },
+      "3MALUSM": {
+        "description": "University Sains Malaysia, Penang",
+        "active": true
+      },
+      "3MEXCNM": {
+        "description": "Centro Nuclear de Mexico, Salazar, Edo. de Mexico",
+        "active": false
+      },
+      "3MEXIFM": {
+        "description": "University Nacional Autonoma de Mexico (UNAM), Mexico City",
+        "active": false
+      },
+      "3MEXINI": {
+        "description": "Instituto Nacional de Investigaciones Nucleares",
+        "active": true
+      },
+      "3MEXIPN": {
+        "description": "Instituto Politecnico Nacional, Mexico City",
+        "active": true
+      },
+      "3MEXITM": {
+        "description": "Tecnologico de Monterrey",
+        "active": true
+      },
+      "3MEXMEX": {
+        "description": "Mexico",
+        "active": true
+      },
+      "3MEXUGM": {
+        "description": "Universidad de Guanajuato",
+        "active": true
+      },
+      "3MEXUMX": {
+        "description": "University Nacional Autonoma de Mexico (UNAM), Mexico City",
+        "active": true
+      },
+      "3MGLMGL": {
+        "description": "Mongolia",
+        "active": true
+      },
+      "3MGLNUM": {
+        "description": "National University of Mongolia, Ulaanbaatar",
+        "active": true
+      },
+      "3MLIMLI": {
+        "description": "Mali",
+        "active": true
+      },
+      "3MORMOH": {
+        "description": "University Mohammed V, Rabat",
+        "active": true
+      },
+      "3MORMOR": {
+        "description": "Morocco",
+        "active": true
+      },
+      "3MORRAB": {
+        "description": "Laboratory de Physics Nuclear , Faculte de Rabat, University Mohammed V",
+        "active": false
+      },
+      "3NERNER": {
+        "description": "Niger",
+        "active": true
+      },
+      "3NI ABU": {
+        "description": "Ahmadu Bello University, Zaria",
+        "active": true
+      },
+      "3NI NI": {
+        "description": "Nigeria",
+        "active": true
+      },
+      "3NZLNZA": {
+        "description": "University of Auckland, Auckland",
+        "active": true
+      },
+      "3NZLNZH": {
+        "description": "Institute of Nuclear Sciences, Lower Hutt",
+        "active": true
+      },
+      "3NZLNZL": {
+        "description": "New Zealand",
+        "active": true
+      },
+      "3NZLNZW": {
+        "description": "Victoria University of Wellington, Wellington",
+        "active": true
+      },
+      "3OMNOMN": {
+        "description": "Oman",
+        "active": true
+      },
+      "3PAKGCL": {
+        "description": "Nuclear Research Laboratory ,Gov't College, Lahore",
+        "active": true
+      },
+      "3PAKLAH": {
+        "description": "Atomic Energy Centre, Lahore",
+        "active": true
+      },
+      "3PAKNIL": {
+        "description": "PINSTECH, Nilore, Rawalpindi",
+        "active": true
+      },
+      "3PAKPAK": {
+        "description": "Pakistan",
+        "active": true
+      },
+      "3PAKQAU": {
+        "description": "Quaid-i-Azam University, Islamabad",
+        "active": true
+      },
+      "3PERISE": {
+        "description": "Instituto Superior de Energia Nuclear, Lima",
+        "active": true
+      },
+      "3PERPER": {
+        "description": "Peru",
+        "active": true
+      },
+      "3PHIPHI": {
+        "description": "Philippines",
+        "active": true
+      },
+      "3POLIBJ": {
+        "description": "Institute Badan Jadr., Swierk and Warszawa",
+        "active": true
+      },
+      "3POLIFJ": {
+        "description": "Niewodniczanski Instytut Fizyki Jadrowej, Krakow",
+        "active": true
+      },
+      "3POLINR": {
+        "description": "Institute Badan Jadr., Swierk+Warszawa",
+        "active": false
+      },
+      "3POLIPJ": {
+        "description": "Narodowe Centrum Badan Jadrowych, Swierk+Warszawa",
+        "active": true
+      },
+      "3POLITJ": {
+        "description": "AGH University of Science and Technology",
+        "active": true
+      },
+      "3POLJAD": {
+        "description": "Swierk+Warszawa, Institute Badan Jadr.",
+        "active": false
+      },
+      "3POLKPI": {
+        "description": "Wyzsza Szkola Pedagogiczna, Kielce",
+        "active": true
+      },
+      "3POLKPS": {
+        "description": "Wyzsza Szkola Pedagogiczna, Katowice",
+        "active": true
+      },
+      "3POLKRK": {
+        "description": "Institute Fiz.Jadr. + University , Krakow",
+        "active": false
+      },
+      "3POLLOU": {
+        "description": "University of Lodz, Lodz",
+        "active": true
+      },
+      "3POLPOL": {
+        "description": "Poland",
+        "active": true
+      },
+      "3POLPWA": {
+        "description": "Politechnika Warszawska",
+        "active": true
+      },
+      "3POLSKU": {
+        "description": "Curie-Sklodowska University, Lublin",
+        "active": true
+      },
+      "3POLSLS": {
+        "description": "University of Silesia, Katowice",
+        "active": true
+      },
+      "3POLUJK": {
+        "description": "Jagiellonian University, Krakow",
+        "active": true
+      },
+      "3POLWRO": {
+        "description": "University of Wroclaw, Wroclaw",
+        "active": true
+      },
+      "3POLWWA": {
+        "description": "Warszawa, University",
+        "active": true
+      },
+      "3PRGPRG": {
+        "description": "Paraguay",
+        "active": true
+      },
+      "3QATQAT": {
+        "description": "Qatar",
+        "active": true
+      },
+      "3RUMBBU": {
+        "description": "Babes-Bolyai University, Cluj",
+        "active": true
+      },
+      "3RUMBUC": {
+        "description": "Institute de Fiz. si Ing. Nuclear Horia Hulubei, Bucharest",
+        "active": true
+      },
+      "3RUMBUU": {
+        "description": "University of Bucharest",
+        "active": true
+      },
+      "3RUMCIP": {
+        "description": "Central Institute of Physics, Bucharest",
+        "active": true
+      },
+      "3RUMJAS": {
+        "description": "Research Centre of Physics , Jassy",
+        "active": true
+      },
+      "3RUMPIC": {
+        "description": "Pedagogical Institute , Constantza",
+        "active": true
+      },
+      "3RUMPIT": {
+        "description": "Institute of Nuclear Power Reactors (I.R.N.E.)",
+        "active": true
+      },
+      "3RUMRUM": {
+        "description": "Romania",
+        "active": true
+      },
+      "3SAFDWU": {
+        "description": "University of Durban-Westville, Durban",
+        "active": true
+      },
+      "3SAFITH": {
+        "description": "iThemba LABS, Somerset West",
+        "active": true
+      },
+      "3SAFNAC": {
+        "description": "National Accelerator Centre, Faure",
+        "active": true
+      },
+      "3SAFNLP": {
+        "description": "National Physical Research Laboratory , Pretoria",
+        "active": true
+      },
+      "3SAFPEL": {
+        "description": "Atomic Energy Corp.of South Africa, Pelindaba",
+        "active": true
+      },
+      "3SAFPOT": {
+        "description": "University of Potchefstrom, Potchefstrom",
+        "active": true
+      },
+      "3SAFSAF": {
+        "description": "South Africa, Rep.",
+        "active": true
+      },
+      "3SAFSCT": {
+        "description": "University of Capetown, Cape Town",
+        "active": true
+      },
+      "3SAFSIR": {
+        "description": "Council for Scientific and Industrial Research , Pretoria",
+        "active": true
+      },
+      "3SAFSTL": {
+        "description": "University of Stellenbosch",
+        "active": true
+      },
+      "3SAFSUN": {
+        "description": "Southern Universities Nuclear Insstitute, Faure",
+        "active": true
+      },
+      "3SAFUPR": {
+        "description": "University of Pretoria, Hatfield, Pretoria",
+        "active": true
+      },
+      "3SAFUSF": {
+        "description": "University of South Africa, Pretoria",
+        "active": true
+      },
+      "3SAFUWC": {
+        "description": "University of Western Cape, Bellville, Cape Town",
+        "active": true
+      },
+      "3SAFWIT": {
+        "description": "University of Witwatersrand, Johannesburg",
+        "active": true
+      },
+      "3SARDHA": {
+        "description": "King Fhad University of Petroleum and Minerals, Dhahran",
+        "active": true
+      },
+      "3SARKFR": {
+        "description": "King Faisal Specialist Hospital & Research Centre, Riyadh",
+        "active": true
+      },
+      "3SARRIY": {
+        "description": "King Saud University, Riyadh",
+        "active": true
+      },
+      "3SARSAR": {
+        "description": "Saudi Arabia",
+        "active": true
+      },
+      "3SHQNPT": {
+        "description": "Institute of Nuclear Physics, Tirana",
+        "active": true
+      },
+      "3SHQSHQ": {
+        "description": "Albania",
+        "active": true
+      },
+      "3SILSIL": {
+        "description": "Sierra Leone",
+        "active": true
+      },
+      "3SINSIN": {
+        "description": "Singapore",
+        "active": true
+      },
+      "3SLKSLK": {
+        "description": "Slovakia",
+        "active": true
+      },
+      "3SLKSLO": {
+        "description": "Slovak Academy of Sciences, Physics Institute , Bratislava",
+        "active": true
+      },
+      "3SLKUB": {
+        "description": "Komenskeho (Comenius) University , Bratislava",
+        "active": true
+      },
+      "3SLNIJS": {
+        "description": "Institute Jozef Stefan, Ljubljana",
+        "active": true
+      },
+      "3SLNSLN": {
+        "description": "Slovenia",
+        "active": true
+      },
+      "3SN SN": {
+        "description": "Senegal",
+        "active": true
+      },
+      "3SR SR": {
+        "description": "Sri Lanka",
+        "active": true
+      },
+      "3SRBBKB": {
+        "description": "Institut za Nuklearne Nauke \"Vinca\", Beograd",
+        "active": true
+      },
+      "3SRBSRB": {
+        "description": "Serbia",
+        "active": true
+      },
+      "3SUDKHA": {
+        "description": "University of Khartoum",
+        "active": true
+      },
+      "3SUDSUD": {
+        "description": "Sudan",
+        "active": true
+      },
+      "3SY DAM": {
+        "description": "Nuclear Engineering Department , AEC, Damascus",
+        "active": true
+      },
+      "3SY SY": {
+        "description": "Syria",
+        "active": true
+      },
+      "3TAIBGK": {
+        "description": "Office of the Atomic Energy for Peace, Bangkok",
+        "active": true
+      },
+      "3TAICHM": {
+        "description": "Chiang Mai University ",
+        "active": true
+      },
+      "3TAITAI": {
+        "description": "Thailand",
+        "active": true
+      },
+      "3TUNTUN": {
+        "description": "Tunisia",
+        "active": true
+      },
+      "3UAEUAE": {
+        "description": "United Arab Emirates",
+        "active": true
+      },
+      "3UGDUGD": {
+        "description": "Uganda",
+        "active": true
+      },
+      "3URUURM": {
+        "description": "Montevideo, Universidad de la Republica",
+        "active": true
+      },
+      "3URUURU": {
+        "description": "Uruguay",
+        "active": true
+      },
+      "3VENIVI": {
+        "description": "Institute Venezual. de Investigacion Cientifica, Caracas",
+        "active": true
+      },
+      "3VENUCV": {
+        "description": "University Central de Venezuela, Caracas",
+        "active": true
+      },
+      "3VENUSB": {
+        "description": "Universidad Simon Bolivar, Caracas",
+        "active": true
+      },
+      "3VENVEN": {
+        "description": "Venezuela",
+        "active": true
+      },
+      "3VN DAL": {
+        "description": "Nuclear Research Institute , Dalat",
+        "active": true
+      },
+      "3VN IPH": {
+        "description": "Institute of Physics , Vietnam Academy Sci.and Technol., Hanoi",
+        "active": true
+      },
+      "3VN NNR": {
+        "description": "Vietnam Atomic Energy Institute (VINATOM), Hanoi",
+        "active": true
+      },
+      "3VN STH": {
+        "description": "Institute of Nuclear Science and Technique, Hanoi",
+        "active": true
+      },
+      "3VN VN": {
+        "description": "Vietnam",
+        "active": true
+      },
+      "3YUGBKB": {
+        "description": "Institute Boris Kidrich, Vinca",
+        "active": false
+      },
+      "3YUGNJS": {
+        "description": "Institute Jozef Stefan, Ljubljana",
+        "active": false
+      },
+      "3YUGRBZ": {
+        "description": "Institute Rudjer Boskovic, Zagreb",
+        "active": false
+      },
+      "3YUGYUG": {
+        "description": "Yugoslavia",
+        "active": false
+      },
+      "3YUGZAG": {
+        "description": "University of Zagreb, Zagreb",
+        "active": false
+      },
+      "3ZAIZAI": {
+        "description": "Zaire",
+        "active": true
+      },
+      "3ZAMZAM": {
+        "description": "Zambia",
+        "active": true
+      },
+      "3ZIMZIM": {
+        "description": "Zimbabwe",
+        "active": true
+      },
+      "3ZZZIAE": {
+        "description": "IAEA, Vienna",
+        "active": true
+      },
+      "3ZZZMO": {
+        "description": "International Laboratory of Marine Radioactivity",
+        "active": true
+      },
+      "3ZZZNDS": {
+        "description": "Nuclear Data Section, IAEA, Vienna",
+        "active": false
+      },
+      "3ZZZTPT": {
+        "description": "Intern.Centre for Theoretical Physics, Trieste",
+        "active": true
+      },
+      "3ZZZUN": {
+        "description": "U.N. Organizations",
+        "active": true
+      },
+      "4ARMARM": {
+        "description": "Armenia",
+        "active": true
+      },
+      "4ARMJER": {
+        "description": "Institute Fiziki Armen. A.N., Jerevan",
+        "active": true
+      },
+      "4ARMJSU": {
+        "description": "Jerevan State University , Jerevan",
+        "active": true
+      },
+      "4AZRAZR": {
+        "description": "Azerbaydzhan",
+        "active": true
+      },
+      "4BLRBLR": {
+        "description": "Belarus",
+        "active": true
+      },
+      "4BLRIFB": {
+        "description": "Institute Fiz. Belorus. AN, Minsk",
+        "active": true
+      },
+      "4BLRIJE": {
+        "description": "Institute Yad. Energetiki Byeloruss.A.N., Minsk",
+        "active": true
+      },
+      "4BLRJIE": {
+        "description": "Joint Institute f.Energy and Nuclear Research , Minsk-Sosny",
+        "active": true
+      },
+      "4BLRPCB": {
+        "description": "Institute Rad.Physics Chem.Probl., Belarus Academy Sci., Minsk",
+        "active": true
+      },
+      "4BLRTMO": {
+        "description": "Institute Teplo-Massoobmena Byeloruss. A.N., Minsk",
+        "active": true
+      },
+      "4CCPARM": {
+        "description": "Institute Fiziki A.N. Armenian SSR, Jerevan",
+        "active": false
+      },
+      "4CCPBIO": {
+        "description": "Biophysical Institute , Moscow",
+        "active": false
+      },
+      "4CCPCCP": {
+        "description": "Union of Soviet Socialist Republics",
+        "active": true
+      },
+      "4CCPCJD": {
+        "description": "Centr po Yadernym Dannym, Obninsk",
+        "active": false
+      },
+      "4CCPFEI": {
+        "description": "Fiziko-Energeticheskii Institute , Obninsk",
+        "active": false
+      },
+      "4CCPFRT": {
+        "description": "Institute Fiziko-Tekh. i Radio-tekh. Izmerenii, Meneleevo",
+        "active": false
+      },
+      "4CCPFTI": {
+        "description": "Fiziko-Tekhnicheskii Institute Ioffe, Leningrad+Gatchina",
+        "active": false
+      },
+      "4CCPFVE": {
+        "description": "High-Energy Physics Institute ,Serpukhov",
+        "active": false
+      },
+      "4CCPGAC": {
+        "description": "Institute for Geo and Analytical Chemistry, Moscow",
+        "active": false
+      },
+      "4CCPGAT": {
+        "description": "Fiziko-Tekhnicheskii Institute Ioffe, Gatchina",
+        "active": false
+      },
+      "4CCPGKS": {
+        "description": " State Committee on Standards, Moscow",
+        "active": false
+      },
+      "4CCPGOR": {
+        "description": "University of Gorkii, Gorkii",
+        "active": false
+      },
+      "4CCPICD": {
+        "description": "Inf. Centr po Yadern. Dannym, Obninsk",
+        "active": false
+      },
+      "4CCPICP": {
+        "description": "Institute of Chemical Physics, Moscow",
+        "active": false
+      },
+      "4CCPIFB": {
+        "description": "Institute Fiz. AN Belorus.SSR, Minsk",
+        "active": false
+      },
+      "4CCPIFG": {
+        "description": "Institute Fiziki Akad. Nauk Gruzinskoi SSR, Tbilisi",
+        "active": false
+      },
+      "4CCPIFL": {
+        "description": "Institute Fiziki A.N. Latviiskoi SSR, Riga",
+        "active": false
+      },
+      "4CCPIFP": {
+        "description": "Institute Fizicheskikh Problem, Moskva",
+        "active": false
+      },
+      "4CCPIFU": {
+        "description": "Institute Fiziki A.N. Ukrainskoi SSR, Kiev",
+        "active": false
+      },
+      "4CCPIIU": {
+        "description": "Institute of Information of USSR State A.E.Comm., Moscow",
+        "active": false
+      },
+      "4CCPIJE": {
+        "description": "Institute Yad. Energetiki A.N. Byeloruss.SSR, Minsk",
+        "active": false
+      },
+      "4CCPIJI": {
+        "description": "Institute Yadernykh Issledovanii A.N. Ukrainskoi SSR,Kiev",
+        "active": false
+      },
+      "4CCPIRE": {
+        "description": "Institute Radiofiziki i Elektroniki (I.R.E.), Kharkov",
+        "active": false
+      },
+      "4CCPITE": {
+        "description": "Institute Teoret. i Experiment. Fiziki, Moskva",
+        "active": false
+      },
+      "4CCPITF": {
+        "description": "Institute of Theor. Physics, Ukrainian Academy Sci., Kiev",
+        "active": false
+      },
+      "4CCPJIA": {
+        "description": "Institute Yadernych Issledovanii A.N. SSSR, Moskva",
+        "active": false
+      },
+      "4CCPKAZ": {
+        "description": "Institute Yadernoi Fiziki, Alma-Ata, Kazakhstan",
+        "active": false
+      },
+      "4CCPKFT": {
+        "description": "Kharkovskii Fiziko-Tekhnicheskii Institute , Kharkov",
+        "active": false
+      },
+      "4CCPKGU": {
+        "description": "Gosudarstvennyi University (State University ), Kiev",
+        "active": false
+      },
+      "4CCPKHU": {
+        "description": "Kharkovskii Gosudarstvennii University ",
+        "active": false
+      },
+      "4CCPKRI": {
+        "description": "Institute of Crystallography, Leningrad",
+        "active": false
+      },
+      "4CCPKUR": {
+        "description": "Institut Atomnoi Energii I.V. Kurchatova, Moskva",
+        "active": false
+      },
+      "4CCPLEB": {
+        "description": "Fiz. Institute Lebedev (FIAN), Moskva",
+        "active": false
+      },
+      "4CCPLIN": {
+        "description": "Leningrad Institute Nuclear Physics , USSR Academy Sci., Gatchina",
+        "active": false
+      },
+      "4CCPLPI": {
+        "description": "Leningradskii Politekhnicheskii Institute ",
+        "active": false
+      },
+      "4CCPMBP": {
+        "description": "Institute Mediko-Biologicheskikh Problem, Moskva",
+        "active": false
+      },
+      "4CCPMFT": {
+        "description": "Moskovskii Fiziko-Tekhnicheskii Institute , Moskva",
+        "active": false
+      },
+      "4CCPMIF": {
+        "description": "Moscow Institute of Engineering Physics, Moscow",
+        "active": false
+      },
+      "4CCPMIM": {
+        "description": "Vsesoyuzniy Nauchno-Issl. Institute Metrologii, Leningrad",
+        "active": false
+      },
+      "4CCPMOS": {
+        "description": "Moscow State University , Nuclear Physics Institute , Moscow",
+        "active": false
+      },
+      "4CCPNIR": {
+        "description": "NIIAR Dimitrovgrad",
+        "active": false
+      },
+      "4CCPOFI": {
+        "description": "Institute Optiko-Fizicheskikh Izmerenii, Moskva",
+        "active": false
+      },
+      "4CCPOIE": {
+        "description": "Institute of Atomic Energetics, Obninsk",
+        "active": false
+      },
+      "4CCPRGU": {
+        "description": "Rostovskii Gosudarstvennyi University , Rostov-na-Donu",
+        "active": false
+      },
+      "4CCPRI": {
+        "description": "Khlopin Radiev. Institute , Leningrad",
+        "active": false
+      },
+      "4CCPSCU": {
+        "description": "USSR State Comm. on the Use of Atomic Energy, Moscow",
+        "active": false
+      },
+      "4CCPSGU": {
+        "description": "Saratov Gosudarstvennyi University ",
+        "active": false
+      },
+      "4CCPSIB": {
+        "description": "Institute Yad. FIiz, Novosibirsk",
+        "active": false
+      },
+      "4CCPSUL": {
+        "description": "Gosudarstvennyi University (State University ), Leningrad",
+        "active": false
+      },
+      "4CCPTGU": {
+        "description": "Tbilisskii Gosudarstvennyi University , Tbilisi",
+        "active": false
+      },
+      "4CCPTIL": {
+        "description": "Leningradskii Tekhnologicheskii Institute Im.Lensoveta",
+        "active": false
+      },
+      "4CCPTMO": {
+        "description": "Institute Teplo-Massoobmena A.N. Byeloruss.SSR, Minsk",
+        "active": false
+      },
+      "4CCPTPI": {
+        "description": "Tomskii Politekhnicheskii Institute , Tomsk",
+        "active": false
+      },
+      "4CCPUFT": {
+        "description": "Ukrainskii Fiziko-Tekhnicheskii Institute , Kharkov",
+        "active": false
+      },
+      "4CCPUKR": {
+        "description": "Ukraine",
+        "active": false
+      },
+      "4CCPUZB": {
+        "description": "Institute Yadernoi Fiziki A.N. Uzbekskoi SSR, Tashkent",
+        "active": false
+      },
+      "4CCPUZH": {
+        "description": "Uzhgorod State University ",
+        "active": false
+      },
+      "4CCPVNI": {
+        "description": "USSR Scient. and Technical Inform. Institute , Moscow",
+        "active": false
+      },
+      "4ESTEST": {
+        "description": "Estonia",
+        "active": true
+      },
+      "4GRGGRG": {
+        "description": "Georgia",
+        "active": true
+      },
+      "4GRGIFG": {
+        "description": "Institute Fiziki Gruzinskoi Akad.Nauk, Tbilisi",
+        "active": true
+      },
+      "4GRGTGU": {
+        "description": "Tbilisskiy Gosudarstvennyi University , Tbilisi",
+        "active": true
+      },
+      "4KASAAT": {
+        "description": "Almaty Technological Institute, Almaty",
+        "active": true
+      },
+      "4KASAFU": {
+        "description": "Al-Farabi Kazakh National University, Almaty",
+        "active": true
+      },
+      "4KASATN": {
+        "description": "L.N.Gumilyov Eurasian National University, Nur-Sultan",
+        "active": true
+      },
+      "4KASKAS": {
+        "description": "Kazakhstan",
+        "active": true
+      },
+      "4KASKAZ": {
+        "description": "Institute Yadernoi Fiziki, Almaty",
+        "active": true
+      },
+      "4KASNZR": {
+        "description": "Nazarbayev University , Nur-Sultan",
+        "active": true
+      },
+      "4LATIFL": {
+        "description": "Institute Fiziki Latviyskoi A.N., Riga",
+        "active": true
+      },
+      "4LATLAT": {
+        "description": "Latvia",
+        "active": true
+      },
+      "4LATULR": {
+        "description": "University of Latvia, Riga",
+        "active": true
+      },
+      "4LITLIT": {
+        "description": "Lithuania",
+        "active": true
+      },
+      "4LITVLN": {
+        "description": "Vilnius University, Vilnius",
+        "active": true
+      },
+      "4MLDAPI": {
+        "description": "Appl.Physics Institute ,Mold.Academy Sci.,Chisinau",
+        "active": true
+      },
+      "4MLDMLD": {
+        "description": "Moldova",
+        "active": true
+      },
+      "4RUSBIO": {
+        "description": "Biophysical Institute , Moscow",
+        "active": true
+      },
+      "4RUSCJD": {
+        "description": "Centr po Yadernym Dannym, Obninsk",
+        "active": true
+      },
+      "4RUSDBU": {
+        "description": "Dubna State University, Dubna",
+        "active": true
+      },
+      "4RUSEPA": {
+        "description": "Experimental Physics Institute , Sarov",
+        "active": true
+      },
+      "4RUSFEI": {
+        "description": "Fiziko-Energeticheskii Institute , Obninsk",
+        "active": true
+      },
+      "4RUSFRT": {
+        "description": "Fiziko-Tekh. i Radio-Tekh. Izmerenii, Mendeleevo",
+        "active": true
+      },
+      "4RUSFTI": {
+        "description": "Fiz.-Tekhnicheskiy Institute Ioffe, St.Petersburg+Gatchina",
+        "active": true
+      },
+      "4RUSFVE": {
+        "description": "Institute for High Energy Physics, Protvino",
+        "active": true
+      },
+      "4RUSGAC": {
+        "description": "Institute for Geo- and Analytical Chemistry, Moscow",
+        "active": true
+      },
+      "4RUSGKS": {
+        "description": "State Committee on Standards, Moscow",
+        "active": true
+      },
+      "4RUSGOR": {
+        "description": "University of Gorkiy, Gorkiy",
+        "active": true
+      },
+      "4RUSICP": {
+        "description": "Institute of Chemical Physics , Moscow",
+        "active": true
+      },
+      "4RUSICR": {
+        "description": "Space Research Institute , Moscow",
+        "active": true
+      },
+      "4RUSIFP": {
+        "description": "Institute Fizicheskikh Problem, Moskva",
+        "active": true
+      },
+      "4RUSIIU": {
+        "description": "Institute of Information of Russ.State A.E.Comm., Moscow",
+        "active": true
+      },
+      "4RUSITE": {
+        "description": "Institute Teoret. + Experiment. Fiziki, Moskva",
+        "active": true
+      },
+      "4RUSITR": {
+        "description": "Institute of Innovation and Thermonuclear Research , Troitsk",
+        "active": true
+      },
+      "4RUSJIA": {
+        "description": "Institute Yadernych Issledovaniy Rossiiskoi A.N., Moskva",
+        "active": true
+      },
+      "4RUSKRI": {
+        "description": "Institute of Crystallography, St.Petersburg",
+        "active": true
+      },
+      "4RUSKTU": {
+        "description": "Khabarovsk State Technical University , Khabarovsk",
+        "active": true
+      },
+      "4RUSKUR": {
+        "description": "National Issl.Tsentr \"Kurchatovskii Institut\", Moskva",
+        "active": true
+      },
+      "4RUSLEB": {
+        "description": "Fiz.Institute Lebedev (FIAN), Moskva",
+        "active": true
+      },
+      "4RUSLIN": {
+        "description": "Peterburgskiy Institute Yad.Fiz.,Russ.Ak.Nauk., Gatchina",
+        "active": true
+      },
+      "4RUSLPI": {
+        "description": "Leningradskiy Politekhnicheskiy Institute ",
+        "active": true
+      },
+      "4RUSMBP": {
+        "description": "Institute Mediko-Biologicheskikh Problem, Moskva",
+        "active": true
+      },
+      "4RUSMFT": {
+        "description": "Moskovskiy Fiziko-Tekhnicheskiy Institute , Moskva",
+        "active": true
+      },
+      "4RUSMIF": {
+        "description": "National Research Nuclear University MEPhI, Moscow",
+        "active": true
+      },
+      "4RUSMIM": {
+        "description": "Vsesoyuznyi Nauchno-Issl.Institute Metrol., St.Petersburg",
+        "active": true
+      },
+      "4RUSMOS": {
+        "description": "Moscow State University , Moscow",
+        "active": true
+      },
+      "4RUSNIK": {
+        "description": "Moscow Scient.and Research Project Institute in Energy and Techn.",
+        "active": true
+      },
+      "4RUSNIR": {
+        "description": "NIIAR Dimitrovgrad",
+        "active": true
+      },
+      "4RUSOFI": {
+        "description": "Institute Optiko-Fizicheskikh Izmerenii, Moskva",
+        "active": true
+      },
+      "4RUSOIE": {
+        "description": "Institute of Atomic Energetics, Obninsk",
+        "active": true
+      },
+      "4RUSOZT": {
+        "description": "Omsk Institute of Railroad Engineers",
+        "active": true
+      },
+      "4RUSRGU": {
+        "description": "Rostovskiy Gosudarstvennyi University , Rostov-na-Donu",
+        "active": true
+      },
+      "4RUSRI": {
+        "description": "Khlopin Radievij Institute , St.Petersburg",
+        "active": true
+      },
+      "4RUSRUS": {
+        "description": "Russia",
+        "active": true
+      },
+      "4RUSSCU": {
+        "description": "USSR State Comm.on the Use of Atomic Energy, Moscow",
+        "active": true
+      },
+      "4RUSSGU": {
+        "description": "Saratov Gosudarstvennyi University ",
+        "active": true
+      },
+      "4RUSSIB": {
+        "description": "Institute Yad. Fiz., Sib. A.N., Novosibirsk",
+        "active": true
+      },
+      "4RUSSUL": {
+        "description": "Gosudarstvennyi University (State University ), St.Petersburg",
+        "active": true
+      },
+      "4RUSTIL": {
+        "description": "Leningradskiy Tekhnologicheskiy Institute Im.Lensoveta",
+        "active": true
+      },
+      "4RUSTPC": {
+        "description": "Technical Physics Institute , Chelyabinsk",
+        "active": true
+      },
+      "4RUSTPI": {
+        "description": "Tomskii Politekhnicheskii Universitet, Tomsk",
+        "active": true
+      },
+      "4RUSTVU": {
+        "description": "Tver' State University , Tver'",
+        "active": true
+      },
+      "4RUSVNI": {
+        "description": "Scient.and Technical Inform.Institute , Moscow",
+        "active": true
+      },
+      "4UKRIEP": {
+        "description": "Institute of Electron Physics, Ukrain.Academy Sci., Uzhgorod",
+        "active": true
+      },
+      "4UKRIFU": {
+        "description": "Institute Fiziki Ukrainskoi A.N., Kiev",
+        "active": true
+      },
+      "4UKRIJD": {
+        "description": "Institute Yadernyh Doslidzhen, N.A.N.Ukraini, Kyiv",
+        "active": true
+      },
+      "4UKRIJI": {
+        "description": "Institute Yadernykh Issledovaniy Ukrainskoi A.N., Kiev",
+        "active": false
+      },
+      "4UKRIRE": {
+        "description": "Institute Radiofiziki i Elekroniki, Ukrain. AN, Kharkov",
+        "active": true
+      },
+      "4UKRITF": {
+        "description": "Bogolyubov Institute of Theor.Physics ,Ukrain.Academy Sci., Kiev",
+        "active": true
+      },
+      "4UKRKFT": {
+        "description": "Kharkovskii Fiziko-Tekhnicheskii Institute , Kharkov",
+        "active": true
+      },
+      "4UKRKGU": {
+        "description": "Kyivsky Natsionalny University \"Taras Shevchenko\", Kyiv",
+        "active": true
+      },
+      "4UKRKHU": {
+        "description": "Kharkivsky Natsionalny University \"V.N. Karazin\", Kharkiv",
+        "active": true
+      },
+      "4UKRUFT": {
+        "description": "Ukrainskiy Fiziko-Tekhnicheskiy Institute , Kharkov",
+        "active": false
+      },
+      "4UKRUKR": {
+        "description": "Ukraine",
+        "active": true
+      },
+      "4UKRUZH": {
+        "description": "Uzhgorod State University ",
+        "active": true
+      },
+      "4UZ NUU": {
+        "description": "National University of Uzbekistan, Tashkent",
+        "active": true
+      },
+      "4UZ SSU": {
+        "description": "Samarkand State University , Samarkand",
+        "active": true
+      },
+      "4UZ UZ": {
+        "description": "Uzbekistan",
+        "active": true
+      },
+      "4UZ UZB": {
+        "description": "Institute Yadernoi Fiziki Uzbekskoi A.N., Tashkent",
+        "active": true
+      },
+      "4ZZZDUB": {
+        "description": "Joint Institute for Nuclear Research (JINR), Dubna",
+        "active": true
+      }
+    }
+  }
+}

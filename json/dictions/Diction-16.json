@@ -1,0 +1,103 @@
+{
+  "16": {
+    "diction_name": "Status",
+    "codes": {
+      "APRVD": {
+        "description": "Approved by author",
+        "active": true
+      },
+      "BERMN": {
+        "description": "Data converted from file of B.Berman",
+        "active": true
+      },
+      "CPX": {
+        "description": "Data taken from data file of McGowan, et al.",
+        "active": true
+      },
+      "CURVE": {
+        "description": "Data read from a curve",
+        "active": true
+      },
+      "DASTR": {
+        "description": "Data converted from DASTAR file",
+        "active": true
+      },
+      "ECSIL": {
+        "description": "Data converted from ECSIL library",
+        "active": true
+      },
+      "NACRE": {
+        "description": "Data converted from NACRE files",
+        "active": true
+      },
+      "NCHKD": {
+        "description": "Authenticity not confirmed",
+        "active": true
+      },
+      "NDD": {
+        "description": "Data converted from NEUDADA file",
+        "active": true
+      },
+      "PENTZ": {
+        "description": "Data converted from GMA input file of W.P.Poenitz",
+        "active": true
+      },
+      "PRELM": {
+        "description": "Preliminary data",
+        "active": true
+      },
+      "RCALC": {
+        "description": "Ratio to standard calculated by other than author",
+        "active": true
+      },
+      "RIDER": {
+        "description": "Data converted from file of B.F.Rider",
+        "active": true
+      },
+      "SCSRS": {
+        "description": "Data converted from SCISRS file",
+        "active": true
+      },
+      "SGMBS": {
+        "description": "Data converted from Sigmabase",
+        "active": true
+      },
+      "TABLE": {
+        "description": "Data presented by authors",
+        "active": true
+      },
+      "UNOBT": {
+        "description": "Data unobtainable from author",
+        "active": true
+      },
+      "COREL": {
+        "description": "Data correlated with another data set",
+        "active": true
+      },
+      "CRCTD": {
+        "description": "Data corrected by other than author",
+        "active": true
+      },
+      "DEP": {
+        "description": "Dependent data",
+        "active": true
+      },
+      "RNORM": {
+        "description": "Data renormalized by other than author",
+        "active": true
+      },
+      "SUPPL": {
+        "description": "Supplemental information compiled separately",
+        "active": true
+      },
+      "OUTDT": {
+        "description": "Normalization out-of-date",
+        "active": true
+      },
+      "SPSDD": {
+        "description": "Data superseded or withdrawn",
+        "active": true
+      }
+    }
+  }
+}

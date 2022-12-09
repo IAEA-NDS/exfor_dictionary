@@ -17,6 +17,7 @@ import glob
 import re
 import os
 import json
+import pandas as pd
 
 from config import DICTIONARY_PATH, DICTIONARY_URL
 from abbreviations import abbreviations
@@ -63,6 +64,9 @@ def download_trans(transnum):
         file = dict_filename(transnum)
         open(file, "wb").write(r.content)
 
+
+
+
 def download_all_trans():
     x = get_server_trans_nums()
     for xx in x:
@@ -99,13 +103,13 @@ def dict_filename(latest):
 
 
 def diction_json_file(diction_num: str):
-    if diction_num == "950":
-        return os.path.join(DICTIONARY_PATH, "json", "dictions", "Diction-" + str(diction_num) + ".json")
-    else:
-        j = open("json/dictions/Diction-950.json")
-        dictions = json.load(j)
-        desc = dictions[diction_num]["description"]
-        return os.path.join(DICTIONARY_PATH, "json", "dictions", "Diction-" + str(diction_num) + "-" + desc + ".json")
+    # if diction_num == "950":
+    return os.path.join(DICTIONARY_PATH, "json", "dictions", "Diction-" + str(diction_num) + ".json")
+    # else:
+    #     j = open("./exfor_dictionary/json/dictions/Diction-950.json")
+    #     dictions = json.load(j)
+    #     desc = dictions[diction_num]["description"]
+    #     return os.path.join(DICTIONARY_PATH, "json", "dictions", "Diction-" + str(diction_num) + "-" + desc + ".json")
 
 
 
@@ -180,7 +184,7 @@ def parse_dictionary(latest):
                 new = True
                 diction_num = re.split("\s{2,}", line)[1]
                 fname = os.path.join(
-                    DICTIONARY_PATH, "diction", "diction" + str(diction_num) + ".dat"
+                    DICTIONARY_PATH, "trans_backup/dictions", "diction" + str(diction_num) + ".dat"
                 )
                 o = open(fname, "w")
                 o.write(line)
@@ -210,10 +214,8 @@ def skip_unused_lines(d):
 
 
 
-def conv_dictionary_tojson(latest) -> dict:
+def conv_dictionary_to_json(latest) -> dict:
     ## load pickles for additional info
-
-    import pandas as pd
     '''
     Note: these pickle are included in the main EXFOR parser reporsitory
     '''
@@ -239,7 +241,7 @@ def conv_dictionary_tojson(latest) -> dict:
 
     for diction_num in dictions:
         fname = os.path.join(
-            DICTIONARY_PATH, "diction", "diction" + str(diction_num) + ".dat"
+            DICTIONARY_PATH, "trans_backup/dictions", "diction" + str(diction_num) + ".dat"
         )
 
         with open(fname) as f:
@@ -406,7 +408,7 @@ def conv_dictionary_tojson(latest) -> dict:
                     codes[x4code] = {
                         "description": desc,
                         "additional_code": additional_code,
-                        "unit conversion factor": factor,
+                        "unit_conversion_factor": factor,
                         "active": False if flag == "O" else True,
                     }
 
@@ -574,8 +576,8 @@ def conv_dictionary_tojson(latest) -> dict:
             # create individual diction-json files just in case, will be deleted in the future
             write_diction_json(diction_num, diction_dict)
 
-
     write_trans_json_file(latest, exfor_dictionary)
+    
 
     return exfor_dictionary
 
@@ -586,14 +588,13 @@ def update_dictionary_to_latest():
     ## check the latest number of trans file in remote server and download it
     ## note that the oldest file that this parser can process is trans.9090.
     latest = download_latest_dict()
-
+    # latest = "9126"
 
     ## conversion to json
     parse_dictionary(latest)
-    conv_dictionary_tojson(latest)
+    conv_dictionary_to_json(latest)
 
-
-    print("Latest dictionary trans file is trans."+latest)
+    print("Latest dictionary trans file is trans." + latest)
     return latest
 
 
@@ -604,14 +605,16 @@ def update_dictionary_to_latest():
 ###################################################################
 class Diction:
     def __init__(self):
+        self.latest_trans = "9126" #get_latest_trans_num(get_local_trans_nums())
         self.diction_num = None
-
+    
 
     def read_diction(self, diction_num):
         if diction_num:
-            file = diction_json_file(diction_num)
+            # file = diction_json_file(diction_num)
+            file = os.path.join(DICTIONARY_PATH, "json", "trans." + str(self.latest_trans) + ".json")
             with open(file) as json_file:
-                return json.load(json_file)["x4codeeters"]
+                return json.load(json_file)["dictionaries"][diction_num]
 
 
 
@@ -621,9 +624,9 @@ class Diction:
         diction = self.read_diction("24")
         return [
             h
-            for h in diction.keys()
-            if diction[h]["additional_code"] == "A"
-            and diction[h]["active"]
+            for h in diction["codes"].keys()
+            if diction["codes"][h]["additional_code"] == "A"
+            and diction["codes"][h]["active"]
             and "-DN" not in h
             and "-NM" not in h
         ]
@@ -635,9 +638,9 @@ class Diction:
         diction = self.read_diction("24")
         return [
             h
-            for h in diction.keys()
-            if diction[h]["additional_code"] == "B"
-            and diction[h]["active"]
+            for h in diction["codes"].keys()
+            if diction["codes"][h]["additional_code"] == "B"
+            and diction["codes"][h]["active"]
             and "-DN" not in h
             and "-NM" not in h
         ]
@@ -649,9 +652,9 @@ class Diction:
         diction = self.read_diction("24")
         return [
             h
-            for h in diction.keys()
-            if diction[h]["additional_code"] == "DATA"
-            and diction[h]["active"]
+            for h in diction["codes"].keys()
+            if diction["codes"][h]["additional_code"] == "DATA"
+            and diction["codes"][h]["active"]
             and "-DN" not in h
             and "-NM" not in h
         ]
@@ -663,9 +666,9 @@ class Diction:
         diction = self.read_diction("24")
         return [
             h
-            for h in diction.keys()
-            if diction[h]["additional_code"] == "DATA_E"
-            and diction[h]["active"]
+            for h in diction["codes"].keys()
+            if diction["codes"][h]["additional_code"] == "DATA_E"
+            and diction["codes"][h]["active"]
             and "-DN" not in h
             and "-NM" not in h
         ]
@@ -677,8 +680,8 @@ class Diction:
         diction = self.read_diction("24")
         return [
             h
-            for h in diction.keys()
-            if diction[h]["additional_code"] == "E" and diction[h]["active"]
+            for h in diction["codes"].keys()
+            if diction["codes"][h]["additional_code"] == "E" and diction["codes"][h]["active"]
         ]
 
 
@@ -687,8 +690,8 @@ class Diction:
         diction = self.read_diction("24")
         return [
             h
-            for h in diction.keys()
-            if diction[h]["additional_code"] == "L" and diction[h]["active"]
+            for h in diction["codes"].keys()
+            if diction["codes"][h]["additional_code"] == "L" and diction["codes"][h]["active"]
         ]
 
 
@@ -698,8 +701,8 @@ class Diction:
         diction = self.read_diction("24")
         return [
             h
-            for h in diction.keys()
-            if diction[h]["additional_code"] == "G" and diction[h]["active"]
+            for h in diction["codes"].keys()
+            if diction["codes"][h]["additional_code"] == "G" and diction["codes"][h]["active"]
         ]
 
 
@@ -709,8 +712,8 @@ class Diction:
         diction = self.read_diction("24")
         return [
             h
-            for h in diction.keys()
-            if diction[h]["additional_code"] == "J" and diction[h]["active"]
+            for h in diction["codes"].keys()
+            if diction["codes"][h]["additional_code"] == "J" and diction["codes"][h]["active"]
         ]
 
 
@@ -720,18 +723,17 @@ class Diction:
         diction = self.read_diction("24")
         return [
             h
-            for h in diction.keys()
-            if diction[h]["additional_code"] == "I" and diction[h]["active"]
+            for h in diction["codes"].keys()
+            if diction["codes"][h]["additional_code"] == "I" and diction["codes"][h]["active"]
         ]
 
 
 
     def get_unit_factor(self, datahead):
         ## diction 25: Data units
-        diction_num = "25"
-        diction = self.read_diction(diction_num)
-        factor = diction[datahead][
-            "unit conversion factor"
+        diction = self.read_diction("25")
+        factor = diction["codes"][datahead][
+            "unit_conversion_factor"
         ]  # if diction[datahead]["active"]
         if factor == "":
             return 1.0
@@ -752,6 +754,7 @@ class Diction:
 
 if __name__ == "__main__":
     update_dictionary_to_latest()
+    # conv_dictionary_to_json("9126")
 
 
 

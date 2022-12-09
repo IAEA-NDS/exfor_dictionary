@@ -1,0 +1,359 @@
+{
+  "34": {
+    "diction_name": "Modifiers (REACTION SF 8)",
+    "codes": {
+      "(PHY)": {
+        "description": "Uncertain if corrected for decay during irradiation",
+        "active": true
+      },
+      "1K2": {
+        "description": "Modifier for Legendre or cosine coefficients of the",
+        "active": true
+      },
+      "2AG": {
+        "description": "times 2 * isotopic abund. and stat. weight factor",
+        "active": true
+      },
+      "2G": {
+        "description": "times 2 * statistical weight factor",
+        "active": true
+      },
+      "2L2": {
+        "description": "Modifier for Legendre or cosine coefficients of the",
+        "active": true
+      },
+      "4AG": {
+        "description": "times 4 * isotopic abund. and stat. weight factor",
+        "active": true
+      },
+      "4PI": {
+        "description": "times 4 pi",
+        "active": true
+      },
+      "AA": {
+        "description": "Adler-Adler formalism",
+        "active": true
+      },
+      "AG": {
+        "description": "times isotopic abund. and stat. weight factor",
+        "active": true
+      },
+      "AL1": {
+        "description": "Coefficients for first-order associated Legendre",
+        "active": true
+      },
+      "AMP": {
+        "description": "Amplitude (for resonance parameters)",
+        "active": true
+      },
+      "ANA": {
+        "description": "Analyzing power",
+        "active": true
+      },
+      "ASY": {
+        "description": "Asymmetry of polarization of outgoing particles",
+        "active": true
+      },
+      "AXX": {
+        "description": "Tensor analyzing power, Cartesian coord.",
+        "active": false
+      },
+      "AYY": {
+        "description": "Tensor analyz.power,inc.proj.spin normal to scatt.plane",
+        "active": false
+      },
+      "AZZ": {
+        "description": "Tensor analyz.power,inc.proj.spin parall.to scatt.plane",
+        "active": false
+      },
+      "C": {
+        "description": "Spin correlation parameter",
+        "active": true
+      },
+      "CH": {
+        "description": "per electric charge",
+        "active": true
+      },
+      "COS": {
+        "description": "Cosine coefficients",
+        "active": true
+      },
+      "CS2": {
+        "description": "Coefficients of the form d-sig/d-Omega = a(0) +",
+        "active": true
+      },
+      "D": {
+        "description": "Spin rotation parameter",
+        "active": true
+      },
+      "D4PI": {
+        "description": "Divided by 4 pi",
+        "active": true
+      },
+      "DMN": {
+        "description": "Divided by mass number of the target nuclide",
+        "active": true
+      },
+      "DSP": {
+        "description": "Difference for spins parallel - antiparallel",
+        "active": true
+      },
+      "DT": {
+        "description": "production thick/thin target yield",
+        "active": false
+      },
+      "EOB": {
+        "description": "End-of-bombardment thick/thin target yield",
+        "active": true
+      },
+      "EXL": {
+        "description": "Excitation to low-lying levels",
+        "active": true
+      },
+      "FRC": {
+        "description": "Fractional",
+        "active": true
+      },
+      "G": {
+        "description": "times statistical weight factor",
+        "active": true
+      },
+      "HYD": {
+        "description": "hydrogen part",
+        "active": true
+      },
+      "IPA": {
+        "description": "integrated over partial angular range",
+        "active": false
+      },
+      "K": {
+        "description": "Spin transfer parameter",
+        "active": true
+      },
+      "L4P": {
+        "description": "Modifier for Legendre or cos coefficients of the form",
+        "active": true
+      },
+      "LEG": {
+        "description": "Legendre coefficients",
+        "active": true
+      },
+      "LIM": {
+        "description": "Modifier for a resonance integral given for a",
+        "active": true
+      },
+      "MOT": {
+        "description": "relative to Mott scattering",
+        "active": true
+      },
+      "MXD": {
+        "description": "Spectrum rel.to Maxw.distr.of given temperature",
+        "active": true
+      },
+      "NCP": {
+        "description": "Non-coplanar",
+        "active": true
+      },
+      "NPD": {
+        "description": "Normalized to probability distribution",
+        "active": true
+      },
+      "NSF": {
+        "description": "Non-spin-flip",
+        "active": true
+      },
+      "PHY": {
+        "description": "Physical yield",
+        "active": true
+      },
+      "PP": {
+        "description": "Inc.proj.parallel/perpendicular to reac.plane",
+        "active": true
+      },
+      "RAB": {
+        "description": "times natural isotopic abundance, divided by isotopic",
+        "active": true
+      },
+      "RES": {
+        "description": "at peak of resonance",
+        "active": true
+      },
+      "RG": {
+        "description": "times (2J(i)+1) * (2J(j)+1)",
+        "active": true
+      },
+      "RM": {
+        "description": "Reich-Moore formalism",
+        "active": true
+      },
+      "RMT": {
+        "description": "R-matrix formalism",
+        "active": true
+      },
+      "RNV": {
+        "description": "Non-1/v part",
+        "active": true
+      },
+      "RRE": {
+        "description": "relative to square-root(E)",
+        "active": true
+      },
+      "RS": {
+        "description": "Times 4pi/sigma",
+        "active": true
+      },
+      "RS0": {
+        "description": "Modifier for Legendre or cosine coefficients of the",
+        "active": true
+      },
+      "RSD": {
+        "description": "Modifier for Legendre or cosine coefficients of the",
+        "active": true
+      },
+      "RSL": {
+        "description": "Modifier for Legendre or cosine coefficients of the",
+        "active": true
+      },
+      "RTE": {
+        "description": "times square-root(E)",
+        "active": true
+      },
+      "RTH": {
+        "description": "relative to Rutherford scattering",
+        "active": true
+      },
+      "RV": {
+        "description": "1/v part only",
+        "active": true
+      },
+      "S0": {
+        "description": "times total peak cross section",
+        "active": true
+      },
+      "S2T": {
+        "description": "Coefficients of the form: d-sig/d-Omega =",
+        "active": true
+      },
+      "SAT": {
+        "description": "Saturation yield",
+        "active": true
+      },
+      "SF": {
+        "description": "Spin flip",
+        "active": true
+      },
+      "SFC": {
+        "description": "Coefficients for a sum in power of sin**2",
+        "active": true
+      },
+      "SQ": {
+        "description": "Quantity squared",
+        "active": true
+      },
+      "SRF": {
+        "description": "Spin rotation function",
+        "active": true
+      },
+      "SS": {
+        "description": "Spin-spin cross section",
+        "active": true
+      },
+      "TAP": {
+        "description": "Tensor analyzing power, spherical coordinates",
+        "active": true
+      },
+      "TM": {
+        "description": "per 1 MeV target thickness (for thick target yields)",
+        "active": false
+      },
+      "TMP": {
+        "description": "at temperature other than the room temperature",
+        "active": true
+      },
+      "TST": {
+        "description": "Total spin transfer",
+        "active": true
+      },
+      "TT": {
+        "description": "Measured for thick target",
+        "active": true
+      },
+      "TTA": {
+        "description": "Thin target approximation",
+        "active": true
+      },
+      "VAP": {
+        "description": "Vector analyzing power, spherical coordinates",
+        "active": true
+      },
+      "VGT": {
+        "description": "Vogt formalism",
+        "active": true
+      },
+      "(A)": {
+        "description": "Uncertain if corrected for natural isotopic abund.",
+        "active": true
+      },
+      "A": {
+        "description": "Data times natural isotopic abundance",
+        "active": true
+      },
+      "DAM": {
+        "description": "Divided by atomic mass of the target nuclide",
+        "active": true
+      },
+      "AV": {
+        "description": "Average",
+        "active": true
+      },
+      "FCT": {
+        "description": "times a factor (see text)",
+        "active": true
+      },
+      "MSC": {
+        "description": "Approximate definition only, see REACTION text",
+        "active": true
+      },
+      "RAW": {
+        "description": "Raw data (see REACTION text)",
+        "active": true
+      },
+      "REL": {
+        "description": "Relative data",
+        "active": true
+      },
+      "BRA": {
+        "description": "Bremsstrahlung spectrum average",
+        "active": true
+      },
+      "BRS": {
+        "description": "Average over part of bremsstrahlung spectrum",
+        "active": true
+      },
+      "EPI": {
+        "description": "Epithermal neutron spectrum average",
+        "active": true
+      },
+      "FIS": {
+        "description": "Fission spectrum average",
+        "active": true
+      },
+      "FST": {
+        "description": "Fast reactor neutron spectrum average",
+        "active": true
+      },
+      "MXW": {
+        "description": "Maxwellian average",
+        "active": true
+      },
+      "SDT": {
+        "description": "Slowing-down time average",
+        "active": true
+      },
+      "SPA": {
+        "description": "Spectrum average",
+        "active": true
+      }
+    }
+  }
+}

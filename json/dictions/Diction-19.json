@@ -1,0 +1,231 @@
+{
+  "19": {
+    "diction_name": "Incident sources",
+    "codes": {
+      "FRAGM": {
+        "description": "Fragmentation",
+        "active": true
+      },
+      "ISOL": {
+        "description": "Online isotope separation",
+        "active": true
+      },
+      "POLIS": {
+        "description": "Polarized ion source",
+        "active": true
+      },
+      "POLTR": {
+        "description": "Polarized target",
+        "active": true
+      },
+      "SPALL": {
+        "description": "Spallation",
+        "active": true
+      },
+      "A-BE": {
+        "description": "Alpha-Beryllium",
+        "active": true
+      },
+      "AM-BE": {
+        "description": "Americium-Beryllium neutron source",
+        "active": true
+      },
+      "B11-H": {
+        "description": "1H(11B,n)",
+        "active": true
+      },
+      "CF252": {
+        "description": "Spont.fission of Californium-252",
+        "active": true
+      },
+      "CM-BE": {
+        "description": "Curium-Beryllium neutron source",
+        "active": true
+      },
+      "CM244": {
+        "description": "Spont.fission of Curium-244",
+        "active": true
+      },
+      "CM246": {
+        "description": "Spont.fission of Curium-246",
+        "active": true
+      },
+      "CM248": {
+        "description": "Spont.fission of Curium-248",
+        "active": true
+      },
+      "D-BE": {
+        "description": "9Be(d,n)",
+        "active": true
+      },
+      "D-C12": {
+        "description": "12C(d,n)",
+        "active": true
+      },
+      "D-C14": {
+        "description": "14C(d,n)",
+        "active": true
+      },
+      "D-D": {
+        "description": "2H(d,n)",
+        "active": true
+      },
+      "D-LI": {
+        "description": "Li(d,n)",
+        "active": true
+      },
+      "D-LI7": {
+        "description": "7Li(d,n)",
+        "active": true
+      },
+      "D-N14": {
+        "description": "14N(d,n)",
+        "active": true
+      },
+      "D-N15": {
+        "description": "15N(d,n)",
+        "active": true
+      },
+      "D-T": {
+        "description": "3H(d,n)",
+        "active": true
+      },
+      "EVAP": {
+        "description": "Evaporation neutrons",
+        "active": true
+      },
+      "EXPLO": {
+        "description": "Nuclear explosive device",
+        "active": true
+      },
+      "P-BE": {
+        "description": "9Be(p,n)",
+        "active": true
+      },
+      "P-D": {
+        "description": "2H(p,n)",
+        "active": true
+      },
+      "P-LI7": {
+        "description": "7Li(p,n)",
+        "active": true
+      },
+      "P-N15": {
+        "description": "15N(p,n)",
+        "active": true
+      },
+      "P-T": {
+        "description": "3H(p,n)",
+        "active": true
+      },
+      "PHOTO": {
+        "description": "Photo-neutron",
+        "active": true
+      },
+      "PO-BE": {
+        "description": "Polonium-Beryllium neutron source",
+        "active": true
+      },
+      "POLNS": {
+        "description": "Polarized neutron source",
+        "active": true
+      },
+      "PU-BE": {
+        "description": "Plutonium-Beryllium neutron source",
+        "active": true
+      },
+      "PU240": {
+        "description": "Spont.fission of Plutonium-240",
+        "active": true
+      },
+      "PU242": {
+        "description": "Spont.fission of Plutonium-242",
+        "active": true
+      },
+      "RA-BE": {
+        "description": "Radium-Beryllium neutron source",
+        "active": true
+      },
+      "REAC": {
+        "description": "Reactor",
+        "active": true
+      },
+      "RN-BE": {
+        "description": "Radon-Beryllium neutron source",
+        "active": true
+      },
+      "TH-BE": {
+        "description": "Thorium-Beryllium neutron source",
+        "active": true
+      },
+      "THCOL": {
+        "description": "Thermal column",
+        "active": true
+      },
+      "ARAD": {
+        "description": "Annihilation radiation",
+        "active": true
+      },
+      "ATOMI": {
+        "description": "Atomic beam source",
+        "active": true
+      },
+      "BRST": {
+        "description": "Bremsstrahlung",
+        "active": true
+      },
+      "COMPT": {
+        "description": "Compton scattering",
+        "active": false
+      },
+      "COULX": {
+        "description": "Coulomb excitation",
+        "active": true
+      },
+      "HARD": {
+        "description": "Hardened",
+        "active": true
+      },
+      "KINDT": {
+        "description": "Kinematically determined",
+        "active": true
+      },
+      "LAMB": {
+        "description": "Lamb-shift source",
+        "active": true
+      },
+      "LASER": {
+        "description": "Laser scattering",
+        "active": false
+      },
+      "LCS": {
+        "description": "Laser Compton Scattered Photons",
+        "active": true
+      },
+      "MPH": {
+        "description": "Monoenergetic photons",
+        "active": true
+      },
+      "POLPS": {
+        "description": "Polarized photon source",
+        "active": true
+      },
+      "QMPH": {
+        "description": "Quasi-monoenergetic photons",
+        "active": true
+      },
+      "TAGD": {
+        "description": "Electron tagged",
+        "active": true
+      },
+      "THRDT": {
+        "description": "Determined by threshold technique",
+        "active": true
+      },
+      "VPH": {
+        "description": "Virtual photons",
+        "active": true
+      }
+    }
+  }
+}

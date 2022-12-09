@@ -1,0 +1,1213 @@
+{
+  "25": {
+    "diction_name": "Data units",
+    "codes": {
+      "CM3/S/MOL": {
+        "description": "centimeters**3 per second per Mol",
+        "additional_code": "B*V",
+        "unit_conversion_factor": "1.66054E-24",
+        "active": true
+      },
+      "ARB-UNITS": {
+        "description": "arbitrary Units",
+        "additional_code": "NO",
+        "unit_conversion_factor": "",
+        "active": true
+      },
+      "NO-DIM": {
+        "description": "no Dimensions",
+        "additional_code": "NO",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "PER-CENT": {
+        "description": "per-cent",
+        "additional_code": "PC",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "ADEG": {
+        "description": "angular Degrees",
+        "additional_code": "A",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "AMIN": {
+        "description": "angular Minutes",
+        "additional_code": "A",
+        "unit_conversion_factor": "1.666667E-2",
+        "active": true
+      },
+      "ARAD": {
+        "description": "radians",
+        "additional_code": "A",
+        "unit_conversion_factor": "5.729578E+1",
+        "active": true
+      },
+      "ASEC": {
+        "description": "angular Seconds",
+        "additional_code": "A",
+        "unit_conversion_factor": "2.777778E-4",
+        "active": true
+      },
+      "GAM/100N": {
+        "description": "gammas per 100 neutrons",
+        "additional_code": "YLD",
+        "unit_conversion_factor": "1.E-2",
+        "active": false
+      },
+      "GAM/PART": {
+        "description": "gammas per incident projectile",
+        "additional_code": "YLD",
+        "unit_conversion_factor": "1.E+0",
+        "active": false
+      },
+      "P/FS/MEVSR": {
+        "description": "particles/fission/MeV/sr",
+        "additional_code": "FYAE",
+        "unit_conversion_factor": "1.E-06",
+        "active": true
+      },
+      "PRT/FIS/SR": {
+        "description": "particles per fission per sterad",
+        "additional_code": "FYDA",
+        "unit_conversion_factor": "1.E+00",
+        "active": true
+      },
+      "P/IN/MEVSR": {
+        "description": "particle /incident projectile per Sr per MeV",
+        "additional_code": "YAE",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "PC/INC/SR": {
+        "description": "particles/100 incident projectiles/s",
+        "additional_code": "YDA",
+        "unit_conversion_factor": "1.E-2",
+        "active": true
+      },
+      "PRD/INC/SR": {
+        "description": "products/incident projectile/steradian",
+        "additional_code": "YDA",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "PRT/INC/SR": {
+        "description": "partcles/incident projectile/steradian",
+        "additional_code": "YDA",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "PART/FIS": {
+        "description": "particles per fission",
+        "additional_code": "FY",
+        "unit_conversion_factor": "1.E+0",
+        "active": false
+      },
+      "PC/FIS": {
+        "description": "particles per 100 fissions",
+        "additional_code": "FY",
+        "unit_conversion_factor": "1.E-2",
+        "active": true
+      },
+      "PRD/FIS": {
+        "description": "products/fission",
+        "additional_code": "FY",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "PRT/FIS": {
+        "description": "particles per fission",
+        "additional_code": "FY",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "PRD/FIS/SR": {
+        "description": "products/fission/sr",
+        "additional_code": "FYDA",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "PC/FIS/MEV": {
+        "description": "particle per 100 fissions per MeV",
+        "additional_code": "FYDE",
+        "unit_conversion_factor": "1.E-8",
+        "active": true
+      },
+      "PD/FIS/MEV": {
+        "description": "products per fission per MeV",
+        "additional_code": "FYDE",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "PT/FIS/MEV": {
+        "description": "particles per fission per MeV",
+        "additional_code": "FYDE",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "FGY*M2": {
+        "description": "femtogrey * square meters",
+        "additional_code": "KER",
+        "unit_conversion_factor": "1.E-15",
+        "active": true
+      },
+      "GY*M-SQ": {
+        "description": "Grey * square meters",
+        "additional_code": "KER",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "PGY*CM2": {
+        "description": "picogrey * square centimeters",
+        "additional_code": "KER",
+        "unit_conversion_factor": "1.E-16",
+        "active": true
+      },
+      "PRT/RCT/SR": {
+        "description": "particles per reaction per sterad",
+        "additional_code": "MDA",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "PT/RCT/MEV": {
+        "description": "particles per reaction per MeV",
+        "additional_code": "MDE",
+        "unit_conversion_factor": "1.00E-06",
+        "active": true
+      },
+      "PC/REAC": {
+        "description": "particles/100 reactions",
+        "additional_code": "MLT",
+        "unit_conversion_factor": "1.E-2",
+        "active": true
+      },
+      "PRD/REAC": {
+        "description": "products/reaction",
+        "additional_code": "MLT",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "PRT/REAC": {
+        "description": "particles/reaction",
+        "additional_code": "MLT",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "PC/DECAY": {
+        "description": "particles per 100 decays",
+        "additional_code": "YLD",
+        "unit_conversion_factor": "1.E-2",
+        "active": true
+      },
+      "PRT/DECAY": {
+        "description": "particles per decay",
+        "additional_code": "YLD",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "1/EV": {
+        "description": "per eV",
+        "additional_code": "1/E",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "1/GEV": {
+        "description": "per GeV",
+        "additional_code": "1/E",
+        "unit_conversion_factor": "1.E-9",
+        "active": true
+      },
+      "1/INC/KEV": {
+        "description": "per incident projectile per keV",
+        "additional_code": "1/E",
+        "unit_conversion_factor": "1.E-3",
+        "active": false
+      },
+      "1/KEV": {
+        "description": "per keV",
+        "additional_code": "1/E",
+        "unit_conversion_factor": "1.E-3",
+        "active": true
+      },
+      "1/MEV": {
+        "description": "per MeV",
+        "additional_code": "1/E",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "1/MILLI-EV": {
+        "description": "per milli-eV",
+        "additional_code": "1/E",
+        "unit_conversion_factor": "1.E+3",
+        "active": true
+      },
+      "EV": {
+        "description": "electron-Volts",
+        "additional_code": "E",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "GEV": {
+        "description": "GeV",
+        "additional_code": "E",
+        "unit_conversion_factor": "1.E+9",
+        "active": true
+      },
+      "GEV/A": {
+        "description": "GeV per mass number",
+        "additional_code": "E",
+        "unit_conversion_factor": "",
+        "active": true
+      },
+      "KEV": {
+        "description": "keV",
+        "additional_code": "E",
+        "unit_conversion_factor": "1.E+3",
+        "active": true
+      },
+      "MEV": {
+        "description": "MeV",
+        "additional_code": "E",
+        "unit_conversion_factor": "1.E+6",
+        "active": true
+      },
+      "MEV/A": {
+        "description": "MeV per mass number",
+        "additional_code": "E",
+        "unit_conversion_factor": "",
+        "active": true
+      },
+      "MICRO-EV": {
+        "description": "micro-Electron-Volts",
+        "additional_code": "E",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "MILLI-EV": {
+        "description": "milli-Electron-Volts",
+        "additional_code": "E",
+        "unit_conversion_factor": "1.E-3",
+        "active": true
+      },
+      "NANO-EV": {
+        "description": "nano-Electron-Volts",
+        "additional_code": "E",
+        "unit_conversion_factor": "1.E-9",
+        "active": true
+      },
+      "TEV": {
+        "description": "tera-Electron-Volts",
+        "additional_code": "E",
+        "unit_conversion_factor": "1.E+12",
+        "active": true
+      },
+      "EV/C": {
+        "description": "eV per Velocity of Light",
+        "additional_code": "E/C",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "GEV/C": {
+        "description": "GeV per Velocity of Light",
+        "additional_code": "E/C",
+        "unit_conversion_factor": "1.E+9",
+        "active": true
+      },
+      "KEV/C": {
+        "description": "keV per Velocity of Light",
+        "additional_code": "E/C",
+        "unit_conversion_factor": "1.E+3",
+        "active": true
+      },
+      "MEV/C": {
+        "description": "MeV per Velocity of Light",
+        "additional_code": "E/C",
+        "unit_conversion_factor": "1.E+6",
+        "active": true
+      },
+      "EV-SQ": {
+        "description": "eV-squared",
+        "additional_code": "E2",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "GEV-SQ": {
+        "description": "GeV-squared",
+        "additional_code": "E2",
+        "unit_conversion_factor": "1.E+18",
+        "active": true
+      },
+      "KEV-SQ": {
+        "description": "keV-squared",
+        "additional_code": "E2",
+        "unit_conversion_factor": "1.E+6",
+        "active": true
+      },
+      "MEV-SQ": {
+        "description": "MeV-squared",
+        "additional_code": "E2",
+        "unit_conversion_factor": "1.E+12",
+        "active": true
+      },
+      "GEV2/C2": {
+        "description": "(GeV/c)**2",
+        "additional_code": "EC2",
+        "unit_conversion_factor": "",
+        "active": true
+      },
+      "RT-EV": {
+        "description": "square-root(eV)",
+        "additional_code": "RE",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "MICROSEC/M": {
+        "description": "microseconds per Meter",
+        "additional_code": "RSL",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "MSEC/M": {
+        "description": "milliseconds per meter",
+        "additional_code": "RSL",
+        "unit_conversion_factor": "1.E-3",
+        "active": true
+      },
+      "NSEC/M": {
+        "description": "nanoseconds per meter",
+        "additional_code": "RSL",
+        "unit_conversion_factor": "1.E-9",
+        "active": true
+      },
+      "1/FM": {
+        "description": "per fermi",
+        "additional_code": "1/L",
+        "unit_conversion_factor": "1.E+15",
+        "active": true
+      },
+      "ANGSTROM": {
+        "description": "Angstroms",
+        "additional_code": "L",
+        "unit_conversion_factor": "1.E-10",
+        "active": true
+      },
+      "CM": {
+        "description": "centimeters",
+        "additional_code": "L",
+        "unit_conversion_factor": "1.E-2",
+        "active": true
+      },
+      "FERMI": {
+        "description": "fermis",
+        "additional_code": "L",
+        "unit_conversion_factor": "1.E-15",
+        "active": true
+      },
+      "KM": {
+        "description": "kilometers",
+        "additional_code": "L",
+        "unit_conversion_factor": "1.E+3",
+        "active": true
+      },
+      "M": {
+        "description": "meters",
+        "additional_code": "L",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "MILLI-MU": {
+        "description": "milli-microns",
+        "additional_code": "L",
+        "unit_conversion_factor": "1.E-9",
+        "active": true
+      },
+      "MM": {
+        "description": "millimeters",
+        "additional_code": "L",
+        "unit_conversion_factor": "1.E-3",
+        "active": true
+      },
+      "MU": {
+        "description": "micrometers, microns",
+        "additional_code": "L",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "1/D": {
+        "description": "per day",
+        "additional_code": "1/T",
+        "unit_conversion_factor": "1.157407E-5",
+        "active": true
+      },
+      "1/HR": {
+        "description": "per hour",
+        "additional_code": "1/T",
+        "unit_conversion_factor": "2.777778E-4",
+        "active": true
+      },
+      "1/MICROSEC": {
+        "description": "per microsecond",
+        "additional_code": "1/T",
+        "unit_conversion_factor": "1.E+6",
+        "active": true
+      },
+      "1/MIN": {
+        "description": "per minute",
+        "additional_code": "1/T",
+        "unit_conversion_factor": "1.666667E-2",
+        "active": true
+      },
+      "1/MSEC": {
+        "description": "per milli-second",
+        "additional_code": "1/T",
+        "unit_conversion_factor": "1.E+3",
+        "active": true
+      },
+      "1/NSEC": {
+        "description": "per nano-second",
+        "additional_code": "1/T",
+        "unit_conversion_factor": "1.E+9",
+        "active": true
+      },
+      "1/PSEC": {
+        "description": "per pico-second",
+        "additional_code": "1/T",
+        "unit_conversion_factor": "1.E+12",
+        "active": true
+      },
+      "1/SEC": {
+        "description": "per second",
+        "additional_code": "1/T",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "D": {
+        "description": "days",
+        "additional_code": "TIME",
+        "unit_conversion_factor": "8.64E+4",
+        "active": true
+      },
+      "FSEC": {
+        "description": "femtoseconds",
+        "additional_code": "TIME",
+        "unit_conversion_factor": "1.E-15",
+        "active": true
+      },
+      "HR": {
+        "description": "hours",
+        "additional_code": "TIME",
+        "unit_conversion_factor": "3.6E+3",
+        "active": true
+      },
+      "MICROSEC": {
+        "description": "microseconds",
+        "additional_code": "TIME",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "MIN": {
+        "description": "minutes",
+        "additional_code": "TIME",
+        "unit_conversion_factor": "6.E+1",
+        "active": true
+      },
+      "MSEC": {
+        "description": "milliseconds",
+        "additional_code": "TIME",
+        "unit_conversion_factor": "1.E-3",
+        "active": true
+      },
+      "NSEC": {
+        "description": "nanoseconds",
+        "additional_code": "TIME",
+        "unit_conversion_factor": "1.E-9",
+        "active": true
+      },
+      "PSEC": {
+        "description": "picoseconds",
+        "additional_code": "TIME",
+        "unit_conversion_factor": "1.E-12",
+        "active": true
+      },
+      "SEC": {
+        "description": "seconds",
+        "additional_code": "TIME",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "YR": {
+        "description": "years (=365.2422 Days)",
+        "additional_code": "TIME",
+        "unit_conversion_factor": "3.155693E+7",
+        "active": true
+      },
+      "DEG-C": {
+        "description": "degrees Celsius, Centigrade",
+        "additional_code": "TEM",
+        "unit_conversion_factor": "",
+        "active": true
+      },
+      "DEG-F": {
+        "description": "degrees Fahrenheit",
+        "additional_code": "TEM",
+        "unit_conversion_factor": "",
+        "active": true
+      },
+      "DEG-K": {
+        "description": "degrees Kelvin",
+        "additional_code": "TEM",
+        "unit_conversion_factor": "",
+        "active": false
+      },
+      "DEG-R": {
+        "description": "degrees Rankine",
+        "additional_code": "TEM",
+        "unit_conversion_factor": "",
+        "active": true
+      },
+      "K": {
+        "description": "Kelvin",
+        "additional_code": "TEM",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "K9": {
+        "description": "10**9 Kelvin",
+        "additional_code": "TEM",
+        "unit_conversion_factor": "1.E+9",
+        "active": true
+      },
+      "ATOMS/B": {
+        "description": "atoms/barn",
+        "additional_code": "THK",
+        "unit_conversion_factor": "",
+        "active": true
+      },
+      "G/CM-SQ": {
+        "description": "grams per centimeters-squared",
+        "additional_code": "THK",
+        "unit_conversion_factor": "",
+        "active": true
+      },
+      "P/RC/MEVSR": {
+        "description": "particles/reaction/MeV/sr",
+        "additional_code": "MAE",
+        "unit_conversion_factor": "1.E-06",
+        "active": true
+      },
+      "DPS/MUAHR": {
+        "description": "decays per Sec/micro-Ampere-hour",
+        "additional_code": "TTT",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "GBQ/COUL": {
+        "description": "Giga-Becquerel/Coulomb",
+        "additional_code": "TTT",
+        "unit_conversion_factor": "3.6E+6",
+        "active": true
+      },
+      "GBQ/MUAHR": {
+        "description": "Giga-Becquerel/micro-Ampere-hour",
+        "additional_code": "TTT",
+        "unit_conversion_factor": "1.E+3",
+        "active": true
+      },
+      "KBQ/MUAHR": {
+        "description": "kilo-Becquerel/micro-Ampere-hour",
+        "additional_code": "TTT",
+        "unit_conversion_factor": "1.E+3",
+        "active": true
+      },
+      "MBQ/COUL": {
+        "description": "Mega-Becquerel/Coulomb",
+        "additional_code": "TTT",
+        "unit_conversion_factor": "3.6E+3",
+        "active": true
+      },
+      "MBQ/MUAHR": {
+        "description": "Mega-Becquerel/micro-Ampere-hour",
+        "additional_code": "TTT",
+        "unit_conversion_factor": "1.E+6",
+        "active": true
+      },
+      "MCI/MUAHR": {
+        "description": "milli-Curie/micro-Ampere-hour",
+        "additional_code": "TTT",
+        "unit_conversion_factor": "3.7E+7",
+        "active": true
+      },
+      "MUCI/MUAHR": {
+        "description": "micro-Curie/micro-Ampere-Hour",
+        "additional_code": "TTT",
+        "unit_conversion_factor": "3.7E+4",
+        "active": true
+      },
+      "PART/MUAHR": {
+        "description": "particles/micro-Ampere-hour",
+        "additional_code": "TTT",
+        "unit_conversion_factor": "",
+        "active": false
+      },
+      "CI/AHR/MEV": {
+        "description": "Curie per Ampere-hour per MeV",
+        "additional_code": "TTTE",
+        "unit_conversion_factor": "3.7E+10",
+        "active": true
+      },
+      "CI/ASECMEV": {
+        "description": "Curie per Ampere-second per MeV",
+        "additional_code": "TTTE",
+        "unit_conversion_factor": "1.027778E+7",
+        "active": true
+      },
+      "MBQ/C/MEV": {
+        "description": "Mega-Becquerel/Coulomb/MeV",
+        "additional_code": "TTTE",
+        "unit_conversion_factor": "1.0E+0",
+        "active": true
+      },
+      "DPS/MUA": {
+        "description": "decays per Sec/micro-Ampere",
+        "additional_code": "TTY",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "GBQ/MUA": {
+        "description": "Giga-Becquerel/micro-Ampere",
+        "additional_code": "TTY",
+        "unit_conversion_factor": "1.E+3",
+        "active": true
+      },
+      "KBQ/MUA": {
+        "description": "kilo-Becquerel/micro-Ampere",
+        "additional_code": "TTY",
+        "unit_conversion_factor": "1.E+3",
+        "active": true
+      },
+      "MBQ/MUA": {
+        "description": "Mega-Becquerel/micro-Ampere",
+        "additional_code": "TTY",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "MCI/MUA": {
+        "description": "milli-Curie/micro-Ampere",
+        "additional_code": "TTY",
+        "unit_conversion_factor": "3.7E+1",
+        "active": true
+      },
+      "MUCI/MUA": {
+        "description": "micro-Curie/micro-Ampere",
+        "additional_code": "TTY",
+        "unit_conversion_factor": "3.7E-2",
+        "active": true
+      },
+      "P/MEVMUCSR": {
+        "description": "particles/(MeV muC sr)",
+        "additional_code": "YAEC",
+        "unit_conversion_factor": "",
+        "active": true
+      },
+      "PRD/MUC/SR": {
+        "description": "products/micro-Coulomb/sr",
+        "additional_code": "YDAC",
+        "unit_conversion_factor": "",
+        "active": true
+      },
+      "PRT/MUC/SR": {
+        "description": "particles/micro-Coulomb/steradian",
+        "additional_code": "YDAC",
+        "unit_conversion_factor": "3.6E+3",
+        "active": true
+      },
+      "PRD/IN/MEV": {
+        "description": "products per incident projectile per MeV",
+        "additional_code": "YDE",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "PRT/IN/MEV": {
+        "description": "particles per incident projectile per MeV",
+        "additional_code": "YDE",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "N/PART": {
+        "description": "neutrons per Incident Projectile",
+        "additional_code": "YLD",
+        "unit_conversion_factor": "1.E+0",
+        "active": false
+      },
+      "NUC/PART": {
+        "description": "nuclei per incident projectile",
+        "additional_code": "YLD",
+        "unit_conversion_factor": "1.E+0",
+        "active": false
+      },
+      "PC/INC": {
+        "description": "particles/100 incident projectiles",
+        "additional_code": "YLD",
+        "unit_conversion_factor": "1.E-2",
+        "active": true
+      },
+      "PRD/INC": {
+        "description": "products/incident projectile",
+        "additional_code": "YLD",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "PRT/INC": {
+        "description": "particles per incident projectile",
+        "additional_code": "YLD",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "PRD/MUAHR": {
+        "description": "products/micro-Ampere-hour",
+        "additional_code": "YLDC",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "PRD/MUCOUL": {
+        "description": "products/micro-Coulomb",
+        "additional_code": "YLDC",
+        "unit_conversion_factor": "3.6E+3",
+        "active": true
+      },
+      "PRT/MAMIN": {
+        "description": "particles/milli-Ampere-minute",
+        "additional_code": "YLDC",
+        "unit_conversion_factor": "1.67E+1",
+        "active": true
+      },
+      "PRT/MUAHR": {
+        "description": "particles/micro-Ampere-hour",
+        "additional_code": "YLDC",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "PRT/MUCOUL": {
+        "description": "particles/micro-Coulomb",
+        "additional_code": "YLDC",
+        "unit_conversion_factor": "3.6E+3",
+        "active": true
+      },
+      "1/SR": {
+        "description": "per steradian",
+        "additional_code": "1/A",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "B": {
+        "description": "barns",
+        "additional_code": "B",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "FB": {
+        "description": "femtobarns",
+        "additional_code": "B",
+        "unit_conversion_factor": "1.E-15",
+        "active": true
+      },
+      "KB": {
+        "description": "kilobarns",
+        "additional_code": "B",
+        "unit_conversion_factor": "1.E+3",
+        "active": true
+      },
+      "MB": {
+        "description": "millibarns",
+        "additional_code": "B",
+        "unit_conversion_factor": "1.E-3",
+        "active": true
+      },
+      "MICRO-B": {
+        "description": "microbarns",
+        "additional_code": "B",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "NB": {
+        "description": "nanobarns",
+        "additional_code": "B",
+        "unit_conversion_factor": "1.E-9",
+        "active": true
+      },
+      "PB": {
+        "description": "picobarns",
+        "additional_code": "B",
+        "unit_conversion_factor": "1.E-12",
+        "active": true
+      },
+      "B*EV": {
+        "description": "barns * eV",
+        "additional_code": "B*E",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "B*KEV": {
+        "description": "barns * keV",
+        "additional_code": "B*E",
+        "unit_conversion_factor": "1.E+3",
+        "active": true
+      },
+      "B*MEV": {
+        "description": "barns * MeV",
+        "additional_code": "B*E",
+        "unit_conversion_factor": "1.E+6",
+        "active": true
+      },
+      "B*MILLI-EV": {
+        "description": "barns * milli-eV",
+        "additional_code": "B*E",
+        "unit_conversion_factor": "1.E-3",
+        "active": true
+      },
+      "MB*EV": {
+        "description": "millibarns * eV",
+        "additional_code": "B*E",
+        "unit_conversion_factor": "1.E-3",
+        "active": true
+      },
+      "MB*MEV": {
+        "description": "millibarns * MeV",
+        "additional_code": "B*E",
+        "unit_conversion_factor": "1.E+3",
+        "active": true
+      },
+      "MB*MILLIEV": {
+        "description": "millibarns * milli-eV",
+        "additional_code": "B*E",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "CM3/SEC": {
+        "description": "centimeters-cubed per second",
+        "additional_code": "B*V",
+        "unit_conversion_factor": "",
+        "active": true
+      },
+      "B*EV-SQ": {
+        "description": "barns * eV-squared",
+        "additional_code": "BE2",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "MB*EV-SQ": {
+        "description": "millibarns * eV-squared",
+        "additional_code": "BE2",
+        "unit_conversion_factor": "1.E-3",
+        "active": true
+      },
+      "B*EV/SR": {
+        "description": "barns * eV per steradian",
+        "additional_code": "BEDA",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "B*MEV/SR": {
+        "description": "barns * MeV per steradian",
+        "additional_code": "BEDA",
+        "unit_conversion_factor": "1.E+6",
+        "active": true
+      },
+      "MB*MEV/SR": {
+        "description": "millibarns*MeV per steradian",
+        "additional_code": "BEDA",
+        "unit_conversion_factor": "1.E+3",
+        "active": true
+      },
+      "B*EV*RT-EV": {
+        "description": "barns * eV * square-root(eV)",
+        "additional_code": "BERE",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "B*RT-EV": {
+        "description": "barns * square-root(eV)",
+        "additional_code": "BRE",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "B*RT-KEV": {
+        "description": "barns * square-root(keV)",
+        "additional_code": "BRE",
+        "unit_conversion_factor": "3.162278E+1",
+        "active": true
+      },
+      "MB*RT-EV": {
+        "description": "millibarns * square-root(eV)",
+        "additional_code": "BRE",
+        "unit_conversion_factor": "1.E-3",
+        "active": true
+      },
+      "MB/SR/MEV2": {
+        "description": "millibarns/sr. per MeV-squared",
+        "additional_code": "D3",
+        "unit_conversion_factor": "1.E-15",
+        "active": true
+      },
+      "MB/SR2/MEV": {
+        "description": "mb per steradian-squared per MeV",
+        "additional_code": "D3A",
+        "unit_conversion_factor": "1.E-9",
+        "active": true
+      },
+      "MUB/SR2KEV": {
+        "description": "microbarns per steradian**2 keV",
+        "additional_code": "D3A",
+        "unit_conversion_factor": "1.E-9",
+        "active": true
+      },
+      "MUB/SR2MEV": {
+        "description": "microbarns per steradian**2 MeV",
+        "additional_code": "D3A",
+        "unit_conversion_factor": "1.E-12",
+        "active": true
+      },
+      "MB/GEV2/C2": {
+        "description": "millibarns per (GeV/c)**2",
+        "additional_code": "D4",
+        "unit_conversion_factor": "",
+        "active": true
+      },
+      "NB/GEV2/C2": {
+        "description": "nanobarns per (GeV/c)**2",
+        "additional_code": "D4",
+        "unit_conversion_factor": "1.00E-27",
+        "active": true
+      },
+      "MB/SR2MEV2": {
+        "description": "mb per steradian**2 MeV**2",
+        "additional_code": "D4A",
+        "unit_conversion_factor": "1.E-15",
+        "active": true
+      },
+      "NB/SR2MEV2": {
+        "description": "nanobarns per steradian**2 MeV**2",
+        "additional_code": "D4A",
+        "unit_conversion_factor": "1.E-21",
+        "active": true
+      },
+      "B/SR": {
+        "description": "barns/steradian",
+        "additional_code": "DA",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "MB/SR": {
+        "description": "millibarns per steradian",
+        "additional_code": "DA",
+        "unit_conversion_factor": "1.E-3",
+        "active": true
+      },
+      "MU-B/SR": {
+        "description": "microbarns per steradian",
+        "additional_code": "DA",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "NB/SR": {
+        "description": "nanobarns per steradian",
+        "additional_code": "DA",
+        "unit_conversion_factor": "1.E-9",
+        "active": true
+      },
+      "MB/SR2": {
+        "description": "millibarns per steradian-squared",
+        "additional_code": "DA2",
+        "unit_conversion_factor": "1.E-3",
+        "active": true
+      },
+      "MUB/SR2": {
+        "description": "microbarns per steradian**2",
+        "additional_code": "DA2",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "NB/SR2MEVC": {
+        "description": "nanobarns / (sr**2 * MeV/c)",
+        "additional_code": "DA2P",
+        "unit_conversion_factor": "1.E-15",
+        "active": true
+      },
+      "B/SR/EV": {
+        "description": "barns per steradian per eV",
+        "additional_code": "DAE",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "B/SR/GEV": {
+        "description": "barns per steradian per GeV",
+        "additional_code": "DAE",
+        "unit_conversion_factor": "1.E-9",
+        "active": true
+      },
+      "B/SR/KEV": {
+        "description": "barns per steradian per keV",
+        "additional_code": "DAE",
+        "unit_conversion_factor": "1.E-3",
+        "active": true
+      },
+      "B/SR/MEV": {
+        "description": "barns per steradian per MeV",
+        "additional_code": "DAE",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "B/SR/MEVA": {
+        "description": "barns/steradian/(MeV/A)",
+        "additional_code": "DAE",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "B/SR/MI-EV": {
+        "description": "barns per steradian per milli-eV",
+        "additional_code": "DAE",
+        "unit_conversion_factor": "1.E+3",
+        "active": true
+      },
+      "MB/SR/EV": {
+        "description": "millibarns per steradian per eV",
+        "additional_code": "DAE",
+        "unit_conversion_factor": "1.E-3",
+        "active": true
+      },
+      "MB/SR/GEV": {
+        "description": "millibarns per steradian per GeV",
+        "additional_code": "DAE",
+        "unit_conversion_factor": "1.E-12",
+        "active": true
+      },
+      "MB/SR/KEV": {
+        "description": "millibarns per steradian per keV",
+        "additional_code": "DAE",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "MB/SR/MEV": {
+        "description": "millibarns per steradian per MeV",
+        "additional_code": "DAE",
+        "unit_conversion_factor": "1.E-9",
+        "active": true
+      },
+      "MUB/SR/MEV": {
+        "description": "microbarns per steradian per MeV",
+        "additional_code": "DAE",
+        "unit_conversion_factor": "1.E-12",
+        "active": true
+      },
+      "NB/SR/MEV": {
+        "description": "nanobarns per steradian per MeV",
+        "additional_code": "DAE",
+        "unit_conversion_factor": "1.E-15",
+        "active": true
+      },
+      "MB/SR/GEVC": {
+        "description": "millibarns/sr/(GeV/c)",
+        "additional_code": "DAP",
+        "unit_conversion_factor": "1.E-12",
+        "active": true
+      },
+      "MB/SR/MEVC": {
+        "description": "millibarns/sr. per MeV/c",
+        "additional_code": "DAP",
+        "unit_conversion_factor": "1.E-9",
+        "active": true
+      },
+      "MUB/SRGEVC": {
+        "description": "microbarns /(sr*(GeV/c))",
+        "additional_code": "DAP",
+        "unit_conversion_factor": "1.E-15",
+        "active": true
+      },
+      "MUB/SRMEVC": {
+        "description": "microbarns /(sr*(MeV/c))",
+        "additional_code": "DAP",
+        "unit_conversion_factor": "1.E-12",
+        "active": true
+      },
+      "B/EV": {
+        "description": "barns per eV",
+        "additional_code": "DE",
+        "unit_conversion_factor": "1.E+0",
+        "active": true
+      },
+      "B/KEV": {
+        "description": "barns per keV",
+        "additional_code": "DE",
+        "unit_conversion_factor": "1.E-3",
+        "active": true
+      },
+      "B/MEV": {
+        "description": "barns per MeV",
+        "additional_code": "DE",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "B/MEVA": {
+        "description": "barns per (MeV/A)",
+        "additional_code": "DE",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "B/MILLI-EV": {
+        "description": "barns per milli-eV",
+        "additional_code": "DE",
+        "unit_conversion_factor": "1.E+3",
+        "active": true
+      },
+      "MB/EV": {
+        "description": "millibarns per eV",
+        "additional_code": "DE",
+        "unit_conversion_factor": "1.E-3",
+        "active": true
+      },
+      "MB/KEV": {
+        "description": "millibarns per keV",
+        "additional_code": "DE",
+        "unit_conversion_factor": "1.E-6",
+        "active": true
+      },
+      "MB/MEV": {
+        "description": "millibarns per MeV",
+        "additional_code": "DE",
+        "unit_conversion_factor": "1.E-9",
+        "active": true
+      },
+      "MU-B/MEV": {
+        "description": "micro-barns/MeV",
+        "additional_code": "DE",
+        "unit_conversion_factor": "1.E-12",
+        "active": true
+      },
+      "NB/MEV": {
+        "description": "nanobarns per MeV",
+        "additional_code": "DE",
+        "unit_conversion_factor": "1.00E-15",
+        "active": true
+      },
+      "MB/MEV/C": {
+        "description": "millibarns/(MeV/c)",
+        "additional_code": "DP",
+        "unit_conversion_factor": "1.E-9",
+        "active": true
+      },
+      "MUB/GEV/C": {
+        "description": "microbarns/(GeV/c)",
+        "additional_code": "DP",
+        "unit_conversion_factor": "1.00E-15",
+        "active": true
+      },
+      "MUB/MEV/C": {
+        "description": "microbarns/(MeV/c)",
+        "additional_code": "DP",
+        "unit_conversion_factor": "1.00E-12",
+        "active": true
+      }
+    }
+  }
+}
