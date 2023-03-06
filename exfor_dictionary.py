@@ -19,8 +19,8 @@ import os
 import json
 import pandas as pd
 
-from config import DICTIONARY_PATH, DICTIONARY_URL
-from abbreviations import abbreviations
+from .config import DICTIONARY_PATH, DICTIONARY_URL
+from .abbreviations import abbreviations
 
 
 
