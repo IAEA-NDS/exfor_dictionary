@@ -509,7 +509,7 @@
       },
       "ERR-T": {
         "description": "Total uncertainty (1-Sigma)",
-        "additional_code": "",
+        "additional_code": "DATA_E",
         "active": true
       },
       "SUM-ERR": {
@@ -762,6 +762,16 @@
         "additional_code": "B",
         "active": true
       },
+      "EN-RSL-HW1": {
+        "description": "1st incident projectile energy resolution (Half width)",
+        "additional_code": "B",
+        "active": true
+      },
+      "EN-RSL-HW2": {
+        "description": "2nd incident projectile energy resolution (Half width)",
+        "additional_code": "B",
+        "active": true
+      },
       "EN-RSL-NM": {
         "description": "Inc.projectile energy resol.(FWHM), REACTION ratio numerator",
         "additional_code": "B",
@@ -874,6 +884,16 @@
       },
       "WVE-LN": {
         "description": "Wave length of incident particle",
+        "additional_code": "A",
+        "active": true
+      },
+      "WVE-LN-MAX": {
+        "description": "Upper boundary of wave length of incident particle",
+        "additional_code": "A",
+        "active": true
+      },
+      "WVE-LN-MIN": {
+        "description": "Lower boundary of wave length of incident particle",
         "additional_code": "A",
         "active": true
       },
@@ -1207,11 +1227,6 @@
         "additional_code": "E",
         "active": true
       },
-      "E-EXC-MAXA": {
-        "description": "Approximate upper limit of excitation energy range",
-        "additional_code": "E",
-        "active": true
-      },
       "E-EXC-MEAN": {
         "description": "Mean excitation energy",
         "additional_code": "E",
@@ -1219,6 +1234,11 @@
       },
       "E-EXC-MIN": {
         "description": "Lower limit of excitation energy range",
+        "additional_code": "E",
+        "active": true
+      },
+      "E-EXC-MX-A": {
+        "description": "Approximate upper limit of excitation energy range",
         "additional_code": "E",
         "active": true
       },

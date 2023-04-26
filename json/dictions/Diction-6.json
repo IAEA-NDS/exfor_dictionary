@@ -1262,6 +1262,12 @@
         "publisher_name": "Universite de Paris",
         "active": true
       },
+      "IPNO-DRE-": {
+        "description": "Inst. de Phys. Nucl. Orsay Reports (Nucl.Phys.)",
+        "publisher": "2FR PAR",
+        "publisher_name": "Universite de Paris",
+        "active": true
+      },
       "IPNO-PHN-": {
         "description": "Inst. de Phys. Nucl. Orsay Reports (Nucl.Phys.)",
         "publisher": "2FR PAR",

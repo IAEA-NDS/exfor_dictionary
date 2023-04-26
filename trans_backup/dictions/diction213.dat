@@ -1,4 +1,4 @@
-DICTION            213     202206 Reaction types                  3000021300001 
+DICTION            213     202212 Reaction types                  3000021300001 
 ALF        ALF  CS  Alpha (capture-to-fission cs ratio)           3000021300002 
 ALR        ALF  CS  Alpha at resonance                            3000021300003 
 AP         MAS  ZAP Most probable mass                            3000021300004 
@@ -29,10 +29,10 @@ DAT        DA   DA  Differential d/dAng at other than room temp.  3000021300028
 DE         DE   DE  Differential d/dE'                            3000021300029 
 DE4        DE   DE  Differential d/dAngle/dE' * 4pi               3000021300030 
 DEP        DEP  DEP Energy spectrum for specific energy group     3000021300031 
-DP         DP   DE  Diff.by linear momentum of outg.part.         3000021300032C
+DP         DP   DE  Diff.by linear momentum of outg.part.         3000021300032 
 DPP        DP   DE  Diff.by lin.mom.of outg.part.,partl react.    3000021300033 
 DPR        DAP  DAP Partial angular distribution at resonance     3000021300034 
-DT         DT   DA  Diff.by 4-momentum transfer squared           3000021300035C
+DT         DT   DA  Diff.by 4-momentum transfer squared           3000021300035 
 E          KE   E   Kinetic energy                                3000021300036 
 EA         KE   E   Kinetic energy as a fn. of angle              3000021300037 
 EDA        KE   E   Kinetic energy, differential, d/dAngle        3000021300038 

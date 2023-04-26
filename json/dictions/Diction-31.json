@@ -114,6 +114,10 @@
         "description": "For a given electric polarity component",
         "active": true
       },
+      "EXL": {
+        "description": "Excitation to low-lying levels",
+        "active": true
+      },
       "FA": {
         "description": "Free atom",
         "active": true

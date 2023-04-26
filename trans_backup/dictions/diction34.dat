@@ -1,4 +1,4 @@
-DICTION             34     202206 Modifiers (REACTION SF 8)       3000003400001 
+DICTION             34     202212 Modifiers (REACTION SF 8)       3000003400001 
 (PHY)      Uncertain if corrected for decay during irradiation    3000003400002 
 1K2        Modifier for Legendre or cosine coefficients of the    3000003400003 
             form k**2 d-sig/d-Omega = Sum(a(L)*p(L)), where       3000003400004 
@@ -31,12 +31,11 @@ CS2        Coefficients of the form d-sig/d-Omega = a(0) +        3000003400030
             a(1)*sin**2(theta) + a(2)*sin**2(theta)*cos(theta) +  3000003400031 
             a(3)*sin**2(theta)*cos**2(theta)                      3000003400032 
 D          Spin rotation parameter                                3000003400033 
-D4PI       Divided by 4 pi                                        3000003400034C
+D4PI       Divided by 4 pi                                        3000003400034 
 DMN        Divided by mass number of the target nuclide           3000003400035 
 DSP        Difference for spins parallel - antiparallel           3000003400036 
 DT         production thick/thin target yield                     3000003400037O
 EOB        End-of-bombardment thick/thin target yield             3000003400038 
-EXL        Excitation to low-lying levels                         3000003400039 
 FRC        Fractional                                             3000003400040 
 G          times statistical weight factor                        3000003400041 
 HYD        hydrogen part                                          3000003400042 
@@ -120,7 +119,7 @@ A          Data times natural isotopic abundance                  3000003400118
             but were measured on a target with natural isotopic   3000003400120 
             composition. For enriched targets use modifier        3000003400121 
             'FCT' instead.                                        3000003400122 
-DAM        Divided by atomic mass of the target nuclide           3000003400123I
+DAM        Divided by atomic mass of the target nuclide           3000003400123 
 AV         Average                                                3000003400124 
 FCT        times a factor (see text)                              3000003400125 
 MSC        Approximate definition only, see REACTION text         3000003400126 
@@ -135,15 +134,14 @@ REL        Relative data                                          3000003400133
             Otherwise use 'FCT'.                                  3000003400135 
 BRA        Bremsstrahlung spectrum average                        3000003400136 
 BRS        Average over part of bremsstrahlung spectrum           3000003400137 
-EPI        Epithermal neutron spectrum average                    3000003400138I
-FIS        Fission spectrum average                               3000003400139 
-FST        Fast reactor neutron spectrum average                  3000003400140 
-MXW        Maxwellian average                                     3000003400141 
-            The appropriate spectrum temperature is to be given   3000003400142 
-            under data heading 'KT', or the mean energy under     3000003400143 
-            'EN-MEAN' (if given by author) or 'EN-DUMMY' (if      3000003400144 
-            assumed by compiler).                                 3000003400145 
-            ==Note== 'MXW' previously meant 'thermal Maxwellian   3000003400146 
-            average'.                                             3000003400147 
-SDT        Slowing-down time average                              3000003400148 
-SPA        Spectrum average                                       3000003400149 
+FIS        Fission spectrum average                               3000003400138 
+FST        Fast reactor neutron spectrum average                  3000003400139 
+MXW        Maxwellian average                                     3000003400140 
+            The appropriate spectrum temperature is to be given   3000003400141 
+            under data heading 'KT', or the mean energy under     3000003400142 
+            'EN-MEAN' (if given by author) or 'EN-DUMMY' (if      3000003400143 
+            assumed by compiler).                                 3000003400144 
+            ==Note== 'MXW' previously meant 'thermal Maxwellian   3000003400145 
+            average'.                                             3000003400146 
+SDT        Slowing-down time average                              3000003400147 
+SPA        Spectrum average                                       3000003400148 

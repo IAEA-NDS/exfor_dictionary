@@ -1,4 +1,4 @@
-DICTION              6     202206 Reports                         3000000600001 
+DICTION              6     202212 Reports                         3000000600001 
             ===Note= The following series which usually contain   3000000600002 
             conference proceedings, are generally not considered  3000000600003 
             as reports. Therefore, such publications are usually  3000000600004 
@@ -180,7 +180,7 @@ NASA-      N.A.S.A. Reports, TM = Technical Memo,          1USANAS3000000600179
            =TN = Technical Note, TP = Technical Paper             3000000600180 
 NASA-SP-   N.A.S.A. Special Publication                    1USANAS3000000600181 
 NASA-TM-   N.A.S.A. Technical Memo                         1USANAS3000000600182 
-NASA-TM-X- N.A.S.A. Technical Memo                         1USANAS3000000600183I
+NASA-TM-X- N.A.S.A. Technical Memo                         1USANAS3000000600183 
 NASA-TN-   N.A.S.A. Technical Note                         1USANAS3000000600184 
 NASA-TN-D- N.A.S.A. Technical Note                         1USANAS3000000600185 
 NASA-TP-   N.A.S.A. Technical Paper                        1USANAS3000000600186 
@@ -338,590 +338,591 @@ ISN-TS-    U. de Grenoble, Inst. des Sciences Nucl. reports2FR GRE3000000600337
 SAR-G-     C.E.A. Grenoble Reports                         2FR GRE3000000600338 
 LYCEN-     Univ. of Lyon Reports                           2FR LYO3000000600339 
 A-IPNO-    Inst. de Phys. Nucleaire Orsay Activity Report  2FR PAR3000000600340 
-IPNO-PHN-  Inst. de Phys. Nucl. Orsay Reports (Nucl.Phys.) 2FR PAR3000000600341 
-IPNO-RC-   Inst. de Phys. Nucl. Orsay Reports (Radiochem.) 2FR PAR3000000600342 
-IPNO-TH-   Inst. de Physique Nucleaire Orsay thesis        2FR PAR3000000600343 
-LPC-       Lab. de Physique Corpusculaire Reports          2FR PCF3000000600344 
-LPC-T-     Lab. de Physique Corpusculaire thesis           2FR PCF3000000600345 
-CEA-SMNF-  Centre d'Etudes Nucleaires, Saclay Reports      2FR SAC3000000600346 
-HMI-       Hahn-Meitner Inst., Berlin report series        2GERBER3000000600347 
-HMI-B-     Hahn-Meitner Inst., Berlin Reports              2GERBER3000000600348 
-IKF-       Inst.fuer Kernphysik, Frankfurt Reports         2GERFRK3000000600349 
-BMWF-FBK-  Bundesmin.f.Wiss.Forschg. Reports               2GERGER3000000600350 
-ZAED-M-    Zentralstelle fuer Atomkernenergie-Dokum.       2GERGER3000000600351 
-GSI-       Gesellschaft fuer Schwerionenforschung Reports  2GERGSI3000000600352 
-GSI-J-     Gesellschaft fuer Schwerionenforschung Reports  2GERGSI3000000600353 
-HH-        Hamburg Univ.,Inst.f.Experimentalphysik Reports 2GERHAM3000000600354 
-FIZ-KA-    Fachinformationszentrum Karlsruhe Reports       2GERIKA3000000600355 
-JUEL-      Kernforschungsanlage, Juelich, report series    2GERJUL3000000600356 
-JUEL-SPEZ- Kernforschungsanlage Juelich, Progress Report   2GERJUL3000000600357 
-ARB.BER-   Kernforschungszentrum Karlsruhe Reports         2GERKFK3000000600358 
-FZKA-      Forschungszentrum Karlsruhe Reports             2GERKFK3000000600359 
-KFK-       Kernforschungszentrum Karlsruhe Reports         2GERKFK3000000600360 
-KFK-EXT-   KFK Reports (Externer Bericht)                  2GERKFK3000000600361 
-KFK-TR-    Kernforschungszentrum Karlsruhe translation ser.2GERKFK3000000600362 
-PSB-BER-   Kernforschungszentrum Karlsruhe preprint        2GERKFK3000000600363 
-GKSS-      Ges.Kernen.-Verwertung, Schiffbau and Schiffahrt2GERKIG3000000600364 
-            Ges. fuer Kernenergie-Verwertung in Schiffbau und     3000000600365 
-             Schiffahrt Reports                                   3000000600366 
-MAINZ-     Inst. Nuclear Chem. Mainz Univ. Annual Reports  2GERMNZ3000000600367 
-FRM-       Forschungs Reactor Muenchen Reports             2GERMUN3000000600368 
-PTUM-E-    Techn. Univ. Muenchen Reports                   2GERMUN3000000600369 
-BLM-JB-    Beschleunigerlab. Univ. Muenchen annual report  2GERMUU3000000600370 
-            und der Techn. Univ. Muenchen                         3000000600371 
-PTB-       P.T.B., Braunschweig, reports                   2GERPTB3000000600372 
-PTB-FMRB-  P.T.B., Braunschweig Reports                    2GERPTB3000000600373 
-            Phys.Techn.Bundesanst.,Forschungs- u.Messreaktor      3000000600374 
-PTB-N-     Phys.Techn.Bundesanst., Neutronenphysik Reports 2GERPTB3000000600375 
-IKDA-      Inst. f. Kernphysik,Darmstadt Reports           2GERTHD3000000600376 
-IKE-       Stuttgart u. Inst. f. Kernenergetik Reports     2GERTHS3000000600377 
-ZFK-       Zentralinst. f. Kernforschung Rossendorf Reports2GERZFK3000000600378 
-            Starting with number ZFK-121 7/66 as continuation     3000000600379 
-             of 6 ZFK- subseries as follows.                      3000000600380 
-CEC-       Centro di Calcolo, CNEN, Bologna Reports        2ITYBOL3000000600381X
-            ===Note: report number includes the year in the form  3000000600382X
-               CEC-(71)9                                          3000000600383X
-           =(now: CEC(year)-)                                     3000000600384X
-RT/TIB-    ENEA Dipart.Technol.Interessettor.di Base Repts 2ITYBOL3000000600385X
-CISE-      Centre Inform. Studi Esp. Reports               2ITYCIS3000000600386 
-INFN/BE-   INFN Reports / Low Energy Physics Series        2ITYGVA3000000600387 
-            (Fisica di Bassa Energia)                             3000000600388 
-CNEN-RT/FI-Com.Naz. per l'Energia Nucleare Reports         2ITYITY3000000600389X
-ENEA/RT/IN-E.N.E.A., Area Innovazione Reports              2ITYITY3000000600390 
-            ===Note: complete code is ENEA/RT/INN-                3000000600391 
-ENEA/RT/NU-E.N.E.A., Area Nucleare Reports                 2ITYITY3000000600392 
-            ==Note: complete code is ENEA/RT/NUCL-                3000000600393 
-INFN/TC-   INFN Reports / Various Techniques Series        2ITYITY3000000600394 
-            (Tecniche varie)                                      3000000600395 
-RT/FI-     Comitate Nazionale per l'En. Nuc. Fiz. Reports  2ITYITY3000000600396X
-RT/FIMA-   Comitate Nazionale per l'En.Nuc.Fiz.Mat.Repts.  2ITYITY3000000600397X
-TIB/FICS-  ENEA Dpmt. TIB / FICS Reports                   2ITYITY3000000600398 
-            ENEA Dipmt. Tecnologie Intersettorali di Base /       3000000600399 
-            Div. Fisica e Calcolo Scientifico Reports             3000000600400 
-            Code on cover: e.g. TIB/FICS (83) 4                   3000000600401 
-A-LNS-     INFN Southern National Lab.(LNS), activity rept.2ITYLNS3000000600402 
-A-PAD-     Padua Univ. and Lab. Naz. Legnaro annual report 2ITYPAD3000000600403 
-A-JCL-     RIKEN Accelerator Progress Report               2JPNIPC3000000600404 
-            Inst.of Phys.and Chem.Res., Wako-shi,Saitama          3000000600405 
-           =vol.1 (1967) -                                        3000000600406 
-RIKEN-NC-NPRIKEN Nishina Center: Nuclear Physics preprint  2JPNIPC3000000600407 
-HIMAC-     Nat.Inst.of Radiological Sciences, HIMAC Reports2JPNIRS3000000600408 
-JAEA-C-    JAEA Conference proceedings                     2JPNJAE3000000600409 
-            Complete code is JAEA-Conf-                           3000000600410 
-JAEA-R-    JAEA Research Reports                           2JPNJAE3000000600411 
-            Complete code is JAEA-Research-                       3000000600412 
-JAERI-     JAERI Reports                                   2JPNJAE3000000600413X
-            Extinct. Last issue: JAERI-1348                       3000000600414X
-JAERI-C-   JAERI Conference proceedings                    2JPNJAE3000000600415X
-            Complete code is JAERI-Conf-                          3000000600416X
-            Extinct. Last issue: JAERI-Conf-2005-12               3000000600417X
-JAERI-D-   JAERI Data collection / Computer code reports   2JPNJAE3000000600418X
-            Complete code is JAERI-Data/Code                      3000000600419X
-            Extinct. Last issue: JAERI-Data/Code-2005-10          3000000600420X
-JAERI-M-   JAERI-M Reports                                 2JPNJAE3000000600421X
-            Extinct in 1994, continued as -C, -D, -R              3000000600422X
-            Last issue: JAERI-M-94-082                            3000000600423X
-JAERI-MEMO-JAERI-Memo Reports                              2JPNJAE3000000600424X
-            In 1972 split into JAERI memo (unpublished) and       3000000600425X
-            JAERI-M (published)                                   3000000600426X
-            Extinct. Last issue: JAERI-MEMO-14-006                3000000600427X
-JAERI-R-   JAERI Research Reports                          2JPNJAE3000000600428X
-            Complete code is JAERI-Research                       3000000600429X
-            Extinct. Last issue: JAERI-Research-2005-30           3000000600430X
-KURRI-     Kyoto Univ.,Res.Reactor Inst., Reports          2JPNKTO3000000600431 
-KURRI-AR-  Kyoto Univ.,Res.Reactor Inst., Annual Report    2JPNKTO3000000600432 
-KURRI-TR-  Kyoto-Univ.,Res.Reactor Inst., Tech. Report     2JPNKTO3000000600433 
-            In Japanese with English abstracts                    3000000600434 
-A-RCNP-    Res. Centre for Nucl. Phys., Osaka, annual rept.2JPNOSA3000000600435 
-OKTAV-A-   Osaka Univ., OKTAVIAN Reports                   2JPNOSA3000000600436 
-            Original papers and data tables                       3000000600437 
-OKTAV-C-   Osaka Univ., OKTAVIAN Reports                   2JPNOSA3000000600438 
-            Files of publications by other organizations          3000000600439 
-NETU-      Tohoku Univ., Dept.of Nucl.Engineering Reports  2JPNTOH3000000600440X
-A-INS-     Univ.Tokyo,Inst.f.Nucl.Study, Annual Report     2JPNTOK3000000600441X
-INS-J-     Univ.Tokyo, Inst.for Nucl.Study, Reports        2JPNTOK3000000600442X
-            Extinct March 1997 due to close of inst.              3000000600443X
-            Last issue: INS-J-186                                 3000000600444X
-UTTAC-     Tandem Accel. Complex Univ. Tsukuba Ann.Reports 2JPNTSU3000000600445 
-ECN-       Energy Research Foundation,Petten Reports       2NEDRCN3000000600446 
-ECN-C-     Energy Research Foundation,Petten Reports       2NEDRCN3000000600447 
-ECN-R-     Energy Research Foundation,Petten Reports       2NEDRCN3000000600448 
-ECN-RX-    Energy Research Foundation,Petten Reports       2NEDRCN3000000600449 
-RCN-       Reactor Cent. Nederland, Petten Reports         2NEDRCN3000000600450 
-BUP-       Bergen Univ. Dept. of Physics Reports           2NORBGN3000000600451 
-JENER-     Joint Establ. Nucl. Res., Kjeller Reports       2NORKJL3000000600452X
-KR-        Inst. for Atomenergi, Kjeller Reports           2NORKJL3000000600453 
-ABO-ANN-   Abo Akademi Annual Reports                      2SF ABA3000000600454 
-JU-RR-     Univ. of Jyvaeskylae, Dept.of Physics Reports   2SF JYV3000000600455 
-SFL-A-     Sateilyfysiikan Laitos-Radiofys. Inst. Reports  2SF SF 3000000600456 
-            (Inst. of Radiation Physics), Helsinki                3000000600457 
-JEN-       Junta de Energia Nuclear Reports                2SPNJNE3000000600458 
-MF-        Junta Energia Nuclear, Madrid Reports           2SPNJNE3000000600459 
-AE-        Aktiebolaget Atomenergi,Stockholm/Studsvik Repts2SWDAE 3000000600460 
-            Series discontinued. Last report = AE-517.            3000000600461 
-AE-FFN-    Aktiebolaget Atomenergi, Stockholm Reports      2SWDAE 3000000600462 
-AE-FN-     Aktiebolaget Atomenergi, Stockholm,internal rpt.2SWDAE 3000000600463 
-AE-RFT-    Aktiebolaget Atomenergi, Stockholm/Studsvik rpt.2SWDAE 3000000600464 
-AES-       Aktiebolaget Atomenergi, Studsvik, Reports      2SWDAE 3000000600465 
-RFA-       Aktiebolaget Atomenergi, Stockholm Reports      2SWDAE 3000000600466 
-RFR-       Aktiebolaget Atomenergi, Stockholm Reports      2SWDAE 3000000600467 
-S-         Aktiebolaget Atomenergi, Stockholm, prog. rept. 2SWDAE 3000000600468 
-CTH-RF-    Chalmers Univ. of Technol., Gothenburg Reports  2SWDCTH3000000600469 
-FOA4-      Res. Inst. National Defence Dept. 4 reports     2SWDFOA3000000600470 
-FOA4-A-    Res. Inst. National Defence Dept. 4A Reports    2SWDFOA3000000600471 
-FOA4-C-    Res. Inst. National Defence Dept. 4C Reports    2SWDFOA3000000600472 
-FOA4-D-    Res. Inst. National Defence Dept. 4D Reports    2SWDFOA3000000600473 
-A-IPS-     Res. Inst. of Phys., Stockholm Annual Rept.     2SWDIPS3000000600474 
-LU-NP-     Lund Univ. Reports                              2SWDLND3000000600475 
-LUNF-D6-   Lund Univ., Nuclear Physics Series              2SWDLND3000000600476 
-KDK-       Swedish Nuclear Data Committee Reports          2SWDSWD3000000600477 
-LFF-       Swedish Reports                                 2SWDSWD3000000600478 
-NFL-       Studsvik Science Res. Lab. Reports              2SWDSWR3000000600479 
-STUDSVIK-  Studsvik Science Res. Lab. Reports              2SWDSWR3000000600480 
-TLU-       Uppsala Univ. Tandem Lab. Reports               2SWDTLU3000000600481 
-UPP-       Uppsala Univ. Annual Report                     2SWDUPP3000000600482 
-UU-NF-     Uppsala Univ., Neutron Physics Lab. Reports     2SWDUPP3000000600483 
-IPF-SP-    Inst.de Phys., U. de Fribourg, Physics Series   2SWTFRS3000000600484 
-EIR-       Eidg.Inst.Reaktorforsch.Wuerenlingen Reports    2SWTWUR3000000600485 
-CNAEM-     Cekmece Nuclear Res. and Training Centre Reports2TUKCNA3000000600486 
-ACO/UK-    Aldermaston Reports                             2UK ALD3000000600487 
-AKO-UK-    Aldermaston Internal Report                     2UK ALD3000000600488 
-AWRE-      A.W.R.E. Aldermaston report series              2UK ALD3000000600489 
-AWRE-CNR/PRA.W.R.E. Aldermaston Reports                    2UK ALD3000000600490 
-AWRE-NR/C- A.W.R.E. Aldermaston Reports                    2UK ALD3000000600491 
-AWRE-NR/P- A.W.R.E. Aldermaston Reports                    2UK ALD3000000600492 
-AWRE-O-    A.W.R.E. Aldermaston Reports                    2UK ALD3000000600493 
-NR/P-      U.K.AEA Weapons Group,A.W.R.E. Aldermaston Rept.2UK ALD3000000600494 
-BR-        Cavendish Lab. Reports                          2UK CAV3000000600495X
-            Early reports                                         3000000600496X
-RD/B/M-    Central Electricity Generating Board Reports    2UK CEG3000000600497 
-            ===Note: Complete code is CEGB-RD/B/M-                3000000600498 
-RD/B/N-    Central Electricity Generating Board Reports    2UK CEG3000000600499 
-            ===Note: Complete code is CEGB-RD/B/M-                3000000600500 
-AERE-      A.E.R.E. Harwell report series                  2UK HAR3000000600501 
-AERE-C/R-  A.E.R.E. Harwell Reports                        2UK HAR3000000600502 
-AERE-I/R-  A.E.R.E. Harwell Reports                        2UK HAR3000000600503 
-AERE-M-    A.E.R.E. Harwell Reports                        2UK HAR3000000600504 
-AERE-N/M-  A.E.R.E. Harwell Reports                        2UK HAR3000000600505 
-AERE-N/R-  A.E.R.E. Harwell Reports                        2UK HAR3000000600506 
-AERE-NP/GENA.E.R.E. Harwell Reports                        2UK HAR3000000600507 
-AERE-NP/M- A.E.R.E. Harwell Reports                        2UK HAR3000000600508 
-AERE-NP/R- A.E.R.E. Harwell Reports                        2UK HAR3000000600509 
-AERE-PR/NP-A.E.R.E. Harwell Reports                        2UK HAR3000000600510 
-AERE-R-    A.E.R.E. Harwell Reports                        2UK HAR3000000600511 
-AERE-R/M-  A.E.R.E. Harwell Reports                        2UK HAR3000000600512 
-AERE-R/R-  A.E.R.E. Harwell Reports                        2UK HAR3000000600513 
-AERE-RP/R- A.E.R.E. Harwell Reports                        2UK HAR3000000600514 
-AERE-TRANS-A.E.R.E. Harwell translations                   2UK HAR3000000600515 
-AERE-X/PR- A.E.R.E. Harwell Reports                        2UK HAR3000000600516 
-NRDC-      A.E.R.E. Harwell Reports                        2UK HAR3000000600517 
-NRPB-      National Radiol. Prot. Board Reports            2UK NRP3000000600518 
-NRPB-M-    National Radiol. Prot. Board Reports            2UK NRP3000000600519 
-NRPB-R-    National Radiol. Prot. Board Reports            2UK NRP3000000600520 
-AHSB(S)R-  U.K. AEA Health and Safety Branch Risley Reports2UK RIY3000000600521 
-UKNDC-     Progress report from U.K. Nuclear Data Comm.    2UK UK 3000000600522 
-UKNDC-P-   Progress report from U.K.N.D.C.                 2UK UK 3000000600523 
-            Note: report appears as UKNDC(75)- .                  3000000600524 
-AEA-TRS-   AEA Technol.Winfrith, Thermal Reactor Serv.,rpt.2UK WIN3000000600525 
-AEEW-      A.E.E.W. Winfrith report series                 2UK WIN3000000600526 
-AEEW-M-    A.E.E.W. Winfrith Reports                       2UK WIN3000000600527 
-AEEW-R-    A.E.E.W. Winfrith Reports                       2UK WIN3000000600528 
-CERN-      CERN Europ. Org. for Nuclear Res. Reports       2ZZZCER3000000600529 
-CERN-PROC- CERN Proceedings (CERN-Proceedings-)            2ZZZCER3000000600530 
-CERN/DI/HP-CERN Health Physics Group Reports               2ZZZCER3000000600531 
-IRMM-      Inst. of Ref.Materials and Meas. Repts., Geel   2ZZZGEL3000000600532 
-IRMM-R-    Inst. of Ref.Materials and Meas. Repts., Geel   2ZZZGEL3000000600533 
-EUR-       Euratom Reports                                 2ZZZISP3000000600534 
-CCDN-      C.C.D.N. Saclay report series                   2ZZZNDC3000000600535 
-CCDN-CI-   C.C.D.N. Saclay Reports                         2ZZZNDC3000000600536 
-CCDN-NW-   C.C.D.N. Saclay Newsletters                     2ZZZNDC3000000600537 
-EANDC(CAN)-Canadian report to EANDC                        2ZZZNEA3000000600538X
-EANDC(E)-  Report from Euratom-countries + Euratom to EANDC2ZZZNEA3000000600539X
-EANDC(J)-  Japanese report to EANDC                        2ZZZNEA3000000600540X
-EANDC(OR)- Report from misc. OECD Countries to EANDC       2ZZZNEA3000000600541X
-EANDC(UK)- U.K. report to EANDC                            2ZZZNEA3000000600542X
-EANDC(US)- U.S. report to EANDC                            2ZZZNEA3000000600543X
-EANDC-     European-American Nucl. Data Committee Documents2ZZZNEA3000000600544X
-           =(usually accompanied by an additional code,           3000000600545X
-           =e.g. EANDC(CAN); continued 1974 as NEANDC-)           3000000600546X
-NEA-NSC-   NEA Nuclear Science Committee Reports           2ZZZNEA3000000600547 
-NEACRP-L-  NEA internal report NEANDC(E)-NEACRP-L          2ZZZNEA3000000600548 
-NEANDC(CAN)Canadian report to NEANDC                       2ZZZNEA3000000600549 
-NEANDC(E)- Report from CEC-Countries and CEC to NEANDC     2ZZZNEA3000000600550 
-NEANDC(J)- Japanese report to NEANDC                       2ZZZNEA3000000600551 
-NEANDC(OR)-Report from misc. OECD countries to NEANDC      2ZZZNEA3000000600552 
-            NEANDC(OR)-140 is published three times by Spain,     3000000600553 
-            Sweden, Switzerland with the same distribution code L.3000000600554 
-NEANDC(UK)-U.K. report to NEANDC                           2ZZZNEA3000000600555 
-NEANDC(US)-U.S. report to NEANDC                           2ZZZNEA3000000600556 
-NEANDC-    Nucl. En. Agency Nucl. Data Committee reports   2ZZZNEA3000000600557 
-           =(started 1974 as continuation of EANDC-)              3000000600558 
-IC-        Internat.Centre for Theoretical Physics, reports2ZZZTPT3000000600559 
-CNEA-      Comision Nacional de Energia Atomica report ser.3ARGCNE3000000600560 
-CNEA-CAB-  Centro Atomico Bariloche, internal report       3ARGCNE3000000600561 
-CNEA-CAB-ITCentro Atomico Bariloche, internal report       3ARGCNE3000000600562 
-LR-        Inst. Investigacion Aeronautica y Esp, Reports  3ARGIIA3000000600563 
-AAEC/      Australian AEC reports                          3AULAUA3000000600564 
-AAEC/AP/PR-Australian AEC Applied Phys.Div. Prog. Report   3AULAUA3000000600565 
-AAEC/E-    Australian AEC Reports                          3AULAUA3000000600566 
-AAEC/PD/PR-Australian AEC Physics Div. Progress Report     3AULAUA3000000600567 
-AAEC/PR-   Australian AEC Progress report                  3AULAUA3000000600568 
-AAEC/TM-   Australian AEC Technical Memo                   3AULAUA3000000600569 
-LIB/TRAN-  Australia Translation                           3AULAUL3000000600570 
-LIB/TRANS- Australia Translation                           3AULAUL3000000600571 
-ANU-       Australian National Univ., Canberra Reports     3AULCBR3000000600572 
-ANU-P-     Australian National Univ., Canberra Reports     3AULCBR3000000600573 
-AECD/      Atomic Energy Centre, Dhaka Reports             3BANRAM3000000600574 
-AECD/EP-   Atomic Energy Centre, Dhaka Reports             3BANRAM3000000600575 
-AECD/MISC- Atomic Energy Centre, Dhaka Progress Report     3BANRAM3000000600576 
-AECD/TP-   Atomic Energy Centre, Dhaka Reports             3BANRAM3000000600577 
-IEAV/NT-   Inst. de Estudos Avancados, Technical Note      3BZLCTA3000000600578 
-IEA-       Inst. de Energia Atomica, Sao Paulo, Reports    3BZLIEA3000000600579 
-IEA-INF-   Inst. de Energia Atomica, Sao Paulo, prog. rept.3BZLIEA3000000600580 
-IPEN-      Inst.de Pesquisas Energ.e Nucl.,Sao Paulo,Repts 3BZLIPE3000000600581 
-CCEN-      Comun.do Centro de Energia Nuclear,Recife,Repts.3BZLUFP3000000600582 
-            Univ. Federal de Pernambuco                           3000000600583 
-IFUSP/P-   Univ. of Sao Paulo, Inst.of Phys. Reports       3BZLUSP3000000600584 
-INER-      Inst. of Nucl.Energy Research Reports           3CHFSHI3000000600585 
-IAN-       Inst. de Asuntos Nucleares, Bogota, reports     3CLMIAN3000000600586 
-IAN-E-     Inst. de Asuntos Nucleares, Bogota Reports      3CLMIAN3000000600587 
-A-AEP-     Inst. of Atomic Energy, Beijing, Annual Report  3CPRAEP3000000600588 
-A-BNT-     Beijing Nat. Tandem Accel. Lab., Prog. Report   3CPRAEP3000000600589 
-            (one report every 2 years)                            3000000600590 
-HSJ-       Inst. of Atomic Energy, Beijing Reports         3CPRAEP3000000600591 
-CNIC-      China Nucl. Information Center Reports          3CPRCNI3000000600592 
-NST-       Inst.of Nucl.Sci.and Technol.,Sichuan U. Reports3CPRSIU3000000600593 
-LNS-       Inst. Rudjer Boskovic Reports                   3CRORBZ3000000600594 
-IPPCZ-     Czechoslovak A.S. Plasma Physics Reports, Prague3CZRCZA3000000600595 
-UJF-       Ustav Jad. Fyziky (Inst.Nucl.Phys.) Reports     3CZRUJF3000000600596 
-            Note: The series UJV- and UJF- share the same         3000000600597 
-             consecutive numbering such that the existence of     3000000600598 
-             UJF-2899 excludes the existence of UJV-2899          3000000600599 
-UJV-       Ustav Jad. Vyzkumu (Inst Nucl res), Reports     3CZRUJV3000000600600 
-ZFK-DOS-   Zentralinst. f. Kernforschung Rossendorf Reports3DDRROS3000000600601X
-            Last issue ZFK-DOS-5 7/66                             3000000600602X
-ZFK-PHA-   Zentralinst. f. Kernforschung Rossendorf Reports3DDRROS3000000600603X
-            Last issue ZFK-PHA-26 1/67                            3000000600604X
-ZFK-RCH-   Zentralinst. f. Kernforschung Rossendorf Reports3DDRROS3000000600605X
-            Last issue ZFK-RCH-3 D/65                             3000000600606X
-ZFK-RN-    Zentralinst. f. Kernforschung Rossendorf Reports3DDRROS3000000600607X
-            Last issue ZFK-RN-33 2/66                             3000000600608X
-ZFK-TPH-   Zentralinst. f. Kernforschung Rossendorf Reports3DDRROS3000000600609X
-            Last issue ZFK-TPH-23 3/66                            3000000600610X
-ZFK-WF-    Zentralinst. f. Kernforschung Rossendorf Reports3DDRROS3000000600611X
-            Last issue ZFK-WF-29 5/66                             3000000600612X
-TU-        Technische Univ. Dresden, Reports               3DDRTUD3000000600613X
-AREAEE-    Atomic Energy Establishment Reports             3EGYCAI3000000600614 
-            Series started with nr.117 in 1971                    3000000600615 
-UARAEE-    Atomic Energy Establishment Reports             3EGYCAI3000000600616X
-            Last issue nr.116 (1971). Continued as AREAEE-        3000000600617X
-ATOMKI-AR- Atomki Annual Reports                           3HUNDEB3000000600618 
-           =(Code is invented for reference, report appears as    3000000600619 
-           ='Atomki Annual report 1989')                          3000000600620 
-KFKI-      Central Research Inst. of Physics Reports       3HUNKFI3000000600621 
-            Hungarian Academy of Sciences                         3000000600622 
-            ===Note: Subject codes appended to the report number  3000000600623 
-               (e.g., KFKI-1989-02/G) may be omitted.             3000000600624 
-               (KFKI-1989-02 is sufficient for unique reference). 3000000600625 
-KFKI-YB-   KFKI Yearbook (progress-report)                 3HUNKFI3000000600626 
-RRC-       Reactor Research Center Kalpakkam Reports       3INDKAL3000000600627 
-AEET-      Atomic Energy Est. Trombay Reports              3INDTRM3000000600628X
-            Last issue is AEET-275 (1967).                        3000000600629X
-            Continued as BARC-                                    3000000600630X
-AEET-ANAL- Trombay Reports                                 3INDTRM3000000600631X
-AEET-NP-   Trombay Reports                                 3INDTRM3000000600632X
-BARC-      B.A.R.C., Trombay report series                 3INDTRM3000000600633 
-            Starts with BARC-276 (1967)                           3000000600634 
-           =(formerly AEET- series)                               3000000600635 
-BARC/I-    B.A.R.C., Trombay Reports                       3INDTRM3000000600636 
-NRITB-     Nuclear Res. Inst., Tuwaitha, Baghdad, reports  3IRQNRI3000000600637 
-NRITB-PH-  Nuclear Res. Inst., Tuwaitha, Baghdad, Reports  3IRQNRI3000000600638 
-TNSD-P-    Technion Nuclear Science Dept. Reports          3ISLHFA3000000600639 
-TNSD-R-    Technion Nuclear Science Dept. Reports          3ISLHFA3000000600640 
-IA-        Israel AEC Reports                              3ISLISL3000000600641 
-NRCN-      Beersheva Nuclear Res. Center Negev Reports     3ISLNEG3000000600642 
-LS-        Soreq Nuclear Research Center Reports           3ISLSOR3000000600643 
-KAERI/GP-  Korean Atomic Energy Research Inst. Reports     3KORKAE3000000600644 
-AIF-                                                       3MEXIFM3000000600645O
-            See journal-code AIF                                  3000000600646O
-MOH-       Univ. Mohammed V, Rabat, Annual Report          3MORMOH3000000600647 
-           =(the code MOH- was created for input and does         3000000600648 
-           =not show up on the cover)                             3000000600649 
-INS-       Inst.of Nuclear Sciences, Progress Reports      3NZLNZH3000000600650 
-AEC(NZ)-   New Zealand A.E.C. Reports                      3NZLNZL3000000600651 
-            The original code is 'AEC-' and (NZ) is added for     3000000600652 
-             clarification                                        3000000600653 
-NPD-                                                       3PAKNIL3000000600654O
-            === see  PINST-NPD-                                   3000000600655O
-PINST-     Pakistan Inst. Nucl. Sci. Tech. Reports         3PAKNIL3000000600656 
-           = -  Note: original code is 'PINSTECH-'.               3000000600657 
-PINST-NPD- Pakistan Inst.Nuc.Sci.Tech.,Nucl.Phys.Div.Repts 3PAKNIL3000000600658 
-           = -  Note: original code is 'NPD-' only.               3000000600659 
-PINST-RT-  Pakistan Inst. Nucl. Sci. Tech. Reports         3PAKNIL3000000600660 
-           = -  Note: original Code is 'PINSTECH-RT-'.            3000000600661 
-IBJ-                                                       3POLIBJ3000000600662O
-            Had sometimes been used for INR-                      3000000600663O
-INR-       Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts 3POLIBJ3000000600664 
-            Note: On the covers of this series one sometimes      3000000600665 
-             finds INR-..., sometimes IBJ-..., but often a        3000000600666 
-             report number without a report code.                 3000000600667 
-            Some were indexed in NSA as PAN-(Pol.Ak.Nauk).        3000000600668 
-            Characters behind report number should not be omitted.3000000600669 
-             Example: INR-1461/I/PL/A  and  INR-1461/I/PL/B are tw3000000600670 
-             different documents with no relation to each other.  3000000600671 
-INR-FIA-   Inst. Badan Jadr., Swierk+Warsaw Reports        3POLIBJ3000000600672 
-IFJ-                                                       3POLIFJ3000000600673O
-            Use INP-                                              3000000600674O
-INP-       Inst. Fiz. Jadr. (Nucl.Phys.), Krakow Reports   3POLIFJ3000000600675 
-            Note: On the covers of this series one finds          3000000600676 
-             sometimes INP-..., sometimes IFJ-..., but            3000000600677 
-             often a report number without a report code.         3000000600678 
-             Some were indexed in NSA as PAN-(Pol.Ak.Nauk).       3000000600679 
-             Omit characters behind report number                 3000000600680 
-             Example: INP-543 instead of INP-543/PL               3000000600681 
-CLOR-      Biuro Pelnom. Rzadu do Spraw Wykorzyst. En. Jad.3POLPOL3000000600682 
-PAN-       Polish Academy of Sciences Reports              3POLPOL3000000600683O
-            Was used by NSA for INR- and INP-                     3000000600684O
-IFA-       Inst. Fis. Atomica, Romanian Acad. Sci. reports 3RUMBUC3000000600685 
-IFA-CRD-   Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600686 
-IFA-DNBR-  Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600687 
-IFA-DNR-   Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600688 
-            Note: Sometimes the code IFA is not shown on the cover3000000600689 
-IFA-EP-    Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600690 
-            Note: Sometimes the code IFA is not shown on the cover3000000600691 
-IFA-FN-    Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600692 
-IFA-FR-    Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600693 
-IFA-NF-    Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600694 
-IFA-NR-    Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600695 
-            Note: Codes of the form IFA-NR-33-1970 must be given  3000000600696 
-               in Exfor as IFA-NR-33,(1970),...                   3000000600697 
-IFA-R-     Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600698 
-IFA-RN-    Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600699 
-IFIN-NR-   Inst. de Fiz. si Ing.Nucleara,Bucharest Reports 3RUMBUC3000000600700 
-IRNE-      Inst. Nuclear Power Reactors Reports            3RUMPIT3000000600701 
-PEL-       Atomic Energy Board, Pelindaba Reports          3SAFPEL3000000600702 
-CSIR-FIS-  Council f.Scient.and Indust.Res.,Pretoria,Repts.3SAFSIR3000000600703 
-SUNI-      Southern Universities Nuclear Inst. Reports     3SAFSUN3000000600704 
-IJS-       Inst. Jozef Stefan, Ljubljana, reports          3SLNIJS3000000600705 
-IJS-P-     Inst. Jozef Stefan, Ljubljana Reports           3SLNIJS3000000600706 
-            Starting with IJS-P-245 6/69                          3000000600707 
-IJS-R-     Inst. Jozef Stefan, Ljubljana Reports           3SLNIJS3000000600708 
-            Starting with IJS-R-560 6/69                          3000000600709 
-NIJS-      Inst. Josef Stefan, Ljubljana, report series    3SLNIJS3000000600710 
-NIJS-P-    Inst. Josef Stefan, Ljubljana Reports           3SLNIJS3000000600711 
-            Continued June 1969 as IJS-P-                         3000000600712 
-NIJS-R-    Inst. Josef Stefan, Ljubljana Reports           3SLNIJS3000000600713 
-            Continued June 1969 as IJS-R-                         3000000600714 
-THAI-AEC-  Atomic Energy for Peace, Bangkok Reports        3TAIBAN3000000600715 
-IBK-       Inst. Boris Kidrich Reports                     3YUGBKB3000000600716 
-IAEA-      I.A.E.A. technical report, Vienna               3ZZZIAE3000000600717 
-           =(starting with report no. 219, the full title         3000000600718 
-           =of this series is now IAEA-TECDOC-)                   3000000600719 
-IAEA-NDS-  Nuclear Data Services (Doc. series of NDS)      3ZZZIAE3000000600720 
-IAEA-R-    I.A.E.A. Research Contract Report               3ZZZIAE3000000600721 
-IAEA-SM-   I.A.E.A. Symposium Collection -extended synopses3ZZZIAE3000000600722 
-IAEA-TECDOCI.A.E.A. Technical Documents                    3ZZZIAE3000000600723 
-            previously coded as IAEA-                             3000000600724 
-IAEA/      I.A.E.A., Vienna, report series                 3ZZZIAE3000000600725 
-IAEA/RL-   I.A.E.A. Div. of Res. + Labs Reports            3ZZZIAE3000000600726 
-IAEA/TA-   I.A.E.A. Technical Assistance Reports           3ZZZIAE3000000600727 
-INDC(ARG)- Argentine report to the I.N.D.C.                3ZZZIAE3000000600728 
-INDC(AUL)- Australian report to the I.N.D.C.               3ZZZIAE3000000600729 
-INDC(AUS)- Austrian report to the I.N.D.C.                 3ZZZIAE3000000600730 
-INDC(BAN)- Bangladesh report to the I.N.D.C.               3ZZZIAE3000000600731 
-INDC(BLG)- Belgian report to the I.N.D.C.                  3ZZZIAE3000000600732 
-INDC(BLR)- Belorus report to the I.N.D.C.                  3ZZZIAE3000000600733 
-INDC(BOL)- Bolivian report to the I.N.D.C.                 3ZZZIAE3000000600734 
-INDC(BUL)- Bulgarian report to the I.N.D.C.                3ZZZIAE3000000600735 
-INDC(BZL)- Brazilian report to the I.N.D.C.                3ZZZIAE3000000600736 
-INDC(CAN)- Canadian report to the I.N.D.C.                 3ZZZIAE3000000600737 
-INDC(CCP)- USSR report to the I.N.D.C.                     3ZZZIAE3000000600738 
-INDC(CHL)- Chile report to the I.N.D.C.                    3ZZZIAE3000000600739 
-INDC(CPR)- Chinese report to the I.N.D.C.                  3ZZZIAE3000000600740 
-INDC(CSR)- CSSR report to the I.N.D.C.                     3ZZZIAE3000000600741X
-INDC(CUB)- Cuban report to the I.N.D.C.                    3ZZZIAE3000000600742 
-INDC(CZR)- Czech report to the I.N.D.C.                    3ZZZIAE3000000600743 
-INDC(EGY)- Egyptian report to the I.N.D.C.                 3ZZZIAE3000000600744 
-INDC(EUR)- Comm. of the European Commun. report to I.N.D.C.3ZZZIAE3000000600745 
-            (Formerly Euratom)                                    3000000600746 
-INDC(FIN)- Finnish report to the I.N.D.C.                  3ZZZIAE3000000600747 
-INDC(FR)-  French report to the I.N.D.C.                   3ZZZIAE3000000600748 
-INDC(GDR)- Germ.Dem.Rep.report to the I.N.D.C.             3ZZZIAE3000000600749X
-INDC(GER)- Fed.Rep.Germ.report to the I.N.D.C.             3ZZZIAE3000000600750 
-            Distribution code (L or LN) is mandatory for          3000000600751 
-            INCD(GER)-35 and 36.                                  3000000600752 
-INDC(HUN)- Hungarian report to the I.N.D.C.                3ZZZIAE3000000600753 
-INDC(IND)- Indian report to the I.N.D.C.                   3ZZZIAE3000000600754 
-INDC(IRN)- Iran report to the I.N.D.C.                     3ZZZIAE3000000600755 
-INDC(IRQ)- Iraq report to the I.N.D.C.                     3ZZZIAE3000000600756 
-INDC(ISL)- Israel report to the I.N.D.C.                   3ZZZIAE3000000600757 
-INDC(ITY)- Italian report to the I.N.D.C.                  3ZZZIAE3000000600758 
-INDC(JAP)- Japanese report to the I.N.D.C.                 3ZZZIAE3000000600759X
-INDC(JPN)- Japanese report to the I.N.D.C.                 3ZZZIAE3000000600760 
-INDC(KOR)- Korean report to the I.N.D.C.                   3ZZZIAE3000000600761 
-INDC(MOR)- Morocco report to the I.N.D.C.                  3ZZZIAE3000000600762 
-INDC(NDS)- IAEA Nucl.Data Section report to the I.N.D.C.   3ZZZIAE3000000600763 
-INDC(NDU)- IAEA Nucl.Data Section report to the I.N.D.C.   3ZZZIAE3000000600764X
-INDC(NED)- Netherlands report to the I.N.D.C.              3ZZZIAE3000000600765 
-INDC(NOR)- Norwegian report to the I.N.D.C.                3ZZZIAE3000000600766 
-INDC(PAK)- Pakistan report to the I.N.D.C.                 3ZZZIAE3000000600767 
-INDC(POL)- Polish report to the I.N.D.C.                   3ZZZIAE3000000600768 
-INDC(ROM)- Romanian report to the I.N.D.C.                 3ZZZIAE3000000600769 
-            Before 1981, the code INDC(RUM) was used.             3000000600770 
-INDC(RUM)- Romanian report to the I.N.D.C.                 3ZZZIAE3000000600771X
-INDC(SAF)- South-African report to the I.N.D.C.            3ZZZIAE3000000600772 
-INDC(SEC)- I.N.D.C. Secretariat Report Series              3ZZZIAE3000000600773 
-INDC(SLK)- Slovakian report to the I.N.D.C.                3ZZZIAE3000000600774 
-INDC(SLN)- Slovenian report to the I.N.D.C.                3ZZZIAE3000000600775 
-INDC(SPN)- Spanish report to the I.N.D.C.                  3ZZZIAE3000000600776 
-INDC(SUD)- Sudanese report to the I.N.D.C.                 3ZZZIAE3000000600777 
-INDC(SWD)- Swedish report to the I.N.D.C.                  3ZZZIAE3000000600778 
-INDC(SWT)- Swiss report to the I.N.D.C.                    3ZZZIAE3000000600779 
-INDC(TAI)- Thailand report to the I.N.D.C.                 3ZZZIAE3000000600780 
-INDC(TUR)- Turkish report to the I.N.D.C.                  3ZZZIAE3000000600781 
-            Note: Some copies of INDC(TUR)-3 are erroneously      3000000600782 
-             labelled as INDC(TUK)-3                              3000000600783 
-INDC(UK)-  U.K. report to the I.N.D.C.                     3ZZZIAE3000000600784 
-INDC(UKR)- Ukrainian report to the I.N.D.C.                3ZZZIAE3000000600785 
-INDC(US)-                                                  3ZZZIAE3000000600786O
-            Use INDC(USA) although some issues have INDC(US)- on  3000000600787O
-             their covers                                         3000000600788O
-INDC(USA)- U.S. report to the I.N.D.C.                     3ZZZIAE3000000600789 
-INDC(VN)-  Vietnam report to the I.N.D.C.                  3ZZZIAE3000000600790 
-INDC(YUG)- Yugoslavian report to the I.N.D.C.              3ZZZIAE3000000600791 
-INDC-      International Nucl. Data Committee report series3ZZZIAE3000000600792 
-           =(usually accompanied by an additional code,           3000000600793 
-           =e.g.,INDC(NDS))                                       3000000600794 
-            Nr.1(1971)-15(1973) and Nr.156(1967)-274(1969)        3000000600795 
-            Then continued in a number of subseries               3000000600796 
-            Note: /G /L /U etc. are distribution-codes which      3000000600797 
-             should be ignored.                                   3000000600798 
-            'E' following the report number distinguishes an      3000000600799 
-             English translation from its original.               3000000600800 
-INDSWG-    Int. Nuclear Data Sci. Working Group Reports    3ZZZIAE3000000600801X
-            Nr.1(1962)-155(1967),continued as INDC-.              3000000600802X
-            'E' following the report no. distinguishes an         3000000600803X
-            English translation from its original.                3000000600804X
-INIS-MF-   INIS microfiche                                 3ZZZIAE3000000600805 
-            Identification assigned by IAEA to documents received 3000000600806 
-             without report code.                                 3000000600807 
-INIS-SU-   INIS Reports                                    3ZZZIAE3000000600808 
-            Identification assigned by Atom-Inform to documents   3000000600809 
-             received without report code.                        3000000600810 
-STI/DOC/10-I.A.E.A. Technical Document Series              3ZZZIAE3000000600811 
-            ===Note: See also  IAEA-                              3000000600812 
-STI/PUB-   I.A.E.A. Publications                           3ZZZIAE3000000600813 
-STI/PUB/15-I.A.E.A. Review Series (1959-1962)              3ZZZIAE3000000600814 
-STI/PUB/21-I.A.E.A. Bibliographical Series                 3ZZZIAE3000000600815 
-EFI-       Erevanskij Fisicheskij Institut Reports         4ARMARM3000000600816 
-IJE-       Inst. of Nucl. Energetics, Bjelorus. Acad. Sci. 4BLRIJE3000000600817 
-             report and preprints                                 3000000600818 
-             IJE-nnn-yy  (nnn=serial no., yy=year)                3000000600819 
-TMO-       Inst.Teplo-Massoobmena Bjeloruss.Acad.Sci.Repts 4BLRTMO3000000600820 
-             ===Note: This is an invented code. The reports have  3000000600821 
-                only a 'preprint'-number without a code.          3000000600822 
-             English translation of TMO-2 through TMO-7 is        3000000600823 
-                available as report INDC(CCP)-142.                3000000600824 
-IAN/E-     Izvestia Estonian Akad.Nauk, Reports            4ESTEST3000000600825 
-IYFK-P-    Inst. Nucl.Phys., Alma-Ata, preprints           4KASKAZ3000000600826 
-LAFI-      Inst. Fiziki Latvijskoi Akad. Sci., Riga Reports4LATIFL3000000600827 
-ICD-       Bull. Centr po Jadernym Dannym, Obninsk         4RUSCJD3000000600828X
-           =no.1 (1964) - no.6 (1969)                             3000000600829X
-           =continued as YK-7                                     3000000600830X
-YK-        Yadernye Konstanty                              4RUSCJD3000000600831X
-            Full title = Vopr.At.Nauki i Tekhn.,Ser.Jad.Kon       3000000600832X
-           =no.7 (1971) - no.27 (1977)                            3000000600833X
-           =continues ICD-6                                       3000000600834X
-           =continued as journal YK                               3000000600835X
-EPA-       Exp.Physics Inst. Arzamas Reports               4RUSEPA3000000600836 
-FEI-       Fiz.-Energ Institut, Obninsk Reports            4RUSFEI3000000600837 
-YFI-       Yaderno-Fizicheskie Issledovaniya v SSSR        4RUSFEI3000000600838C
-            Partly translated to English in INDC(CCP) reports as  3000000600839 
-            "Nuclear Physics Research in the USSR"                3000000600840 
-FTI-       Fiz-Tech. Inst. Ioffe, Leningrad Reports        4RUSFTI3000000600841 
-ITE-       Inst. Teoret. i Experiment. Fiziki, Moscow Repts4RUSITE3000000600842O
-            Use ITEF-                                             3000000600843O
-ITEF-      Inst. Teoret. i Experiment. Fiziki, Moscow Repts4RUSITE3000000600844 
-JIA-       Inst. Nucl. Res., Russian Acad. Sci. Preprint   4RUSJIA3000000600845 
-IAE-       Inst. Atomnoy Energii, Kurchatov Reports        4RUSKUR3000000600846 
-KUR-                                                       4RUSKUR3000000600847 
-            Had been used for  IAE-                               3000000600848 
-FIAN-      Fiz. Inst. Akad. Nauk Lebedev, Moscow Reports   4RUSLEB3000000600849 
-BCDL-      Bull. Centro Dannykh LIJAF, Leningrad-Gatchina  4RUSLIN3000000600850 
-            (Bulletin of the Data Centre of LIJAF)                3000000600851 
-LIJAF-     Leningrad Inst. Nucl. Phys. Reports             4RUSLIN3000000600852 
-MIF-       Moscow Inst. of Engineering Physics Reports     4RUSMIF3000000600853 
-            MIF-nnn-yy (nnn=serial no.,yy=year)                   3000000600854 
-CDFE-      Fotoyadernye Dannye (Photonuclear Data)         4RUSMOS3000000600855 
-            To be used for annual series starting with no.1,1977  3000000600856 
-            (Compare CDFE-IND- and book codes CDFE/..)            3000000600857 
-CDFE-IND-  Fotoyadernye Dannye (Photonuclear Data) Index   4RUSMOS3000000600858 
-            Compare CDFE- and book codes                          3000000600859 
-CDFE-IND2- Photonuclear Data Index (Photofission)          4RUSMOS3000000600860 
-            Fotojadernye Dannye. Compare CDFE-and book codes      3000000600861 
-MSU-INP-   Moscow State Univ.Inst.of Nucl.Phys.Reports     4RUSMOS3000000600862 
-NIIAR-     Inst. Atomnykh Reaktorov, Melekess Reports      4RUSNIR3000000600863 
-NIIAR-P1-  Inst. Atomnykh Reaktorov, Melekess Reports      4RUSNIR3000000600864 
-RI-        Khlopin Radiev. Inst., Leningrad Reports        4RUSRI 3000000600865 
-IFVE-      Inst. Fiz. Vysokikh Energij, Serpukhov Reports  4RUSRUS3000000600866 
-ISTC-      Internat.Science and Technology Center, Reports 4RUSRUS3000000600867 
-SIB-       Inst. Jad. Fiz., Novosibirsk Reports            4RUSSIB3000000600868 
-           =(This is an invented code. The reports                3000000600869 
-           =have only a 'preprint'-number without a code)         3000000600870 
-IF-        Akad. Nauk Ukrainskaja, Kiev                    4UKRIFU3000000600871 
-IJAI-      Inst. Yad. Issledovanii Communications,Kiev     4UKRIJI3000000600872 
-IJAI-P-    Inst. Yad. Issledovanii, Kiev Reports           4UKRIJI3000000600873 
-KIYAI-     Inst. Yad. Issledovanii, Kiev Reports           4UKRIJI3000000600874 
-KHFTI-     Ukrainsk. Fiz. Tekhn. Inst. Reports             4UKRUFT3000000600875 
-            Until 1968 no report code was printed on the cover    3000000600876 
-             but only a number.                                   3000000600877 
-            Starting 1969 the report codes have the form          3000000600878 
-             KHFTI-69-1 which is coded KHFTI-69/1                 3000000600879 
-UFT-       Ukrainskij Fiz. Tech. Inst. Reports             4UKRUFT3000000600880O
-            Had been used for old KHFTI- report which had no      3000000600881O
-             report code on the cover                             3000000600882O
-UZB-P-     Inst.of Nucl.Phys., Tashkent, Uzbekistan, Repts 4UZ UZB3000000600883 
-DUB-       Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600884O
-            Use JINR-                                             3000000600885O
-DUB-E-     Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600886O
-            Use JINR-E-                                           3000000600887O
-DUB-P-     Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600888O
-            Use JINR-P-                                           3000000600889O
-ISINN-     Int.Sem.on Interactions of Neutrons with Nuclei 4ZZZDUB3000000600890 
-            Proceedings of annual meeting held in Dubna           3000000600891 
-JINR-      Joint Inst. for Nucl. Res., Dubna, reports      4ZZZDUB3000000600892 
-            Note: the 4-digits report number is unique, the       3000000600893 
-             symbols between JINR and number can be omitted.      3000000600894 
-             They mean P=Russian, E=English, D=Engl+Russian.      3000000600895 
-             The digit following this character denotes the       3000000600896 
-             subject category, e.g.                               3000000600897 
-               3 = low-energy experimental physics                3000000600898 
-               4 = low-energy theoretical physics                 3000000600899 
-              15 = exp'tl phys.of nucl.reactions at low en.       3000000600900 
-JINR-D-    Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600901 
-JINR-D15-  Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600902 
-JINR-D3-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600903 
-JINR-D6-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600904 
-JINR-D7-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600905 
-JINR-E-    Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600906 
-JINR-E1-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600907 
-JINR-E15-  Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600908 
-JINR-E3-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600909 
-JINR-E4-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600910 
-JINR-E7-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600911 
-JINR-P-    Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600912 
-JINR-P1-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600913 
-JINR-P10-  Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600914 
-JINR-P11-  Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600915 
-JINR-P12-  Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600916 
-JINR-P13-  Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600917 
-JINR-P14-  Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600918 
-JINR-P15-  Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600919 
-JINR-P2-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600920 
-JINR-P3-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600921 
-JINR-P4-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600922 
-JINR-P6-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600923 
-JINR-P7-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600924 
-P3-        Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600925O
-            *** Use JINR-P3- or JINR-.                            3000000600926O
-            Similarly, use JINR-Codes for P15-, E3-,  etc.        3000000600927O
+IPNO-DRE-  Inst. de Phys. Nucl. Orsay Reports (Nucl.Phys.) 2FR PAR3000000600341I
+IPNO-PHN-  Inst. de Phys. Nucl. Orsay Reports (Nucl.Phys.) 2FR PAR3000000600342 
+IPNO-RC-   Inst. de Phys. Nucl. Orsay Reports (Radiochem.) 2FR PAR3000000600343 
+IPNO-TH-   Inst. de Physique Nucleaire Orsay thesis        2FR PAR3000000600344 
+LPC-       Lab. de Physique Corpusculaire Reports          2FR PCF3000000600345 
+LPC-T-     Lab. de Physique Corpusculaire thesis           2FR PCF3000000600346 
+CEA-SMNF-  Centre d'Etudes Nucleaires, Saclay Reports      2FR SAC3000000600347 
+HMI-       Hahn-Meitner Inst., Berlin report series        2GERBER3000000600348 
+HMI-B-     Hahn-Meitner Inst., Berlin Reports              2GERBER3000000600349 
+IKF-       Inst.fuer Kernphysik, Frankfurt Reports         2GERFRK3000000600350 
+BMWF-FBK-  Bundesmin.f.Wiss.Forschg. Reports               2GERGER3000000600351 
+ZAED-M-    Zentralstelle fuer Atomkernenergie-Dokum.       2GERGER3000000600352 
+GSI-       Gesellschaft fuer Schwerionenforschung Reports  2GERGSI3000000600353 
+GSI-J-     Gesellschaft fuer Schwerionenforschung Reports  2GERGSI3000000600354 
+HH-        Hamburg Univ.,Inst.f.Experimentalphysik Reports 2GERHAM3000000600355 
+FIZ-KA-    Fachinformationszentrum Karlsruhe Reports       2GERIKA3000000600356 
+JUEL-      Kernforschungsanlage, Juelich, report series    2GERJUL3000000600357 
+JUEL-SPEZ- Kernforschungsanlage Juelich, Progress Report   2GERJUL3000000600358 
+ARB.BER-   Kernforschungszentrum Karlsruhe Reports         2GERKFK3000000600359 
+FZKA-      Forschungszentrum Karlsruhe Reports             2GERKFK3000000600360 
+KFK-       Kernforschungszentrum Karlsruhe Reports         2GERKFK3000000600361 
+KFK-EXT-   KFK Reports (Externer Bericht)                  2GERKFK3000000600362 
+KFK-TR-    Kernforschungszentrum Karlsruhe translation ser.2GERKFK3000000600363 
+PSB-BER-   Kernforschungszentrum Karlsruhe preprint        2GERKFK3000000600364 
+GKSS-      Ges.Kernen.-Verwertung, Schiffbau and Schiffahrt2GERKIG3000000600365 
+            Ges. fuer Kernenergie-Verwertung in Schiffbau und     3000000600366 
+             Schiffahrt Reports                                   3000000600367 
+MAINZ-     Inst. Nuclear Chem. Mainz Univ. Annual Reports  2GERMNZ3000000600368 
+FRM-       Forschungs Reactor Muenchen Reports             2GERMUN3000000600369 
+PTUM-E-    Techn. Univ. Muenchen Reports                   2GERMUN3000000600370 
+BLM-JB-    Beschleunigerlab. Univ. Muenchen annual report  2GERMUU3000000600371 
+            und der Techn. Univ. Muenchen                         3000000600372 
+PTB-       P.T.B., Braunschweig, reports                   2GERPTB3000000600373 
+PTB-FMRB-  P.T.B., Braunschweig Reports                    2GERPTB3000000600374 
+            Phys.Techn.Bundesanst.,Forschungs- u.Messreaktor      3000000600375 
+PTB-N-     Phys.Techn.Bundesanst., Neutronenphysik Reports 2GERPTB3000000600376 
+IKDA-      Inst. f. Kernphysik,Darmstadt Reports           2GERTHD3000000600377 
+IKE-       Stuttgart u. Inst. f. Kernenergetik Reports     2GERTHS3000000600378 
+ZFK-       Zentralinst. f. Kernforschung Rossendorf Reports2GERZFK3000000600379 
+            Starting with number ZFK-121 7/66 as continuation     3000000600380 
+             of 6 ZFK- subseries as follows.                      3000000600381 
+CEC-       Centro di Calcolo, CNEN, Bologna Reports        2ITYBOL3000000600382X
+            ===Note: report number includes the year in the form  3000000600383X
+               CEC-(71)9                                          3000000600384X
+           =(now: CEC(year)-)                                     3000000600385X
+RT/TIB-    ENEA Dipart.Technol.Interessettor.di Base Repts 2ITYBOL3000000600386X
+CISE-      Centre Inform. Studi Esp. Reports               2ITYCIS3000000600387 
+INFN/BE-   INFN Reports / Low Energy Physics Series        2ITYGVA3000000600388 
+            (Fisica di Bassa Energia)                             3000000600389 
+CNEN-RT/FI-Com.Naz. per l'Energia Nucleare Reports         2ITYITY3000000600390X
+ENEA/RT/IN-E.N.E.A., Area Innovazione Reports              2ITYITY3000000600391 
+            ===Note: complete code is ENEA/RT/INN-                3000000600392 
+ENEA/RT/NU-E.N.E.A., Area Nucleare Reports                 2ITYITY3000000600393 
+            ==Note: complete code is ENEA/RT/NUCL-                3000000600394 
+INFN/TC-   INFN Reports / Various Techniques Series        2ITYITY3000000600395 
+            (Tecniche varie)                                      3000000600396 
+RT/FI-     Comitate Nazionale per l'En. Nuc. Fiz. Reports  2ITYITY3000000600397X
+RT/FIMA-   Comitate Nazionale per l'En.Nuc.Fiz.Mat.Repts.  2ITYITY3000000600398X
+TIB/FICS-  ENEA Dpmt. TIB / FICS Reports                   2ITYITY3000000600399 
+            ENEA Dipmt. Tecnologie Intersettorali di Base /       3000000600400 
+            Div. Fisica e Calcolo Scientifico Reports             3000000600401 
+            Code on cover: e.g. TIB/FICS (83) 4                   3000000600402 
+A-LNS-     INFN Southern National Lab.(LNS), activity rept.2ITYLNS3000000600403 
+A-PAD-     Padua Univ. and Lab. Naz. Legnaro annual report 2ITYPAD3000000600404 
+A-JCL-     RIKEN Accelerator Progress Report               2JPNIPC3000000600405 
+            Inst.of Phys.and Chem.Res., Wako-shi,Saitama          3000000600406 
+           =vol.1 (1967) -                                        3000000600407 
+RIKEN-NC-NPRIKEN Nishina Center: Nuclear Physics preprint  2JPNIPC3000000600408 
+HIMAC-     Nat.Inst.of Radiological Sciences, HIMAC Reports2JPNIRS3000000600409 
+JAEA-C-    JAEA Conference proceedings                     2JPNJAE3000000600410 
+            Complete code is JAEA-Conf-                           3000000600411 
+JAEA-R-    JAEA Research Reports                           2JPNJAE3000000600412 
+            Complete code is JAEA-Research-                       3000000600413 
+JAERI-     JAERI Reports                                   2JPNJAE3000000600414X
+            Extinct. Last issue: JAERI-1348                       3000000600415X
+JAERI-C-   JAERI Conference proceedings                    2JPNJAE3000000600416X
+            Complete code is JAERI-Conf-                          3000000600417X
+            Extinct. Last issue: JAERI-Conf-2005-12               3000000600418X
+JAERI-D-   JAERI Data collection / Computer code reports   2JPNJAE3000000600419X
+            Complete code is JAERI-Data/Code                      3000000600420X
+            Extinct. Last issue: JAERI-Data/Code-2005-10          3000000600421X
+JAERI-M-   JAERI-M Reports                                 2JPNJAE3000000600422X
+            Extinct in 1994, continued as -C, -D, -R              3000000600423X
+            Last issue: JAERI-M-94-082                            3000000600424X
+JAERI-MEMO-JAERI-Memo Reports                              2JPNJAE3000000600425X
+            In 1972 split into JAERI memo (unpublished) and       3000000600426X
+            JAERI-M (published)                                   3000000600427X
+            Extinct. Last issue: JAERI-MEMO-14-006                3000000600428X
+JAERI-R-   JAERI Research Reports                          2JPNJAE3000000600429X
+            Complete code is JAERI-Research                       3000000600430X
+            Extinct. Last issue: JAERI-Research-2005-30           3000000600431X
+KURRI-     Kyoto Univ.,Res.Reactor Inst., Reports          2JPNKTO3000000600432 
+KURRI-AR-  Kyoto Univ.,Res.Reactor Inst., Annual Report    2JPNKTO3000000600433 
+KURRI-TR-  Kyoto-Univ.,Res.Reactor Inst., Tech. Report     2JPNKTO3000000600434 
+            In Japanese with English abstracts                    3000000600435 
+A-RCNP-    Res. Centre for Nucl. Phys., Osaka, annual rept.2JPNOSA3000000600436 
+OKTAV-A-   Osaka Univ., OKTAVIAN Reports                   2JPNOSA3000000600437 
+            Original papers and data tables                       3000000600438 
+OKTAV-C-   Osaka Univ., OKTAVIAN Reports                   2JPNOSA3000000600439 
+            Files of publications by other organizations          3000000600440 
+NETU-      Tohoku Univ., Dept.of Nucl.Engineering Reports  2JPNTOH3000000600441X
+A-INS-     Univ.Tokyo,Inst.f.Nucl.Study, Annual Report     2JPNTOK3000000600442X
+INS-J-     Univ.Tokyo, Inst.for Nucl.Study, Reports        2JPNTOK3000000600443X
+            Extinct March 1997 due to close of inst.              3000000600444X
+            Last issue: INS-J-186                                 3000000600445X
+UTTAC-     Tandem Accel. Complex Univ. Tsukuba Ann.Reports 2JPNTSU3000000600446 
+ECN-       Energy Research Foundation,Petten Reports       2NEDRCN3000000600447 
+ECN-C-     Energy Research Foundation,Petten Reports       2NEDRCN3000000600448 
+ECN-R-     Energy Research Foundation,Petten Reports       2NEDRCN3000000600449 
+ECN-RX-    Energy Research Foundation,Petten Reports       2NEDRCN3000000600450 
+RCN-       Reactor Cent. Nederland, Petten Reports         2NEDRCN3000000600451 
+BUP-       Bergen Univ. Dept. of Physics Reports           2NORBGN3000000600452 
+JENER-     Joint Establ. Nucl. Res., Kjeller Reports       2NORKJL3000000600453X
+KR-        Inst. for Atomenergi, Kjeller Reports           2NORKJL3000000600454 
+ABO-ANN-   Abo Akademi Annual Reports                      2SF ABA3000000600455 
+JU-RR-     Univ. of Jyvaeskylae, Dept.of Physics Reports   2SF JYV3000000600456 
+SFL-A-     Sateilyfysiikan Laitos-Radiofys. Inst. Reports  2SF SF 3000000600457 
+            (Inst. of Radiation Physics), Helsinki                3000000600458 
+JEN-       Junta de Energia Nuclear Reports                2SPNJNE3000000600459 
+MF-        Junta Energia Nuclear, Madrid Reports           2SPNJNE3000000600460 
+AE-        Aktiebolaget Atomenergi,Stockholm/Studsvik Repts2SWDAE 3000000600461 
+            Series discontinued. Last report = AE-517.            3000000600462 
+AE-FFN-    Aktiebolaget Atomenergi, Stockholm Reports      2SWDAE 3000000600463 
+AE-FN-     Aktiebolaget Atomenergi, Stockholm,internal rpt.2SWDAE 3000000600464 
+AE-RFT-    Aktiebolaget Atomenergi, Stockholm/Studsvik rpt.2SWDAE 3000000600465 
+AES-       Aktiebolaget Atomenergi, Studsvik, Reports      2SWDAE 3000000600466 
+RFA-       Aktiebolaget Atomenergi, Stockholm Reports      2SWDAE 3000000600467 
+RFR-       Aktiebolaget Atomenergi, Stockholm Reports      2SWDAE 3000000600468 
+S-         Aktiebolaget Atomenergi, Stockholm, prog. rept. 2SWDAE 3000000600469 
+CTH-RF-    Chalmers Univ. of Technol., Gothenburg Reports  2SWDCTH3000000600470 
+FOA4-      Res. Inst. National Defence Dept. 4 reports     2SWDFOA3000000600471 
+FOA4-A-    Res. Inst. National Defence Dept. 4A Reports    2SWDFOA3000000600472 
+FOA4-C-    Res. Inst. National Defence Dept. 4C Reports    2SWDFOA3000000600473 
+FOA4-D-    Res. Inst. National Defence Dept. 4D Reports    2SWDFOA3000000600474 
+A-IPS-     Res. Inst. of Phys., Stockholm Annual Rept.     2SWDIPS3000000600475 
+LU-NP-     Lund Univ. Reports                              2SWDLND3000000600476 
+LUNF-D6-   Lund Univ., Nuclear Physics Series              2SWDLND3000000600477 
+KDK-       Swedish Nuclear Data Committee Reports          2SWDSWD3000000600478 
+LFF-       Swedish Reports                                 2SWDSWD3000000600479 
+NFL-       Studsvik Science Res. Lab. Reports              2SWDSWR3000000600480 
+STUDSVIK-  Studsvik Science Res. Lab. Reports              2SWDSWR3000000600481 
+TLU-       Uppsala Univ. Tandem Lab. Reports               2SWDTLU3000000600482 
+UPP-       Uppsala Univ. Annual Report                     2SWDUPP3000000600483 
+UU-NF-     Uppsala Univ., Neutron Physics Lab. Reports     2SWDUPP3000000600484 
+IPF-SP-    Inst.de Phys., U. de Fribourg, Physics Series   2SWTFRS3000000600485 
+EIR-       Eidg.Inst.Reaktorforsch.Wuerenlingen Reports    2SWTWUR3000000600486 
+CNAEM-     Cekmece Nuclear Res. and Training Centre Reports2TUKCNA3000000600487 
+ACO/UK-    Aldermaston Reports                             2UK ALD3000000600488 
+AKO-UK-    Aldermaston Internal Report                     2UK ALD3000000600489 
+AWRE-      A.W.R.E. Aldermaston report series              2UK ALD3000000600490 
+AWRE-CNR/PRA.W.R.E. Aldermaston Reports                    2UK ALD3000000600491 
+AWRE-NR/C- A.W.R.E. Aldermaston Reports                    2UK ALD3000000600492 
+AWRE-NR/P- A.W.R.E. Aldermaston Reports                    2UK ALD3000000600493 
+AWRE-O-    A.W.R.E. Aldermaston Reports                    2UK ALD3000000600494 
+NR/P-      U.K.AEA Weapons Group,A.W.R.E. Aldermaston Rept.2UK ALD3000000600495 
+BR-        Cavendish Lab. Reports                          2UK CAV3000000600496X
+            Early reports                                         3000000600497X
+RD/B/M-    Central Electricity Generating Board Reports    2UK CEG3000000600498 
+            ===Note: Complete code is CEGB-RD/B/M-                3000000600499 
+RD/B/N-    Central Electricity Generating Board Reports    2UK CEG3000000600500 
+            ===Note: Complete code is CEGB-RD/B/M-                3000000600501 
+AERE-      A.E.R.E. Harwell report series                  2UK HAR3000000600502 
+AERE-C/R-  A.E.R.E. Harwell Reports                        2UK HAR3000000600503 
+AERE-I/R-  A.E.R.E. Harwell Reports                        2UK HAR3000000600504 
+AERE-M-    A.E.R.E. Harwell Reports                        2UK HAR3000000600505 
+AERE-N/M-  A.E.R.E. Harwell Reports                        2UK HAR3000000600506 
+AERE-N/R-  A.E.R.E. Harwell Reports                        2UK HAR3000000600507 
+AERE-NP/GENA.E.R.E. Harwell Reports                        2UK HAR3000000600508 
+AERE-NP/M- A.E.R.E. Harwell Reports                        2UK HAR3000000600509 
+AERE-NP/R- A.E.R.E. Harwell Reports                        2UK HAR3000000600510 
+AERE-PR/NP-A.E.R.E. Harwell Reports                        2UK HAR3000000600511 
+AERE-R-    A.E.R.E. Harwell Reports                        2UK HAR3000000600512 
+AERE-R/M-  A.E.R.E. Harwell Reports                        2UK HAR3000000600513 
+AERE-R/R-  A.E.R.E. Harwell Reports                        2UK HAR3000000600514 
+AERE-RP/R- A.E.R.E. Harwell Reports                        2UK HAR3000000600515 
+AERE-TRANS-A.E.R.E. Harwell translations                   2UK HAR3000000600516 
+AERE-X/PR- A.E.R.E. Harwell Reports                        2UK HAR3000000600517 
+NRDC-      A.E.R.E. Harwell Reports                        2UK HAR3000000600518 
+NRPB-      National Radiol. Prot. Board Reports            2UK NRP3000000600519 
+NRPB-M-    National Radiol. Prot. Board Reports            2UK NRP3000000600520 
+NRPB-R-    National Radiol. Prot. Board Reports            2UK NRP3000000600521 
+AHSB(S)R-  U.K. AEA Health and Safety Branch Risley Reports2UK RIY3000000600522 
+UKNDC-     Progress report from U.K. Nuclear Data Comm.    2UK UK 3000000600523 
+UKNDC-P-   Progress report from U.K.N.D.C.                 2UK UK 3000000600524 
+            Note: report appears as UKNDC(75)- .                  3000000600525 
+AEA-TRS-   AEA Technol.Winfrith, Thermal Reactor Serv.,rpt.2UK WIN3000000600526 
+AEEW-      A.E.E.W. Winfrith report series                 2UK WIN3000000600527 
+AEEW-M-    A.E.E.W. Winfrith Reports                       2UK WIN3000000600528 
+AEEW-R-    A.E.E.W. Winfrith Reports                       2UK WIN3000000600529 
+CERN-      CERN Europ. Org. for Nuclear Res. Reports       2ZZZCER3000000600530 
+CERN-PROC- CERN Proceedings (CERN-Proceedings-)            2ZZZCER3000000600531 
+CERN/DI/HP-CERN Health Physics Group Reports               2ZZZCER3000000600532 
+IRMM-      Inst. of Ref.Materials and Meas. Repts., Geel   2ZZZGEL3000000600533 
+IRMM-R-    Inst. of Ref.Materials and Meas. Repts., Geel   2ZZZGEL3000000600534 
+EUR-       Euratom Reports                                 2ZZZISP3000000600535 
+CCDN-      C.C.D.N. Saclay report series                   2ZZZNDC3000000600536 
+CCDN-CI-   C.C.D.N. Saclay Reports                         2ZZZNDC3000000600537 
+CCDN-NW-   C.C.D.N. Saclay Newsletters                     2ZZZNDC3000000600538 
+EANDC(CAN)-Canadian report to EANDC                        2ZZZNEA3000000600539X
+EANDC(E)-  Report from Euratom-countries + Euratom to EANDC2ZZZNEA3000000600540X
+EANDC(J)-  Japanese report to EANDC                        2ZZZNEA3000000600541X
+EANDC(OR)- Report from misc. OECD Countries to EANDC       2ZZZNEA3000000600542X
+EANDC(UK)- U.K. report to EANDC                            2ZZZNEA3000000600543X
+EANDC(US)- U.S. report to EANDC                            2ZZZNEA3000000600544X
+EANDC-     European-American Nucl. Data Committee Documents2ZZZNEA3000000600545X
+           =(usually accompanied by an additional code,           3000000600546X
+           =e.g. EANDC(CAN); continued 1974 as NEANDC-)           3000000600547X
+NEA-NSC-   NEA Nuclear Science Committee Reports           2ZZZNEA3000000600548 
+NEACRP-L-  NEA internal report NEANDC(E)-NEACRP-L          2ZZZNEA3000000600549 
+NEANDC(CAN)Canadian report to NEANDC                       2ZZZNEA3000000600550 
+NEANDC(E)- Report from CEC-Countries and CEC to NEANDC     2ZZZNEA3000000600551 
+NEANDC(J)- Japanese report to NEANDC                       2ZZZNEA3000000600552 
+NEANDC(OR)-Report from misc. OECD countries to NEANDC      2ZZZNEA3000000600553 
+            NEANDC(OR)-140 is published three times by Spain,     3000000600554 
+            Sweden, Switzerland with the same distribution code L.3000000600555 
+NEANDC(UK)-U.K. report to NEANDC                           2ZZZNEA3000000600556 
+NEANDC(US)-U.S. report to NEANDC                           2ZZZNEA3000000600557 
+NEANDC-    Nucl. En. Agency Nucl. Data Committee reports   2ZZZNEA3000000600558 
+           =(started 1974 as continuation of EANDC-)              3000000600559 
+IC-        Internat.Centre for Theoretical Physics, reports2ZZZTPT3000000600560 
+CNEA-      Comision Nacional de Energia Atomica report ser.3ARGCNE3000000600561 
+CNEA-CAB-  Centro Atomico Bariloche, internal report       3ARGCNE3000000600562 
+CNEA-CAB-ITCentro Atomico Bariloche, internal report       3ARGCNE3000000600563 
+LR-        Inst. Investigacion Aeronautica y Esp, Reports  3ARGIIA3000000600564 
+AAEC/      Australian AEC reports                          3AULAUA3000000600565 
+AAEC/AP/PR-Australian AEC Applied Phys.Div. Prog. Report   3AULAUA3000000600566 
+AAEC/E-    Australian AEC Reports                          3AULAUA3000000600567 
+AAEC/PD/PR-Australian AEC Physics Div. Progress Report     3AULAUA3000000600568 
+AAEC/PR-   Australian AEC Progress report                  3AULAUA3000000600569 
+AAEC/TM-   Australian AEC Technical Memo                   3AULAUA3000000600570 
+LIB/TRAN-  Australia Translation                           3AULAUL3000000600571 
+LIB/TRANS- Australia Translation                           3AULAUL3000000600572 
+ANU-       Australian National Univ., Canberra Reports     3AULCBR3000000600573 
+ANU-P-     Australian National Univ., Canberra Reports     3AULCBR3000000600574 
+AECD/      Atomic Energy Centre, Dhaka Reports             3BANRAM3000000600575 
+AECD/EP-   Atomic Energy Centre, Dhaka Reports             3BANRAM3000000600576 
+AECD/MISC- Atomic Energy Centre, Dhaka Progress Report     3BANRAM3000000600577 
+AECD/TP-   Atomic Energy Centre, Dhaka Reports             3BANRAM3000000600578 
+IEAV/NT-   Inst. de Estudos Avancados, Technical Note      3BZLCTA3000000600579 
+IEA-       Inst. de Energia Atomica, Sao Paulo, Reports    3BZLIEA3000000600580 
+IEA-INF-   Inst. de Energia Atomica, Sao Paulo, prog. rept.3BZLIEA3000000600581 
+IPEN-      Inst.de Pesquisas Energ.e Nucl.,Sao Paulo,Repts 3BZLIPE3000000600582 
+CCEN-      Comun.do Centro de Energia Nuclear,Recife,Repts.3BZLUFP3000000600583 
+            Univ. Federal de Pernambuco                           3000000600584 
+IFUSP/P-   Univ. of Sao Paulo, Inst.of Phys. Reports       3BZLUSP3000000600585 
+INER-      Inst. of Nucl.Energy Research Reports           3CHFSHI3000000600586 
+IAN-       Inst. de Asuntos Nucleares, Bogota, reports     3CLMIAN3000000600587 
+IAN-E-     Inst. de Asuntos Nucleares, Bogota Reports      3CLMIAN3000000600588 
+A-AEP-     Inst. of Atomic Energy, Beijing, Annual Report  3CPRAEP3000000600589 
+A-BNT-     Beijing Nat. Tandem Accel. Lab., Prog. Report   3CPRAEP3000000600590 
+            (one report every 2 years)                            3000000600591 
+HSJ-       Inst. of Atomic Energy, Beijing Reports         3CPRAEP3000000600592 
+CNIC-      China Nucl. Information Center Reports          3CPRCNI3000000600593 
+NST-       Inst.of Nucl.Sci.and Technol.,Sichuan U. Reports3CPRSIU3000000600594 
+LNS-       Inst. Rudjer Boskovic Reports                   3CRORBZ3000000600595 
+IPPCZ-     Czechoslovak A.S. Plasma Physics Reports, Prague3CZRCZA3000000600596 
+UJF-       Ustav Jad. Fyziky (Inst.Nucl.Phys.) Reports     3CZRUJF3000000600597 
+            Note: The series UJV- and UJF- share the same         3000000600598 
+             consecutive numbering such that the existence of     3000000600599 
+             UJF-2899 excludes the existence of UJV-2899          3000000600600 
+UJV-       Ustav Jad. Vyzkumu (Inst Nucl res), Reports     3CZRUJV3000000600601 
+ZFK-DOS-   Zentralinst. f. Kernforschung Rossendorf Reports3DDRROS3000000600602X
+            Last issue ZFK-DOS-5 7/66                             3000000600603X
+ZFK-PHA-   Zentralinst. f. Kernforschung Rossendorf Reports3DDRROS3000000600604X
+            Last issue ZFK-PHA-26 1/67                            3000000600605X
+ZFK-RCH-   Zentralinst. f. Kernforschung Rossendorf Reports3DDRROS3000000600606X
+            Last issue ZFK-RCH-3 D/65                             3000000600607X
+ZFK-RN-    Zentralinst. f. Kernforschung Rossendorf Reports3DDRROS3000000600608X
+            Last issue ZFK-RN-33 2/66                             3000000600609X
+ZFK-TPH-   Zentralinst. f. Kernforschung Rossendorf Reports3DDRROS3000000600610X
+            Last issue ZFK-TPH-23 3/66                            3000000600611X
+ZFK-WF-    Zentralinst. f. Kernforschung Rossendorf Reports3DDRROS3000000600612X
+            Last issue ZFK-WF-29 5/66                             3000000600613X
+TU-        Technische Univ. Dresden, Reports               3DDRTUD3000000600614X
+AREAEE-    Atomic Energy Establishment Reports             3EGYCAI3000000600615 
+            Series started with nr.117 in 1971                    3000000600616 
+UARAEE-    Atomic Energy Establishment Reports             3EGYCAI3000000600617X
+            Last issue nr.116 (1971). Continued as AREAEE-        3000000600618X
+ATOMKI-AR- Atomki Annual Reports                           3HUNDEB3000000600619 
+           =(Code is invented for reference, report appears as    3000000600620 
+           ='Atomki Annual report 1989')                          3000000600621 
+KFKI-      Central Research Inst. of Physics Reports       3HUNKFI3000000600622 
+            Hungarian Academy of Sciences                         3000000600623 
+            ===Note: Subject codes appended to the report number  3000000600624 
+               (e.g., KFKI-1989-02/G) may be omitted.             3000000600625 
+               (KFKI-1989-02 is sufficient for unique reference). 3000000600626 
+KFKI-YB-   KFKI Yearbook (progress-report)                 3HUNKFI3000000600627 
+RRC-       Reactor Research Center Kalpakkam Reports       3INDKAL3000000600628 
+AEET-      Atomic Energy Est. Trombay Reports              3INDTRM3000000600629X
+            Last issue is AEET-275 (1967).                        3000000600630X
+            Continued as BARC-                                    3000000600631X
+AEET-ANAL- Trombay Reports                                 3INDTRM3000000600632X
+AEET-NP-   Trombay Reports                                 3INDTRM3000000600633X
+BARC-      B.A.R.C., Trombay report series                 3INDTRM3000000600634 
+            Starts with BARC-276 (1967)                           3000000600635 
+           =(formerly AEET- series)                               3000000600636 
+BARC/I-    B.A.R.C., Trombay Reports                       3INDTRM3000000600637 
+NRITB-     Nuclear Res. Inst., Tuwaitha, Baghdad, reports  3IRQNRI3000000600638 
+NRITB-PH-  Nuclear Res. Inst., Tuwaitha, Baghdad, Reports  3IRQNRI3000000600639 
+TNSD-P-    Technion Nuclear Science Dept. Reports          3ISLHFA3000000600640 
+TNSD-R-    Technion Nuclear Science Dept. Reports          3ISLHFA3000000600641 
+IA-        Israel AEC Reports                              3ISLISL3000000600642 
+NRCN-      Beersheva Nuclear Res. Center Negev Reports     3ISLNEG3000000600643 
+LS-        Soreq Nuclear Research Center Reports           3ISLSOR3000000600644 
+KAERI/GP-  Korean Atomic Energy Research Inst. Reports     3KORKAE3000000600645 
+AIF-                                                       3MEXIFM3000000600646O
+            See journal-code AIF                                  3000000600647O
+MOH-       Univ. Mohammed V, Rabat, Annual Report          3MORMOH3000000600648 
+           =(the code MOH- was created for input and does         3000000600649 
+           =not show up on the cover)                             3000000600650 
+INS-       Inst.of Nuclear Sciences, Progress Reports      3NZLNZH3000000600651 
+AEC(NZ)-   New Zealand A.E.C. Reports                      3NZLNZL3000000600652 
+            The original code is 'AEC-' and (NZ) is added for     3000000600653 
+             clarification                                        3000000600654 
+NPD-                                                       3PAKNIL3000000600655O
+            === see  PINST-NPD-                                   3000000600656O
+PINST-     Pakistan Inst. Nucl. Sci. Tech. Reports         3PAKNIL3000000600657 
+           = -  Note: original code is 'PINSTECH-'.               3000000600658 
+PINST-NPD- Pakistan Inst.Nuc.Sci.Tech.,Nucl.Phys.Div.Repts 3PAKNIL3000000600659 
+           = -  Note: original code is 'NPD-' only.               3000000600660 
+PINST-RT-  Pakistan Inst. Nucl. Sci. Tech. Reports         3PAKNIL3000000600661 
+           = -  Note: original Code is 'PINSTECH-RT-'.            3000000600662 
+IBJ-                                                       3POLIBJ3000000600663O
+            Had sometimes been used for INR-                      3000000600664O
+INR-       Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts 3POLIBJ3000000600665 
+            Note: On the covers of this series one sometimes      3000000600666 
+             finds INR-..., sometimes IBJ-..., but often a        3000000600667 
+             report number without a report code.                 3000000600668 
+            Some were indexed in NSA as PAN-(Pol.Ak.Nauk).        3000000600669 
+            Characters behind report number should not be omitted.3000000600670 
+             Example: INR-1461/I/PL/A  and  INR-1461/I/PL/B are tw3000000600671 
+             different documents with no relation to each other.  3000000600672 
+INR-FIA-   Inst. Badan Jadr., Swierk+Warsaw Reports        3POLIBJ3000000600673 
+IFJ-                                                       3POLIFJ3000000600674O
+            Use INP-                                              3000000600675O
+INP-       Inst. Fiz. Jadr. (Nucl.Phys.), Krakow Reports   3POLIFJ3000000600676 
+            Note: On the covers of this series one finds          3000000600677 
+             sometimes INP-..., sometimes IFJ-..., but            3000000600678 
+             often a report number without a report code.         3000000600679 
+             Some were indexed in NSA as PAN-(Pol.Ak.Nauk).       3000000600680 
+             Omit characters behind report number                 3000000600681 
+             Example: INP-543 instead of INP-543/PL               3000000600682 
+CLOR-      Biuro Pelnom. Rzadu do Spraw Wykorzyst. En. Jad.3POLPOL3000000600683 
+PAN-       Polish Academy of Sciences Reports              3POLPOL3000000600684O
+            Was used by NSA for INR- and INP-                     3000000600685O
+IFA-       Inst. Fis. Atomica, Romanian Acad. Sci. reports 3RUMBUC3000000600686 
+IFA-CRD-   Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600687 
+IFA-DNBR-  Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600688 
+IFA-DNR-   Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600689 
+            Note: Sometimes the code IFA is not shown on the cover3000000600690 
+IFA-EP-    Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600691 
+            Note: Sometimes the code IFA is not shown on the cover3000000600692 
+IFA-FN-    Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600693 
+IFA-FR-    Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600694 
+IFA-NF-    Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600695 
+IFA-NR-    Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600696 
+            Note: Codes of the form IFA-NR-33-1970 must be given  3000000600697 
+               in Exfor as IFA-NR-33,(1970),...                   3000000600698 
+IFA-R-     Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600699 
+IFA-RN-    Inst. Fis. Atomica, Romanian Acad. Sci. Reports 3RUMBUC3000000600700 
+IFIN-NR-   Inst. de Fiz. si Ing.Nucleara,Bucharest Reports 3RUMBUC3000000600701 
+IRNE-      Inst. Nuclear Power Reactors Reports            3RUMPIT3000000600702 
+PEL-       Atomic Energy Board, Pelindaba Reports          3SAFPEL3000000600703 
+CSIR-FIS-  Council f.Scient.and Indust.Res.,Pretoria,Repts.3SAFSIR3000000600704 
+SUNI-      Southern Universities Nuclear Inst. Reports     3SAFSUN3000000600705 
+IJS-       Inst. Jozef Stefan, Ljubljana, reports          3SLNIJS3000000600706 
+IJS-P-     Inst. Jozef Stefan, Ljubljana Reports           3SLNIJS3000000600707 
+            Starting with IJS-P-245 6/69                          3000000600708 
+IJS-R-     Inst. Jozef Stefan, Ljubljana Reports           3SLNIJS3000000600709 
+            Starting with IJS-R-560 6/69                          3000000600710 
+NIJS-      Inst. Josef Stefan, Ljubljana, report series    3SLNIJS3000000600711 
+NIJS-P-    Inst. Josef Stefan, Ljubljana Reports           3SLNIJS3000000600712 
+            Continued June 1969 as IJS-P-                         3000000600713 
+NIJS-R-    Inst. Josef Stefan, Ljubljana Reports           3SLNIJS3000000600714 
+            Continued June 1969 as IJS-R-                         3000000600715 
+THAI-AEC-  Atomic Energy for Peace, Bangkok Reports        3TAIBAN3000000600716 
+IBK-       Inst. Boris Kidrich Reports                     3YUGBKB3000000600717 
+IAEA-      I.A.E.A. technical report, Vienna               3ZZZIAE3000000600718 
+           =(starting with report no. 219, the full title         3000000600719 
+           =of this series is now IAEA-TECDOC-)                   3000000600720 
+IAEA-NDS-  Nuclear Data Services (Doc. series of NDS)      3ZZZIAE3000000600721 
+IAEA-R-    I.A.E.A. Research Contract Report               3ZZZIAE3000000600722 
+IAEA-SM-   I.A.E.A. Symposium Collection -extended synopses3ZZZIAE3000000600723 
+IAEA-TECDOCI.A.E.A. Technical Documents                    3ZZZIAE3000000600724 
+            previously coded as IAEA-                             3000000600725 
+IAEA/      I.A.E.A., Vienna, report series                 3ZZZIAE3000000600726 
+IAEA/RL-   I.A.E.A. Div. of Res. + Labs Reports            3ZZZIAE3000000600727 
+IAEA/TA-   I.A.E.A. Technical Assistance Reports           3ZZZIAE3000000600728 
+INDC(ARG)- Argentine report to the I.N.D.C.                3ZZZIAE3000000600729 
+INDC(AUL)- Australian report to the I.N.D.C.               3ZZZIAE3000000600730 
+INDC(AUS)- Austrian report to the I.N.D.C.                 3ZZZIAE3000000600731 
+INDC(BAN)- Bangladesh report to the I.N.D.C.               3ZZZIAE3000000600732 
+INDC(BLG)- Belgian report to the I.N.D.C.                  3ZZZIAE3000000600733 
+INDC(BLR)- Belorus report to the I.N.D.C.                  3ZZZIAE3000000600734 
+INDC(BOL)- Bolivian report to the I.N.D.C.                 3ZZZIAE3000000600735 
+INDC(BUL)- Bulgarian report to the I.N.D.C.                3ZZZIAE3000000600736 
+INDC(BZL)- Brazilian report to the I.N.D.C.                3ZZZIAE3000000600737 
+INDC(CAN)- Canadian report to the I.N.D.C.                 3ZZZIAE3000000600738 
+INDC(CCP)- USSR report to the I.N.D.C.                     3ZZZIAE3000000600739 
+INDC(CHL)- Chile report to the I.N.D.C.                    3ZZZIAE3000000600740 
+INDC(CPR)- Chinese report to the I.N.D.C.                  3ZZZIAE3000000600741 
+INDC(CSR)- CSSR report to the I.N.D.C.                     3ZZZIAE3000000600742X
+INDC(CUB)- Cuban report to the I.N.D.C.                    3ZZZIAE3000000600743 
+INDC(CZR)- Czech report to the I.N.D.C.                    3ZZZIAE3000000600744 
+INDC(EGY)- Egyptian report to the I.N.D.C.                 3ZZZIAE3000000600745 
+INDC(EUR)- Comm. of the European Commun. report to I.N.D.C.3ZZZIAE3000000600746 
+            (Formerly Euratom)                                    3000000600747 
+INDC(FIN)- Finnish report to the I.N.D.C.                  3ZZZIAE3000000600748 
+INDC(FR)-  French report to the I.N.D.C.                   3ZZZIAE3000000600749 
+INDC(GDR)- Germ.Dem.Rep.report to the I.N.D.C.             3ZZZIAE3000000600750X
+INDC(GER)- Fed.Rep.Germ.report to the I.N.D.C.             3ZZZIAE3000000600751 
+            Distribution code (L or LN) is mandatory for          3000000600752 
+            INCD(GER)-35 and 36.                                  3000000600753 
+INDC(HUN)- Hungarian report to the I.N.D.C.                3ZZZIAE3000000600754 
+INDC(IND)- Indian report to the I.N.D.C.                   3ZZZIAE3000000600755 
+INDC(IRN)- Iran report to the I.N.D.C.                     3ZZZIAE3000000600756 
+INDC(IRQ)- Iraq report to the I.N.D.C.                     3ZZZIAE3000000600757 
+INDC(ISL)- Israel report to the I.N.D.C.                   3ZZZIAE3000000600758 
+INDC(ITY)- Italian report to the I.N.D.C.                  3ZZZIAE3000000600759 
+INDC(JAP)- Japanese report to the I.N.D.C.                 3ZZZIAE3000000600760X
+INDC(JPN)- Japanese report to the I.N.D.C.                 3ZZZIAE3000000600761 
+INDC(KOR)- Korean report to the I.N.D.C.                   3ZZZIAE3000000600762 
+INDC(MOR)- Morocco report to the I.N.D.C.                  3ZZZIAE3000000600763 
+INDC(NDS)- IAEA Nucl.Data Section report to the I.N.D.C.   3ZZZIAE3000000600764 
+INDC(NDU)- IAEA Nucl.Data Section report to the I.N.D.C.   3ZZZIAE3000000600765X
+INDC(NED)- Netherlands report to the I.N.D.C.              3ZZZIAE3000000600766 
+INDC(NOR)- Norwegian report to the I.N.D.C.                3ZZZIAE3000000600767 
+INDC(PAK)- Pakistan report to the I.N.D.C.                 3ZZZIAE3000000600768 
+INDC(POL)- Polish report to the I.N.D.C.                   3ZZZIAE3000000600769 
+INDC(ROM)- Romanian report to the I.N.D.C.                 3ZZZIAE3000000600770 
+            Before 1981, the code INDC(RUM) was used.             3000000600771 
+INDC(RUM)- Romanian report to the I.N.D.C.                 3ZZZIAE3000000600772X
+INDC(SAF)- South-African report to the I.N.D.C.            3ZZZIAE3000000600773 
+INDC(SEC)- I.N.D.C. Secretariat Report Series              3ZZZIAE3000000600774 
+INDC(SLK)- Slovakian report to the I.N.D.C.                3ZZZIAE3000000600775 
+INDC(SLN)- Slovenian report to the I.N.D.C.                3ZZZIAE3000000600776 
+INDC(SPN)- Spanish report to the I.N.D.C.                  3ZZZIAE3000000600777 
+INDC(SUD)- Sudanese report to the I.N.D.C.                 3ZZZIAE3000000600778 
+INDC(SWD)- Swedish report to the I.N.D.C.                  3ZZZIAE3000000600779 
+INDC(SWT)- Swiss report to the I.N.D.C.                    3ZZZIAE3000000600780 
+INDC(TAI)- Thailand report to the I.N.D.C.                 3ZZZIAE3000000600781 
+INDC(TUR)- Turkish report to the I.N.D.C.                  3ZZZIAE3000000600782 
+            Note: Some copies of INDC(TUR)-3 are erroneously      3000000600783 
+             labelled as INDC(TUK)-3                              3000000600784 
+INDC(UK)-  U.K. report to the I.N.D.C.                     3ZZZIAE3000000600785 
+INDC(UKR)- Ukrainian report to the I.N.D.C.                3ZZZIAE3000000600786 
+INDC(US)-                                                  3ZZZIAE3000000600787O
+            Use INDC(USA) although some issues have INDC(US)- on  3000000600788O
+             their covers                                         3000000600789O
+INDC(USA)- U.S. report to the I.N.D.C.                     3ZZZIAE3000000600790 
+INDC(VN)-  Vietnam report to the I.N.D.C.                  3ZZZIAE3000000600791 
+INDC(YUG)- Yugoslavian report to the I.N.D.C.              3ZZZIAE3000000600792 
+INDC-      International Nucl. Data Committee report series3ZZZIAE3000000600793 
+           =(usually accompanied by an additional code,           3000000600794 
+           =e.g.,INDC(NDS))                                       3000000600795 
+            Nr.1(1971)-15(1973) and Nr.156(1967)-274(1969)        3000000600796 
+            Then continued in a number of subseries               3000000600797 
+            Note: /G /L /U etc. are distribution-codes which      3000000600798 
+             should be ignored.                                   3000000600799 
+            'E' following the report number distinguishes an      3000000600800 
+             English translation from its original.               3000000600801 
+INDSWG-    Int. Nuclear Data Sci. Working Group Reports    3ZZZIAE3000000600802X
+            Nr.1(1962)-155(1967),continued as INDC-.              3000000600803X
+            'E' following the report no. distinguishes an         3000000600804X
+            English translation from its original.                3000000600805X
+INIS-MF-   INIS microfiche                                 3ZZZIAE3000000600806 
+            Identification assigned by IAEA to documents received 3000000600807 
+             without report code.                                 3000000600808 
+INIS-SU-   INIS Reports                                    3ZZZIAE3000000600809 
+            Identification assigned by Atom-Inform to documents   3000000600810 
+             received without report code.                        3000000600811 
+STI/DOC/10-I.A.E.A. Technical Document Series              3ZZZIAE3000000600812 
+            ===Note: See also  IAEA-                              3000000600813 
+STI/PUB-   I.A.E.A. Publications                           3ZZZIAE3000000600814 
+STI/PUB/15-I.A.E.A. Review Series (1959-1962)              3ZZZIAE3000000600815 
+STI/PUB/21-I.A.E.A. Bibliographical Series                 3ZZZIAE3000000600816 
+EFI-       Erevanskij Fisicheskij Institut Reports         4ARMARM3000000600817 
+IJE-       Inst. of Nucl. Energetics, Bjelorus. Acad. Sci. 4BLRIJE3000000600818 
+             report and preprints                                 3000000600819 
+             IJE-nnn-yy  (nnn=serial no., yy=year)                3000000600820 
+TMO-       Inst.Teplo-Massoobmena Bjeloruss.Acad.Sci.Repts 4BLRTMO3000000600821 
+             ===Note: This is an invented code. The reports have  3000000600822 
+                only a 'preprint'-number without a code.          3000000600823 
+             English translation of TMO-2 through TMO-7 is        3000000600824 
+                available as report INDC(CCP)-142.                3000000600825 
+IAN/E-     Izvestia Estonian Akad.Nauk, Reports            4ESTEST3000000600826 
+IYFK-P-    Inst. Nucl.Phys., Alma-Ata, preprints           4KASKAZ3000000600827 
+LAFI-      Inst. Fiziki Latvijskoi Akad. Sci., Riga Reports4LATIFL3000000600828 
+ICD-       Bull. Centr po Jadernym Dannym, Obninsk         4RUSCJD3000000600829X
+           =no.1 (1964) - no.6 (1969)                             3000000600830X
+           =continued as YK-7                                     3000000600831X
+YK-        Yadernye Konstanty                              4RUSCJD3000000600832X
+            Full title = Vopr.At.Nauki i Tekhn.,Ser.Jad.Kon       3000000600833X
+           =no.7 (1971) - no.27 (1977)                            3000000600834X
+           =continues ICD-6                                       3000000600835X
+           =continued as journal YK                               3000000600836X
+EPA-       Exp.Physics Inst. Arzamas Reports               4RUSEPA3000000600837 
+FEI-       Fiz.-Energ Institut, Obninsk Reports            4RUSFEI3000000600838 
+YFI-       Yaderno-Fizicheskie Issledovaniya v SSSR        4RUSFEI3000000600839 
+            Partly translated to English in INDC(CCP) reports as  3000000600840 
+            "Nuclear Physics Research in the USSR"                3000000600841 
+FTI-       Fiz-Tech. Inst. Ioffe, Leningrad Reports        4RUSFTI3000000600842 
+ITE-       Inst. Teoret. i Experiment. Fiziki, Moscow Repts4RUSITE3000000600843O
+            Use ITEF-                                             3000000600844O
+ITEF-      Inst. Teoret. i Experiment. Fiziki, Moscow Repts4RUSITE3000000600845 
+JIA-       Inst. Nucl. Res., Russian Acad. Sci. Preprint   4RUSJIA3000000600846 
+IAE-       Inst. Atomnoy Energii, Kurchatov Reports        4RUSKUR3000000600847 
+KUR-                                                       4RUSKUR3000000600848 
+            Had been used for  IAE-                               3000000600849 
+FIAN-      Fiz. Inst. Akad. Nauk Lebedev, Moscow Reports   4RUSLEB3000000600850 
+BCDL-      Bull. Centro Dannykh LIJAF, Leningrad-Gatchina  4RUSLIN3000000600851 
+            (Bulletin of the Data Centre of LIJAF)                3000000600852 
+LIJAF-     Leningrad Inst. Nucl. Phys. Reports             4RUSLIN3000000600853 
+MIF-       Moscow Inst. of Engineering Physics Reports     4RUSMIF3000000600854 
+            MIF-nnn-yy (nnn=serial no.,yy=year)                   3000000600855 
+CDFE-      Fotoyadernye Dannye (Photonuclear Data)         4RUSMOS3000000600856 
+            To be used for annual series starting with no.1,1977  3000000600857 
+            (Compare CDFE-IND- and book codes CDFE/..)            3000000600858 
+CDFE-IND-  Fotoyadernye Dannye (Photonuclear Data) Index   4RUSMOS3000000600859 
+            Compare CDFE- and book codes                          3000000600860 
+CDFE-IND2- Photonuclear Data Index (Photofission)          4RUSMOS3000000600861 
+            Fotojadernye Dannye. Compare CDFE-and book codes      3000000600862 
+MSU-INP-   Moscow State Univ.Inst.of Nucl.Phys.Reports     4RUSMOS3000000600863 
+NIIAR-     Inst. Atomnykh Reaktorov, Melekess Reports      4RUSNIR3000000600864 
+NIIAR-P1-  Inst. Atomnykh Reaktorov, Melekess Reports      4RUSNIR3000000600865 
+RI-        Khlopin Radiev. Inst., Leningrad Reports        4RUSRI 3000000600866 
+IFVE-      Inst. Fiz. Vysokikh Energij, Serpukhov Reports  4RUSRUS3000000600867 
+ISTC-      Internat.Science and Technology Center, Reports 4RUSRUS3000000600868 
+SIB-       Inst. Jad. Fiz., Novosibirsk Reports            4RUSSIB3000000600869 
+           =(This is an invented code. The reports                3000000600870 
+           =have only a 'preprint'-number without a code)         3000000600871 
+IF-        Akad. Nauk Ukrainskaja, Kiev                    4UKRIFU3000000600872 
+IJAI-      Inst. Yad. Issledovanii Communications,Kiev     4UKRIJI3000000600873 
+IJAI-P-    Inst. Yad. Issledovanii, Kiev Reports           4UKRIJI3000000600874 
+KIYAI-     Inst. Yad. Issledovanii, Kiev Reports           4UKRIJI3000000600875 
+KHFTI-     Ukrainsk. Fiz. Tekhn. Inst. Reports             4UKRUFT3000000600876 
+            Until 1968 no report code was printed on the cover    3000000600877 
+             but only a number.                                   3000000600878 
+            Starting 1969 the report codes have the form          3000000600879 
+             KHFTI-69-1 which is coded KHFTI-69/1                 3000000600880 
+UFT-       Ukrainskij Fiz. Tech. Inst. Reports             4UKRUFT3000000600881O
+            Had been used for old KHFTI- report which had no      3000000600882O
+             report code on the cover                             3000000600883O
+UZB-P-     Inst.of Nucl.Phys., Tashkent, Uzbekistan, Repts 4UZ UZB3000000600884 
+DUB-       Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600885O
+            Use JINR-                                             3000000600886O
+DUB-E-     Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600887O
+            Use JINR-E-                                           3000000600888O
+DUB-P-     Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600889O
+            Use JINR-P-                                           3000000600890O
+ISINN-     Int.Sem.on Interactions of Neutrons with Nuclei 4ZZZDUB3000000600891 
+            Proceedings of annual meeting held in Dubna           3000000600892 
+JINR-      Joint Inst. for Nucl. Res., Dubna, reports      4ZZZDUB3000000600893 
+            Note: the 4-digits report number is unique, the       3000000600894 
+             symbols between JINR and number can be omitted.      3000000600895 
+             They mean P=Russian, E=English, D=Engl+Russian.      3000000600896 
+             The digit following this character denotes the       3000000600897 
+             subject category, e.g.                               3000000600898 
+               3 = low-energy experimental physics                3000000600899 
+               4 = low-energy theoretical physics                 3000000600900 
+              15 = exp'tl phys.of nucl.reactions at low en.       3000000600901 
+JINR-D-    Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600902 
+JINR-D15-  Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600903 
+JINR-D3-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600904 
+JINR-D6-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600905 
+JINR-D7-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600906 
+JINR-E-    Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600907 
+JINR-E1-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600908 
+JINR-E15-  Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600909 
+JINR-E3-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600910 
+JINR-E4-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600911 
+JINR-E7-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600912 
+JINR-P-    Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600913 
+JINR-P1-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600914 
+JINR-P10-  Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600915 
+JINR-P11-  Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600916 
+JINR-P12-  Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600917 
+JINR-P13-  Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600918 
+JINR-P14-  Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600919 
+JINR-P15-  Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600920 
+JINR-P2-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600921 
+JINR-P3-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600922 
+JINR-P4-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600923 
+JINR-P6-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600924 
+JINR-P7-   Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600925 
+P3-        Joint Inst. for Nucl. Res., Dubna Reports       4ZZZDUB3000000600926O
+            *** Use JINR-P3- or JINR-.                            3000000600927O
+            Similarly, use JINR-Codes for P15-, E3-,  etc.        3000000600928O

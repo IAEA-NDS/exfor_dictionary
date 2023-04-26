@@ -1,4 +1,4 @@
-DICTION              5     202206 Journals                        3000000500001 
+DICTION              5     202212 Journals                        3000000500001 
            Note= In CINDA, 5-char journal-codes (e.g., ACR/A)     3000000500002 
            are converted to 4-char codes by omitting the          3000000500003 
            slash (e.g., ACRA). 4-char codes remain the            3000000500004 
@@ -125,7 +125,7 @@ APP/B      (Acta Physica Polonica, Part B)                    3POL3000000500124
            Elementary Particles, Nuclear Physics, Relativity      3000000500125 
             and Field Theory.                                     3000000500126 
            (starting with vol.1, 1970)                            3000000500127 
-APP/BS     (Acta Physica Polonica, Part B Proceeding Series)  3POL3000000500128I
+APP/BS     (Acta Physica Polonica, Part B Proceeding Series)  3POL3000000500128 
            ISSN:1899-2358                                         3000000500129 
 APPL/A     (Applied Physics A)                                2GER3000000500130 
            Materials Science and Processing                       3000000500131 
@@ -361,7 +361,7 @@ EPJ/C      (Europ. Physical Journal C: Particles and Fields)  2GER3000000500359
            continues ZP/C                                         3000000500361 
 EPJ/CS     (EPJ Web of Conferences)                           2FR 3000000500362 
            vol.1 (2009) -                                         3000000500363 
-EPJ/N      (European Physical Journal N: Nucl.Sci.Technol.)   2GER3000000500364I
+EPJ/N      (European Physical Journal N: Nucl.Sci.Technol.)   2GER3000000500364 
            vol.1 (2015) -                                         3000000500365 
 EPJ/P      (European Physical Journal Plus)                   GER 3000000500366 
 EPJ/ST     (European Physical Journal: Special Topics)        2FR 3000000500367 
@@ -1210,7 +1210,7 @@ UJP        (Ukrainian Journal of Physics)                     4UKR3000000501208
 UPJ        (Ukrainian Physics Journal)                        1USA3000000501210X
            (English of UFZ)                                       3000000501211X
            vol.12 (1967) - vol.13 (1969)                          3000000501212X
-UZHV       (Naukovyi Visnyk Uzhgorods'kogo Univ., Ser.Fiz.)   4UKR3000000501213C
+UZHV       (Naukovyi Visnyk Uzhgorods'kogo Univ., Ser.Fiz.)   4UKR3000000501213 
 VAC        (Vacuum)                                           2UK 3000000501214 
 VAN        (Vestnik Akademii Nauk SSSR)                       4RUS3000000501215 
 VAT/F      (Voprosy Atomnoy Nauki i Tekhniki, Seriya Fiziki)  4UKR3000000501216 

@@ -106,10 +106,6 @@
         "description": "End-of-bombardment thick/thin target yield",
         "active": true
       },
-      "EXL": {
-        "description": "Excitation to low-lying levels",
-        "active": true
-      },
       "FRC": {
         "description": "Fractional",
         "active": true
@@ -328,10 +324,6 @@
       },
       "BRS": {
         "description": "Average over part of bremsstrahlung spectrum",
-        "active": true
-      },
-      "EPI": {
-        "description": "Epithermal neutron spectrum average",
         "active": true
       },
       "FIS": {

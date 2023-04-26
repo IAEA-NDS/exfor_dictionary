@@ -1,4 +1,4 @@
-DICTION             24     202206 Data headings                   3000002400001 
+DICTION             24     202212 Data headings                   3000002400001 
            =======================================================3000002400002 
            =NOTE= Characters and digits in Column 66 are used for 3000002400003 
                   computerized checking of the field sequence     3000002400004 
@@ -37,7 +37,7 @@ EN-NRM3    3rd incident proj.en. for normalization, see MONITOR   3000002400036
             Explanation under MONITOR.                            3000002400037 
 EN-RES-NRM Resonance energy for normalization                     3000002400038 
 HL-NRM     Half-life of nuclide to which data is normalized       3000002400039 
-KT-DUM-NRM Dummy spectrum temperature of reference                3000002400040I
+KT-DUM-NRM Dummy spectrum temperature of reference                3000002400040 
 KT-NRM     Temperature of reference Maxwellian spectrum           3000002400041 
 MONIT      Normalization value for reaction given under MONITOR   3000002400042 
             For the reaction given under MONITOR                  3000002400043 
@@ -264,405 +264,409 @@ EN-RSL     Incident projectile energy resolution (Unspecified)   B3000002400263
 EN-RSL-DN  Inc.proj.energy resol.(FWHM), REACTION ratio denominatB3000002400264 
 EN-RSL-FW  Incident projectile energy resolution (Full width)    B3000002400265 
 EN-RSL-HW  Incident projectile energy resolution (Half width)    B3000002400266 
-EN-RSL-NM  Inc.proj.energy resol.(FWHM), REACTION ratio numeratorB3000002400267 
-MOM        Linear momentum of incident projectile                M3000002400268 
-MOM-MAX    Maximum linear momentum of incident projectile        M3000002400269 
-MOM-MIN    Minimum linear momentum of incident projectile        M3000002400270 
-MOM-ERR    Error of linear momentum of incident projectile       R3000002400271 
-MOM-RSL    Incident projectile linear momentum resolution        R3000002400272 
-EN-DUM-DN  Dummy incident energy, REACTION ratio denominator     A3000002400273 
-EN-DUM-NM  Dummy incident energy, REACTION ratio numerator       A3000002400274 
-EN-DUMMY   Dummy incident proj. energy, for broad spectrum       A3000002400275 
-            Used as the numerical equivalent of an incident       3000002400276 
-             particle spectrum when neither EN-MEAN nor KT        3000002400277 
-             apply.  See also INC-SPECT.                          3000002400278 
-            Quantity has modifier to specify spectrum.            3000002400279 
-EN-MEAN    Mean energy of incident projectile spectrum           A3000002400280 
-            Either mean energy of incident projectile spectrum or 3000002400281 
-             of energy range. Explanation in free text is required3000002400282 
-EN-MEAN-DN Inc. spectr. mean energy, REACTION ratio denominator  A3000002400283 
-EN-MEAN-NM Inc. spectr. mean energy, REACTION ratio numerator    A3000002400284 
-KT         Spectrum temperature (energy units)                   A3000002400285 
-KT-DN      Spectrum temperature, REACTION ratio denominator      A3000002400286 
-KT-DUM-DN  Dummy spectrum temperature, REACTION ratio denominatorA3000002400287 
-KT-DUM-NM  Dummy spectrum temperature, REACTION ratio numerator  A3000002400288 
-KT-DUMMY   Dummy spectrum temperature                            A3000002400289 
-            for spectrum temprature asssumed by compilers         3000002400290 
-            kT=1.42 MeV for 252Cf(sf), 1.32 MeV for 235U(nth,f)   3000002400291 
-KT-K       Spectrum temperature (temperature units)              A3000002400292 
-KT-NM      Spectrum temperature, REACTION ratio numerator        A3000002400293 
-KT-DUM-ERR Error in dummy spectrum temperature                   B3000002400294 
-KT-ERR     Error in spectrum temperature (energy units)          B3000002400295 
-KT-K-ERR   Error in spectrum temperature (temperature units)     B3000002400296 
-WVE-LN     Wave length of incident particle                      A3000002400297 
-           =======================================================3000002400298 
-           Secondary Energy                                       3000002400299 
-           =======================================================3000002400300 
-E          Energy of outgoing particle, lab. system              E3000002400301 
-           =Note= All codes starting with 'E' are in the          3000002400302 
-            laboratory system unless the extension 'CM' is given. 3000002400303 
-E-APRX     Approx. energy of outgoing particle, lab. system      E3000002400304 
-E-CM       Energy of outgoing particle, c.m. system              E3000002400305 
-E-CM-MAX   Upper limit of outgoing part. en. range, c.m. sys.    E3000002400306 
-E-CM-MIN   Lower limit of outgoing part. en. range, c.m. sys.    E3000002400307 
-E-DN       Outgoing particle energy, REACTION ratio denominator  E3000002400308 
-E-MAX      Upper limit of outgoing particle en. range, lab. sys. E3000002400309 
-E-MAX-CM   Upper limit of outgoing particle en. range, c.m. sys. E3000002400310O
-E-MAX-DN   Outgoing particle energy, REACTION ratio denominator  E3000002400311 
-E-MAX-NM   Outgoing particle energy, REACTION ratio numerator    E3000002400312 
-E-MEAN     Mean energy of outgoing particles, lab. system        E3000002400313 
-E-MIN      Lower limit of outgoing particle en. range, lab. sys. E3000002400314 
-E-MIN-CM   Lower limit of outgoing particle en. range, c.m. sys. E3000002400315O
-E-MIN-DN   Outgoing particle energy, REACTION ratio denominator  E3000002400316 
-E-MIN-NM   Outgoing particle energy, REACTION ratio numerator    E3000002400317 
-E-NM       Outgoing particle energy, REACTION ratio numerator    E3000002400318 
-E-RL       Relative energy of outgoing particles                 E3000002400319 
-E-RL-CM    Relative energy of outgoing particle, c.m. system     E3000002400320O
-E-RL-MAX   Upper limit of relative energy of outgoing part.in labE3000002400321 
-E-RL-MIN   Lower limit of relative energy of outgoing part.in labE3000002400322 
-E1         1st outgoing part. en., defined under EN-SEC          E3000002400323 
-E1-CM      1st outgoing part. en., c.m. defined under EN-SEC     E3000002400324 
-E1-MAX     Upper limit, 1st outgoing part. en.range, see EN-SEC  E3000002400325 
-E1-MIN     Lower limit, 1st outgoing part. en.range, see EN-SEC  E3000002400326 
-E2         2nd outgoing part. energy, defined under EN-SEC       E3000002400327 
-E2-MAX     Upper limit, 2nd outgoing part. en.range, see EN-SEC  E3000002400328 
-E2-MIN     Lower limit, 2nd outgoing part. en.range, see EN-SEC  E3000002400329 
-S          Distance along S-curve for range of E1 and E2         E3000002400330 
-S-MEAN     Mean distance along S-curve for range of E1 and E2    E3000002400331 
-TKE        Total kinetic energy                                  E3000002400332 
-TKE-MAX    Upper boundary of total kinetic energy                E3000002400333 
-TKE-MIN    Lower boundary of total kinetic energy                E3000002400334 
-WVE-LN-SEC Wave length of outgoing particle                      E3000002400335 
-+E-ERR     + Unsymmetric outgoing particle energy error          F3000002400336 
--E-ERR     - Unsymmetric outgoing particle energy error          F3000002400337 
-E-DN-ERR   Error in outgoing particle en., REACTION ratio denom. F3000002400338 
-E-ERR      Outgoing particle energy error                        F3000002400339 
-E-ERR-DIG  Digitizing error of outgoing particle energy          F3000002400340 
-E-NM-ERR   Error in outgoing particle en., REACTION ratio numeratF3000002400341 
-E-RL-ERR   Error in relative energy of outgoing particles        F3000002400342 
-E-RSL      Outgoing particle energy resolution                   F3000002400343 
-E-RSL-FW   Outgoing particle energy resolution (full width)      F3000002400344 
-E-RSL-HW   Outgoing particle energy resolution (half width)      F3000002400345 
-E1-ERR     1st outgoing particle energy error                    F3000002400346 
-E2-ERR     2nd outgoing particle energy error                    F3000002400347 
-TKE-ERR-D  Digitizing error of total kinetic energy              F3000002400348 
-E-LVL      Level energy                                          E3000002400349 
-            Compare also with BIB keyword LEVEL-PROP.             3000002400350 
-E-LVL-DN   Level energy, REACTION ratio denominator              E3000002400351 
-E-LVL-FIN  Final level of gamma transition                       E3000002400352 
-E-LVL-FIN1 Final level of gamma transition, def.under EN-SEC     E3000002400353 
-E-LVL-FIN2 Final level of gamma transition, def.under EN-SEC     E3000002400354 
-E-LVL-INI  Initial level of gamma transition                     E3000002400355 
-E-LVL-INI1 Initial level of gamma transition, def.under EN-SEC   E3000002400356 
-E-LVL-INI2 Initial level of gamma transition, def.under EN-SEC   E3000002400357 
-E-LVL-MAX  Upper energy limit of discrete level group            E3000002400358 
-E-LVL-MEAN Mean level energy                                     E3000002400359 
-E-LVL-MIN  Lower energy limit of discrete level group            E3000002400360 
-E-LVL-NM   Level energy, REACTION ratio numerator                E3000002400361 
-E-LVL1     1st level energy, defined under EN-SEC                E3000002400362 
-E-LVL1-MAX Upper limit of 1st level energy range                 E3000002400363 
-E-LVL1-MIN Lower limit of 1st level energy range                 E3000002400364 
-E-LVL2     2nd level energy, defined under EN-SEC                E3000002400365 
-E-LVL2-MAX Upper limit of 2nd level energy range                 E3000002400366 
-E-LVL2-MIN Lower limit of 2nd level energy range                 E3000002400367 
-+E-LVL-ERR + Unsymmetric level energy error                      F3000002400368 
--E-LVL-ERR - Unsymmetric level energy error                      F3000002400369 
-E-LVL-ERR  Level energy error                                    F3000002400370 
-E-EXC      Excitation energy                                     E3000002400371 
-E-EXC-DN   Excitation energy for denominator of REACTION ratio   E3000002400372 
-E-EXC-MAX  Upper limit of excitation energy range                E3000002400373 
-E-EXC-MAXA Approximate upper limit of excitation energy range    E3000002400374I
-E-EXC-MEAN Mean excitation energy                                E3000002400375 
-E-EXC-MIN  Lower limit of excitation energy range                E3000002400376 
-E-EXC-NM   Excitation energy for numerator of REACTION ratio     E3000002400377 
-E-EXC1     1st excitation energy, defined under EN-SEC           E3000002400378 
-            If more than one given.                               3000002400379 
-E-EXC1-MAX Upper limit of 1st excitation energy range            E3000002400380 
-E-EXC1-MIN Lower limit of 1st excitation energy range            E3000002400381 
-E-EXC2     2nd excitation energy, defined under EN-SEC.          E3000002400382 
-E-EXC2-MAX Upper limit of 2nd excitation energy range            E3000002400383 
-E-EXC3     3rd excitation energy, defined under EN-SEC.          E3000002400384 
-E-EXC-ERR  Excitation energy error                               F3000002400385 
-E-EXC-ERR1 1st excitation energy error, defined under ERR-ANALYS F3000002400386 
-E-EXC-ERR2 2nd excitation energy error, defined under ERR-ANALYS F3000002400387 
-Q-VAL      Q-value                                               E3000002400388 
-Q-VAL-APRX Approximate Q-value                                   E3000002400389 
-Q-VAL-MAX  Upper limit of Q-value                                E3000002400390 
-Q-VAL-MEAN Mean Q-value                                          E3000002400391 
-Q-VAL-MIN  Lower limit of Q-value                                E3000002400392 
-Q-VAL-ERR  Q-value uncertainty                                   F3000002400393 
-Q-VAL-RSL  Q-value resolution                                    F3000002400394 
-E-DGD      Degradation in incident vs. outgoing particle energy  E3000002400395 
-E-DGD-MAX  Upper limit of degradat. in inc. vs. outgoing part.en.E3000002400396 
-E-DGD-MIN  Lower limit of degradat. in inc. vs. outgoing part.en.E3000002400397 
-E-DGD-ERR  Error in degradation in incident vs. outgoing part.en.F3000002400398 
-E-GAIN     Gain in incident vs. outgoing particle energy         E3000002400399 
-E-GAIN-ERR Error in gain in incident vs. outgoing particle energyF3000002400400 
-IAS-NUMB   Level number of isobaric analog state                 E3000002400401 
-ISO-NUMB   Level number of isobaric analog state                 E3000002400402O
-LVL-NUM-DN Level number, REACTION ratio denominator              E3000002400403 
-           (Used only if other information is not available)      3000002400404 
-LVL-NUM-MN Lower limit of level number                           E3000002400405 
-           (Used only if other information is not available)      3000002400406 
-LVL-NUM-MX Upper limit of level number                           E3000002400407 
+EN-RSL-HW1 1st incident projectile energy resolution (Half width)B3000002400267I
+EN-RSL-HW2 2nd incident projectile energy resolution (Half width)B3000002400268I
+EN-RSL-NM  Inc.proj.energy resol.(FWHM), REACTION ratio numeratorB3000002400269 
+MOM        Linear momentum of incident projectile                M3000002400270 
+MOM-MAX    Maximum linear momentum of incident projectile        M3000002400271 
+MOM-MIN    Minimum linear momentum of incident projectile        M3000002400272 
+MOM-ERR    Error of linear momentum of incident projectile       R3000002400273 
+MOM-RSL    Incident projectile linear momentum resolution        R3000002400274 
+EN-DUM-DN  Dummy incident energy, REACTION ratio denominator     A3000002400275 
+EN-DUM-NM  Dummy incident energy, REACTION ratio numerator       A3000002400276 
+EN-DUMMY   Dummy incident proj. energy, for broad spectrum       A3000002400277 
+            Used as the numerical equivalent of an incident       3000002400278 
+             particle spectrum when neither EN-MEAN nor KT        3000002400279 
+             apply.  See also INC-SPECT.                          3000002400280 
+            Quantity has modifier to specify spectrum.            3000002400281 
+EN-MEAN    Mean energy of incident projectile spectrum           A3000002400282 
+            Either mean energy of incident projectile spectrum or 3000002400283 
+             of energy range. Explanation in free text is required3000002400284 
+EN-MEAN-DN Inc. spectr. mean energy, REACTION ratio denominator  A3000002400285 
+EN-MEAN-NM Inc. spectr. mean energy, REACTION ratio numerator    A3000002400286 
+KT         Spectrum temperature (energy units)                   A3000002400287 
+KT-DN      Spectrum temperature, REACTION ratio denominator      A3000002400288 
+KT-DUM-DN  Dummy spectrum temperature, REACTION ratio denominatorA3000002400289 
+KT-DUM-NM  Dummy spectrum temperature, REACTION ratio numerator  A3000002400290 
+KT-DUMMY   Dummy spectrum temperature                            A3000002400291 
+            for spectrum temprature asssumed by compilers         3000002400292 
+            kT=1.42 MeV for 252Cf(sf), 1.32 MeV for 235U(nth,f)   3000002400293 
+KT-K       Spectrum temperature (temperature units)              A3000002400294 
+KT-NM      Spectrum temperature, REACTION ratio numerator        A3000002400295 
+KT-DUM-ERR Error in dummy spectrum temperature                   B3000002400296 
+KT-ERR     Error in spectrum temperature (energy units)          B3000002400297 
+KT-K-ERR   Error in spectrum temperature (temperature units)     B3000002400298 
+WVE-LN     Wave length of incident particle                      A3000002400299 
+WVE-LN-MAX Upper boundary of wave length of incident particle    A3000002400300I
+WVE-LN-MIN Lower boundary of wave length of incident particle    A3000002400301I
+           =======================================================3000002400302 
+           Secondary Energy                                       3000002400303 
+           =======================================================3000002400304 
+E          Energy of outgoing particle, lab. system              E3000002400305 
+           =Note= All codes starting with 'E' are in the          3000002400306 
+            laboratory system unless the extension 'CM' is given. 3000002400307 
+E-APRX     Approx. energy of outgoing particle, lab. system      E3000002400308 
+E-CM       Energy of outgoing particle, c.m. system              E3000002400309 
+E-CM-MAX   Upper limit of outgoing part. en. range, c.m. sys.    E3000002400310 
+E-CM-MIN   Lower limit of outgoing part. en. range, c.m. sys.    E3000002400311 
+E-DN       Outgoing particle energy, REACTION ratio denominator  E3000002400312 
+E-MAX      Upper limit of outgoing particle en. range, lab. sys. E3000002400313 
+E-MAX-CM   Upper limit of outgoing particle en. range, c.m. sys. E3000002400314O
+E-MAX-DN   Outgoing particle energy, REACTION ratio denominator  E3000002400315 
+E-MAX-NM   Outgoing particle energy, REACTION ratio numerator    E3000002400316 
+E-MEAN     Mean energy of outgoing particles, lab. system        E3000002400317 
+E-MIN      Lower limit of outgoing particle en. range, lab. sys. E3000002400318 
+E-MIN-CM   Lower limit of outgoing particle en. range, c.m. sys. E3000002400319O
+E-MIN-DN   Outgoing particle energy, REACTION ratio denominator  E3000002400320 
+E-MIN-NM   Outgoing particle energy, REACTION ratio numerator    E3000002400321 
+E-NM       Outgoing particle energy, REACTION ratio numerator    E3000002400322 
+E-RL       Relative energy of outgoing particles                 E3000002400323 
+E-RL-CM    Relative energy of outgoing particle, c.m. system     E3000002400324O
+E-RL-MAX   Upper limit of relative energy of outgoing part.in labE3000002400325 
+E-RL-MIN   Lower limit of relative energy of outgoing part.in labE3000002400326 
+E1         1st outgoing part. en., defined under EN-SEC          E3000002400327 
+E1-CM      1st outgoing part. en., c.m. defined under EN-SEC     E3000002400328 
+E1-MAX     Upper limit, 1st outgoing part. en.range, see EN-SEC  E3000002400329 
+E1-MIN     Lower limit, 1st outgoing part. en.range, see EN-SEC  E3000002400330 
+E2         2nd outgoing part. energy, defined under EN-SEC       E3000002400331 
+E2-MAX     Upper limit, 2nd outgoing part. en.range, see EN-SEC  E3000002400332 
+E2-MIN     Lower limit, 2nd outgoing part. en.range, see EN-SEC  E3000002400333 
+S          Distance along S-curve for range of E1 and E2         E3000002400334 
+S-MEAN     Mean distance along S-curve for range of E1 and E2    E3000002400335 
+TKE        Total kinetic energy                                  E3000002400336 
+TKE-MAX    Upper boundary of total kinetic energy                E3000002400337 
+TKE-MIN    Lower boundary of total kinetic energy                E3000002400338 
+WVE-LN-SEC Wave length of outgoing particle                      E3000002400339 
++E-ERR     + Unsymmetric outgoing particle energy error          F3000002400340 
+-E-ERR     - Unsymmetric outgoing particle energy error          F3000002400341 
+E-DN-ERR   Error in outgoing particle en., REACTION ratio denom. F3000002400342 
+E-ERR      Outgoing particle energy error                        F3000002400343 
+E-ERR-DIG  Digitizing error of outgoing particle energy          F3000002400344 
+E-NM-ERR   Error in outgoing particle en., REACTION ratio numeratF3000002400345 
+E-RL-ERR   Error in relative energy of outgoing particles        F3000002400346 
+E-RSL      Outgoing particle energy resolution                   F3000002400347 
+E-RSL-FW   Outgoing particle energy resolution (full width)      F3000002400348 
+E-RSL-HW   Outgoing particle energy resolution (half width)      F3000002400349 
+E1-ERR     1st outgoing particle energy error                    F3000002400350 
+E2-ERR     2nd outgoing particle energy error                    F3000002400351 
+TKE-ERR-D  Digitizing error of total kinetic energy              F3000002400352 
+E-LVL      Level energy                                          E3000002400353 
+            Compare also with BIB keyword LEVEL-PROP.             3000002400354 
+E-LVL-DN   Level energy, REACTION ratio denominator              E3000002400355 
+E-LVL-FIN  Final level of gamma transition                       E3000002400356 
+E-LVL-FIN1 Final level of gamma transition, def.under EN-SEC     E3000002400357 
+E-LVL-FIN2 Final level of gamma transition, def.under EN-SEC     E3000002400358 
+E-LVL-INI  Initial level of gamma transition                     E3000002400359 
+E-LVL-INI1 Initial level of gamma transition, def.under EN-SEC   E3000002400360 
+E-LVL-INI2 Initial level of gamma transition, def.under EN-SEC   E3000002400361 
+E-LVL-MAX  Upper energy limit of discrete level group            E3000002400362 
+E-LVL-MEAN Mean level energy                                     E3000002400363 
+E-LVL-MIN  Lower energy limit of discrete level group            E3000002400364 
+E-LVL-NM   Level energy, REACTION ratio numerator                E3000002400365 
+E-LVL1     1st level energy, defined under EN-SEC                E3000002400366 
+E-LVL1-MAX Upper limit of 1st level energy range                 E3000002400367 
+E-LVL1-MIN Lower limit of 1st level energy range                 E3000002400368 
+E-LVL2     2nd level energy, defined under EN-SEC                E3000002400369 
+E-LVL2-MAX Upper limit of 2nd level energy range                 E3000002400370 
+E-LVL2-MIN Lower limit of 2nd level energy range                 E3000002400371 
++E-LVL-ERR + Unsymmetric level energy error                      F3000002400372 
+-E-LVL-ERR - Unsymmetric level energy error                      F3000002400373 
+E-LVL-ERR  Level energy error                                    F3000002400374 
+E-EXC      Excitation energy                                     E3000002400375 
+E-EXC-DN   Excitation energy for denominator of REACTION ratio   E3000002400376 
+E-EXC-MAX  Upper limit of excitation energy range                E3000002400377 
+E-EXC-MEAN Mean excitation energy                                E3000002400378 
+E-EXC-MIN  Lower limit of excitation energy range                E3000002400379 
+E-EXC-MX-A Approximate upper limit of excitation energy range    E3000002400380I
+E-EXC-NM   Excitation energy for numerator of REACTION ratio     E3000002400381 
+E-EXC1     1st excitation energy, defined under EN-SEC           E3000002400382 
+            If more than one given.                               3000002400383 
+E-EXC1-MAX Upper limit of 1st excitation energy range            E3000002400384 
+E-EXC1-MIN Lower limit of 1st excitation energy range            E3000002400385 
+E-EXC2     2nd excitation energy, defined under EN-SEC.          E3000002400386 
+E-EXC2-MAX Upper limit of 2nd excitation energy range            E3000002400387 
+E-EXC3     3rd excitation energy, defined under EN-SEC.          E3000002400388 
+E-EXC-ERR  Excitation energy error                               F3000002400389 
+E-EXC-ERR1 1st excitation energy error, defined under ERR-ANALYS F3000002400390 
+E-EXC-ERR2 2nd excitation energy error, defined under ERR-ANALYS F3000002400391 
+Q-VAL      Q-value                                               E3000002400392 
+Q-VAL-APRX Approximate Q-value                                   E3000002400393 
+Q-VAL-MAX  Upper limit of Q-value                                E3000002400394 
+Q-VAL-MEAN Mean Q-value                                          E3000002400395 
+Q-VAL-MIN  Lower limit of Q-value                                E3000002400396 
+Q-VAL-ERR  Q-value uncertainty                                   F3000002400397 
+Q-VAL-RSL  Q-value resolution                                    F3000002400398 
+E-DGD      Degradation in incident vs. outgoing particle energy  E3000002400399 
+E-DGD-MAX  Upper limit of degradat. in inc. vs. outgoing part.en.E3000002400400 
+E-DGD-MIN  Lower limit of degradat. in inc. vs. outgoing part.en.E3000002400401 
+E-DGD-ERR  Error in degradation in incident vs. outgoing part.en.F3000002400402 
+E-GAIN     Gain in incident vs. outgoing particle energy         E3000002400403 
+E-GAIN-ERR Error in gain in incident vs. outgoing particle energyF3000002400404 
+IAS-NUMB   Level number of isobaric analog state                 E3000002400405 
+ISO-NUMB   Level number of isobaric analog state                 E3000002400406O
+LVL-NUM-DN Level number, REACTION ratio denominator              E3000002400407 
            (Used only if other information is not available)      3000002400408 
-LVL-NUM-NM Level number, REACTION ratio numerator                E3000002400409 
+LVL-NUM-MN Lower limit of level number                           E3000002400409 
            (Used only if other information is not available)      3000002400410 
-LVL-NUMB   Level number                                          E3000002400411 
+LVL-NUM-MX Upper limit of level number                           E3000002400411 
            (Used only if other information is not available)      3000002400412 
-            Compare also to the BIB Keyword LEVEL-PROP.           3000002400413 
--t         4-momentum transfer squared                            3000002400414 
-M1         Linear momentum of 1st outgoing particle              L3000002400415O
-            More than one linear momentum field given.            3000002400416O
-M1-MAX     Upper limit of 1st outgoing particle linear momentum  L3000002400417O
-M1-MIN     Lower limit of 1st outgoing particle linear momentum  L3000002400418O
-M1-SEC-MAX Upper limit of 1st outgoing particle linear momentum  L3000002400419 
-M1-SEC-MIN Lower limit of 1st outgoing particle linear momentum  L3000002400420 
-M2         Linear momentum of 2nd outgoing particle              L3000002400421O
-M2-MAX     Upper limit of 2nd outgoing particle linear momentum  L3000002400422O
-M2-MIN     Lower limit of 2nd outgoing particle linear momentum  L3000002400423O
-M2-SEC-MAX Upper limit of 2nd outgoing particle linear momentum  L3000002400424 
-M2-SEC-MIN Lower limit of 2nd outgoing particle linear momentum  L3000002400425 
-M3         Linear momentum of 3rd outgoing particle              L3000002400426O
-M4         Linear momentum of 4th outgoing particle              L3000002400427O
-M5         Linear momentum of 5th outgoing particle              L3000002400428O
-MOM-SEC    Linear momentum of outgoing particle                  L3000002400429 
-MOM-SEC-MN Minimum linear momentum of outgoing particle          L3000002400430 
-MOM-SEC-MX Maximum linear momentum of outgoing particle          L3000002400431 
-MOM-SEC1   1st linear momentum of outgoing particle              L3000002400432 
-            Defined under MOM-SEC.                                3000002400433 
-            More than one linear momentum given.                  3000002400434 
-MOM-SEC2   2nd linear momentum of outgoing particle              L3000002400435 
-            Defined under MOM-SEC.                                3000002400436 
-MOM-SEC3   3rd linear momentum of outgoing particle              L3000002400437 
-            Defined under MOM-SEC.                                3000002400438 
-MOM-SEC4   4th linear momentum of outgoing particle              L3000002400439 
+LVL-NUM-NM Level number, REACTION ratio numerator                E3000002400413 
+           (Used only if other information is not available)      3000002400414 
+LVL-NUMB   Level number                                          E3000002400415 
+           (Used only if other information is not available)      3000002400416 
+            Compare also to the BIB Keyword LEVEL-PROP.           3000002400417 
+-t         4-momentum transfer squared                            3000002400418 
+M1         Linear momentum of 1st outgoing particle              L3000002400419O
+            More than one linear momentum field given.            3000002400420O
+M1-MAX     Upper limit of 1st outgoing particle linear momentum  L3000002400421O
+M1-MIN     Lower limit of 1st outgoing particle linear momentum  L3000002400422O
+M1-SEC-MAX Upper limit of 1st outgoing particle linear momentum  L3000002400423 
+M1-SEC-MIN Lower limit of 1st outgoing particle linear momentum  L3000002400424 
+M2         Linear momentum of 2nd outgoing particle              L3000002400425O
+M2-MAX     Upper limit of 2nd outgoing particle linear momentum  L3000002400426O
+M2-MIN     Lower limit of 2nd outgoing particle linear momentum  L3000002400427O
+M2-SEC-MAX Upper limit of 2nd outgoing particle linear momentum  L3000002400428 
+M2-SEC-MIN Lower limit of 2nd outgoing particle linear momentum  L3000002400429 
+M3         Linear momentum of 3rd outgoing particle              L3000002400430O
+M4         Linear momentum of 4th outgoing particle              L3000002400431O
+M5         Linear momentum of 5th outgoing particle              L3000002400432O
+MOM-SEC    Linear momentum of outgoing particle                  L3000002400433 
+MOM-SEC-MN Minimum linear momentum of outgoing particle          L3000002400434 
+MOM-SEC-MX Maximum linear momentum of outgoing particle          L3000002400435 
+MOM-SEC1   1st linear momentum of outgoing particle              L3000002400436 
+            Defined under MOM-SEC.                                3000002400437 
+            More than one linear momentum given.                  3000002400438 
+MOM-SEC2   2nd linear momentum of outgoing particle              L3000002400439 
             Defined under MOM-SEC.                                3000002400440 
-MOM-SEC5   5th linear momentum of outgoing particle              L3000002400441 
+MOM-SEC3   3rd linear momentum of outgoing particle              L3000002400441 
             Defined under MOM-SEC.                                3000002400442 
-MOM-SEC-ER Error of linear momentum of outgoing particle         L3000002400443 
-POLAR      Polarity                                              E3000002400444 
-            Electric or magnetic polarity                         3000002400445 
-POLAR-DN   Polarity for denominator of REACTION ratio            E3000002400446 
-POLAR-NM   Polarity for numerator of REACTION ratio              E3000002400447 
-           =======================================================3000002400448 
-           Angle                                                  3000002400449 
-           =======================================================3000002400450 
-ANG        Angle, laboratory system                              G3000002400451 
-           =Note= All codes starting with 'ANG' are in the        3000002400452 
-            Laboratory system unless the extension 'CM' is given. 3000002400453 
-ANG-AZ     Azimuthal angle                                       G3000002400454O
-ANG-AZ-RL  Azimuthal angle between 2 reaction planes             G3000002400455 
-ANG-AZ1    Azimuthal angle                                       G3000002400456O
-ANG-AZ2    Azimuthal angle                                       G3000002400457O
-ANG-CM     Angle, c.m. system                                    G3000002400458 
-ANG-CM-DN  Angle for REACTION ratio denominator, c.m. system     G3000002400459 
-ANG-CM-MAX Upper limit of angular range, c.m. system             G3000002400460 
-ANG-CM-MIN Lower limit of angular range, c.m. system             G3000002400461 
-ANG-CM-NM  Angle for REACTION ratio numerator, c.m. system       G3000002400462 
-ANG-DN     Angle, REACTION ratio denominator                     G3000002400463 
-ANG-MAX    Upper limit of angular range, lab. system             G3000002400464 
-ANG-MIN    Lower limit of angular range, lab. system             G3000002400465 
-ANG-MN     Mean angle of correlated pair                         G3000002400466 
-ANG-NM     Angle, REACTION ratio numerator                       G3000002400467 
-ANG-RL     Relative angle                                        G3000002400468 
-ANG-RL-CM  Relative angle, c.m. system                           G3000002400469 
-ANG-RL-DN  Relative angle for REACTION ratio denominator         G3000002400470 
-ANG-RL-MAX Upper limit of relative angular range                 G3000002400471 
-ANG-RL-MIN Lower limit of relative angular range                 G3000002400472 
-ANG-RL-NM  Relative angle for REACTION ratio numerator           G3000002400473 
-ANG1       1st angle, definition given in BIB Section            G3000002400474 
-            If more than one angle is given.                      3000002400475 
-ANG1-CM    Angle, c.m. system, definition given in BIB           G3000002400476 
-ANG1-CM-MN Lower limit of first angle, c.m. system               G3000002400477 
-ANG1-CM-MX Upper limit of first angle, c.m. system               G3000002400478 
-ANG1-MAX   Upper limit of first angular range, lab. system       G3000002400479 
-ANG1-MIN   Lower limit of first angular range, lab. system       G3000002400480 
-ANG2       2nd angle, definition given in BIB section            G3000002400481 
-ANG2-CM    Angle, c.m. system, definition given in BIB           G3000002400482 
-ANG2-MAX   Upper limit of second angular range, lab. system      G3000002400483 
-ANG2-MIN   Lower limit of second angular range, lab. system      G3000002400484 
-ANG3       3rd Angle, definition given in BIB Section            G3000002400485 
-ANG4       4th Angle, definition given in BIB Section            G3000002400486 
-+ANG-RSL   + Unsymmetric angular resolution                      H3000002400487 
--ANG-RSL   - Unsymmetric angular resolution                      H3000002400488 
-ANG-ERR    Angle error                                           H3000002400489 
-ANG-ERR-D  Digitizing error of angle                             H3000002400490 
-ANG-MN-ERR Error of mean angle of correlated pair                H3000002400491 
-ANG-RSL    Angular resolution                                    H3000002400492 
-ANG-RSL-FW Angular resolution (FWHM)                             H3000002400493 
-ANG-RSL-HW Angular resolution (HWHM)                             H3000002400494 
-ANG1-ERR   1st angle error, definition given in BIB section      H3000002400495 
-ANG2-ERR   2nd angle error, definition given in BIB Section      H3000002400496 
-COS        Cosine of angle, laboratory system                    G3000002400497 
-           =Note= All codes starting with 'COS' are in the        3000002400498 
-            laboratory system unless the extension 'CM' is given. 3000002400499 
-COS-CM     Cosine of angle, c.m.system                           G3000002400500 
-COS-CM-MAX Upper limit of cosine range, c.m. system              G3000002400501 
-COS-CM-MIN Lower limit of cosine range, c.m. system              G3000002400502 
-COS-MAX    Upper limit of cosine range, lab. system              G3000002400503 
-COS-MIN    Lower limit of cosine range, lab. system              G3000002400504 
-COS-ERR    Cosine error                                          H3000002400505 
-COS-ERR-D  Digitizing error of cosine                            H3000002400506 
-COS-RSL    Cosine angular resolution                             H3000002400507 
-MOM-TR     Momentum transfer (in units MeV/c or equiv.)          G3000002400508 
-MOM-TR-CM  Momentum transfer (in units MeV/c or equiv.), c.m.sys.G3000002400509 
-q          Momentum transfer, q                                  G3000002400510 
-q-CM       Momentum transfer, q, center of mass system           G3000002400511 
-MOM-TR-ERR Error of momentum transfer (in units MeV/c or equiv.) H3000002400512 
-WVE-NM     Wave number                                           G3000002400513 
-           =======================================================3000002400514 
-           Coefficient Number                                     3000002400515 
-           =======================================================3000002400516 
-NUMBER     Fitting coefficient number                            N3000002400517 
-NUMBER-CM  Fitting coefficient number, for data in c.m. system   N3000002400518O
-            Use NUMBER                                            3000002400519O
-KQ         Indices for tensor analyzing power                    N3000002400520O
-           =======================================================3000002400521 
-           Independent Variables or Associated Inform.            3000002400522 
-           =======================================================3000002400523 
-TEMP       Sample temperature                                    83000002400524 
-TEMP-ERR   Error in sample temperature                           93000002400525 
-THICKNESS  Sample thickness                                      K3000002400526 
-            Used as independent variable when data from several   3000002400527 
-             runs with different sample thicknesses are given.    3000002400528 
-POL-BM     Beam polarization                                      3000002400529 
-POL-BM-ERR Beam polarization error                                3000002400530 
-POL-BM-MAX Upper limit of beam polarization                       3000002400531 
-POL-BM-MIN Lower limit of beam polarization                       3000002400532 
-POL-TR     Target polarization                                    3000002400533 
-POL-TR-ERR Target polarization error                              3000002400534 
-HL         Half-life of nuclide specified.                       63000002400535 
-            - of Nucleus given under HALF-LIFE or RESID-NUC       3000002400536 
-              or of delayed neutron group                         3000002400537 
-            - or as Independent Variable                          3000002400538 
-HL-DN      Half-life of nuclide specified in ratio denominator   63000002400539 
-HL-MAX     Upper limit of half-life of nuclide specified.        63000002400540I
-HL-MIN     Lower limit of half-life of nuclide specified.        63000002400541I
-HL-NM      Half-life of nuclide specified in ratio numerator     63000002400542 
-HL1        Half-life of 1st nucleus specified                    63000002400543 
-            More than one half-life given.                        3000002400544 
-HL2        Half-life of 2nd nucleus specified                    63000002400545 
-HL3        Half-life of 3rd nucleus specified                    63000002400546 
-HL4        Half-life of 4th nucleus specified                    63000002400547 
-HL-ERR     Error in Half-life                                    73000002400548 
-HL1-ERR    Error in Half-life of 1st nucleus specified           73000002400549 
-HL2-ERR    Error in Half-life of 2nd nucleus specified           73000002400550 
-HL3-ERR    Error in Half-life of 3rd nucleus specified           73000002400551 
-HL4-ERR    Error in Half-life of 4th nucleus specified           73000002400552 
-GRP-NUM    Group number (of delayed neutrons)                    N3000002400553 
-DCNST      Decay constant                                        N3000002400554 
-ERR-EDD    Error of energy value given under DECAY-DATA           3000002400555 
-ERR-HL     Error of half-life value given under DECAY-DATA        3000002400556 
-ERR-IDD    Error of intensity value given under DECAY-DATA        3000002400557 
-DCNST-ERR  Error in decay constant                               N3000002400558 
-           =======================================================3000002400559 
-           Isotope/Particle Identification                        3000002400560 
-           =======================================================3000002400561 
-ELEM-DN    Atomic number, REACTION ratio denominator             I3000002400562 
-ELEM-MAX   Upper limit of atomic number range                    I3000002400563 
-ELEM-MIN   Lower limit of atomic number range                    I3000002400564 
-            for isotope yields only                               3000002400565 
-ELEM-NM    Atomic number, REACTION ratio numerator               I3000002400566 
-ELEM1      Atomic number of 1st element                          I3000002400567 
-ELEM2      Atomic number of 2nd element                          I3000002400568 
-ELEM3      Atomic number of 3rd element                          I3000002400569 
-ELEMENT    Atomic number of element                              I3000002400570 
-            for product yields or delayed neutron precursor nuclei3000002400571 
-MASS       Atomic mass of nuclide                                J3000002400572 
-            For product yields or delayed neutron precursor       3000002400573 
-             nuclei.                                              3000002400574 
-MASS-DN    Atomic mass of nuclide, REACTION ratio denominator    J3000002400575 
-MASS-MAX   Upper limit of atomic mass range                      J3000002400576 
-MASS-MIN   Lower limit of atomic mass range                      J3000002400577 
-MASS-NM    Atomic mass of nuclide, REACTION ratio numerator      J3000002400578 
-MASS-RATIO Ratio of atomic masses of Fission Fragments           J3000002400579 
-MASS1      Atomic mass of 1st nuclide                            J3000002400580 
-MASS1-MAX  Maximum atomic mass of 1st nuclide                    J3000002400581 
-MASS2      Atomic mass of 2nd nuclide                            J3000002400582 
-MASS2-MIN  Minimum atomic mass of 2nd nuclide                    J3000002400583 
-MASS3      Atomic mass of 3rd nuclide                            J3000002400584 
-+MASS-ERR  + Unsymmetric uncertainty in atomic mass               3000002400585 
--MASS-ERR  - Unsymmetric uncertainty in atomic mass               3000002400586 
-MASS-ERR-D Digitizing error in atomic mass of nuclide             3000002400587 
-MASS-RSL   Mass resolution                                        3000002400588 
-            For mass ranges in product yields.                    3000002400589 
-ISOMER     Isomer for nuclide given                              J3000002400590 
-            Nuclide given in preceding fields under ELEMENT       3000002400591 
-             and MASS.                                            3000002400592 
-             blank = Nucleus has no Metastable state              3000002400593 
-               0.  = Ground state (when Metastable state exists)  3000002400594 
-               1.  = 1st or unspecified Metastable state          3000002400595 
-               2.  = 2nd Metastable state, etc.                   3000002400596 
-ISOMER-DN  Isomer for nuclide, REACTION ratio denominator        J3000002400597 
-ISOMER-NM  Isomer for nuclide, REACTION ratio numerator          J3000002400598 
-ISOMER1    1st Isomer for nuclide                                J3000002400599 
-ISOMER2    2nd Isomer for nuclide                                J3000002400600 
-ELEM-NRM   Atomic number of nuclide used for normalization        3000002400601 
-MASS-NRM   Atomic mass of nuclide used for normalization          3000002400602 
-EMS        Effective mass squared                                S3000002400603O
-EMS1       1st effective mass squared, defined under MOM-SEC.    S3000002400604O
-EMS1-MAX   Upper limit, 1st effective mass squared, see MOM-SEC  S3000002400605O
-EMS1-MIN   Lower limit, 1st effective mass squared, see MOM-SEC  S3000002400606O
-EMS2       2nd effective mass squared, defined under MOM-SEC.    S3000002400607O
-EMS2-MAX   Upper limit, 2nd effective mass squared, see MOM-SEC  S3000002400608O
-EMS2-MIN   Lower limit, 2nd effective mass squared, see MOM-SEC  S3000002400609O
-EMS3       3rd effective mass squared, defined under MOM-SEC     S3000002400610O
-EMS4       4th effective mass squared, defined under MOM-SEC     S3000002400611O
-EMS5       5th effective mass squared, defined under MOM-SEC     S3000002400612O
-N-OUT      Number of emitted neutrons                            O3000002400613O
-P-OUT      Number of emitted protons                             P3000002400614O
-PART-OUT   Number of emitted particles                           P3000002400615 
-           =======================================================3000002400616 
-           Additional Information                                 3000002400617 
-           =======================================================3000002400618 
-+MISC-ERR  + Unsymmetric error in miscellaneous value             3000002400619 
--MISC-ERR  - Unsymmetric error in miscellaneous value             3000002400620 
-ANAL-STEP  Analysis energy step                                   3000002400621 
-DECAY-FLAG Decay flag. See corresponding flag in BIB section      3000002400622 
-            Used in variable product nucleus formalism to link    3000002400623 
-             product nuclei in DATA section to codes under        3000002400624 
-             DECAY-DATA or RAD-DET (re PART-DET proposal is       3000002400625 
-             pending).                                            3000002400626 
-FLAG       Flag, defined under FLAG.                             Z3000002400627 
-LVL        Level energy as additional information                 3000002400628 
-LVL-ERR    Error of level energy as additional information        3000002400629 
-LVL-FIN    Final level energy as additional information           3000002400630 
-LVL-FIN-ER Error of final level energy as addit.information       3000002400631 
-LVL-FIN1   1st final level energy as additional information       3000002400632 
-LVL-FIN2   2nd final level energy as additional information       3000002400633 
-LVL-FLAG   Level Flag, Link to information under LEVEL-PROP       3000002400634 
-LVL-INI    Initial level energy as additional information         3000002400635 
-LVL-INI-ER Error of initial level energy as addit.information     3000002400636 
-LVL-INI1   1st initial level energy as additional information     3000002400637 
-LVL-INI2   2nd initial level energy as additional information     3000002400638 
-MISC       Miscellaneous Information, defined under MISC-COL.     3000002400639 
-            Supplementary information for which no data-Heading   3000002400640 
-             Keyword has been defined.                            3000002400641 
-MISC-ERR   Error in miscellaneous value                           3000002400642 
-MISC-ERR-D Digitizing error in miscellaneous value                3000002400643 
-MISC-MAX   Upper limit of miscellaneous value                     3000002400644 
-MISC-MIN   Lower limit of miscellaneous value                     3000002400645 
-MISC1      1st miscellaneous field, defined under MISC-COL        3000002400646 
-            More than one miscellaneous field given.              3000002400647 
-MISC1-ERR  Error in 1st miscellaneous field                       3000002400648 
-MISC10     10th miscellaneous field, defined under MISC-COL       3000002400649 
-MISC2      2nd miscellaneous field, defined under MISC-COL        3000002400650 
-MISC2-ERR  Error in 2nd miscellaneous field                       3000002400651 
-MISC3      3rd miscellaneous field, defined under MISC-COL        3000002400652 
-MISC3-ERR  Error in 3rd miscellaneous field                       3000002400653 
-MISC4      4th miscellaneous field, defined under MISC-COL        3000002400654 
-MISC4-ERR  Error in 4th miscellaneous field                       3000002400655 
-MISC5      5th miscellaneous field, defined under MISC-COL        3000002400656 
-MISC5-ERR  Error in 5th miscellaneous field                       3000002400657 
-MISC6      6th miscellaneous field, defined under MISC-COL        3000002400658 
-MISC6-ERR  Error in 6th miscellaneous field                       3000002400659 
-MISC7      7th miscellaneous field, defined under MISC-COL        3000002400660 
-MISC7-ERR  Error in 7th miscellaneous field                       3000002400661 
-MISC8      8th miscellaneous field, defined under MISC-COL        3000002400662 
-MISC8-ERR  Error in 8th miscellaneous field                       3000002400663 
-MISC9      9th miscellaneous field, defined under MISC-COL        3000002400664 
-TIME-IRRD  Irradiation time                                       3000002400665 
-            for unsaturated thick target yields                   3000002400666 
-TOF-MAX    Upper boundary of time-of-flight                       3000002400667 
-TOF-MIN    Lower boundary of time-of-flight                       3000002400668 
+MOM-SEC4   4th linear momentum of outgoing particle              L3000002400443 
+            Defined under MOM-SEC.                                3000002400444 
+MOM-SEC5   5th linear momentum of outgoing particle              L3000002400445 
+            Defined under MOM-SEC.                                3000002400446 
+MOM-SEC-ER Error of linear momentum of outgoing particle         L3000002400447 
+POLAR      Polarity                                              E3000002400448 
+            Electric or magnetic polarity                         3000002400449 
+POLAR-DN   Polarity for denominator of REACTION ratio            E3000002400450 
+POLAR-NM   Polarity for numerator of REACTION ratio              E3000002400451 
+           =======================================================3000002400452 
+           Angle                                                  3000002400453 
+           =======================================================3000002400454 
+ANG        Angle, laboratory system                              G3000002400455 
+           =Note= All codes starting with 'ANG' are in the        3000002400456 
+            Laboratory system unless the extension 'CM' is given. 3000002400457 
+ANG-AZ     Azimuthal angle                                       G3000002400458O
+ANG-AZ-RL  Azimuthal angle between 2 reaction planes             G3000002400459 
+ANG-AZ1    Azimuthal angle                                       G3000002400460O
+ANG-AZ2    Azimuthal angle                                       G3000002400461O
+ANG-CM     Angle, c.m. system                                    G3000002400462 
+ANG-CM-DN  Angle for REACTION ratio denominator, c.m. system     G3000002400463 
+ANG-CM-MAX Upper limit of angular range, c.m. system             G3000002400464 
+ANG-CM-MIN Lower limit of angular range, c.m. system             G3000002400465 
+ANG-CM-NM  Angle for REACTION ratio numerator, c.m. system       G3000002400466 
+ANG-DN     Angle, REACTION ratio denominator                     G3000002400467 
+ANG-MAX    Upper limit of angular range, lab. system             G3000002400468 
+ANG-MIN    Lower limit of angular range, lab. system             G3000002400469 
+ANG-MN     Mean angle of correlated pair                         G3000002400470 
+ANG-NM     Angle, REACTION ratio numerator                       G3000002400471 
+ANG-RL     Relative angle                                        G3000002400472 
+ANG-RL-CM  Relative angle, c.m. system                           G3000002400473 
+ANG-RL-DN  Relative angle for REACTION ratio denominator         G3000002400474 
+ANG-RL-MAX Upper limit of relative angular range                 G3000002400475 
+ANG-RL-MIN Lower limit of relative angular range                 G3000002400476 
+ANG-RL-NM  Relative angle for REACTION ratio numerator           G3000002400477 
+ANG1       1st angle, definition given in BIB Section            G3000002400478 
+            If more than one angle is given.                      3000002400479 
+ANG1-CM    Angle, c.m. system, definition given in BIB           G3000002400480 
+ANG1-CM-MN Lower limit of first angle, c.m. system               G3000002400481 
+ANG1-CM-MX Upper limit of first angle, c.m. system               G3000002400482 
+ANG1-MAX   Upper limit of first angular range, lab. system       G3000002400483 
+ANG1-MIN   Lower limit of first angular range, lab. system       G3000002400484 
+ANG2       2nd angle, definition given in BIB section            G3000002400485 
+ANG2-CM    Angle, c.m. system, definition given in BIB           G3000002400486 
+ANG2-MAX   Upper limit of second angular range, lab. system      G3000002400487 
+ANG2-MIN   Lower limit of second angular range, lab. system      G3000002400488 
+ANG3       3rd Angle, definition given in BIB Section            G3000002400489 
+ANG4       4th Angle, definition given in BIB Section            G3000002400490 
++ANG-RSL   + Unsymmetric angular resolution                      H3000002400491 
+-ANG-RSL   - Unsymmetric angular resolution                      H3000002400492 
+ANG-ERR    Angle error                                           H3000002400493 
+ANG-ERR-D  Digitizing error of angle                             H3000002400494 
+ANG-MN-ERR Error of mean angle of correlated pair                H3000002400495 
+ANG-RSL    Angular resolution                                    H3000002400496 
+ANG-RSL-FW Angular resolution (FWHM)                             H3000002400497 
+ANG-RSL-HW Angular resolution (HWHM)                             H3000002400498 
+ANG1-ERR   1st angle error, definition given in BIB section      H3000002400499 
+ANG2-ERR   2nd angle error, definition given in BIB Section      H3000002400500 
+COS        Cosine of angle, laboratory system                    G3000002400501 
+           =Note= All codes starting with 'COS' are in the        3000002400502 
+            laboratory system unless the extension 'CM' is given. 3000002400503 
+COS-CM     Cosine of angle, c.m.system                           G3000002400504 
+COS-CM-MAX Upper limit of cosine range, c.m. system              G3000002400505 
+COS-CM-MIN Lower limit of cosine range, c.m. system              G3000002400506 
+COS-MAX    Upper limit of cosine range, lab. system              G3000002400507 
+COS-MIN    Lower limit of cosine range, lab. system              G3000002400508 
+COS-ERR    Cosine error                                          H3000002400509 
+COS-ERR-D  Digitizing error of cosine                            H3000002400510 
+COS-RSL    Cosine angular resolution                             H3000002400511 
+MOM-TR     Momentum transfer (in units MeV/c or equiv.)          G3000002400512 
+MOM-TR-CM  Momentum transfer (in units MeV/c or equiv.), c.m.sys.G3000002400513 
+q          Momentum transfer, q                                  G3000002400514 
+q-CM       Momentum transfer, q, center of mass system           G3000002400515 
+MOM-TR-ERR Error of momentum transfer (in units MeV/c or equiv.) H3000002400516 
+WVE-NM     Wave number                                           G3000002400517 
+           =======================================================3000002400518 
+           Coefficient Number                                     3000002400519 
+           =======================================================3000002400520 
+NUMBER     Fitting coefficient number                            N3000002400521 
+NUMBER-CM  Fitting coefficient number, for data in c.m. system   N3000002400522O
+            Use NUMBER                                            3000002400523O
+KQ         Indices for tensor analyzing power                    N3000002400524O
+           =======================================================3000002400525 
+           Independent Variables or Associated Inform.            3000002400526 
+           =======================================================3000002400527 
+TEMP       Sample temperature                                    83000002400528 
+TEMP-ERR   Error in sample temperature                           93000002400529 
+THICKNESS  Sample thickness                                      K3000002400530 
+            Used as independent variable when data from several   3000002400531 
+             runs with different sample thicknesses are given.    3000002400532 
+POL-BM     Beam polarization                                      3000002400533 
+POL-BM-ERR Beam polarization error                                3000002400534 
+POL-BM-MAX Upper limit of beam polarization                       3000002400535 
+POL-BM-MIN Lower limit of beam polarization                       3000002400536 
+POL-TR     Target polarization                                    3000002400537 
+POL-TR-ERR Target polarization error                              3000002400538 
+HL         Half-life of nuclide specified.                       63000002400539 
+            - of Nucleus given under HALF-LIFE or RESID-NUC       3000002400540 
+              or of delayed neutron group                         3000002400541 
+            - or as Independent Variable                          3000002400542 
+HL-DN      Half-life of nuclide specified in ratio denominator   63000002400543 
+HL-MAX     Upper limit of half-life of nuclide specified.        63000002400544 
+HL-MIN     Lower limit of half-life of nuclide specified.        63000002400545 
+HL-NM      Half-life of nuclide specified in ratio numerator     63000002400546 
+HL1        Half-life of 1st nucleus specified                    63000002400547 
+            More than one half-life given.                        3000002400548 
+HL2        Half-life of 2nd nucleus specified                    63000002400549 
+HL3        Half-life of 3rd nucleus specified                    63000002400550 
+HL4        Half-life of 4th nucleus specified                    63000002400551 
+HL-ERR     Error in Half-life                                    73000002400552 
+HL1-ERR    Error in Half-life of 1st nucleus specified           73000002400553 
+HL2-ERR    Error in Half-life of 2nd nucleus specified           73000002400554 
+HL3-ERR    Error in Half-life of 3rd nucleus specified           73000002400555 
+HL4-ERR    Error in Half-life of 4th nucleus specified           73000002400556 
+GRP-NUM    Group number (of delayed neutrons)                    N3000002400557 
+DCNST      Decay constant                                        N3000002400558 
+ERR-EDD    Error of energy value given under DECAY-DATA           3000002400559 
+ERR-HL     Error of half-life value given under DECAY-DATA        3000002400560 
+ERR-IDD    Error of intensity value given under DECAY-DATA        3000002400561 
+DCNST-ERR  Error in decay constant                               N3000002400562 
+           =======================================================3000002400563 
+           Isotope/Particle Identification                        3000002400564 
+           =======================================================3000002400565 
+ELEM-DN    Atomic number, REACTION ratio denominator             I3000002400566 
+ELEM-MAX   Upper limit of atomic number range                    I3000002400567 
+ELEM-MIN   Lower limit of atomic number range                    I3000002400568 
+            for isotope yields only                               3000002400569 
+ELEM-NM    Atomic number, REACTION ratio numerator               I3000002400570 
+ELEM1      Atomic number of 1st element                          I3000002400571 
+ELEM2      Atomic number of 2nd element                          I3000002400572 
+ELEM3      Atomic number of 3rd element                          I3000002400573 
+ELEMENT    Atomic number of element                              I3000002400574 
+            for product yields or delayed neutron precursor nuclei3000002400575 
+MASS       Atomic mass of nuclide                                J3000002400576 
+            For product yields or delayed neutron precursor       3000002400577 
+             nuclei.                                              3000002400578 
+MASS-DN    Atomic mass of nuclide, REACTION ratio denominator    J3000002400579 
+MASS-MAX   Upper limit of atomic mass range                      J3000002400580 
+MASS-MIN   Lower limit of atomic mass range                      J3000002400581 
+MASS-NM    Atomic mass of nuclide, REACTION ratio numerator      J3000002400582 
+MASS-RATIO Ratio of atomic masses of Fission Fragments           J3000002400583 
+MASS1      Atomic mass of 1st nuclide                            J3000002400584 
+MASS1-MAX  Maximum atomic mass of 1st nuclide                    J3000002400585 
+MASS2      Atomic mass of 2nd nuclide                            J3000002400586 
+MASS2-MIN  Minimum atomic mass of 2nd nuclide                    J3000002400587 
+MASS3      Atomic mass of 3rd nuclide                            J3000002400588 
++MASS-ERR  + Unsymmetric uncertainty in atomic mass               3000002400589 
+-MASS-ERR  - Unsymmetric uncertainty in atomic mass               3000002400590 
+MASS-ERR-D Digitizing error in atomic mass of nuclide             3000002400591 
+MASS-RSL   Mass resolution                                        3000002400592 
+            For mass ranges in product yields.                    3000002400593 
+ISOMER     Isomer for nuclide given                              J3000002400594 
+            Nuclide given in preceding fields under ELEMENT       3000002400595 
+             and MASS.                                            3000002400596 
+             blank = Nucleus has no Metastable state              3000002400597 
+               0.  = Ground state (when Metastable state exists)  3000002400598 
+               1.  = 1st or unspecified Metastable state          3000002400599 
+               2.  = 2nd Metastable state, etc.                   3000002400600 
+ISOMER-DN  Isomer for nuclide, REACTION ratio denominator        J3000002400601 
+ISOMER-NM  Isomer for nuclide, REACTION ratio numerator          J3000002400602 
+ISOMER1    1st Isomer for nuclide                                J3000002400603 
+ISOMER2    2nd Isomer for nuclide                                J3000002400604 
+ELEM-NRM   Atomic number of nuclide used for normalization        3000002400605 
+MASS-NRM   Atomic mass of nuclide used for normalization          3000002400606 
+EMS        Effective mass squared                                S3000002400607O
+EMS1       1st effective mass squared, defined under MOM-SEC.    S3000002400608O
+EMS1-MAX   Upper limit, 1st effective mass squared, see MOM-SEC  S3000002400609O
+EMS1-MIN   Lower limit, 1st effective mass squared, see MOM-SEC  S3000002400610O
+EMS2       2nd effective mass squared, defined under MOM-SEC.    S3000002400611O
+EMS2-MAX   Upper limit, 2nd effective mass squared, see MOM-SEC  S3000002400612O
+EMS2-MIN   Lower limit, 2nd effective mass squared, see MOM-SEC  S3000002400613O
+EMS3       3rd effective mass squared, defined under MOM-SEC     S3000002400614O
+EMS4       4th effective mass squared, defined under MOM-SEC     S3000002400615O
+EMS5       5th effective mass squared, defined under MOM-SEC     S3000002400616O
+N-OUT      Number of emitted neutrons                            O3000002400617O
+P-OUT      Number of emitted protons                             P3000002400618O
+PART-OUT   Number of emitted particles                           P3000002400619 
+           =======================================================3000002400620 
+           Additional Information                                 3000002400621 
+           =======================================================3000002400622 
++MISC-ERR  + Unsymmetric error in miscellaneous value             3000002400623 
+-MISC-ERR  - Unsymmetric error in miscellaneous value             3000002400624 
+ANAL-STEP  Analysis energy step                                   3000002400625 
+DECAY-FLAG Decay flag. See corresponding flag in BIB section      3000002400626 
+            Used in variable product nucleus formalism to link    3000002400627 
+             product nuclei in DATA section to codes under        3000002400628 
+             DECAY-DATA or RAD-DET (re PART-DET proposal is       3000002400629 
+             pending).                                            3000002400630 
+FLAG       Flag, defined under FLAG.                             Z3000002400631 
+LVL        Level energy as additional information                 3000002400632 
+LVL-ERR    Error of level energy as additional information        3000002400633 
+LVL-FIN    Final level energy as additional information           3000002400634 
+LVL-FIN-ER Error of final level energy as addit.information       3000002400635 
+LVL-FIN1   1st final level energy as additional information       3000002400636 
+LVL-FIN2   2nd final level energy as additional information       3000002400637 
+LVL-FLAG   Level Flag, Link to information under LEVEL-PROP       3000002400638 
+LVL-INI    Initial level energy as additional information         3000002400639 
+LVL-INI-ER Error of initial level energy as addit.information     3000002400640 
+LVL-INI1   1st initial level energy as additional information     3000002400641 
+LVL-INI2   2nd initial level energy as additional information     3000002400642 
+MISC       Miscellaneous Information, defined under MISC-COL.     3000002400643 
+            Supplementary information for which no data-Heading   3000002400644 
+             Keyword has been defined.                            3000002400645 
+MISC-ERR   Error in miscellaneous value                           3000002400646 
+MISC-ERR-D Digitizing error in miscellaneous value                3000002400647 
+MISC-MAX   Upper limit of miscellaneous value                     3000002400648 
+MISC-MIN   Lower limit of miscellaneous value                     3000002400649 
+MISC1      1st miscellaneous field, defined under MISC-COL        3000002400650 
+            More than one miscellaneous field given.              3000002400651 
+MISC1-ERR  Error in 1st miscellaneous field                       3000002400652 
+MISC10     10th miscellaneous field, defined under MISC-COL       3000002400653 
+MISC2      2nd miscellaneous field, defined under MISC-COL        3000002400654 
+MISC2-ERR  Error in 2nd miscellaneous field                       3000002400655 
+MISC3      3rd miscellaneous field, defined under MISC-COL        3000002400656 
+MISC3-ERR  Error in 3rd miscellaneous field                       3000002400657 
+MISC4      4th miscellaneous field, defined under MISC-COL        3000002400658 
+MISC4-ERR  Error in 4th miscellaneous field                       3000002400659 
+MISC5      5th miscellaneous field, defined under MISC-COL        3000002400660 
+MISC5-ERR  Error in 5th miscellaneous field                       3000002400661 
+MISC6      6th miscellaneous field, defined under MISC-COL        3000002400662 
+MISC6-ERR  Error in 6th miscellaneous field                       3000002400663 
+MISC7      7th miscellaneous field, defined under MISC-COL        3000002400664 
+MISC7-ERR  Error in 7th miscellaneous field                       3000002400665 
+MISC8      8th miscellaneous field, defined under MISC-COL        3000002400666 
+MISC8-ERR  Error in 8th miscellaneous field                       3000002400667 
+MISC9      9th miscellaneous field, defined under MISC-COL        3000002400668 
+TIME-IRRD  Irradiation time                                       3000002400669 
+            for unsaturated thick target yields                   3000002400670 
+TOF-MAX    Upper boundary of time-of-flight                       3000002400671 
+TOF-MIN    Lower boundary of time-of-flight                       3000002400672 

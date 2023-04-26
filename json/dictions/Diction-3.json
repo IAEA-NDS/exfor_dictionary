@@ -1018,6 +1018,10 @@
         "description": "Space Radiation Effects Laboratory , Newport News, VA",
         "active": true
       },
+      "1USASRF": {
+        "description": "Sanford Underground Research Facility, Lead, SD",
+        "active": true
+      },
       "1USASRI": {
         "description": "Stanford Research Institute , Menlo Park, CA",
         "active": true

@@ -1,4 +1,4 @@
-DICTION             25     202206 Data units                      3000002500001 
+DICTION             25     202212 Data units                      3000002500001 
 SEE TEXT   rare units. See 'MISC-COL'                             3000002500002 
            Rare units which are not coded but used under 'MISC'   3000002500003 
             only.                                                 3000002500004 
@@ -45,11 +45,11 @@ PT/FIS/MEV particles per fission per MeV    FYDE             1.E-63000002500043
 FGY*M2     femtogrey * square meters        KER             1.E-153000002500045 
 GY*M-SQ    Grey * square meters             KER              1.E+03000002500046 
 PGY*CM2    picogrey * square centimeters    KER             1.E-163000002500047 
-PRT/RCT/SR particles per reaction per steradMDA              1.E+03000002500048C
-PT/RCT/MEV particles per reaction per MeV   MDE           1.00E-063000002500049C
-PC/REAC    particles/100 reactions          MLT              1.E-23000002500050C
-PRD/REAC   products/reaction                MLT              1.E+03000002500051C
-PRT/REAC   particles/reaction               MLT              1.E+03000002500052C
+PRT/RCT/SR particles per reaction per steradMDA              1.E+03000002500048 
+PT/RCT/MEV particles per reaction per MeV   MDE           1.00E-063000002500049 
+PC/REAC    particles/100 reactions          MLT              1.E-23000002500050 
+PRD/REAC   products/reaction                MLT              1.E+03000002500051 
+PRT/REAC   particles/reaction               MLT              1.E+03000002500052 
 PC/DECAY   particles per 100 decays         YLD              1.E-23000002500053 
 PRT/DECAY  particles per decay              YLD              1.E+03000002500054 
            =======================================================3000002500055 
@@ -141,7 +141,7 @@ G/CM-SQ    grams per centimeters-squared    THK                   3000002500139
            =======================================================3000002500141 
            Thich target yield                                     3000002500142 
            =======================================================3000002500143 
-P/RC/MEVSR particles/reaction/MeV/sr        MAE             1.E-063000002500144C
+P/RC/MEVSR particles/reaction/MeV/sr        MAE             1.E-063000002500144 
 DPS/MUAHR  decays per Sec/micro-Ampere-hour TTT              1.E-63000002500145 
 GBQ/COUL   Giga-Becquerel/Coulomb           TTT             3.6E+63000002500146 
 GBQ/MUAHR  Giga-Becquerel/micro-Ampere-hour TTT              1.E+33000002500147 

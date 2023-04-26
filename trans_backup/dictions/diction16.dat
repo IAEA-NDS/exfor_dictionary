@@ -1,4 +1,4 @@
-DICTION             16     202206 Status                          3000001600001 
+DICTION             16     202212 Status                          3000001600001 
 APRVD      (Approved by author)                                   3000001600002 
             Proof copy approved by author and author's corrections3000001600003 
              entered.                                             3000001600004 
@@ -17,8 +17,8 @@ CPX        (Data taken from data file of McGowan, et al.)         3000001600007
              P0148) are published in Physik Daten Nr.15-5.        3000001600017 
 CURVE      (Data read from a curve)                               3000001600018 
 DASTR      (Data converted from DASTAR file)                      3000001600019 
-ECSIL      (Data converted from ECSIL library)                    3000001600020I
-NACRE      (Data converted from NACRE files)                      3000001600021C
+ECSIL      (Data converted from ECSIL library)                    3000001600020 
+NACRE      (Data converted from NACRE files)                      3000001600021 
             Nuclear Astrophysics Compilation of Reaction Rates    3000001600022 
 NCHKD      (Authenticity not confirmed)                           3000001600023 
             Mainly used when original reference is not checked    3000001600024 

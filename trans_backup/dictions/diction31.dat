@@ -1,4 +1,4 @@
-DICTION             31     202206 Branches (REACTION SF 5)        3000003100001 
+DICTION             31     202212 Branches (REACTION SF 5)        3000003100001 
 (CUM)      Compiler uncertain if cumulative                       3000003100002 
            Application of the code 'CUM' uncertain. Explanation is3000003100003 
            obligatory.                                            3000003100004 
@@ -42,66 +42,67 @@ EM         Emission cross section (excluding elastic scattering)  3000003100041
            ===Use only when outgoing particle considered equals   3000003100042 
            the incident particle                                  3000003100043 
 EP         For a given electric polarity component                3000003100044 
-FA         Free atom                                              3000003100045 
-FIS        High-energy fission cross section                      3000003100046 
-FRG        Referring to fragment specified                        3000003100047 
-GRP        For a given half-life group                            3000003100048 
-ICL        Uncorrected for other channels emitting same particle  3000003100049 
-IM         Imaginary part                                         3000003100050 
-INC        Incoherent                                             3000003100051 
-IND        Independent production of product nucleus              3000003100052 
-           (Independent) Production of the product nucleus via    3000003100053 
-           direct formation only. To be used only with process    3000003100054 
-           codes 'F' or 'X' and only in cases where cumulative    3000003100055 
-           production (SF5 = CUM) can occur also.                 3000003100056 
-ISP        Partial with respect to level of intermediate products 3000003100057 
-LL         Longitudinal-longitudinal (zz) component               3000003100058 
-           Beam and target spins parallel to beam direction in    3000003100059 
-           scattering plane (=zz)                                 3000003100060 
-LON        Longitudinally polarized                               3000003100061 
-LP         For longitudinal component of linear momentum          3000003100062 
-LS         Longitudinal-sideward (zx) component                   3000003100063 
-M+         Including formation via isomeric transition            3000003100064 
-M-         Excluding formation via isomeric transition            3000003100065 
-MP         For a given magnetic polarity component                3000003100066 
-NL         Normal-longitudinal (yz) component                     3000003100067 
-NN         Normal-normal (yy) component                           3000003100068 
-           Beam and target spins normal to scattering plane       3000003100069 
-           (=yy)                                                  3000003100070 
-NUM        For number of outgoing particles                       3000003100071 
-PAR        Partial                                                3000003100072 
-           leaving the residual nucleus in a specific level or    3000003100073 
-           emitting a specific gamma or particle group.           3000003100074 
-PM+        Paramagnetic effects included                          3000003100075 
-           (for thermal scattering)                               3000003100076 
-POT        Potential                                              3000003100077 
-           (for scattering)                                       3000003100078 
-PR         Prompt                                                 3000003100079 
-           (for use in fission)                                   3000003100080 
-PRE        Primary                                                3000003100081 
-           (for fission product yields)                           3000003100082 
-PRV        Provisional                                            3000003100083 
-           (for fission product yields)                           3000003100084 
-QTR        Quaternary fission                                     3000003100085 
-SEC        Secondary                                              3000003100086 
-           (for fission product yields)                           3000003100087 
-SEQ        Particle sequence as specified in SF3                  3000003100088 
-           Indicates that the sequence of outgoing particles is   3000003100089 
-           as specified in subfield 3.                            3000003100090 
-SL         Sideward-longitudinal (xz) component                   3000003100091 
-           Beam spin perpendicular, target spin parallel to       3000003100092 
-           beam direction in scattering plane                     3000003100093 
-SPL        Spallation cross section                               3000003100094 
-SS         Sideward-sideward (xx) component                       3000003100095 
-           Target and beam spins perpendicular to beam            3000003100096 
-           direction in scattering plane                          3000003100097 
-TER        Ternary fission                                        3000003100098 
-TP         For transverse component of linear momentum            3000003100099 
-TRS        Transversely polarized                                 3000003100100 
-UND        Reaction channel undefined                             3000003100101O
-           outgoing particles represent only sum of emitted       3000003100102O
-           nucleons.                                              3000003100103O
-           ===Not to be used with process codes 'X' or 'F'.       3000003100104O
-           So far used only for charged particle data.            3000003100105O
-UNW        Unweighted production cross section                    3000003100106 
-           not weighted by multiplicity of outgoing particle      3000003100107 
+EXL        Excitation to low-lying levels                         3000003100045I
+FA         Free atom                                              3000003100046 
+FIS        High-energy fission cross section                      3000003100047 
+FRG        Referring to fragment specified                        3000003100048 
+GRP        For a given half-life group                            3000003100049 
+ICL        Uncorrected for other channels emitting same particle  3000003100050 
+IM         Imaginary part                                         3000003100051 
+INC        Incoherent                                             3000003100052 
+IND        Independent production of product nucleus              3000003100053 
+           (Independent) Production of the product nucleus via    3000003100054 
+           direct formation only. To be used only with process    3000003100055 
+           codes 'F' or 'X' and only in cases where cumulative    3000003100056 
+           production (SF5 = CUM) can occur also.                 3000003100057 
+ISP        Partial with respect to level of intermediate products 3000003100058 
+LL         Longitudinal-longitudinal (zz) component               3000003100059 
+           Beam and target spins parallel to beam direction in    3000003100060 
+           scattering plane (=zz)                                 3000003100061 
+LON        Longitudinally polarized                               3000003100062 
+LP         For longitudinal component of linear momentum          3000003100063 
+LS         Longitudinal-sideward (zx) component                   3000003100064 
+M+         Including formation via isomeric transition            3000003100065 
+M-         Excluding formation via isomeric transition            3000003100066 
+MP         For a given magnetic polarity component                3000003100067 
+NL         Normal-longitudinal (yz) component                     3000003100068 
+NN         Normal-normal (yy) component                           3000003100069 
+           Beam and target spins normal to scattering plane       3000003100070 
+           (=yy)                                                  3000003100071 
+NUM        For number of outgoing particles                       3000003100072 
+PAR        Partial                                                3000003100073 
+           leaving the residual nucleus in a specific level or    3000003100074 
+           emitting a specific gamma or particle group.           3000003100075 
+PM+        Paramagnetic effects included                          3000003100076 
+           (for thermal scattering)                               3000003100077 
+POT        Potential                                              3000003100078 
+           (for scattering)                                       3000003100079 
+PR         Prompt                                                 3000003100080 
+           (for use in fission)                                   3000003100081 
+PRE        Primary                                                3000003100082 
+           (for fission product yields)                           3000003100083 
+PRV        Provisional                                            3000003100084 
+           (for fission product yields)                           3000003100085 
+QTR        Quaternary fission                                     3000003100086 
+SEC        Secondary                                              3000003100087 
+           (for fission product yields)                           3000003100088 
+SEQ        Particle sequence as specified in SF3                  3000003100089 
+           Indicates that the sequence of outgoing particles is   3000003100090 
+           as specified in subfield 3.                            3000003100091 
+SL         Sideward-longitudinal (xz) component                   3000003100092 
+           Beam spin perpendicular, target spin parallel to       3000003100093 
+           beam direction in scattering plane                     3000003100094 
+SPL        Spallation cross section                               3000003100095 
+SS         Sideward-sideward (xx) component                       3000003100096 
+           Target and beam spins perpendicular to beam            3000003100097 
+           direction in scattering plane                          3000003100098 
+TER        Ternary fission                                        3000003100099 
+TP         For transverse component of linear momentum            3000003100100 
+TRS        Transversely polarized                                 3000003100101 
+UND        Reaction channel undefined                             3000003100102O
+           outgoing particles represent only sum of emitted       3000003100103O
+           nucleons.                                              3000003100104O
+           ===Not to be used with process codes 'X' or 'F'.       3000003100105O
+           So far used only for charged particle data.            3000003100106O
+UNW        Unweighted production cross section                    3000003100107 
+           not weighted by multiplicity of outgoing particle      3000003100108 

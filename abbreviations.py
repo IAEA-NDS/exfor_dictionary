@@ -9,7 +9,7 @@
 # Contact:    nds.contact-point@iaea.org
 #
 ####################################################################
- 
+
 ### Abbreviations in the EXFOR dictionary
 
 reaction_abbr = {
@@ -34,7 +34,7 @@ reaction_abbr = {
     "correl.": "correlated",
     "curr.": "current",
     "cum.": "cumulative",
-    "Contrib.": "Contribution", 
+    "Contrib.": "Contribution",
     "doub.": "double",
     "diff.": "differencial",
     "diff.cs": "differencial cross section",
@@ -231,13 +231,14 @@ institute_abbr = {
 }
 
 
-
-def abbreviations(abb_dict, desc):
+def convert_abbreviations(abb_dict, desc):
     for abb, corr in abb_dict.items():
         desc = desc.replace(abb, corr + " ")
-    return desc.replace("  ", " ")  # or desc.title().replace("  ", " ") or desc.capitalize().replace("  ", " ")
+    return desc.replace(
+        "  ", " "
+    )  # or desc.title().replace("  ", " ") or desc.capitalize().replace("  ", " ")
 
 
 if __name__ == "__main__":
     desc = "abun. of frag."
-    abbreviations(reaction_abbr, desc)
+    convert_abbreviations(reaction_abbr, desc)

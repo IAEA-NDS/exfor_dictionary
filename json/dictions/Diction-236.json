@@ -277,6 +277,11 @@
         "additional_code": "B",
         "active": true
       },
+      "BA/COH,SIG": {
+        "description": "(Bound-atom coherent cross section)",
+        "additional_code": "B",
+        "active": true
+      },
       "BIN,SIG": {
         "description": "(Binary fission cross section)",
         "additional_code": "B",
@@ -379,6 +384,11 @@
       },
       "EM,SIG": {
         "description": "(Emission cross section excluding elastic scattering)",
+        "additional_code": "B",
+        "active": true
+      },
+      "EXL,SIG": {
+        "description": "(Cross section including excitation to low-lying levels)",
         "additional_code": "B",
         "active": true
       },
@@ -1247,6 +1257,11 @@
         "additional_code": "YDAC",
         "active": true
       },
+      "PAR,NU": {
+        "description": "(Partial neutron yield)",
+        "additional_code": "FY",
+        "active": true
+      },
       "PAR,PN": {
         "description": "(Partial delayed neutron emission probability)",
         "additional_code": "NO",
@@ -1684,6 +1699,11 @@
       },
       "EP,DA": {
         "description": "(Electric multipole component of differencial cross section for polarity specified)",
+        "additional_code": "DA",
+        "active": true
+      },
+      "ISP,DA": {
+        "description": "(Differential cross section d/dA, partial for intermediate product)",
         "additional_code": "DA",
         "active": true
       },

@@ -1,4 +1,4 @@
-DICTION             33     202206 Particles                       3000003300001 
+DICTION             33     202212 Particles                       3000003300001 
             Flag D: For use with the keywords PART-DET, RAD-DET,  3000003300002 
              DECAY-DATA, DECAY-MON, EN-SEC                        3000003300003 
                (previously EXFOR dictionary 13)                   3000003300004 
@@ -60,10 +60,10 @@ LCP        (Light Charged Particle (Z less than 7))           D  73000003300059
 LF         (Light Fragment)                                   D  73000003300060 
 LI6        (Lithium 6)                                           73000003300061 
 LI7        (Lithium 7)                                           73000003300062 
-LI9        (Lithium 9)                                           73000003300063I
+LI9        (Lithium 9)                                           73000003300063 
 N          (Neutrons)                                     0001D2373000003300064 
             Use DN for delayed neutrons                           3000003300065 
-NE20       (Neon 20)                                             73000003300066I
+NE20       (Neon 20)                                             73000003300066 
 O15        (Oxygen 15)                                           73000003300067 
 P          (Protons)                                      1001D2373000003300068 
 PI         (Pions,unspecified)                                D 373000003300069 

@@ -1,4 +1,4 @@
-DICTION              1     202206 System identifiers              3000000100001 
+DICTION              1     202212 System identifiers              3000000100001 
 BIB        First record of each BIB section.                      3000000100002 
             N1=number of keywords in the BIB section, disregarding3000000100003 
                pointers in col.11                                 3000000100004 
