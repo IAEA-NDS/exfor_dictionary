@@ -11,10 +11,8 @@
 ####################################################################
 
 
-
-
 DICTIONARY_URL = "https://nds.iaea.org/nrdc/ndsx4/trans/dictionaries/"
-DICTIONARY_PATH = "/Users/okumuras/Dropbox/Development/exfor_dictionary/"
+DICTIONARY_PATH = "./"
 PICKLE_PATH = DICTIONARY_PATH + "pickles/"
 
 LATEST_TRANS = "9127"

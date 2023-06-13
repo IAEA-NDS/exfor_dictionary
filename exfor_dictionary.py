@@ -11,15 +11,12 @@
 ####################################################################
 
 import os
+import sys
 import json
 
-try:
-    from config import DICTIONARY_PATH, LATEST_TRANS
 
-except:
-    import sys
-    sys.path.append("../exfor_dictionary/")
-    from exfor_dictionary.config import DICTIONARY_PATH, LATEST_TRANS
+from config import MODULES_DIR, EXFOR_DICTIONARY
+sys.path.append(os.path.join(MODULES_DIR, EXFOR_DICTIONARY))
 
 
 ###################################################################
@@ -29,21 +26,23 @@ except:
 ###################################################################
 class Diction:
     def __init__(self, diction_num=None):
-        self.latest_trans = LATEST_TRANS  # get_latest_trans_num(get_local_trans_nums())
         self.dictionaries = self.read_latest_dictionary()
         self.diction_num = diction_num
 
-
     def read_latest_dictionary(self):
         file = os.path.join(
-            DICTIONARY_PATH, "json", "trans." + str(self.latest_trans) + ".json"
+            MODULES_DIR, EXFOR_DICTIONARY, "latest.json"
         )
         with open(file) as json_file:
             return json.load(json_file)["dictionaries"]
 
+
+    def read_diction(self,diction):
+        return self.dictionaries[diction]
+
+
     def get_diction(self):
         return self.dictionaries[self.diction_num]["codes"]
-
 
     def get_incident_en_heads(self):
         ## diction 24: Data heads, get_x
@@ -57,7 +56,6 @@ class Diction:
             and "-NM" not in h
         ]
 
-
     def get_incident_en_err_heads(self):
         ## diction 24: Data heads, get_dx
         diction = self.dictionaries["24"]
@@ -69,7 +67,6 @@ class Diction:
             and "-DN" not in h
             and "-NM" not in h
         ]
-
 
     def get_data_heads(self):
         ## diction 24: Data heads, for y
@@ -83,7 +80,6 @@ class Diction:
             and "-NM" not in h
         ]
 
-
     def get_data_err_heads(self):
         ## diction 24: Data heads, for d_y
         diction = self.dictionaries["24"]
@@ -96,7 +92,6 @@ class Diction:
             and "-NM" not in h
         ]
 
-
     def get_outgoing_e_heads(self):
         ## diction 24: Data heads, measured energy E or E-LVL
         diction = self.dictionaries["24"]
@@ -106,7 +101,6 @@ class Diction:
             if diction["codes"][h]["additional_code"] == "E"
             and diction["codes"][h]["active"]
         ]
-
 
     def get_outgoing_e_err_heads(self):
         ## diction 24: Data heads, measured energy  E-ERR E-LVL-ERR
@@ -118,7 +112,6 @@ class Diction:
             and diction["codes"][h]["active"]
         ]
 
-
     def get_level_heads(self):
         ## diction 24: Data heads, measured level
         diction = self.dictionaries["24"]
@@ -128,7 +121,6 @@ class Diction:
             if diction["codes"][h]["additional_code"] == "L"
             and diction["codes"][h]["active"]
         ]
-
 
     def get_angle_heads(self):
         ## diction 24: Data heads, measured level
@@ -140,7 +132,6 @@ class Diction:
             and diction["codes"][h]["active"]
         ]
 
-
     def get_angle_err_heads(self):
         ## diction 24: Data heads, measured level
         diction = self.dictionaries["24"]
@@ -150,7 +141,6 @@ class Diction:
             if diction["codes"][h]["additional_code"] == "H"
             and diction["codes"][h]["active"]
         ]
-
 
     def get_mass_heads(self):
         ## diction 24: Data heads, get_x
@@ -162,7 +152,6 @@ class Diction:
             and diction["codes"][h]["active"]
         ]
 
-
     def get_elem_heads(self):
         ## diction 24: Data heads, get_x
         diction = self.dictionaries["24"]
@@ -173,7 +162,6 @@ class Diction:
             and diction["codes"][h]["active"]
         ]
 
-
     def get_details(self, diction_num, key):
         diction = self.dictionaries[diction_num]["codes"]
 
@@ -181,7 +169,6 @@ class Diction:
             return diction[key]["description"]
         else:
             return None
-
 
     def get_unit_factor(self, datahead):
         ## diction 25: Data units
@@ -197,7 +184,6 @@ class Diction:
                 return 1.0
             else:
                 return factor
-
 
     def get_standard_unit(self, unit):
         diction = self.dictionaries["25"]
@@ -285,5 +271,3 @@ class Diction:
         return diction["codes"][code.replace("(", "").replace(")", "").strip()][
             "description"
         ]
-
-

@@ -1,4 +1,3 @@
-
 import requests
 from bs4 import BeautifulSoup
 import glob
@@ -38,7 +37,7 @@ def get_server_trans_nums():
     links = soup.find_all("a", attrs={"href": re.compile(r".*trans.*")})
     for link in links:
         x += [link.get("href").split(".")[-1]]
-        
+
     # remove obstruction
     x.remove("9927")
     return x
@@ -95,6 +94,7 @@ def diction_json_file(diction_num: str):
         DICTIONARY_PATH, "json", "dictions", "Diction-" + str(diction_num) + ".json"
     )
 
+
 def write_diction_json(diction_num: str, diction_dict):
     file = diction_json_file(diction_num)
     with open(file, "w") as json_file:
@@ -103,7 +103,10 @@ def write_diction_json(diction_num: str, diction_dict):
 
 def write_trans_json_file(trans_num: str, exfor_dictionary):
     file = os.path.join(DICTIONARY_PATH, "json", "trans." + str(trans_num) + ".json")
+    latest = os.path.join(DICTIONARY_PATH, "latest.json")
     with open(file, "w") as json_file:
+        json.dump(exfor_dictionary, json_file, indent=2)
+    with open(latest, "w") as json_file:
         json.dump(exfor_dictionary, json_file, indent=2)
 
 
