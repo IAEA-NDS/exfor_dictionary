@@ -1,3 +1,14 @@
+####################################################################
+#
+# This file is part of exfor-parser.
+# Copyright (C) 2022 International Atomic Energy Agency (IAEA)
+#
+# Disclaimer: The code is still under developments and not ready
+#             to use. It has been made public to share the progress
+#             among collaborators.
+# Contact:    nds.contact-point@iaea.org
+#
+####################################################################
 import requests
 from bs4 import BeautifulSoup
 import glob
@@ -7,16 +18,8 @@ import json
 import pandas as pd
 
 
-try:
-    from config import DICTIONARY_PATH, DICTIONARY_URL, PICKLE_PATH
-    from abbreviations import convert_abbreviations
-
-except:
-    import sys
-
-    sys.path.append("../exfor_dictionary/")
-    from exfor_dictionary.config import DICTIONARY_PATH, DICTIONARY_URL, PICKLE_PATH
-    from exfor_dictionary.abbreviations import convert_abbreviations
+from config import DICTIONARY_PATH, DICTIONARY_URL, PICKLE_PATH
+from src.abbreviations import convert_abbreviations
 
 
 def get_local_trans_nums():
@@ -249,7 +252,7 @@ def conv_dictionary_to_json(latest) -> dict:
                     continue
 
                 if not d.startswith(" "):
-                    from abbreviations import institute_abbr
+                    from src.abbreviations import institute_abbr
 
                     x4code = d[:11].rstrip()
                     regex = r"\((.*)\)"
@@ -329,7 +332,7 @@ def conv_dictionary_to_json(latest) -> dict:
 
         elif int(diction_num) == 24:
             ### DICTION 24: Data headings
-            from abbreviations import head_unit_abbr
+            from src.abbreviations import head_unit_abbr
 
             desc = []
             for d in diction[11:]:
@@ -363,7 +366,7 @@ def conv_dictionary_to_json(latest) -> dict:
 
         elif int(diction_num) == 25:
             ### DICTION 25: Data units
-            from abbreviations import head_unit_abbr
+            from src.abbreviations import head_unit_abbr
 
             desc = []
             for d in diction[1:]:
@@ -390,7 +393,7 @@ def conv_dictionary_to_json(latest) -> dict:
 
         elif int(diction_num) == 144:
             ### DICTION 114: Data libraries
-            from abbreviations import head_unit_abbr
+            from src.abbreviations import head_unit_abbr
 
             desc = []
             for d in diction[1:]:
@@ -413,7 +416,7 @@ def conv_dictionary_to_json(latest) -> dict:
 
         elif int(diction_num) == 213:
             ### DICTION 25: Data units
-            from abbreviations import head_unit_abbr
+            from src.abbreviations import head_unit_abbr
 
             desc = []
             for d in diction[1:]:
@@ -465,7 +468,7 @@ def conv_dictionary_to_json(latest) -> dict:
                                 spec.)                                     3000023601246
             """
 
-            from abbreviations import reaction_abbr
+            from src.abbreviations import reaction_abbr
 
             cont = False
             desc = []
