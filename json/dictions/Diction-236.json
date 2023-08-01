@@ -2,6 +2,11 @@
   "236": {
     "diction_name": "Quantities (REACTION SF 5-8)",
     "codes": {
+      "ZPP": {
+        "description": "",
+        "additional_code": "CHG",
+        "active": true
+      },
       "(CUM),SIG": {
         "description": "(Cross section, uncertain if cumulative)",
         "additional_code": "B",
@@ -18,7 +23,7 @@
         "active": true
       },
       "(M),INT": {
-        "description": "(Cs.integrate over incident energy, uncertainty if isomeric transition including )",
+        "description": "(Cross section integral over incident energy, uncertain if isomeric transition included)",
         "additional_code": "B*E",
         "active": true
       },
@@ -53,7 +58,7 @@
         "active": true
       },
       ",INT,,RAB": {
-        "description": "(Cross-section integral over incident energy times natural isotopic abundance, divided b abundance of target of first term of REACTION sum)",
+        "description": "(Cross section integral over incident energy times natural isotopic abundance divided by abundance of target of first term of REACTION sum)",
         "additional_code": "B*E",
         "active": true
       },
@@ -384,6 +389,11 @@
       },
       "EM,SIG": {
         "description": "(Emission cross section excluding elastic scattering)",
+        "additional_code": "B",
+        "active": true
+      },
+      "EXL,DA": {
+        "description": "(Angular differential cross section including excitation to low-lying levels)",
         "additional_code": "B",
         "active": true
       },
@@ -823,7 +833,7 @@
         "active": true
       },
       ",PY/DE,,TT/NPD": {
-        "description": "(Differential product yield d/dE for thick t normalized to probability distribution)",
+        "description": "(Energy differential product yield for thick target normalized to probability distribution)",
         "additional_code": "1/E",
         "active": true
       },
@@ -1059,12 +1069,12 @@
       },
       ",ETA": {
         "description": "",
-        "additional_code": "YLD",
+        "additional_code": "MLT",
         "active": true
       },
       ",ETA,,RES": {
         "description": "(Eta at resonance)",
-        "additional_code": "YLD",
+        "additional_code": "MLT",
         "active": true
       },
       ",KER": {
@@ -1827,6 +1837,11 @@
         "additional_code": "DA",
         "active": false
       },
+      "PAR/L-,DA,G": {
+        "description": "(Angular differential cross section of discrete gammas excluding transition from quasi-metastable state)",
+        "additional_code": "DA",
+        "active": true
+      },
       "PAR/M-,DA,G": {
         "description": "(Angular distribution of prompt discretegamma-ray transition, excluding formationvia an isomeric level)",
         "additional_code": "DA",
@@ -1858,7 +1873,7 @@
         "active": true
       },
       ",DA,*,LEG/RS": {
-        "description": "(Differential cs with respect to specified particle, Legendre coeff. of the form 4pi/Sig d-Sig/d-Omega = 1 + Sum( a(L)P(L) )",
+        "description": "(Differential cs with respect to specified particle, Legendre coeff. of the form 4pi/Sig d-Sig/d-Omega = 1 + Sum( a(L)P(L)))",
         "additional_code": "NO",
         "active": true
       },
@@ -1927,6 +1942,11 @@
         "additional_code": "DA",
         "active": true
       },
+      ",DA,,LEG/4PI": {
+        "description": "(Legendre Coefficient 4pi d/dA=a(0)+Sum(a(L)*P(L)))",
+        "additional_code": "B",
+        "active": true
+      },
       ",DA,,LEG/L4P": {
         "description": "(Diff.cs, Legendre coeff. of the form 4pi*d-Sig/d-Omega = Sum((2L+1)*a(L)*P(L)))",
         "additional_code": "DA",
@@ -1977,6 +1997,11 @@
         "additional_code": "NO",
         "active": true
       },
+      "EXL,DA,,LEG": {
+        "description": "(Angular differential cross section including excitation to low-lying levels of the form d-Sig/d-Omega = a(0) + Sum( a(L)*P(L) ))",
+        "additional_code": "DA",
+        "active": true
+      },
       "PAR,DA,*,COS": {
         "description": "(Diff.partial cross section for particle specified, cosine-coefficient of the form d-Sig/d-Omega = a(0) + Sum( a(L)cos**L ))",
         "additional_code": "DA",
@@ -1993,7 +2018,7 @@
         "active": true
       },
       "PAR,DA,*,LEG/RS": {
-        "description": "(Diff.partial cross section for production of specified particle, Legendre coeff. of the form 4pi/Sig d-Sig/d-Omega = 1 + Sum(a(L)*P(L)))",
+        "description": "(Angular differential partial cross section for particle specified in Legendre polynomials in the form 4pi/Sig d-Sig/d-Omega = 1 + Sum(a(L)*P(L)))",
         "additional_code": "NO",
         "active": true
       },
@@ -2030,6 +2055,11 @@
       "PAR,DA,,LEG/2L2": {
         "description": "(Diff.partial cs, Legendre-coeff.of the form d-Sig/d-Omega = (1/2)Sum((2L+1)*a(L)*P(L)))",
         "additional_code": "DA",
+        "active": true
+      },
+      "PAR,DA,,LEG/4PI": {
+        "description": "(Partial Legendre Coefficient 4pi d/dA=a(0)+Sum(a(L)*P(L)))",
+        "additional_code": "B",
         "active": true
       },
       "PAR,DA,,LEG/RS": {
@@ -2359,6 +2389,11 @@
       },
       "EM,POL/DA/DE,P,ANA": {
         "description": "(Analyzing power dA/dE for proton emission)",
+        "additional_code": "NO",
+        "active": true
+      },
+      "EXL,POL/DA,,ANA": {
+        "description": "(Analyzing power including excitation to low-lying levels)",
         "additional_code": "NO",
         "active": true
       },
@@ -2993,7 +3028,7 @@
         "active": true
       },
       "TP/PAR,DP": {
-        "description": "(Part.Diff.cs with respect to transv.section momentum)",
+        "description": "(Partial Differential cross section with respect to transverse secondary linear momentum)",
         "additional_code": "DP",
         "active": true
       },
@@ -3038,7 +3073,7 @@
         "active": true
       },
       ",DA/DE,*,RSD": {
-        "description": "(Double differencial cs d2/dA/dE of particle specified relative 90deg.)",
+        "description": "(Double differential cross sectionsle with respect to particle specified relavive to the value at 90 deg.)",
         "additional_code": "NO",
         "active": true
       },
@@ -3247,13 +3282,13 @@
         "additional_code": "D3A",
         "active": true
       },
-      "SEQ,DA/DA/DE,P/P/P": {
-        "description": "(Triple-differencial cs for two proton angles and secondary proton energy, for reaction specified by sequence of outgoing particles)",
+      "SEQ,DA/DA/DE,N/T/RSD": {
+        "description": "(Triple diffential cross sections for angles of neutron and triton and energy of residual nucleus specified by sequence of outgoing particles)",
         "additional_code": "D3A",
         "active": true
       },
-      "SEQ,DA/DA/DE,T/N/RSD": {
-        "description": "(Triple-differencial cs for angles of tritons and neutrons and energy of residual nucleus, for specified sequence of outgoing particles)",
+      "SEQ,DA/DA/DE,P/P/P": {
+        "description": "(Triple differential cross sections for angles of two protons and energy of proton specified by sequence of outgoing particles)",
         "additional_code": "D3A",
         "active": true
       },
@@ -3523,7 +3558,7 @@
         "active": true
       },
       "ISP/PRE,KE,LF+HF": {
-        "description": "(Tot. Kinetic energy of specified primary fragment , partial for intermediate production )",
+        "description": "(Total kinetic energy of primary fragments specified, partial for intermediate product)",
         "additional_code": "E",
         "active": true
       },
@@ -3650,7 +3685,7 @@
       "PR/FRG,FY,G": {
         "description": "(Yield of prompt fission gammas from the fragment specified)",
         "additional_code": "FY",
-        "active": true
+        "active": false
       },
       "PR/PAR,AKE,N": {
         "description": "(Aver. energy f.specified group of prompt neutrons)",
@@ -3760,6 +3795,11 @@
       "PRE/PR,KE,*": {
         "description": "(Kinetic energy of prompt particle specified for a given primary fragment )",
         "additional_code": "E",
+        "active": true
+      },
+      "PRE/PR/FRG,FY,G": {
+        "description": "(Prompt fission gamma yield from the primary fragment specified)",
+        "additional_code": "FY",
         "active": true
       },
       "PRE/TER,AKE,*F": {
@@ -3908,7 +3948,7 @@
         "active": true
       },
       "SEC/TER,AKE,LF+HF": {
-        "description": "(Average total kinetic energy of post-neutro emission fragments for ternary fission)",
+        "description": "(Average total kinetic energy of post-neutron emission fragments for ternary fission)",
         "additional_code": "E",
         "active": true
       },
@@ -3998,7 +4038,7 @@
         "active": true
       },
       "TER,FY/DE,A": {
-        "description": "(Differential fission alpha yield dY(a)/dEcorrelated with A and/or Z of ternary fissiofragment)",
+        "description": "(Differential fission alpha yield dY(a)/dE correlated with A and/or Z of ternary fission fragment)",
         "additional_code": "FYDE",
         "active": true
       },
@@ -4068,7 +4108,7 @@
         "active": true
       },
       ",AKE,*,RES": {
-        "description": "(Average kinetic energy of specified particl at resonance)",
+        "description": "(Average kinetic energy of specified particle at resonance)",
         "additional_code": "E",
         "active": false
       },

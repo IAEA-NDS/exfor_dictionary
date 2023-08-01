@@ -239,7 +239,7 @@
         "active": true
       },
       "SFC": {
-        "description": "Coefficients for a sum in power of sin**2",
+        "description": "S-factor",
         "active": true
       },
       "SQ": {
@@ -324,6 +324,10 @@
       },
       "BRS": {
         "description": "Average over part of bremsstrahlung spectrum",
+        "active": true
+      },
+      "EPI": {
+        "description": "Epithermal neutron spectrum average",
         "active": true
       },
       "FIS": {

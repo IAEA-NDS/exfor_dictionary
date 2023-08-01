@@ -2149,7 +2149,7 @@
       },
       "N-OUT": {
         "description": "Number of emitted neutrons",
-        "additional_code": "O",
+        "additional_code": "P",
         "active": false
       },
       "P-OUT": {
@@ -2349,6 +2349,11 @@
       },
       "TIME-IRRD": {
         "description": "Irradiation time",
+        "additional_code": "",
+        "active": true
+      },
+      "TOF": {
+        "description": "Time-of-flight",
         "additional_code": "",
         "active": true
       },

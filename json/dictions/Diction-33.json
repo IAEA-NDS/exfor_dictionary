@@ -158,6 +158,10 @@
         "description": "Oxygen 15",
         "active": true
       },
+      "O16": {
+        "description": "Oxygen 16",
+        "active": true
+      },
       "P": {
         "description": "Protons",
         "active": true

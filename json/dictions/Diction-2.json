@@ -22,10 +22,6 @@
         "description": "Author",
         "active": true
       },
-      "CMPD-QUANT": {
-        "description": "Quantity given",
-        "active": false
-      },
       "COMMENT": {
         "description": "Comment",
         "active": true
@@ -78,10 +74,6 @@
         "description": "Flag",
         "active": true
       },
-      "GEOMETRY": {
-        "description": "Geometry",
-        "active": false
-      },
       "HALF-LIFE": {
         "description": "Half-life",
         "active": true
@@ -101,10 +93,6 @@
       "INSTITUTE": {
         "description": "Institute",
         "active": true
-      },
-      "ISO-QUANT": {
-        "description": "Quantity given",
-        "active": false
       },
       "LEVEL-PROP": {
         "description": "Level properties",
@@ -134,10 +122,6 @@
         "description": "Incident particle source",
         "active": false
       },
-      "NUC-QUANT": {
-        "description": "Quantity given",
-        "active": false
-      },
       "PART-DET": {
         "description": "Particle detected",
         "active": true
@@ -158,10 +142,6 @@
         "description": "Related reference",
         "active": true
       },
-      "RESID-NUC": {
-        "description": "Product nucleus",
-        "active": false
-      },
       "RESULT": {
         "description": "Result",
         "active": true
@@ -181,10 +161,6 @@
       "SUPPL-INF": {
         "description": "Supplemental information",
         "active": true
-      },
-      "TABLE-NR": {
-        "description": "Table number",
-        "active": false
       },
       "TITLE": {
         "description": "Title",

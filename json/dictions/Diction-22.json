@@ -194,6 +194,10 @@
         "description": "Hyperpure Germanium detector",
         "active": true
       },
+      "LABR3": {
+        "description": "LaBr3 scintillator",
+        "active": true
+      },
       "LEGE": {
         "description": "Low energy Germanium Detector",
         "active": true

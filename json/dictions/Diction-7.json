@@ -1158,10 +1158,6 @@
         "description": "International Symp.on In-Beam Nuclear Spectroscopy, Debrecen 1984",
         "active": true
       },
-      "84FUJI": {
-        "description": "International Symp.on Heavy Ion Nuclear Physics,Fuji 1984",
-        "active": true
-      },
       "84GAUSSIG": {
         "description": "14.Symp.on Nuclear Physics ,Gaussig,DDR,1984",
         "active": true
@@ -1920,6 +1916,10 @@
       },
       "2015WASH": {
         "description": "12th International Meet. on Nuclear Appl.of Acc., Washington, 2015",
+        "active": true
+      },
+      "2016KOLKAT": {
+        "description": "61st DAE-BRNS Symposium on Nuclear Physics , Kolkata,2016",
         "active": true
       },
       "2017ALMATY": {

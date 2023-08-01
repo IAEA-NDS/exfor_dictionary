@@ -87,7 +87,7 @@
         "active": true
       },
       "CST": {
-        "description": "Temperature dependent cross section",
+        "description": "Temperature or thickness dependent cross sect.",
         "additional_code": "CST",
         "x4code3": "CST",
         "active": true

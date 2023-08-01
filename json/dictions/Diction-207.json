@@ -254,6 +254,10 @@
         "description": "Radioisotopes-Applications in Bio-Medical Sci. 2011",
         "active": true
       },
+      "SNR": {
+        "description": "Studies in Neutron Reactions, New York 1966",
+        "active": true
+      },
       "SPN": {
         "description": "Soviet Progress in Neutron Physics, New York 1963",
         "active": true

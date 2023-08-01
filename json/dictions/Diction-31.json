@@ -83,7 +83,7 @@
         "active": true
       },
       "CON": {
-        "description": "For a range of continuum gammas, discrete gammas exclud",
+        "description": "For a range of continuum gammas excl. discrete gammas",
         "active": true
       },
       "CRN": {
@@ -99,7 +99,7 @@
         "active": true
       },
       "DIS": {
-        "description": "For a range of discrete gammas, continuum gammas exclud",
+        "description": "For a range of discrete gammas excl. continuum gammas",
         "active": true
       },
       "DL": {
@@ -152,6 +152,10 @@
       },
       "ISP": {
         "description": "Partial with respect to level of intermediate products",
+        "active": true
+      },
+      "L-": {
+        "description": "Excluding formation via quasi-metastable state",
         "active": true
       },
       "LL": {

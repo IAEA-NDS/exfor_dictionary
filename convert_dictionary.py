@@ -40,6 +40,7 @@ def get_server_trans_nums():
 
     # remove obstruction
     x.remove("9927")
+    x.remove("9928")
     return x
 
 

@@ -32,7 +32,7 @@
       },
       "K": {
         "description": "JOUR",
-        "active": true
+        "active": false
       },
       "P": {
         "description": "PROG",

@@ -770,6 +770,12 @@
         "publisher_name": "Michigan State University, East Lansing, MI",
         "active": true
       },
+      "ANCR-": {
+        "description": "Aerojet Nuclear Corp. Reports",
+        "publisher": "1USAMTR",
+        "publisher_name": "Idaho Nuclear Corp., Idaho Falls, ID",
+        "active": true
+      },
       "IDO-": {
         "description": "Philips Petroleum Co., Idaho Falls Reports",
         "publisher": "1USAMTR",
@@ -1976,6 +1982,12 @@
         "publisher_name": "National Radiological Protection Board, Harwell",
         "active": true
       },
+      "AHSB(S)R-": {
+        "description": "U.K. AEA Health and Safety Branch Risley Reports",
+        "publisher": "2UK RLY",
+        "publisher_name": "UKAEA, Risley",
+        "active": true
+      },
       "AEA-TRS-": {
         "description": "AEA Technol.Winfrith, Thermal Reactor Serv.,rpt.",
         "publisher": "2UK WIN",
@@ -1998,6 +2010,12 @@
         "description": "A.E.E.W. Winfrith Reports",
         "publisher": "2UK WIN",
         "publisher_name": "Atomic Energy Establishment AEE, Winfrith, Dorset",
+        "active": true
+      },
+      "BIPM-": {
+        "description": "Bureau Int. des Poids et Mesures Reports",
+        "publisher": "2ZZZBIP",
+        "publisher_name": "Bureau International des Poids et Mesures, Sevres",
         "active": true
       },
       "CERN-": {
@@ -2505,7 +2523,7 @@
         "active": true
       },
       "AIF-": {
-        "description": "",
+        "description": "Anales del Instituto de Fisica",
         "publisher": "3MEXIFM",
         "publisher_name": "Univ. Nacional Autonoma de Mexico UNAM, Mexico City",
         "active": false
@@ -2523,7 +2541,7 @@
         "active": true
       },
       "NPD-": {
-        "description": "",
+        "description": "Pakistan Inst.Nuc.Sci.Tech.,Nucl.Phys.Div.Repts",
         "publisher": "3PAKNIL",
         "publisher_name": "PINSTECH, Nilore, Rawalpindi",
         "active": false
@@ -2547,7 +2565,7 @@
         "active": true
       },
       "IBJ-": {
-        "description": "",
+        "description": "Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts",
         "publisher": "3POLIBJ",
         "publisher_name": "Inst. Badan Jadr., Swierk and Warszawa",
         "active": false
@@ -2565,7 +2583,7 @@
         "active": true
       },
       "IFJ-": {
-        "description": "",
+        "description": "Inst. Fiz. Jadr. (Nucl.Phys.), Krakow Reports",
         "publisher": "3POLIFJ",
         "publisher_name": "Niewodniczanski Instytut Fizyki Jadrowej, Krakow",
         "active": false
@@ -2706,6 +2724,12 @@
         "description": "Inst. Josef Stefan, Ljubljana Reports",
         "publisher": "3SLNIJS",
         "publisher_name": "Inst. Jozef Stefan, Ljubljana",
+        "active": true
+      },
+      "THAI-AEC-": {
+        "description": "Atomic Energy for Peace, Bangkok Reports",
+        "publisher": "3TAIBGK",
+        "publisher_name": "Office of the Atomic Energy for Peace, Bangkok",
         "active": true
       },
       "IBK-": {
@@ -3075,7 +3099,7 @@
         "active": true
       },
       "INDC(US)-": {
-        "description": "",
+        "description": "U.S. report to the I.N.D.C.",
         "publisher": "3ZZZIAE",
         "publisher_name": "IAEA, Vienna",
         "active": false
@@ -3144,6 +3168,12 @@
         "description": "I.A.E.A. Bibliographical Series",
         "publisher": "3ZZZIAE",
         "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "IC-": {
+        "description": "Internat.Centre for Theoretical Physics, reports",
+        "publisher": "3ZZZTPT",
+        "publisher_name": "Intern.Centre for Theoretical Physics, Trieste",
         "active": true
       },
       "IJE-": {
@@ -3231,7 +3261,7 @@
         "active": true
       },
       "KUR-": {
-        "description": "",
+        "description": "Inst. Atomnoy Energii, Kurchatov Reports",
         "publisher": "4RUSKUR",
         "publisher_name": "Nat.Issl.Tsentr \"Kurchatovskii Institut\", Moskva",
         "active": true

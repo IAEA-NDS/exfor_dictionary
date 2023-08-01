@@ -3,11 +3,11 @@
     "diction_name": "Data libraries",
     "codes": {
       "AUSTR-DFN": {
-        "description": "   Australian Library of Evaluated Neutron Cross",
+        "description": "   Austral.Lib.Eval.Neut.Cross Sect.for Fis.Prod.Nuclei",
         "active": true
       },
       "BENZI-DFN": {
-        "description": "   Bologna Library of Evaluated Neutron Cross Sections",
+        "description": "   Bologna Lib.Eval.Neut.Cross Sect.for Fis.Prod.Nuclei",
         "active": true
       },
       "BROND-": {
@@ -19,7 +19,7 @@
         "active": true
       },
       "CNEN-CEA": {
-        "description": "   Evaluated Data Library from CNEN (Italy) - CEA",
+        "description": "   Evaluated Data Library from CNEN-CEA Collaboration",
         "active": true
       },
       "EFF-": {
@@ -47,15 +47,15 @@
         "active": true
       },
       "INDL/A-": {
-        "description": "   IAEA Nuclear Data Library for evaluated neutron",
+        "description": "   IAEA Nucl.Data Lib.Eval.Neut.Reac.Data of Actinides",
         "active": true
       },
       "INDL/V-": {
-        "description": "   IAEA Nuclear Data Library for Various neutron data",
+        "description": "   IAEA Nucl.Data Lib.Var.Neut.Data Eval.ENDF-5 format",
         "active": true
       },
       "IRDF-": {
-        "description": "   International Reactor Dosimetry File (IRDF) in",
+        "description": "   International Reactor Dosimetry File (IRDF)",
         "active": true
       },
       "IRDFF-": {
@@ -111,7 +111,7 @@
         "active": true
       },
       "JNDC-FP": {
-        "description": "   JNDC nuclear data library of Fission Products",
+        "description": "   JNDC Nuclear Data Library of Fission Products",
         "active": true
       },
       "KEDAK-": {
@@ -119,7 +119,7 @@
         "active": true
       },
       "RCN-": {
-        "description": "   ECN, Petten, Evaluated Fission Product Cross",
+        "description": "   Evaluated Fission Product Cross Section Library",
         "active": true
       },
       "SOKRATOR-": {
@@ -139,7 +139,7 @@
         "active": true
       },
       "VIEN-V": {
-        "description": "   Various International Evaluated Neutron data (VIEN)",
+        "description": "   Various International Evaluated Neutron Data (VIEN)",
         "active": true
       }
     }

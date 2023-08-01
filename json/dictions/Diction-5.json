@@ -602,6 +602,12 @@
         "pulished_country_name": "China, People's Rep.",
         "active": true
       },
+      "CPH/B": {
+        "description": "Chinese Physics B",
+        "pulished_country_code": "3CPR",
+        "pulished_country_name": "China, People's Rep.",
+        "active": true
+      },
       "CPH/C": {
         "description": "Chinese Physics C",
         "pulished_country_code": "3CPR",
@@ -742,6 +748,12 @@
       },
       "EPJ/N": {
         "description": "European Physical Journal N: Nuclear Sci.Technol.",
+        "pulished_country_code": "2GER",
+        "pulished_country_name": "Germany",
+        "active": true
+      },
+      "EPJ/P": {
+        "description": "European Physical Journal Plus",
         "pulished_country_code": "2GER",
         "pulished_country_name": "Germany",
         "active": true
@@ -1878,6 +1890,12 @@
         "description": "Proc. of the National Academy of Sciences U.S.A.",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
+        "active": true
+      },
+      "PNJ": {
+        "description": "Philippines Nuclear Journal",
+        "pulished_country_code": "3PHI",
+        "pulished_country_name": "Philippines",
         "active": true
       },
       "PNV": {
