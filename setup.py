@@ -16,6 +16,7 @@ setup(
     name="exfor_dictionary",
     description="EXFOR Dictionary Parser",
     packages=find_packages(exclude=["test"]), 
+    package_data={"": ["*.json"]},
     version=version,
     author="Shin Okumura/IAEA-NDS",
     author_email="s.okumura@iaea.org",
