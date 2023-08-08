@@ -1,0 +1,539 @@
+{
+  "209": {
+    "diction_name": "Compounds",
+    "codes": {
+      "1-D-D2O": {
+        "description": "heavy water",
+        "active": false
+      },
+      "1-D-DXX": {
+        "description": "deuterium compound",
+        "active": false
+      },
+      "1-H-ARM": {
+        "description": "aromatic compounds",
+        "active": true
+      },
+      "1-H-BNZ": {
+        "description": "benzene, benzyl compounds",
+        "active": true
+      },
+      "1-H-BUT": {
+        "description": "butane, butyl compounds",
+        "active": true
+      },
+      "1-H-CMP": {
+        "description": "hydrogen compound",
+        "active": true
+      },
+      "1-H-CXX": {
+        "description": "organic compound",
+        "active": true
+      },
+      "1-H-D2O": {
+        "description": "heavy water",
+        "active": true
+      },
+      "1-H-DXX": {
+        "description": "deuterium compound",
+        "active": true
+      },
+      "1-H-ETH": {
+        "description": "ethane, ethyl compounds",
+        "active": true
+      },
+      "1-H-MTH": {
+        "description": "methane, methyl compounds",
+        "active": true
+      },
+      "1-H-PFN": {
+        "description": "paraffin",
+        "active": true
+      },
+      "1-H-PHL": {
+        "description": "phenol, phenyl compounds",
+        "active": true
+      },
+      "1-H-PLE": {
+        "description": "polyethylene",
+        "active": true
+      },
+      "1-H-PRO": {
+        "description": "propane, propyl compounds",
+        "active": true
+      },
+      "1-H-TXX": {
+        "description": "tritium compound",
+        "active": true
+      },
+      "1-H-WTR": {
+        "description": "water, ice, steam",
+        "active": true
+      },
+      "1-T-TXX": {
+        "description": "tritium compound",
+        "active": false
+      },
+      "3-LI-CMP": {
+        "description": "lithium compound",
+        "active": true
+      },
+      "4-BE-CMP": {
+        "description": "beryllium compound",
+        "active": true
+      },
+      "4-BE-OXI": {
+        "description": "beryllium oxide",
+        "active": true
+      },
+      "5-B-CMP": {
+        "description": "boron compound",
+        "active": true
+      },
+      "5-B-OXI": {
+        "description": "boron oxide",
+        "active": true
+      },
+      "6-C-CMP": {
+        "description": "carbon compound",
+        "active": true
+      },
+      "7-N-AIR": {
+        "description": "air",
+        "active": true
+      },
+      "7-N-AMM": {
+        "description": "ammonium compound",
+        "active": true
+      },
+      "7-N-CMP": {
+        "description": "nitrogen compound",
+        "active": true
+      },
+      "8-O-CMP": {
+        "description": "oxygen compound",
+        "active": true
+      },
+      "9-F-CMP": {
+        "description": "fluorine compound",
+        "active": true
+      },
+      "11-NA-CMP": {
+        "description": "sodium compound",
+        "active": true
+      },
+      "12-MG-CMP": {
+        "description": "magnesium compound",
+        "active": true
+      },
+      "12-MG-OXI": {
+        "description": "magnesium oxide",
+        "active": true
+      },
+      "13-AL-CMP": {
+        "description": "aluminium compound",
+        "active": true
+      },
+      "13-AL-OXI": {
+        "description": "aluminium oxide",
+        "active": true
+      },
+      "14-SI-CMP": {
+        "description": "silicon compound",
+        "active": true
+      },
+      "14-SI-OXI": {
+        "description": "silicon oxide",
+        "active": true
+      },
+      "15-P-CMP": {
+        "description": "phosphorus compound",
+        "active": true
+      },
+      "16-S-CMP": {
+        "description": "sulphur compound",
+        "active": true
+      },
+      "17-CL-CMP": {
+        "description": "chlorine compound",
+        "active": true
+      },
+      "19-K-CMP": {
+        "description": "potassium compound",
+        "active": true
+      },
+      "20-CA-CMP": {
+        "description": "calcium compound",
+        "active": true
+      },
+      "20-CA-OXI": {
+        "description": "calcium oxide",
+        "active": true
+      },
+      "22-TI-CMP": {
+        "description": "titanium compound",
+        "active": true
+      },
+      "22-TI-HYD": {
+        "description": "titanium hydride",
+        "active": true
+      },
+      "22-TI-OXI": {
+        "description": "titanium oxide",
+        "active": true
+      },
+      "23-V-CMP": {
+        "description": "vanadium compound",
+        "active": true
+      },
+      "24-CR-CMP": {
+        "description": "chromium compound",
+        "active": true
+      },
+      "24-CR-OXI": {
+        "description": "chromium oxide",
+        "active": true
+      },
+      "25-MN-CMP": {
+        "description": "manganese compound",
+        "active": true
+      },
+      "26-FE-CMP": {
+        "description": "iron compound",
+        "active": true
+      },
+      "26-FE-OXI": {
+        "description": "iron oxide",
+        "active": true
+      },
+      "27-CO-CMP": {
+        "description": "cobalt compound",
+        "active": true
+      },
+      "27-CO-OXI": {
+        "description": "cobalt oxide",
+        "active": true
+      },
+      "28-NI-CMP": {
+        "description": "nickel compound",
+        "active": true
+      },
+      "28-NI-OXI": {
+        "description": "nickel oxide",
+        "active": true
+      },
+      "29-CU-CMP": {
+        "description": "copper compound",
+        "active": true
+      },
+      "30-ZN-CMP": {
+        "description": "zinc compound",
+        "active": true
+      },
+      "31-GA-CMP": {
+        "description": "gallium compound",
+        "active": true
+      },
+      "31-GA-OXI": {
+        "description": "gallium oxide",
+        "active": true
+      },
+      "32-GE-CMP": {
+        "description": "germanium compound",
+        "active": true
+      },
+      "32-GE-OXI": {
+        "description": "germanium oxide",
+        "active": true
+      },
+      "33-AS-CMP": {
+        "description": "arsenic compound",
+        "active": true
+      },
+      "33-AS-OXI": {
+        "description": "arsenic oxide",
+        "active": true
+      },
+      "34-SE-CMP": {
+        "description": "selenium compound",
+        "active": true
+      },
+      "35-BR-CMP": {
+        "description": "bromine compound",
+        "active": true
+      },
+      "37-RB-CMP": {
+        "description": "rubidium compound",
+        "active": true
+      },
+      "38-SR-CMP": {
+        "description": "strontium compound",
+        "active": true
+      },
+      "38-SR-OXI": {
+        "description": "strontium oxide",
+        "active": true
+      },
+      "39-Y-CMP": {
+        "description": "yttrium compound",
+        "active": true
+      },
+      "40-ZR-ALY": {
+        "description": "zircalloy",
+        "active": true
+      },
+      "40-ZR-CMP": {
+        "description": "zirconium compound",
+        "active": true
+      },
+      "40-ZR-HYD": {
+        "description": "zirconium hydride",
+        "active": true
+      },
+      "40-ZR-OXI": {
+        "description": "zirconium oxide",
+        "active": true
+      },
+      "41-NB-CMP": {
+        "description": "niobium compound",
+        "active": true
+      },
+      "44-RU-CMP": {
+        "description": "ruthenium compound",
+        "active": true
+      },
+      "44-RU-OXI": {
+        "description": "ruthenium oxide",
+        "active": true
+      },
+      "45-RH-CMP": {
+        "description": "rhodium compound",
+        "active": true
+      },
+      "46-PD-CMP": {
+        "description": "palladium compound",
+        "active": true
+      },
+      "47-AG-CMP": {
+        "description": "silver compound",
+        "active": true
+      },
+      "48-CD-CMP": {
+        "description": "cadmium compound",
+        "active": true
+      },
+      "48-CD-OXI": {
+        "description": "cadmium oxide",
+        "active": true
+      },
+      "49-IN-CMP": {
+        "description": "indium compound",
+        "active": true
+      },
+      "50-SN-CMP": {
+        "description": "tin compound",
+        "active": true
+      },
+      "50-SN-OXI": {
+        "description": "tin oxide",
+        "active": true
+      },
+      "51-SB-CMP": {
+        "description": "antimony compound",
+        "active": true
+      },
+      "52-TE-CMP": {
+        "description": "tellurium compound",
+        "active": true
+      },
+      "52-TE-OXI": {
+        "description": "tellurium oxide",
+        "active": true
+      },
+      "53-I-CMP": {
+        "description": "iodine compound",
+        "active": true
+      },
+      "55-CS-CMP": {
+        "description": "cesium compound",
+        "active": true
+      },
+      "56-BA-CMP": {
+        "description": "barium compound",
+        "active": true
+      },
+      "57-LA-CMP": {
+        "description": "lanthanum compound",
+        "active": true
+      },
+      "57-LA-OXI": {
+        "description": "lanthanum oxide",
+        "active": true
+      },
+      "58-CE-CMP": {
+        "description": "cerium compound",
+        "active": true
+      },
+      "58-CE-OXI": {
+        "description": "cerium oxide",
+        "active": true
+      },
+      "59-PR-CMP": {
+        "description": "praseodymium compound",
+        "active": true
+      },
+      "59-PR-OXI": {
+        "description": "praseodymium oxide",
+        "active": true
+      },
+      "60-ND-CMP": {
+        "description": "neodymium compound",
+        "active": true
+      },
+      "62-SM-CMP": {
+        "description": "samarium compound",
+        "active": true
+      },
+      "63-EU-CMP": {
+        "description": "europium compound",
+        "active": true
+      },
+      "63-EU-OXI": {
+        "description": "europium oxide",
+        "active": true
+      },
+      "64-GD-OXI": {
+        "description": "gadolinium oxide",
+        "active": true
+      },
+      "65-TB-CMP": {
+        "description": "terbium compound",
+        "active": true
+      },
+      "65-TB-OXI": {
+        "description": "terbium oxide",
+        "active": true
+      },
+      "66-DY-CMP": {
+        "description": "dysprosium compound",
+        "active": true
+      },
+      "66-DY-OXI": {
+        "description": "dysprosium oxide",
+        "active": true
+      },
+      "67-HO-CMP": {
+        "description": "holmium compound",
+        "active": true
+      },
+      "67-HO-OXI": {
+        "description": "holmium oxide",
+        "active": true
+      },
+      "68-ER-CMP": {
+        "description": "erbium compound",
+        "active": true
+      },
+      "68-ER-OXI": {
+        "description": "erbium oxide",
+        "active": true
+      },
+      "69-TM-OXI": {
+        "description": "thulium oxide",
+        "active": true
+      },
+      "70-YB-CMP": {
+        "description": "ytterbium compound",
+        "active": true
+      },
+      "71-LU-OXI": {
+        "description": "lutetium oxide",
+        "active": true
+      },
+      "72-HF-CMP": {
+        "description": "hafnium compound",
+        "active": true
+      },
+      "73-TA-CMP": {
+        "description": "tantalum compound",
+        "active": true
+      },
+      "73-TA-OXI": {
+        "description": "tantalum oxide",
+        "active": true
+      },
+      "74-W-CMP": {
+        "description": "tungsten compound",
+        "active": true
+      },
+      "74-W-OXI": {
+        "description": "tungsten oxide",
+        "active": true
+      },
+      "75-RE-CMP": {
+        "description": "rhenium compound",
+        "active": true
+      },
+      "78-PT-CMP": {
+        "description": "platinum compound",
+        "active": true
+      },
+      "79-AU-CMP": {
+        "description": "gold compound",
+        "active": true
+      },
+      "80-HG-CMP": {
+        "description": "mercury compound",
+        "active": true
+      },
+      "80-HG-OXI": {
+        "description": "mercury oxide",
+        "active": true
+      },
+      "81-TL-CMP": {
+        "description": "thallium compound",
+        "active": true
+      },
+      "81-TL-OXI": {
+        "description": "thallium oxide",
+        "active": true
+      },
+      "82-PB-CMP": {
+        "description": "lead compound",
+        "active": true
+      },
+      "83-BI-CMP": {
+        "description": "bismuth compound",
+        "active": true
+      },
+      "83-BI-OXI": {
+        "description": "bismuth oxide",
+        "active": true
+      },
+      "90-TH-CMP": {
+        "description": "thorium compound",
+        "active": true
+      },
+      "90-TH-OXI": {
+        "description": "thorium oxide",
+        "active": true
+      },
+      "91-PA-OXI": {
+        "description": "protoactinium oxide",
+        "active": true
+      },
+      "92-U-CMP": {
+        "description": "uranium compound",
+        "active": true
+      },
+      "92-U-OXI": {
+        "description": "uranium oxide",
+        "active": true
+      },
+      "94-PU-CMP": {
+        "description": "plutonium compound",
+        "active": true
+      }
+    }
+  }
+}

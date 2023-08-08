@@ -1,0 +1,43 @@
+{
+  "17": {
+    "diction_name": "Related Reference Codes",
+    "codes": {
+      "A": {
+        "description": "Reference With Which Data Agree",
+        "active": true
+      },
+      "C": {
+        "description": "Critical Remarks",
+        "active": true
+      },
+      "D": {
+        "description": "Reference With Which Data Disagree",
+        "active": true
+      },
+      "E": {
+        "description": "Reference Used In The Evaluation",
+        "active": true
+      },
+      "I": {
+        "description": "Reference To Experimental Instruments",
+        "active": true
+      },
+      "M": {
+        "description": "Reference To Experimental Technique",
+        "active": true
+      },
+      "N": {
+        "description": "-",
+        "active": true
+      },
+      "O": {
+        "description": "Reference To Related Data Compiled In Another Entry",
+        "active": true
+      },
+      "R": {
+        "description": "Reference From Which Data Were Used",
+        "active": true
+      }
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "33": {
+    "diction_name": "Particles",
+    "codes": {
+      "0": {
+        "description": " -",
+        "active": true
+      },
+      "A": {
+        "description": "Alphas",
+        "active": true
+      },
+      "AN": {
+        "description": "Antineutrons",
+        "active": true
+      },
+      "AP": {
+        "description": "Antiprotons",
+        "active": true
+      },
+      "AR": {
+        "description": "Annihilation radiation",
+        "active": true
+      },
+      "B": {
+        "description": "Decay Betas",
+        "active": true
+      },
+      "B+": {
+        "description": "Decay Beta+",
+        "active": true
+      },
+      "B-": {
+        "description": "Decay Beta-",
+        "active": true
+      },
+      "B12": {
+        "description": "Boron 12",
+        "active": true
+      },
+      "B8": {
+        "description": "Boron 8",
+        "active": true
+      },
+      "BE10": {
+        "description": "Beryllium 10",
+        "active": true
+      },
+      "C14": {
+        "description": "Carbon 14",
+        "active": true
+      },
+      "CA40": {
+        "description": "Calcium 40",
+        "active": true
+      },
+      "D": {
+        "description": "Deuterons",
+        "active": true
+      },
+      "DG": {
+        "description": "Decay Gammas",
+        "active": true
+      },
+      "DN": {
+        "description": "Delayed Neutrons",
+        "active": true
+      },
+      "E": {
+        "description": "Electrons",
+        "active": true
+      },
+      "EC": {
+        "description": "Electron Capture",
+        "active": true
+      },
+      "ER": {
+        "description": "Evaporation Residues",
+        "active": true
+      },
+      "ETA": {
+        "description": "Eta mesons",
+        "active": true
+      },
+      "FF": {
+        "description": "Fission Fragments",
+        "active": true
+      },
+      "G": {
+        "description": "Gammas",
+        "active": true
+      },
+      "HE2": {
+        "description": "He-2",
+        "active": true
+      },
+      "HE3": {
+        "description": "He-3",
+        "active": true
+      },
+      "HE6": {
+        "description": "He-6",
+        "active": true
+      },
+      "HF": {
+        "description": "Heavy Fragment",
+        "active": true
+      },
+      "ICE": {
+        "description": "Internal-Conversion Electrons",
+        "active": true
+      },
+      "K": {
+        "description": "Kaons,unspecified",
+        "active": true
+      },
+      "K0": {
+        "description": "Kaons,neutral",
+        "active": true
+      },
+      "KN": {
+        "description": "Kaons,negative",
+        "active": true
+      },
+      "KP": {
+        "description": "Kaons,positive",
+        "active": true
+      },
+      "LCP": {
+        "description": "Light Charged Particle (Z less than 7)",
+        "active": true
+      },
+      "LF": {
+        "description": "Light Fragment",
+        "active": true
+      },
+      "LI6": {
+        "description": "Lithium 6",
+        "active": true
+      },
+      "LI7": {
+        "description": "Lithium 7",
+        "active": true
+      },
+      "LI9": {
+        "description": "Lithium 9",
+        "active": true
+      },
+      "N": {
+        "description": "Neutrons",
+        "active": true
+      },
+      "NE20": {
+        "description": "Neon 20",
+        "active": true
+      },
+      "O15": {
+        "description": "Oxygen 15",
+        "active": true
+      },
+      "O16": {
+        "description": "Oxygen 16",
+        "active": true
+      },
+      "P": {
+        "description": "Protons",
+        "active": true
+      },
+      "PI": {
+        "description": "Pions,unspecified",
+        "active": true
+      },
+      "PI0": {
+        "description": "Pions,neutral",
+        "active": true
+      },
+      "PIN": {
+        "description": "Pions,negative",
+        "active": true
+      },
+      "PIP": {
+        "description": "Pions,positive",
+        "active": true
+      },
+      "PN": {
+        "description": "Prompt Neutrons",
+        "active": true
+      },
+      "RCL": {
+        "description": "Recoil Nucleus",
+        "active": false
+      },
+      "RSD": {
+        "description": "Residual Nucleus",
+        "active": true
+      },
+      "SF": {
+        "description": "Fragments from Spontaneous Fission",
+        "active": true
+      },
+      "T": {
+        "description": "Tritons",
+        "active": true
+      },
+      "U238": {
+        "description": "Uranium 238",
+        "active": true
+      },
+      "XR": {
+        "description": "X-rays",
+        "active": true
+      }
+    }
+  }
+}

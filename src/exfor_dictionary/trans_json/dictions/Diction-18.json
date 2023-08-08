@@ -1,0 +1,147 @@
+{
+  "18": {
+    "diction_name": "Facilities",
+    "codes": {
+      "ACCEL": {
+        "description": "Accelerator",
+        "active": true
+      },
+      "BETAT": {
+        "description": "Betatron",
+        "active": true
+      },
+      "CCW": {
+        "description": "Cockcroft-Walton accelerator",
+        "active": true
+      },
+      "CYCLO": {
+        "description": "Cyclotron",
+        "active": true
+      },
+      "CYCTM": {
+        "description": "Tandem cyclotrons",
+        "active": true
+      },
+      "CYGFF": {
+        "description": "Cyclograaff",
+        "active": true
+      },
+      "DYNAM": {
+        "description": "Dynamitron",
+        "active": true
+      },
+      "ESTRG": {
+        "description": "Electron storage ring",
+        "active": true
+      },
+      "FNS": {
+        "description": "Fusion neutron source",
+        "active": true
+      },
+      "FRS": {
+        "description": "Fragment separator",
+        "active": false
+      },
+      "ICTR": {
+        "description": "Insulated core transformer accelerator",
+        "active": true
+      },
+      "INTFM": {
+        "description": "Interferometer",
+        "active": true
+      },
+      "ISOCY": {
+        "description": "Isochronous cyclotron",
+        "active": true
+      },
+      "LASER": {
+        "description": "Laser system",
+        "active": true
+      },
+      "LCEXP": {
+        "description": "Location of experiment",
+        "active": true
+      },
+      "LINAC": {
+        "description": "Linear accelerator",
+        "active": true
+      },
+      "MESON": {
+        "description": "Meson facility",
+        "active": false
+      },
+      "MICRT": {
+        "description": "Microtron",
+        "active": true
+      },
+      "OLMS": {
+        "description": "On-line mass separator",
+        "active": true
+      },
+      "PRJFS": {
+        "description": "Secondary beam from projectile fragment separator",
+        "active": false
+      },
+      "SPECC": {
+        "description": "Crystal spectrometer",
+        "active": true
+      },
+      "SPECD": {
+        "description": "Double mass spectrometer",
+        "active": true
+      },
+      "SPECM": {
+        "description": "Mass spectrometer",
+        "active": true
+      },
+      "SRING": {
+        "description": "Storage ring",
+        "active": true
+      },
+      "SYNCH": {
+        "description": "Synchrotron",
+        "active": true
+      },
+      "SYNCY": {
+        "description": "Synchro cyclotron",
+        "active": true
+      },
+      "VDG": {
+        "description": "Van de Graaff",
+        "active": true
+      },
+      "VDGT": {
+        "description": "Tandem van de Graaff",
+        "active": true
+      },
+      "CHOPF": {
+        "description": "Fast chopper",
+        "active": true
+      },
+      "CHOPS": {
+        "description": "Slow chopper",
+        "active": true
+      },
+      "CRASS": {
+        "description": "Critical assembly",
+        "active": true
+      },
+      "NGEN": {
+        "description": "Neutron generator",
+        "active": true
+      },
+      "OSCIP": {
+        "description": "Pile oscillator",
+        "active": true
+      },
+      "REAC": {
+        "description": "Reactor",
+        "active": true
+      },
+      "SELVE": {
+        "description": "Velocity selector",
+        "active": true
+      }
+    }
+  }
+}

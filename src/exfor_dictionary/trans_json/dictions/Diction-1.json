@@ -1,0 +1,71 @@
+{
+  "1": {
+    "diction_name": "System identifiers",
+    "codes": {
+      "BIB": {
+        "description": "First record of each BIB section.",
+        "active": true
+      },
+      "COMMON": {
+        "description": "First record of each common data section.",
+        "active": true
+      },
+      "DATA": {
+        "description": "First record of each DATA section.",
+        "active": true
+      },
+      "ENDBIB": {
+        "description": "Last record of each BIB section.",
+        "active": true
+      },
+      "ENDCOMMON": {
+        "description": "Last record of common data section.",
+        "active": true
+      },
+      "ENDDATA": {
+        "description": "Last record of DATA section.",
+        "active": true
+      },
+      "ENDENTRY": {
+        "description": "Last record of each work (accession number).",
+        "active": true
+      },
+      "ENDSUBENT": {
+        "description": "Last record of each sub-work.",
+        "active": true
+      },
+      "ENDTRANS": {
+        "description": "Last record on transmission file.",
+        "active": true
+      },
+      "ENTRY": {
+        "description": "First record of each work (accession number).",
+        "active": true
+      },
+      "NOBIB": {
+        "description": "Used when there is no BIB information in a sub-work.",
+        "active": true
+      },
+      "NOCOMMON": {
+        "description": "Used when there is no common data in a sub-work.",
+        "active": true
+      },
+      "NODATA": {
+        "description": "Used when there is no data in a sub-work.",
+        "active": true
+      },
+      "NOSUBENT": {
+        "description": "Indicates subentry assigned, but empty.",
+        "active": true
+      },
+      "SUBENT": {
+        "description": "First record of each sub-work.",
+        "active": true
+      },
+      "TRANS": {
+        "description": "First record on a transmission file.",
+        "active": true
+      }
+    }
+  }
+}

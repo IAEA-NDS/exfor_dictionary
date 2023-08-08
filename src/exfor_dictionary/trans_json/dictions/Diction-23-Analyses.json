@@ -1,0 +1,131 @@
+{
+  "23": {
+    "diction_name": "Analyses",
+    "codes": {
+      "4PI1A": {
+        "description": "4pi times differential cross section at one angle",
+        "active": true
+      },
+      "ANC": {
+        "description": "asymptotic normalization constant",
+        "active": true
+      },
+      "AREA": {
+        "description": "area analysis",
+        "active": true
+      },
+      "CHGDS": {
+        "description": "corrected for charge distribution",
+        "active": true
+      },
+      "CORAB": {
+        "description": "correction on isotopic abundance",
+        "active": true
+      },
+      "DECAY": {
+        "description": "decay curve analysis",
+        "active": true
+      },
+      "DTBAL": {
+        "description": "detailed balance",
+        "active": true
+      },
+      "ERCSN": {
+        "description": "extracted from ericson fluctuation",
+        "active": true
+      },
+      "INTAD": {
+        "description": "integration of angular distribution",
+        "active": true
+      },
+      "INTED": {
+        "description": "integration of energy distribution",
+        "active": true
+      },
+      "INTEF": {
+        "description": "integration of excitation function",
+        "active": true
+      },
+      "INTPD": {
+        "description": "integration of momentum distribution",
+        "active": true
+      },
+      "MLA": {
+        "description": "multilevel analysis",
+        "active": true
+      },
+      "NTRTH": {
+        "description": "normalized to rutherford scattering cross section",
+        "active": true
+      },
+      "PES": {
+        "description": "extracted from equilibrium particle emission spectra",
+        "active": true
+      },
+      "PGS": {
+        "description": "extracted from primary gamma spectra",
+        "active": true
+      },
+      "RFN": {
+        "description": "r-function formalism",
+        "active": false
+      },
+      "SHAPE": {
+        "description": "shape analysis",
+        "active": true
+      },
+      "SLA": {
+        "description": "single level analysis",
+        "active": true
+      },
+      "SURGT": {
+        "description": "surrogate reaction method",
+        "active": true
+      },
+      "TROJA": {
+        "description": "trojan-horse method",
+        "active": true
+      },
+      "TTUNF": {
+        "description": "calculated from thick target using unfolding proced.",
+        "active": true
+      },
+      "UNFLD": {
+        "description": "unfolding procedure",
+        "active": true
+      },
+      "WSP": {
+        "description": "woods-saxon potential",
+        "active": false
+      },
+      "DIFFR": {
+        "description": "difference spectrum",
+        "active": true
+      },
+      "LEAST": {
+        "description": "least structure method",
+        "active": true
+      },
+      "PHDIF": {
+        "description": "photon difference",
+        "active": true
+      },
+      "PLA": {
+        "description": "penfold-leiss method",
+        "active": true
+      },
+      "REDUC": {
+        "description": "reduction method",
+        "active": true
+      },
+      "REGUL": {
+        "description": "regularization method",
+        "active": true
+      },
+      "THIES": {
+        "description": "thies's method",
+        "active": true
+      }
+    }
+  }
+}

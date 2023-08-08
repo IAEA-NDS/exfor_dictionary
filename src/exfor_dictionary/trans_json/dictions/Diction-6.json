@@ -1,0 +1,3559 @@
+{
+  "6": {
+    "diction_name": "Reports",
+    "codes": {
+      "ALBERTA-": {
+        "description": "Nucl.Res.Centre, U.of Alberta, Edmonton Reports",
+        "publisher": "1CANALA",
+        "publisher_name": "Univ. of Alberta, Edmonton, Alberta",
+        "active": true
+      },
+      "AECL-": {
+        "description": "Atomic Energy of Canada Ltd. Reports",
+        "publisher": "1CANCRC",
+        "publisher_name": "A.E.C.L., Chalk River, Ontario",
+        "active": true
+      },
+      "CR-": {
+        "description": "*** Code obsolete *** Use AECL-number",
+        "publisher": "1CANCRC",
+        "publisher_name": "A.E.C.L., Chalk River, Ontario",
+        "active": false
+      },
+      "CRC-": {
+        "description": "National Research Council Reports",
+        "publisher": "1CANCRC",
+        "publisher_name": "A.E.C.L., Chalk River, Ontario",
+        "active": true
+      },
+      "CRGP-": {
+        "description": "AECL  .",
+        "publisher": "1CANCRC",
+        "publisher_name": "A.E.C.L., Chalk River, Ontario",
+        "active": true
+      },
+      "CRNL-": {
+        "description": "AECL Chalk River Reports",
+        "publisher": "1CANCRC",
+        "publisher_name": "A.E.C.L., Chalk River, Ontario",
+        "active": true
+      },
+      "CRP-": {
+        "description": "AECL Chalk River Reports",
+        "publisher": "1CANCRC",
+        "publisher_name": "A.E.C.L., Chalk River, Ontario",
+        "active": true
+      },
+      "CRRP-": {
+        "description": "AECL Chalk River Reports",
+        "publisher": "1CANCRC",
+        "publisher_name": "A.E.C.L., Chalk River, Ontario",
+        "active": true
+      },
+      "CRT-": {
+        "description": "Natn'l Res.Council of Canada, Chalk River Repts",
+        "publisher": "1CANCRC",
+        "publisher_name": "A.E.C.L., Chalk River, Ontario",
+        "active": true
+      },
+      "PR-CM-": {
+        "description": "AECL Chalk River Reports",
+        "publisher": "1CANCRC",
+        "publisher_name": "A.E.C.L., Chalk River, Ontario",
+        "active": true
+      },
+      "PR-CMA-": {
+        "description": "AECL Chalk River Reports",
+        "publisher": "1CANCRC",
+        "publisher_name": "A.E.C.L., Chalk River, Ontario",
+        "active": true
+      },
+      "PR-P-": {
+        "description": "AECL Reports",
+        "publisher": "1CANCRC",
+        "publisher_name": "A.E.C.L., Chalk River, Ontario",
+        "active": true
+      },
+      "TDS-": {
+        "description": "AECL Nucl.Power Plant Div. Reports",
+        "publisher": "1CANCRC",
+        "publisher_name": "A.E.C.L., Chalk River, Ontario",
+        "active": true
+      },
+      "UK/C-": {
+        "description": "AECL Reports",
+        "publisher": "1CANCRC",
+        "publisher_name": "A.E.C.L., Chalk River, Ontario",
+        "active": true
+      },
+      "LPN-UM-": {
+        "description": "Univ. of Montreal Reports",
+        "publisher": "1CANMON",
+        "publisher_name": "Univ. of Montreal, Montreal, Quebec",
+        "active": true
+      },
+      "NRCC-": {
+        "description": "Nat'l Res.Council of Canada, Ottawa Reports",
+        "publisher": "1CANOTC",
+        "publisher_name": "National Research Council, Ottawa, Ontario",
+        "active": true
+      },
+      "ENICO-": {
+        "description": "Exxon Nuclear Idaho Company Reports",
+        "publisher": "1USAACC",
+        "publisher_name": "Exxon Nuclear Idaho Co., ID",
+        "active": true
+      },
+      "ICP-": {
+        "description": "Allied Chem. Corp., Idaho Chem. Programs",
+        "publisher": "1USAACC",
+        "publisher_name": "Exxon Nuclear Idaho Co., ID",
+        "active": true
+      },
+      "AN-": {
+        "description": "Aerojet General Nucleonics Reports",
+        "publisher": "1USAAGN",
+        "publisher_name": "Aerojet-General Nucleonics, San Ramon, CA",
+        "active": true
+      },
+      "AIP-": {
+        "description": "Conf.proceedings by Am.Inst.of Phys.",
+        "publisher": "1USAAIP",
+        "publisher_name": "American Institute of Physics, New York, NY",
+        "active": true
+      },
+      "A-ALB-": {
+        "description": "State Univ. of New York at Albany Reports",
+        "publisher": "1USAALB",
+        "publisher_name": "State University of New York, Albany, NY",
+        "active": true
+      },
+      "ANL-": {
+        "description": "Argonne National Laboratory report series",
+        "publisher": "1USAANL",
+        "publisher_name": "Argonne National Laboratory, Argonne, IL",
+        "active": true
+      },
+      "ANL-NDM-": {
+        "description": "Argonne National Laboratory Reports",
+        "publisher": "1USAANL",
+        "publisher_name": "Argonne National Laboratory, Argonne, IL",
+        "active": true
+      },
+      "ANL-TRANS-": {
+        "description": "Argonne National Laboratory, translations",
+        "publisher": "1USAANL",
+        "publisher_name": "Argonne National Laboratory, Argonne, IL",
+        "active": true
+      },
+      "ANL/NPBTSTR": {
+        "description": "Argonne Nat.Lab.Neutr.Part.Beam Test Prog.Repts.",
+        "publisher": "1USAANL",
+        "publisher_name": "Argonne National Laboratory, Argonne, IL",
+        "active": true
+      },
+      "AP/CTR/TM-": {
+        "description": "Argonne Nat. Lab., Appl.Phys.Div., Techn. Memo",
+        "publisher": "1USAANL",
+        "publisher_name": "Argonne National Laboratory, Argonne, IL",
+        "active": true
+      },
+      "FRA-TM-": {
+        "description": "FRA Technical Memorandum, Argonne Nat. Lab.",
+        "publisher": "1USAANL",
+        "publisher_name": "Argonne National Laboratory, Argonne, IL",
+        "active": true
+      },
+      "RPCC-": {
+        "description": "Reactor Physics Constants Center Newsletter",
+        "publisher": "1USAANL",
+        "publisher_name": "Argonne National Laboratory, Argonne, IL",
+        "active": true
+      },
+      "APDA-": {
+        "description": "Atomic Power Devel. Assoc., Detroit Reports",
+        "publisher": "1USAAPD",
+        "publisher_name": "Atomic Power Development Associates, Detroit, MI",
+        "active": true
+      },
+      "ARF-": {
+        "description": "Armour Research Foundation Reports",
+        "publisher": "1USAARF",
+        "publisher_name": "Armour Research Foundation, Chicago, IL",
+        "active": true
+      },
+      "A-ARK-": {
+        "description": "Univ. of Arkansas Reports",
+        "publisher": "1USAARK",
+        "publisher_name": "Univ. of Arkansas, Fayetteville, AR",
+        "active": true
+      },
+      "ARL-": {
+        "description": "Aerospace Res.Labs,Wright-Patterson A.F.B.Repts.",
+        "publisher": "1USAARL",
+        "publisher_name": "Aerospace Res. Labs, Wright-Patterson A.F. Base, OH",
+        "active": true
+      },
+      "BAW-": {
+        "description": "Babcock and Wilcox Co. Reports",
+        "publisher": "1USAB+W",
+        "publisher_name": "Babcock and Wilcox, Lynchburgh, VA",
+        "active": true
+      },
+      "BMI-": {
+        "description": "Battelle Memorial Inst. Reports",
+        "publisher": "1USABAT",
+        "publisher_name": "Battelle Memorial Institute, Columbus, OH",
+        "active": true
+      },
+      "BNL-": {
+        "description": "Brookhaven National Laboratory report series",
+        "publisher": "1USABNL",
+        "publisher_name": "Brookhaven National Laboratory, Upton, NY",
+        "active": true
+      },
+      "BNL-C-": {
+        "description": "Brookhaven National Laboratory Reports",
+        "publisher": "1USABNL",
+        "publisher_name": "Brookhaven National Laboratory, Upton, NY",
+        "active": true
+      },
+      "BNL-NCS-": {
+        "description": "Brookhaven National Laboratory Reports",
+        "publisher": "1USABNL",
+        "publisher_name": "Brookhaven National Laboratory, Upton, NY",
+        "active": true
+      },
+      "BNL-TR-": {
+        "description": "Brookhaven National Laboratory translations",
+        "publisher": "1USABNL",
+        "publisher_name": "Brookhaven National Laboratory, Upton, NY",
+        "active": true
+      },
+      "IS/P-": {
+        "description": "Brookhaven National Laboratory Reports",
+        "publisher": "1USABNL",
+        "publisher_name": "Brookhaven National Laboratory, Upton, NY",
+        "active": true
+      },
+      "BNWL-": {
+        "description": "Battelle-Northwest report series",
+        "publisher": "1USABNW",
+        "publisher_name": "Pacific Northwest Laboratories, Richland, WA",
+        "active": true
+      },
+      "BNWL-B-": {
+        "description": "Battelle-Northwest Reports",
+        "publisher": "1USABNW",
+        "publisher_name": "Pacific Northwest Laboratories, Richland, WA",
+        "active": true
+      },
+      "BNWL-SA-": {
+        "description": "Battelle-Northwest Reports",
+        "publisher": "1USABNW",
+        "publisher_name": "Pacific Northwest Laboratories, Richland, WA",
+        "active": true
+      },
+      "BNWL-TR-": {
+        "description": "Battelle-Northwest Reports",
+        "publisher": "1USABNW",
+        "publisher_name": "Pacific Northwest Laboratories, Richland, WA",
+        "active": true
+      },
+      "LBL-": {
+        "description": "Lawrence Berkeley Laboratory Reports",
+        "publisher": "1USABRK",
+        "publisher_name": "Lawrence Berkeley National Laboratory, Berkeley, CA",
+        "active": true
+      },
+      "LBNL-": {
+        "description": "Lawrence Berkeley National Laboratory Reports",
+        "publisher": "1USABRK",
+        "publisher_name": "Lawrence Berkeley National Laboratory, Berkeley, CA",
+        "active": true
+      },
+      "BRL-": {
+        "description": "Ballistic Research Labs report series",
+        "publisher": "1USABRL",
+        "publisher_name": "Ballistic Research Labs, Aberdeen Proving Grounds, MD",
+        "active": true
+      },
+      "BRL-MR-": {
+        "description": "Ballistic Research Labs Reports",
+        "publisher": "1USABRL",
+        "publisher_name": "Ballistic Research Labs, Aberdeen Proving Grounds, MD",
+        "active": true
+      },
+      "BRL-R-": {
+        "description": "Ballistic Research Labs Reports",
+        "publisher": "1USABRL",
+        "publisher_name": "Ballistic Research Labs, Aberdeen Proving Grounds, MD",
+        "active": true
+      },
+      "LAP-": {
+        "description": "Calif. Inst. of Technology Lemon Aid Preprints",
+        "publisher": "1USACAL",
+        "publisher_name": "California Institute of Technology, Pasadena, CA",
+        "active": true
+      },
+      "OAP-": {
+        "description": "Calif. Inst. of Technology Orange Aid Preprints",
+        "publisher": "1USACAL",
+        "publisher_name": "California Institute of Technology, Pasadena, CA",
+        "active": true
+      },
+      "CC-": {
+        "description": "Chicago University Metallurgical Labs Reports",
+        "publisher": "1USACHI",
+        "publisher_name": "University of Chicago, IL",
+        "active": true
+      },
+      "CF-": {
+        "description": "Chicago University Metallurgical Labs Reports",
+        "publisher": "1USACHI",
+        "publisher_name": "University of Chicago, IL",
+        "active": true
+      },
+      "CN-": {
+        "description": "Chicago University Metallurgical Labs Reports",
+        "publisher": "1USACHI",
+        "publisher_name": "University of Chicago, IL",
+        "active": true
+      },
+      "CP-": {
+        "description": "Chicago University Metallurgical Labs Reports",
+        "publisher": "1USACHI",
+        "publisher_name": "University of Chicago, IL",
+        "active": true
+      },
+      "CS-": {
+        "description": "Chicago University Metallurgical Labs Reports",
+        "publisher": "1USACHI",
+        "publisher_name": "University of Chicago, IL",
+        "active": true
+      },
+      "NPL-": {
+        "description": "U. Colorado, Nucl.Phys.Lab., Techn. Prog. Rept.",
+        "publisher": "1USACLU",
+        "publisher_name": "Colorado University, Boulder, CO",
+        "active": true
+      },
+      "UCOL-P-": {
+        "description": "Colorado Univ. Reports",
+        "publisher": "1USACLU",
+        "publisher_name": "Colorado University, Boulder, CO",
+        "active": true
+      },
+      "CU(PNPL)-": {
+        "description": "Columbia Univ. progress report",
+        "publisher": "1USACOL",
+        "publisher_name": "Columbia University, New York, NY",
+        "active": true
+      },
+      "CU-": {
+        "description": "Columbia Univ. report series",
+        "publisher": "1USACOL",
+        "publisher_name": "Columbia University, New York, NY",
+        "active": true
+      },
+      "CUD-": {
+        "description": "Columbia Univ. report series",
+        "publisher": "1USACOL",
+        "publisher_name": "Columbia University, New York, NY",
+        "active": true
+      },
+      "NYO-GEN-": {
+        "description": "Columbia Univ. Reports",
+        "publisher": "1USACOL",
+        "publisher_name": "Columbia University, New York, NY",
+        "active": true
+      },
+      "NUCL-EX-": {
+        "description": "Cornell University Web Reports",
+        "publisher": "1USACOR",
+        "publisher_name": "Cornell University, Ithaca, NY",
+        "active": true
+      },
+      "CWR-": {
+        "description": "Curtiss-Wright Corp. Reports",
+        "publisher": "1USACUW",
+        "publisher_name": "Curtiss-Wright Corp., Quehanna, PA",
+        "active": true
+      },
+      "DAV-": {
+        "description": "Crocker Nucl. Lab., U.C. at Davis Reports",
+        "publisher": "1USADAV",
+        "publisher_name": "University of California, Davis, CA",
+        "active": true
+      },
+      "UCD-CNL-": {
+        "description": "Crocker Nucl. Lab., U.C. at Davis, prog.rep.",
+        "publisher": "1USADAV",
+        "publisher_name": "University of California, Davis, CA",
+        "active": true
+      },
+      "AD-": {
+        "description": "Dept. of Defence Reports",
+        "publisher": "1USADOD",
+        "publisher_name": "Dept. of Defense, DASA, Washington, DC",
+        "active": true
+      },
+      "AFOSR-": {
+        "description": "Dept. of Defense Reports",
+        "publisher": "1USADOD",
+        "publisher_name": "Dept. of Defense, DASA, Washington, DC",
+        "active": true
+      },
+      "AFSWP-": {
+        "description": "Armed Forces Special Weapons Project Reports",
+        "publisher": "1USADOD",
+        "publisher_name": "Dept. of Defense, DASA, Washington, DC",
+        "active": true
+      },
+      "DASA-": {
+        "description": "Defense Atomic Support Agency Reports",
+        "publisher": "1USADOD",
+        "publisher_name": "Dept. of Defense, DASA, Washington, DC",
+        "active": true
+      },
+      "RFP-TRANS-": {
+        "description": "Dow Chemical Comp., Rocky Flats, translations",
+        "publisher": "1USADRF",
+        "publisher_name": "Dow Chemical Co., Rocky Flats, CO",
+        "active": true
+      },
+      "FZK-": {
+        "description": "General Dynamics Reports",
+        "publisher": "1USAGDT",
+        "publisher_name": "General Dynamics, Fort Worth, TX",
+        "active": true
+      },
+      "NARF-": {
+        "description": "Nuclear Aerospace Research Facility Reports",
+        "publisher": "1USAGDT",
+        "publisher_name": "General Dynamics, Fort Worth, TX",
+        "active": true
+      },
+      "WL-TR-": {
+        "description": "General Dynamics, Fort Worth, Techn. Reports",
+        "publisher": "1USAGDT",
+        "publisher_name": "General Dynamics, Fort Worth, TX",
+        "active": true
+      },
+      "APEX-": {
+        "description": "General Electric, Aircraft Nucl.Prop.Dept.Repts.",
+        "publisher": "1USAGEA",
+        "publisher_name": "General Electric, Aircraft Nucl.Prop.Dept., Ohio",
+        "active": true
+      },
+      "DC-": {
+        "description": "General Electric, Aircraft Nucl. Prop. Proj.",
+        "publisher": "1USAGEA",
+        "publisher_name": "General Electric, Aircraft Nucl.Prop.Dept., Ohio",
+        "active": true
+      },
+      "GEMP-": {
+        "description": "General Electric, Flight Prop. Lab. Reports",
+        "publisher": "1USAGEA",
+        "publisher_name": "General Electric, Aircraft Nucl.Prop.Dept., Ohio",
+        "active": true
+      },
+      "APED-": {
+        "description": "General Electric, Atomic Power Equipm.Dept.Repts",
+        "publisher": "1USAGEC",
+        "publisher_name": "General Electric Company, San Jose, CA",
+        "active": true
+      },
+      "GEAP-": {
+        "description": "General Electric, California Reports",
+        "publisher": "1USAGEC",
+        "publisher_name": "General Electric Company, San Jose, CA",
+        "active": true
+      },
+      "NEDO-": {
+        "description": "General Electric, At.Power Equipm. Dept.",
+        "publisher": "1USAGEC",
+        "publisher_name": "General Electric Company, San Jose, CA",
+        "active": true
+      },
+      "HW-": {
+        "description": "Hanford Reports",
+        "publisher": "1USAHAN",
+        "publisher_name": "Hanford Atomic Products, Richland, WA",
+        "active": true
+      },
+      "HW-SA-": {
+        "description": "Hanford Reports",
+        "publisher": "1USAHAN",
+        "publisher_name": "Hanford Atomic Products, Richland, WA",
+        "active": true
+      },
+      "HEDL-TME-": {
+        "description": "Hanford Engineering Development Lab. Reports",
+        "publisher": "1USAHED",
+        "publisher_name": "Hanford Engineering Development Lab., Richland, WA",
+        "active": true
+      },
+      "TC-": {
+        "description": "Hanford Engineering Development Lab. Reports",
+        "publisher": "1USAHED",
+        "publisher_name": "Hanford Engineering Development Lab., Richland, WA",
+        "active": true
+      },
+      "HNS-": {
+        "description": "Hazleton-Nuclear Science Co. Reports",
+        "publisher": "1USAHNS",
+        "publisher_name": "Hazelton Nuclear Science Corp., Palo Alto, CA",
+        "active": true
+      },
+      "HASL-": {
+        "description": "USAEC Health and Safety Lab, New York Reports",
+        "publisher": "1USAHSL",
+        "publisher_name": "U.S.A.E.C. Health and Safety Lab., NY",
+        "active": true
+      },
+      "IIT-": {
+        "description": "Illinois Inst.of Technology Reports",
+        "publisher": "1USAIIT",
+        "publisher_name": "Illinois Institute of Technology, Chicago, IL",
+        "active": true
+      },
+      "IITRI-": {
+        "description": "Illinois Inst.of Technology Reports",
+        "publisher": "1USAIIT",
+        "publisher_name": "Illinois Institute of Technology, Chicago, IL",
+        "active": true
+      },
+      "INL/EXT-": {
+        "description": "Idaho National Laboratory Reports",
+        "publisher": "1USAINL",
+        "publisher_name": "Idaho National Laboratory, Idaho Falls, ID",
+        "active": true
+      },
+      "IS-": {
+        "description": "Iowa State Univ. Reports",
+        "publisher": "1USAIOW",
+        "publisher_name": "University of Iowa, Iowa City, IA",
+        "active": true
+      },
+      "IS-T-": {
+        "description": "Iowa State Univ., thesis",
+        "publisher": "1USAIOW",
+        "publisher_name": "University of Iowa, Iowa City, IA",
+        "active": true
+      },
+      "SUI-": {
+        "description": "Iowa State Univ. Reports",
+        "publisher": "1USAIOW",
+        "publisher_name": "University of Iowa, Iowa City, IA",
+        "active": true
+      },
+      "INTEL-RT-": {
+        "description": "Intelcom Radiation Technology Reports",
+        "publisher": "1USAIRT",
+        "publisher_name": "Intelcom Radiation Technology, San Diego, CA",
+        "active": true
+      },
+      "INTELRT-": {
+        "description": "Intelcom Radiation Technology reports",
+        "publisher": "1USAIRT",
+        "publisher_name": "Intelcom Radiation Technology, San Diego, CA",
+        "active": true
+      },
+      "IRT-": {
+        "description": "Intelcom Radiation Technology Reports",
+        "publisher": "1USAIRT",
+        "publisher_name": "Intelcom Radiation Technology, San Diego, CA",
+        "active": true
+      },
+      "KAPL-": {
+        "description": "Knolls Atomic Power Lab. report series",
+        "publisher": "1USAKAP",
+        "publisher_name": "Knolls Atomic Power Laboratory, Schenectady, NY",
+        "active": true
+      },
+      "KAPL-M-": {
+        "description": "Knolls Atomic Power Lab. Reports",
+        "publisher": "1USAKAP",
+        "publisher_name": "Knolls Atomic Power Laboratory, Schenectady, NY",
+        "active": true
+      },
+      "KAPL-M-ECH-": {
+        "description": "Knolls Atomic Power Lab. Reports",
+        "publisher": "1USAKAP",
+        "publisher_name": "Knolls Atomic Power Laboratory, Schenectady, NY",
+        "active": true
+      },
+      "KAPL-M-EFC-": {
+        "description": "Knolls Atomic Power Lab. Reports",
+        "publisher": "1USAKAP",
+        "publisher_name": "Knolls Atomic Power Laboratory, Schenectady, NY",
+        "active": true
+      },
+      "KAPL-M-JBN-": {
+        "description": "Knolls Atomic Power Lab. Reports",
+        "publisher": "1USAKAP",
+        "publisher_name": "Knolls Atomic Power Laboratory, Schenectady, NY",
+        "active": true
+      },
+      "KAPL-P-": {
+        "description": "Knolls Atomic Power Lab. Reports",
+        "publisher": "1USAKAP",
+        "publisher_name": "Knolls Atomic Power Laboratory, Schenectady, NY",
+        "active": true
+      },
+      "KAPL/CSNL-": {
+        "description": "Knolls At. Power Lab. Cross-Section Newsletter",
+        "publisher": "1USAKAP",
+        "publisher_name": "Knolls Atomic Power Laboratory, Schenectady, NY",
+        "active": true
+      },
+      "A-KTY-": {
+        "description": "Univ.of Kentucky annual report",
+        "publisher": "1USAKTY",
+        "publisher_name": "University of Kentucky, Lexington, KY",
+        "active": true
+      },
+      "U/KTY-": {
+        "description": "University of Kentucky Reports",
+        "publisher": "1USAKTY",
+        "publisher_name": "University of Kentucky, Lexington, KY",
+        "active": true
+      },
+      "LA-": {
+        "description": "Los Alamos Scientific Lab. Reports",
+        "publisher": "1USALAS",
+        "publisher_name": "Los Alamos National Laboratory, NM",
+        "active": true
+      },
+      "LA-DC-": {
+        "description": "Los Alamos Scientific Lab. Reports",
+        "publisher": "1USALAS",
+        "publisher_name": "Los Alamos National Laboratory, NM",
+        "active": true
+      },
+      "LA-TR-": {
+        "description": "Los Alamos Scientific Lab. translations",
+        "publisher": "1USALAS",
+        "publisher_name": "Los Alamos National Laboratory, NM",
+        "active": true
+      },
+      "LA-UR-": {
+        "description": "Los Alamos Scientific Lab. Reports",
+        "publisher": "1USALAS",
+        "publisher_name": "Los Alamos National Laboratory, NM",
+        "active": true
+      },
+      "LADC-": {
+        "description": "Los Alamos Scientific lab. Reports",
+        "publisher": "1USALAS",
+        "publisher_name": "Los Alamos National Laboratory, NM",
+        "active": true
+      },
+      "LAMS-": {
+        "description": "Los Alamos Scientific Lab. Reports",
+        "publisher": "1USALAS",
+        "publisher_name": "Los Alamos National Laboratory, NM",
+        "active": true
+      },
+      "LMSC-": {
+        "description": "Lockheed Aircraft Co. Reports",
+        "publisher": "1USALOK",
+        "publisher_name": "Lockheed Aircraft Corp., Sunnyvale, CA",
+        "active": true
+      },
+      "LMSD-": {
+        "description": "Lockheed Aircraft Co. Reports",
+        "publisher": "1USALOK",
+        "publisher_name": "Lockheed Aircraft Corp., Sunnyvale, CA",
+        "active": true
+      },
+      "LLNL-TR-": {
+        "description": "Lawrence Livermore National Laboratory Reports",
+        "publisher": "1USALRL",
+        "publisher_name": "Lawrence Livermore National Laboratory, Livermore, CA",
+        "active": true
+      },
+      "RL-": {
+        "description": "Lawrence Radiation Lab., Berkeley Reports",
+        "publisher": "1USALRL",
+        "publisher_name": "Lawrence Livermore National Laboratory, Livermore, CA",
+        "active": true
+      },
+      "UCAR-": {
+        "description": "U.C., Lawrence Livermore Lab., Reports",
+        "publisher": "1USALRL",
+        "publisher_name": "Lawrence Livermore National Laboratory, Livermore, CA",
+        "active": true
+      },
+      "UCID-": {
+        "description": "U.C., Lawrence Rad.Lab., Reports",
+        "publisher": "1USALRL",
+        "publisher_name": "Lawrence Livermore National Laboratory, Livermore, CA",
+        "active": true
+      },
+      "UCRL-": {
+        "description": "U.C., Lawrence Rad.Lab. (Berkeley and Livermore)",
+        "publisher": "1USALRL",
+        "publisher_name": "Lawrence Livermore National Laboratory, Livermore, CA",
+        "active": true
+      },
+      "UCRL-ID-": {
+        "description": "U.C., Lawrence Rad.Lab. (Berkeley and Livermore)",
+        "publisher": "1USALRL",
+        "publisher_name": "Lawrence Livermore National Laboratory, Livermore, CA",
+        "active": true
+      },
+      "UCRL-TR-": {
+        "description": "U.C., Lawrence Radiation Lab. translation series",
+        "publisher": "1USALRL",
+        "publisher_name": "Lawrence Livermore National Laboratory, Livermore, CA",
+        "active": true
+      },
+      "UCRL-TRANS-": {
+        "description": "U.C., Lawrence Radiation Lab. translation",
+        "publisher": "1USALRL",
+        "publisher_name": "Lawrence Livermore National Laboratory, Livermore, CA",
+        "active": true
+      },
+      "UNIV-MI-": {
+        "description": "University of Michigan Reports",
+        "publisher": "1USAMHG",
+        "publisher_name": "University of Michigan, Ann Arbor, MI",
+        "active": true
+      },
+      "MIT-": {
+        "description": "Massachusetts Inst. of Technology Reports",
+        "publisher": "1USAMIT",
+        "publisher_name": "Massachusetts Institute of Technology, Cambridge, MA",
+        "active": true
+      },
+      "MIT-LNS-PR-": {
+        "description": "M.I.T. Lab. of Nucl.Science progress report",
+        "publisher": "1USAMIT",
+        "publisher_name": "Massachusetts Institute of Technology, Cambridge, MA",
+        "active": true
+      },
+      "MIT-REP-": {
+        "description": "Massachusetts Inst. of Technology Reports",
+        "publisher": "1USAMIT",
+        "publisher_name": "Massachusetts Institute of Technology, Cambridge, MA",
+        "active": true
+      },
+      "MIT-TR-": {
+        "description": "Massachusetts Inst. of Technology Reports",
+        "publisher": "1USAMIT",
+        "publisher_name": "Massachusetts Institute of Technology, Cambridge, MA",
+        "active": true
+      },
+      "MITNE-": {
+        "description": "M.I.T. Dept.of Nuclear Engineering Reports",
+        "publisher": "1USAMIT",
+        "publisher_name": "Massachusetts Institute of Technology, Cambridge, MA",
+        "active": true
+      },
+      "MLM-": {
+        "description": "Mound Lab., Miamisburg Reports",
+        "publisher": "1USAMND",
+        "publisher_name": "Mound Laboratory, Miamisburg, OH",
+        "active": true
+      },
+      "MNC-": {
+        "description": "Maryland Univ., Dept. of Nuclear Chem. Reports",
+        "publisher": "1USAMRY",
+        "publisher_name": "University of Maryland, College Park, MD",
+        "active": true
+      },
+      "A-MSU-": {
+        "description": "Michigan State Univ.Cyclotron Lab., annual rept.",
+        "publisher": "1USAMSU",
+        "publisher_name": "Michigan State University, East Lansing, MI",
+        "active": true
+      },
+      "ANCR-": {
+        "description": "Aerojet Nuclear Corp. Reports",
+        "publisher": "1USAMTR",
+        "publisher_name": "Idaho Nuclear Corp., Idaho Falls, ID",
+        "active": true
+      },
+      "IDO-": {
+        "description": "Philips Petroleum Co., Idaho Falls Reports",
+        "publisher": "1USAMTR",
+        "publisher_name": "Idaho Nuclear Corp., Idaho Falls, ID",
+        "active": true
+      },
+      "IN-": {
+        "description": "Idaho Nuclear Corp. Reports",
+        "publisher": "1USAMTR",
+        "publisher_name": "Idaho Nuclear Corp., Idaho Falls, ID",
+        "active": true
+      },
+      "MTR-L-": {
+        "description": "Idaho Nuclear Corp. Reports",
+        "publisher": "1USAMTR",
+        "publisher_name": "Idaho Nuclear Corp., Idaho Falls, ID",
+        "active": true
+      },
+      "PTR-": {
+        "description": "Phillips Petroleum Co., Idaho Falls Reports",
+        "publisher": "1USAMTR",
+        "publisher_name": "Idaho Nuclear Corp., Idaho Falls, ID",
+        "active": true
+      },
+      "N-": {
+        "description": "N.A.S.A. Reports",
+        "publisher": "1USANAS",
+        "publisher_name": "NASA, Washington, DC",
+        "active": true
+      },
+      "N70-": {
+        "description": "*** Code obsolete ***  Write N-70-",
+        "publisher": "1USANAS",
+        "publisher_name": "NASA, Washington, DC",
+        "active": false
+      },
+      "NASA-": {
+        "description": "N.A.S.A. Reports, TM = Technical Memo,",
+        "publisher": "1USANAS",
+        "publisher_name": "NASA, Washington, DC",
+        "active": true
+      },
+      "NASA-SP-": {
+        "description": "N.A.S.A. Special Publication",
+        "publisher": "1USANAS",
+        "publisher_name": "NASA, Washington, DC",
+        "active": true
+      },
+      "NASA-TM-": {
+        "description": "N.A.S.A. Technical Memo",
+        "publisher": "1USANAS",
+        "publisher_name": "NASA, Washington, DC",
+        "active": true
+      },
+      "NASA-TM-X-": {
+        "description": "N.A.S.A. Technical Memo",
+        "publisher": "1USANAS",
+        "publisher_name": "NASA, Washington, DC",
+        "active": true
+      },
+      "NASA-TN-": {
+        "description": "N.A.S.A. Technical Note",
+        "publisher": "1USANAS",
+        "publisher_name": "NASA, Washington, DC",
+        "active": true
+      },
+      "NASA-TN-D-": {
+        "description": "N.A.S.A. Technical Note",
+        "publisher": "1USANAS",
+        "publisher_name": "NASA, Washington, DC",
+        "active": true
+      },
+      "NASA-TP-": {
+        "description": "N.A.S.A. Technical Paper",
+        "publisher": "1USANAS",
+        "publisher_name": "NASA, Washington, DC",
+        "active": true
+      },
+      "NBS-MONO-": {
+        "description": "National Bureau of Standards Monograph",
+        "publisher": "1USANBS",
+        "publisher_name": "National Bureau of Standards, Washington, DC",
+        "active": true
+      },
+      "NDL-TR-": {
+        "description": "U.S. Army Chem.Corps. Nuclear Def. Lab. Reports",
+        "publisher": "1USANDL",
+        "publisher_name": "U.S. Army Nuclear Defence Lab., Edgewood Arsenal, MD",
+        "active": true
+      },
+      "NISTIR-": {
+        "description": "N.I.S.T. Report Series",
+        "publisher": "1USANIS",
+        "publisher_name": "National Inst.of Standards & Techn., Gaithersburg, MD",
+        "active": true
+      },
+      "USNRDL-": {
+        "description": "Naval Radiological Def. Lab. Reports",
+        "publisher": "1USANRD",
+        "publisher_name": "U.S. Naval Radiolog. Defense Lab., San Francisco, CA",
+        "active": true
+      },
+      "USNRDL-TR-": {
+        "description": "Naval Radiological Def. Lab. Reports",
+        "publisher": "1USANRD",
+        "publisher_name": "U.S. Naval Radiolog. Defense Lab., San Francisco, CA",
+        "active": true
+      },
+      "NRL-": {
+        "description": "Naval Research Lab. Reports",
+        "publisher": "1USANRL",
+        "publisher_name": "U.S. Naval Research Lab., Washington, DC",
+        "active": true
+      },
+      "ORNL-": {
+        "description": "Oak Ridge National Lab. Reports",
+        "publisher": "1USAORL",
+        "publisher_name": "Oak Ridge National Laboratory, Oak Ridge, TN",
+        "active": true
+      },
+      "ORNL-CF-": {
+        "description": "Oak Ridge National Lab. Central File Memo",
+        "publisher": "1USAORL",
+        "publisher_name": "Oak Ridge National Laboratory, Oak Ridge, TN",
+        "active": true
+      },
+      "ORNL-CPX-": {
+        "description": "ORNL Charged-Part.Cross-Sect.Data Center Reports",
+        "publisher": "1USAORL",
+        "publisher_name": "Oak Ridge National Laboratory, Oak Ridge, TN",
+        "active": true
+      },
+      "ORNL-P-": {
+        "description": "Oak Ridge National Lab. preprint",
+        "publisher": "1USAORL",
+        "publisher_name": "Oak Ridge National Laboratory, Oak Ridge, TN",
+        "active": true
+      },
+      "ORNL-TM-": {
+        "description": "Oak Ridge National Lab. technical memo",
+        "publisher": "1USAORL",
+        "publisher_name": "Oak Ridge National Laboratory, Oak Ridge, TN",
+        "active": true
+      },
+      "ORNL-TR-": {
+        "description": "Oak Ridge National Lab. translation",
+        "publisher": "1USAORL",
+        "publisher_name": "Oak Ridge National Laboratory, Oak Ridge, TN",
+        "active": true
+      },
+      "PWAC-": {
+        "description": "Pratt and Whitney Aircraft Div. Reports",
+        "publisher": "1USAPRW",
+        "publisher_name": "Pratt + Whitney, Middletown, CT",
+        "active": true
+      },
+      "PPAR-": {
+        "description": "Princeton Pennsylvania Accelerator Reports",
+        "publisher": "1USAPTN",
+        "publisher_name": "Princeton University, Princeton, NJ",
+        "active": true
+      },
+      "PUC-": {
+        "description": "Princeton, Palmer Physics Lab. Reports",
+        "publisher": "1USAPTN",
+        "publisher_name": "Princeton University, Princeton, NJ",
+        "active": true
+      },
+      "UR-": {
+        "description": "Univ. of Rochester Reports",
+        "publisher": "1USAROC",
+        "publisher_name": "University of Rochester, Rochester, NY",
+        "active": true
+      },
+      "A-RPI-": {
+        "description": "R.P.I. annual progress report",
+        "publisher": "1USARPI",
+        "publisher_name": "Rensselaer Polytechnic Institute, Troy, NY",
+        "active": true
+      },
+      "RPI-": {
+        "description": "Rensselaer Polytechnic Inst. Reports",
+        "publisher": "1USARPI",
+        "publisher_name": "Rensselaer Polytechnic Institute, Troy, NY",
+        "active": true
+      },
+      "RPI-PR-": {
+        "description": "R.P.I. progress report",
+        "publisher": "1USARPI",
+        "publisher_name": "Rensselaer Polytechnic Institute, Troy, NY",
+        "active": true
+      },
+      "DP-": {
+        "description": "Du Pont, Savannah River Reports",
+        "publisher": "1USASRL",
+        "publisher_name": "Savannah River Lab., E.I. Dupont, Aiken, SC",
+        "active": true
+      },
+      "DP-MS-": {
+        "description": "Du Pont, Savannah River Reports",
+        "publisher": "1USASRL",
+        "publisher_name": "Savannah River Lab., E.I. Dupont, Aiken, SC",
+        "active": true
+      },
+      "ESL-": {
+        "description": "Univ. of Texas technical report",
+        "publisher": "1USATEX",
+        "publisher_name": "University of Texas, Austin, TX",
+        "active": true
+      },
+      "AEC-TR-": {
+        "description": "Div. of Tech. Info. U.S. AEC translation",
+        "publisher": "1USATID",
+        "publisher_name": "Div. of Technical Info., USAEC, Oak Ridge, TN",
+        "active": true
+      },
+      "AECD-": {
+        "description": "Div. of Tech. Info. U.S. AEC",
+        "publisher": "1USATID",
+        "publisher_name": "Div. of Technical Info., USAEC, Oak Ridge, TN",
+        "active": true
+      },
+      "AECU-": {
+        "description": "Div. of Tech. Info. U.S. AEC Reports",
+        "publisher": "1USATID",
+        "publisher_name": "Div. of Technical Info., USAEC, Oak Ridge, TN",
+        "active": true
+      },
+      "MDDC-": {
+        "description": "Manhatten District Reports",
+        "publisher": "1USATID",
+        "publisher_name": "Div. of Technical Info., USAEC, Oak Ridge, TN",
+        "active": true
+      },
+      "NP-": {
+        "description": "Div. of Tech. Info. U.S. AEC Reports",
+        "publisher": "1USATID",
+        "publisher_name": "Div. of Technical Info., USAEC, Oak Ridge, TN",
+        "active": true
+      },
+      "NP-TR-": {
+        "description": "Div. of Tech. Info. U.S. AEC translations",
+        "publisher": "1USATID",
+        "publisher_name": "Div. of Technical Info., USAEC, Oak Ridge, TN",
+        "active": true
+      },
+      "TID-": {
+        "description": "Div. of Tech. Info. U.S. AEC Reports",
+        "publisher": "1USATID",
+        "publisher_name": "Div. of Technical Info., USAEC, Oak Ridge, TN",
+        "active": true
+      },
+      "TNC-": {
+        "description": "Texas Nuclear Corp. Reports",
+        "publisher": "1USATNC",
+        "publisher_name": "Texas Nuclear Corp., Austin, TX",
+        "active": true
+      },
+      "A-TNL-": {
+        "description": "Triangle Univ. Nuclear Lab. annual report",
+        "publisher": "1USATNL",
+        "publisher_name": "Triangle Universities Nuclear Lab., Durham, NC",
+        "active": true
+      },
+      "TUNL-": {
+        "description": "Triangle Univ. Nuclear Lab. annual report",
+        "publisher": "1USATNL",
+        "publisher_name": "Triangle Universities Nuclear Lab., Durham, NC",
+        "active": true
+      },
+      "NDA-": {
+        "description": "United Nuclear Corp. Reports",
+        "publisher": "1USAUNC",
+        "publisher_name": "United Nuclear Corp., Elmsford, NY",
+        "active": true
+      },
+      "NDA-MEMO-": {
+        "description": "United Nuclear Corp. Reports",
+        "publisher": "1USAUNC",
+        "publisher_name": "United Nuclear Corp., Elmsford, NY",
+        "active": true
+      },
+      "NDA-PHYS-": {
+        "description": "United Nuclear Corp. Reports",
+        "publisher": "1USAUNC",
+        "publisher_name": "United Nuclear Corp., Elmsford, NY",
+        "active": true
+      },
+      "UNC-": {
+        "description": "United Nuclear Corp. Reports",
+        "publisher": "1USAUNC",
+        "publisher_name": "United Nuclear Corp., Elmsford, NY",
+        "active": true
+      },
+      "WADC-": {
+        "description": "Wright Air Devel. Centre report series",
+        "publisher": "1USAWAD",
+        "publisher_name": "Wright Air Development Center, OH",
+        "active": true
+      },
+      "WADC-TN-": {
+        "description": "Wright Air Devel. Centre Reports",
+        "publisher": "1USAWAD",
+        "publisher_name": "Wright Air Development Center, OH",
+        "active": true
+      },
+      "WADC-TR-": {
+        "description": "Wright Air Devel. Centre Reports",
+        "publisher": "1USAWAD",
+        "publisher_name": "Wright Air Development Center, OH",
+        "active": true
+      },
+      "WADD-TR-": {
+        "description": "Wright Air Devel. Centre Reports",
+        "publisher": "1USAWAD",
+        "publisher_name": "Wright Air Development Center, OH",
+        "active": true
+      },
+      "WANL-": {
+        "description": "Westinghouse Astro-Nuclear Lab. reports",
+        "publisher": "1USAWAL",
+        "publisher_name": "Westinghouse Astronuclear Lab., Pittsburgh, PA",
+        "active": true
+      },
+      "WANL-TME-": {
+        "description": "Westinghouse Astro-Nuclear Lab. Reports",
+        "publisher": "1USAWAL",
+        "publisher_name": "Westinghouse Astronuclear Lab., Pittsburgh, PA",
+        "active": true
+      },
+      "WAPD-": {
+        "description": "Westinghouse Atomic Power Div.(Bettis) reports",
+        "publisher": "1USAWAP",
+        "publisher_name": "Westinghouse Atomic Power Div., Pittsburgh, PA",
+        "active": true
+      },
+      "WAPD-BT-": {
+        "description": "Westinghouse Atomic Power Div.(Bettis) Reports",
+        "publisher": "1USAWAP",
+        "publisher_name": "Westinghouse Atomic Power Div., Pittsburgh, PA",
+        "active": true
+      },
+      "WAPD-T-": {
+        "description": "Westinghouse Atomic Power Div.(Bettis) Reports",
+        "publisher": "1USAWAP",
+        "publisher_name": "Westinghouse Atomic Power Div., Pittsburgh, PA",
+        "active": true
+      },
+      "WAPD-TM-": {
+        "description": "Westinghouse Atomic Power Div.(Bettis) Reports",
+        "publisher": "1USAWAP",
+        "publisher_name": "Westinghouse Atomic Power Div., Pittsburgh, PA",
+        "active": true
+      },
+      "WAPD-TRANS-": {
+        "description": "Westinghouse Atomic Power Div.(Bettis) Reports",
+        "publisher": "1USAWAP",
+        "publisher_name": "Westinghouse Atomic Power Div., Pittsburgh, PA",
+        "active": true
+      },
+      "A-WAU-": {
+        "description": "Univ.of Washington, Seattle, annual report",
+        "publisher": "1USAWAU",
+        "publisher_name": "University of Washington, Seattle, WA",
+        "active": true
+      },
+      "WCAP-": {
+        "description": "Westinghouse Atomic Power Div.(Pittsburgh) Repts",
+        "publisher": "1USAWES",
+        "publisher_name": "Westinghouse Research Lab., Pittsburgh, PA",
+        "active": true
+      },
+      "WARD-": {
+        "description": "Westinghouse Advanced Reactors Division Reports",
+        "publisher": "1USAWEW",
+        "publisher_name": "Westinghouse Advanced Reactor Div., Pittsburgh, PA",
+        "active": true
+      },
+      "UWFDM-": {
+        "description": "Univ.Wisconsin Fusion Engineering Program Repts",
+        "publisher": "1USAWIS",
+        "publisher_name": "University of Wisconsin, Madison, WI",
+        "active": true
+      },
+      "IRK-PR-": {
+        "description": "Inst. f. Radiumforschung Progress Report",
+        "publisher": "2AUSIRK",
+        "publisher_name": "Inst. fuer Isotopenforschung und Kernphysik, Vienna",
+        "active": true
+      },
+      "SGAE-": {
+        "description": "Oesterr. Studienges. f. Atomenergie reports",
+        "publisher": "2AUSSGA",
+        "publisher_name": "Oest.Forschungszentrum Seibersdorf, Wien+Seibersdorf",
+        "active": true
+      },
+      "SGAE-PH-": {
+        "description": "Oesterr.Studienges.f.Atomen.,Physikinst., Repts",
+        "publisher": "2AUSSGA",
+        "publisher_name": "Oest.Forschungszentrum Seibersdorf, Wien+Seibersdorf",
+        "active": true
+      },
+      "BLG-": {
+        "description": "Centre d'Etude de l'Energie Nucl.,Bruxelles,Rept",
+        "publisher": "2BLGMOL",
+        "publisher_name": "C.E.N., Mol",
+        "active": true
+      },
+      "RISO-": {
+        "description": "RISO Research Institute report series",
+        "publisher": "2DENRIS",
+        "publisher_name": "Riso, Roskilde",
+        "active": true
+      },
+      "RISO-M-": {
+        "description": "RISO Research Institute Reports",
+        "publisher": "2DENRIS",
+        "publisher_name": "Riso, Roskilde",
+        "active": true
+      },
+      "CEN(BG)-": {
+        "description": "C.E.N. Bordeaux-Gradignan Reports",
+        "publisher": "2FR BOR",
+        "publisher_name": "Universite de Bordeaux",
+        "active": true
+      },
+      "PNR-": {
+        "description": "Cadarache Reports",
+        "publisher": "2FR CAD",
+        "publisher_name": "CEA/Cadarache",
+        "active": true
+      },
+      "PNR/SETR-": {
+        "description": "Cadarache Reports",
+        "publisher": "2FR CAD",
+        "publisher_name": "CEA/Cadarache",
+        "active": true
+      },
+      "PNR/SETR-R-": {
+        "description": "Cadarache Reports",
+        "publisher": "2FR CAD",
+        "publisher_name": "CEA/Cadarache",
+        "active": true
+      },
+      "A-CSN-": {
+        "description": "C.S.N.S.M., Orsay  Reports",
+        "publisher": "2FR CSN",
+        "publisher_name": "Centre Sci. Nucl. et Sci. Matiere CSNSM, Orsay",
+        "active": true
+      },
+      "EDF-": {
+        "description": "Electricite de France Reports",
+        "publisher": "2FR EDF",
+        "publisher_name": "Electricite de France, Paris",
+        "active": true
+      },
+      "EDF-HX-": {
+        "description": "Electricite de France Reports",
+        "publisher": "2FR EDF",
+        "publisher_name": "Electricite de France, Paris",
+        "active": true
+      },
+      "ISN-": {
+        "description": "U. de Grenoble, Inst. des Sciences Nucl. reports",
+        "publisher": "2FR GRE",
+        "publisher_name": "Universite Joseph Fourier, Grenoble",
+        "active": true
+      },
+      "ISN-TS-": {
+        "description": "U. de Grenoble, Inst. des Sciences Nucl. reports",
+        "publisher": "2FR GRE",
+        "publisher_name": "Universite Joseph Fourier, Grenoble",
+        "active": true
+      },
+      "SAR-G-": {
+        "description": "C.E.A. Grenoble Reports",
+        "publisher": "2FR GRE",
+        "publisher_name": "Universite Joseph Fourier, Grenoble",
+        "active": true
+      },
+      "LYCEN-": {
+        "description": "Univ. of Lyon Reports",
+        "publisher": "2FR LYO",
+        "publisher_name": "Universite de Lyon",
+        "active": true
+      },
+      "A-IPNO-": {
+        "description": "Inst. de Phys. Nucleaire Orsay Activity Report",
+        "publisher": "2FR PAR",
+        "publisher_name": "Universite de Paris",
+        "active": true
+      },
+      "IPNO-DRE-": {
+        "description": "Inst. de Phys. Nucl. Orsay Reports (Nucl.Phys.)",
+        "publisher": "2FR PAR",
+        "publisher_name": "Universite de Paris",
+        "active": true
+      },
+      "IPNO-PHN-": {
+        "description": "Inst. de Phys. Nucl. Orsay Reports (Nucl.Phys.)",
+        "publisher": "2FR PAR",
+        "publisher_name": "Universite de Paris",
+        "active": true
+      },
+      "IPNO-RC-": {
+        "description": "Inst. de Phys. Nucl. Orsay Reports (Radiochem.)",
+        "publisher": "2FR PAR",
+        "publisher_name": "Universite de Paris",
+        "active": true
+      },
+      "IPNO-TH-": {
+        "description": "Inst. de Physique Nucleaire Orsay thesis",
+        "publisher": "2FR PAR",
+        "publisher_name": "Universite de Paris",
+        "active": true
+      },
+      "LPC-": {
+        "description": "Lab. de Physique Corpusculaire Reports",
+        "publisher": "2FR PCF",
+        "publisher_name": "College de France, Paris",
+        "active": true
+      },
+      "LPC-T-": {
+        "description": "Lab. de Physique Corpusculaire thesis",
+        "publisher": "2FR PCF",
+        "publisher_name": "College de France, Paris",
+        "active": true
+      },
+      "CEA-SMNF-": {
+        "description": "Centre d'Etudes Nucleaires, Saclay Reports",
+        "publisher": "2FR SAC",
+        "publisher_name": "CEA/Saclay",
+        "active": true
+      },
+      "HMI-": {
+        "description": "Hahn-Meitner Inst., Berlin report series",
+        "publisher": "2GERBER",
+        "publisher_name": "Hahn-Meitner-Inst., Berlin",
+        "active": true
+      },
+      "HMI-B-": {
+        "description": "Hahn-Meitner Inst., Berlin Reports",
+        "publisher": "2GERBER",
+        "publisher_name": "Hahn-Meitner-Inst., Berlin",
+        "active": true
+      },
+      "IKF-": {
+        "description": "Inst.fuer Kernphysik, Frankfurt Reports",
+        "publisher": "2GERFRK",
+        "publisher_name": "J.W.Goethe Univ., Frankfurt/Main",
+        "active": true
+      },
+      "GSI-": {
+        "description": "Gesellschaft fuer Schwerionenforschung Reports",
+        "publisher": "2GERGSI",
+        "publisher_name": "GSI Helmholtzzent. f. Schwerionenforschung, Darmstadt",
+        "active": true
+      },
+      "GSI-J-": {
+        "description": "Gesellschaft fuer Schwerionenforschung Reports",
+        "publisher": "2GERGSI",
+        "publisher_name": "GSI Helmholtzzent. f. Schwerionenforschung, Darmstadt",
+        "active": true
+      },
+      "HH-": {
+        "description": "Hamburg Univ.,Inst.f.Experimentalphysik Reports",
+        "publisher": "2GERHAM",
+        "publisher_name": "Hamburg, Universitaet",
+        "active": true
+      },
+      "FIZ-KA-": {
+        "description": "Fachinformationszentrum Karlsruhe Reports",
+        "publisher": "2GERIKA",
+        "publisher_name": "Informationssystem Karlsruhe,",
+        "active": true
+      },
+      "JUEL-": {
+        "description": "Kernforschungsanlage, Juelich, report series",
+        "publisher": "2GERJUL",
+        "publisher_name": "Forschungszentrum Juelich",
+        "active": true
+      },
+      "JUEL-SPEZ-": {
+        "description": "Kernforschungsanlage Juelich, Progress Report",
+        "publisher": "2GERJUL",
+        "publisher_name": "Forschungszentrum Juelich",
+        "active": true
+      },
+      "ARB.BER-": {
+        "description": "Kernforschungszentrum Karlsruhe Reports",
+        "publisher": "2GERKFK",
+        "publisher_name": "Karlsruhe Institute of Technology KIT",
+        "active": true
+      },
+      "FZKA-": {
+        "description": "Forschungszentrum Karlsruhe Reports",
+        "publisher": "2GERKFK",
+        "publisher_name": "Karlsruhe Institute of Technology KIT",
+        "active": true
+      },
+      "KFK-": {
+        "description": "Kernforschungszentrum Karlsruhe Reports",
+        "publisher": "2GERKFK",
+        "publisher_name": "Karlsruhe Institute of Technology KIT",
+        "active": true
+      },
+      "KFK-EXT-": {
+        "description": "KFK Reports (Externer Bericht)",
+        "publisher": "2GERKFK",
+        "publisher_name": "Karlsruhe Institute of Technology KIT",
+        "active": true
+      },
+      "KFK-TR-": {
+        "description": "Kernforschungszentrum Karlsruhe translation ser.",
+        "publisher": "2GERKFK",
+        "publisher_name": "Karlsruhe Institute of Technology KIT",
+        "active": true
+      },
+      "PSB-BER-": {
+        "description": "Kernforschungszentrum Karlsruhe preprint",
+        "publisher": "2GERKFK",
+        "publisher_name": "Karlsruhe Institute of Technology KIT",
+        "active": true
+      },
+      "GKSS-": {
+        "description": "Ges.Kernen.-Verwertung, Schiffbau and Schiffahrt",
+        "publisher": "2GERKIG",
+        "publisher_name": "GKSS, Geesthacht",
+        "active": true
+      },
+      "MAINZ-": {
+        "description": "Inst. Nuclear Chem. Mainz Univ. Annual Reports",
+        "publisher": "2GERMNZ",
+        "publisher_name": "Johannes Gutenberg-Universitaet Mainz, Mainz",
+        "active": true
+      },
+      "FRM-": {
+        "description": "Forschungs Reactor Muenchen Reports",
+        "publisher": "2GERMUN",
+        "publisher_name": "Technische Universitaet Muenchen",
+        "active": true
+      },
+      "PTUM-E-": {
+        "description": "Techn. Univ. Muenchen Reports",
+        "publisher": "2GERMUN",
+        "publisher_name": "Technische Universitaet Muenchen",
+        "active": true
+      },
+      "BLM-JB-": {
+        "description": "Beschleunigerlab. Univ. Muenchen annual report",
+        "publisher": "2GERMUU",
+        "publisher_name": "Univ. of Munich, Munich",
+        "active": true
+      },
+      "PTB-": {
+        "description": "P.T.B., Braunschweig, reports",
+        "publisher": "2GERPTB",
+        "publisher_name": "Physikal. Techn. Bundesanst., Braunschweig",
+        "active": true
+      },
+      "PTB-FMRB-": {
+        "description": "P.T.B., Braunschweig Reports",
+        "publisher": "2GERPTB",
+        "publisher_name": "Physikal. Techn. Bundesanst., Braunschweig",
+        "active": true
+      },
+      "PTB-N-": {
+        "description": "Phys.Techn.Bundesanst., Neutronenphysik Reports",
+        "publisher": "2GERPTB",
+        "publisher_name": "Physikal. Techn. Bundesanst., Braunschweig",
+        "active": true
+      },
+      "IKDA-": {
+        "description": "Inst. f. Kernphysik,Darmstadt Reports",
+        "publisher": "2GERTHD",
+        "publisher_name": "Tech.Universitaet, Darmstadt",
+        "active": true
+      },
+      "IKE-": {
+        "description": "Stuttgart u. Inst. f. Kernenergetik Reports",
+        "publisher": "2GERTHS",
+        "publisher_name": "Universitaet Stuttgart",
+        "active": true
+      },
+      "ZFK-": {
+        "description": "Zentralinst. f. Kernforschung Rossendorf Reports",
+        "publisher": "2GERZFK",
+        "publisher_name": "Helmholtz-Zentrum Dresden-Rossendorf, Dresden",
+        "active": true
+      },
+      "CEC-": {
+        "description": "Centro di Calcolo, CNEN, Bologna Reports",
+        "publisher": "2ITYBOL",
+        "publisher_name": "ENEA Centro Ricerche Energia di Bologna",
+        "active": true
+      },
+      "RT/TIB-": {
+        "description": "ENEA Dipart.Technol.Interessettor.di Base Repts",
+        "publisher": "2ITYBOL",
+        "publisher_name": "ENEA Centro Ricerche Energia di Bologna",
+        "active": true
+      },
+      "CISE-": {
+        "description": "Centre Inform. Studi Esp. Reports",
+        "publisher": "2ITYCIS",
+        "publisher_name": "C.I.S.E., Milan",
+        "active": true
+      },
+      "INFN/BE-": {
+        "description": "INFN Reports / Low Energy Physics Series",
+        "publisher": "2ITYGVA",
+        "publisher_name": "U.+INFN., Genova",
+        "active": true
+      },
+      "A-LNS-": {
+        "description": "INFN Southern National Lab.(LNS), activity rept.",
+        "publisher": "2ITYLNS",
+        "publisher_name": "INFN Laboratori Nazionali del Sud, Catania",
+        "active": true
+      },
+      "A-PAD-": {
+        "description": "Padua Univ. and Lab. Naz. Legnaro annual report",
+        "publisher": "2ITYPAD",
+        "publisher_name": "INFN Laboratori Nazionali di Legnaro, Legnaro, Padova",
+        "active": true
+      },
+      "A-JCL-": {
+        "description": "RIKEN Accelerator Progress Report",
+        "publisher": "2JPNIPC",
+        "publisher_name": "Inst.of Physical and Chemical Res. RIKEN, Wako",
+        "active": true
+      },
+      "RIKEN-NC-NP": {
+        "description": "RIKEN Nishina Center: Nuclear Physics preprint",
+        "publisher": "2JPNIPC",
+        "publisher_name": "Inst.of Physical and Chemical Res. RIKEN, Wako",
+        "active": true
+      },
+      "HIMAC-": {
+        "description": "Nat.Inst.of Radiological Sciences, HIMAC Reports",
+        "publisher": "2JPNIRS",
+        "publisher_name": "Nat.Inst. for Quantum & Radiol.Sci.& Tech., Chiba",
+        "active": true
+      },
+      "JAEA-C-": {
+        "description": "JAEA Conference proceedings",
+        "publisher": "2JPNJAE",
+        "publisher_name": "Japan Atomic Energy Agency JAEA",
+        "active": true
+      },
+      "JAEA-R-": {
+        "description": "JAEA Research Reports",
+        "publisher": "2JPNJAE",
+        "publisher_name": "Japan Atomic Energy Agency JAEA",
+        "active": true
+      },
+      "JAERI-": {
+        "description": "JAERI Reports",
+        "publisher": "2JPNJAE",
+        "publisher_name": "Japan Atomic Energy Agency JAEA",
+        "active": true
+      },
+      "JAERI-C-": {
+        "description": "JAERI Conference proceedings",
+        "publisher": "2JPNJAE",
+        "publisher_name": "Japan Atomic Energy Agency JAEA",
+        "active": true
+      },
+      "JAERI-D-": {
+        "description": "JAERI Data collection / Computer code reports",
+        "publisher": "2JPNJAE",
+        "publisher_name": "Japan Atomic Energy Agency JAEA",
+        "active": true
+      },
+      "JAERI-M-": {
+        "description": "JAERI-M Reports",
+        "publisher": "2JPNJAE",
+        "publisher_name": "Japan Atomic Energy Agency JAEA",
+        "active": true
+      },
+      "JAERI-MEMO-": {
+        "description": "JAERI-Memo Reports",
+        "publisher": "2JPNJAE",
+        "publisher_name": "Japan Atomic Energy Agency JAEA",
+        "active": true
+      },
+      "JAERI-R-": {
+        "description": "JAERI Research Reports",
+        "publisher": "2JPNJAE",
+        "publisher_name": "Japan Atomic Energy Agency JAEA",
+        "active": true
+      },
+      "KURRI-": {
+        "description": "Kyoto Univ.,Res.Reactor Inst., Reports",
+        "publisher": "2JPNKTO",
+        "publisher_name": "Kyoto Univ., Kyoto",
+        "active": true
+      },
+      "KURRI-AR-": {
+        "description": "Kyoto Univ.,Res.Reactor Inst., Annual Report",
+        "publisher": "2JPNKTO",
+        "publisher_name": "Kyoto Univ., Kyoto",
+        "active": true
+      },
+      "KURRI-TR-": {
+        "description": "Kyoto-Univ.,Res.Reactor Inst., Tech. Report",
+        "publisher": "2JPNKTO",
+        "publisher_name": "Kyoto Univ., Kyoto",
+        "active": true
+      },
+      "A-RCNP-": {
+        "description": "Res. Centre for Nucl. Phys., Osaka, annual rept.",
+        "publisher": "2JPNOSA",
+        "publisher_name": "Osaka Univ., Osaka",
+        "active": true
+      },
+      "OKTAV-A-": {
+        "description": "Osaka Univ., OKTAVIAN Reports",
+        "publisher": "2JPNOSA",
+        "publisher_name": "Osaka Univ., Osaka",
+        "active": true
+      },
+      "OKTAV-C-": {
+        "description": "Osaka Univ., OKTAVIAN Reports",
+        "publisher": "2JPNOSA",
+        "publisher_name": "Osaka Univ., Osaka",
+        "active": true
+      },
+      "NETU-": {
+        "description": "Tohoku Univ., Dept.of Nucl.Engineering Reports",
+        "publisher": "2JPNTOH",
+        "publisher_name": "Tohoku Univ., Sendai",
+        "active": true
+      },
+      "A-INS-": {
+        "description": "Univ.Tokyo,Inst.f.Nucl.Study, Annual Report",
+        "publisher": "2JPNTOK",
+        "publisher_name": "Univ. of Tokyo, Tokyo",
+        "active": true
+      },
+      "INS-J-": {
+        "description": "Univ.Tokyo, Inst.for Nucl.Study, Reports",
+        "publisher": "2JPNTOK",
+        "publisher_name": "Univ. of Tokyo, Tokyo",
+        "active": true
+      },
+      "UTTAC-": {
+        "description": "Tandem Accel. Complex Univ. Tsukuba Ann.Reports",
+        "publisher": "2JPNTSU",
+        "publisher_name": "Univ. of Tsukuba, Tsukuba",
+        "active": true
+      },
+      "ECN-": {
+        "description": "Energy Research Foundation,Petten Reports",
+        "publisher": "2NEDRCN",
+        "publisher_name": "Netherland's Energy Research Foundation, Petten",
+        "active": true
+      },
+      "ECN-C-": {
+        "description": "Energy Research Foundation,Petten Reports",
+        "publisher": "2NEDRCN",
+        "publisher_name": "Netherland's Energy Research Foundation, Petten",
+        "active": true
+      },
+      "ECN-R-": {
+        "description": "Energy Research Foundation,Petten Reports",
+        "publisher": "2NEDRCN",
+        "publisher_name": "Netherland's Energy Research Foundation, Petten",
+        "active": true
+      },
+      "ECN-RX-": {
+        "description": "Energy Research Foundation,Petten Reports",
+        "publisher": "2NEDRCN",
+        "publisher_name": "Netherland's Energy Research Foundation, Petten",
+        "active": true
+      },
+      "RCN-": {
+        "description": "Reactor Cent. Nederland, Petten Reports",
+        "publisher": "2NEDRCN",
+        "publisher_name": "Netherland's Energy Research Foundation, Petten",
+        "active": true
+      },
+      "BUP-": {
+        "description": "Bergen Univ. Dept. of Physics Reports",
+        "publisher": "2NORBGN",
+        "publisher_name": "Univ. of Bergen",
+        "active": true
+      },
+      "JENER-": {
+        "description": "Joint Establ. Nucl. Res., Kjeller Reports",
+        "publisher": "2NORKJL",
+        "publisher_name": "Institutt for Energiteknikk IFE, Kjeller",
+        "active": true
+      },
+      "KR-": {
+        "description": "Inst. for Atomenergi, Kjeller Reports",
+        "publisher": "2NORKJL",
+        "publisher_name": "Institutt for Energiteknikk IFE, Kjeller",
+        "active": true
+      },
+      "ABO-ANN-": {
+        "description": "Abo Akademi Annual Reports",
+        "publisher": "2SF ABA",
+        "publisher_name": "Abo Akademi, Turku",
+        "active": true
+      },
+      "JU-RR-": {
+        "description": "Univ. of Jyvaeskylae, Dept.of Physics Reports",
+        "publisher": "2SF JYV",
+        "publisher_name": "University of Jyvaskyla, Jyvaskyla",
+        "active": true
+      },
+      "JEN-": {
+        "description": "Junta de Energia Nuclear Reports",
+        "publisher": "2SPNJNE",
+        "publisher_name": "Junta de Energia Nuclear, Madrid",
+        "active": true
+      },
+      "MF-": {
+        "description": "Junta Energia Nuclear, Madrid Reports",
+        "publisher": "2SPNJNE",
+        "publisher_name": "Junta de Energia Nuclear, Madrid",
+        "active": true
+      },
+      "CTH-RF-": {
+        "description": "Chalmers Univ. of Technol., Gothenburg Reports",
+        "publisher": "2SWDCTH",
+        "publisher_name": "Chalmers Univ. of Tech., Gothenburg",
+        "active": true
+      },
+      "FOA4-": {
+        "description": "Res. Inst. National Defence Dept. 4 reports",
+        "publisher": "2SWDFOA",
+        "publisher_name": "Research Inst. for National Defence, Stockholm",
+        "active": true
+      },
+      "FOA4-A-": {
+        "description": "Res. Inst. National Defence Dept. 4A Reports",
+        "publisher": "2SWDFOA",
+        "publisher_name": "Research Inst. for National Defence, Stockholm",
+        "active": true
+      },
+      "FOA4-C-": {
+        "description": "Res. Inst. National Defence Dept. 4C Reports",
+        "publisher": "2SWDFOA",
+        "publisher_name": "Research Inst. for National Defence, Stockholm",
+        "active": true
+      },
+      "FOA4-D-": {
+        "description": "Res. Inst. National Defence Dept. 4D Reports",
+        "publisher": "2SWDFOA",
+        "publisher_name": "Research Inst. for National Defence, Stockholm",
+        "active": true
+      },
+      "A-IPS-": {
+        "description": "Res. Inst. of Phys., Stockholm Annual Rept.",
+        "publisher": "2SWDIPS",
+        "publisher_name": "Res.Inst.of Physics form.Nobel Inst., Stockholm",
+        "active": true
+      },
+      "LU-NP-": {
+        "description": "Lund Univ. Reports",
+        "publisher": "2SWDLND",
+        "publisher_name": "Lund Univ.+ Tech.Univ.",
+        "active": true
+      },
+      "LUNF-D6-": {
+        "description": "Lund Univ., Nuclear Physics Series",
+        "publisher": "2SWDLND",
+        "publisher_name": "Lund Univ.+ Tech.Univ.",
+        "active": true
+      },
+      "NFL-": {
+        "description": "Studsvik Science Res. Lab. Reports",
+        "publisher": "2SWDSWR",
+        "publisher_name": "Studsvik Science Research Laboratory",
+        "active": true
+      },
+      "STUDSVIK-": {
+        "description": "Studsvik Science Res. Lab. Reports",
+        "publisher": "2SWDSWR",
+        "publisher_name": "Studsvik Science Research Laboratory",
+        "active": true
+      },
+      "TLU-": {
+        "description": "Uppsala Univ. Tandem Lab. Reports",
+        "publisher": "2SWDTLU",
+        "publisher_name": "Tandem Laboratory, Uppsala",
+        "active": true
+      },
+      "UPP-": {
+        "description": "Uppsala Univ. Annual Report",
+        "publisher": "2SWDUPP",
+        "publisher_name": "Univ. of Uppsala",
+        "active": true
+      },
+      "UU-NF-": {
+        "description": "Uppsala Univ., Neutron Physics Lab. Reports",
+        "publisher": "2SWDUPP",
+        "publisher_name": "Univ. of Uppsala",
+        "active": true
+      },
+      "IPF-SP-": {
+        "description": "Inst.de Phys., U. de Fribourg, Physics Series",
+        "publisher": "2SWTFRS",
+        "publisher_name": "Univ. of Fribourg",
+        "active": true
+      },
+      "EIR-": {
+        "description": "Eidg.Inst.Reaktorforsch.Wuerenlingen Reports",
+        "publisher": "2SWTWUR",
+        "publisher_name": "Eidgenossisches Inst.fuer Reakt.Forsch., Wuerenlingen",
+        "active": true
+      },
+      "CNAEM-": {
+        "description": "Cekmece Nuclear Res. and Training Centre Reports",
+        "publisher": "2TUKCNA",
+        "publisher_name": "Cekmece Nucl. Res. Centre, Istanbul",
+        "active": true
+      },
+      "ACO/UK-": {
+        "description": "Aldermaston Reports",
+        "publisher": "2UK ALD",
+        "publisher_name": "Atomic Weapons Establishment AWE, Aldermaston",
+        "active": true
+      },
+      "AKO-UK-": {
+        "description": "Aldermaston Internal Report",
+        "publisher": "2UK ALD",
+        "publisher_name": "Atomic Weapons Establishment AWE, Aldermaston",
+        "active": true
+      },
+      "AWRE-": {
+        "description": "A.W.R.E. Aldermaston report series",
+        "publisher": "2UK ALD",
+        "publisher_name": "Atomic Weapons Establishment AWE, Aldermaston",
+        "active": true
+      },
+      "AWRE-CNR/PR": {
+        "description": "A.W.R.E. Aldermaston Reports",
+        "publisher": "2UK ALD",
+        "publisher_name": "Atomic Weapons Establishment AWE, Aldermaston",
+        "active": true
+      },
+      "AWRE-NR/C-": {
+        "description": "A.W.R.E. Aldermaston Reports",
+        "publisher": "2UK ALD",
+        "publisher_name": "Atomic Weapons Establishment AWE, Aldermaston",
+        "active": true
+      },
+      "AWRE-NR/P-": {
+        "description": "A.W.R.E. Aldermaston Reports",
+        "publisher": "2UK ALD",
+        "publisher_name": "Atomic Weapons Establishment AWE, Aldermaston",
+        "active": true
+      },
+      "AWRE-O-": {
+        "description": "A.W.R.E. Aldermaston Reports",
+        "publisher": "2UK ALD",
+        "publisher_name": "Atomic Weapons Establishment AWE, Aldermaston",
+        "active": true
+      },
+      "NR/P-": {
+        "description": "U.K.AEA Weapons Group,A.W.R.E. Aldermaston Rept.",
+        "publisher": "2UK ALD",
+        "publisher_name": "Atomic Weapons Establishment AWE, Aldermaston",
+        "active": true
+      },
+      "BR-": {
+        "description": "Cavendish Lab. Reports",
+        "publisher": "2UK CAV",
+        "publisher_name": "Cavendish Lab., Cambridge, Engl.",
+        "active": true
+      },
+      "RD/B/M-": {
+        "description": "Central Electricity Generating Board Reports",
+        "publisher": "2UK CEG",
+        "publisher_name": "Berkeley Nuclear Laboratories BNL, Berkeley",
+        "active": true
+      },
+      "RD/B/N-": {
+        "description": "Central Electricity Generating Board Reports",
+        "publisher": "2UK CEG",
+        "publisher_name": "Berkeley Nuclear Laboratories BNL, Berkeley",
+        "active": true
+      },
+      "AERE-": {
+        "description": "A.E.R.E. Harwell report series",
+        "publisher": "2UK HAR",
+        "publisher_name": "Atomic Energy Research Establishment AERE, Harwell",
+        "active": true
+      },
+      "AERE-C/R-": {
+        "description": "A.E.R.E. Harwell Reports",
+        "publisher": "2UK HAR",
+        "publisher_name": "Atomic Energy Research Establishment AERE, Harwell",
+        "active": true
+      },
+      "AERE-I/R-": {
+        "description": "A.E.R.E. Harwell Reports",
+        "publisher": "2UK HAR",
+        "publisher_name": "Atomic Energy Research Establishment AERE, Harwell",
+        "active": true
+      },
+      "AERE-M-": {
+        "description": "A.E.R.E. Harwell Reports",
+        "publisher": "2UK HAR",
+        "publisher_name": "Atomic Energy Research Establishment AERE, Harwell",
+        "active": true
+      },
+      "AERE-N/M-": {
+        "description": "A.E.R.E. Harwell Reports",
+        "publisher": "2UK HAR",
+        "publisher_name": "Atomic Energy Research Establishment AERE, Harwell",
+        "active": true
+      },
+      "AERE-N/R-": {
+        "description": "A.E.R.E. Harwell Reports",
+        "publisher": "2UK HAR",
+        "publisher_name": "Atomic Energy Research Establishment AERE, Harwell",
+        "active": true
+      },
+      "AERE-NP/GEN": {
+        "description": "A.E.R.E. Harwell Reports",
+        "publisher": "2UK HAR",
+        "publisher_name": "Atomic Energy Research Establishment AERE, Harwell",
+        "active": true
+      },
+      "AERE-NP/M-": {
+        "description": "A.E.R.E. Harwell Reports",
+        "publisher": "2UK HAR",
+        "publisher_name": "Atomic Energy Research Establishment AERE, Harwell",
+        "active": true
+      },
+      "AERE-NP/R-": {
+        "description": "A.E.R.E. Harwell Reports",
+        "publisher": "2UK HAR",
+        "publisher_name": "Atomic Energy Research Establishment AERE, Harwell",
+        "active": true
+      },
+      "AERE-PR/NP-": {
+        "description": "A.E.R.E. Harwell Reports",
+        "publisher": "2UK HAR",
+        "publisher_name": "Atomic Energy Research Establishment AERE, Harwell",
+        "active": true
+      },
+      "AERE-R-": {
+        "description": "A.E.R.E. Harwell Reports",
+        "publisher": "2UK HAR",
+        "publisher_name": "Atomic Energy Research Establishment AERE, Harwell",
+        "active": true
+      },
+      "AERE-R/M-": {
+        "description": "A.E.R.E. Harwell Reports",
+        "publisher": "2UK HAR",
+        "publisher_name": "Atomic Energy Research Establishment AERE, Harwell",
+        "active": true
+      },
+      "AERE-R/R-": {
+        "description": "A.E.R.E. Harwell Reports",
+        "publisher": "2UK HAR",
+        "publisher_name": "Atomic Energy Research Establishment AERE, Harwell",
+        "active": true
+      },
+      "AERE-RP/R-": {
+        "description": "A.E.R.E. Harwell Reports",
+        "publisher": "2UK HAR",
+        "publisher_name": "Atomic Energy Research Establishment AERE, Harwell",
+        "active": true
+      },
+      "AERE-TRANS-": {
+        "description": "A.E.R.E. Harwell translations",
+        "publisher": "2UK HAR",
+        "publisher_name": "Atomic Energy Research Establishment AERE, Harwell",
+        "active": true
+      },
+      "AERE-X/PR-": {
+        "description": "A.E.R.E. Harwell Reports",
+        "publisher": "2UK HAR",
+        "publisher_name": "Atomic Energy Research Establishment AERE, Harwell",
+        "active": true
+      },
+      "NRDC-": {
+        "description": "A.E.R.E. Harwell Reports",
+        "publisher": "2UK HAR",
+        "publisher_name": "Atomic Energy Research Establishment AERE, Harwell",
+        "active": true
+      },
+      "NRPB-": {
+        "description": "National Radiol. Prot. Board Reports",
+        "publisher": "2UK NRP",
+        "publisher_name": "National Radiological Protection Board, Harwell",
+        "active": true
+      },
+      "NRPB-M-": {
+        "description": "National Radiol. Prot. Board Reports",
+        "publisher": "2UK NRP",
+        "publisher_name": "National Radiological Protection Board, Harwell",
+        "active": true
+      },
+      "NRPB-R-": {
+        "description": "National Radiol. Prot. Board Reports",
+        "publisher": "2UK NRP",
+        "publisher_name": "National Radiological Protection Board, Harwell",
+        "active": true
+      },
+      "AHSB(S)R-": {
+        "description": "U.K. AEA Health and Safety Branch Risley Reports",
+        "publisher": "2UK RLY",
+        "publisher_name": "UKAEA, Risley",
+        "active": true
+      },
+      "AEA-TRS-": {
+        "description": "AEA Technol.Winfrith, Thermal Reactor Serv.,rpt.",
+        "publisher": "2UK WIN",
+        "publisher_name": "Atomic Energy Establishment AEE, Winfrith, Dorset",
+        "active": true
+      },
+      "AEEW-": {
+        "description": "A.E.E.W. Winfrith report series",
+        "publisher": "2UK WIN",
+        "publisher_name": "Atomic Energy Establishment AEE, Winfrith, Dorset",
+        "active": true
+      },
+      "AEEW-M-": {
+        "description": "A.E.E.W. Winfrith Reports",
+        "publisher": "2UK WIN",
+        "publisher_name": "Atomic Energy Establishment AEE, Winfrith, Dorset",
+        "active": true
+      },
+      "AEEW-R-": {
+        "description": "A.E.E.W. Winfrith Reports",
+        "publisher": "2UK WIN",
+        "publisher_name": "Atomic Energy Establishment AEE, Winfrith, Dorset",
+        "active": true
+      },
+      "BIPM-": {
+        "description": "Bureau Int. des Poids et Mesures Reports",
+        "publisher": "2ZZZBIP",
+        "publisher_name": "Bureau International des Poids et Mesures, Sevres",
+        "active": true
+      },
+      "CERN-": {
+        "description": "CERN Europ. Org. for Nuclear Res. Reports",
+        "publisher": "2ZZZCER",
+        "publisher_name": "CERN, Geneva",
+        "active": true
+      },
+      "CERN-PROC-": {
+        "description": "CERN Proceedings (CERN-Proceedings-)",
+        "publisher": "2ZZZCER",
+        "publisher_name": "CERN, Geneva",
+        "active": true
+      },
+      "CERN/DI/HP-": {
+        "description": "CERN Health Physics Group Reports",
+        "publisher": "2ZZZCER",
+        "publisher_name": "CERN, Geneva",
+        "active": true
+      },
+      "IRMM-": {
+        "description": "Inst. of Ref.Materials and Meas. Repts., Geel",
+        "publisher": "2ZZZGEL",
+        "publisher_name": "EC Joint Research Centre EC-JRC, Geel",
+        "active": true
+      },
+      "IRMM-R-": {
+        "description": "Inst. of Ref.Materials and Meas. Repts., Geel",
+        "publisher": "2ZZZGEL",
+        "publisher_name": "EC Joint Research Centre EC-JRC, Geel",
+        "active": true
+      },
+      "EUR-": {
+        "description": "Euratom Reports",
+        "publisher": "2ZZZISP",
+        "publisher_name": "EC Joint Research Center EC-JRC, Ispra",
+        "active": true
+      },
+      "CCDN-": {
+        "description": "C.C.D.N. Saclay report series",
+        "publisher": "2ZZZNDC",
+        "publisher_name": "NEA Data Bank, Paris",
+        "active": true
+      },
+      "CCDN-CI-": {
+        "description": "C.C.D.N. Saclay Reports",
+        "publisher": "2ZZZNDC",
+        "publisher_name": "NEA Data Bank, Paris",
+        "active": true
+      },
+      "CCDN-NW-": {
+        "description": "C.C.D.N. Saclay Newsletters",
+        "publisher": "2ZZZNDC",
+        "publisher_name": "NEA Data Bank, Paris",
+        "active": true
+      },
+      "EANDC(CAN)-": {
+        "description": "Canadian report to EANDC",
+        "publisher": "2ZZZNEA",
+        "publisher_name": "OECD Nuclear Energy Agency NEA",
+        "active": true
+      },
+      "EANDC(E)-": {
+        "description": "Report from Euratom-countries + Euratom to EANDC",
+        "publisher": "2ZZZNEA",
+        "publisher_name": "OECD Nuclear Energy Agency NEA",
+        "active": true
+      },
+      "EANDC(J)-": {
+        "description": "Japanese report to EANDC",
+        "publisher": "2ZZZNEA",
+        "publisher_name": "OECD Nuclear Energy Agency NEA",
+        "active": true
+      },
+      "EANDC(OR)-": {
+        "description": "Report from misc. OECD Countries to EANDC",
+        "publisher": "2ZZZNEA",
+        "publisher_name": "OECD Nuclear Energy Agency NEA",
+        "active": true
+      },
+      "EANDC(UK)-": {
+        "description": "U.K. report to EANDC",
+        "publisher": "2ZZZNEA",
+        "publisher_name": "OECD Nuclear Energy Agency NEA",
+        "active": true
+      },
+      "EANDC(US)-": {
+        "description": "U.S. report to EANDC",
+        "publisher": "2ZZZNEA",
+        "publisher_name": "OECD Nuclear Energy Agency NEA",
+        "active": true
+      },
+      "EANDC-": {
+        "description": "European-American Nucl. Data Committee Documents",
+        "publisher": "2ZZZNEA",
+        "publisher_name": "OECD Nuclear Energy Agency NEA",
+        "active": true
+      },
+      "NEA-NSC-": {
+        "description": "NEA Nuclear Science Committee Reports",
+        "publisher": "2ZZZNEA",
+        "publisher_name": "OECD Nuclear Energy Agency NEA",
+        "active": true
+      },
+      "NEACRP-L-": {
+        "description": "NEA internal report NEANDC(E)-NEACRP-L",
+        "publisher": "2ZZZNEA",
+        "publisher_name": "OECD Nuclear Energy Agency NEA",
+        "active": true
+      },
+      "NEANDC(CAN)": {
+        "description": "Canadian report to NEANDC",
+        "publisher": "2ZZZNEA",
+        "publisher_name": "OECD Nuclear Energy Agency NEA",
+        "active": true
+      },
+      "NEANDC(E)-": {
+        "description": "Report from CEC-Countries and CEC to NEANDC",
+        "publisher": "2ZZZNEA",
+        "publisher_name": "OECD Nuclear Energy Agency NEA",
+        "active": true
+      },
+      "NEANDC(J)-": {
+        "description": "Japanese report to NEANDC",
+        "publisher": "2ZZZNEA",
+        "publisher_name": "OECD Nuclear Energy Agency NEA",
+        "active": true
+      },
+      "NEANDC(OR)-": {
+        "description": "Report from misc. OECD countries to NEANDC",
+        "publisher": "2ZZZNEA",
+        "publisher_name": "OECD Nuclear Energy Agency NEA",
+        "active": true
+      },
+      "NEANDC(UK)-": {
+        "description": "U.K. report to NEANDC",
+        "publisher": "2ZZZNEA",
+        "publisher_name": "OECD Nuclear Energy Agency NEA",
+        "active": true
+      },
+      "NEANDC(US)-": {
+        "description": "U.S. report to NEANDC",
+        "publisher": "2ZZZNEA",
+        "publisher_name": "OECD Nuclear Energy Agency NEA",
+        "active": true
+      },
+      "NEANDC-": {
+        "description": "Nucl. En. Agency Nucl. Data Committee reports",
+        "publisher": "2ZZZNEA",
+        "publisher_name": "OECD Nuclear Energy Agency NEA",
+        "active": true
+      },
+      "CNEA-": {
+        "description": "Comision Nacional de Energia Atomica report ser.",
+        "publisher": "3ARGCNE",
+        "publisher_name": "Comision Nacional de Energia Atomica, Buenos Aires",
+        "active": true
+      },
+      "CNEA-CAB-": {
+        "description": "Centro Atomico Bariloche, internal report",
+        "publisher": "3ARGCNE",
+        "publisher_name": "Comision Nacional de Energia Atomica, Buenos Aires",
+        "active": true
+      },
+      "CNEA-CAB-IT": {
+        "description": "Centro Atomico Bariloche, internal report",
+        "publisher": "3ARGCNE",
+        "publisher_name": "Comision Nacional de Energia Atomica, Buenos Aires",
+        "active": true
+      },
+      "LR-": {
+        "description": "Inst. Investigacion Aeronautica y Esp, Reports",
+        "publisher": "3ARGIIA",
+        "publisher_name": "Inst.de Investig.Aeronaut.y Espacial, Buenos Aires",
+        "active": true
+      },
+      "AAEC/": {
+        "description": "Australian AEC reports",
+        "publisher": "3AULAUA",
+        "publisher_name": "Australian Nucl.Sci.and Techn.Org., Lucas Heights,NSW",
+        "active": true
+      },
+      "AAEC/AP/PR-": {
+        "description": "Australian AEC Applied Phys.Div. Prog. Report",
+        "publisher": "3AULAUA",
+        "publisher_name": "Australian Nucl.Sci.and Techn.Org., Lucas Heights,NSW",
+        "active": true
+      },
+      "AAEC/E-": {
+        "description": "Australian AEC Reports",
+        "publisher": "3AULAUA",
+        "publisher_name": "Australian Nucl.Sci.and Techn.Org., Lucas Heights,NSW",
+        "active": true
+      },
+      "AAEC/PD/PR-": {
+        "description": "Australian AEC Physics Div. Progress Report",
+        "publisher": "3AULAUA",
+        "publisher_name": "Australian Nucl.Sci.and Techn.Org., Lucas Heights,NSW",
+        "active": true
+      },
+      "AAEC/PR-": {
+        "description": "Australian AEC Progress report",
+        "publisher": "3AULAUA",
+        "publisher_name": "Australian Nucl.Sci.and Techn.Org., Lucas Heights,NSW",
+        "active": true
+      },
+      "AAEC/TM-": {
+        "description": "Australian AEC Technical Memo",
+        "publisher": "3AULAUA",
+        "publisher_name": "Australian Nucl.Sci.and Techn.Org., Lucas Heights,NSW",
+        "active": true
+      },
+      "ANU-": {
+        "description": "Australian National Univ., Canberra Reports",
+        "publisher": "3AULCBR",
+        "publisher_name": "Australian National University, Canberra",
+        "active": true
+      },
+      "ANU-P-": {
+        "description": "Australian National Univ., Canberra Reports",
+        "publisher": "3AULCBR",
+        "publisher_name": "Australian National University, Canberra",
+        "active": true
+      },
+      "AECD/": {
+        "description": "Atomic Energy Centre, Dhaka Reports",
+        "publisher": "3BANRAM",
+        "publisher_name": "Atomic Energy Centre, Ramna, Dhaka",
+        "active": true
+      },
+      "AECD/EP-": {
+        "description": "Atomic Energy Centre, Dhaka Reports",
+        "publisher": "3BANRAM",
+        "publisher_name": "Atomic Energy Centre, Ramna, Dhaka",
+        "active": true
+      },
+      "AECD/MISC-": {
+        "description": "Atomic Energy Centre, Dhaka Progress Report",
+        "publisher": "3BANRAM",
+        "publisher_name": "Atomic Energy Centre, Ramna, Dhaka",
+        "active": true
+      },
+      "AECD/TP-": {
+        "description": "Atomic Energy Centre, Dhaka Reports",
+        "publisher": "3BANRAM",
+        "publisher_name": "Atomic Energy Centre, Ramna, Dhaka",
+        "active": true
+      },
+      "IEAV/NT-": {
+        "description": "Inst. de Estudos Avancados, Technical Note",
+        "publisher": "3BZLCTA",
+        "publisher_name": "Instituto de Estudos Avancados, Sao Jose dos Campos",
+        "active": true
+      },
+      "IEA-": {
+        "description": "Inst. de Energia Atomica, Sao Paulo, Reports",
+        "publisher": "3BZLIEA",
+        "publisher_name": "Instituto de Energia Atomica, Sao Paulo",
+        "active": true
+      },
+      "IEA-INF-": {
+        "description": "Inst. de Energia Atomica, Sao Paulo, prog. rept.",
+        "publisher": "3BZLIEA",
+        "publisher_name": "Instituto de Energia Atomica, Sao Paulo",
+        "active": true
+      },
+      "IPEN-": {
+        "description": "Inst.de Pesquisas Energ.e Nucl.,Sao Paulo,Repts",
+        "publisher": "3BZLIPE",
+        "publisher_name": "Inst.de Pesquisas Energeticas e Nucleares, Sao Paulo",
+        "active": true
+      },
+      "CCEN-": {
+        "description": "Comun.do Centro de Energia Nuclear,Recife,Repts.",
+        "publisher": "3BZLUFP",
+        "publisher_name": "Univ. Federal de Pernambuco, Recife",
+        "active": true
+      },
+      "IFUSP/P-": {
+        "description": "Univ. of Sao Paulo, Inst.of Phys. Reports",
+        "publisher": "3BZLUSP",
+        "publisher_name": "Univ.de Sao Paulo, Sao Paulo",
+        "active": true
+      },
+      "INER-": {
+        "description": "Inst. of Nucl.Energy Research Reports",
+        "publisher": "3CHFSHI",
+        "publisher_name": "Institute of Nuclear Energy Research, Lung-Tan",
+        "active": true
+      },
+      "IAN-": {
+        "description": "Inst. de Asuntos Nucleares, Bogota, reports",
+        "publisher": "3CLMIAN",
+        "publisher_name": "Inst.de Asuntos Nucl., Bogota",
+        "active": true
+      },
+      "IAN-E-": {
+        "description": "Inst. de Asuntos Nucleares, Bogota Reports",
+        "publisher": "3CLMIAN",
+        "publisher_name": "Inst.de Asuntos Nucl., Bogota",
+        "active": true
+      },
+      "A-AEP-": {
+        "description": "Inst. of Atomic Energy, Beijing, Annual Report",
+        "publisher": "3CPRAEP",
+        "publisher_name": "China Inst. of Atomic Energy, Beijing",
+        "active": true
+      },
+      "A-BNT-": {
+        "description": "Beijing Nat. Tandem Accel. Lab., Prog. Report",
+        "publisher": "3CPRAEP",
+        "publisher_name": "China Inst. of Atomic Energy, Beijing",
+        "active": true
+      },
+      "HSJ-": {
+        "description": "Inst. of Atomic Energy, Beijing Reports",
+        "publisher": "3CPRAEP",
+        "publisher_name": "China Inst. of Atomic Energy, Beijing",
+        "active": true
+      },
+      "CNIC-": {
+        "description": "China Nucl. Information Center Reports",
+        "publisher": "3CPRCNI",
+        "publisher_name": "China Nucl.Inf.Centre, Beijing",
+        "active": true
+      },
+      "NST-": {
+        "description": "Inst.of Nucl.Sci.and Technol.,Sichuan U. Reports",
+        "publisher": "3CPRSIU",
+        "publisher_name": "Sichuan Univ., Chengdu",
+        "active": true
+      },
+      "LNS-": {
+        "description": "Inst. Rudjer Boskovic Reports",
+        "publisher": "3CRORBZ",
+        "publisher_name": "Inst.Rudjer Boskovic, Zagreb",
+        "active": true
+      },
+      "IPPCZ-": {
+        "description": "Czechoslovak A.S. Plasma Physics Reports, Prague",
+        "publisher": "3CZRCZA",
+        "publisher_name": "Czech Acad.of Sciences, Prague",
+        "active": true
+      },
+      "UJF-": {
+        "description": "Ustav Jad. Fyziky (Inst.Nucl.Phys.) Reports",
+        "publisher": "3CZRUJF",
+        "publisher_name": "Nuclear Physics Institute of Czech Acad. Sci., Rez",
+        "active": true
+      },
+      "UJV-": {
+        "description": "Ustav Jad. Vyzkumu (Inst Nucl res), Reports",
+        "publisher": "3CZRUJV",
+        "publisher_name": "Research Centre Rez, Husinec-Rez",
+        "active": true
+      },
+      "ZFK-DOS-": {
+        "description": "Zentralinst. f. Kernforschung Rossendorf Reports",
+        "publisher": "3DDRROS",
+        "publisher_name": "Zentralinstitut fuer Kernforschung ZFK, Rossendorf",
+        "active": true
+      },
+      "ZFK-PHA-": {
+        "description": "Zentralinst. f. Kernforschung Rossendorf Reports",
+        "publisher": "3DDRROS",
+        "publisher_name": "Zentralinstitut fuer Kernforschung ZFK, Rossendorf",
+        "active": true
+      },
+      "ZFK-RCH-": {
+        "description": "Zentralinst. f. Kernforschung Rossendorf Reports",
+        "publisher": "3DDRROS",
+        "publisher_name": "Zentralinstitut fuer Kernforschung ZFK, Rossendorf",
+        "active": true
+      },
+      "ZFK-RN-": {
+        "description": "Zentralinst. f. Kernforschung Rossendorf Reports",
+        "publisher": "3DDRROS",
+        "publisher_name": "Zentralinstitut fuer Kernforschung ZFK, Rossendorf",
+        "active": true
+      },
+      "ZFK-TPH-": {
+        "description": "Zentralinst. f. Kernforschung Rossendorf Reports",
+        "publisher": "3DDRROS",
+        "publisher_name": "Zentralinstitut fuer Kernforschung ZFK, Rossendorf",
+        "active": true
+      },
+      "ZFK-WF-": {
+        "description": "Zentralinst. f. Kernforschung Rossendorf Reports",
+        "publisher": "3DDRROS",
+        "publisher_name": "Zentralinstitut fuer Kernforschung ZFK, Rossendorf",
+        "active": true
+      },
+      "TU-": {
+        "description": "Technische Univ. Dresden, Reports",
+        "publisher": "3DDRTUD",
+        "publisher_name": "Dresden, Techn.Univ. at Dresden and Pirna",
+        "active": true
+      },
+      "AREAEE-": {
+        "description": "Atomic Energy Establishment Reports",
+        "publisher": "3EGYCAI",
+        "publisher_name": "Atomic Energy Authority AEA, Cairo",
+        "active": true
+      },
+      "UARAEE-": {
+        "description": "Atomic Energy Establishment Reports",
+        "publisher": "3EGYCAI",
+        "publisher_name": "Atomic Energy Authority AEA, Cairo",
+        "active": true
+      },
+      "ATOMKI-AR-": {
+        "description": "Atomki Annual Reports",
+        "publisher": "3HUNDEB",
+        "publisher_name": "Inst.of Nuclear Research, ATOMKI, Debrecen",
+        "active": true
+      },
+      "KFKI-": {
+        "description": "Central Research Inst. of Physics Reports",
+        "publisher": "3HUNKFI",
+        "publisher_name": "Centre for Energy Research EK, Budapest",
+        "active": true
+      },
+      "KFKI-YB-": {
+        "description": "KFKI Yearbook (progress-report)",
+        "publisher": "3HUNKFI",
+        "publisher_name": "Centre for Energy Research EK, Budapest",
+        "active": true
+      },
+      "RRC-": {
+        "description": "Reactor Research Center Kalpakkam Reports",
+        "publisher": "3INDKAL",
+        "publisher_name": "Indira Gandhi Centre for Atomic Research, Kalpakkam",
+        "active": true
+      },
+      "AEET-": {
+        "description": "Atomic Energy Est. Trombay Reports",
+        "publisher": "3INDTRM",
+        "publisher_name": "Bhabha Atomic Research Centre, Trombay, Mumbai",
+        "active": true
+      },
+      "AEET-ANAL-": {
+        "description": "Trombay Reports",
+        "publisher": "3INDTRM",
+        "publisher_name": "Bhabha Atomic Research Centre, Trombay, Mumbai",
+        "active": true
+      },
+      "AEET-NP-": {
+        "description": "Trombay Reports",
+        "publisher": "3INDTRM",
+        "publisher_name": "Bhabha Atomic Research Centre, Trombay, Mumbai",
+        "active": true
+      },
+      "BARC-": {
+        "description": "B.A.R.C., Trombay report series",
+        "publisher": "3INDTRM",
+        "publisher_name": "Bhabha Atomic Research Centre, Trombay, Mumbai",
+        "active": true
+      },
+      "BARC/I-": {
+        "description": "B.A.R.C., Trombay Reports",
+        "publisher": "3INDTRM",
+        "publisher_name": "Bhabha Atomic Research Centre, Trombay, Mumbai",
+        "active": true
+      },
+      "NRITB-": {
+        "description": "Nuclear Res. Inst., Tuwaitha, Baghdad, reports",
+        "publisher": "3IRQNRI",
+        "publisher_name": "Nucl.Research Center, Baghdad",
+        "active": true
+      },
+      "NRITB-PH-": {
+        "description": "Nuclear Res. Inst., Tuwaitha, Baghdad, Reports",
+        "publisher": "3IRQNRI",
+        "publisher_name": "Nucl.Research Center, Baghdad",
+        "active": true
+      },
+      "TNSD-P-": {
+        "description": "Technion Nuclear Science Dept. Reports",
+        "publisher": "3ISLHFA",
+        "publisher_name": "Technion Haifa",
+        "active": true
+      },
+      "TNSD-R-": {
+        "description": "Technion Nuclear Science Dept. Reports",
+        "publisher": "3ISLHFA",
+        "publisher_name": "Technion Haifa",
+        "active": true
+      },
+      "NRCN-": {
+        "description": "Beersheva Nuclear Res. Center Negev Reports",
+        "publisher": "3ISLNEG",
+        "publisher_name": "Ben Gurion Univ. of the Negev, Beer-Sheva",
+        "active": true
+      },
+      "LS-": {
+        "description": "Soreq Nuclear Research Center Reports",
+        "publisher": "3ISLSOR",
+        "publisher_name": "Soreq Research Centre, Yavne",
+        "active": true
+      },
+      "KAERI/GP-": {
+        "description": "Korean Atomic Energy Research Inst. Reports",
+        "publisher": "3KORKAE",
+        "publisher_name": "Korea Atomic Energy Research Instit. KAERI, Daejeon",
+        "active": true
+      },
+      "AIF-": {
+        "description": "Anales del Instituto de Fisica",
+        "publisher": "3MEXIFM",
+        "publisher_name": "Univ. Nacional Autonoma de Mexico UNAM, Mexico City",
+        "active": false
+      },
+      "MOH-": {
+        "description": "Univ. Mohammed V, Rabat, Annual Report",
+        "publisher": "3MORMOH",
+        "publisher_name": "Univ. Mohammed V, Rabat",
+        "active": true
+      },
+      "INS-": {
+        "description": "Inst.of Nuclear Sciences, Progress Reports",
+        "publisher": "3NZLNZH",
+        "publisher_name": "Inst.of Nuclear Sciences, Lower Hutt",
+        "active": true
+      },
+      "NPD-": {
+        "description": "Pakistan Inst.Nuc.Sci.Tech.,Nucl.Phys.Div.Repts",
+        "publisher": "3PAKNIL",
+        "publisher_name": "PINSTECH, Nilore, Rawalpindi",
+        "active": false
+      },
+      "PINST-": {
+        "description": "Pakistan Inst. Nucl. Sci. Tech. Reports",
+        "publisher": "3PAKNIL",
+        "publisher_name": "PINSTECH, Nilore, Rawalpindi",
+        "active": true
+      },
+      "PINST-NPD-": {
+        "description": "Pakistan Inst.Nuc.Sci.Tech.,Nucl.Phys.Div.Repts",
+        "publisher": "3PAKNIL",
+        "publisher_name": "PINSTECH, Nilore, Rawalpindi",
+        "active": true
+      },
+      "PINST-RT-": {
+        "description": "Pakistan Inst. Nucl. Sci. Tech. Reports",
+        "publisher": "3PAKNIL",
+        "publisher_name": "PINSTECH, Nilore, Rawalpindi",
+        "active": true
+      },
+      "IBJ-": {
+        "description": "Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts",
+        "publisher": "3POLIBJ",
+        "publisher_name": "Inst. Badan Jadr., Swierk and Warszawa",
+        "active": false
+      },
+      "INR-": {
+        "description": "Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts",
+        "publisher": "3POLIBJ",
+        "publisher_name": "Inst. Badan Jadr., Swierk and Warszawa",
+        "active": true
+      },
+      "INR-FIA-": {
+        "description": "Inst. Badan Jadr., Swierk+Warsaw Reports",
+        "publisher": "3POLIBJ",
+        "publisher_name": "Inst. Badan Jadr., Swierk and Warszawa",
+        "active": true
+      },
+      "IFJ-": {
+        "description": "Inst. Fiz. Jadr. (Nucl.Phys.), Krakow Reports",
+        "publisher": "3POLIFJ",
+        "publisher_name": "Niewodniczanski Instytut Fizyki Jadrowej, Krakow",
+        "active": false
+      },
+      "INP-": {
+        "description": "Inst. Fiz. Jadr. (Nucl.Phys.), Krakow Reports",
+        "publisher": "3POLIFJ",
+        "publisher_name": "Niewodniczanski Instytut Fizyki Jadrowej, Krakow",
+        "active": true
+      },
+      "IFA-": {
+        "description": "Inst. Fis. Atomica, Romanian Acad. Sci. reports",
+        "publisher": "3RUMBUC",
+        "publisher_name": "Inst. de Fiz. si Ing. Nucl. Horia Hulubei, Bucharest",
+        "active": true
+      },
+      "IFA-CRD-": {
+        "description": "Inst. Fis. Atomica, Romanian Acad. Sci. Reports",
+        "publisher": "3RUMBUC",
+        "publisher_name": "Inst. de Fiz. si Ing. Nucl. Horia Hulubei, Bucharest",
+        "active": true
+      },
+      "IFA-DNBR-": {
+        "description": "Inst. Fis. Atomica, Romanian Acad. Sci. Reports",
+        "publisher": "3RUMBUC",
+        "publisher_name": "Inst. de Fiz. si Ing. Nucl. Horia Hulubei, Bucharest",
+        "active": true
+      },
+      "IFA-DNR-": {
+        "description": "Inst. Fis. Atomica, Romanian Acad. Sci. Reports",
+        "publisher": "3RUMBUC",
+        "publisher_name": "Inst. de Fiz. si Ing. Nucl. Horia Hulubei, Bucharest",
+        "active": true
+      },
+      "IFA-EP-": {
+        "description": "Inst. Fis. Atomica, Romanian Acad. Sci. Reports",
+        "publisher": "3RUMBUC",
+        "publisher_name": "Inst. de Fiz. si Ing. Nucl. Horia Hulubei, Bucharest",
+        "active": true
+      },
+      "IFA-FN-": {
+        "description": "Inst. Fis. Atomica, Romanian Acad. Sci. Reports",
+        "publisher": "3RUMBUC",
+        "publisher_name": "Inst. de Fiz. si Ing. Nucl. Horia Hulubei, Bucharest",
+        "active": true
+      },
+      "IFA-FR-": {
+        "description": "Inst. Fis. Atomica, Romanian Acad. Sci. Reports",
+        "publisher": "3RUMBUC",
+        "publisher_name": "Inst. de Fiz. si Ing. Nucl. Horia Hulubei, Bucharest",
+        "active": true
+      },
+      "IFA-NF-": {
+        "description": "Inst. Fis. Atomica, Romanian Acad. Sci. Reports",
+        "publisher": "3RUMBUC",
+        "publisher_name": "Inst. de Fiz. si Ing. Nucl. Horia Hulubei, Bucharest",
+        "active": true
+      },
+      "IFA-NR-": {
+        "description": "Inst. Fis. Atomica, Romanian Acad. Sci. Reports",
+        "publisher": "3RUMBUC",
+        "publisher_name": "Inst. de Fiz. si Ing. Nucl. Horia Hulubei, Bucharest",
+        "active": true
+      },
+      "IFA-R-": {
+        "description": "Inst. Fis. Atomica, Romanian Acad. Sci. Reports",
+        "publisher": "3RUMBUC",
+        "publisher_name": "Inst. de Fiz. si Ing. Nucl. Horia Hulubei, Bucharest",
+        "active": true
+      },
+      "IFA-RN-": {
+        "description": "Inst. Fis. Atomica, Romanian Acad. Sci. Reports",
+        "publisher": "3RUMBUC",
+        "publisher_name": "Inst. de Fiz. si Ing. Nucl. Horia Hulubei, Bucharest",
+        "active": true
+      },
+      "IFIN-NR-": {
+        "description": "Inst. de Fiz. si Ing.Nucleara,Bucharest Reports",
+        "publisher": "3RUMBUC",
+        "publisher_name": "Inst. de Fiz. si Ing. Nucl. Horia Hulubei, Bucharest",
+        "active": true
+      },
+      "IRNE-": {
+        "description": "Inst. Nuclear Power Reactors Reports",
+        "publisher": "3RUMPIT",
+        "publisher_name": "Inst. of Nuclear Power Reactors I.R.N.E.",
+        "active": true
+      },
+      "PEL-": {
+        "description": "Atomic Energy Board, Pelindaba Reports",
+        "publisher": "3SAFPEL",
+        "publisher_name": "Atomic Energy Corp.of South Africa, Pelindaba",
+        "active": true
+      },
+      "CSIR-FIS-": {
+        "description": "Council f.Scient.and Indust.Res.,Pretoria,Repts.",
+        "publisher": "3SAFSIR",
+        "publisher_name": "Council for Scientific and Industrial Res., Pretoria",
+        "active": true
+      },
+      "SUNI-": {
+        "description": "Southern Universities Nuclear Inst. Reports",
+        "publisher": "3SAFSUN",
+        "publisher_name": "Southern Universities Nuclear Insstitute, Faure",
+        "active": true
+      },
+      "IJS-": {
+        "description": "Inst. Jozef Stefan, Ljubljana, reports",
+        "publisher": "3SLNIJS",
+        "publisher_name": "Inst. Jozef Stefan, Ljubljana",
+        "active": true
+      },
+      "IJS-P-": {
+        "description": "Inst. Jozef Stefan, Ljubljana Reports",
+        "publisher": "3SLNIJS",
+        "publisher_name": "Inst. Jozef Stefan, Ljubljana",
+        "active": true
+      },
+      "IJS-R-": {
+        "description": "Inst. Jozef Stefan, Ljubljana Reports",
+        "publisher": "3SLNIJS",
+        "publisher_name": "Inst. Jozef Stefan, Ljubljana",
+        "active": true
+      },
+      "NIJS-": {
+        "description": "Inst. Josef Stefan, Ljubljana, report series",
+        "publisher": "3SLNIJS",
+        "publisher_name": "Inst. Jozef Stefan, Ljubljana",
+        "active": true
+      },
+      "NIJS-P-": {
+        "description": "Inst. Josef Stefan, Ljubljana Reports",
+        "publisher": "3SLNIJS",
+        "publisher_name": "Inst. Jozef Stefan, Ljubljana",
+        "active": true
+      },
+      "NIJS-R-": {
+        "description": "Inst. Josef Stefan, Ljubljana Reports",
+        "publisher": "3SLNIJS",
+        "publisher_name": "Inst. Jozef Stefan, Ljubljana",
+        "active": true
+      },
+      "THAI-AEC-": {
+        "description": "Atomic Energy for Peace, Bangkok Reports",
+        "publisher": "3TAIBGK",
+        "publisher_name": "Office of the Atomic Energy for Peace, Bangkok",
+        "active": true
+      },
+      "IBK-": {
+        "description": "Inst. Boris Kidrich Reports",
+        "publisher": "3YUGBKB",
+        "publisher_name": "Inst. Boris Kidrich, Vinca",
+        "active": true
+      },
+      "IAEA-": {
+        "description": "I.A.E.A. technical report, Vienna",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "IAEA-NDS-": {
+        "description": "Nuclear Data Services (Doc. series of NDS)",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "IAEA-R-": {
+        "description": "I.A.E.A. Research Contract Report",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "IAEA-SM-": {
+        "description": "I.A.E.A. Symposium Collection -extended synopses",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "IAEA-TECDOC": {
+        "description": "I.A.E.A. Technical Documents",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "IAEA/": {
+        "description": "I.A.E.A., Vienna, report series",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "IAEA/RL-": {
+        "description": "I.A.E.A. Div. of Res. + Labs Reports",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "IAEA/TA-": {
+        "description": "I.A.E.A. Technical Assistance Reports",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(ARG)-": {
+        "description": "Argentine report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(AUL)-": {
+        "description": "Australian report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(AUS)-": {
+        "description": "Austrian report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(BAN)-": {
+        "description": "Bangladesh report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(BLG)-": {
+        "description": "Belgian report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(BLR)-": {
+        "description": "Belorus report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(BOL)-": {
+        "description": "Bolivian report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(BUL)-": {
+        "description": "Bulgarian report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(BZL)-": {
+        "description": "Brazilian report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(CAN)-": {
+        "description": "Canadian report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(CCP)-": {
+        "description": "USSR report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(CHL)-": {
+        "description": "Chile report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(CPR)-": {
+        "description": "Chinese report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(CSR)-": {
+        "description": "CSSR report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(CUB)-": {
+        "description": "Cuban report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(CZR)-": {
+        "description": "Czech report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(EGY)-": {
+        "description": "Egyptian report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(EUR)-": {
+        "description": "Comm. of the European Commun. report to I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(FIN)-": {
+        "description": "Finnish report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(FR)-": {
+        "description": "French report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(GDR)-": {
+        "description": "Germ.Dem.Rep.report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(GER)-": {
+        "description": "Fed.Rep.Germ.report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(HUN)-": {
+        "description": "Hungarian report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(IND)-": {
+        "description": "Indian report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(IRN)-": {
+        "description": "Iran report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(IRQ)-": {
+        "description": "Iraq report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(ISL)-": {
+        "description": "Israel report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(ITY)-": {
+        "description": "Italian report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(JAP)-": {
+        "description": "Japanese report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(JPN)-": {
+        "description": "Japanese report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(KOR)-": {
+        "description": "Korean report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(MOR)-": {
+        "description": "Morocco report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(NDS)-": {
+        "description": "IAEA Nucl.Data Section report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(NDU)-": {
+        "description": "IAEA Nucl.Data Section report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(NED)-": {
+        "description": "Netherlands report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(NOR)-": {
+        "description": "Norwegian report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(PAK)-": {
+        "description": "Pakistan report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(POL)-": {
+        "description": "Polish report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(ROM)-": {
+        "description": "Romanian report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(RUM)-": {
+        "description": "Romanian report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(SAF)-": {
+        "description": "South-African report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(SEC)-": {
+        "description": "I.N.D.C. Secretariat Report Series",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(SLK)-": {
+        "description": "Slovakian report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(SLN)-": {
+        "description": "Slovenian report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(SPN)-": {
+        "description": "Spanish report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(SUD)-": {
+        "description": "Sudanese report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(SWD)-": {
+        "description": "Swedish report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(SWT)-": {
+        "description": "Swiss report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(TAI)-": {
+        "description": "Thailand report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(TUR)-": {
+        "description": "Turkish report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(UK)-": {
+        "description": "U.K. report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(UKR)-": {
+        "description": "Ukrainian report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(US)-": {
+        "description": "U.S. report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": false
+      },
+      "INDC(USA)-": {
+        "description": "U.S. report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(VN)-": {
+        "description": "Vietnam report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC(YUG)-": {
+        "description": "Yugoslavian report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDC-": {
+        "description": "International Nucl. Data Committee report series",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INDSWG-": {
+        "description": "Int. Nuclear Data Sci. Working Group Reports",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INIS-MF-": {
+        "description": "INIS microfiche",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "INIS-SU-": {
+        "description": "INIS Reports",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "STI/DOC/10-": {
+        "description": "I.A.E.A. Technical Document Series",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "STI/PUB-": {
+        "description": "I.A.E.A. Publications",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "STI/PUB/15-": {
+        "description": "I.A.E.A. Review Series (1959-1962)",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "STI/PUB/21-": {
+        "description": "I.A.E.A. Bibliographical Series",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "IAEA, Vienna",
+        "active": true
+      },
+      "IC-": {
+        "description": "Internat.Centre for Theoretical Physics, reports",
+        "publisher": "3ZZZTPT",
+        "publisher_name": "Intern.Centre for Theoretical Physics, Trieste",
+        "active": true
+      },
+      "IJE-": {
+        "description": "Inst. of Nucl. Energetics, Bjelorus. Acad. Sci.",
+        "publisher": "4BLRIJE",
+        "publisher_name": "Inst. Yad. Energetiki Byeloruss.A.N., Minsk",
+        "active": true
+      },
+      "TMO-": {
+        "description": "Inst.Teplo-Massoobmena Bjeloruss.Acad.Sci.Repts",
+        "publisher": "4BLRTMO",
+        "publisher_name": "Inst. Teplo-Massoobmena Byeloruss. A.N., Minsk",
+        "active": true
+      },
+      "IYFK-P-": {
+        "description": "Inst. Nucl.Phys., Alma-Ata, preprints",
+        "publisher": "4KASKAZ",
+        "publisher_name": "Inst.Yadernoi Fiziki, Almaty",
+        "active": true
+      },
+      "LAFI-": {
+        "description": "Inst. Fiziki Latvijskoi Akad. Sci., Riga Reports",
+        "publisher": "4LATIFL",
+        "publisher_name": "Inst. Fiziki Latviyskoi A.N., Riga",
+        "active": true
+      },
+      "ICD-": {
+        "description": "Bull. Centr po Jadernym Dannym, Obninsk",
+        "publisher": "4RUSCJD",
+        "publisher_name": "Centr po Yadernym Dannym, Obninsk",
+        "active": true
+      },
+      "YK-": {
+        "description": "Yadernye Konstanty",
+        "publisher": "4RUSCJD",
+        "publisher_name": "Centr po Yadernym Dannym, Obninsk",
+        "active": true
+      },
+      "EPA-": {
+        "description": "Exp.Physics Inst. Arzamas Reports",
+        "publisher": "4RUSEPA",
+        "publisher_name": "Experimental Physics Inst., Sarov",
+        "active": true
+      },
+      "FEI-": {
+        "description": "Fiz.-Energ Institut, Obninsk Reports",
+        "publisher": "4RUSFEI",
+        "publisher_name": "Fiziko-Energeticheskii Inst., Obninsk",
+        "active": true
+      },
+      "YFI-": {
+        "description": "Yaderno-Fizicheskie Issledovaniya v SSSR",
+        "publisher": "4RUSFEI",
+        "publisher_name": "Fiziko-Energeticheskii Inst., Obninsk",
+        "active": true
+      },
+      "FTI-": {
+        "description": "Fiz-Tech. Inst. Ioffe, Leningrad Reports",
+        "publisher": "4RUSFTI",
+        "publisher_name": "Fiz.-Tekhnicheskiy Inst.Ioffe, St.Petersburg+Gatchina",
+        "active": true
+      },
+      "ITE-": {
+        "description": "Inst. Teoret. i Experiment. Fiziki, Moscow Repts",
+        "publisher": "4RUSITE",
+        "publisher_name": "Inst. Teoret. + Experiment. Fiziki, Moskva",
+        "active": false
+      },
+      "ITEF-": {
+        "description": "Inst. Teoret. i Experiment. Fiziki, Moscow Repts",
+        "publisher": "4RUSITE",
+        "publisher_name": "Inst. Teoret. + Experiment. Fiziki, Moskva",
+        "active": true
+      },
+      "JIA-": {
+        "description": "Inst. Nucl. Res., Russian Acad. Sci. Preprint",
+        "publisher": "4RUSJIA",
+        "publisher_name": "Inst. Yadernych Issledovaniy Rossiiskoi A.N., Moskva",
+        "active": true
+      },
+      "IAE-": {
+        "description": "Inst. Atomnoy Energii, Kurchatov Reports",
+        "publisher": "4RUSKUR",
+        "publisher_name": "Nat.Issl.Tsentr \"Kurchatovskii Institut\", Moskva",
+        "active": true
+      },
+      "KUR-": {
+        "description": "Inst. Atomnoy Energii, Kurchatov Reports",
+        "publisher": "4RUSKUR",
+        "publisher_name": "Nat.Issl.Tsentr \"Kurchatovskii Institut\", Moskva",
+        "active": true
+      },
+      "FIAN-": {
+        "description": "Fiz. Inst. Akad. Nauk Lebedev, Moscow Reports",
+        "publisher": "4RUSLEB",
+        "publisher_name": "Fiz.Inst. Lebedev FIAN, Moskva",
+        "active": true
+      },
+      "BCDL-": {
+        "description": "Bull. Centro Dannykh LIJAF, Leningrad-Gatchina",
+        "publisher": "4RUSLIN",
+        "publisher_name": "Peterburgskiy Inst.Yad.Fiz.,Russ.Ak.Nauk., Gatchina",
+        "active": true
+      },
+      "LIJAF-": {
+        "description": "Leningrad Inst. Nucl. Phys. Reports",
+        "publisher": "4RUSLIN",
+        "publisher_name": "Peterburgskiy Inst.Yad.Fiz.,Russ.Ak.Nauk., Gatchina",
+        "active": true
+      },
+      "MIF-": {
+        "description": "Moscow Inst. of Engineering Physics Reports",
+        "publisher": "4RUSMIF",
+        "publisher_name": "National Research Nuclear University MEPhI, Moscow",
+        "active": true
+      },
+      "CDFE-": {
+        "description": "Fotoyadernye Dannye (Photonuclear Data)",
+        "publisher": "4RUSMOS",
+        "publisher_name": "Moscow State Univ., Moscow",
+        "active": true
+      },
+      "CDFE-IND-": {
+        "description": "Fotoyadernye Dannye (Photonuclear Data) Index",
+        "publisher": "4RUSMOS",
+        "publisher_name": "Moscow State Univ., Moscow",
+        "active": true
+      },
+      "CDFE-IND2-": {
+        "description": "Photonuclear Data Index (Photofission)",
+        "publisher": "4RUSMOS",
+        "publisher_name": "Moscow State Univ., Moscow",
+        "active": true
+      },
+      "MSU-INP-": {
+        "description": "Moscow State Univ.Inst.of Nucl.Phys.Reports",
+        "publisher": "4RUSMOS",
+        "publisher_name": "Moscow State Univ., Moscow",
+        "active": true
+      },
+      "NIIAR-": {
+        "description": "Inst. Atomnykh Reaktorov, Melekess Reports",
+        "publisher": "4RUSNIR",
+        "publisher_name": "NIIAR Dimitrovgrad",
+        "active": true
+      },
+      "NIIAR-P1-": {
+        "description": "Inst. Atomnykh Reaktorov, Melekess Reports",
+        "publisher": "4RUSNIR",
+        "publisher_name": "NIIAR Dimitrovgrad",
+        "active": true
+      },
+      "SIB-": {
+        "description": "Inst. Jad. Fiz., Novosibirsk Reports",
+        "publisher": "4RUSSIB",
+        "publisher_name": "Inst. Yad. Fiz., Sib. A.N., Novosibirsk",
+        "active": true
+      },
+      "IF-": {
+        "description": "Akad. Nauk Ukrainskaja, Kiev",
+        "publisher": "4UKRIFU",
+        "publisher_name": "Inst. Fiziki Ukrainskoi A.N., Kiev",
+        "active": true
+      },
+      "IJAI-": {
+        "description": "Inst. Yad. Issledovanii Communications,Kiev",
+        "publisher": "4UKRIJI",
+        "publisher_name": "Inst. Yadernykh Issledovaniy Ukrainskoi A.N., Kiev",
+        "active": true
+      },
+      "IJAI-P-": {
+        "description": "Inst. Yad. Issledovanii, Kiev Reports",
+        "publisher": "4UKRIJI",
+        "publisher_name": "Inst. Yadernykh Issledovaniy Ukrainskoi A.N., Kiev",
+        "active": true
+      },
+      "KIYAI-": {
+        "description": "Inst. Yad. Issledovanii, Kiev Reports",
+        "publisher": "4UKRIJI",
+        "publisher_name": "Inst. Yadernykh Issledovaniy Ukrainskoi A.N., Kiev",
+        "active": true
+      },
+      "KHFTI-": {
+        "description": "Ukrainsk. Fiz. Tekhn. Inst. Reports",
+        "publisher": "4UKRUFT",
+        "publisher_name": "Ukrainskiy Fiziko-Tekhnicheskiy Inst., Kharkov",
+        "active": true
+      },
+      "UFT-": {
+        "description": "Ukrainskij Fiz. Tech. Inst. Reports",
+        "publisher": "4UKRUFT",
+        "publisher_name": "Ukrainskiy Fiziko-Tekhnicheskiy Inst., Kharkov",
+        "active": false
+      },
+      "UZB-P-": {
+        "description": "Inst.of Nucl.Phys., Tashkent, Uzbekistan, Repts",
+        "publisher": "4UZ UZB",
+        "publisher_name": "Inst. Yadernoi Fiziki Uzbekskoi A.N., Tashkent",
+        "active": true
+      },
+      "DUB-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": false
+      },
+      "DUB-E-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": false
+      },
+      "DUB-P-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": false
+      },
+      "ISINN-": {
+        "description": "Int.Sem.on Interactions of Neutrons with Nuclei",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna, reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-D-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-D15-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-D3-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-D6-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-D7-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-E-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-E1-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-E15-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-E3-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-E4-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-E7-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-P-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-P1-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-P10-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-P11-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-P12-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-P13-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-P14-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-P15-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-P2-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-P3-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-P4-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-P6-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "JINR-P7-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": true
+      },
+      "P3-": {
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "publisher": "4ZZZDUB",
+        "publisher_name": "Joint Institute for Nuclear Research JINR, Dubna",
+        "active": false
+      }
+    }
+  }
+}

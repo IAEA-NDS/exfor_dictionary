@@ -1,0 +1,63 @@
+{
+  "4": {
+    "diction_name": "Reference Type",
+    "codes": {
+      "0": {
+        "description": "Data",
+        "active": true
+      },
+      "3": {
+        "description": "Data",
+        "active": true
+      },
+      "4": {
+        "description": "Data",
+        "active": true
+      },
+      "A": {
+        "description": "Conf",
+        "active": true
+      },
+      "B": {
+        "description": "Book",
+        "active": true
+      },
+      "C": {
+        "description": "Conf",
+        "active": true
+      },
+      "J": {
+        "description": "Jour",
+        "active": true
+      },
+      "K": {
+        "description": "Jour",
+        "active": true
+      },
+      "P": {
+        "description": "Prog",
+        "active": true
+      },
+      "R": {
+        "description": "Rept",
+        "active": true
+      },
+      "S": {
+        "description": "Rept",
+        "active": true
+      },
+      "T": {
+        "description": "Thes",
+        "active": true
+      },
+      "W": {
+        "description": "Priv",
+        "active": true
+      },
+      "X": {
+        "description": "Prep",
+        "active": true
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "17": {
+    "diction_name": "Related reference types",
+    "codes": {
+      "A": {
+        "description": "Reference with which data agree",
+        "active": true
+      },
+      "C": {
+        "description": "Critical remarks",
+        "active": true
+      },
+      "D": {
+        "description": "Reference with which data disagree",
+        "active": true
+      },
+      "E": {
+        "description": "Reference used in the evaluation",
+        "active": true
+      },
+      "I": {
+        "description": "Reference to experimental instruments",
+        "active": true
+      },
+      "M": {
+        "description": "Reference to experimental technique",
+        "active": true
+      },
+      "N": {
+        "description": "-",
+        "active": true
+      },
+      "O": {
+        "description": "Reference to related data compiled in another entry",
+        "active": true
+      },
+      "R": {
+        "description": "Reference from which data were used",
+        "active": true
+      }
+    }
+  }
+}
