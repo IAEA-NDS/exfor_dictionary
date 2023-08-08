@@ -1,6 +1,6 @@
 ####################################################################
 #
-# This file is part of exfor-parser.
+# This file is a part of exfor-parser/dataexplorer.
 # Copyright (C) 2022 International Atomic Energy Agency (IAEA)
 #
 # Disclaimer: The code is still under developments and not ready
@@ -9,18 +9,17 @@
 # Contact:    nds.contact-point@iaea.org
 #
 ####################################################################
-import requests
-from bs4 import BeautifulSoup
+
 import glob
 import re
 import os
 import json
 import pandas as pd
+import requests
+from bs4 import BeautifulSoup
 
-
-
-from config import DICTIONARY_PATH, DICTIONARY_URL, PICKLE_PATH
-from abbreviations import convert_abbreviations
+from .config import DICTIONARY_PATH, DICTIONARY_URL, PICKLE_PATH
+from .abbreviations import convert_abbreviations
 
 
 def get_local_trans_nums():

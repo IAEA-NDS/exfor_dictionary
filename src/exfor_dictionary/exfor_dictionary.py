@@ -1,6 +1,6 @@
 ####################################################################
 #
-# This file is a part of exfor-parser.
+# This file is a part of exfor-parser/dataexplorer.
 # Copyright (C) 2022 International Atomic Energy Agency (IAEA)
 #
 # Disclaimer: The code is still under developments and not ready
@@ -10,7 +10,9 @@
 #
 ####################################################################
 
+import os
 import json
+from .config import DICTIONARY_PATH
 
 ###################################################################
 ###
@@ -24,7 +26,7 @@ class Diction:
 
 
     def read_latest_dictionary(self):
-        file = "latest.json"
+        file = os.path.join(DICTIONARY_PATH, "latest.json")
         with open(file) as json_file:
             return json.load(json_file)["dictionaries"]
 

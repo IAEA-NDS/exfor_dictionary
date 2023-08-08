@@ -14,7 +14,7 @@ import os
 DICTIONARY_URL = "https://nds.iaea.org/nrdc/ndsx4/trans/dictionaries/"
 
 
-if os.path.exists("trans_backup"):
+if os.path.exists("trans_backup") and os.path.exists("trans_json") :
     DICTIONARY_PATH = ""
 
 else:
