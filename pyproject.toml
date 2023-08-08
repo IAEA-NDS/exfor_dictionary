@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "exfor_dictionary"
+authors = [
+    {name = "Shin Okumura/IAEA-NDS", email = "s.okumura@iaea.org"},
+]
+version = "1.0.0b"
+description = "JSON converter for the EXFOR dictionary"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["EXFOR", "Nuclear Data"]
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+dynamic = ["dependencies"]
+
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+[tool.setuptools]
+include-package-data = true
+
+
+[tool.setuptools.package-data]
+"exfor_dictionary" = ["latest.json"]
+
+
+[project.urls]
+Homepage = "https://github.com/shinokumura/ripl3_json"
+

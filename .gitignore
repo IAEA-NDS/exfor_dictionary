@@ -150,7 +150,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+.python-version
 
 # backup files
 *.bak
@@ -163,7 +163,7 @@ venv.bak/
 # This repository
 geo/
 pickles/
-invenio.py
+*/invenio.py
 *.log
 *.bak
 trans_backup/
