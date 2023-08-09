@@ -37,7 +37,7 @@ include-package-data = true
 
 [tool.setuptools.package-data]
 "exfor_dictionary" = ["latest.json"]
-
+"exfor_dictionary.pickles" = ["*.pickle"]
 
 [project.urls]
 Homepage = "https://github.com/shinokumura/ripl3_json"

@@ -528,7 +528,7 @@
       },
       "1USAHAN": {
         "description": "Hanford Atomic Products, Richland, WA",
-        "active": true
+        "active": false
       },
       "1USAHED": {
         "description": "Hanford Engineering Development Laboratory , Richland, WA",
@@ -760,7 +760,7 @@
       },
       "1USANBS": {
         "description": "National Bureau of Standards, Washington, DC",
-        "active": true
+        "active": false
       },
       "1USANCA": {
         "description": "University of North Carolina, Chapel Hill, NC",
@@ -1192,7 +1192,7 @@
       },
       "1USAWAD": {
         "description": "Wright Air Development Center, OH",
-        "active": true
+        "active": false
       },
       "1USAWAL": {
         "description": "Westinghouse Astronuclear Laboratory , Pittsburgh, PA",
@@ -1292,7 +1292,7 @@
       },
       "2AUSIRK": {
         "description": "Institute fuer Isotopenforschung und Kernphysik, Vienna",
-        "active": true
+        "active": false
       },
       "2AUSKUL": {
         "description": "Johannes-Kepler-Universitaet, Linz",
@@ -1404,7 +1404,7 @@
       },
       "2FR AAA": {
         "description": "Groupement Atomique Alsacienne Atlantique",
-        "active": true
+        "active": false
       },
       "2FR ARN": {
         "description": "GIP Arronax, Saint Herblain",
@@ -1428,7 +1428,7 @@
       },
       "2FR CEL": {
         "description": "CEN Limeil",
-        "active": true
+        "active": false
       },
       "2FR CLE": {
         "description": "Universite Blaise Pascal, Clermont-Ferrand",
@@ -1480,7 +1480,7 @@
       },
       "2FR LIM": {
         "description": "CEN Limeil",
-        "active": true
+        "active": false
       },
       "2FR LRM": {
         "description": "Laboratory de Recherche des Musees de France, Paris",
@@ -1512,7 +1512,7 @@
       },
       "2FR SAT": {
         "description": "Laboratoire National SATURNE, Saclay",
-        "active": true
+        "active": false
       },
       "2FR STR": {
         "description": "IPHC, Strasbourg",
@@ -1528,7 +1528,7 @@
       },
       "2FR VNV": {
         "description": "Centre d'Etudes de Limeil, Villeneuve-Saint-Georges",
-        "active": true
+        "active": false
       },
       "2GERALK": {
         "description": "Alkem GMBH, Leopoldshafen",
@@ -1964,7 +1964,7 @@
       },
       "2JPNETL": {
         "description": "Electrotechnical Laboratory, Tsukuba",
-        "active": true
+        "active": false
       },
       "2JPNFE": {
         "description": "Fuji Electric",
@@ -1996,7 +1996,7 @@
       },
       "2JPNHYO": {
         "description": "Hyogo Agriculture University , Sasayama",
-        "active": true
+        "active": false
       },
       "2JPNICU": {
         "description": "International Christian University , Mitaka, Tokyo",
@@ -2028,7 +2028,7 @@
       },
       "2JPNJNC": {
         "description": "Japan Nuclear Cycle Development Institute , Tokai-mura",
-        "active": true
+        "active": false
       },
       "2JPNJPN": {
         "description": "Japan",
@@ -2088,7 +2088,7 @@
       },
       "2JPNLEP": {
         "description": "National laboratory for High Energy Physics, Oho, Ibaraki",
-        "active": true
+        "active": false
       },
       "2JPNMZK": {
         "description": "University of Miyazaki, Miyazaki",
@@ -2132,19 +2132,19 @@
       },
       "2JPNOSP": {
         "description": "Radiation Centre of Osaka Prefecture, Sakai, Osaka",
-        "active": true
+        "active": false
       },
       "2JPNPNC": {
         "description": "Power Reactor and Nuclear Fuel Devel. Corp., Tokai",
-        "active": true
+        "active": false
       },
       "2JPNSAE": {
         "description": "Sumitomo Atomic Energy Industries",
-        "active": true
+        "active": false
       },
       "2JPNSHR": {
         "description": "Ship Research Institute , Ministry of Transport, Japan",
-        "active": true
+        "active": false
       },
       "2JPNSHZ": {
         "description": "Shizuoka University , Shizuoka",
@@ -2152,7 +2152,7 @@
       },
       "2JPNSTA": {
         "description": "Science and Technology Agency, Chiyoda-ku, Tokyo",
-        "active": true
+        "active": false
       },
       "2JPNSUT": {
         "description": "Tokyo University of Science, Noda, Chiba",
@@ -2172,7 +2172,7 @@
       },
       "2JPNTKE": {
         "description": "Tokyo University of Education, Tokyo",
-        "active": true
+        "active": false
       },
       "2JPNTKS": {
         "description": "Tokushima University , Tokushima",
@@ -2316,11 +2316,11 @@
       },
       "2PRTJES": {
         "description": "Junta de Energia Nuclear, Sacavem",
-        "active": true
+        "active": false
       },
       "2PRTLFE": {
         "description": "Instituto Tecnologico e Nuclear, Sacavem",
-        "active": true
+        "active": false
       },
       "2PRTLIS": {
         "description": "Universidade de Lisboa, Lisboa",
@@ -2380,7 +2380,7 @@
       },
       "2SPNJNE": {
         "description": "Junta de Energia Nuclear, Madrid",
-        "active": true
+        "active": false
       },
       "2SPNPCM": {
         "description": "Centro para Invest. Energ., Medio. y Tecnol. (CIEMAT)",
@@ -2428,7 +2428,7 @@
       },
       "2SWDFOA": {
         "description": "Research Institute for National Defence, Stockholm",
-        "active": true
+        "active": false
       },
       "2SWDFOI": {
         "description": "Swedish Defence Research Agency (FOI), Stockholm",
@@ -2512,11 +2512,11 @@
       },
       "2SWTVIL": {
         "description": "Swiss.Institute for Nuclear Physics Research , Villigen",
-        "active": true
+        "active": false
       },
       "2SWTWUR": {
         "description": "Eidgenossisches Institute fuer Reakt.Forsch., Wuerenlingen",
-        "active": true
+        "active": false
       },
       "2SWTZUR": {
         "description": "Zurich",
@@ -2560,7 +2560,7 @@
       },
       "2UK BCT": {
         "description": "Battersea College of Technology, London",
-        "active": true
+        "active": false
       },
       "2UK BIA": {
         "description": "University of Aston, Birmingham",
@@ -2588,7 +2588,7 @@
       },
       "2UK CCH": {
         "description": "UKAEA Reactor Materials Laboratory, Warrington",
-        "active": true
+        "active": false
       },
       "2UK CEG": {
         "description": "Berkeley Nuclear Laboratories (BNL), Berkeley",
@@ -2620,7 +2620,7 @@
       },
       "2UK EE": {
         "description": "English Electric Company, Wheatstone, Leics",
-        "active": true
+        "active": false
       },
       "2UK GLS": {
         "description": "University of Glasgow, Glasgow, Scotland",
@@ -2628,7 +2628,7 @@
       },
       "2UK HAR": {
         "description": "Atomic Energy Research Establishment (AERE), Harwell",
-        "active": true
+        "active": false
       },
       "2UK HFS": {
         "description": "University of Hertfordshire, Hatfield, Hertfordshire",
@@ -2704,7 +2704,7 @@
       },
       "2UK RLY": {
         "description": "UKAEA, Risley",
-        "active": true
+        "active": false
       },
       "2UK RR": {
         "description": "Rolls-Royce",
@@ -2740,7 +2740,7 @@
       },
       "2UK WIN": {
         "description": "Atomic Energy Establishment (AEE), Winfrith, Dorset",
-        "active": true
+        "active": false
       },
       "2UK YRK": {
         "description": "University of York, York",
@@ -3272,7 +3272,7 @@
       },
       "3CSRCSR": {
         "description": "Czechoslovakia",
-        "active": true
+        "active": false
       },
       "3CSRCTI": {
         "description": "Czech.Technical University , Prague",
@@ -3344,35 +3344,35 @@
       },
       "3DDRBEH": {
         "description": "Humboldt University Berlin + DAW Zeuthen",
-        "active": true
+        "active": false
       },
       "3DDRBEP": {
         "description": "VEB Atomkraft, Berlin-Pankow",
-        "active": true
+        "active": false
       },
       "3DDRBFR": {
         "description": "Bergakademie Freiberg",
-        "active": true
+        "active": false
       },
       "3DDRDDR": {
         "description": "German Democratic Republic",
-        "active": true
+        "active": false
       },
       "3DDRJNA": {
         "description": "Jena, University ",
-        "active": true
+        "active": false
       },
       "3DDRROS": {
         "description": "Zentralinstitut fuer Kernforschung (ZFK), Rossendorf",
-        "active": true
+        "active": false
       },
       "3DDRTUD": {
         "description": "Dresden, Techn.University at Dresden and Pirna",
-        "active": true
+        "active": false
       },
       "3DDRZFI": {
         "description": "ZentralInstitute Isotopen- und Strahlenforschung, Leipzig",
-        "active": true
+        "active": false
       },
       "3ECUECU": {
         "description": "Ecuador",
@@ -3436,7 +3436,7 @@
       },
       "3HUNII": {
         "description": "MTA Izotop Intezete, Budapest",
-        "active": true
+        "active": false
       },
       "3HUNKFI": {
         "description": "Centre for Energy Research (EK), Budapest",
@@ -3824,7 +3824,7 @@
       },
       "3KORSEO": {
         "description": "Atomic Energy Research Institute (AERI), Seoul",
-        "active": true
+        "active": false
       },
       "3KORSKK": {
         "description": "Sungkyunkwan University, Suwon",
@@ -4008,7 +4008,7 @@
       },
       "3POLIBJ": {
         "description": "Institute Badan Jadr., Swierk and Warszawa",
-        "active": true
+        "active": false
       },
       "3POLIFJ": {
         "description": "Niewodniczanski Institute of Nuclear Physics, Krakow",
@@ -4124,11 +4124,11 @@
       },
       "3SAFNAC": {
         "description": "National Accelerator Centre, Faure",
-        "active": true
+        "active": false
       },
       "3SAFNLP": {
         "description": "National Physical Research Laboratory , Pretoria",
-        "active": true
+        "active": false
       },
       "3SAFPEL": {
         "description": "Atomic Energy Corp.of South Africa, Pelindaba",
@@ -4156,7 +4156,7 @@
       },
       "3SAFSUN": {
         "description": "Southern Universities Nuclear Insstitute, Faure",
-        "active": true
+        "active": false
       },
       "3SAFUPR": {
         "description": "University of Pretoria, Hatfield, Pretoria",
@@ -4404,7 +4404,7 @@
       },
       "4BLRIJE": {
         "description": "Institute Yad. Energetiki Byeloruss.A.N., Minsk",
-        "active": true
+        "active": false
       },
       "4BLRJIE": {
         "description": "Joint Institute f.Energy and Nuclear Research , Minsk-Sosny",
@@ -4428,7 +4428,7 @@
       },
       "4CCPCCP": {
         "description": "Union of Soviet Socialist Republics",
-        "active": true
+        "active": false
       },
       "4CCPCJD": {
         "description": "Centr po Yadernym Dannym, Obninsk",
@@ -4692,7 +4692,7 @@
       },
       "4LATIFL": {
         "description": "Institute Fiziki Latviyskoi A.N., Riga",
-        "active": true
+        "active": false
       },
       "4LATLAT": {
         "description": "Latvia",
@@ -4868,7 +4868,7 @@
       },
       "4RUSSCU": {
         "description": "USSR State Comm.on the Use of Atomic Energy, Moscow",
-        "active": true
+        "active": false
       },
       "4RUSSGU": {
         "description": "Saratov Gosudarstvennyi University ",

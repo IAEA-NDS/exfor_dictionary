@@ -1,1 +1,2 @@
 include src/exfor_dictionary/latest.json
+include src/exfor_dictionary/pickles/*.pickle

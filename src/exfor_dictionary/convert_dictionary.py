@@ -206,6 +206,7 @@ def conv_dictionary_to_json(latest) -> dict:
     country_df = country_df.set_index("country_code")
     country_dict = country_df.to_dict(orient="index")
 
+
     ## Get definitions of each DICTION from DICTION 950
     dictions = get_diction_difinition(latest)
 
@@ -252,7 +253,7 @@ def conv_dictionary_to_json(latest) -> dict:
                     continue
 
                 if not d.startswith(" "):
-                    from abbreviations import institute_abbr
+                    from .abbreviations import institute_abbr
 
                     x4code = d[:11].rstrip()
                     regex = r"\((.*)\)"
@@ -282,7 +283,7 @@ def conv_dictionary_to_json(latest) -> dict:
                             "latitude": lat,
                             "longitude": lng,
                             "address": addr,
-                            "active": False if flag == "O" else True,
+                            "active": False if flag == "O" or flag == "X" else True,
                         }
 
                     if int(diction_num) == 5:
@@ -296,13 +297,13 @@ def conv_dictionary_to_json(latest) -> dict:
                                 "pulished_country_name": country_dict[journal_contry][
                                     "country_name"
                                 ],
-                                "active": False if flag == "O" else True,
+                                "active": False if flag == "O" or flag == "X" else True,
                             }
 
                     else:
                         codes[x4code] = {
                             "description": desc,
-                            "active": False if flag == "O" else True,
+                            "active": False if flag == "O" or flag == "X" else True,
                         }
 
         elif int(diction_num) in [144, 43, 38, 35, 34, 32, 31, 30, 6, 1]:
@@ -321,18 +322,18 @@ def conv_dictionary_to_json(latest) -> dict:
                                 "description": desc[:-7].rstrip(),
                                 "publisher": report_inst,
                                 "publisher_name": institute_dict[report_inst]["name"],
-                                "active": False if flag == "O" else True,
+                                "active": False if flag == "O" or flag == "X" else True,
                             }
 
                     else:
                         codes[x4code] = {
                             "description": desc,
-                            "active": False if flag == "O" else True,
+                            "active": False if flag == "O" or flag == "X" else True,
                         }
 
         elif int(diction_num) == 24:
             ### DICTION 24: Data headings
-            from abbreviations import head_unit_abbr
+            from .abbreviations import head_unit_abbr
 
             desc = []
             for d in diction[11:]:
@@ -361,12 +362,12 @@ def conv_dictionary_to_json(latest) -> dict:
                     codes[x4code] = {
                         "description": desc,
                         "additional_code": additional_code,
-                        "active": False if flag == "O" else True,
+                        "active": False if flag == "O" or flag == "X" else True,
                     }
 
         elif int(diction_num) == 25:
             ### DICTION 25: Data units
-            from abbreviations import head_unit_abbr
+            from .abbreviations import head_unit_abbr
 
             desc = []
             for d in diction[1:]:
@@ -386,14 +387,14 @@ def conv_dictionary_to_json(latest) -> dict:
                         "description": desc,
                         "additional_code": additional_code,
                         "unit_conversion_factor": factor,
-                        "active": False if flag == "O" else True,
+                        "active": False if flag == "O" or flag == "X" else True,
                     }
 
                 desc = []
 
         elif int(diction_num) == 144:
             ### DICTION 114: Data libraries
-            from abbreviations import head_unit_abbr
+            from .abbreviations import head_unit_abbr
 
             desc = []
             for d in diction[1:]:
@@ -409,14 +410,14 @@ def conv_dictionary_to_json(latest) -> dict:
                     desc = convert_abbreviations(head_unit_abbr, "".join(desc))
                     codes[x4code] = {
                         "description": desc,
-                        "active": False if flag == "O" else True,
+                        "active": False if flag == "O" or flag == "X" else True,
                     }
 
                 desc = []
 
         elif int(diction_num) == 213:
             ### DICTION 25: Data units
-            from abbreviations import head_unit_abbr
+            from .abbreviations import head_unit_abbr
 
             desc = []
             for d in diction[1:]:
@@ -436,7 +437,7 @@ def conv_dictionary_to_json(latest) -> dict:
                         "description": desc,
                         "additional_code": additional_code,
                         "x4code3": x4code3,
-                        "active": False if flag == "O" else True,
+                        "active": False if flag == "O" or flag == "X" else True,
                     }
 
                 desc = []
@@ -468,7 +469,7 @@ def conv_dictionary_to_json(latest) -> dict:
                                 spec.)                                     3000023601246
             """
 
-            from abbreviations import reaction_abbr
+            from .abbreviations import reaction_abbr
 
             cont = False
             desc = []
@@ -522,7 +523,7 @@ def conv_dictionary_to_json(latest) -> dict:
                     codes[x4code] = {
                         "description": desc,
                         "additional_code": additional_code,
-                        "active": False if flag == "O" else True,
+                        "active": False if flag == "O" or flag == "X" else True,
                     }
 
                     desc = []
@@ -568,3 +569,4 @@ def update_dictionary_to_latest():
 
 if __name__ == "__main__":
     update_dictionary_to_latest()
+

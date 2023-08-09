@@ -14,8 +14,8 @@ import os
 DICTIONARY_URL = "https://nds.iaea.org/nrdc/ndsx4/trans/dictionaries/"
 
 
-if os.path.exists("trans_backup") and os.path.exists("trans_json") :
-    DICTIONARY_PATH = ""
+if os.path.exists("src/exfor_dictionary/trans_backup") and os.path.exists("src/exfor_dictionary/trans_json") :
+    DICTIONARY_PATH = "src/exfor_dictionary/"
 
 else:
     from importlib.resources import files

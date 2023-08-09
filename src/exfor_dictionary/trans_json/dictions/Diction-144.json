@@ -108,15 +108,15 @@
       },
       "JNDC-FFP-WG": {
         "description": "   Nuclear data evaluated by JNDC Fast FP WG",
-        "active": true
+        "active": false
       },
       "JNDC-FP": {
         "description": "   JNDC Nuclear Data Library of Fission Products",
-        "active": true
+        "active": false
       },
       "KEDAK-": {
         "description": "   Karlsruhe Evaluated Nuclear Data Library (KEDAK)",
-        "active": true
+        "active": false
       },
       "RCN-": {
         "description": "   Evaluated Fission Product Cross Section Library",
@@ -124,7 +124,7 @@
       },
       "SOKRATOR-": {
         "description": "   USSR Evaluated Nuclear Data Library",
-        "active": true
+        "active": false
       },
       "TENDL-": {
         "description": "   TALYS-based Evaluated Nuclear Data Library",

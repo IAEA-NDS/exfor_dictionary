@@ -60,7 +60,7 @@
         "description": "Acta Crystallographica",
         "pulished_country_code": "2DEN",
         "pulished_country_name": "Denmark",
-        "active": true
+        "active": false
       },
       "ACR/A": {
         "description": "Acta Crystallographica, Part A",
@@ -90,7 +90,7 @@
         "description": "Annalen der Physik",
         "pulished_country_code": "3DDR",
         "pulished_country_name": "German Democratic Republic",
-        "active": true
+        "active": false
       },
       "AE": {
         "description": "Atomnaya Energiya",
@@ -126,25 +126,25 @@
         "description": "Arkiv foer Fysik",
         "pulished_country_code": "2SWD",
         "pulished_country_name": "Sweden",
-        "active": true
+        "active": false
       },
       "AHP": {
         "description": "Acta Physica Hungarica",
         "pulished_country_code": "3HUN",
         "pulished_country_name": "Hungary",
-        "active": true
+        "active": false
       },
       "AHP/A": {
         "description": "Acta Physica Hungarica A (Heavy Ion Physics)",
         "pulished_country_code": "3HUN",
         "pulished_country_name": "Hungary",
-        "active": true
+        "active": false
       },
       "AHP/N": {
         "description": "Acta Physics Hungar.New Series (Heavy Ion Physics)",
         "pulished_country_code": "3HUN",
         "pulished_country_name": "Hungary",
-        "active": true
+        "active": false
       },
       "AHT": {
         "description": "Acta Technica (Budapest)",
@@ -156,7 +156,7 @@
         "description": "Anales del Instituto de Fisica",
         "pulished_country_code": "3MEX",
         "pulished_country_name": "Mexico",
-        "active": true
+        "active": false
       },
       "AJ": {
         "description": "Astrophysical Journal",
@@ -198,7 +198,7 @@
         "description": "Australian Journal of Science",
         "pulished_country_code": "3AUL",
         "pulished_country_name": "Australia",
-        "active": true
+        "active": false
       },
       "AJSE": {
         "description": "Arabian J.for Science and Engineering",
@@ -210,13 +210,13 @@
         "description": "ATOMKI Koezlemenyek",
         "pulished_country_code": "3HUN",
         "pulished_country_name": "Hungary",
-        "active": true
+        "active": false
       },
       "AKE": {
         "description": "Atomkernenergie",
         "pulished_country_code": "2GER",
         "pulished_country_name": "Germany",
-        "active": true
+        "active": false
       },
       "AKS": {
         "description": "Atomki Kozlemenyek Supplement",
@@ -270,7 +270,7 @@
         "description": "Acta Physica Polonica",
         "pulished_country_code": "3POL",
         "pulished_country_name": "Poland",
-        "active": true
+        "active": false
       },
       "APP/A": {
         "description": "Acta Physica Polonica, Part A",
@@ -324,7 +324,7 @@
         "description": "Anales de Fisica",
         "pulished_country_code": "2SPN",
         "pulished_country_name": "Spain",
-        "active": true
+        "active": false
       },
       "ASI": {
         "description": "Acta Physica Sinica",
@@ -336,7 +336,7 @@
         "description": "Acta Physica Sinica (Overseas Edition)",
         "pulished_country_code": "3CPR",
         "pulished_country_name": "China, People's Rep.",
-        "active": true
+        "active": false
       },
       "ASL": {
         "description": "Acta Physica Slovaca",
@@ -408,7 +408,7 @@
         "description": "Bull.of Institute Chemical Research, Kyoto University ",
         "pulished_country_code": "2JPN",
         "pulished_country_name": "Japan",
-        "active": true
+        "active": false
       },
       "BCS": {
         "description": "Bull.de la Classe des Sci.,Academy Roy.Belgique",
@@ -444,19 +444,19 @@
         "description": "Bull.Boris Kidrich Institute Nuclear Sci., Electron.",
         "pulished_country_code": "3YUG",
         "pulished_country_name": "Yugoslavia",
-        "active": true
+        "active": false
       },
       "BKN": {
         "description": "Bull. Boris Kidrich Institute Nuclear Sci., Nuclear Eng.",
         "pulished_country_code": "3YUG",
         "pulished_country_name": "Yugoslavia",
-        "active": true
+        "active": false
       },
       "BKP": {
         "description": "Bull. Boris Kidrich Institute Nuclear Sci., Physics",
         "pulished_country_code": "3YUG",
         "pulished_country_name": "Yugoslavia",
-        "active": true
+        "active": false
       },
       "BOS": {
         "description": "Transactions of the Bose Research Institute ,Calcutta",
@@ -498,7 +498,7 @@
         "description": "Bull.of the Tokyo Institute of Technology",
         "pulished_country_code": "2JPN",
         "pulished_country_name": "Japan",
-        "active": true
+        "active": false
       },
       "CA": {
         "description": "Chemia Analityczna",
@@ -534,19 +534,19 @@
         "description": "Canadian Journal of Research",
         "pulished_country_code": "1CAN",
         "pulished_country_name": "Canada",
-        "active": true
+        "active": false
       },
       "CJR/A": {
         "description": "Canadian Journal of Research, Part A",
         "pulished_country_code": "1CAN",
         "pulished_country_name": "Canada",
-        "active": true
+        "active": false
       },
       "CJR/B": {
         "description": "Canadian Journal of Research, Part B",
         "pulished_country_code": "1CAN",
         "pulished_country_name": "Canada",
-        "active": true
+        "active": false
       },
       "CL": {
         "description": "Chemistry Letters",
@@ -558,13 +558,13 @@
         "description": "Communication of Nuclear Data Progress",
         "pulished_country_code": "3CPR",
         "pulished_country_name": "China, People's Rep.",
-        "active": true
+        "active": false
       },
       "CNP": {
         "description": "Chinese J.of Nuclear Physics (Beijing).",
         "pulished_country_code": "3CPR",
         "pulished_country_name": "China, People's Rep.",
-        "active": true
+        "active": false
       },
       "CNPR": {
         "description": "Nuclear Physics Review",
@@ -582,13 +582,13 @@
         "description": "Canadian Nuclear Technology",
         "pulished_country_code": "1CAN",
         "pulished_country_name": "Canada",
-        "active": true
+        "active": false
       },
       "CP": {
         "description": "Chinese Physics",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "CPC": {
         "description": "Computer Physics Communications",
@@ -600,7 +600,7 @@
         "description": "Chinese Physics",
         "pulished_country_code": "3CPR",
         "pulished_country_name": "China, People's Rep.",
-        "active": true
+        "active": false
       },
       "CPH/B": {
         "description": "Chinese Physics B",
@@ -654,7 +654,7 @@
         "description": "Trends in Nuclear Physics",
         "pulished_country_code": "3CPR",
         "pulished_country_name": "China, People's Rep.",
-        "active": true
+        "active": false
       },
       "CZC": {
         "description": "Collection of Czech.Chemical Communications",
@@ -666,25 +666,25 @@
         "description": "Czechoslovak Journal of Physics",
         "pulished_country_code": "3CZR",
         "pulished_country_name": "Czech Republic",
-        "active": true
+        "active": false
       },
       "CZJ/A": {
         "description": "Ceskoslovensky Casopys pro Fyziku",
         "pulished_country_code": "3CZR",
         "pulished_country_name": "Czech Republic",
-        "active": true
+        "active": false
       },
       "CZJ/B": {
         "description": "Czech.J.of Physics, Part B",
         "pulished_country_code": "3CZR",
         "pulished_country_name": "Czech Republic",
-        "active": true
+        "active": false
       },
       "DA": {
         "description": "Dissertation Abstracts",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "DA/B": {
         "description": "Dissertation Abstracts B (Sciences)",
@@ -768,7 +768,7 @@
         "description": "Energy Procedia",
         "pulished_country_code": "2NED",
         "pulished_country_name": "Netherlands",
-        "active": true
+        "active": false
       },
       "ESJ": {
         "description": "J.of Engineering Sciences, University of Riyadh",
@@ -822,7 +822,7 @@
         "description": "Fizika",
         "pulished_country_code": "3CRO",
         "pulished_country_name": "Croatia",
-        "active": true
+        "active": false
       },
       "FIZ/B": {
         "description": "Fizika B",
@@ -870,7 +870,7 @@
         "description": "Genshiryoku Kogyo",
         "pulished_country_code": "2JPN",
         "pulished_country_name": "Japan",
-        "active": true
+        "active": false
       },
       "GUS": {
         "description": "Godishnik na Sofijskija University 'Kliment Ohridski'",
@@ -888,7 +888,7 @@
         "description": "High Energy Physics and Nuclear Physics ,English.ed.",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "HFH": {
         "description": "He Huaxue yu Fangshe Huaxue",
@@ -924,7 +924,7 @@
         "description": "Bull.Boris Kidrich Institute of Nuclear Sci.",
         "pulished_country_code": "3YUG",
         "pulished_country_name": "Yugoslavia",
-        "active": true
+        "active": false
       },
       "IET": {
         "description": "Instruments and Experimental Techniques",
@@ -942,7 +942,7 @@
         "description": "Izvestiya na Fizicheskija Institut s ANEB",
         "pulished_country_code": "3BUL",
         "pulished_country_name": "Bulgaria",
-        "active": true
+        "active": false
       },
       "IJM": {
         "description": "Israel Journal of Mathematics",
@@ -960,7 +960,7 @@
         "description": "Indian Journal of Physics, Part A",
         "pulished_country_code": "3IND",
         "pulished_country_name": "India",
-        "active": true
+        "active": false
       },
       "IMP/CS": {
         "description": "International Journal of Modern Physics, Conference Series",
@@ -1080,7 +1080,7 @@
         "description": "J.Am.Soc. Testing and Materials (ASTM)",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "JALC": {
         "description": "Journal of Alloys and Compounds",
@@ -1116,7 +1116,7 @@
         "description": "Jaderna Energie (Prague).",
         "pulished_country_code": "3CZR",
         "pulished_country_name": "Czech Republic",
-        "active": true
+        "active": false
       },
       "JEB": {
         "description": "Jaderna Energiya, Bulgarian Academy Sci.",
@@ -1152,7 +1152,7 @@
         "description": "Journal of Geophysical Research",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "JGR/A": {
         "description": "Journal of Geophysical Research, Part A",
@@ -1188,7 +1188,7 @@
         "description": "Proc.Physico-Mathematical Society of Japan",
         "pulished_country_code": "2JPN",
         "pulished_country_name": "Japan",
-        "active": true
+        "active": false
       },
       "JMM": {
         "description": "Journal of Magnetism and Magnetic Materials",
@@ -1260,7 +1260,7 @@
         "description": "Journal of Radioanalytical Chemistry",
         "pulished_country_code": "3HUN",
         "pulished_country_name": "Hungary",
-        "active": true
+        "active": false
       },
       "JRN": {
         "description": "Journal of Radioanalytical and Nuclear Chemistry",
@@ -1272,7 +1272,7 @@
         "description": "J. of Radioanalytical and Nuclear Chem., Letters",
         "pulished_country_code": "3HUN",
         "pulished_country_name": "Hungary",
-        "active": true
+        "active": false
       },
       "JSIU": {
         "description": "Journal of Sichuan University , Natural Science Ed.",
@@ -1290,7 +1290,7 @@
         "description": "Kernenergie",
         "pulished_country_code": "3DDR",
         "pulished_country_name": "German Democratic Republic",
-        "active": true
+        "active": false
       },
       "KFI": {
         "description": "KFKI Kozlemenyek",
@@ -1308,7 +1308,7 @@
         "description": "Journal of the Korean Nuclear Society",
         "pulished_country_code": "3KOR",
         "pulished_country_name": "Republic of Korea",
-        "active": true
+        "active": false
       },
       "KPS": {
         "description": "Journal of the Korean Physical Society",
@@ -1326,13 +1326,13 @@
         "description": "Kratkie Soobshcheniya po Fizike",
         "pulished_country_code": "4RUS",
         "pulished_country_name": "Russia",
-        "active": true
+        "active": false
       },
       "KSO": {
         "description": "Kratkie Soobscheniya OIYaI (JINR Rapid Commun.)",
         "pulished_country_code": "4RUS",
         "pulished_country_name": "Russia",
-        "active": true
+        "active": false
       },
       "KT": {
         "description": "Kerntechnik",
@@ -1440,7 +1440,7 @@
         "description": "Nuclear Applications",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "NAW": {
         "description": "Proc.Koninklijke Nederlandse Akad.Wetenschappen",
@@ -1452,19 +1452,19 @@
         "description": "Nuovo Cimento",
         "pulished_country_code": "2ITY",
         "pulished_country_name": "Italy",
-        "active": true
+        "active": false
       },
       "NC/A": {
         "description": "Nuovo Cimento A",
         "pulished_country_code": "2ITY",
         "pulished_country_name": "Italy",
-        "active": true
+        "active": false
       },
       "NC/B": {
         "description": "Nuovo Cimento B",
         "pulished_country_code": "2ITY",
         "pulished_country_name": "Italy",
-        "active": true
+        "active": false
       },
       "NC/C": {
         "description": "Nuovo Cimento C",
@@ -1488,19 +1488,19 @@
         "description": "Nuovo Cimento, Supplemento",
         "pulished_country_code": "2ITY",
         "pulished_country_name": "Italy",
-        "active": true
+        "active": false
       },
       "ND/A": {
         "description": "Nuclear Data Tables (Nuclear Data Sect.A)",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "ND/B": {
         "description": "Nuclear Data Sheets (Nuclear Data Sect.B)",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "NDF": {
         "description": "Notas de Fisica",
@@ -1536,7 +1536,7 @@
         "description": "Nuclear Instrum.and Methods in Physics Research ",
         "pulished_country_code": "2NED",
         "pulished_country_name": "Netherlands",
-        "active": true
+        "active": false
       },
       "NIM/A": {
         "description": "Nuclear Instrum. Methods in Physics Research , Sect.A",
@@ -1584,7 +1584,7 @@
         "description": "Nuclear Physics",
         "pulished_country_code": "2NED",
         "pulished_country_name": "Netherlands",
-        "active": true
+        "active": false
       },
       "NP/A": {
         "description": "Nuclear Physics, Section A",
@@ -1602,7 +1602,7 @@
         "description": "Nuclear Physics B: Proceedings Supplements",
         "pulished_country_code": "2NED",
         "pulished_country_name": "Netherlands",
-        "active": true
+        "active": false
       },
       "NPSM": {
         "description": "New Physics: Sae Mulli",
@@ -1632,25 +1632,25 @@
         "description": "Nuclear Science and Applications (Dhaka).",
         "pulished_country_code": "3BAN",
         "pulished_country_name": "Bangladesh",
-        "active": true
+        "active": false
       },
       "NSD/A": {
         "description": "Nuclear Science and Applications, Series A",
         "pulished_country_code": "3BAN",
         "pulished_country_name": "Bangladesh",
-        "active": true
+        "active": false
       },
       "NSD/B": {
         "description": "Nuclear Science and Applications, Series B",
         "pulished_country_code": "3BAN",
         "pulished_country_name": "Bangladesh",
-        "active": true
+        "active": false
       },
       "NSD/BS": {
         "description": "Nuclear Science and Applications, Ser. B Suppl.",
         "pulished_country_code": "3BAN",
         "pulished_country_name": "Bangladesh",
-        "active": true
+        "active": false
       },
       "NSE": {
         "description": "Nuclear Science and Engineering",
@@ -1662,13 +1662,13 @@
         "description": "Nuclear Science, Taiwan",
         "pulished_country_code": "3CHF",
         "pulished_country_name": "China, Taiwan",
-        "active": true
+        "active": false
       },
       "NSJ": {
         "description": "Nuclear Science Abstracts of Japan",
         "pulished_country_code": "2JPN",
         "pulished_country_name": "Japan",
-        "active": true
+        "active": false
       },
       "NSP": {
         "description": "Nuclear Science and Applications",
@@ -1704,7 +1704,7 @@
         "description": "Jour. of Nuclear Science and Technology Suppl.",
         "pulished_country_code": "2JPN",
         "pulished_country_name": "Japan",
-        "active": true
+        "active": false
       },
       "NT": {
         "description": "Nuclear Technology",
@@ -1722,7 +1722,7 @@
         "description": "Fusion Technology",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "NTN": {
         "description": "Nederlands Tijdschrift voor Natuurkunde",
@@ -1734,7 +1734,7 @@
         "description": "Nucleonics",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "NUK": {
         "description": "Nukleonik",
@@ -1806,7 +1806,7 @@
         "description": "Physics of Condensed Matter",
         "pulished_country_code": "2GER",
         "pulished_country_name": "Germany",
-        "active": true
+        "active": false
       },
       "PCN": {
         "description": "Physical and Chemical News (Morocco)",
@@ -1830,7 +1830,7 @@
         "description": "High Energy Physics and Nuclear Physics,Chinese ed.",
         "pulished_country_code": "3CPR",
         "pulished_country_name": "China, People's Rep.",
-        "active": true
+        "active": false
       },
       "PHY": {
         "description": "Physica (Utrecht)",
@@ -1848,7 +1848,7 @@
         "description": "Proceedings of the Japan Academy",
         "pulished_country_code": "2JPN",
         "pulished_country_name": "Japan",
-        "active": true
+        "active": false
       },
       "PJS": {
         "description": "Prikladnaya Yadernaya Spektroskopiya",
@@ -1860,13 +1860,13 @@
         "description": "Problemy Yadernoj Fiziki i Kosmicheskikh Luchej",
         "pulished_country_code": "4UKR",
         "pulished_country_name": "Ukraine",
-        "active": true
+        "active": false
       },
       "PL": {
         "description": "Physics Letters",
         "pulished_country_code": "2NED",
         "pulished_country_name": "Netherlands",
-        "active": true
+        "active": false
       },
       "PL/A": {
         "description": "Physics Letters, Section A",
@@ -1884,7 +1884,7 @@
         "description": "Physics Letters,Sect.C, Physics Reports",
         "pulished_country_code": "2NED",
         "pulished_country_name": "Netherlands",
-        "active": true
+        "active": false
       },
       "PNA": {
         "description": "Proc. of the National Academy of Sciences U.S.A.",
@@ -1896,13 +1896,13 @@
         "description": "Philippines Nuclear Journal",
         "pulished_country_code": "3PHI",
         "pulished_country_name": "Philippines",
-        "active": true
+        "active": false
       },
       "PNV": {
         "description": "Physica Norvegica",
         "pulished_country_code": "2NOR",
         "pulished_country_name": "Norway",
-        "active": true
+        "active": false
       },
       "PPA": {
         "description": "Proceedings of the Pakistan Academy of Sciences",
@@ -1926,7 +1926,7 @@
         "description": "Physics Procedia",
         "pulished_country_code": "2NED",
         "pulished_country_name": "Netherlands",
-        "active": true
+        "active": false
       },
       "PQR": {
         "description": "Quarterly Rev.Scientific Publ.Polish Academy Sci.",
@@ -1938,7 +1938,7 @@
         "description": "Physical Review",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "PR/A": {
         "description": "Physical Review, Part A, General Physics",
@@ -1980,7 +1980,7 @@
         "description": "Physics Reports",
         "pulished_country_code": "2NED",
         "pulished_country_name": "Netherlands",
-        "active": true
+        "active": false
       },
       "PS": {
         "description": "Physica Scripta",
@@ -2028,7 +2028,7 @@
         "description": "Progress of Theoretical Physics",
         "pulished_country_code": "2JPN",
         "pulished_country_name": "Japan",
-        "active": true
+        "active": false
       },
       "PTP/S": {
         "description": "Progress of Theoretical Physics, Suppl.",
@@ -2094,7 +2094,7 @@
         "description": "Ricerca Scientifica",
         "pulished_country_code": "2ITY",
         "pulished_country_name": "Italy",
-        "active": true
+        "active": false
       },
       "RIZ": {
         "description": "Radioaktivni Izotopi i Zracenja.",
@@ -2166,13 +2166,13 @@
         "description": "Radiochemical and Radioanalytical Letters",
         "pulished_country_code": "3HUN",
         "pulished_country_name": "Hungary",
-        "active": true
+        "active": false
       },
       "RRP": {
         "description": "Revue Roumaine de Physique",
         "pulished_country_code": "3RUM",
         "pulished_country_name": "Romania",
-        "active": true
+        "active": false
       },
       "RSA": {
         "description": "Rumanian Scientific Abstracts, Natural Sciences",
@@ -2208,7 +2208,7 @@
         "description": "Studii si Cercetari de Fizica",
         "pulished_country_code": "3RUM",
         "pulished_country_name": "Romania",
-        "active": true
+        "active": false
       },
       "SCI": {
         "description": "Science",
@@ -2220,7 +2220,7 @@
         "description": "Scient.Papers Institute Physics Chem.Research ,Tokyo",
         "pulished_country_code": "2JPN",
         "pulished_country_name": "Japan",
-        "active": true
+        "active": false
       },
       "SCS": {
         "description": "Science in China, Series A",
@@ -2238,67 +2238,67 @@
         "description": "Soviet Atomic Energy",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "SJA/S": {
         "description": "Soviet Atomic Energy, Supplement",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "SJPN": {
         "description": "Soviet Journal of Particles and Nuclei",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "SNP": {
         "description": "Soviet Journal of Nuclear Physics",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "SPC": {
         "description": "Soviet Physics-Crystallography",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "SPD": {
         "description": "Soviet Physics-Doklady",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "SPL": {
         "description": "Soviet Physics - Lebedev Institute Report",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "SPS": {
         "description": "Soviet Physics-Solid State",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "SPT": {
         "description": "Soviet Physics-Technical Physics",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "SPU": {
         "description": "Soviet Physics-Uspekhi",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "SRA": {
         "description": "Soviet Radiochemistry",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "TMF": {
         "description": "Teoreticheskaya i Matematicheskaya Fizika",
@@ -2346,7 +2346,7 @@
         "description": "Ukrainian Physics Journal",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
-        "active": true
+        "active": false
       },
       "UZHV": {
         "description": "Naukovyi Visnyk Uzhgorods'kogo University , Ser.Fiz.",
@@ -2376,13 +2376,13 @@
         "description": "Voprosy Atomnoy Nauki i Tekhniki, Seriya Obshch.",
         "pulished_country_code": "4RUS",
         "pulished_country_name": "Russia",
-        "active": true
+        "active": false
       },
       "VAT/R": {
         "description": "Voprosy Atomnoy Nauki i Tekhniki, Seriya Reak.",
         "pulished_country_code": "4RUS",
         "pulished_country_name": "Russia",
-        "active": true
+        "active": false
       },
       "VAT/V": {
         "description": "Vopr.At.Nauki i Tek.,Ser.Fiz.Vys.Ene.i Atom.Yad.",
@@ -2412,7 +2412,7 @@
         "description": "Visnyk Kharkivs'kogo University , Ser.Fiz.",
         "pulished_country_code": "4UKR",
         "pulished_country_name": "Ukraine",
-        "active": true
+        "active": false
       },
       "VLU": {
         "description": "Vestnik Leningradskogo University , Fizika, Khimiya",
@@ -2514,7 +2514,7 @@
         "description": "Zeitschrift fuer Naturforschung",
         "pulished_country_code": "2GER",
         "pulished_country_name": "Germany",
-        "active": true
+        "active": false
       },
       "ZN/A": {
         "description": "Zeitschrift fuer Naturforschung, Section A",
@@ -2532,25 +2532,25 @@
         "description": "Zbirnik Nauk. Institutu Yadernikh Doslidzhen",
         "pulished_country_code": "4UKR",
         "pulished_country_name": "Ukraine",
-        "active": true
+        "active": false
       },
       "ZP": {
         "description": "Zeitschrift fuer Physik",
         "pulished_country_code": "2GER",
         "pulished_country_name": "Germany",
-        "active": true
+        "active": false
       },
       "ZP/A": {
         "description": "Zeitschrift fuer Physik A, Hadrons and Nuclei",
         "pulished_country_code": "2GER",
         "pulished_country_name": "Germany",
-        "active": true
+        "active": false
       },
       "ZP/B": {
         "description": "Zeitschrift fuer Physik B, Condensed Matter",
         "pulished_country_code": "2GER",
         "pulished_country_name": "Germany",
-        "active": true
+        "active": false
       },
       "ZPC": {
         "description": "Z. Physikalische Chemie (Leipzig)",
