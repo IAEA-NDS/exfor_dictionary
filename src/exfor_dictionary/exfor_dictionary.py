@@ -47,8 +47,9 @@ class Diction:
             for h in diction["codes"].keys()
             if diction["codes"][h]["additional_code"] == "A"
             and diction["codes"][h]["active"]
-            and "-DN" not in h
-            and "-NM" not in h
+            and not any (ex in h for ex in ["-DN", "-NM", "WVE-LN"])
+            # and  "-DN" not in h
+            # and "-NM" not in h
         ]
 
 

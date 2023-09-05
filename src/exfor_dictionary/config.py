@@ -21,7 +21,6 @@ else:
     from importlib.resources import files
     DICTIONARY_PATH = files("exfor_dictionary")
 
-print(DICTIONARY_PATH)
 
 
 PICKLE_PATH = os.path.join(DICTIONARY_PATH, "pickles")
