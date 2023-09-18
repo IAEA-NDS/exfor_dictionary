@@ -11,7 +11,8 @@
 ####################################################################
 import os
 
-DICTIONARY_URL = "https://nds.iaea.org/nrdc/ndsx4/trans/dictionaries/"
+# DICTIONARY_URL = "https://nds.iaea.org/nrdc/ndsx4/trans/dictionaries/"
+DICTIONARY_URL = "https://nds.iaea.org/nrdc/ndsx4/trans/dicts/"
 
 
 if os.path.exists("src/exfor_dictionary/trans_backup") and os.path.exists("src/exfor_dictionary/trans_json") :

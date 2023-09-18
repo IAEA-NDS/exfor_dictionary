@@ -41,9 +41,13 @@ def get_server_trans_nums():
     for link in links:
         x += [link.get("href").split(".")[-1]]
 
+    print(x)
     # remove obstruction
-    x.remove("9927")
-    x.remove("9928")
+    try:
+        x.remove("9927")
+        x.remove("9928")
+    except:
+        pass
     return x
 
 
