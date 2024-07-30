@@ -134,37 +134,35 @@ def get_diction_definition(latest) -> dict:
     """
     read and store diction number and description from diction 950
     """
+
+    pattern = r"^SUBDICT *90001950.*$\r?\n(?P<dict950>(?s:.)*)\r?\n^ENDSUBDICT"
+
     file = dict_filename(latest)
     with open(file) as f:
-        lines = f.readlines()
-    dict = {}
+        lines = f.read()
 
-    diction_950 = False
+    result = {}
 
-    for line in lines:
-        if line.startswith("DICTION"):
-            diction_num = re.split("\s{2,}", line)[1]
-            if int(diction_num) == 950:
-                diction_950 = True
-                continue
+    match = re.search(pattern, lines, flags = re.MULTILINE)
+    if not match:
+        raise ValueError(f'Could not find metadict 950 in latest trans files: {latest}')
+    
+    dict950 = match.groupdict()['dict950']
 
-        elif line.startswith("ENDDICTION") and diction_950:
-            diction_950 = False
-            break
+    for line in dict950.splitlines():
 
-        elif diction_950:
-            x4code = str(line[:11].rstrip().lstrip())
-            desc = line[11:66].rstrip()
-            flag = line[79:80]
+        x4code = str(line[:11].strip())
+        desc = line[11:66].strip()
+        flag = line[79:80]
 
-            dict[x4code] = {
-                "description": desc,
-                "active": False if flag == "O" else True,
-            }
+        result[x4code] = {
+            "description": desc,
+            "active": False if flag == "O" else True,
+        }
 
-    write_diction_json("950", dict)
+    write_diction_json("950", result)
 
-    return dict
+    return result
 
 
 def parse_dictionary(latest):
