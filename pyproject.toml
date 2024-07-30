@@ -40,5 +40,5 @@ include-package-data = true
 "exfor_dictionary.pickles" = ["*.pickle"]
 
 [project.urls]
-Homepage = "https://github.com/shinokumura/ripl3_json"
+Homepage = "https://github.com/IAEA-NDS/exfor_dictionary"
 
