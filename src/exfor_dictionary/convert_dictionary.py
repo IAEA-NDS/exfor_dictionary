@@ -258,9 +258,9 @@ def conv_dictionary_to_json(latest) -> dict:
                             else:
                                 addr = lat = lng = None
 
-                        elif x4code[1:4].rstrip() == x4code[4:7]:
-                            lat = country_dict[x4code[0:4].rstrip()]["country_lat"]
-                            lng = country_dict[x4code[0:4].rstrip()]["country_lng"]
+                        elif x4code[1:4].strip() == x4code[4:7]:
+                            lat = country_dict[x4code[0:4].strip()]["country_lat"]
+                            lng = country_dict[x4code[0:4].strip()]["country_lng"]
 
                         else:
                             lat = lng = None
@@ -306,7 +306,7 @@ def conv_dictionary_to_json(latest) -> dict:
                         report_inst = line[59:66]
                         if institute_dict.get(report_inst):
                             codes[x4code] = {
-                                "description": desc[:-7].rstrip(),
+                                "description": desc[:-7].strip(),
                                 "publisher": report_inst,
                                 "publisher_name": institute_dict[report_inst]["name"],
                                 "active": False if flag == "O" or flag == "X" else True,
