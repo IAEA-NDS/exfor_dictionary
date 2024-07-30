@@ -207,7 +207,7 @@ def conv_dictionary_to_json(latest) -> dict:
     """
 
     institute_df = pd.read_pickle(os.path.join(PICKLE_PATH, "institute.pickle"))
-    institute_df["code"] = institute_df["code"].str.rstrip()
+    institute_df["code"] = institute_df["code"].str.strip()
     institute_df = institute_df.set_index("code")
     institute_dict = institute_df.to_dict(orient="index")
 
@@ -225,40 +225,19 @@ def conv_dictionary_to_json(latest) -> dict:
     exfor_dictionary["dictionaries"] = {}
 
     for diction_num in dictions:
-        fname = os.path.join(
-            DICTIONARY_PATH,
-            "trans_backup/dictions",
-            "diction" + str(diction_num) + ".dat",
-        )
+        folder = os.path.join(DICTIONARY_PATH, "trans_backup", "dictions")
+        fname = os.path.join(folder, "diction" + str(diction_num) + ".dat")
 
         with open(fname) as f:
-            diction = f.read().splitlines()[1:]
+            diction = f.read().splitlines()[1:-1]
 
         diction_dict = {}
         codes = {}
 
-        if int(diction_num) in [
-            209,
-            207,
-            33,
-            23,
-            22,
-            21,
-            20,
-            19,
-            18,
-            17,
-            16,
-            15,
-            8,
-            7,
-            5,
-            4,
-            3,
-            2,
-        ]:
-            for d in diction:
-                if skip_unused_lines(d):
+        if int(diction_num) in [209, 207, 33, 23, 22, 21, 20, 19, 18,
+            17, 16, 15, 8, 7, 5, 4, 3, 2]:
+            for line in diction:
+                if is_comment_line(line):
                     continue
 
                 if not d.startswith(" "):
