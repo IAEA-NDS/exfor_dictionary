@@ -168,38 +168,32 @@ def get_diction_definition(latest) -> dict:
 
 
 def parse_dictionary(latest):
+
+    pattern = r"^SUBDICT *\d{5}(?P<dict_id>\d{3}).*$(?P<exfor_dict>(?s:.)*?)^ENDSUBDICT"
+
     file = dict_filename(latest)
-
     with open(file) as f:
-        lines = f.readlines()
+        lines = f.read()
 
-        new = False
-        for line in lines:
-            if line.startswith("DICTION"):
-                diction = []
-                new = True
-                diction_num = re.split("\s{2,}", line)[1]
-                folder = os.path.join(
-                    DICTIONARY_PATH,
-                    "trans_backup/dictions")
-                # ensure folder exists
-                os.makedirs(folder,exist_ok=True)
-                fname = os.path.join(folder, "diction" + str(diction_num) + ".dat")
-                o = open(fname, "w")
-                o.write(line)
-                continue
+    output_folder = os.path.join(DICTIONARY_PATH, "trans_backup", "dictions")
+    # ensure folder exists
+    os.makedirs(output_folder,exist_ok=True)
 
-            elif line.startswith("ENDDICTION") and diction_num != "950":
-                new = False
-                o.close()
-                continue
+    filename = dict_filename(latest)
 
-            elif new:
-                o.write(line)
-                diction += [line]
+    with open(filename) as f:
+        lines = f.read()
 
+    for match in re.finditer(pattern, lines, re.MULTILINE):
+        diction_num = match.groupdict()['dict_id'].lstrip('0')
+        dict_lines = match.group()
 
-def skip_unused_lines(d):
+        fname = os.path.join(output_folder, "diction" + str(diction_num) + ".dat")
+        with open(fname, "w") as filehandle:
+            filehandle.write(dict_lines)
+            
+
+def is_comment_line(d):
     if "==" in d:
         return True
     elif d[:11] == " " * 11 and d[11].isalpha():
