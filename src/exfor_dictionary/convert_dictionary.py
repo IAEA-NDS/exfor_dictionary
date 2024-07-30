@@ -130,7 +130,7 @@ def write_trans_json_file(trans_num: str, exfor_dictionary):
         json.dump(exfor_dictionary, json_file, indent=2)
 
 
-def get_diction_difinition(latest) -> dict:
+def get_diction_definition(latest) -> dict:
     """
     read and store diction number and description from diction 950
     """
@@ -225,7 +225,7 @@ def conv_dictionary_to_json(latest) -> dict:
 
 
     ## Get definitions of each DICTION from DICTION 950
-    dictions = get_diction_difinition(latest)
+    dictions = get_diction_definition(latest)
 
     ## initialize dict
     exfor_dictionary = {}
