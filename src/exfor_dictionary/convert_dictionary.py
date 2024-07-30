@@ -47,13 +47,15 @@ def get_server_trans_nums():
     for link in links:
         x += [link.get("href").split(".")[-1]]
 
+    # trans_nums should be unique
+    x = set(x)
+
     print(x)
     # remove obstruction
-    try:
-        x.remove("9927")
-        x.remove("9928")
-    except:
-        pass
+    for incompatible_trans_num in ["9927", "9928"]:
+        if incompatible_trans_num in x:
+            x.remove(incompatible_trans_num)
+
     return x
 
 
