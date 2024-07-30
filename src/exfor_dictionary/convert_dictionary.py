@@ -240,17 +240,17 @@ def conv_dictionary_to_json(latest) -> dict:
                 if is_comment_line(line):
                     continue
 
-                if not d.startswith(" "):
+                if not line.startswith(" "):
 
-                    x4code = d[:11].rstrip()
+                    x4code = line[:11].strip()
                     regex = r"\((.*)\)"
-                    desc = re.match(regex, d[11:66]).group(1)
+                    desc = re.match(regex, line[11:66]).group(1)
                     desc = convert_abbreviations(institute_abbr, desc)
-                    flag = d[79:80]
+                    flag = line[79:80]
 
                     if int(diction_num) == 3:
                         ### for DICTION 3: Institute
-                        if not x4code[1:4].rstrip() == x4code[4:7]:
+                        if not x4code[1:4].strip() == x4code[4:7]:
                             if institute_dict.get(x4code):
                                 addr = institute_dict[x4code]["formatted_address"]
                                 lat = institute_dict[x4code]["lat"]
@@ -275,7 +275,7 @@ def conv_dictionary_to_json(latest) -> dict:
 
                     if int(diction_num) == 5:
                         ### for DICTION   5  Journals
-                        journal_contry = d[62:66]
+                        journal_contry = line[62:66]
 
                         if country_dict.get(journal_contry):
                             codes[x4code] = {
@@ -294,16 +294,16 @@ def conv_dictionary_to_json(latest) -> dict:
                         }
 
         elif int(diction_num) in [144, 43, 38, 35, 34, 32, 31, 30, 6, 1]:
-            for d in diction:
-                skip_unused_lines(d)
-                if not d.startswith(" "):
-                    x4code = d[:11].rstrip()
-                    desc = d[11:66].rstrip()
-                    flag = d[79:80]
+            for line in diction:
+                is_comment_line(line)
+                if not line.startswith(" "):
+                    x4code = line[:11].strip()
+                    desc = line[11:66].strip()
+                    flag = line[79:80]
 
                     if int(diction_num) == 6:
                         ### for the DICTION   5  Reports
-                        report_inst = d[59:66]
+                        report_inst = line[59:66]
                         if institute_dict.get(report_inst):
                             codes[x4code] = {
                                 "description": desc[:-7].rstrip(),
@@ -322,16 +322,16 @@ def conv_dictionary_to_json(latest) -> dict:
             ### DICTION 24: Data headings
 
             desc = []
-            for d in diction[11:]:
+            for line in diction[11:]:
                 x4code = ""
                 flag = ""
                 desc = ""
                 additional_code = ""
-                if d[0].isalpha() or d[0].isdigit():
-                    flag = d[79:80]  # obsolete flag
-                    x4code = d[:11].rstrip()
-                    desc = d[11:65].rstrip()
-                    additional_code = d[65:66].rstrip()
+                if line[0].isalpha() or line[0].isdigit():
+                    flag = line[79:80]  # obsolete flag
+                    x4code = line[:11].strip()
+                    desc = line[11:65].strip()
+                    additional_code = line[65:66].strip()
 
                     if x4code.startswith("DATA") and not "ERR" in x4code:
                         additional_code = "DATA"
@@ -340,7 +340,7 @@ def conv_dictionary_to_json(latest) -> dict:
                     elif x4code == "ERR-T":
                         additional_code = "DATA_E"
 
-                elif d.startswith(" " * 11):
+                elif line.startswith(" " * 11):
                     continue
 
                 if x4code:
@@ -355,15 +355,15 @@ def conv_dictionary_to_json(latest) -> dict:
             ### DICTION 25: Data units
 
             desc = []
-            for d in diction[1:]:
-                if d[0].isalpha() or d[0].isdigit():
-                    flag = d[79:80]  # obsolete flag
-                    x4code = d[:11].rstrip()
-                    desc = d[11:44].rstrip()
-                    additional_code = d[44:55].rstrip()
-                    factor = d[55:66].strip()
+            for line in diction[1:]:
+                if line[0].isalpha() or line[0].isdigit():
+                    flag = line[79:80]  # obsolete flag
+                    x4code = line[:11].strip()
+                    desc = line[11:44].strip()
+                    additional_code = line[44:55].strip()
+                    factor = line[55:66].strip()
 
-                elif d.startswith(" " * 11):
+                elif line.startswith(" " * 11):
                     continue
 
                 if x4code:
@@ -381,13 +381,13 @@ def conv_dictionary_to_json(latest) -> dict:
             ### DICTION 114: Data libraries
 
             desc = []
-            for d in diction[1:]:
-                if d[0].isalpha() or d[0].isdigit():
-                    flag = d[79:80]  # obsolete flag
-                    x4code = d[:15].rstrip()
-                    desc = d[15:66].rstrip()
+            for line in diction[1:]:
+                if line[0].isalpha() or line[0].isdigit():
+                    flag = line[79:80]  # obsolete flag
+                    x4code = line[:15].strip()
+                    desc = line[15:66].strip()
 
-                elif d.startswith(" " * 11):
+                elif line.startswith(" " * 11):
                     continue
 
                 if x4code:
@@ -403,15 +403,15 @@ def conv_dictionary_to_json(latest) -> dict:
             ### DICTION 25: Data units
 
             desc = []
-            for d in diction[1:]:
-                if d[0].isalpha() or d[0].isdigit():
-                    flag = d[79:80]  # obsolete flag
-                    x4code = d[:11].rstrip()
-                    additional_code = d[11:16].rstrip()
-                    x4code3 = d[16:20].rstrip()
-                    desc = d[20:66].rstrip()
+            for line in diction[1:]:
+                if line[0].isalpha() or line[0].isdigit():
+                    flag = line[79:80]  # obsolete flag
+                    x4code = line[:11].strip()
+                    additional_code = line[11:16].strip()
+                    x4code3 = line[16:20].strip()
+                    desc = line[20:66].strip()
 
-                elif d.startswith(" " * 11):
+                elif line.startswith(" " * 11):
                     continue
 
                 if x4code:
@@ -454,42 +454,42 @@ def conv_dictionary_to_json(latest) -> dict:
 
             cont = False
             desc = []
-            for d in diction[27:]:
-                if skip_unused_lines(d):
+            for line in diction[27:]:
+                if is_comment_line(line):
                     continue
 
                 ### get EXFOR code
                 if (
-                    d[0].isalpha()
-                    or d[0].isdigit()
-                    or any(d.startswith(s) for s in [",", "("])
+                    line[0].isalpha()
+                    or line[0].isdigit()
+                    or any(line.startswith(s) for s in [",", "("])
                     or not cont
                 ):
                     cont = False
-                    flag = d[79:80]  # obsolete flag
+                    flag = line[79:80]  # obsolete flag
 
-                    if not d.startswith(" ") and d[22] == "(":
+                    if not line.startswith(" ") and line[22] == "(":
                         ## Case 1, 2, and 3
-                        x4code = d[:18].rstrip()
-                        additional_code = d[18:22].rstrip()
+                        x4code = line[:18].strip()
+                        additional_code = line[18:22].strip()
 
-                    elif " " not in d[:18] and d[22] != "(":
+                    elif " " not in line[:18] and line[22] != "(":
                         ## Case 4, 5
-                        x4code = d[:30].rstrip()
+                        x4code = line[:30].strip()
 
-                    elif d.startswith(" " * 18) and d[18] != " " and d[22] == "(":
+                    elif line.startswith(" " * 18) and line[18] != " " and line[22] == "(":
                         ## Case 4, 5
-                        additional_code = d[18:22].rstrip()
+                        additional_code = line[18:22].strip()
 
                     ## get description
-                    if d[22] == "(":
-                        desc = d[22:66].rstrip()
+                    if line[22] == "(":
+                        desc = line[22:66].strip()
                         cont = True
                         if desc[-1].endswith(")"):
                             cont = False
 
-                elif d.startswith(" " * 22):
-                    desc += d[22:66].rstrip()
+                elif line.startswith(" " * 22):
+                    desc += line[22:66].strip()
                     if not desc[-1].endswith(")"):
                         cont = True
                     elif desc[-1].endswith(")"):
