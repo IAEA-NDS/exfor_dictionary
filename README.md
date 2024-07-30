@@ -10,7 +10,7 @@ You may find many mysterious keywords in EXFOR entries such as:
 > REACTION   (2-HE-4(N,2N)2-HE-3,,SIG,,SPA)\
 > STATUS     (DEP,14737002)\
 
-These keywords are defined in the EXFOR dictionary which is maintained in the IAEA Nuclear Data Section. This repository provides the JSON-converted-EXFOR-dictionary file. [Latest file](latest.json)
+These keywords are defined in the EXFOR dictionary which is maintained in the IAEA Nuclear Data Section. This repository provides the JSON-converted-EXFOR-dictionary file. [Latest file](src/exfor_dictionary/latest.json)
 
 
 
@@ -72,7 +72,7 @@ If you don't have Jupyter notebook environment, you can run it on Binder from th
 ```
 import json
 # latest number of dictionary file (see trans_backup/trans.****)
-j = open("latest.json")
+j = open("src/exfor_dictionary/latest.json")
 exfor_dictionary = json.load(j)
 ```
 
