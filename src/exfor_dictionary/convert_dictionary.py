@@ -21,6 +21,11 @@ from bs4 import BeautifulSoup
 from exfor_dictionary.default_config import DICTIONARY_PATH, DICTIONARY_URL, PICKLE_PATH
 from exfor_dictionary.abbreviations import convert_abbreviations, institute_abbr, head_unit_abbr, reaction_abbr
 
+session = requests.Session()
+if 'OPENAREA_USER' in os.environ and 'OPENAREA_PWD' in os.environ:
+    session.auth = (os.environ['OPENAREA_USER'], os.environ['OPENAREA_PWD'])
+else:
+    print('No OPENAREA credentials ("OPENAREA_USER", "OPENAREA_PWD") provided as environment variables. Accessing Open Area without authentification. ')
 
 def get_local_trans_nums():
     local_dict_files = glob.glob(
@@ -35,7 +40,8 @@ def get_local_trans_nums():
 
 def get_server_trans_nums():
     x = ["9000"]
-    r = requests.get(DICTIONARY_URL)
+
+    r = session.get(DICTIONARY_URL)
     soup = BeautifulSoup(r.text, "html.parser")
     links = soup.find_all("a", attrs={"href": re.compile(r".*trans.*")})
     for link in links:
@@ -58,7 +64,7 @@ def get_latest_trans_num(x):
 def download_trans(transnum):
     url = "".join([DICTIONARY_URL, "trans.", str(transnum)])
     print(url)
-    r = requests.get(url, allow_redirects=True)
+    r = session.get(url, allow_redirects=True)
 
     if r.status_code == 404:
         print("Something wrong with retrieving new dictionary from the IAEA-NDS.")
