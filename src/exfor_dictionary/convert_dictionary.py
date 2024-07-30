@@ -100,7 +100,11 @@ def download_latest_dict():
 
 
 def dict_filename(latest):
-    return os.path.join(DICTIONARY_PATH, "trans_backup", "trans." + str(latest))
+    trans_folder = os.path.join(DICTIONARY_PATH, "trans_backup")
+    # ensure folder exists
+    os.makedirs(trans_folder, exist_ok=True)
+
+    return os.path.join( trans_folder, "trans." + str(latest))
 
 
 def diction_json_file(diction_num: str):
@@ -173,11 +177,12 @@ def parse_dictionary(latest):
                 diction = []
                 new = True
                 diction_num = re.split("\s{2,}", line)[1]
-                fname = os.path.join(
+                folder = os.path.join(
                     DICTIONARY_PATH,
-                    "trans_backup/dictions",
-                    "diction" + str(diction_num) + ".dat",
-                )
+                    "trans_backup/dictions")
+                # ensure folder exists
+                os.makedirs(folder,exist_ok=True)
+                fname = os.path.join(folder, "diction" + str(diction_num) + ".dat")
                 o = open(fname, "w")
                 o.write(line)
                 continue
