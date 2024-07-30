@@ -3,9 +3,8 @@ import re
 import pandas as pd
 import requests
 
-from .config import PICKLE_PATH
-from .geo.key import API_KEY, GEOCODING_API
-from .exfor_dictionary import Diction
+from exfor_dictionary.default_config import PICKLE_PATH
+from exfor_dictionary import Diction
 
 
 
@@ -237,6 +236,10 @@ def read_dict3_from_trans():
 
 
 def call_geocoding(n):
+    try:
+        from geo.key import API_KEY, GEOCODING_API
+    except ImportError:
+        raise ImportError('Geo module is not provided with this package. Contact authors for more information.')
     # example call: https://maps.googleapis.com/maps/api/geocode/json?address=Univ. of Alberta, Edmonton, Alberta, USA&key=API_KEY
     call = "".join([GEOCODING_API, n, "&key=", API_KEY])
 

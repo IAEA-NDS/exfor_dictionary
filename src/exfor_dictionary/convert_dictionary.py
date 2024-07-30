@@ -18,8 +18,8 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-from .config import DICTIONARY_PATH, DICTIONARY_URL, PICKLE_PATH
-from .abbreviations import convert_abbreviations
+from exfor_dictionary.default_config import DICTIONARY_PATH, DICTIONARY_URL, PICKLE_PATH
+from exfor_dictionary.abbreviations import convert_abbreviations, institute_abbr, head_unit_abbr, reaction_abbr
 
 
 def get_local_trans_nums():
@@ -257,7 +257,6 @@ def conv_dictionary_to_json(latest) -> dict:
                     continue
 
                 if not d.startswith(" "):
-                    from .abbreviations import institute_abbr
 
                     x4code = d[:11].rstrip()
                     regex = r"\((.*)\)"
@@ -337,7 +336,6 @@ def conv_dictionary_to_json(latest) -> dict:
 
         elif int(diction_num) == 24:
             ### DICTION 24: Data headings
-            from .abbreviations import head_unit_abbr
 
             desc = []
             for d in diction[11:]:
@@ -371,7 +369,6 @@ def conv_dictionary_to_json(latest) -> dict:
 
         elif int(diction_num) == 25:
             ### DICTION 25: Data units
-            from .abbreviations import head_unit_abbr
 
             desc = []
             for d in diction[1:]:
@@ -398,7 +395,6 @@ def conv_dictionary_to_json(latest) -> dict:
 
         elif int(diction_num) == 144:
             ### DICTION 114: Data libraries
-            from .abbreviations import head_unit_abbr
 
             desc = []
             for d in diction[1:]:
@@ -421,7 +417,6 @@ def conv_dictionary_to_json(latest) -> dict:
 
         elif int(diction_num) == 213:
             ### DICTION 25: Data units
-            from .abbreviations import head_unit_abbr
 
             desc = []
             for d in diction[1:]:
@@ -472,8 +467,6 @@ def conv_dictionary_to_json(latest) -> dict:
                             NO  (Analyzing power dA1/dA2/dE1 f.particles    3000023601245
                                 spec.)                                     3000023601246
             """
-
-            from .abbreviations import reaction_abbr
 
             cont = False
             desc = []
