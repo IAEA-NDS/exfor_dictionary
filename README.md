@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shinokumura/exfor_dictionary/main?labpath=example/example.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IAEA-NDS/exfor_dictionary/main?labpath=example/example.ipynb)
 
 ## Introduction to the EXFOR dictionary in JSON
 You may find many mysterious keywords in EXFOR entries such as:
@@ -99,9 +99,14 @@ The EXFOR dictionary is updated irregular basis, so if you need to run the updat
 python convert_dictionary.py
 ```
 
+Note, that currently the IAEA-NDS "Open" Area is password protected. To run the update successfully you will need to provide your credentials as environment variables:
+
+```bash
+export OPENAREA_USER=<my_user_name>
+export OPENAREA_PWD=<my_user_password>
+```
+
 Parsing all information is not yet perfect. Currently, JSON files are produced for some of ```DICTION``` with information that are used in the EXFOR parser. 
-
-
 
 ## Contact
 nds.contact-point@iaea.org

@@ -12,7 +12,7 @@
 
 import os
 import json
-from .config import DICTIONARY_PATH
+from exfor_dictionary.default_config import DICTIONARY_PATH
 
 ###################################################################
 ###
