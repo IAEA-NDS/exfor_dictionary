@@ -18,9 +18,14 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-from .config import DICTIONARY_PATH, DICTIONARY_URL, PICKLE_PATH
-from .abbreviations import convert_abbreviations
+from exfor_dictionary.default_config import DICTIONARY_PATH, DICTIONARY_URL, PICKLE_PATH
+from exfor_dictionary.abbreviations import convert_abbreviations, institute_abbr, head_unit_abbr, reaction_abbr
 
+session = requests.Session()
+if 'OPENAREA_USER' in os.environ and 'OPENAREA_PWD' in os.environ:
+    session.auth = (os.environ['OPENAREA_USER'], os.environ['OPENAREA_PWD'])
+else:
+    print('No OPENAREA credentials ("OPENAREA_USER", "OPENAREA_PWD") provided as environment variables. Accessing Open Area without authentification. ')
 
 def get_local_trans_nums():
     local_dict_files = glob.glob(
@@ -35,19 +40,22 @@ def get_local_trans_nums():
 
 def get_server_trans_nums():
     x = ["9000"]
-    r = requests.get(DICTIONARY_URL)
+
+    r = session.get(DICTIONARY_URL)
     soup = BeautifulSoup(r.text, "html.parser")
     links = soup.find_all("a", attrs={"href": re.compile(r".*trans.*")})
     for link in links:
         x += [link.get("href").split(".")[-1]]
 
+    # trans_nums should be unique
+    x = set(x)
+
     print(x)
     # remove obstruction
-    try:
-        x.remove("9927")
-        x.remove("9928")
-    except:
-        pass
+    for incompatible_trans_num in ["9927", "9928"]:
+        if incompatible_trans_num in x:
+            x.remove(incompatible_trans_num)
+
     return x
 
 
@@ -58,7 +66,7 @@ def get_latest_trans_num(x):
 def download_trans(transnum):
     url = "".join([DICTIONARY_URL, "trans.", str(transnum)])
     print(url)
-    r = requests.get(url, allow_redirects=True)
+    r = session.get(url, allow_redirects=True)
 
     if r.status_code == 404:
         print("Something wrong with retrieving new dictionary from the IAEA-NDS.")
@@ -94,7 +102,11 @@ def download_latest_dict():
 
 
 def dict_filename(latest):
-    return os.path.join(DICTIONARY_PATH, "trans_backup", "trans." + str(latest))
+    trans_folder = os.path.join(DICTIONARY_PATH, "trans_backup")
+    # ensure folder exists
+    os.makedirs(trans_folder, exist_ok=True)
+
+    return os.path.join( trans_folder, "trans." + str(latest))
 
 
 def diction_json_file(diction_num: str):
@@ -118,75 +130,68 @@ def write_trans_json_file(trans_num: str, exfor_dictionary):
         json.dump(exfor_dictionary, json_file, indent=2)
 
 
-def get_diction_difinition(latest) -> dict:
+def get_diction_definition(latest) -> dict:
     """
     read and store diction number and description from diction 950
     """
+
+    pattern = r"^SUBDICT *90001950.*$\r?\n(?P<dict950>(?s:.)*)\r?\n^ENDSUBDICT"
+
     file = dict_filename(latest)
     with open(file) as f:
-        lines = f.readlines()
-    dict = {}
+        lines = f.read()
 
-    diction_950 = False
+    result = {}
 
-    for line in lines:
-        if line.startswith("DICTION"):
-            diction_num = re.split("\s{2,}", line)[1]
-            if int(diction_num) == 950:
-                diction_950 = True
-                continue
+    match = re.search(pattern, lines, flags = re.MULTILINE)
+    if not match:
+        raise ValueError(f'Could not find metadict 950 in latest trans files: {latest}')
+    
+    dict950 = match.groupdict()['dict950']
 
-        elif line.startswith("ENDDICTION") and diction_950:
-            diction_950 = False
-            break
+    for line in dict950.splitlines():
 
-        elif diction_950:
-            x4code = str(line[:11].rstrip().lstrip())
-            desc = line[11:66].rstrip()
-            flag = line[79:80]
+        x4code = str(line[:11].strip())
+        desc = line[11:66].strip()
+        flag = line[79:80]
 
-            dict[x4code] = {
-                "description": desc,
-                "active": False if flag == "O" else True,
-            }
+        result[x4code] = {
+            "description": desc,
+            "active": False if flag == "O" else True,
+        }
 
-    write_diction_json("950", dict)
+    write_diction_json("950", result)
 
-    return dict
+    return result
 
 
 def parse_dictionary(latest):
+
+    pattern = r"^SUBDICT *\d{5}(?P<dict_id>\d{3}).*$(?P<exfor_dict>(?s:.)*?)^ENDSUBDICT"
+
     file = dict_filename(latest)
-
     with open(file) as f:
-        lines = f.readlines()
+        lines = f.read()
 
-        new = False
-        for line in lines:
-            if line.startswith("DICTION"):
-                diction = []
-                new = True
-                diction_num = re.split("\s{2,}", line)[1]
-                fname = os.path.join(
-                    DICTIONARY_PATH,
-                    "trans_backup/dictions",
-                    "diction" + str(diction_num) + ".dat",
-                )
-                o = open(fname, "w")
-                o.write(line)
-                continue
+    output_folder = os.path.join(DICTIONARY_PATH, "trans_backup", "dictions")
+    # ensure folder exists
+    os.makedirs(output_folder,exist_ok=True)
 
-            elif line.startswith("ENDDICTION") and diction_num != "950":
-                new = False
-                o.close()
-                continue
+    filename = dict_filename(latest)
 
-            elif new:
-                o.write(line)
-                diction += [line]
+    with open(filename) as f:
+        lines = f.read()
 
+    for match in re.finditer(pattern, lines, re.MULTILINE):
+        diction_num = match.groupdict()['dict_id'].lstrip('0')
+        dict_lines = match.group()
 
-def skip_unused_lines(d):
+        fname = os.path.join(output_folder, "diction" + str(diction_num) + ".dat")
+        with open(fname, "w") as filehandle:
+            filehandle.write(dict_lines)
+            
+
+def is_comment_line(d):
     if "==" in d:
         return True
     elif d[:11] == " " * 11 and d[11].isalpha():
@@ -202,7 +207,7 @@ def conv_dictionary_to_json(latest) -> dict:
     """
 
     institute_df = pd.read_pickle(os.path.join(PICKLE_PATH, "institute.pickle"))
-    institute_df["code"] = institute_df["code"].str.rstrip()
+    institute_df["code"] = institute_df["code"].str.strip()
     institute_df = institute_df.set_index("code")
     institute_dict = institute_df.to_dict(orient="index")
 
@@ -212,7 +217,7 @@ def conv_dictionary_to_json(latest) -> dict:
 
 
     ## Get definitions of each DICTION from DICTION 950
-    dictions = get_diction_difinition(latest)
+    dictions = get_diction_definition(latest)
 
     ## initialize dict
     exfor_dictionary = {}
@@ -220,54 +225,32 @@ def conv_dictionary_to_json(latest) -> dict:
     exfor_dictionary["dictionaries"] = {}
 
     for diction_num in dictions:
-        fname = os.path.join(
-            DICTIONARY_PATH,
-            "trans_backup/dictions",
-            "diction" + str(diction_num) + ".dat",
-        )
+        folder = os.path.join(DICTIONARY_PATH, "trans_backup", "dictions")
+        fname = os.path.join(folder, "diction" + str(diction_num) + ".dat")
 
         with open(fname) as f:
-            diction = f.read().splitlines()[1:]
+            diction = f.read().splitlines()[1:-1]
 
         diction_dict = {}
         codes = {}
 
-        if int(diction_num) in [
-            209,
-            207,
-            33,
-            23,
-            22,
-            21,
-            20,
-            19,
-            18,
-            17,
-            16,
-            15,
-            8,
-            7,
-            5,
-            4,
-            3,
-            2,
-        ]:
-            for d in diction:
-                if skip_unused_lines(d):
+        if int(diction_num) in [209, 207, 33, 23, 22, 21, 20, 19, 18,
+            17, 16, 15, 8, 7, 5, 4, 3, 2]:
+            for line in diction:
+                if is_comment_line(line):
                     continue
 
-                if not d.startswith(" "):
-                    from .abbreviations import institute_abbr
+                if not line.startswith(" "):
 
-                    x4code = d[:11].rstrip()
+                    x4code = line[:11].strip()
                     regex = r"\((.*)\)"
-                    desc = re.match(regex, d[11:66]).group(1)
+                    desc = re.match(regex, line[11:66]).group(1)
                     desc = convert_abbreviations(institute_abbr, desc)
-                    flag = d[79:80]
+                    flag = line[79:80]
 
                     if int(diction_num) == 3:
                         ### for DICTION 3: Institute
-                        if not x4code[1:4].rstrip() == x4code[4:7]:
+                        if not x4code[1:4].strip() == x4code[4:7]:
                             if institute_dict.get(x4code):
                                 addr = institute_dict[x4code]["formatted_address"]
                                 lat = institute_dict[x4code]["lat"]
@@ -275,9 +258,9 @@ def conv_dictionary_to_json(latest) -> dict:
                             else:
                                 addr = lat = lng = None
 
-                        elif x4code[1:4].rstrip() == x4code[4:7]:
-                            lat = country_dict[x4code[0:4].rstrip()]["country_lat"]
-                            lng = country_dict[x4code[0:4].rstrip()]["country_lng"]
+                        elif x4code[1:4].strip() == x4code[4:7]:
+                            lat = country_dict[x4code[0:4].strip()]["country_lat"]
+                            lng = country_dict[x4code[0:4].strip()]["country_lng"]
 
                         else:
                             lat = lng = None
@@ -292,7 +275,7 @@ def conv_dictionary_to_json(latest) -> dict:
 
                     if int(diction_num) == 5:
                         ### for DICTION   5  Journals
-                        journal_contry = d[62:66]
+                        journal_contry = line[62:66]
 
                         if country_dict.get(journal_contry):
                             codes[x4code] = {
@@ -311,19 +294,19 @@ def conv_dictionary_to_json(latest) -> dict:
                         }
 
         elif int(diction_num) in [144, 43, 38, 35, 34, 32, 31, 30, 6, 1]:
-            for d in diction:
-                skip_unused_lines(d)
-                if not d.startswith(" "):
-                    x4code = d[:11].rstrip()
-                    desc = d[11:66].rstrip()
-                    flag = d[79:80]
+            for line in diction:
+                is_comment_line(line)
+                if not line.startswith(" "):
+                    x4code = line[:11].strip()
+                    desc = line[11:66].strip()
+                    flag = line[79:80]
 
                     if int(diction_num) == 6:
                         ### for the DICTION   5  Reports
-                        report_inst = d[59:66]
+                        report_inst = line[59:66]
                         if institute_dict.get(report_inst):
                             codes[x4code] = {
-                                "description": desc[:-7].rstrip(),
+                                "description": desc[:-7].strip(),
                                 "publisher": report_inst,
                                 "publisher_name": institute_dict[report_inst]["name"],
                                 "active": False if flag == "O" or flag == "X" else True,
@@ -337,19 +320,18 @@ def conv_dictionary_to_json(latest) -> dict:
 
         elif int(diction_num) == 24:
             ### DICTION 24: Data headings
-            from .abbreviations import head_unit_abbr
 
             desc = []
-            for d in diction[11:]:
+            for line in diction[11:]:
                 x4code = ""
                 flag = ""
                 desc = ""
                 additional_code = ""
-                if d[0].isalpha() or d[0].isdigit():
-                    flag = d[79:80]  # obsolete flag
-                    x4code = d[:11].rstrip()
-                    desc = d[11:65].rstrip()
-                    additional_code = d[65:66].rstrip()
+                if line[0].isalpha() or line[0].isdigit():
+                    flag = line[79:80]  # obsolete flag
+                    x4code = line[:11].strip()
+                    desc = line[11:65].strip()
+                    additional_code = line[65:66].strip()
 
                     if x4code.startswith("DATA") and not "ERR" in x4code:
                         additional_code = "DATA"
@@ -358,7 +340,7 @@ def conv_dictionary_to_json(latest) -> dict:
                     elif x4code == "ERR-T":
                         additional_code = "DATA_E"
 
-                elif d.startswith(" " * 11):
+                elif line.startswith(" " * 11):
                     continue
 
                 if x4code:
@@ -371,18 +353,17 @@ def conv_dictionary_to_json(latest) -> dict:
 
         elif int(diction_num) == 25:
             ### DICTION 25: Data units
-            from .abbreviations import head_unit_abbr
 
             desc = []
-            for d in diction[1:]:
-                if d[0].isalpha() or d[0].isdigit():
-                    flag = d[79:80]  # obsolete flag
-                    x4code = d[:11].rstrip()
-                    desc = d[11:44].rstrip()
-                    additional_code = d[44:55].rstrip()
-                    factor = d[55:66].strip()
+            for line in diction[1:]:
+                if line[0].isalpha() or line[0].isdigit():
+                    flag = line[79:80]  # obsolete flag
+                    x4code = line[:11].strip()
+                    desc = line[11:44].strip()
+                    additional_code = line[44:55].strip()
+                    factor = line[55:66].strip()
 
-                elif d.startswith(" " * 11):
+                elif line.startswith(" " * 11):
                     continue
 
                 if x4code:
@@ -398,16 +379,15 @@ def conv_dictionary_to_json(latest) -> dict:
 
         elif int(diction_num) == 144:
             ### DICTION 114: Data libraries
-            from .abbreviations import head_unit_abbr
 
             desc = []
-            for d in diction[1:]:
-                if d[0].isalpha() or d[0].isdigit():
-                    flag = d[79:80]  # obsolete flag
-                    x4code = d[:15].rstrip()
-                    desc = d[15:66].rstrip()
+            for line in diction[1:]:
+                if line[0].isalpha() or line[0].isdigit():
+                    flag = line[79:80]  # obsolete flag
+                    x4code = line[:15].strip()
+                    desc = line[15:66].strip()
 
-                elif d.startswith(" " * 11):
+                elif line.startswith(" " * 11):
                     continue
 
                 if x4code:
@@ -421,18 +401,17 @@ def conv_dictionary_to_json(latest) -> dict:
 
         elif int(diction_num) == 213:
             ### DICTION 25: Data units
-            from .abbreviations import head_unit_abbr
 
             desc = []
-            for d in diction[1:]:
-                if d[0].isalpha() or d[0].isdigit():
-                    flag = d[79:80]  # obsolete flag
-                    x4code = d[:11].rstrip()
-                    additional_code = d[11:16].rstrip()
-                    x4code3 = d[16:20].rstrip()
-                    desc = d[20:66].rstrip()
+            for line in diction[1:]:
+                if line[0].isalpha() or line[0].isdigit():
+                    flag = line[79:80]  # obsolete flag
+                    x4code = line[:11].strip()
+                    additional_code = line[11:16].strip()
+                    x4code3 = line[16:20].strip()
+                    desc = line[20:66].strip()
 
-                elif d.startswith(" " * 11):
+                elif line.startswith(" " * 11):
                     continue
 
                 if x4code:
@@ -473,46 +452,44 @@ def conv_dictionary_to_json(latest) -> dict:
                                 spec.)                                     3000023601246
             """
 
-            from .abbreviations import reaction_abbr
-
             cont = False
             desc = []
-            for d in diction[27:]:
-                if skip_unused_lines(d):
+            for line in diction[27:]:
+                if is_comment_line(line):
                     continue
 
                 ### get EXFOR code
                 if (
-                    d[0].isalpha()
-                    or d[0].isdigit()
-                    or any(d.startswith(s) for s in [",", "("])
+                    line[0].isalpha()
+                    or line[0].isdigit()
+                    or any(line.startswith(s) for s in [",", "("])
                     or not cont
                 ):
                     cont = False
-                    flag = d[79:80]  # obsolete flag
+                    flag = line[79:80]  # obsolete flag
 
-                    if not d.startswith(" ") and d[22] == "(":
+                    if not line.startswith(" ") and line[22] == "(":
                         ## Case 1, 2, and 3
-                        x4code = d[:18].rstrip()
-                        additional_code = d[18:22].rstrip()
+                        x4code = line[:18].strip()
+                        additional_code = line[18:22].strip()
 
-                    elif " " not in d[:18] and d[22] != "(":
+                    elif " " not in line[:18] and line[22] != "(":
                         ## Case 4, 5
-                        x4code = d[:30].rstrip()
+                        x4code = line[:30].strip()
 
-                    elif d.startswith(" " * 18) and d[18] != " " and d[22] == "(":
+                    elif line.startswith(" " * 18) and line[18] != " " and line[22] == "(":
                         ## Case 4, 5
-                        additional_code = d[18:22].rstrip()
+                        additional_code = line[18:22].strip()
 
                     ## get description
-                    if d[22] == "(":
-                        desc = d[22:66].rstrip()
+                    if line[22] == "(":
+                        desc = line[22:66].strip()
                         cont = True
                         if desc[-1].endswith(")"):
                             cont = False
 
-                elif d.startswith(" " * 22):
-                    desc += d[22:66].rstrip()
+                elif line.startswith(" " * 22):
+                    desc += line[22:66].strip()
                     if not desc[-1].endswith(")"):
                         cont = True
                     elif desc[-1].endswith(")"):
