@@ -10,10 +10,6 @@
         "description": "Asymptotic normalization constant",
         "active": true
       },
-      "AREA": {
-        "description": "Area analysis",
-        "active": true
-      },
       "CHGDS": {
         "description": "Corrected for charge distribution",
         "active": true
@@ -50,10 +46,6 @@
         "description": "Integration of momentum distribution",
         "active": true
       },
-      "MLA": {
-        "description": "Multilevel analysis",
-        "active": true
-      },
       "NTRTH": {
         "description": "Normalized to Rutherford scattering cross section",
         "active": true
@@ -64,18 +56,6 @@
       },
       "PGS": {
         "description": "Extracted from primary gamma spectra",
-        "active": true
-      },
-      "RFN": {
-        "description": "R-function formalism",
-        "active": false
-      },
-      "SHAPE": {
-        "description": "Shape analysis",
-        "active": true
-      },
-      "SLA": {
-        "description": "Single level analysis",
         "active": true
       },
       "SURGT": {
@@ -124,6 +104,26 @@
       },
       "THIES": {
         "description": "Thies's method",
+        "active": true
+      },
+      "AREA": {
+        "description": "Area analysis",
+        "active": true
+      },
+      "MLA": {
+        "description": "Multilevel analysis",
+        "active": true
+      },
+      "RFN": {
+        "description": "R-function formalism",
+        "active": false
+      },
+      "SHAPE": {
+        "description": "Shape analysis",
+        "active": true
+      },
+      "SLA": {
+        "description": "Single level analysis",
         "active": true
       }
     }

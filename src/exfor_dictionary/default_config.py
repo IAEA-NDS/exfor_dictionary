@@ -12,8 +12,10 @@
 import os
 
 # DICTIONARY_URL = "https://nds.iaea.org/nrdc/ndsx4/trans/dictionaries/"
-DICTIONARY_URL = "https://nds.iaea.org/nrdc/ndsx4/trans/dicts/"
+# DICTIONARY_URL = "https://nds.iaea.org/nrdc/ndsx4/trans/dicts/"
+DICTIONARY_URL = "https://nds.iaea.org/nrdc/exfor-master/trans/"
 
+NEA_DICTIONARY_REPO = "https://git.oecd-nea.org/exfor/nrdc/dict/"
 
 if os.path.exists("src/exfor_dictionary/trans_backup") and os.path.exists("src/exfor_dictionary/trans_json") :
     DICTIONARY_PATH = "src/exfor_dictionary/"

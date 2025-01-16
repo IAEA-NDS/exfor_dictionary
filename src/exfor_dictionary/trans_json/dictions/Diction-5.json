@@ -285,7 +285,7 @@
         "active": true
       },
       "APP/BS": {
-        "description": "Acta Physica Polonica, Part B Proceeding Series",
+        "description": "Acta Physica Polonica, Part B Proceeding Suppl.",
         "pulished_country_code": "3POL",
         "pulished_country_name": "Poland",
         "active": true
@@ -842,6 +842,12 @@
         "pulished_country_name": "Russia",
         "active": true
       },
+      "FRCH": {
+        "description": "Frontiers in Chemistry",
+        "pulished_country_code": "2SWT",
+        "pulished_country_name": "Switzerland",
+        "active": true
+      },
       "FST": {
         "description": "Fusion Science and Technology",
         "pulished_country_code": "1USA",
@@ -925,6 +931,12 @@
         "pulished_country_code": "3YUG",
         "pulished_country_name": "Yugoslavia",
         "active": false
+      },
+      "IEE/R": {
+        "description": "IEEE Trans.Radiat.Plasma Med.Sci.",
+        "pulished_country_code": "1USA",
+        "pulished_country_name": "United States of America",
+        "active": true
       },
       "IET": {
         "description": "Instruments and Experimental Techniques",
@@ -1138,6 +1150,12 @@
       },
       "JET": {
         "description": "Journal of Experimental and Theoretical Physics",
+        "pulished_country_code": "1USA",
+        "pulished_country_name": "United States of America",
+        "active": true
+      },
+      "JFE": {
+        "description": "Journal of Fusion Energy",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
         "active": true
@@ -1832,6 +1850,12 @@
         "pulished_country_name": "China, People's Rep.",
         "active": false
       },
+      "PHRM": {
+        "description": "Pharamaceuticals",
+        "pulished_country_code": "2SWT",
+        "pulished_country_name": "Switzerland",
+        "active": true
+      },
       "PHY": {
         "description": "Physica (Utrecht)",
         "pulished_country_code": "2NED",
@@ -2299,6 +2323,12 @@
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
         "active": false
+      },
+      "SUTP": {
+        "description": "Teoreticheskaya Fizika",
+        "pulished_country_code": "4RUS",
+        "pulished_country_name": "Russia",
+        "active": true
       },
       "TMF": {
         "description": "Teoreticheskaya i Matematicheskaya Fizika",

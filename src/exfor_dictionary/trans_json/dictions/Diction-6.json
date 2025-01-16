@@ -711,7 +711,7 @@
         "active": true
       },
       "UCRL-TR-": {
-        "description": "U.C., Lawrence Radiation Lab. translation series",
+        "description": "U.C., Lawrence Radiation Lab., Reports",
         "publisher": "1USALRL",
         "publisher_name": "Lawrence Livermore National Laboratory, Livermore, CA",
         "active": true
@@ -862,6 +862,12 @@
       },
       "NBS-MONO-": {
         "description": "National Bureau of Standards Monograph",
+        "publisher": "1USANBS",
+        "publisher_name": "National Bureau of Standards, Washington, DC",
+        "active": true
+      },
+      "NBSIR-": {
+        "description": "National Bureau of Standards Interagency Reports",
         "publisher": "1USANBS",
         "publisher_name": "National Bureau of Standards, Washington, DC",
         "active": true
@@ -2372,12 +2378,6 @@
         "publisher_name": "EC Joint Research Centre (EC-JRC), Geel",
         "active": true
       },
-      "EUR-": {
-        "description": "Euratom Reports",
-        "publisher": "2ZZZISP",
-        "publisher_name": "EC Joint Research Center (EC-JRC), Ispra",
-        "active": true
-      },
       "CCDN-": {
         "description": "C.C.D.N. Saclay report series",
         "publisher": "2ZZZNDC",
@@ -3436,6 +3436,12 @@
       },
       "INDC(TAI)-": {
         "description": "Thailand report to the I.N.D.C.",
+        "publisher": "3ZZZIAE",
+        "publisher_name": "International Atomic Energy Agency (IAEA), Vienna",
+        "active": true
+      },
+      "INDC(TUK)-": {
+        "description": "Turkish report to the I.N.D.C.",
         "publisher": "3ZZZIAE",
         "publisher_name": "International Atomic Energy Agency (IAEA), Vienna",
         "active": true

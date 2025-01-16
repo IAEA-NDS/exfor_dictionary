@@ -17,15 +17,18 @@ import json
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
+import git
 
-from exfor_dictionary.default_config import DICTIONARY_PATH, DICTIONARY_URL, PICKLE_PATH
+from exfor_dictionary.default_config import DICTIONARY_PATH, DICTIONARY_URL, NEA_DICTIONARY_REPO, PICKLE_PATH
 from exfor_dictionary.abbreviations import convert_abbreviations, institute_abbr, head_unit_abbr, reaction_abbr
 
 session = requests.Session()
-if 'OPENAREA_USER' in os.environ and 'OPENAREA_PWD' in os.environ:
-    session.auth = (os.environ['OPENAREA_USER'], os.environ['OPENAREA_PWD'])
-else:
-    print('No OPENAREA credentials ("OPENAREA_USER", "OPENAREA_PWD") provided as environment variables. Accessing Open Area without authentification. ')
+session.auth = ("username", "password")
+session.headers.update({'x-test': 'true'})
+# if 'OPENAREA_USER' in os.environ and 'OPENAREA_PWD' in os.environ:
+#     session.auth = (os.environ['OPENAREA_USER'], os.environ['OPENAREA_PWD'])
+# else:
+#     print('No OPENAREA credentials ("OPENAREA_USER", "OPENAREA_PWD") provided as environment variables. Accessing Open Area without authentification. ')
 
 def get_local_trans_nums():
     local_dict_files = glob.glob(
@@ -38,23 +41,27 @@ def get_local_trans_nums():
     return x
 
 
+def get_trans_from_nearepo():
+    """ Return name of the last commit """
+    git.Repo.clone_from(NEA_DICTIONARY_REPO, "./")
+    repo = git.Repo( "./dict/" )
+    return repo.git.log('--pretty=%B', file)
+
+
 def get_server_trans_nums():
     x = ["9000"]
 
-    r = session.get(DICTIONARY_URL)
+    r = session.get(DICTIONARY_URL, verify='/usr/local/etc/openssl@3/cert.pem')
+
     soup = BeautifulSoup(r.text, "html.parser")
-    links = soup.find_all("a", attrs={"href": re.compile(r".*trans.*")})
+    links = soup.find_all("a", attrs={"href": re.compile(r"trans.91")})
+
     for link in links:
         x += [link.get("href").split(".")[-1]]
 
     # trans_nums should be unique
     x = set(x)
 
-    print(x)
-    # remove obstruction
-    for incompatible_trans_num in ["9927", "9928"]:
-        if incompatible_trans_num in x:
-            x.remove(incompatible_trans_num)
 
     return x
 

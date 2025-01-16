@@ -95,7 +95,7 @@
         "active": true
       },
       "PLATE": {
-        "description": "Nuclear plates",
+        "description": "Nuclear plates (emulsion)",
         "active": true
       },
       "PPAC": {

@@ -1,6 +1,6 @@
 {
   "209": {
-    "diction_name": "Compounds",
+    "diction_name": "Chemical compounds",
     "codes": {
       "1-D-D2O": {
         "description": "Heavy water",
@@ -276,6 +276,10 @@
       },
       "39-Y-CMP": {
         "description": "Yttrium compound",
+        "active": true
+      },
+      "39-Y-HYD": {
+        "description": "Yttrium hydride",
         "active": true
       },
       "40-ZR-ALY": {

@@ -1970,6 +1970,10 @@
         "description": "Fuji Electric",
         "active": true
       },
+      "2JPNFMU": {
+        "description": "Fukushima Medical University, Fukushima",
+        "active": true
+      },
       "2JPNFUK": {
         "description": "Fukuoka University , Fukuoka",
         "active": true
@@ -2766,6 +2770,10 @@
         "description": "The European Synchrotron Radiation Facility, Grenoble",
         "active": true
       },
+      "2ZZZESS": {
+        "description": "The European Spallation Source, Lund",
+        "active": true
+      },
       "2ZZZGEL": {
         "description": "EC Joint Research Centre (EC-JRC), Geel",
         "active": true
@@ -3111,7 +3119,7 @@
         "active": false
       },
       "3CLMCLM": {
-        "description": "Columbia, Rep.",
+        "description": "Colombia, Rep.",
         "active": true
       },
       "3CLMIAN": {
@@ -4459,7 +4467,7 @@
         "active": false
       },
       "4CCPGKS": {
-        "description": " State Committee on Standards, Moscow",
+        "description": "State Committee on Standards, Moscow",
         "active": false
       },
       "4CCPGOR": {
@@ -4963,7 +4971,7 @@
         "active": true
       },
       "4UZ UZB": {
-        "description": "Institute Yadernoi Fiziki Uzbekskoi A.N., Tashkent",
+        "description": "Institute of Nuclear Physics, Tashkent",
         "active": true
       },
       "4ZZZDUB": {

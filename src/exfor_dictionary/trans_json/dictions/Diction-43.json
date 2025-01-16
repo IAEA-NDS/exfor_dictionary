@@ -2,6 +2,42 @@
   "43": {
     "diction_name": "NLIB for evaluated libraries",
     "codes": {
+      "0": {
+        "description": "ENDF/B",
+        "active": true
+      },
+      "1": {
+        "description": "ENDF/A",
+        "active": true
+      },
+      "2": {
+        "description": "JEFF",
+        "active": true
+      },
+      "3": {
+        "description": "EFF",
+        "active": false
+      },
+      "4": {
+        "description": "ENDF/HE",
+        "active": true
+      },
+      "5": {
+        "description": "CENDL",
+        "active": true
+      },
+      "6": {
+        "description": "JENDL",
+        "active": true
+      },
+      "17": {
+        "description": "TENDL",
+        "active": true
+      },
+      "18": {
+        "description": "ROSFOND",
+        "active": true
+      },
       "21": {
         "description": "IFPL",
         "active": true

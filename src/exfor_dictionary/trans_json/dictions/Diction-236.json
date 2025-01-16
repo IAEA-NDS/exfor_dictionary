@@ -13,17 +13,22 @@
         "active": true
       },
       "(CUM),SIG/RAT": {
-        "description": "(Cross section ratio (uncertain if cumulative))",
+        "description": "(Cross section ratio (uncertain ifcumulative))",
         "additional_code": "NO",
         "active": true
       },
       "(CUM)/M+,SIG": {
-        "description": "(Cross section, including formation of the product nucleus via isomeric transition, uncertain if cumulative)",
+        "description": "(Cross section, including formation of theproduct nucleus via isomeric transition,uncertain if cumulative)",
+        "additional_code": "B",
+        "active": true
+      },
+      "(CUM)/M-,SIG": {
+        "description": "(Cross section excluding isomerictransition, uncertain if cumulative)",
         "additional_code": "B",
         "active": true
       },
       "(M),INT": {
-        "description": "(Cross section integral over incident energy, uncertain if isomeric transition included)",
+        "description": "(Cross section integral over incidentenergy, uncertain if isomeric transitionincluded)",
         "additional_code": "B*E",
         "active": true
       },
@@ -38,7 +43,7 @@
         "active": true
       },
       ",DA,*,4PI": {
-        "description": "(Angular distribution of particle specified * 4pi)",
+        "description": "(Angular distribution of particle specified *4pi)",
         "additional_code": "B",
         "active": true
       },
@@ -48,37 +53,37 @@
         "active": true
       },
       ",DA,,IPA": {
-        "description": "(Diff.cs integrated over partial angular range)",
+        "description": "(Diff.cs integrated over partial angularrange)",
         "additional_code": "B",
         "active": false
       },
       ",INT": {
-        "description": "(Cross-section integral over incident energy)",
+        "description": "(Cross-section integral over incidentenergy)",
         "additional_code": "B*E",
         "active": true
       },
       ",INT,,RAB": {
-        "description": "(Cross section integral over incident energy times natural isotopic abundance divided by abundance of target of first term of REACTION sum)",
+        "description": "(Cross section integral over incident energytimes natural isotopic abundance divided byabundance of target of first term ofREACTION sum)",
         "additional_code": "B*E",
         "active": true
       },
       ",INT,,RTE": {
-        "description": "(Cross section integral over incident energy * root(E) )",
+        "description": "(Cross section integral over incident energy* root(E) )",
         "additional_code": "BERE",
         "active": true
       },
       ",INT/DA,,4PI": {
-        "description": "(4 pi * integral over incident energy of angular distribution)",
+        "description": "(4 pi * integral over incident energy ofangular distribution)",
         "additional_code": "B*E",
         "active": true
       },
       ",IPA": {
-        "description": "(Diff.cs integrated over partial angular range)",
+        "description": "(Diff.cs integrated over partial angularrange)",
         "additional_code": "B",
         "active": true
       },
       ",IPA,*": {
-        "description": "(Differential cross section integrated overpartial angular range of particle specified)",
+        "description": "(Differential cross section integrated overpartial angular range of particlespecified)",
         "additional_code": "B",
         "active": true
       },
@@ -88,7 +93,7 @@
         "active": true
       },
       ",RI,,LIM": {
-        "description": "(Resonance integral for limited energy range)",
+        "description": "(Resonance integral for limited energyrange)",
         "additional_code": "B",
         "active": true
       },
@@ -98,7 +103,7 @@
         "active": true
       },
       ",RI,,RNV/LIM": {
-        "description": "(Resonance integrate , non 1/v, limited energy range)",
+        "description": "(Resonance integrate , non 1/v, limited energyrange)",
         "additional_code": "B",
         "active": true
       },
@@ -133,7 +138,7 @@
         "active": true
       },
       ",SIF,,TMP": {
-        "description": "(Self-indication function at other than room tmp.)",
+        "description": "(Self-indication function at other than roomtmp.)",
         "additional_code": "NO",
         "active": true
       },
@@ -153,17 +158,17 @@
         "active": true
       },
       ",SIG,,DMN": {
-        "description": "(Cross section divided by target mass number)",
+        "description": "(Cross section divided by target massnumber)",
         "additional_code": "B",
         "active": true
       },
       ",SIG,,HYD": {
-        "description": "(Cross section of hydrogen in hydride molecule)",
+        "description": "(Cross section of hydrogen in hydridemolecule)",
         "additional_code": "B",
         "active": true
       },
       ",SIG,,RAB": {
-        "description": "(Cross section times natural isotopic abundance, divided by abundance of target of first term of REACTION sum)",
+        "description": "(Cross section times natural isotopicabundance, divided by abundance of targetof first term of REACTION sum)",
         "additional_code": "B",
         "active": true
       },
@@ -173,7 +178,7 @@
         "active": true
       },
       ",SIG,,RES/RTE": {
-        "description": "(Cross section * square root(E) at resonance)",
+        "description": "(Cross section * square root(E) atresonance)",
         "additional_code": "BRE",
         "active": true
       },
@@ -208,7 +213,7 @@
         "active": true
       },
       ",SIG,,TMP": {
-        "description": "(Cross section at other than the room temperature erature)",
+        "description": "(Cross section at other than the roomtemperature erature)",
         "additional_code": "B",
         "active": true
       },
@@ -218,22 +223,27 @@
         "active": true
       },
       ",SIG,,TTA": {
-        "description": "(Reaction yield divided by areal density)",
+        "description": "(Cross section in thin target approximation)",
         "additional_code": "B",
         "active": true
       },
       ",SIG,ER": {
-        "description": "(Unspecified evapolation residual production cross section)",
+        "description": "(Unspecified evapolation residual production crosssection)",
         "additional_code": "B",
         "active": true
       },
       ",SIG,ER,SFC": {
-        "description": "(S-factor for unspecified evaporation residue)",
+        "description": "(S-factor for unspecified evaporationresidue)",
         "additional_code": "B*E",
         "active": true
       },
       ",SIG,G": {
         "description": "(Gamma-production cross section)",
+        "additional_code": "B",
+        "active": true
+      },
+      ",SIG,G,RES": {
+        "description": "(Gamma-production cross section atresonance)",
         "additional_code": "B",
         "active": true
       },
@@ -268,7 +278,7 @@
         "active": true
       },
       ",TRN,,TMP": {
-        "description": "(Transmission at other than the room temperature erature)",
+        "description": "(Transmission at other than the roomtemperature erature)",
         "additional_code": "NO",
         "active": true
       },
@@ -298,7 +308,7 @@
         "active": true
       },
       "CN,SIG": {
-        "description": "(Cross section, compound nucleus contribution)",
+        "description": "(Cross section, compound nucleuscontribution)",
         "additional_code": "B",
         "active": true
       },
@@ -308,7 +318,7 @@
         "active": true
       },
       "CON,SIG": {
-        "description": "(Production cross section for continuous gammas)",
+        "description": "(Production cross section for continuousgammas)",
         "additional_code": "B",
         "active": true
       },
@@ -318,12 +328,12 @@
         "active": true
       },
       "CUM,SIG": {
-        "description": "(Cumulative cross section, including formation of product nucleus via radioactive decay and isomeric transition)",
+        "description": "(Cumulative cross section, includingformation of product nucleus viaradioactive decay and isomeric transition)",
         "additional_code": "B",
         "active": true
       },
       "CUM,SIG,,RAB": {
-        "description": "(Cumulative cross section times natural isotopic abundance, divided by abundance of target of first term of REACTION sum)",
+        "description": "(Cumulative cross section times naturalisotopic abundance, divided by abundance oftarget of first term of REACTION sum)",
         "additional_code": "B",
         "active": true
       },
@@ -333,12 +343,12 @@
         "active": true
       },
       "CUM/(M),SIG": {
-        "description": "(Cumulative cross section, but including/ excluding formation of product nucleus via radioactive decay and isomeric transition regarded by compiler as uncertain)",
+        "description": "(Cumulative cross section, but including/excluding formation of product nucleus viaradioactive decay and isomeric transitionregarded by compiler as uncertain)",
         "additional_code": "B",
         "active": true
       },
       "CUM/M-,SIG": {
-        "description": "(Cumulative cross section, including formation of product nucleus via radio- active decay, but excluding isomeric transition)",
+        "description": "(Cumulative cross section, includingformation of product nucleus via radio-active decay, but excluding isomeric transition)",
         "additional_code": "B",
         "active": true
       },
@@ -348,12 +358,12 @@
         "active": false
       },
       "DI,SGV": {
-        "description": "(Thermonuclear reaction rate, direct interaction contribution)",
+        "description": "(Thermonuclear reaction rate, directinteraction contribution)",
         "additional_code": "B*V",
         "active": true
       },
       "DI,SIG": {
-        "description": "(Cross section, direct interaction contribution)",
+        "description": "(Cross section, direct interactioncontribution)",
         "additional_code": "B",
         "active": true
       },
@@ -363,7 +373,7 @@
         "active": true
       },
       "DIS,SIG": {
-        "description": "(Production cross section for discrete gammas)",
+        "description": "(Production cross section for discretegammas)",
         "additional_code": "B",
         "active": true
       },
@@ -378,27 +388,22 @@
         "active": true
       },
       "DL/GRP,SIG": {
-        "description": "(Cross section of delayed products for given half-life group)",
+        "description": "(Cross section of delayed products for givenhalf-life group)",
         "additional_code": "B",
         "active": true
       },
       "DL/GRP,SIG,N": {
-        "description": "(Del.neutron emission cs for given half-life group)",
+        "description": "(Del.neutron emission cs for given half-lifegroup)",
         "additional_code": "B",
         "active": true
       },
       "EM,SIG": {
-        "description": "(Emission cross section excluding elastic scattering)",
-        "additional_code": "B",
-        "active": true
-      },
-      "EXL,DA": {
-        "description": "(Angular differential cross section including excitation to low-lying levels)",
+        "description": "(Emission cross section excluding elasticscattering)",
         "additional_code": "B",
         "active": true
       },
       "EXL,SIG": {
-        "description": "(Cross section including excitation to low-lying levels)",
+        "description": "(Cross section including excitation tolow-lying levels)",
         "additional_code": "B",
         "active": true
       },
@@ -408,12 +413,12 @@
         "active": true
       },
       "FA/COH,SIG": {
-        "description": "(Free-atom coherent scattering cross section)",
+        "description": "(Free-atom coherent scattering crosssection)",
         "additional_code": "B",
         "active": true
       },
       "FA/INC,SIG": {
-        "description": "(Free-atom incoherent scattering cross section)",
+        "description": "(Free-atom incoherent scattering crosssection)",
         "additional_code": "B",
         "active": true
       },
@@ -438,27 +443,42 @@
         "active": false
       },
       "IND/(M),SIG": {
-        "description": "(Independent cross section, but including/excluding formation via isomeric transition regarded by compiler as uncertain)",
+        "description": "(Independent cross section, butincluding/excluding formation via isomerictransition regarded by compiler asuncertain)",
         "additional_code": "B",
         "active": false
       },
       "IND/M+,SIG": {
-        "description": "(Independent cross section,including formation via isomeric transition)",
+        "description": "(Independent cross section, includingformation via isomeric transition)",
         "additional_code": "B",
         "active": false
       },
+      "L-,SIG": {
+        "description": "(Cross section excluding quasi-metastablestate production)",
+        "additional_code": "B",
+        "active": true
+      },
+      "L-,SIG,,SFC": {
+        "description": "(S-factor excluding quasi-metastable stateproduction)",
+        "additional_code": "B*E",
+        "active": true
+      },
       "LON,SIG,,DSP": {
-        "description": "(Cs differencial (longitudinal spins, parallel - antiparallel))",
+        "description": "(Cs differencial (longitudinal spins, parallel -antiparallel))",
         "additional_code": "B",
         "active": true
       },
       "M+,RI": {
-        "description": "(Resonance integral, including formation of the product nucleus via isomeric transition)",
+        "description": "(Resonance integral, including formation ofthe product nucleus via isomerictransition)",
         "additional_code": "B",
         "active": true
       },
       "M+,SIG": {
-        "description": "(Cross section, including formation of the product nucleus via isomeric transition)",
+        "description": "(Cross section, including formation of theproduct nucleus via isomeric transition)",
+        "additional_code": "B",
+        "active": true
+      },
+      "M+,SIG,,RAB": {
+        "description": "(Cross section times natural isotopicabundance, divided by abundance of targetof first term of REACTION sum includingisomeric transition)",
         "additional_code": "B",
         "active": true
       },
@@ -468,7 +488,7 @@
         "active": true
       },
       "M-,SIG": {
-        "description": "(Cross section, excluding formation of the product nucleus via isomeric transition)",
+        "description": "(Cross section, excluding formation of theproduct nucleus via isomeric transition)",
         "additional_code": "B",
         "active": false
       },
@@ -478,7 +498,7 @@
         "active": true
       },
       "NUM,SIG,*": {
-        "description": "(Cs for production of N product particles specified )",
+        "description": "(Cs for production of N product particlesspecified )",
         "additional_code": "B",
         "active": true
       },
@@ -488,7 +508,7 @@
         "active": true
       },
       "PAR,SIG,G,RAB": {
-        "description": "(Partial cross section times natural isotopic abundance, divided by abundance of target of first term of REACTION sum)",
+        "description": "(Partial cross section times naturalisotopic abundance, divided by abundance oftarget of first term of REACTION sum)",
         "additional_code": "B",
         "active": true
       },
@@ -503,7 +523,7 @@
         "active": false
       },
       "SEQ,SIG": {
-        "description": "(Partial cross section for specified sequence of outgoing particles)",
+        "description": "(Partial cross section for specifiedsequence of outgoing particles)",
         "additional_code": "B",
         "active": true
       },
@@ -523,7 +543,7 @@
         "active": true
       },
       "TRS,SIG,,DSP": {
-        "description": "(Cs differencial (transv.spins, parallel - antiparallel))",
+        "description": "(Cs differencial (transv.spins, parallel -antiparallel))",
         "additional_code": "B",
         "active": true
       },
@@ -533,12 +553,12 @@
         "active": false
       },
       "UNW,INT": {
-        "description": "(Production cross section integral, not weighted by outgoing particle multiplicity)",
+        "description": "(Production cross section integral, notweighted by outgoing particle multiplicity)",
         "additional_code": "B*E",
         "active": true
       },
       "UNW,SIG": {
-        "description": "(Production cross section, not weighted by multiplicity of outgoing particle)",
+        "description": "(Production cross section, not weighted bymultiplicity of outgoing particle)",
         "additional_code": "B",
         "active": true
       },
@@ -548,12 +568,12 @@
         "active": true
       },
       "CN/PAR,SIG,,RES": {
-        "description": "(Part. c/s, compound nucleus contrib.at resonance)",
+        "description": "(Part. c/s, compound nucleus contrib.atresonance)",
         "additional_code": "B",
         "active": true
       },
       "CN/SEQ/PAR,SIG": {
-        "description": "(Partial cross section for specified sequence of outgoing particles, compound nuclear contribution)",
+        "description": "(Partial cross section for specifiedsequence of outgoing particles, compoundnuclear contribution)",
         "additional_code": "B",
         "active": true
       },
@@ -563,47 +583,47 @@
         "active": true
       },
       "EM/PAR,SIG": {
-        "description": "(Partial emission cross section excluding elastic scattering)",
+        "description": "(Partial emission cross section excludingelastic scattering)",
         "additional_code": "B",
         "active": true
       },
       "EP,SIG": {
-        "description": "(Electric multipole component of cross section for polarity specified)",
+        "description": "(Electric multipole component of crosssection for polarity specified)",
         "additional_code": "B",
         "active": true
       },
       "EP,SIG,,SFC": {
-        "description": "(S-factor for electric multipole component of cross section for polarity specified)",
+        "description": "(S-factor for electric multipole componentof cross section for polarity specified)",
         "additional_code": "B*E",
         "active": true
       },
       "EP/PAR,INT": {
-        "description": "(Electric multipole component of partial cross section integral over incident energy for polarity specified)",
+        "description": "(Electric multipole component of partialcross section integral over incident energyfor polarity specified)",
         "additional_code": "B*E",
         "active": true
       },
       "EP/PAR,SIG": {
-        "description": "(Electric multipole component of partial cross section for polarity specified)",
+        "description": "(Electric multipole component of partialcross section for polarity specified)",
         "additional_code": "B",
         "active": true
       },
       "EP/PAR,SIG,,SFC": {
-        "description": "(S-factor for electric polarity given, partial)",
+        "description": "(S-factor for electric polarity given,partial)",
         "additional_code": "B*E",
         "active": true
       },
       "ISP,SIG": {
-        "description": "(Cross-section, partial with respect to secondary energy of intermediate product)",
+        "description": "(Cross-section, partial with respect tosecondary energy of intermediate product)",
         "additional_code": "B",
         "active": true
       },
       "ISP/PAR,SIG": {
-        "description": "(Cross-section, partial with respect to secondary energy of final and intermediate products)",
+        "description": "(Cross-section, partial with respect tosecondary energy of final and intermediateproducts)",
         "additional_code": "B",
         "active": true
       },
       "MP,SIG": {
-        "description": "(Magnetic multipole component of cross section for polarity specified)",
+        "description": "(Magnetic multipole component of crosssection for polarity specified)",
         "additional_code": "B",
         "active": true
       },
@@ -623,27 +643,27 @@
         "active": false
       },
       "PAR,INT": {
-        "description": "(Cs integral over incident energy f.given level)",
+        "description": "(Cs integral over incident energy f.givenlevel)",
         "additional_code": "B*E",
         "active": true
       },
       "PAR,INT/DA": {
-        "description": "(Integral over incident energy of partial angular distribution)",
+        "description": "(Integral over incident energy of partialangular distribution)",
         "additional_code": "BEDA",
         "active": true
       },
       "PAR,INT/DA,*": {
-        "description": "(Integral over incident energy of partial angular distribution of particle specified )",
+        "description": "(Integral over incident energy of partialangular distribution of particle specified )",
         "additional_code": "BEDA",
         "active": true
       },
       "PAR,INT/DA,*,4PI": {
-        "description": "(4 pi * integral over incident energy of partial angular distribution of particle specified )",
+        "description": "(4 pi * integral over incident energy ofpartial angular distribution of particle specified )",
         "additional_code": "B*E",
         "active": true
       },
       "PAR,INT/DA,,4PI": {
-        "description": "(4 pi * integral over incident energy of partial angular distribution)",
+        "description": "(4 pi * integral over incident energy ofpartial angular distribution)",
         "additional_code": "B*E",
         "active": true
       },
@@ -663,7 +683,7 @@
         "active": true
       },
       "PAR,SIG,*": {
-        "description": "(Partial cross section for particle specified)",
+        "description": "(Partial cross section for particlespecified)",
         "additional_code": "B",
         "active": true
       },
@@ -688,7 +708,7 @@
         "active": true
       },
       "PAR,SIG,G,RES": {
-        "description": "(Partial gamma-production cross section at resonance)",
+        "description": "(Partial gamma-production cross section atresonance)",
         "additional_code": "B",
         "active": true
       },
@@ -703,7 +723,7 @@
         "active": true
       },
       "PAR/CUM,SIG,G": {
-        "description": "(Partial cumulative gamma production cross section)",
+        "description": "(Partial cumulative gamma production crosssection)",
         "additional_code": "B",
         "active": true
       },
@@ -718,22 +738,22 @@
         "active": false
       },
       "SEQ/PAR,SIG": {
-        "description": "(Partial cross section of the partial csspecified by sequence of outgoing particles)",
+        "description": "(Partial cross section of the partial csspecified by sequence of outgoingparticles)",
         "additional_code": "B",
         "active": true
       },
       "(CUM),TTY,,EOB": {
-        "description": "(EOB thick target yield, uncertain if cumulative)",
+        "description": "(EOB thick target yield, uncertain ifcumulative)",
         "additional_code": "TTY",
         "active": true
       },
       "(CUM),TTY,,PHY": {
-        "description": "(Physical thick target yield, uncertainty if cumulative)",
+        "description": "(Physical thick target yield, uncertainty ifcumulative)",
         "additional_code": "TTT",
         "active": true
       },
       "(M),TTY,,EOB": {
-        "description": "(End-of-bombardment thick/thin target yield, uncertain if isomeric transition included)",
+        "description": "(End-of-bombardment thick/thin target yield,uncertain if isomeric transition included)",
         "additional_code": "TTY",
         "active": true
       },
@@ -743,27 +763,27 @@
         "active": true
       },
       "(M),TTY,,SAT": {
-        "description": "(Saturation thick/thin-target yield, uncertain if isomeric transition included)",
+        "description": "(Saturation thick/thin-target yield,uncertain if isomeric transition included)",
         "additional_code": "TTY",
         "active": true
       },
       ",MLT,*,TT": {
-        "description": "(Thick target multiplicity of particle specified)",
+        "description": "(Thick target multiplicity of particlespecified)",
         "additional_code": "YLD",
         "active": true
       },
       ",MLT,,TT": {
-        "description": "(Outgoing particle or radiation multiplicity for thick target, number of particles per incident projectile)",
+        "description": "(Outgoing particle or radiation multiplicityfor thick target, number of particles perincident projectile)",
         "additional_code": "YLD",
         "active": true
       },
       ",MLT,,TT/CH": {
-        "description": "(Multiplicity for thick target per elect. charge)",
+        "description": "(Multiplicity for thick target per elect.charge)",
         "additional_code": "YLDC",
         "active": true
       },
       ",MLT/DA,,TT/CH": {
-        "description": "(Part.multiplicity f.thick target d/dA per electric charge)",
+        "description": "(Part.multiplicity f.thick target d/dA per electriccharge)",
         "additional_code": "YDAC",
         "active": true
       },
@@ -773,7 +793,7 @@
         "active": true
       },
       ",MLT/DA/DE,,TT": {
-        "description": "(Particle multiplicity f.thick target d2/dA/dE)",
+        "description": "(Particle multiplicity f.thick targetd2/dA/dE)",
         "additional_code": "YAE",
         "active": true
       },
@@ -788,12 +808,12 @@
         "active": true
       },
       ",MLT/DE,,TT/NPD": {
-        "description": "(Particle multiplicity for thick targetd/dE normalized to probability distribution)",
+        "description": "(Particle multiplicity for thick target d/dEnormalized to probability distribution)",
         "additional_code": "1/E",
         "active": true
       },
       ",MLT/IPA/DE,,TT/NPD": {
-        "description": "(Multiplicity d2/dA/dE for thick target integrated over angular range normalized to probability distribution)",
+        "description": "(Multiplicity d2/dA/dE for thick targetintegrated over angular range normalized toprobability distribution)",
         "additional_code": "1/E",
         "active": true
       },
@@ -803,7 +823,7 @@
         "active": true
       },
       ",PY,,TT/CH": {
-        "description": "(Thick target product yield per electric charge)",
+        "description": "(Thick target product yield per electriccharge)",
         "additional_code": "YLDC",
         "active": true
       },
@@ -813,7 +833,7 @@
         "active": true
       },
       ",PY/DA,,TT/CH": {
-        "description": "(Thick target production yield d/dA per electric charge)",
+        "description": "(Thick target production yield d/dA per electriccharge)",
         "additional_code": "YDAC",
         "active": true
       },
@@ -823,7 +843,7 @@
         "active": true
       },
       ",PY/DA/DE,,TT/CH": {
-        "description": "(Thick target production yield d/dA/dE per electric charge)",
+        "description": "(Thick target production yield d/dA/dE per electriccharge)",
         "additional_code": "YAEC",
         "active": true
       },
@@ -833,7 +853,7 @@
         "active": true
       },
       ",PY/DE,,TT/NPD": {
-        "description": "(Energy differential product yield for thick target normalized to probability distribution)",
+        "description": "(Energy differential product yield for thicktarget normalized to probabilitydistribution)",
         "additional_code": "1/E",
         "active": true
       },
@@ -843,7 +863,7 @@
         "active": true
       },
       ",PY/IPA/DE,,TT": {
-        "description": "(Double differential product yield for thick target integrated over angular range)",
+        "description": "(Double differential product yield for thicktarget integrated over angular range)",
         "additional_code": "YDE",
         "active": true
       },
@@ -853,7 +873,7 @@
         "active": false
       },
       ",TTY,,(PHY)": {
-        "description": "(Thick/thin-target yield, uncertain if it is physical yield)",
+        "description": "(Thick/thin-target yield, uncertain if it isphysical yield)",
         "additional_code": "TTT",
         "active": true
       },
@@ -878,7 +898,7 @@
         "active": false
       },
       ",TTY/DEN,,PHY": {
-        "description": "(Physical thick target yield differencial by incident energy)",
+        "description": "(Physical thick target yield differencial by incidentenergy)",
         "additional_code": "TTTE",
         "active": true
       },
@@ -888,7 +908,7 @@
         "active": false
       },
       ",TTY/MLT/DA/DE": {
-        "description": "(Double-differential thick target yield multiplicity, given as number of particles as function of incident beam current)",
+        "description": "(Double-differential thick target yieldmultiplicity, given as number of particles asfunction of incident beam current)",
         "additional_code": "YAEC",
         "active": false
       },
@@ -908,7 +928,7 @@
         "active": false
       },
       "CUM,TTY,,(PHY)": {
-        "description": "(Cumulative thick target yield, uncertainty if physical)",
+        "description": "(Cumulative thick target yield, uncertainty ifphysical)",
         "additional_code": "TTT",
         "active": true
       },
@@ -918,7 +938,7 @@
         "active": true
       },
       "CUM,TTY,,PHY": {
-        "description": "(Physical thick/thin-target yield, cumulative)",
+        "description": "(Physical thick/thin-target yield,cumulative)",
         "additional_code": "TTT",
         "active": true
       },
@@ -933,7 +953,7 @@
         "active": true
       },
       "IND,TTY,,DT": {
-        "description": "(Independent production thick/thin-target yld (unsat.))",
+        "description": "(Independent production thick/thin-target yld(unsat.))",
         "additional_code": "TTY",
         "active": false
       },
@@ -943,7 +963,7 @@
         "active": false
       },
       "IND,TTY,,PHY": {
-        "description": "(Physical thick/thin-target yield, independent)",
+        "description": "(Physical thick/thin-target yield,independent)",
         "additional_code": "TTT",
         "active": false
       },
@@ -958,27 +978,27 @@
         "active": false
       },
       "M+,TTY,,(PHY)": {
-        "description": "(Thick target yield including isomeric transition, uncertain if physical)",
+        "description": "(Thick target yield including isomerictransition, uncertain if physical)",
         "additional_code": "TTT",
         "active": true
       },
       "M+,TTY,,EOB": {
-        "description": "(EOB thick target yield, including isomeric transition)",
+        "description": "(EOB thick target yield, including isomerictransition)",
         "additional_code": "TTY",
         "active": true
       },
       "M+,TTY,,PHY": {
-        "description": "(Physical thick target yield including isomeric transition )",
+        "description": "(Physical thick target yield including isomerictransition )",
         "additional_code": "TTT",
         "active": true
       },
       "M+,TTY,,SAT": {
-        "description": "(Saturation thick target yield including isomeric transition )",
+        "description": "(Saturation thick target yield including isomerictransition )",
         "additional_code": "TTY",
         "active": true
       },
       "M+,TTY/DEN,,PHY": {
-        "description": "(Physical thick target yield differential by incident energy including formation by partial feeding via isomeric transition)",
+        "description": "(Physical thick target yield differential byincident energy including formation bypartial feeding via isomeric transition)",
         "additional_code": "TTTE",
         "active": true
       },
@@ -998,7 +1018,7 @@
         "active": false
       },
       "PAR,MLT,*,TT": {
-        "description": "(Partial multiplicity of particle specified f. thick target )",
+        "description": "(Partial multiplicity of particle specified f. thicktarget )",
         "additional_code": "YLD",
         "active": true
       },
@@ -1008,12 +1028,12 @@
         "active": true
       },
       "PAR,MLT,,TT/CH": {
-        "description": "(Partial thick target mulit. per electric charge)",
+        "description": "(Partial thick target mulit. per electriccharge)",
         "additional_code": "YLDC",
         "active": true
       },
       "PAR,MLT,G,TT/CH": {
-        "description": "(Ptl.thick target gamma multiplicity per electric charge)",
+        "description": "(Ptl.thick target gamma multiplicity per electriccharge)",
         "additional_code": "YLDC",
         "active": true
       },
@@ -1023,7 +1043,7 @@
         "active": true
       },
       "PAR,PY,,TT/CH": {
-        "description": "(Partial product yield for thick target per electric charge)",
+        "description": "(Partial product yield for thick target perelectric charge)",
         "additional_code": "YLDC",
         "active": true
       },
@@ -1058,7 +1078,7 @@
         "active": true
       },
       ",ALF,,RES": {
-        "description": "(Capture-to-fission (alpha) ratio at resonance)",
+        "description": "(Capture-to-fission (alpha) ratio atresonance)",
         "additional_code": "NO",
         "active": true
       },
@@ -1128,7 +1148,7 @@
         "active": true
       },
       ",NU/DA/DE,LF+HF/N": {
-        "description": "(Differential prompt fission neutronmultiplicity with respect to outgoing anglebetween light and heavy fission fragment andenergy of neutron)",
+        "description": "(Differential prompt fission neutronmultiplicity with respect to outgoing anglebetween light and heavy fission fragmentand energy of neutron)",
         "additional_code": "FYAE",
         "active": true
       },
@@ -1143,7 +1163,7 @@
         "active": true
       },
       ",NU/DE,,RRE": {
-        "description": "(Differential fission neutron multiplicity with respect to outgoing neutron energy relative to square root(E))",
+        "description": "(Differential fission neutron multiplicitywith respect to outgoing neutron energyrelative to square root(E))",
         "additional_code": "FYET",
         "active": true
       },
@@ -1153,7 +1173,7 @@
         "active": true
       },
       ",PN/DE": {
-        "description": "(Energy spectrum of delayed neutrons emitted by specific precursor)",
+        "description": "(Energy spectrum of delayed neutrons emittedby specific precursor)",
         "additional_code": "1/E",
         "active": true
       },
@@ -1163,27 +1183,32 @@
         "active": true
       },
       "DL/CUM,NU": {
-        "description": "(Cumulative delayed neutron yield from an individual precursor, including formation of product nucleus via radioactive decay and isomeric transition)",
+        "description": "(Cumulative delayed neutron yield from anindividual precursor, including formationof product nucleus via radioactive decayand isomeric transition)",
         "additional_code": "FY",
         "active": true
       },
       "DL/GRP,NU": {
-        "description": "(Delayed neutron yield for given half-life group)",
+        "description": "(Delayed neutron yield for given half-lifegroup)",
         "additional_code": "FY",
         "active": true
       },
       "DL/GRP/PAR,NU": {
-        "description": "(Partial delayed neutron yield for given half-life group)",
+        "description": "(Partial delayed neutron yield for given half-lifegroup)",
         "additional_code": "FY",
         "active": true
       },
       "DL/IND,NU": {
-        "description": "(Independent delayed neutron yield from an individual precursor)",
+        "description": "(Independent delayed neutron yield from anindividual precursor)",
         "additional_code": "FY",
         "active": true
       },
+      "ISP,DA/DA,*/*": {
+        "description": "(Double differential cross sectiond2/dA(*)/dA(*), partial for intermediateproduct)",
+        "additional_code": "DA2",
+        "active": true
+      },
       "ISP/PR/FRG,NU": {
-        "description": "(Multiplicity of prompt neutrons from fragment specified, partial for intermediate product)",
+        "description": "(Multiplicity of prompt neutrons fromfragment specified, partial forintermediate product)",
         "additional_code": "FY",
         "active": true
       },
@@ -1193,7 +1218,7 @@
         "active": true
       },
       "NUM,PN": {
-        "description": "(Probab.for the emission of N delayed neutrons)",
+        "description": "(Probab.for the emission of N delayedneutrons)",
         "additional_code": "NO",
         "active": true
       },
@@ -1238,7 +1263,7 @@
         "active": true
       },
       "PAR,MLT,*,RES": {
-        "description": "(Partial multiplicity of particle specified at resonance)",
+        "description": "(Partial multiplicity of particle specified atresonance)",
         "additional_code": "MLT",
         "active": true
       },
@@ -1253,17 +1278,17 @@
         "active": true
       },
       "PAR,MLT/DA,*": {
-        "description": "(Partial multiplicity d/dA for particle specified)",
+        "description": "(Partial multiplicity d/dA for particlespecified)",
         "additional_code": "MDA",
         "active": true
       },
       "PAR,MLT/DA,,TT/CH": {
-        "description": "(Ptl.thick target multiplicity d/dA per electric charge)",
+        "description": "(Ptl.thick target multiplicity d/dA per electriccharge)",
         "additional_code": "YDAC",
         "active": true
       },
       "PAR,MLT/DA,G,TT/CH": {
-        "description": "(Ptl.thick target gamma multiplicity d/dA per electric charge )",
+        "description": "(Ptl.thick target gamma multiplicity d/dA per electriccharge )",
         "additional_code": "YDAC",
         "active": true
       },
@@ -1273,7 +1298,7 @@
         "active": true
       },
       "PAR,PN": {
-        "description": "(Partial delayed neutron emission probability)",
+        "description": "(Partial delayed neutron emissionprobability)",
         "additional_code": "NO",
         "active": true
       },
@@ -1308,27 +1333,27 @@
         "active": true
       },
       "PR,NU/DA": {
-        "description": "(Differential prompt fission neutron multiplicity with respect to outgoing angle of neutron)",
+        "description": "(Differential prompt fission neutronmultiplicity with respect to outgoing angleof neutron)",
         "additional_code": "FYDA",
         "active": true
       },
       "PR,NU/DA,,RSD": {
-        "description": "(Differential prompt fission neutron multiplicity with respect to outgoing angle of neutron relative to 90 deg)",
+        "description": "(Differential prompt fission neutronmultiplicity with respect to outgoing angleof neutron relative to 90 deg)",
         "additional_code": "NO",
         "active": true
       },
       "PR,NU/DA,N+*F": {
-        "description": "(Differential prompt fission neutron multiplicity with respect to outgoing angle between neutron and fragment specified)",
+        "description": "(Differential prompt fission neutronmultiplicity with respect to outgoing anglebetween neutron and fragment specified)",
         "additional_code": "FYDA",
         "active": true
       },
       "PR,NU/DA/DE,,RS0": {
-        "description": "(Differential prompt fission neutron multiplicity with respect to outgoing angle and energy of neutron relative to 0 deg)",
+        "description": "(Differential prompt fission neutronmultiplicity with respect to outgoing angleand energy of neutron relative to 0 deg)",
         "additional_code": "NO",
         "active": true
       },
       "PR,NU/DA/DE,N+*F/N": {
-        "description": "(Differential prompt neutron multiplicity with respect to angle between neutron and fission fragment specified and energy of neutron)",
+        "description": "(Differential prompt neutron multiplicitywith respect to angle between neutron andfission fragment specified and energy ofneutron)",
         "additional_code": "FYAE",
         "active": true
       },
@@ -1343,42 +1368,42 @@
         "active": true
       },
       "PR,NU/DE,,NPD": {
-        "description": "(Prompt fission neutron spectrum in probability)",
+        "description": "(Prompt fission neutron spectrum inprobability)",
         "additional_code": "1/E",
         "active": true
       },
       "PR,NU/DE,,RRE": {
-        "description": "(Differential prompt fission neutron multiplicity with respect to outgoing neutron energy relative to square root(E))",
+        "description": "(Differential prompt fission neutronmultiplicity with respect to outgoingneutron energy relative to square root(E))",
         "additional_code": "FYET",
         "active": true
       },
       "PR,NU/TKE": {
-        "description": "(Prompt neutron multiplicity for a given total kinetic energy)",
+        "description": "(Prompt neutron multiplicity for a giventotal kinetic energy)",
         "additional_code": "FY",
         "active": true
       },
       "PR/FRG,NU": {
-        "description": "(Multiplicity of prompt neutrons from the fragment specified)",
+        "description": "(Multiplicity of prompt neutrons from thefragment specified)",
         "additional_code": "FY",
         "active": true
       },
       "PR/FRG,NU,HF": {
-        "description": "(Multiplicity of prompt fission neutrons emitted from the heavy fragment)",
+        "description": "(Multiplicity of prompt fission neutronsemitted from the heavy fragment)",
         "additional_code": "FY",
         "active": true
       },
       "PR/FRG,NU,LF": {
-        "description": "(Multiplicity of prompt fission neutrons emitted from the light fragment)",
+        "description": "(Multiplicity of prompt fission neutronsemitted from the light fragment)",
         "additional_code": "FY",
         "active": true
       },
       "PR/FRG,NU/TKE": {
-        "description": "(Multiplicity of prompt fission neutrons emitted from the fragment specified at a given total kinetic energy)",
+        "description": "(Multiplicity of prompt fission neutronsemitted from the fragment specified at agiven total kinetic energy)",
         "additional_code": "FY",
         "active": true
       },
       "PR/NUM,NU": {
-        "description": "(Probability for emission of N prompt neutrons)",
+        "description": "(Probability for emission of N promptneutrons)",
         "additional_code": "NO",
         "active": true
       },
@@ -1403,27 +1428,32 @@
         "active": true
       },
       "PR/TER,NU/DA,N+*F": {
-        "description": "(Differential prompt fission neutron multiplicity with respect to outgoing angle between neutron and fragment specified for ternary fission)",
+        "description": "(Differential prompt fission neutronmultiplicity with respect to outgoing anglebetween neutron and fragment specified forternary fission)",
         "additional_code": "FYDA",
         "active": true
       },
       "PRE,MLT,G": {
-        "description": "(Pre-neutron emisson fission gamma multiplicity)",
+        "description": "(Pre-neutron emisson fission gammamultiplicity)",
         "additional_code": "FY",
         "active": false
       },
       "PRE/PR,NU": {
-        "description": "(Prompt neutron multiplicity for a given primary fragment)",
+        "description": "(Prompt neutron multiplicity for a givenprimary fragment)",
+        "additional_code": "FY",
+        "active": true
+      },
+      "PRE/PR,NU/TKE": {
+        "description": "",
         "additional_code": "FY",
         "active": true
       },
       "PRE/PR/FRG,NU": {
-        "description": "(Multiplicity of prompt neutrons from the primary fragment specified)",
+        "description": "(Multiplicity of prompt neutrons from theprimary fragment specified)",
         "additional_code": "FY",
         "active": true
       },
       "SEC/PR,NU": {
-        "description": "(Prompt neutron multiplicity for a given secondary fragment)",
+        "description": "(Prompt neutron multiplicity for a givensecondary fragment)",
         "additional_code": "FY",
         "active": true
       },
@@ -1452,6 +1482,11 @@
         "additional_code": "L",
         "active": true
       },
+      "BA/INC,AMP": {
+        "description": "(Bound-atom incoherent scattering length)",
+        "additional_code": "L",
+        "active": true
+      },
       "BA/PAR,AMP": {
         "description": "(Partial bound-atom scattering length)",
         "additional_code": "L",
@@ -1463,7 +1498,7 @@
         "active": true
       },
       "COH/IM,AMP": {
-        "description": "(Coherent scattering length (imaginary part))",
+        "description": "(Coherent scattering length (imaginarypart))",
         "additional_code": "L",
         "active": true
       },
@@ -1488,12 +1523,12 @@
         "active": true
       },
       ",PY/DA": {
-        "description": "(Differential product yield with respect to angle of outgoing particle)",
+        "description": "(Differential product yield with respect toangle of outgoing particle)",
         "additional_code": "MDA",
         "active": true
       },
       ",PY/DA/DE": {
-        "description": "(Differential product yield with respect to angle and energy of outgoing particle)",
+        "description": "(Differential product yield with respect toangle and energy of outgoing particle)",
         "additional_code": "MAE",
         "active": true
       },
@@ -1503,7 +1538,7 @@
         "active": true
       },
       "CUM,PY,,TT": {
-        "description": "(Cumulative product yield for a thick target)",
+        "description": "(Cumulative product yield for a thicktarget)",
         "additional_code": "YLD",
         "active": true
       },
@@ -1513,7 +1548,7 @@
         "active": false
       },
       "NUM,PY": {
-        "description": "(Probab.for the production of N reaction products)",
+        "description": "(Probab.for the production of N reactionproducts)",
         "additional_code": "NO",
         "active": true
       },
@@ -1533,22 +1568,22 @@
         "active": true
       },
       ",DA,*+*": {
-        "description": "(Angular distribution of particle pair specified)",
+        "description": "(Angular distribution of particle pairspecified)",
         "additional_code": "DA",
         "active": true
       },
       ",DA,*+FF,RSD": {
-        "description": "(Ang.distribution of specified particle vs.fission fragment ,relative 90 deg.)",
+        "description": "(Ang.distribution of specified particle vs.fission fragment ,relative 90deg.)",
         "additional_code": "NO",
         "active": true
       },
       ",DA,*,RS": {
-        "description": "(Angular distribution of particle specified * 4pi/Sigma)",
+        "description": "(Angular distribution of particle specified *4pi/Sigma)",
         "additional_code": "NO",
         "active": true
       },
       ",DA,*,RSD": {
-        "description": "(Angular distribution of particle specified relative 90 deg.)",
+        "description": "(Angular distribution of particle specified relative 90deg.)",
         "additional_code": "NO",
         "active": true
       },
@@ -1558,22 +1593,22 @@
         "active": true
       },
       ",DA,*,TT/RSD": {
-        "description": "(Ang.distribution of particle specified relative 90deg.f.thick target )",
+        "description": "(Ang.distribution of particle specified relative 90deg.f.thicktarget )",
         "additional_code": "NO",
         "active": true
       },
       ",DA,,ASY": {
-        "description": "(Asymmetry of distribution of outgoing particles)",
+        "description": "(Asymmetry of distribution of outgoingparticles)",
         "additional_code": "NO",
         "active": false
       },
       ",DA,,MOT": {
-        "description": "(Angular distribution, relative to relativistic scattering by point nucleus (Mott scattering))",
+        "description": "(Angular distribution, relative torelativistic scattering by point nucleus(Mott scattering))",
         "additional_code": "NO",
         "active": true
       },
       ",DA,,RES": {
-        "description": "(Differential cross section d/dA at resonance)",
+        "description": "(Differential cross section d/dA atresonance)",
         "additional_code": "DA",
         "active": true
       },
@@ -1583,7 +1618,7 @@
         "active": true
       },
       ",DA,,RS/TMP": {
-        "description": "(Differential c/s d/dA * 4pi/Sigma at other than room temperature erature)",
+        "description": "(Differential c/s d/dA * 4pi/Sigma at otherthan room temperature erature)",
         "additional_code": "NO",
         "active": true
       },
@@ -1598,12 +1633,12 @@
         "active": true
       },
       ",DA,,RTH": {
-        "description": "(Differential cs, coeff. for a sum in power of sine**2 )",
+        "description": "(Differential cs, coeff. for asum in power of sine**2 )",
         "additional_code": "NO",
         "active": true
       },
       ",DA,,TMP": {
-        "description": "(Diff.cross section d/dA at other than room temperature .)",
+        "description": "(Diff.cross section d/dA at other than roomtemperature .)",
         "additional_code": "DA",
         "active": true
       },
@@ -1613,27 +1648,27 @@
         "active": true
       },
       ",DA,FF,RSD/RES": {
-        "description": "(Angular distribution of fission fragments relative to 90 deg. at resonance)",
+        "description": "(Angular distribution of fission fragmentsrelative to 90 deg. at resonance)",
         "additional_code": "NO",
         "active": true
       },
       ",DA/TYA,P": {
-        "description": "(Diff.cross section, Treiman-Yang distribution for plane defined by incident projectile and outgoing proton)",
+        "description": "(Diff.cross section, Treiman-Yangdistribution for plane defined by incidentprojectile and outgoing proton)",
         "additional_code": "DA",
         "active": true
       },
       ",INT/DA": {
-        "description": "(Integral over incident energy of angular distribution)",
+        "description": "(Integral over incident energy of angulardistribution)",
         "additional_code": "BEDA",
         "active": true
       },
       ",INT/DA,,RES": {
-        "description": "(Integral over incident energy of angle distribution at res.)",
+        "description": "(Integral over incident energy of angle distribution atres.)",
         "additional_code": "BED.",
         "active": true
       },
       ",INT/DE,RSD": {
-        "description": "(Integral over incident energy of energy spectrum of residual nucleus)",
+        "description": "(Integral over incident energy of energyspectrum of residual nucleus)",
         "additional_code": "B",
         "active": true
       },
@@ -1643,7 +1678,7 @@
         "active": true
       },
       "CUM,DA,,RSD": {
-        "description": "(Diff.c/s d/dA relative to 90 deg., cumulative)",
+        "description": "(Diff.c/s d/dA relative to 90 deg.,cumulative)",
         "additional_code": "NO",
         "active": true
       },
@@ -1653,7 +1688,12 @@
         "active": true
       },
       "EM,DA": {
-        "description": "(Differential emission cross section excluding elastic scattering)",
+        "description": "(Differential emission cross sectionexcluding elastic scattering)",
+        "additional_code": "DA",
+        "active": true
+      },
+      "EXL,DA": {
+        "description": "(Angular differential cross sectionincluding excitation to low-lying levels)",
         "additional_code": "DA",
         "active": true
       },
@@ -1663,62 +1703,62 @@
         "active": false
       },
       "PRE,DA,FF,RSD": {
-        "description": "(Angular distribution of primary fission fragment relative to 90 deg)",
+        "description": "(Angular distribution of primary fissionfragment relative to 90 deg)",
         "additional_code": "NO",
         "active": true
       },
       "PRE,DA,LF": {
-        "description": "(Angular distribution of primary light fission fragment)",
+        "description": "(Angular distribution of primary lightfission fragment)",
         "additional_code": "DA",
         "active": true
       },
       "SEQ,DA": {
-        "description": "(Diff.cs for partial reaction specified by sequence of outgoing particles)",
+        "description": "(Diff.cs for partial reaction specified bysequence of outgoing particles)",
         "additional_code": "DA",
         "active": false
       },
       "SEQ,DA,*": {
-        "description": "(Diff.cs with respect to particle specified , for partial reaction specified by sequence of outgoing particles)",
+        "description": "(Diff.cs with respect to particle specified , forpartial reaction specified by sequence ofoutgoing particles)",
         "additional_code": "DA",
         "active": true
       },
       "TER,DA,*": {
-        "description": "(Ang. distribution of particle specified ,ternary fission)",
+        "description": "(Ang. distribution of particle specified ,ternaryfission)",
         "additional_code": "DA",
         "active": true
       },
       "TER,DA,*,RSD": {
-        "description": "(Angular distribution alphas rel 90 deg.,ternary fission )",
+        "description": "(Angular distribution alphas rel 90 deg.,ternaryfission )",
         "additional_code": "NO",
         "active": true
       },
       "TER,DA,N": {
-        "description": "(Ang. distribution of fission neutrons,ternary fission)",
+        "description": "(Ang. distribution of fission neutrons,ternaryfission)",
         "additional_code": "DA",
         "active": true
       },
       "DI/PAR,DA": {
-        "description": "(Partial differencial c/s d/dA,direct interaction contr)",
+        "description": "(Partial differencial c/s d/dA,direct interactioncontr)",
         "additional_code": "DA",
         "active": true
       },
       "EM/PAR,DA": {
-        "description": "(Differential partial emission cross section excluding elastic scattering)",
+        "description": "(Differential partial emission cross sectionexcluding elastic scattering)",
         "additional_code": "DA",
         "active": true
       },
       "EP,DA": {
-        "description": "(Electric multipole component of differencial cross section for polarity specified)",
+        "description": "(Electric multipole component of differencial crosssection for polarity specified)",
         "additional_code": "DA",
         "active": true
       },
       "ISP,DA": {
-        "description": "(Differential cross section d/dA, partial for intermediate product)",
+        "description": "(Differential cross section d/dA, partialfor intermediate product)",
         "additional_code": "DA",
         "active": true
       },
       "NN/PAR,DA,,NSF": {
-        "description": "(Non-spin-flip probability (1-S(nn))*partial d/dA)",
+        "description": "(Non-spin-flip probability (1-S(nn))*partiald/dA)",
         "additional_code": "DA",
         "active": true
       },
@@ -1733,7 +1773,7 @@
         "active": true
       },
       "PAR,DA,*": {
-        "description": "(Partial angular distribution of particle specified)",
+        "description": "(Partial angular distribution of particlespecified)",
         "additional_code": "DA",
         "active": true
       },
@@ -1743,17 +1783,17 @@
         "active": true
       },
       "PAR,DA,*,RAB": {
-        "description": "(Partial angular distribution of the specified particle times the natural isotopic abundance divided by the abundance of the target of the first term of the REACTION sum)",
+        "description": "(Partial angular distribution of thespecified particle times the naturalisotopic abundance divided by the abundanceof the target of the first term of theREACTION sum)",
         "additional_code": "DA",
         "active": true
       },
       "PAR,DA,*,RS": {
-        "description": "(Partial differencial cross section d/dA * 4pi/Sigma of particle specified)",
+        "description": "(Partial differencial cross section d/dA *4pi/Sigma of particle specified)",
         "additional_code": "NO",
         "active": true
       },
       "PAR,DA,*,RSD": {
-        "description": "(Diff.partial cross section for production of particle specified , relative to value at 90 degrees)",
+        "description": "(Diff.partial cross section for production ofparticle specified , relative to value at 90 degrees)",
         "additional_code": "NO",
         "active": true
       },
@@ -1768,12 +1808,12 @@
         "active": true
       },
       "PAR,DA,,RS": {
-        "description": "(Partial differencial cross section d/dA * 4pi/Sigma)",
+        "description": "(Partial differencial cross section d/dA *4pi/Sigma)",
         "additional_code": "NO",
         "active": true
       },
       "PAR,DA,,RS/TT": {
-        "description": "(Partial differencial cs d/dA * 4pi/Sigma f.thick target)",
+        "description": "(Partial differencial cs d/dA * 4pi/Sigma f.thicktarget)",
         "additional_code": "NO",
         "active": true
       },
@@ -1783,7 +1823,7 @@
         "active": true
       },
       "PAR,DA,,RSD": {
-        "description": "(Partial differencial cross section d/dA relative to 90 deg)",
+        "description": "(Partial differencial cross section d/dA relative to 90deg)",
         "additional_code": "NO",
         "active": true
       },
@@ -1803,12 +1843,12 @@
         "active": true
       },
       "PAR,DA,,TT": {
-        "description": "(Thick-target angular distribution , partial reaction)",
+        "description": "(Thick-target angular distribution , partialreaction)",
         "additional_code": "DA",
         "active": true
       },
       "PAR,DA,G,RES": {
-        "description": "(Partial differential cross section with respect to angle of gamma at resonance)",
+        "description": "(Partial differential cross section withrespect to angle of gamma at resonance)",
         "additional_code": "DA",
         "active": true
       },
@@ -1818,17 +1858,17 @@
         "active": true
       },
       "PAR/ICL,DA": {
-        "description": "(Partial differential cross section d/dA uncorrected for other channels emitting the same particle)",
+        "description": "(Partial differential cross section d/dAuncorrected for other channels emitting thesame particle)",
         "additional_code": "DA",
         "active": true
       },
       "PAR/ICL,DA,*": {
-        "description": "(Partial differencial c.s. d/dA(*) uncorrelated for other channels emit. same particle )",
+        "description": "(Partial differencial c.s. d/dA(*) uncorrelated for otherchannels emit. same particle )",
         "additional_code": "DA",
         "active": true
       },
       "PAR/ICL,DA,,4PI": {
-        "description": "(Partial differential cross section d/dA uncorrected for other channels emitting the same particle * 4pi)",
+        "description": "(Partial differential cross section d/dAuncorrected for other channels emitting thesame particle * 4pi)",
         "additional_code": "B",
         "active": true
       },
@@ -1838,7 +1878,7 @@
         "active": false
       },
       "PAR/L-,DA,G": {
-        "description": "(Angular differential cross section of discrete gammas excluding transition from quasi-metastable state)",
+        "description": "(Angular differential cross section ofdiscrete gammas excluding transition fromquasi-metastable state)",
         "additional_code": "DA",
         "active": true
       },
@@ -1848,12 +1888,12 @@
         "active": false
       },
       "SEQ/PAR,DA,*": {
-        "description": "(Diff.partial cs with respect to specified particle, for partial reaction specified by sequence of outgoing particles)",
+        "description": "(Diff.partial cs with respect to specifiedparticle, for partial reaction specified bysequence of outgoing particles)",
         "additional_code": "DA",
         "active": true
       },
       ",DA,*,COS": {
-        "description": "(Angular distribution of particle specified, cosine-coeff. of the form d-Sig/d-Omega = a(0) + Sum( a(L)cos**L ))",
+        "description": "(Angular distribution of particle specified,cosine-coeff. of the form d-Sig/d-Omega =a(0) + Sum( a(L)cos**L ))",
         "additional_code": "DA",
         "active": true
       },
@@ -1863,237 +1903,237 @@
         "active": true
       },
       ",DA,*,COS/RSD": {
-        "description": "(Angular distribution of particle specified, cosine-coeff. of the form (d-Sig/d-Omega)/(d-Sig/d-Omega at 90 deg) =    1 + Sum( a(L)*cos**L ) )",
+        "description": "(Angular distribution of particle specified,cosine-coeff. of the form(d-Sig/d-Omega)/(d-Sig/d-Omega at 90 deg) =1 + Sum( a(L)*cos**L ) )",
         "additional_code": "NO",
         "active": true
       },
       ",DA,*,LEG": {
-        "description": "(Angular distribution of particle specified, Legendre coeff. of the form d-Sig/d-Omega = a(0) + Sum( a(L)*P(L) ))",
+        "description": "(Angular distribution of particle specified,Legendre coeff. of the form d-Sig/d-Omega =a(0) + Sum( a(L)*P(L) ))",
         "additional_code": "DA",
         "active": true
       },
       ",DA,*,LEG/RS": {
-        "description": "(Differential cs with respect to specified particle, Legendre coeff. of the form 4pi/Sig d-Sig/d-Omega = 1 + Sum( a(L)P(L)))",
+        "description": "(Differential cs with respect to specifiedparticle, Legendre coeff. of the form4pi/Sig d-Sig/d-Omega = 1 + Sum( a(L)P(L)))",
         "additional_code": "NO",
         "active": true
       },
       ",DA,*,LEG/RSD": {
-        "description": "(Differential cs with respect to specified particle, Legendre coeff. of the form (d-Sig/d-Omega)/(d-Sig/d-Omega at 90 deg) =    = Sum(a(L)*P(L)))",
+        "description": "(Differential cs with respect to specifiedparticle, Legendre coeff. of the form(d-Sig/d-Omega)/(d-Sig/d-Omega at 90 deg) == Sum(a(L)*P(L)))",
         "additional_code": "NO",
         "active": true
       },
       ",DA,*,LEG/RSL": {
-        "description": "(Angular distribution of particle specified, Legendre coeff. of the form 4pi/Sig d-Sig/d-Omega= 1+Sum((2L+1)a(L)P(L)))",
+        "description": "(Angular distribution of particle specified,Legendre coeff. of the form 4pi/Sigd-Sig/d-Omega= 1+Sum((2L+1)a(L)P(L)))",
         "additional_code": "NO",
         "active": true
       },
       ",DA,*,S2T": {
-        "description": "(Angular distribution of particle specified, coefficients of the form d-Sig/d-Omega = a(0) + a(1)*sin**2(Theta) +    a(2)*sin**2(2*Theta))",
+        "description": "(Angular distribution of particle specified,coefficients of the form d-Sig/d-Omega =a(0) + a(1)*sin**2(Theta) +a(2)*sin**2(2*Theta))",
         "additional_code": "DA",
         "active": true
       },
       ",DA,*,S2T/RS0": {
-        "description": "(Coef.d/dA relative to 0deg=1+Sum(a(L)sin**2(L*Theta)))",
+        "description": "(Coef.d/dA relative to0deg=1+Sum(a(L)sin**2(L*Theta)))",
         "additional_code": "NO",
         "active": true
       },
       ",DA,*,S2T/RSD": {
-        "description": "(Angular distribution of particle specified (d-sig/d-Omega)/(d-sig/d-Omega at 90 deg) = a(0)+sum[a(L)*sin**2(L*theta)](Angular distribution of particle specified, coefficients of the form (d-Sig/d-Omega)/(d-Sig/d-Omega at 0 deg) =    1 + Sum (a(L)*sin**(2L)(Theta)) )",
+        "description": "(Coef.d/dArelative 90deg=a(0)+Sum(a(L)sin**2(L*Theta)))",
         "additional_code": "NO",
         "active": true
       },
       ",DA,,COS": {
-        "description": "(Diff.cs, cosine-coeff. of the form d-Sig/d-Omega = a(0) + Sum( a(L)cos**L ))",
+        "description": "(Diff.cs, cosine-coeff. of the formd-Sig/d-Omega = a(0) + Sum( a(L)cos**L ))",
         "additional_code": "DA",
         "active": true
       },
       ",DA,,COS/1K2": {
-        "description": "(Diff.cs, cosine-coeff. of the form k**2 d-Sig/d-Omega = Sum(a(L)*cos**L) )",
+        "description": "(Diff.cs, cosine-coeff. of the form k**2d-Sig/d-Omega = Sum(a(L)*cos**L) )",
         "additional_code": "NO",
         "active": true
       },
       ",DA,,COS/RS": {
-        "description": "(Diff.cs, cosine-coeff. of the form 4pi/Sig d-Sig/d-Omega = 1+Sum(a(L)cos**L))",
+        "description": "(Diff.cs, cosine-coeff. of the form 4pi/Sigd-Sig/d-Omega = 1+Sum(a(L)cos**L))",
         "additional_code": "NO",
         "active": true
       },
       ",DA,,COS/RSD": {
-        "description": "(Diff.cs, cosine-coeff. of the form (d-Sig/d-Omega)/(d-Sig/d-Omega at 90 deg) =    Sum ( a(L)cos**L ))",
+        "description": "(Diff.cs, cosine-coeff. of the form(d-Sig/d-Omega)/(d-Sig/d-Omega at 90 deg) =Sum ( a(L)cos**L ))",
         "additional_code": "NO",
         "active": true
       },
       ",DA,,CS2": {
-        "description": "(Diff.cs, fitting coeff. of the form d-Sig/d-Omega = a(0) + a(1)*sin**2(Theta) +    a(2)*sin**2(Theta)*cos(Theta) +    a(3)*sin**2(Theta)*cos**2(Theta) )",
+        "description": "(Diff.cs, fitting coeff. of the formd-Sig/d-Omega = a(0) + a(1)*sin**2(Theta) +a(2)*sin**2(Theta)*cos(Theta) +a(3)*sin**2(Theta)*cos**2(Theta) )",
         "additional_code": "DA",
         "active": true
       },
       ",DA,,LEG": {
-        "description": "(Diff.cs, Legendre coeff. of the form d-Sig/d-Omega = a(0) + Sum( a(L)*P(L) ))",
+        "description": "(Diff.cs, Legendre coeff. of the formd-Sig/d-Omega = a(0) + Sum( a(L)*P(L) ))",
         "additional_code": "DA",
         "active": true
       },
       ",DA,,LEG/1K2": {
-        "description": "(Diff.cs, Legendre coeff. of the form k**2 d-Sig/d-Omega = Sum ( a(L)*P(L) ))",
+        "description": "(Diff.cs, Legendre coeff. of the form k**2d-Sig/d-Omega = Sum ( a(L)*P(L) ))",
         "additional_code": "NO",
         "active": true
       },
       ",DA,,LEG/2L2": {
-        "description": "(Diff.cs, Legendre coeff. of the form d-Sig/d-Omega = (1/2)Sum((2L+1)*a(L)*P(L)))",
+        "description": "(Diff.cs, Legendre coeff. of the formd-Sig/d-Omega = (1/2)Sum((2L+1)*a(L)*P(L)))",
         "additional_code": "DA",
         "active": true
       },
       ",DA,,LEG/4PI": {
-        "description": "(Legendre Coefficient 4pi d/dA=a(0)+Sum(a(L)*P(L)))",
+        "description": "(Legendre Coefficient 4pid/dA=a(0)+Sum(a(L)*P(L)))",
         "additional_code": "B",
         "active": true
       },
       ",DA,,LEG/L4P": {
-        "description": "(Diff.cs, Legendre coeff. of the form 4pi*d-Sig/d-Omega = Sum((2L+1)*a(L)*P(L)))",
+        "description": "(Diff.cs, Legendre coeff. of the form4pi*d-Sig/d-Omega = Sum((2L+1)*a(L)*P(L)))",
         "additional_code": "DA",
         "active": false
       },
       ",DA,,LEG/RS": {
-        "description": "(Diff.cs, Legendre coeff. of the form 4pi/Sig d-Sig/d-Omega = 1 + Sum( a(L)P(L)))",
+        "description": "(Diff.cs, Legendre coeff. of the form4pi/Sig d-Sig/d-Omega = 1 + Sum( a(L)P(L)))",
         "additional_code": "NO",
         "active": true
       },
       ",DA,,LEG/RS0": {
-        "description": "(Diff.cs, Legendre coeff. of the form (d-Sig/d-Omega)/(d-Sig/d-Omega at 0 deg) =    Sum ( a(L)*P(L) ))",
+        "description": "(Diff.cs, Legendre coeff. of the form(d-Sig/d-Omega)/(d-Sig/d-Omega at 0 deg) =Sum ( a(L)*P(L) ))",
         "additional_code": "NO",
         "active": true
       },
       ",DA,,LEG/RSD": {
-        "description": "(Diff.cs, Legendre coeff. of the form 4pi/Sig(90deg) d-Sig/d-Omega =    = 1 + Sum(a(L)*P(L)))",
+        "description": "(Diff.cs, Legendre coeff. of the form4pi/Sig(90deg) d-Sig/d-Omega =  = 1 +Sum(a(L)*P(L)))",
         "additional_code": "NO",
         "active": true
       },
       ",DA,,LEG/RSL": {
-        "description": "(Diff.cs, Legendre coeff. of the form 4pi/Sig d-Sig/d-Omega=Sum((2L+1)a(L)P(L)))",
+        "description": "(Diff.cs, Legendre coeff. of the form4pi/Sig d-Sig/d-Omega=Sum((2L+1)a(L)P(L)))",
         "additional_code": "NO",
         "active": true
       },
       ",DA,,LEG/RTH": {
-        "description": "(Legendre coefficients of the ratio of the differential cross section to Rutherford scattering differential cross section)",
+        "description": "(Legendre coefficients of the ratio of thedifferential cross section to Rutherfordscattering differential cross section)",
         "additional_code": "NO",
         "active": true
       },
       ",DA/DE,,LEG/RS": {
-        "description": "(Legendre coefficients for fitting double differential cross section, Legendre coefficients of the form dsig/dOmega/dE'=Sum(a(E',L)*P(L))",
+        "description": "(Legendre coeff. d2/dA/dE'=Sum(a(E',L)*P(L)))",
         "additional_code": "NO",
         "active": true
       },
       "EM,DA,,LEG": {
-        "description": "(Leg.Coefficient d/dA=a(0)+Sum(a(L)*P(L)) for emis. c/s)",
+        "description": "(Leg.Coefficient d/dA=a(0)+Sum(a(L)*P(L)) for emis.c/s)",
         "additional_code": "DA",
         "active": true
       },
       "EM,DA,,LEG/RSL": {
-        "description": "(Differential emission cross section excluding elastic scattering, Legendre coeff.of the form 4pi/Sig d-Sig/d-Omega=Sum((2L+1)a(L)P(L)))",
+        "description": "(Differential emission cross sectionexcluding elastic scattering, Legendrecoeff.of the form 4pi/Sigd-Sig/d-Omega=Sum((2L+1)a(L)P(L)))",
         "additional_code": "NO",
         "active": true
       },
       "EM,DA/DE,,LEG/RSL": {
-        "description": "(Double-differential emission cross section excluding elastic scattering, Legendre coeff.of the form 4pi/Sig d2-Sig/d-Omega/dE'= Sum((2L+1)a(E',L)P(L)))",
+        "description": "(Double-differential emission cross sectionexcluding elastic scattering, Legendrecoeff.of the form 4pi/Sigd2-Sig/d-Omega/dE'= Sum((2L+1)a(E',L)P(L)))",
         "additional_code": "NO",
         "active": true
       },
       "EXL,DA,,LEG": {
-        "description": "(Angular differential cross section including excitation to low-lying levels of the form d-Sig/d-Omega = a(0) + Sum( a(L)*P(L) ))",
+        "description": "(Angular differential cross sectionincluding excitation to low-lying levels ofthe form d-Sig/d-Omega = a(0) + Sum(a(L)*P(L) ))",
         "additional_code": "DA",
         "active": true
       },
       "PAR,DA,*,COS": {
-        "description": "(Diff.partial cross section for particle specified, cosine-coefficient of the form d-Sig/d-Omega = a(0) + Sum( a(L)cos**L ))",
+        "description": "(Diff.partial cross section for particlespecified, cosine-coefficient of the formd-Sig/d-Omega = a(0) + Sum( a(L)cos**L ))",
         "additional_code": "DA",
         "active": true
       },
       "PAR,DA,*,COS/RSD": {
-        "description": "(Ptl.cos coef(d/dA)/(d/dA,90deg)=Sum(a(L)cos**L) of particle specified(Diff.partial cross section for particle specified, cosine-coeff. of the form (d-Sig/d-Omega)/(d-Sig/d-Omega at 90 deg) =    Sum ( a(L)cos**L ))",
+        "description": "(Diff.partial cross section for particlespecified, cosine-coeff. of the form(d-Sig/d-Omega)/(d-Sig/d-Omega at 90 deg) =Sum ( a(L)cos**L ))",
         "additional_code": "NO",
         "active": true
       },
       "PAR,DA,*,LEG": {
-        "description": "(Diff.partial cross section for particle production, Legendre coeff.of the form d-Sig/d-Omega = a(0) + Sum( a(L)*P(L) ))",
+        "description": "(Diff.partial cross section for particleproduction, Legendre coeff.of the formd-Sig/d-Omega = a(0) + Sum( a(L)*P(L) ))",
         "additional_code": "DA",
         "active": true
       },
       "PAR,DA,*,LEG/RS": {
-        "description": "(Angular differential partial cross section for particle specified in Legendre polynomials in the form 4pi/Sig d-Sig/d-Omega = 1 + Sum(a(L)*P(L)))",
+        "description": "(Angular differential partial cross sectionfor particle specified in Legendrepolynomials in the form 4pi/Sigd-Sig/d-Omega = 1 + Sum(a(L)*P(L)))",
         "additional_code": "NO",
         "active": true
       },
       "PAR,DA,*,LEG/RSD": {
-        "description": "(Diff.partial cross section for production of particle specified , Legendre coeff.of the form 4pi/Sig(90deg) d-Sig/d-Omega =    1 + Sum(a(L)*P(L)))",
+        "description": "(Diff.partial cross section for production ofparticle specified , Legendre coeff.of the form4pi/Sig(90deg) d-Sig/d-Omega =  1 +Sum(a(L)*P(L)))",
         "additional_code": "NO",
         "active": true
       },
       "PAR,DA,,COS": {
-        "description": "(Diff.partial cs, cosine-coeff.of the form d-Sig/d-Omega = a(0) + Sum( a(L)cos**L ))",
+        "description": "(Diff.partial cs, cosine-coeff.of the formd-Sig/d-Omega = a(0) + Sum( a(L)cos**L ))",
         "additional_code": "DA",
         "active": true
       },
       "PAR,DA,,COS/RS": {
-        "description": "(Diff.partial cs, cosine-coeff.of the form 4pi/Sig d-Sig/d-Omega = 1+Sum( a(L)cos**L )",
+        "description": "(Partl.cos Coefficient 4pi/Sigd/dA=1+Sum(a(L)cos**L))",
         "additional_code": "NO",
         "active": true
       },
       "PAR,DA,,COS/RSD": {
-        "description": "(Diff.partial cs, cosine-coeff. of the form (d-Sig/d-Omega)/(d-Sig/d-Omega at 90 deg) =    Sum ( a(L)cos**L ))",
+        "description": "(Diff.partial cs, cosine-coeff. of the form(d-Sig/d-Omega)/(d-Sig/d-Omega at 90 deg) =Sum ( a(L)cos**L ))",
         "additional_code": "NO",
         "active": true
       },
       "PAR,DA,,LEG": {
-        "description": "(Diff.partial cs, Legendre-coeff.of the form d-Sig/d-Omega = a(0) + Sum( a(L)*P(L) ))",
+        "description": "(Diff.partial cs, Legendre-coeff.of the formd-Sig/d-Omega = a(0) + Sum( a(L)*P(L) ))",
         "additional_code": "DA",
         "active": true
       },
       "PAR,DA,,LEG/1K2": {
-        "description": "(Diff.partial cs, Legendre-coeff.of the form k**2 d/dA=Sum(a(L)*P(L)))",
+        "description": "(Diff.partial cs, Legendre-coeff.of the formk**2 d/dA=Sum(a(L)*P(L)))",
         "additional_code": "NO",
         "active": true
       },
       "PAR,DA,,LEG/2L2": {
-        "description": "(Diff.partial cs, Legendre-coeff.of the form d-Sig/d-Omega = (1/2)Sum((2L+1)*a(L)*P(L)))",
+        "description": "(Diff.partial cs, Legendre-coeff.of the formd-Sig/d-Omega = (1/2)Sum((2L+1)*a(L)*P(L)))",
         "additional_code": "DA",
         "active": true
       },
       "PAR,DA,,LEG/4PI": {
-        "description": "(Partial Legendre Coefficient 4pi d/dA=a(0)+Sum(a(L)*P(L)))",
+        "description": "(Partial Legendre Coefficient 4pid/dA=a(0)+Sum(a(L)*P(L)))",
         "additional_code": "B",
         "active": true
       },
       "PAR,DA,,LEG/RS": {
-        "description": "(Diff.partial cs, Legendre-coeff.of the form 4pi/Sig d-Sig/d-Omega = 1 + Sum(a(L)P(L)))",
+        "description": "(Diff.partial cs, Legendre-coeff.of the form4pi/Sig d-Sig/d-Omega = 1 + Sum(a(L)P(L)))",
         "additional_code": "NO",
         "active": true
       },
       "PAR,DA,,LEG/RS0": {
-        "description": "(Diff.partial cs, Legendre-coeff.of the form (d-Sig/d-Omega)/(d-Sig/d-Omega at 0 deg) =    Sum(a(L)*P(L)) )",
+        "description": "(Diff.partial cs, Legendre-coeff.of the form(d-Sig/d-Omega)/(d-Sig/d-Omega at 0 deg) =Sum(a(L)*P(L)) )",
         "additional_code": "NO",
         "active": true
       },
       "PAR,DA,,LEG/RSD": {
-        "description": "(Diff.partial cs, Legendre-coeff.of the form 4pi/Sig(90deg) d-Sig/d-Omega =    1 + Sum(a(L)*P(L)))",
+        "description": "(Diff.partial cs, Legendre-coeff.of the form4pi/Sig(90deg) d-Sig/d-Omega =  1 +Sum(a(L)*P(L)))",
         "additional_code": "NO",
         "active": true
       },
       "PAR,DA,,LEG/RSL": {
-        "description": "(Diff.partial cs, Legendre-coeff.of the form 4pi/Sig d-Sig/d-Omega=Sum((2L+1)a(L)P(L)))",
+        "description": "(Diff.partial cs, Legendre-coeff.of the form4pi/Sig d-Sig/d-Omega=Sum((2L+1)a(L)P(L)))",
         "additional_code": "NO",
         "active": true
       },
       "PAR,DA,,S2T": {
-        "description": "(Diff.partial cs, coeff. for a sum in power of sine**2 )",
+        "description": "(Diff.partial cs, coeff. for asum in power of sine**2 )",
         "additional_code": "DA",
         "active": true
       },
       "PR,DA,N,LEG/RS": {
-        "description": "(Angular distribution of prompt fission-neutrons, Legendre coefficients of the form 4pi/Sig d-Sig/d-Omega = 1+Sum( a(L)P(L) ))",
+        "description": "(Angular distribution of prompt fission-neutrons,Legendre coefficients of the form 4pi/Sigd-Sig/d-Omega = 1+Sum( a(L)P(L) ))",
         "additional_code": "NO",
         "active": true
       },
       ",FM/DA,,AL1": {
-        "description": "(Product of spin-polarization probability and differencial cross section,coeff.of associated Legendre functions of the first kind)",
+        "description": "(Product of spin-polarization probabilityand differencial cross section,coeff.of associatedLegendre functions of the first kind)",
         "additional_code": "DA",
         "active": true
       },
@@ -2103,12 +2143,12 @@
         "active": true
       },
       ",POL,*": {
-        "description": "(Spin-polarization probability of particle specified )",
+        "description": "(Spin-polarization probability of particlespecified )",
         "additional_code": "NO",
         "active": true
       },
       ",POL/DA": {
-        "description": "(Differential spin-polarization probability with respect to angle of emission)",
+        "description": "(Differential spin-polarization probabilitywith respect to angle of emission)",
         "additional_code": "NO",
         "active": true
       },
@@ -2128,12 +2168,12 @@
         "active": true
       },
       ",POL/DA,*,ASY/PP": {
-        "description": "(Asymmetry parallel/perpend of particle specified)",
+        "description": "(Asymmetry parallel/perpend of particlespecified)",
         "additional_code": "NO",
         "active": true
       },
       ",POL/DA,*,VAP": {
-        "description": "(Vector analyzing power, iT(11) for particle specified)",
+        "description": "(Vector analyzing power, iT(11) for particlespecified)",
         "additional_code": "NO",
         "active": true
       },
@@ -2143,7 +2183,7 @@
         "active": true
       },
       ",POL/DA,,ANA/LEG": {
-        "description": "(Analyzing power,Legendre coeff.of the form d-Sig/d-Omega = a(0) + Sum( a(L)*P(L) ))",
+        "description": "(Analyzing power,Legendre coeff.of the formd-Sig/d-Omega = a(0) + Sum( a(L)*P(L) ))",
         "additional_code": "NO",
         "active": true
       },
@@ -2158,17 +2198,17 @@
         "active": true
       },
       ",POL/DA,,ASY/PP/RES": {
-        "description": "(Asymmet.as a function of incident parallel/perpend.at res.)",
+        "description": "(Asymmet.as a function of incident parallel/perpend.atres.)",
         "additional_code": "NO",
         "active": true
       },
       ",POL/DA,,AYY": {
-        "description": "(Tensor analyzing power, incident projectile spin normal to scattering plane)",
+        "description": "(Tensor analyzing power, incident projectilespin normal to scattering plane)",
         "additional_code": "NO",
         "active": false
       },
       ",POL/DA,,LEG": {
-        "description": "(Differential spin-polarization probability, Legendre coefficients)",
+        "description": "(Differential spin-polarization probability,Legendre coefficients)",
         "additional_code": "NO",
         "active": true
       },
@@ -2193,7 +2233,7 @@
         "active": true
       },
       ",POL/DA/DA/DE,*,ANA": {
-        "description": "(Analyzing power dA1/dA2/dE f.particle specified)",
+        "description": "(Analyzing power dA1/dA2/dE f.particlespecified)",
         "additional_code": "NO",
         "active": true
       },
@@ -2203,32 +2243,32 @@
         "active": true
       },
       ",POL/DA/DA/DE,*/*/*,ANA": {
-        "description": "(Analyzing power dA1/dA2/dE1 f.particles specified )",
+        "description": "(Analyzing power dA1/dA2/dE1 f.particlesspecified )",
         "additional_code": "NO",
         "active": true
       },
       ",POL/DA/DA/DE,,ANA": {
-        "description": "(Analyzing power dA1/dA2/dE1 for 2 particles)",
+        "description": "(Analyzing power dA1/dA2/dE1 for 2particles)",
         "additional_code": "NO",
         "active": true
       },
       ",POL/DA/DA/DP,*/*+*/*+*,VAP": {
-        "description": "(Vector analyzing power d/dA(*)/dA(*+*)/dp(*+*))",
+        "description": "(Vector analyzing powerd/dA(*)/dA(*+*)/dp(*+*))",
         "additional_code": "NO",
         "active": true
       },
       ",POL/DA/DE": {
-        "description": "(Differential spin-polarization probability with respect to angle and energy of outgoing particles)",
+        "description": "(Differential spin-polarization probabilitywith respect to angle and energy ofoutgoing particles)",
         "additional_code": "NO",
         "active": true
       },
       ",POL/DA/DE,*": {
-        "description": "(Double-differencial spin-pol.probab.f.particle specified)",
+        "description": "(Double-differencial spin-pol.probab.f.particlespecified)",
         "additional_code": "NO",
         "active": true
       },
       ",POL/DA/DE,*,ANA": {
-        "description": "(Analyzing power dA/dE for particle specified)",
+        "description": "(Analyzing power dA/dE for particlespecified)",
         "additional_code": "NO",
         "active": true
       },
@@ -2238,7 +2278,7 @@
         "active": true
       },
       ",POL/DA/DE,*/*,ANA": {
-        "description": "(Anal.power d2/dA/dE for specified particle pair)",
+        "description": "(Anal.power d2/dA/dE for specified particlepair)",
         "additional_code": "NO",
         "active": true
       },
@@ -2268,12 +2308,12 @@
         "active": true
       },
       ",POL/DT,,ANA": {
-        "description": "(Anal. power with respect to 4-momentum transfer)",
+        "description": "(Anal. power with respect to 4-momentumtransfer)",
         "additional_code": "NO",
         "active": true
       },
       "20,POL/DA,*,TAP": {
-        "description": "(Tensor analyzing power, T20 for particle specified)",
+        "description": "(Tensor analyzing power, T20 for particlespecified)",
         "additional_code": "NO",
         "active": true
       },
@@ -2283,7 +2323,7 @@
         "active": true
       },
       "20,POL/DA/DA/DE,*/*/*+*,TAP": {
-        "description": "(Tensor analyzing power, T20/dA(*)/dA(*)/dE(*+*))",
+        "description": "(Tensor analyzing power,T20/dA(*)/dA(*)/dE(*+*))",
         "additional_code": "NO",
         "active": true
       },
@@ -2303,7 +2343,7 @@
         "active": true
       },
       "21,POL/DA,*,TAP": {
-        "description": "(Tensor analyzing power, T21 for particle specified)",
+        "description": "(Tensor analyzing power, T21 for particlespecified)",
         "additional_code": "NO",
         "active": true
       },
@@ -2328,7 +2368,7 @@
         "active": true
       },
       "22,POL/DA,*,TAP": {
-        "description": "(Tensor analyzing power, T22 for particle specified)",
+        "description": "(Tensor analyzing power, T22 for particlespecified)",
         "additional_code": "NO",
         "active": true
       },
@@ -2393,7 +2433,7 @@
         "active": true
       },
       "EXL,POL/DA,,ANA": {
-        "description": "(Analyzing power including excitation to low-lying levels)",
+        "description": "(Analyzing power including excitation tolow-lying levels)",
         "additional_code": "NO",
         "active": true
       },
@@ -2428,7 +2468,7 @@
         "active": true
       },
       "LL,POL/DA/DA/DE,*/*/*+*,ANA": {
-        "description": "(Tensor analyzing power A(LL)/dA(*)/dA(*)/d(E(relative energy ))",
+        "description": "(Tensor analyzing powerA(LL)/dA(*)/dA(*)/d(E(relative energy ))",
         "additional_code": "NO",
         "active": true
       },
@@ -2448,7 +2488,7 @@
         "active": true
       },
       "LL,POL/DA2/DE2,*/*,D": {
-        "description": "(Spin rotation parameter D(LL)/dA(*)/dA(*)/dE(*)/dE(*))",
+        "description": "(Spin rotation parameterD(LL)/dA(*)/dA(*)/dE(*)/dE(*))",
         "additional_code": "NO",
         "active": true
       },
@@ -2468,7 +2508,7 @@
         "active": true
       },
       "LON,POL,,DSP/ASY": {
-        "description": "(Spin-spin asymmetry for longitudinal spin states)",
+        "description": "(Spin-spin asymmetry for longitudinal spinstates)",
         "additional_code": "NO",
         "active": true
       },
@@ -2513,7 +2553,7 @@
         "active": true
       },
       "LS,POL/DA2/DE2,*/*,D": {
-        "description": "(Spin rotation parameter D(LS)/dA(*)/dA(*)/dE(*)/dE(*))",
+        "description": "(Spin rotation parameterD(LS)/dA(*)/dA(*)/dE(*)/dE(*))",
         "additional_code": "NO",
         "active": true
       },
@@ -2563,7 +2603,7 @@
         "active": true
       },
       "NN,POL/DA/DA/DE,*/*/*+*,ANA": {
-        "description": "(Tensor analyzing power A(NN)/dA(*)/dA(*)/d(E(relative energy ))",
+        "description": "(Tensor analyzing powerA(NN)/dA(*)/dA(*)/d(E(relative energy ))",
         "additional_code": "NO",
         "active": true
       },
@@ -2593,7 +2633,7 @@
         "active": true
       },
       "NN,POL/DA2/DE2,*/*,D": {
-        "description": "(Spin rotation parameter D(NN)/dA(*)/dA(*)/dE(*)/dE(*))",
+        "description": "(Spin rotation parameterD(NN)/dA(*)/dA(*)/dE(*)/dE(*))",
         "additional_code": "NO",
         "active": true
       },
@@ -2603,7 +2643,7 @@
         "active": true
       },
       "NN/PAR,POL/DA,*,ANA": {
-        "description": "(Tensor analyzing power A(yy)/dA(*), partial)",
+        "description": "(Tensor analyzing power A(yy)/dA(*),partial)",
         "additional_code": "NO",
         "active": true
       },
@@ -2628,7 +2668,7 @@
         "active": true
       },
       "PAR,FM/DA,,AL1/RS": {
-        "description": "(Product of spin-polarization probability and partial differential cross section, coefficients of associated Legendre functions of the first kind * 4pi/Sigma)",
+        "description": "(Product of spin-polarization probabilityand partial differential cross section,coefficients of associated Legendrefunctions of the first kind * 4pi/Sigma)",
         "additional_code": "NO",
         "active": true
       },
@@ -2638,7 +2678,7 @@
         "active": true
       },
       "PAR,POL/DA": {
-        "description": "(Differential spin-polarization probability with respect to angle of emission, for partial reaction)",
+        "description": "(Differential spin-polarization probabilitywith respect to angle of emission, forpartial reaction)",
         "additional_code": "NO",
         "active": true
       },
@@ -2658,7 +2698,7 @@
         "active": true
       },
       "PAR,POL/DA,,ANA/LEG": {
-        "description": "(Partial analyzing power, Legendre coefficients of the form d-Sig/d-Omega = a(0) + Sum( a(L)*P(L) ))",
+        "description": "(Partial analyzing power, Legendrecoefficients of the form d-Sig/d-Omega =a(0) + Sum( a(L)*P(L) ))",
         "additional_code": "NO",
         "active": true
       },
@@ -2688,12 +2728,12 @@
         "active": true
       },
       "PAR,POL/DA,G": {
-        "description": "(Diff. polarization for gamma-ray specified d/dA)",
+        "description": "(Diff. polarization for gamma-ray specifiedd/dA)",
         "additional_code": "NO",
         "active": true
       },
       "PAR,POL/DA,N+A": {
-        "description": "(Differential spin-polarization probability with respect to relative angle specified partiles, partial reaction)",
+        "description": "(Differential spin-polarization probabilitywith respect to relative angle specifiedpartiles, partial reaction)",
         "additional_code": "NO",
         "active": true
       },
@@ -2708,7 +2748,7 @@
         "active": true
       },
       "PAR,POL/DA/DA/DE,,ANA": {
-        "description": "(Partial analyzing power dA1/dA2/dE1 f. 2 particles)",
+        "description": "(Partial analyzing power dA1/dA2/dE1 f. 2particles)",
         "additional_code": "NO",
         "active": true
       },
@@ -2753,7 +2793,7 @@
         "active": true
       },
       "SL,POL/DA/DE,*,D": {
-        "description": "(Doub.differencial spin rotat. parameter f.particle specified , D(SL))",
+        "description": "(Doub.differencial spin rotat. parameter f.particle specified ,D(SL))",
         "additional_code": "NO",
         "active": true
       },
@@ -2763,7 +2803,7 @@
         "active": true
       },
       "SL,POL/DA2/DE2,*/*,D": {
-        "description": "(Spin rotation param D(SL)/dA(*)/dA(*)/dE(*)/dE(*))",
+        "description": "(Spin rotation paramD(SL)/dA(*)/dA(*)/dE(*)/dE(*))",
         "additional_code": "NO",
         "active": true
       },
@@ -2818,7 +2858,7 @@
         "active": true
       },
       "SS,POL/DA/DE,*,D": {
-        "description": "(Doub.differencial spin rotat.parameter f.particle specified , D(SS))",
+        "description": "(Doub.differencial spin rotat.parameter f.particle specified ,D(SS))",
         "additional_code": "NO",
         "active": true
       },
@@ -2833,7 +2873,7 @@
         "active": true
       },
       "SS,POL/DA2/DE2,*/*,D": {
-        "description": "(Spin rotation param D(SS)/dA(*)/dA(*)/dE(*)/dE(*))",
+        "description": "(Spin rotation paramD(SS)/dA(*)/dA(*)/dE(*)/dE(*))",
         "additional_code": "NO",
         "active": true
       },
@@ -2843,7 +2883,7 @@
         "active": true
       },
       "SS/PAR,POL/DA,*,ANA": {
-        "description": "(Tensor analyzing power A(xx)/dA(*), partial)",
+        "description": "(Tensor analyzing power A(xx)/dA(*),partial)",
         "additional_code": "NO",
         "active": true
       },
@@ -2853,7 +2893,7 @@
         "active": true
       },
       "TRS,POL,,DSP/ASY": {
-        "description": "(Spin-spin asymmetry for transverse spin states)",
+        "description": "(Spin-spin asymmetry for transverse spinstates)",
         "additional_code": "NO",
         "active": true
       },
@@ -2863,7 +2903,7 @@
         "active": true
       },
       "TRS,POL/DA/DA/DE,*/*/*+*,ANA": {
-        "description": "(Transverse vector analyzing power, A(x)/dA1/dA2/dE(relative energies))",
+        "description": "(Transverse vector analyzing power,A(x)/dA1/dA2/dE(relative energies))",
         "additional_code": "NO",
         "active": true
       },
@@ -2883,22 +2923,22 @@
         "active": true
       },
       ",DE,*+*": {
-        "description": "(Energy spectrum of correlated particles specified )",
+        "description": "(Energy spectrum of correlated particlesspecified )",
         "additional_code": "DE",
         "active": true
       },
       ",DE,*+*+*": {
-        "description": "(Energy spectrum of correlated particles specified )",
+        "description": "(Energy spectrum of correlated particlesspecified )",
         "additional_code": "DE",
         "active": true
       },
       ",DP": {
-        "description": "(Diff. cross section with respect to linear momentumn )",
+        "description": "(Diff. cross section with respect to linearmomentumn )",
         "additional_code": "DP",
         "active": true
       },
       ",DT": {
-        "description": "(Differential cross section with respect to 4-momentum transfer squared of outgoing particles)",
+        "description": "(Differential cross section with respect to4-momentum transfer squared of outgoingparticles)",
         "additional_code": "D4",
         "active": true
       },
@@ -2943,12 +2983,12 @@
         "active": true
       },
       "EM,DE": {
-        "description": "(Particle emission energy spectrum, excluding elastic scattering)",
+        "description": "(Particle emission energy spectrum,excluding elastic scattering)",
         "additional_code": "DE",
         "active": true
       },
       "LP,DP": {
-        "description": "(Differential cross section with respect to longitudinal secondary linear momentum)",
+        "description": "(Differential cross section with respect tolongitudinal secondary linear momentum)",
         "additional_code": "DP",
         "active": true
       },
@@ -2967,8 +3007,13 @@
         "additional_code": "DP",
         "active": true
       },
+      "LP/ISP,DP,*": {
+        "description": "(Differential cross section with respect tolongitudinal secondary linear momentum ofparticle specified, partial forintermediate product)",
+        "additional_code": "DP",
+        "active": true
+      },
       "LP/PAR,DP": {
-        "description": "(Partial differencial cross section with respect to . longitudinal linear momentum)",
+        "description": "(Partial differencial cross section with respect to .longitudinal linear momentum)",
         "additional_code": "DP",
         "active": true
       },
@@ -2988,7 +3033,7 @@
         "active": true
       },
       "PAR,DP,*+*": {
-        "description": "(Differential cross section with respect to secondary linear momentum of particle pair)",
+        "description": "(Differential cross section with respect tosecondary linear momentum of particle pair)",
         "additional_code": "DP",
         "active": true
       },
@@ -2998,7 +3043,7 @@
         "active": true
       },
       "PR,DE,N": {
-        "description": "(Diff.cross section with respect to primary fission neutron energy)",
+        "description": "(Diff.cross section with respect to primary fission neutronenergy)",
         "additional_code": "DE",
         "active": true
       },
@@ -3018,17 +3063,22 @@
         "active": true
       },
       "TER,DE,*": {
-        "description": "(Energy spectr.of particle specified ,ternary fission )",
+        "description": "(Energy spectr.of particle specified ,ternaryfission )",
         "additional_code": "DE",
         "active": true
       },
       "TP,DP": {
-        "description": "(Differential cross section with respect to transverse secondary linear momentum)",
+        "description": "(Differential cross section with respect totransverse secondary linear momentum)",
+        "additional_code": "DP",
+        "active": true
+      },
+      "TP/ISP,DP,*": {
+        "description": "(Differential cross section with respect totransverse secondary linear momentum ofparticle specified, partial forintermediate product)",
         "additional_code": "DP",
         "active": true
       },
       "TP/PAR,DP": {
-        "description": "(Partial Differential cross section with respect to transverse secondary linear momentum)",
+        "description": "(Partial Differential cross section withrespect to transverse secondary linearmomentum)",
         "additional_code": "DP",
         "active": true
       },
@@ -3043,12 +3093,12 @@
         "active": false
       },
       ",DA/DA,*/*": {
-        "description": "(Angular correlation betw.specified particles)",
+        "description": "(Angular correlation betw.specifiedparticles)",
         "additional_code": "DA2",
         "active": true
       },
       ",DA/DA,*/*+*": {
-        "description": "(Double differencial cross section d2/dA(*)/dA(*+*))",
+        "description": "(Double differencial cross sectiond2/dA(*)/dA(*+*))",
         "additional_code": "DA2",
         "active": true
       },
@@ -3073,7 +3123,7 @@
         "active": true
       },
       ",DA/DE,*,RSD": {
-        "description": "(Double differential cross sectionsle with respect to particle specified relavive to the value at 90 deg.)",
+        "description": "(Double differential cross sectionsle withrespect to particle specified relavive tothe value at 90 deg.)",
         "additional_code": "NO",
         "active": true
       },
@@ -3088,12 +3138,12 @@
         "active": true
       },
       ",DA/DE,,RSD": {
-        "description": "(Double differencial cross section d2/dA/dE relative to 90 deg.)",
+        "description": "(Double differencial cross section d2/dA/dE relative to 90deg.)",
         "additional_code": "NO",
         "active": true
       },
       ",DA/DE,,TMP": {
-        "description": "(Double differencial cross section d2/dA/dE at other than room temperature .)",
+        "description": "(Double differencial cross section d2/dA/dE at other than roomtemperature .)",
         "additional_code": "DAE",
         "active": true
       },
@@ -3122,6 +3172,11 @@
         "additional_code": "DE",
         "active": true
       },
+      ",IPA/DE,*+*+*": {
+        "description": "(d/dA(*+*+*)/dE(*+*+*) integrated over theangular range of correlated particlesspecified)",
+        "additional_code": "DE",
+        "active": true
+      },
       ",IPA/DE,G": {
         "description": "(Double-differencial gamma cs integrate over particle angle range)",
         "additional_code": "DE",
@@ -3143,12 +3198,12 @@
         "active": true
       },
       "DI,DA/DE": {
-        "description": "(Double-differencial cross section, direct interaction contribution)",
+        "description": "(Double-differencial cross section, directinteraction contribution)",
         "additional_code": "DAE",
         "active": true
       },
       "EM,DA/DE": {
-        "description": "(Double-differencial emission cross section excluding elastic scattering)",
+        "description": "(Double-differencial emission cross sectionexcluding elastic scattering)",
         "additional_code": "DAE",
         "active": true
       },
@@ -3158,12 +3213,12 @@
         "active": true
       },
       "ICL,DA/DE,*/*": {
-        "description": "(Double-differential cross section d2/dA(*)dE(*) uncorrected for other channels emitting the same particle)",
+        "description": "(Double-differential cross sectiond2/dA(*)dE(*) uncorrected for otherchannels emitting the same particle)",
         "additional_code": "DAE",
         "active": true
       },
       "ICL,IPA/DE,*/*": {
-        "description": "(Double-differential cross section d2/dA(*)dE(*) uncorrected for other channels emitting the same particle, and integrated over the angular range)",
+        "description": "(Double-differential cross sectiond2/dA(*)dE(*) uncorrected for otherchannels emitting the same particle, andintegrated over the angular range)",
         "additional_code": "DE",
         "active": true
       },
@@ -3178,7 +3233,7 @@
         "active": true
       },
       "NN,DA/DE,,NSF": {
-        "description": "(Non-spin-flip probability (1-S(nn))*d2/dA/dE)",
+        "description": "(Non-spin-flip probability(1-S(nn))*d2/dA/dE)",
         "additional_code": "DAE",
         "active": true
       },
@@ -3193,7 +3248,7 @@
         "active": true
       },
       "PAR,DA/DE,*/*": {
-        "description": "(Part.double differencial cross-section d2/dA(*)/dE(*))",
+        "description": "(Part.double differencial cross-sectiond2/dA(*)/dE(*))",
         "additional_code": "DAE",
         "active": true
       },
@@ -3203,7 +3258,7 @@
         "active": true
       },
       "PR,DA/DE": {
-        "description": "(Double differential spectra of prompt fission particles)",
+        "description": "(Double differential spectra of promptfission particles)",
         "additional_code": "DAE",
         "active": true
       },
@@ -3223,22 +3278,22 @@
         "active": true
       },
       ",DA/DA/DE": {
-        "description": "(Triple-differencial cross section with respect to two angles and secondary energy of outgoing particles)",
+        "description": "(Triple-differencial cross section with respect totwo angles and secondary energy of outgoingparticles)",
         "additional_code": "D3A",
         "active": false
       },
       ",DA/DA/DE,*/*+*/*": {
-        "description": "(Triple differencial cross section d3/dA(*)/dA(*+*)/dE(*))",
+        "description": "(Triple differencial cross sectiond3/dA(*)/dA(*+*)/dE(*))",
         "additional_code": "D3A",
         "active": true
       },
       ",DA/DA/DE,*/*/*": {
-        "description": "(Triple differencial cross section d3/dA(*)/dA(*)/dE(*))",
+        "description": "(Triple differencial cross sectiond3/dA(*)/dA(*)/dE(*))",
         "additional_code": "D3A",
         "active": true
       },
       ",DA/DA/DE,*/*/*+*": {
-        "description": "(Triple-differencial cross section with respect to angles and relative energies of specified particles)",
+        "description": "(Triple-differencial cross section with respect toangles and relative energies of specifiedparticles)",
         "additional_code": "D3A",
         "active": true
       },
@@ -3248,22 +3303,32 @@
         "active": true
       },
       ",DA/DA/DE/DE,P/P/P/RSD": {
-        "description": "(Quadruple differencial cs d4/dA(p)/dA(p)/dE(p)/dE(res))",
+        "description": "(Quadruple differencial csd4/dA(p)/dA(p)/dE(p)/dE(res))",
         "additional_code": "D4A",
         "active": true
       },
       ",DA/DA/DP,*/*+*/*+*": {
-        "description": "(Triple differential cross section d2/dA(*)/dA(*)/dP(*+*))",
+        "description": "(Triple differential cross sectiond2/dA(*)/dA(*)/dP(*+*))",
         "additional_code": "DA2P",
         "active": true
       },
       ",DA/DE/DE,*/*/*": {
-        "description": "(Triple differencial cross section d3/dA(*)/dE(*)/dE(*))",
+        "description": "(Triple differencial cross sectiond3/dA(*)/dE(*)/dE(*))",
         "additional_code": "D3",
         "active": true
       },
       ",DA2/DE2,*/*": {
-        "description": "(Quadruple-differencial cross section with respect to 2 angles and 2 energies of particle specified)",
+        "description": "(Quadruple-differencial cross section with respectto 2 angles and 2 energies ofparticle specified)",
+        "additional_code": "D4A",
+        "active": true
+      },
+      "ISP,DA/DA/DE,*/*/*": {
+        "description": "(Triple differential cross sectiond3/dA(*)/dA(*)/dE(*), partial forintermediate product)",
+        "additional_code": "D3A",
+        "active": true
+      },
+      "ISP,DA2/DE2,*/*": {
+        "description": "(Quadruple differential cross sectiond4/dA(*)/dE(*)/dA(*)/dE(*), partial forintermediate product)",
         "additional_code": "D4A",
         "active": true
       },
@@ -3278,17 +3343,17 @@
         "active": true
       },
       "PAR,DA/DA/DE,*/*/*+*": {
-        "description": "(Partial triple differential cross sections with respect to angles and relative energies of specified particles)",
+        "description": "(Partial triple differential cross sectionswith respect to angles and relativeenergies of specified particles)",
         "additional_code": "D3A",
         "active": true
       },
       "SEQ,DA/DA/DE,N/T/RSD": {
-        "description": "(Triple diffential cross sections for angles of neutron and triton and energy of residual nucleus specified by sequence of outgoing particles)",
+        "description": "(Triple diffential cross sections for anglesof neutron and triton and energy ofresidual nucleus specified by sequence ofoutgoing particles)",
         "additional_code": "D3A",
         "active": true
       },
       "SEQ,DA/DA/DE,P/P/P": {
-        "description": "(Triple differential cross sections for angles of two protons and energy of proton specified by sequence of outgoing particles)",
+        "description": "(Triple differential cross sections forangles of two protons and energy of protonspecified by sequence of outgoingparticles)",
         "additional_code": "D3A",
         "active": true
       },
@@ -3298,17 +3363,17 @@
         "active": true
       },
       "(CUM),FY,,FRC": {
-        "description": "(Fractional fission product yield (uncertain if cumulative))",
+        "description": "(Fractional fission product yield (uncertainif cumulative))",
         "additional_code": "NO",
         "active": true
       },
       "(SEC),AKE,*F": {
-        "description": "(Average kinetic energy of fission fragments (uncertain if secondary))",
+        "description": "(Average kinetic energy of fission fragments(uncertain if secondary))",
         "additional_code": "E",
         "active": true
       },
       "(SEC),AKE,LF+HF": {
-        "description": "(Average total kinetic energy of light and heavy fission fragments, uncertain if secondary)",
+        "description": "(Average total kinetic energy of light andheavy fission fragments, uncertain ifsecondary)",
         "additional_code": "E",
         "active": true
       },
@@ -3318,22 +3383,22 @@
         "active": true
       },
       ",AKE,*": {
-        "description": "(Average kinetic energy of specified particle)",
+        "description": "(Average kinetic energy of specifiedparticle)",
         "additional_code": "E",
         "active": false
       },
       ",AKE,*F": {
-        "description": "(Average kinetic energy of specified fragment)",
+        "description": "(Average kinetic energy of specifiedfragment)",
         "additional_code": "E",
         "active": false
       },
       ",AKE,LF+HF": {
-        "description": "(Average total kinetic energy of light and heavy fission fragments)",
+        "description": "(Average total kinetic energy of light andheavy fission fragments)",
         "additional_code": "E",
         "active": false
       },
       ",AKE/DA,*": {
-        "description": "(Avg.kinetic energy of specified particle given angle)",
+        "description": "(Avg.kinetic energy of specified particle givenangle)",
         "additional_code": "E",
         "active": false
       },
@@ -3348,12 +3413,12 @@
         "active": true
       },
       ",AP,*F,RES": {
-        "description": "(Most probable mass of fragment specified at resonance )",
+        "description": "(Most probable mass of fragment specified atresonance )",
         "additional_code": "NO",
         "active": true
       },
       ",FY,G": {
-        "description": "(Fission gamma yld for fission fragment specified)",
+        "description": "(Fission gamma yld for fission fragmentspecified)",
         "additional_code": "FY",
         "active": true
       },
@@ -3373,27 +3438,27 @@
         "active": true
       },
       ",KE,,TT": {
-        "description": "(Kinetic energy of reaction production for thick target)",
+        "description": "(Kinetic energy of reaction production for thicktarget)",
         "additional_code": "E",
         "active": true
       },
       ",KE,LF+HF": {
-        "description": "(Average total kinetic energy of light and heavy fission fragments specified)",
+        "description": "(Average total kinetic energy of light andheavy fission fragments specified)",
         "additional_code": "E",
         "active": true
       },
       ",KEM": {
-        "description": "(Temperature of Maxw. distribution of reaction product)",
+        "description": "(Temperature of Maxw. distribution of reactionproduct)",
         "additional_code": "E",
         "active": true
       },
       ",KEP,HF": {
-        "description": "(Most probable Kinetic energy of heavy fragments)",
+        "description": "(Most probable Kinetic energy of heavyfragments)",
         "additional_code": "E",
         "active": true
       },
       ",KEP,LF": {
-        "description": "(Most probable Kinetic energy of light fragments)",
+        "description": "(Most probable Kinetic energy of lightfragments)",
         "additional_code": "E",
         "active": true
       },
@@ -3413,12 +3478,12 @@
         "active": true
       },
       "BIN,AKE,FF": {
-        "description": "(Average kinetic energy of binary fission fragment )",
+        "description": "(Average kinetic energy of binary fissionfragment )",
         "additional_code": "E",
         "active": true
       },
       "BIN/TER,DA/RAT,FF": {
-        "description": "(Binary/ternary ratio of fission fragment angular distributions)",
+        "description": "(Binary/ternary ratio of fission fragmentangular distributions)",
         "additional_code": "NO",
         "active": true
       },
@@ -3433,17 +3498,17 @@
         "active": true
       },
       "CHG,FY/DE": {
-        "description": "(Total element yield of fission products, differential with fragment kinetic energy)",
+        "description": "(Total element yield of fission products,differential with fragment kinetic energy)",
         "additional_code": "FYDE",
         "active": true
       },
       "CHG/TER,FY": {
-        "description": "(Total element yield of fission production ,ternary fission )",
+        "description": "(Total element yield of fission production ,ternaryfission )",
         "additional_code": "FY",
         "active": true
       },
       "CHG/TER/CRN,FY": {
-        "description": "(Total element yield of ternary fission product pair specified)",
+        "description": "(Total element yield of ternary fissionproduct pair specified)",
         "additional_code": "FY",
         "active": true
       },
@@ -3453,7 +3518,7 @@
         "active": true
       },
       "CHN,FY/DE": {
-        "description": "(Total chain yield of fission products, differential with fragment kinetic energy)",
+        "description": "(Total chain yield of fission products,differential with fragment kinetic energy)",
         "additional_code": "FYDE",
         "active": true
       },
@@ -3478,17 +3543,17 @@
         "active": true
       },
       "DL/GRP,KE": {
-        "description": "(Kin.energy of delayed reaction production f.given half-life group )",
+        "description": "(Kin.energy of delayed reaction production f.given half-lifegroup )",
         "additional_code": "E",
         "active": true
       },
       "FIS,AKE,FF": {
-        "description": "(Avg.Kinetic energy of fragments of high energy fiss)",
+        "description": "(Avg.Kinetic energy of fragments of high energyfiss)",
         "additional_code": "E",
         "active": true
       },
       "IND,AKE/DA": {
-        "description": "(Average kinetic energy at a given anglefor direct formation of the product nucleus)",
+        "description": "(Average kinetic energy at a given angle fordirect formation of the product nucleus)",
         "additional_code": "E",
         "active": false
       },
@@ -3503,72 +3568,77 @@
         "active": true
       },
       "IND,FY,,RES": {
-        "description": "(Independent fission-product yield at resonance)",
+        "description": "(Independent fission-product yield atresonance)",
         "additional_code": "FY",
         "active": true
       },
       "IND,FY/DE": {
-        "description": "(Independent fission fragment yield, differential with fragment kinetic energy)",
+        "description": "(Independent fission fragment yield,differential with fragment kinetic energy)",
         "additional_code": "FYDE",
         "active": true
       },
       "IND,FY/RAT": {
-        "description": "(Independent fission fragment yield, isomeric ratio)",
+        "description": "(Independent fission fragment yield, isomericratio)",
         "additional_code": "NO",
         "active": true
       },
       "IND/CRN,FY": {
-        "description": "(Independent fission-product yield for fragment pair specified)",
+        "description": "(Independent fission-product yield forfragment pair specified)",
         "additional_code": "FY",
         "active": true
       },
       "IND/M+,FY": {
-        "description": "(Independent fission-product yield, including formation of the product nucleus via isomeric transition)",
+        "description": "(Independent fission-product yield,including formation of the product nucleusvia isomeric transition)",
         "additional_code": "FY",
         "active": false
       },
       "IND/TER,FY": {
-        "description": "(Independ.fission-production yield for ternary fission)",
+        "description": "(Independ.fission-production yield for ternaryfission)",
         "additional_code": "FY",
         "active": true
       },
       "IND/TER/CRN,FY": {
-        "description": "(Independent ternary fission product for fragment pair specified in ternary fission)",
+        "description": "(Independent ternary fission product forfragment pair specified in ternary fission)",
         "additional_code": "FY",
         "active": true
       },
       "ISP/IND,FY": {
-        "description": "(Independent fission-product yield partial for intermediate products)",
+        "description": "(Independent fission-product yield partialfor intermediate products)",
         "additional_code": "FY",
         "active": true
       },
       "ISP/PRE,AKE,LF+HF": {
-        "description": "(Average total kinetic energy of primary fragments, partial for intermediate product)",
+        "description": "(Average total kinetic energy of primaryfragments, partial for intermediateproduct)",
         "additional_code": "E",
         "active": true
       },
       "ISP/PRE,FY": {
-        "description": "(Pre-neutron-emission fission yield, partial for intermediate product)",
+        "description": "(Pre-neutron-emission fission yield, partialfor intermediate product)",
         "additional_code": "FY",
         "active": true
       },
       "ISP/PRE,KE": {
-        "description": "(Kinetic energy of specified primary fragment , partial for intermediate production )",
+        "description": "(Kinetic energy of specified primary fragment ,partial for intermediate production )",
         "additional_code": "E",
         "active": true
       },
       "ISP/PRE,KE,LF+HF": {
-        "description": "(Total kinetic energy of primary fragments specified, partial for intermediate product)",
+        "description": "(Total kinetic energy of primary fragmentsspecified, partial for intermediateproduct)",
         "additional_code": "E",
         "active": true
       },
+      "ISP/SEC,AP,*F": {
+        "description": "(Most probable mass of fragment specified,partial for intermediate product)",
+        "additional_code": "NO",
+        "active": true
+      },
       "ISP/SEC,FY": {
-        "description": "(Post-neutron-emission fission yield, partial for intermediate product)",
+        "description": "(Post-neutron-emission fission yield,partial for intermediate product)",
         "additional_code": "FY",
         "active": true
       },
       "ISP/SEC,KE": {
-        "description": "(Kinetic energy of post-neutron-emission product specified, partial for intermediate product)",
+        "description": "(Kinetic energy of post-neutron-emissionproduct specified, partial for intermediateproduct)",
         "additional_code": "E",
         "active": true
       },
@@ -3583,17 +3653,17 @@
         "active": true
       },
       "PAR,AP,HF": {
-        "description": "(Most probable mass of heavy fragment f.given excit.energy )",
+        "description": "(Most probable mass of heavy fragment f.givenexcit.energy )",
         "additional_code": "NO",
         "active": true
       },
       "PAR,FY/DA,*+*F": {
-        "description": "(Partial differential fission yields d/dA(*+fission fragment specified)",
+        "description": "(Par.differencial fission yields d/dA(*+fission fragment specified))",
         "additional_code": "FYDA",
         "active": true
       },
       "PAR,FY/DE,LF/HF": {
-        "description": "(Fission product yield at given light and heavy fragment energy)",
+        "description": "(Fission product yield at given light andheavy fragment energy)",
         "additional_code": "FYDE",
         "active": true
       },
@@ -3603,12 +3673,12 @@
         "active": true
       },
       "PAR,ZP": {
-        "description": "(Most probable charge, for fragment energy given)",
+        "description": "(Most probable charge, for fragment energygiven)",
         "additional_code": "NO",
         "active": true
       },
       "PAR/CHN,FY": {
-        "description": "(Total chain yield of fission production f.given excit.energy )",
+        "description": "(Total chain yield of fission production f.givenexcit.energy )",
         "additional_code": "FY",
         "active": true
       },
@@ -3628,12 +3698,12 @@
         "active": true
       },
       "PAR/PRE,FY,G": {
-        "description": "(Partial yield of fission gammas from both fragments as a function of primary fragment mass)",
+        "description": "(Partial yield of fission gammas from bothfragments as a function of primary fragmentmass)",
         "additional_code": "FY",
         "active": true
       },
       "PR,AKE/DA,N": {
-        "description": "(Average kinetic energy of prompt neutron at a given angle of neutron)",
+        "description": "(Average kinetic energy of prompt neutron ata given angle of neutron)",
         "additional_code": "E",
         "active": false
       },
@@ -3643,17 +3713,17 @@
         "active": true
       },
       "PR,FY,G": {
-        "description": "(Prompt fission gamma yields for fission fragment specified)",
+        "description": "(Prompt fission gamma yields for fissionfragment specified)",
         "additional_code": "FY",
         "active": true
       },
       "PR,FY/DE": {
-        "description": "(Energy spectrum of prompt fission particles)",
+        "description": "(Energy spectrum of prompt fissionparticles)",
         "additional_code": "FYDE",
         "active": true
       },
       "PR,FY/TKE": {
-        "description": "(Yield of promopt fission particles at given TKE)",
+        "description": "(Yield of promopt fission particles at givenTKE)",
         "additional_code": "FY",
         "active": true
       },
@@ -3663,32 +3733,32 @@
         "active": true
       },
       "PR,KE,N": {
-        "description": "(Average total kinetic energy of prompt neutron for fission fragment specified)",
+        "description": "(Average total kinetic energy of promptneutron for fission fragment specified)",
         "additional_code": "E",
         "active": true
       },
       "PR,KE/DA,N/N+LF": {
-        "description": "(Av.Kinetic energy of neutron , function of ang(n+light fragment ))",
+        "description": "(Av.Kinetic energy of neutron , function of ang(n+lightfragment ))",
         "additional_code": "E",
         "active": true
       },
       "PR,KE/TKE,N": {
-        "description": "(Prompt fission neutron energy for a given total kinetic energy and specified product)",
+        "description": "(Prompt fission neutron energy for a giventotal kinetic energy and specified product)",
         "additional_code": "E",
         "active": true
       },
       "PR,KEM": {
-        "description": "(Temperature of Maxwellian distribution of prompt products specified)",
+        "description": "(Temperature of Maxwellian distribution ofprompt products specified)",
         "additional_code": "E",
         "active": true
       },
       "PR/FRG,FY,G": {
-        "description": "(Yield of prompt fission gammas from the fragment specified)",
+        "description": "(Yield of prompt fission gammas from thefragment specified)",
         "additional_code": "FY",
         "active": false
       },
       "PR/PAR,AKE,N": {
-        "description": "(Aver. energy f.specified group of prompt neutrons)",
+        "description": "(Aver. energy f.specified group of promptneutrons)",
         "additional_code": "E",
         "active": false
       },
@@ -3698,27 +3768,27 @@
         "active": true
       },
       "PR/PAR,FY,G": {
-        "description": "(Prompt fission gamma yield for specified fragment & gamma energy)",
+        "description": "(Prompt fission gamma yield for specified fragment & gammaenergy)",
         "additional_code": "FY",
         "active": true
       },
       "PR/PAR,KE": {
-        "description": "(Kinetic energy of prompt reaction products, partial)",
+        "description": "(Kinetic energy of prompt reaction products,partial)",
         "additional_code": "E",
         "active": true
       },
       "PRE,AKE,FF": {
-        "description": "(Average kinetic energy of primary fission fragments)",
+        "description": "(Average kinetic energy of primary fissionfragments)",
         "additional_code": "E",
         "active": true
       },
       "PRE,AKE,HF": {
-        "description": "(Average kinetic energy of primary heavy fragment )",
+        "description": "(Average kinetic energy of primary heavyfragment )",
         "additional_code": "E",
         "active": true
       },
       "PRE,AKE,LF": {
-        "description": "(Average kinetic energy of primary light fragment )",
+        "description": "(Average kinetic energy of primary lightfragment )",
         "additional_code": "E",
         "active": true
       },
@@ -3728,7 +3798,7 @@
         "active": true
       },
       "PRE,AP": {
-        "description": "(Most probable mass of fission fragment , pre-n-emission)",
+        "description": "(Most probable mass of fission fragment ,pre-n-emission)",
         "additional_code": "NO",
         "active": true
       },
@@ -3738,7 +3808,7 @@
         "active": true
       },
       "PRE,AP/DA,FF": {
-        "description": "(Centroids of mass distribution of primary fission fragments as function of angle)",
+        "description": "(Centroids of mass distribution of primaryfission fragments as function of angle)",
         "additional_code": "NO",
         "active": true
       },
@@ -3748,32 +3818,32 @@
         "active": true
       },
       "PRE,FY/DE": {
-        "description": "(Primary fission-product yield differential with fragment kinetic energy)",
+        "description": "(Primary fission-product yield differentialwith fragment kinetic energy)",
         "additional_code": "FYDE",
         "active": true
       },
       "PRE,FY/DE,*F": {
-        "description": "(Primary light fragment fission yield differential with kinetic energy of fragment specified)",
+        "description": "(Primary light fragment fission yielddifferential with kinetic energy offragment specified)",
         "additional_code": "FYDE",
         "active": true
       },
       "PRE,FY/DE,G": {
-        "description": "",
+        "description": "(Energy spectrum of gammas from bothfragments as a function of primary fragmentmass)",
         "additional_code": "FYDE",
         "active": true
       },
       "PRE,FY/DE,LF+HF": {
-        "description": "(Diff. primary fission product yield with respect to . total kinetic energy)",
+        "description": "(Diff. primary fission product yield with respect to .total kinetic energy)",
         "additional_code": "FYDE",
         "active": true
       },
       "PRE,KE": {
-        "description": "(Kinetic energy of primary fission fragments specified )",
+        "description": "(Kinetic energy of primary fission fragmentsspecified )",
         "additional_code": "E",
         "active": true
       },
       "PRE,KE,*F": {
-        "description": "(Kinetic energy of primary fission fragments specified )",
+        "description": "(Kinetic energy of primary fission fragmentsspecified )",
         "additional_code": "E",
         "active": false
       },
@@ -3783,7 +3853,7 @@
         "active": true
       },
       "PRE,KE,LF+HF": {
-        "description": "(Tot.Kinetic energy of primary fission fragments specified )",
+        "description": "(Tot.Kinetic energy of primary fission fragmentsspecified )",
         "additional_code": "E",
         "active": true
       },
@@ -3793,22 +3863,22 @@
         "active": true
       },
       "PRE/PR,KE,*": {
-        "description": "(Kinetic energy of prompt particle specified for a given primary fragment )",
+        "description": "(Kinetic energy of prompt particle specifiedfor a given primary fragment )",
         "additional_code": "E",
         "active": true
       },
       "PRE/PR/FRG,FY,G": {
-        "description": "(Prompt fission gamma yield from the primary fragment specified)",
+        "description": "(Prompt fission gamma yield from the primaryfragment specified)",
         "additional_code": "FY",
         "active": true
       },
       "PRE/TER,AKE,*F": {
-        "description": "(Average kinetic energy of primary fission fragment specified from ternary fission)",
+        "description": "(Average kinetic energy of primary fissionfragment specified from ternary fission)",
         "additional_code": "E",
         "active": true
       },
       "PRE/TER,AKE,LF+HF": {
-        "description": "(Average total kinetic energy of primary fission fragments from ternary fission)",
+        "description": "(Average total kinetic energy of primaryfission fragments from ternary fission)",
         "additional_code": "E",
         "active": true
       },
@@ -3818,12 +3888,12 @@
         "active": true
       },
       "PRE/TER,FY": {
-        "description": "(Primary-fission production yield, ternary fission)",
+        "description": "(Primary-fission production yield, ternaryfission)",
         "additional_code": "FY",
         "active": true
       },
       "PRV,AKE,*F": {
-        "description": "(Provisional average kinetic energy of fragment specified)",
+        "description": "(Provisional average kinetic energy offragment specified)",
         "additional_code": "E",
         "active": true
       },
@@ -3843,7 +3913,7 @@
         "active": true
       },
       "PRV,FY": {
-        "description": "(Fission product yield for a provisional mass specified)",
+        "description": "(Fission product yield for a provisionalmass specified)",
         "additional_code": "FY",
         "active": true
       },
@@ -3858,7 +3928,7 @@
         "active": true
       },
       "PRV,KE,LF+HF": {
-        "description": "(Total kinetic energy of fission fragments, provisional mass specified)",
+        "description": "(Total kinetic energy of fission fragments,provisional mass specified)",
         "additional_code": "E",
         "active": true
       },
@@ -3873,7 +3943,7 @@
         "active": true
       },
       "SEC,AKE,*F": {
-        "description": "(Average kinetic energy of pre-delayed- neutron emission fission fragments)",
+        "description": "(Average kinetic energy of pre-delayed-neutron emission fission fragments)",
         "additional_code": "E",
         "active": true
       },
@@ -3898,32 +3968,32 @@
         "active": true
       },
       "SEC,FY/DE": {
-        "description": "(Post-neutron emission fission yield differential with fragment kinetic energy)",
+        "description": "(Post-neutron emission fission yielddifferential with fragment kinetic energy)",
         "additional_code": "FYDE",
         "active": true
       },
       "SEC,FY/DE,*F": {
-        "description": "(Secondary light fragment fission yield differential with kinetic energy of fragment specified)",
+        "description": "(Secondary light fragment fission yielddifferential with kinetic energy offragment specified)",
         "additional_code": "FYDE",
         "active": true
       },
       "SEC,FY/DE,LF+HF": {
-        "description": "(Post-neutron emission fission yield differential with fragment total kinetic energy)",
+        "description": "(Post-neutron emission fission yielddifferential with fragment total kineticenergy)",
         "additional_code": "FYDE",
         "active": true
       },
       "SEC,KE": {
-        "description": "(Average kinetic energy of post-neutron- emission product specified)",
+        "description": "(Average kinetic energy of post-neutron-emission product specified)",
         "additional_code": "E",
         "active": true
       },
       "SEC,KE,FF": {
-        "description": "(Average kinetic energy of post-neutron- emissionfission fragment specified)",
+        "description": "(Average kinetic energy of post-neutron-emissionfission fragment specified)",
         "additional_code": "E",
         "active": false
       },
       "SEC,KE,LF+HF": {
-        "description": "(Total kinetic energy of post-neutron- emission light and heavy fission fragment pair specified)",
+        "description": "(Total kinetic energy of post-neutron-emission light and heavy fission fragmentpair specified)",
         "additional_code": "E",
         "active": true
       },
@@ -3943,27 +4013,27 @@
         "active": true
       },
       "SEC/TER,AKE,*F": {
-        "description": "(Average kinetic energy of post-neutron emission fragment specified for ternary fission)",
+        "description": "(Average kinetic energy of post-neutronemission fragment specified for ternaryfission)",
         "additional_code": "E",
         "active": true
       },
       "SEC/TER,AKE,LF+HF": {
-        "description": "(Average total kinetic energy of post-neutron emission fragments for ternary fission)",
+        "description": "(Average total kinetic energy ofpost-neutron emission fragments for ternaryfission)",
         "additional_code": "E",
         "active": true
       },
       "SEC/TER,KE,*F": {
-        "description": "(Kinetic energy of post-neutron emission fragment specified for ternary fission)",
+        "description": "(Kinetic energy of post-neutron emissionfragment specified for ternary fission)",
         "additional_code": "E",
         "active": true
       },
       "TER,AKE,*": {
-        "description": "(Avg. Kinetic energy of particle specified , ternary fission )",
+        "description": "(Avg. Kinetic energy of particle specified , ternaryfission )",
         "additional_code": "E",
         "active": false
       },
       "TER,AKE,*F": {
-        "description": "(Avg. Kinetic energy of fragment specified , ternary fission )",
+        "description": "(Avg. Kinetic energy of fragment specified , ternaryfission )",
         "additional_code": "E",
         "active": true
       },
@@ -3973,12 +4043,12 @@
         "active": true
       },
       "TER,AP": {
-        "description": "(Most probable mass of fission fragments from ternary fission for a given element)",
+        "description": "(Most probable mass of fission fragmentsfrom ternary fission for a given element)",
         "additional_code": "NO",
         "active": true
       },
       "TER,AP,*F": {
-        "description": "(Most probable mass of the fragment specified in ternary fission)",
+        "description": "(Most probable mass of the fragmentspecified in ternary fission)",
         "additional_code": "NO",
         "active": true
       },
@@ -3993,17 +4063,17 @@
         "active": true
       },
       "TER,FY,*": {
-        "description": "(Yield of specified particle from ternary fission)",
+        "description": "(Yield of specified particle from ternaryfission)",
         "additional_code": "FY",
         "active": true
       },
       "TER,FY,,RES": {
-        "description": "(Fission-product yield, ternary fission at resonance)",
+        "description": "(Fission-product yield, ternary fission atresonance)",
         "additional_code": "FY",
         "active": true
       },
       "TER,FY,LCP": {
-        "description": "(Light-charged-particle yield, ternary fission)",
+        "description": "(Light-charged-particle yield, ternaryfission)",
         "additional_code": "FY",
         "active": true
       },
@@ -4033,12 +4103,12 @@
         "active": true
       },
       "TER,FY/DE,*F": {
-        "description": "(Ternary fission fragment yield differential with kinetic energy of fragment specified)",
+        "description": "(Ternary fission fragment yield differentialwith kinetic energy of fragment specified)",
         "additional_code": "FYDE",
         "active": true
       },
       "TER,FY/DE,A": {
-        "description": "(Differential fission alpha yield dY(a)/dE correlated with A and/or Z of ternary fission fragment)",
+        "description": "(Differential fission alpha yield dY(a)/dEcorrelated with A and/or Z of ternaryfission fragment)",
         "additional_code": "FYDE",
         "active": true
       },
@@ -4053,7 +4123,7 @@
         "active": true
       },
       "TER,KE/TKE": {
-        "description": "(Kinetic energy for ternary fission v.s. TKE)",
+        "description": "(Kinetic energy for ternary fission v.s.TKE)",
         "additional_code": "E",
         "active": true
       },
@@ -4068,17 +4138,17 @@
         "active": true
       },
       "TER,KEP,A": {
-        "description": "(Most probable Kinetic energy of ternary fission alp)",
+        "description": "(Most probable Kinetic energy of ternary fissionalp)",
         "additional_code": "E",
         "active": true
       },
       "TER,ZP,*F": {
-        "description": "(Most probable charge of the fragment specified in ternary fission)",
+        "description": "(Most probable charge of the fragmentspecified in ternary fission)",
         "additional_code": "NO",
         "active": true
       },
       "TER/CHG,FY": {
-        "description": "(Total element yield of fission production ,ternary fission )",
+        "description": "(Total element yield of fission production ,ternaryfission )",
         "additional_code": "FY",
         "active": false
       },
@@ -4088,7 +4158,7 @@
         "active": true
       },
       "TER/PAR,KE,N": {
-        "description": "(Average kinetic energy of neutrons associated to product in a specific level in ternary fission)",
+        "description": "(Average kinetic energy of neutronsassociated to product in a specific levelin ternary fission)",
         "additional_code": "E",
         "active": true
       },
@@ -4108,7 +4178,7 @@
         "active": true
       },
       ",AKE,*,RES": {
-        "description": "(Average kinetic energy of specified particle at resonance)",
+        "description": "(Average kinetic energy of specifiedparticle at resonance)",
         "additional_code": "E",
         "active": false
       },
@@ -4218,7 +4288,7 @@
         "active": true
       },
       ",WID,,RM/S0": {
-        "description": "(Reich-Moore res. width * total peak cross section )",
+        "description": "(Reich-Moore res. width * total peak crosssection )",
         "additional_code": "B*E",
         "active": true
       },
@@ -4243,7 +4313,7 @@
         "active": true
       },
       ",WID,,SQ/S0": {
-        "description": "(Resonance width squared * total peak cross section)",
+        "description": "(Resonance width squared * total peak crosssection)",
         "additional_code": "BE2.",
         "active": true
       },
@@ -4323,7 +4393,7 @@
         "active": true
       },
       ",WID/STR,,RG": {
-        "description": "(Resonance strength given as (2J+1) * * Gamma(i)*Gamma(j) / Gamma(tot))",
+        "description": "(Resonance strength given as (2J+1) * *Gamma(i)*Gamma(j) / Gamma(tot))",
         "additional_code": "E  .",
         "active": true
       },
@@ -4358,12 +4428,12 @@
         "active": true
       },
       "EP,STF": {
-        "description": "(Strength function for electrical polarity given)",
+        "description": "(Strength function for electrical polaritygiven)",
         "additional_code": "NO .",
         "active": true
       },
       "MP,STF": {
-        "description": "(Strength function for magnetic polarity given)",
+        "description": "(Strength function for magnetic polaritygiven)",
         "additional_code": "NO .",
         "active": true
       },
@@ -4388,7 +4458,7 @@
         "active": true
       },
       "PAR,WID/RED,,RMT": {
-        "description": "(R-matrix reduced resonance width f.partial reaction)",
+        "description": "(R-matrix reduced resonance width f.partialreaction)",
         "additional_code": "E  .",
         "active": true
       },
@@ -4398,12 +4468,12 @@
         "active": true
       },
       "PAR,WID/STR,,RG": {
-        "description": "(Partial resonance strength given as (2J+1)*Gamma(i)*Gamma(j)/Gamma(tot))",
+        "description": "(Partial resonance strength given as(2J+1)*Gamma(i)*Gamma(j)/Gamma(tot))",
         "additional_code": "E  .",
         "active": true
       },
       "PRE,AKE,LF+HF,RES": {
-        "description": "(Aver.total Kinetic energy for primary fission fragment at res.)",
+        "description": "(Aver.total Kinetic energy for primary fission fragment atres.)",
         "additional_code": "E",
         "active": true
       },

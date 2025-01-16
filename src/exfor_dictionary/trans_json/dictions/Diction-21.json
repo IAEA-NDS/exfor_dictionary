@@ -174,42 +174,6 @@
         "description": "X-ray spectrometry",
         "active": true
       },
-      "BURN": {
-        "description": "Burn-up",
-        "active": true
-      },
-      "CADMB": {
-        "description": "Cadmium bath",
-        "active": true
-      },
-      "CHRFL": {
-        "description": "Christiansen filter",
-        "active": true
-      },
-      "DIFFR": {
-        "description": "Diffraction",
-        "active": true
-      },
-      "MANGB": {
-        "description": "Manganese bath",
-        "active": true
-      },
-      "REAC": {
-        "description": "Reactivity measurement",
-        "active": true
-      },
-      "REFL": {
-        "description": "Total reflection from mirrors",
-        "active": true
-      },
-      "SHELT": {
-        "description": "Shell transmission",
-        "active": true
-      },
-      "SLODT": {
-        "description": "Slowing-down time",
-        "active": true
-      },
       "ABSFY": {
         "description": "Absolute fission yield measurement",
         "active": true
@@ -244,6 +208,46 @@
       },
       "RVAL": {
         "description": "R-value measurement",
+        "active": true
+      },
+      "BURN": {
+        "description": "Burn-up",
+        "active": true
+      },
+      "CADMB": {
+        "description": "Cadmium bath",
+        "active": true
+      },
+      "CHRFL": {
+        "description": "Christiansen filter",
+        "active": true
+      },
+      "DIFFR": {
+        "description": "Diffraction",
+        "active": true
+      },
+      "DIFUS": {
+        "description": "Diffusion approximation",
+        "active": true
+      },
+      "MANGB": {
+        "description": "Manganese bath",
+        "active": true
+      },
+      "REAC": {
+        "description": "Reactivity measurement",
+        "active": true
+      },
+      "REFL": {
+        "description": "Total reflection from mirrors",
+        "active": true
+      },
+      "SHELT": {
+        "description": "Shell transmission",
+        "active": true
+      },
+      "SLODT": {
+        "description": "Slowing-down time",
         "active": true
       }
     }
