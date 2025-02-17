@@ -6249,6 +6249,12 @@
           "pulished_country_name": "France",
           "active": false
         },
+        "EARR": {
+          "description": "European Applied Research Reports",
+          "pulished_country_code": "2ZZZ",
+          "pulished_country_name": "International",
+          "active": true
+        },
         "EAT": {
           "description": "Energia es Atomtechnika",
           "pulished_country_code": "3HUN",
@@ -6349,6 +6355,12 @@
           "description": "J.of Engineering Sciences, University of Riyadh",
           "pulished_country_code": "3SAR",
           "pulished_country_name": "Saudi Arabia",
+          "active": true
+        },
+        "ETP": {
+          "description": "Experimentelle Technik der Physik",
+          "pulished_country_code": "3GER",
+          "pulished_country_name": "",
           "active": true
         },
         "EUL": {
@@ -6505,6 +6517,12 @@
           "description": "Helvetica Physica Acta",
           "pulished_country_code": "2SWT",
           "pulished_country_name": "Switzerland",
+          "active": true
+        },
+        "IAB": {
+          "description": "International Atomic Energy Agency Bulletin",
+          "pulished_country_code": "3ZZZ",
+          "pulished_country_name": "International",
           "active": true
         },
         "IAC": {
@@ -7323,6 +7341,12 @@
           "pulished_country_name": "Republic of Korea",
           "active": true
         },
+        "NF": {
+          "description": "Nuclear Fusion (IAEA)",
+          "pulished_country_code": "3ZZZ",
+          "pulished_country_name": "International",
+          "active": true
+        },
         "NIM": {
           "description": "Nuclear Instrum.and Methods in Physics Research ",
           "pulished_country_code": "2NED",
@@ -7610,6 +7634,12 @@
           "pulished_country_code": "1USA",
           "pulished_country_name": "United States of America",
           "active": true
+        },
+        "PAS": {
+          "description": "Physics Abhandlungen aus der Sowjetunion",
+          "pulished_country_code": "3GER",
+          "pulished_country_name": "",
+          "active": false
         },
         "PB": {
           "description": "Physikalische Blaetter",
@@ -7999,6 +8029,12 @@
           "description": "Radiation Effects",
           "pulished_country_code": "2UK",
           "pulished_country_name": "United Kingdom",
+          "active": false
+        },
+        "REA": {
+          "description": "Atomic Energy Review, IAEA",
+          "pulished_country_code": "3ZZZ",
+          "pulished_country_name": "International",
           "active": false
         },
         "REF": {

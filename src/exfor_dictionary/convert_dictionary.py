@@ -283,16 +283,18 @@ def conv_dictionary_to_json(latest) -> dict:
                     if int(diction_num) == 5:
                         ### for DICTION   5  Journals
                         journal_country = line[62:66].strip()
-
+                        country_name = ""
                         if country_dict.get(journal_country):
-                            codes[x4code] = {
-                                "description": desc,
-                                "pulished_country_code": journal_country,
-                                "pulished_country_name": country_dict[journal_country][
-                                    "country_name"
-                                ],
-                                "active": False if flag == "O" or flag == "X" else True,
-                            }
+                            country_name = country_dict[journal_country]["country_name"]
+                        elif journal_country.endswith("ZZZ"):
+                            country_name = "International"
+
+                        codes[x4code] = {
+                            "description": desc,
+                            "pulished_country_code": journal_country,
+                            "pulished_country_name": country_name,
+                            "active": False if flag == "O" or flag == "X" else True,
+                        }
 
                     else:
                         codes[x4code] = {
