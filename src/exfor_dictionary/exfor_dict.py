@@ -45,13 +45,14 @@ class Diction:
         return [
             h
             for h in diction["codes"].keys()
-            if diction["codes"][h]["additional_code"] == "A"
+            if ( diction["codes"][h]["additional_code"] == "A" or diction["codes"][h]["additional_code"] == "C" )
             and diction["codes"][h]["active"]
             and not any (ex in h for ex in ["-DN", "-NM", "WVE-LN"])
-            # and  "-DN" not in h
-            # and "-NM" not in h
+
         ]
 
+    def get_flag_heads(self):
+        return ["FLAG", "DECAY-FLAG", "LVL-FLAG", "PARITY", "SPIN J", "MOMENTUM L"]
 
     def get_incident_en_err_heads(self):
         ## diction 24: Data heads, get_dx
