@@ -52,7 +52,7 @@ class Diction:
         ]
 
     def get_flag_heads(self):
-        return ["FLAG", "DECAY-FLAG", "LVL-FLAG", "PARITY", "SPIN J", "MOMENTUM L"]
+        return ["FLAG", "DECAY-FLAG", "LVL-FLAG", "PARITY", "SPIN J", "MOMENTUM L", "MISC", "MISC1", "MISC2", "MISC3", "MISC4", "MISC5", "MISC6", "MISC7", "MISC8", "MISC9"]
 
     def get_incident_en_err_heads(self):
         ## diction 24: Data heads, get_dx
