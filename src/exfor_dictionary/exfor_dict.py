@@ -60,7 +60,7 @@ class Diction:
         return [
             h
             for h in diction["codes"].keys()
-            if diction["codes"][h]["additional_code"] == "B"
+            if ( diction["codes"][h]["additional_code"] == "B" or diction["codes"][h]["additional_code"] == "D" )
             and diction["codes"][h]["active"]
             and "-DN" not in h
             and "-NM" not in h
