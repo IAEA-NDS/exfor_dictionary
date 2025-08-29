@@ -1,21 +1,31 @@
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IAEA-NDS/exfor_dictionary/main?labpath=example/example.ipynb)
 
-## Introduction to the EXFOR dictionary in JSON
-You may find many mysterious keywords in EXFOR entries such as:
+# Introduction to the EXFOR Dictionary in JSON
 
-> INSTITUTE  (1USALAS)\
-> REFERENCE  (R,LA-1258,1951)\
-> FACILITY   (CCW,1USALAS)\
-> DETECTOR   (THRES) \
-> REACTION   (2-HE-4(N,2N)2-HE-3,,SIG,,SPA)\
-> STATUS     (DEP,14737002)\
+EXFOR entries contain a variety of keywords, for example:
 
-These keywords are defined in the EXFOR dictionary which is maintained in the IAEA Nuclear Data Section. This repository provides the JSON-converted-EXFOR-dictionary file. [Latest file](src/exfor_dictionary/latest.json)
+> INSTITUTE  (1USALAS)
+> REFERENCE  (R,LA-1258,1951)
+> FACILITY   (CCW,1USALAS)
+> DETECTOR   (THRES)
+> REACTION   (2-HE-4(N,2N)2-HE-3,,SIG,,SPA)
+> STATUS     (DEP,14737002)
 
+These keywords are defined in the **EXFOR dictionary**, which is maintained by the IAEA Nuclear Data Section.
+This repository provides a JSON-converted version of the dictionary: [latest file](src/exfor_dictionary/latest.json).
 
+---
 
-## EXFOR dictionary
-The EXFOR dictionary consists of approx. 40 definitions of identifiers, so-called ```DICTION```. The original EXFOR dictionary format is in the FORTRAN style fixed-width format. Each block starts with ```DICTION``` and keywords (EXFOR codes) are defined with small descriptions in the ```DICTION``` block. All keywords (EXFOR codes) in EXFOR belong to the certain identifier. For example, you will find ```1USALAS```, which means "Los Alamos National Laboratory, NM", in ```DICTION 3 Institutes```. All definitions of identifiers (```DICTION```) can be found in ```DICTION   950```. 
+## Structure of the EXFOR Dictionary
+
+The EXFOR dictionary contains approximately 40 categories of identifiers, called **`DICTION` blocks**.
+The original dictionary is stored in a fixed-width FORTRAN-style format.
+
+Each `DICTION` block begins with the keyword `DICTION` and contains a list of EXFOR codes along with descriptions.
+For instance, the code `1USALAS` corresponds to *Los Alamos National Laboratory, NM* and is defined in `DICTION 3 Institutes`.
+
+All dictionary identifiers are summarized in `DICTION 950`. A shortened example:
 
 ```
 DICTION            950     202112 List of Dictionaries  
@@ -29,84 +39,92 @@ DICTION            950     202112 List of Dictionaries
   8        Elements                                     
  15        History                                      
  16        Status                                       
- 17        Related reference types                      
  18        Facilities                                   
- 19        Incident sources                             
- 20        Additional results                           
- 21        Methods                                      
  22        Detectors                                    
- 23        Analyses                                     
- 24        Data headings                                
- 25        Data units                                   
  30        Processes (REACTION SF 3)                    
- 31        Branches (REACTION SF 5)                     
- 32        Parameters (REACTION SF 6)                   
  33        Particles                                    
- 34        Modifiers (REACTION SF 8)                    
- 35        Data types (REACTION SF 9)                   
  37        Results                                      
- 38        Supplemental information                     
- 43        NLIB for evaluated libraries                 
- 45        New CINDA quantities                         
- 47        Old / New CINDA quantities                   
- 48        Alphabetic energy values                     
- 52        CINDA readers                                
 113        Web quantities                               
 144        Data libraries                               
-207        Books                                        
-209        Compounds                                    
-213        Reaction types                               
 227        Nuclides and nat.isot.mixtures               
-235        Work types                                   
 236        Quantities (REACTION SF 5-8)                 
 ENDDICTION          40          0                       
 ```
 
+---
 
+## Using the JSON-Formatted EXFOR Dictionary
 
-## Use JSON format EXFOR dictionary
-See [.ipynb file](https://github.com/IAEA-NDS/exfor_dictionary/blob/main/example/example.ipynb) 
+An example Jupyter notebook is available here:
+📓 [example.ipynb](https://github.com/IAEA-NDS/exfor_dictionary/blob/main/example/example.ipynb)
 
-If you don't have Jupyter notebook environment, you can run it on Binder from the following button. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IAEA-NDS/exfor_dictionary/main?labpath=example/example.ipynb)
+If you do not have a local Jupyter environment, you can launch the example directly in Binder:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IAEA-NDS/exfor_dictionary/main?labpath=example/example.ipynb)
 
-```
+### Example usage in Python
+
+```python
 import json
-# latest number of dictionary file (see trans_backup/trans.****)
-j = open("src/exfor_dictionary/latest.json")
-exfor_dictionary = json.load(j)
+
+# Load the latest EXFOR dictionary
+with open("src/exfor_dictionary/latest.json") as j:
+    exfor_dictionary = json.load(j)
 ```
 
-To check what DICTION contain what kind of information:
+List all available `DICTION` categories:
 
-```
+```python
 for i, k in exfor_dictionary["definitions"].items():
-    print(i, "-->   ", k["description"])
+    print(i, "-->", k["description"])
 ```
 
-To see what is ```INSTITUTE  (1USALAS)```:
+Inspect a specific keyword, e.g. `INSTITUTE (1USALAS)`:
 
+```python
+import json
+print(json.dumps(
+    exfor_dictionary["dictionaries"]["3"]["codes"]["1USALAS"], 
+    indent=2
+))
 ```
-print(json.dumps(exfor_dictionary["dictionaries"]["3"]["codes"]["1USALAS"], indent = 2))
-```
 
+---
 
-## EXFOR dictionary parser
-The EXFOR dictionary parser, ``exfor_dictionary.py``, will download the latest dictionary file from [IAEA NDS website](https://nds.iaea.org/nrdc/ndsx4/trans/dictionaries/). The parser divides it into the unit of DICTION and store original format files in ``original`` directory and JSON converted files in ``json`` directory. While conversion, some abbreviations in the description are replaced.
+## EXFOR Dictionary Parser
 
-The EXFOR dictionary is updated irregular basis, so if you need to run the update of EXFOR dictionary to convert new file into JSON format, please run:
+The parser script [`exfor_dictionary.py`](exfor_dictionary.py) automatically downloads the latest EXFOR dictionary from the [IAEA NDS website](https://nds.iaea.org/nrdc/ndsx4/trans/dictionaries/).
 
-```
+It processes the source file into `DICTION` blocks, storing:
+
+* the original format in the `original/` directory
+* the JSON-converted version in the `json/` directory
+
+During conversion, some abbreviations in descriptions are expanded for clarity.
+
+Since the EXFOR dictionary is updated irregularly, you can re-run the conversion using:
+
+```bash
 python convert_dictionary.py
 ```
 
-Note, that currently the IAEA-NDS "Open" Area is password protected. To run the update successfully you will need to provide your credentials as environment variables:
+⚠️ **Note**: The IAEA-NDS "Open Area" is currently password-protected. To update the dictionary, you must set your credentials as environment variables:
 
 ```bash
-export OPENAREA_USER=<my_user_name>
-export OPENAREA_PWD=<my_user_password>
+export OPENAREA_USER=<username>
+export OPENAREA_PWD=<password>
 ```
 
-Parsing all information is not yet perfect. Currently, JSON files are produced for some of ```DICTION``` with information that are used in the EXFOR parser. 
+---
+
+## Current Status
+
+* Parsing is still under development.
+* JSON files are currently generated only for selected `DICTION` blocks relevant to the EXFOR parser.
+* Further improvements are ongoing.
+
+---
 
 ## Contact
-nds.contact-point@iaea.org
+
+For questions or feedback, please contact:
+📧 **[nds.contact-point@iaea.org](mailto:nds.contact-point@iaea.org)**
