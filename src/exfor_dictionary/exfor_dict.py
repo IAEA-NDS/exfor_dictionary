@@ -290,3 +290,32 @@ class Diction:
         return diction["codes"][code.replace("(", "").replace(")", "").strip()][
             "description"
         ]
+
+    def get_sf6(self, code):
+        diction = self.dictionaries["32"]
+
+        return diction["codes"][code.replace("(", "").replace(")", "").strip()][
+            "description"
+        ]
+
+    def get_sf5(self, code):
+        diction = self.dictionaries["31"]
+
+        return diction["codes"][code.replace("(", "").replace(")", "").strip()][
+            "description"
+        ]
+
+
+    def get_sf8(self, code):
+        diction = self.dictionaries["34"]
+
+        return diction["codes"][code.replace("(", "").replace(")", "").strip()][
+            "description"
+        ]
+    
+    def get_sf9(self, code):
+        diction = self.dictionaries["35"]
+
+        return diction["codes"][code.replace("(", "").replace(")", "").strip()][
+            "description"
+        ]
