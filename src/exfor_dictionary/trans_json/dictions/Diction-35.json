@@ -7,11 +7,11 @@
         "active": true
       },
       "CRCTD": {
-        "description": "(Data corrected by other than the author)",
+        "description": "(Data corrected by other than the author) Data corrected or reassessed by other than the author",
         "active": true
       },
       "DERIV": {
-        "description": "(Derived data)",
+        "description": "(Derived data) Data not derived from the experimental data by the most direct method, but are calculated from other data obtained in the analysis of the experimental data. Only values derived by the experimentalist from their own data should be entered in this way.",
         "active": true
       },
       "DEROT": {
@@ -19,7 +19,7 @@
         "active": true
       },
       "EVAL": {
-        "description": "(Evaluated data)",
+        "description": "(Evaluated data) Using best available experimental and theoretical information",
         "active": true
       },
       "EXP": {
@@ -27,7 +27,7 @@
         "active": false
       },
       "RECOM": {
-        "description": "(Recommended data)",
+        "description": "(Recommended data) Recommended at the time the entry was prepared",
         "active": true
       }
     }

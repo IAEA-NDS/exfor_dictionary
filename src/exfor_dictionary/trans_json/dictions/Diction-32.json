@@ -67,7 +67,7 @@
         "active": true
       },
       "ETA": {
-        "description": "Average neutron yield per nonelastic event",
+        "description": "Average neutron yield per nonelastic event for fissile isotopes",
         "active": true
       },
       "FM": {
@@ -79,7 +79,7 @@
         "active": true
       },
       "INT": {
-        "description": "Cross-section integral over incident energy",
+        "description": "Cross-section integral over incident energy (from EN-MIN to EN-MAX)",
         "active": true
       },
       "IPA": {
@@ -91,7 +91,7 @@
         "active": true
       },
       "J": {
-        "description": "Spin J",
+        "description": "Spin J (resonances, strength-functions)",
         "active": true
       },
       "KE": {
@@ -111,7 +111,7 @@
         "active": true
       },
       "L": {
-        "description": "Angular momentum L",
+        "description": "Angular momentum L (resonances, strength-functions)",
         "active": true
       },
       "LD": {
@@ -147,7 +147,7 @@
         "active": true
       },
       "PY": {
-        "description": "Product yield",
+        "description": "Product yield To be used in cases where neither SIG nor TTY applies. Degradation of primary projectile energy within target does not extend below reaction threshold. Data are thus sensitive to target thickness and beam profile and are not always reproducible.",
         "active": true
       },
       "RAD": {
@@ -155,11 +155,11 @@
         "active": true
       },
       "RAT": {
-        "description": "Ratio",
+        "description": "Ratio (in case of isomeric ratios, TER/BIN ratios)",
         "active": true
       },
       "RED": {
-        "description": "Reduced",
+        "description": "Reduced (resonance-width)",
         "active": true
       },
       "RI": {
@@ -183,11 +183,11 @@
         "active": true
       },
       "SIG": {
-        "description": "Cross section",
+        "description": "Cross section (Integral) cross-section for the formation of the specified product nucleus or the specified reaction- type (x,y)",
         "active": true
       },
       "SPC": {
-        "description": "Intensity of discrete gamma-lines",
+        "description": "Intensity of discrete gamma-lines (not to be used for continuous gamma spectra)",
         "active": true
       },
       "STF": {
@@ -198,12 +198,8 @@
         "description": "Strength",
         "active": true
       },
-      "SUM": {
-        "description": "Sum",
-        "active": false
-      },
       "SWG": {
-        "description": "Statistical weight g",
+        "description": "Statistical weight g (to be coded with reaction (N,0))",
         "active": true
       },
       "TEM": {
@@ -215,7 +211,7 @@
         "active": true
       },
       "TMP": {
-        "description": "Temperature-dependent quantity",
+        "description": "Temperature-dependent quantity (not to be used with SF3 = THS)",
         "active": false
       },
       "TRN": {
@@ -227,11 +223,11 @@
         "active": true
       },
       "TTY": {
-        "description": "Thick-target yield of the specified reaction product.",
+        "description": "Thick-target yield of the specified reaction product. Cross-section measurement with a target thick enough to degrade the primary projectile energy well below the threshold of the reaction under consideration. Data are not very sensitive to slight changes in target thick- ness or beam properties.",
         "active": true
       },
       "TYA": {
-        "description": "Differential with respect to Treiman-Yang angle",
+        "description": "Differential with respect to Treiman-Yang angle (to be coded DA/TYA)",
         "active": true
       },
       "WID": {

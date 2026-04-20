@@ -3,43 +3,43 @@
     "diction_name": "System identifiers",
     "codes": {
       "BIB": {
-        "description": "First record of each BIB section.",
+        "description": "First record of each BIB section. N1=number of keywords in the BIB section, disregarding pointers in col.11 N2=number of records in the BIB section",
         "active": true
       },
       "COMMON": {
-        "description": "First record of each common data section.",
+        "description": "First record of each common data section. N1=number of common data fields N2=number of records in COMMON section",
         "active": true
       },
       "DATA": {
-        "description": "First record of each DATA section.",
+        "description": "First record of each DATA section. N1=number of data fields N2=number of data lines in the table excluding headings and units (if N1 is greater than 6 a data line consists of two or more records)",
         "active": true
       },
       "ENDBIB": {
-        "description": "Last record of each BIB section.",
+        "description": "Last record of each BIB section. N1=number of records in BIB section",
         "active": true
       },
       "ENDCOMMON": {
-        "description": "Last record of common data section.",
+        "description": "Last record of common data section. N1=number of records in common data section",
         "active": true
       },
       "ENDDATA": {
-        "description": "Last record of DATA section.",
+        "description": "Last record of DATA section. N1=number of records in DATA section",
         "active": true
       },
       "ENDENTRY": {
-        "description": "Last record of each work (accession number).",
+        "description": "Last record of each work (accession number). N1=number of sub-works in entry",
         "active": true
       },
       "ENDSUBENT": {
-        "description": "Last record of each sub-work.",
+        "description": "Last record of each sub-work. N1=number of records within the subwork",
         "active": true
       },
       "ENDTRANS": {
-        "description": "Last record on transmission file.",
+        "description": "Last record on transmission file. N1=number of works on the transmission file N2=number of dictionaries in dictionary transmission file",
         "active": true
       },
       "ENTRY": {
-        "description": "First record of each work (accession number).",
+        "description": "First record of each work (accession number). N1=5-digit accession number N2=date of entry on file or last update (yyyymmdd)",
         "active": true
       },
       "NOBIB": {
@@ -55,15 +55,15 @@
         "active": true
       },
       "NOSUBENT": {
-        "description": "Indicates subentry assigned, but empty.",
+        "description": "Indicates subentry assigned, but empty. Either deleted or included in another subentry. N1=sub-accession number",
         "active": true
       },
       "SUBENT": {
-        "description": "First record of each sub-work.",
+        "description": "First record of each sub-work. N1=8-digit sub-accession number N2=date of entry on file or last update (yyyymmdd) N3=special use for identifying data types N4,N5=may contain center internal information",
         "active": true
       },
       "TRANS": {
-        "description": "First record on a transmission file.",
+        "description": "First record on a transmission file. N1=transmission tape no. (center-id*1000 + seq.num) N2=date of transmission tape generation (yyyymmdd). N3=may contain a library name.",
         "active": true
       }
     }

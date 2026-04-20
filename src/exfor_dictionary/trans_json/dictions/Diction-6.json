@@ -3,7 +3,7 @@
     "diction_name": "Reports",
     "codes": {
       "ALBERTA-": {
-        "description": "Nucl.Res.Centre, U.of Alberta, Edmonton Reports",
+        "description": "Nucl.Res.Centre, U.of Alberta, Edmonton Reports =(reports carry a number but no report code; =code 'ALBERTA-' was invented)",
         "publisher": "1CANALA",
         "publisher_name": "University of Alberta, Edmonton, Alberta",
         "active": true
@@ -20,12 +20,6 @@
         "publisher_name": "A.E.C.L., Chalk River, Ontario",
         "active": true
       },
-      "CR-": {
-        "description": "*** Code obsolete *** Use AECL-number",
-        "publisher": "1CANCRC",
-        "publisher_name": "A.E.C.L., Chalk River, Ontario",
-        "active": false
-      },
       "CRC-": {
         "description": "National Research Council Reports",
         "publisher": "1CANCRC",
@@ -33,7 +27,7 @@
         "active": false
       },
       "CRGP-": {
-        "description": "AECL  .",
+        "description": "AECL  . Use AECL- numbers",
         "publisher": "1CANCRC",
         "publisher_name": "A.E.C.L., Chalk River, Ontario",
         "active": false
@@ -75,7 +69,7 @@
         "active": true
       },
       "PR-P-": {
-        "description": "AECL Reports",
+        "description": "AECL Reports Use AECL- numbers",
         "publisher": "1CANCRC",
         "publisher_name": "A.E.C.L., Chalk River, Ontario",
         "active": false
@@ -87,7 +81,7 @@
         "active": true
       },
       "UK/C-": {
-        "description": "AECL Reports",
+        "description": "AECL Reports Use AECL- numbers",
         "publisher": "1CANCRC",
         "publisher_name": "A.E.C.L., Chalk River, Ontario",
         "active": false
@@ -123,7 +117,7 @@
         "active": true
       },
       "AIP-": {
-        "description": "Conf.proceedings by Am.Inst.of Phys.",
+        "description": "Conf.proceedings by Am.Inst.of Phys. Published electronically in http://proceedings.aip.org",
         "publisher": "1USAAIP",
         "publisher_name": "American Institute of Physics, New York, NY",
         "active": true
@@ -153,7 +147,7 @@
         "active": true
       },
       "ANL/NPBTSTR": {
-        "description": "Argonne Nat.Lab.Neutr.Part.Beam Test Prog.Repts.",
+        "description": "Argonne Nat.Lab.Neutr.Part.Beam Test Prog.Repts. =ANL/NPBTS-TR- on the cover",
         "publisher": "1USAANL",
         "publisher_name": "Argonne National Laboratory, Argonne, IL",
         "active": true
@@ -327,7 +321,7 @@
         "active": true
       },
       "CP-": {
-        "description": "Chicago University Metallurgical Labs Reports",
+        "description": "Chicago University Metallurgical Labs Reports Some reports issued from Argonne National Lab.",
         "publisher": "1USACHI",
         "publisher_name": "University of Chicago, IL",
         "active": true
@@ -348,6 +342,12 @@
         "description": "Colorado Univ. Reports",
         "publisher": "1USACLU",
         "publisher_name": "University of Colorado, Boulder, CO",
+        "active": true
+      },
+      "CR-": {
+        "description": "Columbia Univ. report series",
+        "publisher": "1USACOL",
+        "publisher_name": "Columbia University, New York, NY",
         "active": true
       },
       "CU(PNPL)-": {
@@ -375,7 +375,7 @@
         "active": true
       },
       "NUCL-EX-": {
-        "description": "Cornell University Web Reports",
+        "description": "Cornell University Web Reports Numbers on website are given as \"nucl-ex/...\"",
         "publisher": "1USACOR",
         "publisher_name": "Cornell University, Ithaca, NY",
         "active": true
@@ -483,19 +483,19 @@
         "active": true
       },
       "HW-": {
-        "description": "Hanford Reports",
+        "description": "Hanford Reports now BNWL- , extinct 1965",
         "publisher": "1USAHAN",
         "publisher_name": "Hanford Atomic Products, Richland, WA",
         "active": false
       },
       "HW-SA-": {
-        "description": "Hanford Reports",
+        "description": "Hanford Reports now BNWL- , extinct 1965",
         "publisher": "1USAHAN",
         "publisher_name": "Hanford Atomic Products, Richland, WA",
         "active": false
       },
       "HEDL-TME-": {
-        "description": "Hanford Engineering Development Lab. Reports",
+        "description": "Hanford Engineering Development Lab. Reports the year (HEDL-TME-71-...)",
         "publisher": "1USAHED",
         "publisher_name": "Hanford Engineering Development Laboratory , Richland, WA",
         "active": true
@@ -657,7 +657,7 @@
         "active": true
       },
       "LAMS-": {
-        "description": "Los Alamos Scientific Lab. Reports",
+        "description": "Los Alamos Scientific Lab. Reports extinct Sept. 1964",
         "publisher": "1USALAS",
         "publisher_name": "Los Alamos National Laboratory, NM",
         "active": false
@@ -807,7 +807,7 @@
         "active": true
       },
       "N-": {
-        "description": "N.A.S.A. Reports",
+        "description": "N.A.S.A. Reports Code includes the year.  (Write N-70-..., not N70-...)",
         "publisher": "1USANAS",
         "publisher_name": "NASA, Washington, DC",
         "active": true
@@ -819,7 +819,7 @@
         "active": false
       },
       "NASA-": {
-        "description": "N.A.S.A. Reports, TM = Technical Memo,",
+        "description": "N.A.S.A. Reports, TM = Technical Memo, =TN = Technical Note, TP = Technical Paper",
         "publisher": "1USANAS",
         "publisher_name": "NASA, Washington, DC",
         "active": true
@@ -1005,7 +1005,7 @@
         "active": true
       },
       "AECD-": {
-        "description": "Div. of Tech. Info. U.S. AEC",
+        "description": "Div. of Tech. Info. U.S. AEC Succeeded MDDC-, extinct 1960",
         "publisher": "1USATID",
         "publisher_name": "Division of Technical Information , USAEC, Oak Ridge, TN",
         "active": false
@@ -1017,13 +1017,13 @@
         "active": false
       },
       "MDDC-": {
-        "description": "Manhatten District Reports",
+        "description": "Manhatten District Reports Continued as AECD-",
         "publisher": "1USATID",
         "publisher_name": "Division of Technical Information , USAEC, Oak Ridge, TN",
         "active": false
       },
       "NP-": {
-        "description": "Div. of Tech. Info. U.S. AEC Reports",
+        "description": "Div. of Tech. Info. U.S. AEC Reports numbering of non project",
         "publisher": "1USATID",
         "publisher_name": "Division of Technical Information , USAEC, Oak Ridge, TN",
         "active": true
@@ -1137,7 +1137,7 @@
         "active": true
       },
       "CONF-": {
-        "description": "Conference proceedings report series",
+        "description": "Conference proceedings report series conference code is introduced (see dictionary 7 for conference codes)",
         "publisher": "1USAUSA",
         "publisher_name": "United States of America",
         "active": true
@@ -1161,7 +1161,7 @@
         "active": false
       },
       "DNA-": {
-        "description": "Defense Nuclear Agency Reports",
+        "description": "Defense Nuclear Agency Reports publish in DNA- . DNA- replaced DASA- in 1972/73",
         "publisher": "1USAUSA",
         "publisher_name": "United States of America",
         "active": true
@@ -1191,7 +1191,7 @@
         "active": true
       },
       "EPRI-": {
-        "description": "Electric Power Res. Inst., Palo Alto reports",
+        "description": "Electric Power Res. Inst., Palo Alto reports different reports may appear under the same report number.",
         "publisher": "1USAUSA",
         "publisher_name": "United States of America",
         "active": true
@@ -1305,7 +1305,7 @@
         "active": true
       },
       "UMO-": {
-        "description": "University Microfilms Order Number",
+        "description": "University Microfilms Order Number =(Theses can be ordered using this number from =University Microfilms Ltd.)",
         "publisher": "1USAUSA",
         "publisher_name": "United States of America",
         "active": true
@@ -1317,7 +1317,7 @@
         "active": true
       },
       "WASH-": {
-        "description": "Washington AEC Office Reports",
+        "description": "Washington AEC Office Reports Often reports to NCSAG.",
         "publisher": "1USAUSA",
         "publisher_name": "United States of America",
         "active": true
@@ -1419,13 +1419,13 @@
         "active": true
       },
       "OAWS-": {
-        "description": "Oesterr.Akad.Wiss.,Math-Naturw.Kl.,Sitzungsber.",
+        "description": "Oesterr.Akad.Wiss.,Math-Naturw.Kl.,Sitzungsber. See journal OAW.",
         "publisher": "2AUSAUS",
         "publisher_name": "Austria",
         "active": false
       },
       "IRK-PR-": {
-        "description": "Inst. f. Radiumforschung Progress Report",
+        "description": "Inst. f. Radiumforschung Progress Report No report code shown on document",
         "publisher": "2AUSIRK",
         "publisher_name": "Institute fuer Isotopenforschung und Kernphysik, Vienna",
         "active": true
@@ -1461,7 +1461,7 @@
         "active": true
       },
       "CEN(BG)-": {
-        "description": "C.E.N. Bordeaux-Gradignan Reports",
+        "description": "C.E.N. Bordeaux-Gradignan Reports Centre d'Etudes Nucleaires Bordeaux-Gradignan",
         "publisher": "2FR BOR",
         "publisher_name": "Universite de Bordeaux",
         "active": true
@@ -1473,19 +1473,19 @@
         "active": true
       },
       "PNR/SETR-": {
-        "description": "Cadarache Reports",
+        "description": "Cadarache Reports Code on cover e.g. PNR/SETR 65.010 to be coded as PNR/SETR-65-1OPRD/B",
         "publisher": "2FR CAD",
         "publisher_name": "CEA/Cadarache",
         "active": true
       },
       "PNR/SETR-R-": {
-        "description": "Cadarache Reports",
+        "description": "Cadarache Reports E.g.: PNR/SETR-R-25 Code on cover (on 2 lines): PNR/SETR R.025",
         "publisher": "2FR CAD",
         "publisher_name": "CEA/Cadarache",
         "active": true
       },
       "A-CSN-": {
-        "description": "C.S.N.S.M., Orsay  Reports",
+        "description": "C.S.N.S.M., Orsay  Reports Centre de Spectrometrie Nucleaire et de Spectrometrie de Masse",
         "publisher": "2FR CSN",
         "publisher_name": "Centre Sci. Nuclear et Sci. Matiere (CSNSM), Orsay",
         "active": true
@@ -1677,7 +1677,7 @@
         "active": true
       },
       "GKSS-": {
-        "description": "Ges.Kernen.-Verwertung, Schiffbau and Schiffahrt",
+        "description": "Ges.Kernen.-Verwertung, Schiffbau and Schiffahrt Ges. fuer Kernenergie-Verwertung in Schiffbau und Schiffahrt Reports",
         "publisher": "2GERKIG",
         "publisher_name": "GKSS, Geesthacht",
         "active": true
@@ -1701,7 +1701,7 @@
         "active": true
       },
       "BLM-JB-": {
-        "description": "Beschleunigerlab. Univ. Muenchen annual report",
+        "description": "Beschleunigerlab. Univ. Muenchen annual report und der Techn. Univ. Muenchen",
         "publisher": "2GERMUU",
         "publisher_name": "University of Munich, Munich",
         "active": true
@@ -1713,7 +1713,7 @@
         "active": true
       },
       "PTB-FMRB-": {
-        "description": "P.T.B., Braunschweig Reports",
+        "description": "P.T.B., Braunschweig Reports Phys.Techn.Bundesanst.,Forschungs- u.Messreaktor",
         "publisher": "2GERPTB",
         "publisher_name": "Physikalisch-Technische Bundesanstalt, Braunschweig",
         "active": true
@@ -1737,13 +1737,13 @@
         "active": true
       },
       "ZFK-": {
-        "description": "Zentralinst. f. Kernforschung Rossendorf Reports",
+        "description": "Zentralinst. f. Kernforschung Rossendorf Reports Starting with number ZFK-121 7/66 as continuation of 6 ZFK- subseries as follows.",
         "publisher": "2GERZFK",
         "publisher_name": "Helmholtz-Zentrum Dresden-Rossendorf, Dresden",
         "active": true
       },
       "CEC-": {
-        "description": "Centro di Calcolo, CNEN, Bologna Reports",
+        "description": "Centro di Calcolo, CNEN, Bologna Reports CEC-(71)9 =(now: CEC(year)-)",
         "publisher": "2ITYBOL",
         "publisher_name": "ENEA Centro Ricerche Energia di Bologna",
         "active": false
@@ -1761,7 +1761,7 @@
         "active": true
       },
       "INFN/BE-": {
-        "description": "INFN Reports / Low Energy Physics Series",
+        "description": "INFN Reports / Low Energy Physics Series (Fisica di Bassa Energia)",
         "publisher": "2ITYGVA",
         "publisher_name": "Universita degli Studi di Genova + INFN Genova",
         "active": true
@@ -1785,7 +1785,7 @@
         "active": true
       },
       "INFN/TC-": {
-        "description": "INFN Reports / Various Techniques Series",
+        "description": "INFN Reports / Various Techniques Series (Tecniche varie)",
         "publisher": "2ITYITY",
         "publisher_name": "Italy",
         "active": true
@@ -1803,7 +1803,7 @@
         "active": false
       },
       "TIB/FICS-": {
-        "description": "ENEA Dpmt. TIB / FICS Reports",
+        "description": "ENEA Dpmt. TIB / FICS Reports ENEA Dipmt. Tecnologie Intersettorali di Base / Div. Fisica e Calcolo Scientifico Reports Code on cover: e.g. TIB/FICS (83) 4",
         "publisher": "2ITYITY",
         "publisher_name": "Italy",
         "active": true
@@ -1821,7 +1821,7 @@
         "active": true
       },
       "A-JCL-": {
-        "description": "RIKEN Accelerator Progress Report",
+        "description": "RIKEN Accelerator Progress Report Inst.of Phys.and Chem.Res., Wako-shi,Saitama =vol.1 (1967) -",
         "publisher": "2JPNIPC",
         "publisher_name": "RIKEN (Institute of Physical and Chemical Research), Wako",
         "active": true
@@ -1839,49 +1839,49 @@
         "active": true
       },
       "JAEA-C-": {
-        "description": "JAEA Conference proceedings",
+        "description": "JAEA Conference proceedings Complete code is JAEA-Conf-",
         "publisher": "2JPNJAE",
         "publisher_name": "Japan Atomic Energy Agency (JAEA)",
         "active": true
       },
       "JAEA-R-": {
-        "description": "JAEA Research Reports",
+        "description": "JAEA Research Reports Complete code is JAEA-Research-",
         "publisher": "2JPNJAE",
         "publisher_name": "Japan Atomic Energy Agency (JAEA)",
         "active": true
       },
       "JAERI-": {
-        "description": "JAERI Reports",
+        "description": "JAERI Reports Extinct. Last issue: JAERI-1348",
         "publisher": "2JPNJAE",
         "publisher_name": "Japan Atomic Energy Agency (JAEA)",
         "active": false
       },
       "JAERI-C-": {
-        "description": "JAERI Conference proceedings",
+        "description": "JAERI Conference proceedings Complete code is JAERI-Conf- Extinct. Last issue: JAERI-Conf-2005-12",
         "publisher": "2JPNJAE",
         "publisher_name": "Japan Atomic Energy Agency (JAEA)",
         "active": false
       },
       "JAERI-D-": {
-        "description": "JAERI Data collection / Computer code reports",
+        "description": "JAERI Data collection / Computer code reports Complete code is JAERI-Data/Code Extinct. Last issue: JAERI-Data/Code-2005-10",
         "publisher": "2JPNJAE",
         "publisher_name": "Japan Atomic Energy Agency (JAEA)",
         "active": false
       },
       "JAERI-M-": {
-        "description": "JAERI-M Reports",
+        "description": "JAERI-M Reports Extinct in 1994, continued as -C, -D, -R Last issue: JAERI-M-94-082",
         "publisher": "2JPNJAE",
         "publisher_name": "Japan Atomic Energy Agency (JAEA)",
         "active": false
       },
       "JAERI-MEMO-": {
-        "description": "JAERI-Memo Reports",
+        "description": "JAERI-Memo Reports In 1972 split into JAERI memo (unpublished) and JAERI-M (published) Extinct. Last issue: JAERI-MEMO-14-006",
         "publisher": "2JPNJAE",
         "publisher_name": "Japan Atomic Energy Agency (JAEA)",
         "active": false
       },
       "JAERI-R-": {
-        "description": "JAERI Research Reports",
+        "description": "JAERI Research Reports Complete code is JAERI-Research Extinct. Last issue: JAERI-Research-2005-30",
         "publisher": "2JPNJAE",
         "publisher_name": "Japan Atomic Energy Agency (JAEA)",
         "active": false
@@ -1899,7 +1899,7 @@
         "active": true
       },
       "KURRI-TR-": {
-        "description": "Kyoto-Univ.,Res.Reactor Inst., Tech. Report",
+        "description": "Kyoto-Univ.,Res.Reactor Inst., Tech. Report In Japanese with English abstracts",
         "publisher": "2JPNKTO",
         "publisher_name": "Kyoto University , Kyoto",
         "active": true
@@ -1911,13 +1911,13 @@
         "active": true
       },
       "OKTAV-A-": {
-        "description": "Osaka Univ., OKTAVIAN Reports",
+        "description": "Osaka Univ., OKTAVIAN Reports Original papers and data tables",
         "publisher": "2JPNOSA",
         "publisher_name": "Osaka University , Osaka",
         "active": true
       },
       "OKTAV-C-": {
-        "description": "Osaka Univ., OKTAVIAN Reports",
+        "description": "Osaka Univ., OKTAVIAN Reports Files of publications by other organizations",
         "publisher": "2JPNOSA",
         "publisher_name": "Osaka University , Osaka",
         "active": true
@@ -1935,7 +1935,7 @@
         "active": false
       },
       "INS-J-": {
-        "description": "Univ.Tokyo, Inst.for Nucl.Study, Reports",
+        "description": "Univ.Tokyo, Inst.for Nucl.Study, Reports Extinct March 1997 due to close of inst. Last issue: INS-J-186",
         "publisher": "2JPNTOK",
         "publisher_name": "University of Tokyo, Tokyo",
         "active": false
@@ -2175,7 +2175,7 @@
         "active": true
       },
       "BR-": {
-        "description": "Cavendish Lab. Reports",
+        "description": "Cavendish Lab. Reports Early reports",
         "publisher": "2UK CAV",
         "publisher_name": "Cavendish Laboratory , Cambridge, Engl.",
         "active": false
@@ -2433,7 +2433,7 @@
         "active": false
       },
       "EANDC-": {
-        "description": "European-American Nucl. Data Committee Documents",
+        "description": "European-American Nucl. Data Committee Documents =(usually accompanied by an additional code, =e.g. EANDC(CAN); continued 1974 as NEANDC-)",
         "publisher": "2ZZZNEA",
         "publisher_name": "OECD Nuclear Energy Agency (NEA)",
         "active": false
@@ -2457,7 +2457,7 @@
         "active": true
       },
       "NEANDC(E)-": {
-        "description": "Report from CEC-Countries and CEC to NEANDC",
+        "description": "Report from CEC-Countries and CEC to NEANDC Distribution code L is mandatory for NEANDC(E)-212/L.",
         "publisher": "2ZZZNEA",
         "publisher_name": "OECD Nuclear Energy Agency (NEA)",
         "active": true
@@ -2469,7 +2469,7 @@
         "active": true
       },
       "NEANDC(OR)-": {
-        "description": "Report from misc. OECD countries to NEANDC",
+        "description": "Report from misc. OECD countries to NEANDC NEANDC(OR)-140 is published three times by Spain, Sweden, Switzerland with the same distribution code L.",
         "publisher": "2ZZZNEA",
         "publisher_name": "OECD Nuclear Energy Agency (NEA)",
         "active": true
@@ -2487,7 +2487,7 @@
         "active": true
       },
       "NEANDC-": {
-        "description": "Nucl. En. Agency Nucl. Data Committee reports",
+        "description": "Nucl. En. Agency Nucl. Data Committee reports =(started 1974 as continuation of EANDC-)",
         "publisher": "2ZZZNEA",
         "publisher_name": "OECD Nuclear Energy Agency (NEA)",
         "active": true
@@ -2625,7 +2625,7 @@
         "active": true
       },
       "CCEN-": {
-        "description": "Comun.do Centro de Energia Nuclear,Recife,Repts.",
+        "description": "Comun.do Centro de Energia Nuclear,Recife,Repts. Univ. Federal de Pernambuco",
         "publisher": "3BZLUFP",
         "publisher_name": "University Federal de Pernambuco, Recife",
         "active": true
@@ -2661,7 +2661,7 @@
         "active": true
       },
       "A-BNT-": {
-        "description": "Beijing Nat. Tandem Accel. Lab., Prog. Report",
+        "description": "Beijing Nat. Tandem Accel. Lab., Prog. Report (one report every 2 years)",
         "publisher": "3CPRAEP",
         "publisher_name": "China Institute of Atomic Energy, Beijing",
         "active": true
@@ -2697,7 +2697,7 @@
         "active": true
       },
       "UJF-": {
-        "description": "Ustav Jad. Fyziky (Inst.Nucl.Phys.) Reports",
+        "description": "Ustav Jad. Fyziky (Inst.Nucl.Phys.) Reports Note: The series UJV- and UJF- share the same consecutive numbering such that the existence of UJF-2899 excludes the existence of UJV-2899",
         "publisher": "3CZRUJF",
         "publisher_name": "Nuclear Physics Institute of Czech Academy Sci., Rez",
         "active": true
@@ -2709,37 +2709,37 @@
         "active": true
       },
       "ZFK-DOS-": {
-        "description": "Zentralinst. f. Kernforschung Rossendorf Reports",
+        "description": "Zentralinst. f. Kernforschung Rossendorf Reports Last issue ZFK-DOS-5 7/66",
         "publisher": "3DDRROS",
         "publisher_name": "Zentralinstitut fuer Kernforschung (ZFK), Rossendorf",
         "active": false
       },
       "ZFK-PHA-": {
-        "description": "Zentralinst. f. Kernforschung Rossendorf Reports",
+        "description": "Zentralinst. f. Kernforschung Rossendorf Reports Last issue ZFK-PHA-26 1/67",
         "publisher": "3DDRROS",
         "publisher_name": "Zentralinstitut fuer Kernforschung (ZFK), Rossendorf",
         "active": false
       },
       "ZFK-RCH-": {
-        "description": "Zentralinst. f. Kernforschung Rossendorf Reports",
+        "description": "Zentralinst. f. Kernforschung Rossendorf Reports Last issue ZFK-RCH-3 D/65",
         "publisher": "3DDRROS",
         "publisher_name": "Zentralinstitut fuer Kernforschung (ZFK), Rossendorf",
         "active": false
       },
       "ZFK-RN-": {
-        "description": "Zentralinst. f. Kernforschung Rossendorf Reports",
+        "description": "Zentralinst. f. Kernforschung Rossendorf Reports Last issue ZFK-RN-33 2/66",
         "publisher": "3DDRROS",
         "publisher_name": "Zentralinstitut fuer Kernforschung (ZFK), Rossendorf",
         "active": false
       },
       "ZFK-TPH-": {
-        "description": "Zentralinst. f. Kernforschung Rossendorf Reports",
+        "description": "Zentralinst. f. Kernforschung Rossendorf Reports Last issue ZFK-TPH-23 3/66",
         "publisher": "3DDRROS",
         "publisher_name": "Zentralinstitut fuer Kernforschung (ZFK), Rossendorf",
         "active": false
       },
       "ZFK-WF-": {
-        "description": "Zentralinst. f. Kernforschung Rossendorf Reports",
+        "description": "Zentralinst. f. Kernforschung Rossendorf Reports Last issue ZFK-WF-29 5/66",
         "publisher": "3DDRROS",
         "publisher_name": "Zentralinstitut fuer Kernforschung (ZFK), Rossendorf",
         "active": false
@@ -2751,25 +2751,25 @@
         "active": false
       },
       "AREAEE-": {
-        "description": "Atomic Energy Establishment Reports",
+        "description": "Atomic Energy Establishment Reports Series started with nr.117 in 1971",
         "publisher": "3EGYCAI",
         "publisher_name": "Atomic Energy Authority (AEA), Cairo",
         "active": true
       },
       "UARAEE-": {
-        "description": "Atomic Energy Establishment Reports",
+        "description": "Atomic Energy Establishment Reports Last issue nr.116 (1971). Continued as AREAEE-",
         "publisher": "3EGYCAI",
         "publisher_name": "Atomic Energy Authority (AEA), Cairo",
         "active": false
       },
       "ATOMKI-AR-": {
-        "description": "Atomki Annual Reports",
+        "description": "Atomki Annual Reports =(Code is invented for reference, report appears as ='Atomki Annual report 1989')",
         "publisher": "3HUNDEB",
         "publisher_name": "Institute for Nuclear Research (ATOMKI), Debrecen",
         "active": true
       },
       "KFKI-": {
-        "description": "Central Research Inst. of Physics Reports",
+        "description": "Central Research Inst. of Physics Reports Hungarian Academy of Sciences (e.g., KFKI-1989-02/G) may be omitted. (KFKI-1989-02 is sufficient for unique reference).",
         "publisher": "3HUNKFI",
         "publisher_name": "Centre for Energy Research (EK), Budapest",
         "active": true
@@ -2787,7 +2787,7 @@
         "active": true
       },
       "AEET-": {
-        "description": "Atomic Energy Est. Trombay Reports",
+        "description": "Atomic Energy Est. Trombay Reports Last issue is AEET-275 (1967). Continued as BARC-",
         "publisher": "3INDTRM",
         "publisher_name": "Bhabha Atomic Research Centre (BARC), Trombay, Mumbai",
         "active": false
@@ -2805,7 +2805,7 @@
         "active": false
       },
       "BARC-": {
-        "description": "B.A.R.C., Trombay report series",
+        "description": "B.A.R.C., Trombay report series Starts with BARC-276 (1967) =(formerly AEET- series)",
         "publisher": "3INDTRM",
         "publisher_name": "Bhabha Atomic Research Centre (BARC), Trombay, Mumbai",
         "active": true
@@ -2865,13 +2865,13 @@
         "active": true
       },
       "AIF-": {
-        "description": "Anales del Instituto de Fisica",
+        "description": "Anales del Instituto de Fisica See journal-code AIF",
         "publisher": "3MEXIFM",
         "publisher_name": "University Nacional Autonoma de Mexico (UNAM), Mexico City",
         "active": false
       },
       "MOH-": {
-        "description": "Univ. Mohammed V, Rabat, Annual Report",
+        "description": "Univ. Mohammed V, Rabat, Annual Report =(the code MOH- was created for input and does =not show up on the cover)",
         "publisher": "3MORMOH",
         "publisher_name": "University Mohammed V, Rabat",
         "active": true
@@ -2883,7 +2883,7 @@
         "active": true
       },
       "AEC(NZ)-": {
-        "description": "New Zealand A.E.C. Reports",
+        "description": "New Zealand A.E.C. Reports The original code is 'AEC-' and (NZ) is added for clarification",
         "publisher": "3NZLNZL",
         "publisher_name": "New Zealand",
         "active": true
@@ -2895,31 +2895,31 @@
         "active": false
       },
       "PINST-": {
-        "description": "Pakistan Inst. Nucl. Sci. Tech. Reports",
+        "description": "Pakistan Inst. Nucl. Sci. Tech. Reports = -  Note: original code is 'PINSTECH-'.",
         "publisher": "3PAKNIL",
         "publisher_name": "PINSTECH, Nilore, Rawalpindi",
         "active": true
       },
       "PINST-NPD-": {
-        "description": "Pakistan Inst.Nuc.Sci.Tech.,Nucl.Phys.Div.Repts",
+        "description": "Pakistan Inst.Nuc.Sci.Tech.,Nucl.Phys.Div.Repts = -  Note: original code is 'NPD-' only.",
         "publisher": "3PAKNIL",
         "publisher_name": "PINSTECH, Nilore, Rawalpindi",
         "active": true
       },
       "PINST-RT-": {
-        "description": "Pakistan Inst. Nucl. Sci. Tech. Reports",
+        "description": "Pakistan Inst. Nucl. Sci. Tech. Reports = -  Note: original Code is 'PINSTECH-RT-'.",
         "publisher": "3PAKNIL",
         "publisher_name": "PINSTECH, Nilore, Rawalpindi",
         "active": true
       },
       "IBJ-": {
-        "description": "Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts",
+        "description": "Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts Had sometimes been used for INR-",
         "publisher": "3POLIBJ",
         "publisher_name": "Institute Badan Jadr., Swierk and Warszawa",
         "active": false
       },
       "INR-": {
-        "description": "Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts",
+        "description": "Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts Note: On the covers of this series one sometimes finds INR-..., sometimes IBJ-..., but often a report number without a report code. Some were indexed in NSA as PAN-(Pol.Ak.Nauk). Characters behind report number should not be omitted. Example: INR-1461/I/PL/A  and  INR-1461/I/PL/B are two different documents with no relation to each other.",
         "publisher": "3POLIBJ",
         "publisher_name": "Institute Badan Jadr., Swierk and Warszawa",
         "active": true
@@ -2931,13 +2931,13 @@
         "active": true
       },
       "IFJ-": {
-        "description": "Inst. Fiz. Jadr. (Nucl.Phys.), Krakow Reports",
+        "description": "Inst. Fiz. Jadr. (Nucl.Phys.), Krakow Reports Use INP-",
         "publisher": "3POLIFJ",
         "publisher_name": "Niewodniczanski Institute of Nuclear Physics, Krakow",
         "active": false
       },
       "INP-": {
-        "description": "Inst. Fiz. Jadr. (Nucl.Phys.), Krakow Reports",
+        "description": "Inst. Fiz. Jadr. (Nucl.Phys.), Krakow Reports Note: On the covers of this series one finds sometimes INP-..., sometimes IFJ-..., but often a report number without a report code. Some were indexed in NSA as PAN-(Pol.Ak.Nauk). Omit characters behind report number Example: INP-543 instead of INP-543/PL",
         "publisher": "3POLIFJ",
         "publisher_name": "Niewodniczanski Institute of Nuclear Physics, Krakow",
         "active": true
@@ -2949,7 +2949,7 @@
         "active": true
       },
       "PAN-": {
-        "description": "Polish Academy of Sciences Reports",
+        "description": "Polish Academy of Sciences Reports Was used by NSA for INR- and INP-",
         "publisher": "3POLPOL",
         "publisher_name": "Poland",
         "active": false
@@ -2973,13 +2973,13 @@
         "active": true
       },
       "IFA-DNR-": {
-        "description": "Inst. Fis. Atomica, Romanian Acad. Sci. Reports",
+        "description": "Inst. Fis. Atomica, Romanian Acad. Sci. Reports Note: Sometimes the code IFA is not shown on the cover",
         "publisher": "3RUMBUC",
         "publisher_name": "Horia Hulubei National Institute (IFIN-HH), Magurele",
         "active": true
       },
       "IFA-EP-": {
-        "description": "Inst. Fis. Atomica, Romanian Acad. Sci. Reports",
+        "description": "Inst. Fis. Atomica, Romanian Acad. Sci. Reports Note: Sometimes the code IFA is not shown on the cover",
         "publisher": "3RUMBUC",
         "publisher_name": "Horia Hulubei National Institute (IFIN-HH), Magurele",
         "active": true
@@ -3003,7 +3003,7 @@
         "active": true
       },
       "IFA-NR-": {
-        "description": "Inst. Fis. Atomica, Romanian Acad. Sci. Reports",
+        "description": "Inst. Fis. Atomica, Romanian Acad. Sci. Reports Note: Codes of the form IFA-NR-33-1970 must be given in Exfor as IFA-NR-33,(1970),...",
         "publisher": "3RUMBUC",
         "publisher_name": "Horia Hulubei National Institute (IFIN-HH), Magurele",
         "active": true
@@ -3057,13 +3057,13 @@
         "active": true
       },
       "IJS-P-": {
-        "description": "Inst. Jozef Stefan, Ljubljana Reports",
+        "description": "Inst. Jozef Stefan, Ljubljana Reports Starting with IJS-P-245 6/69",
         "publisher": "3SLNIJS",
         "publisher_name": "Institute Jozef Stefan, Ljubljana",
         "active": true
       },
       "IJS-R-": {
-        "description": "Inst. Jozef Stefan, Ljubljana Reports",
+        "description": "Inst. Jozef Stefan, Ljubljana Reports Starting with IJS-R-560 6/69",
         "publisher": "3SLNIJS",
         "publisher_name": "Institute Jozef Stefan, Ljubljana",
         "active": true
@@ -3075,13 +3075,13 @@
         "active": true
       },
       "NIJS-P-": {
-        "description": "Inst. Josef Stefan, Ljubljana Reports",
+        "description": "Inst. Josef Stefan, Ljubljana Reports Continued June 1969 as IJS-P-",
         "publisher": "3SLNIJS",
         "publisher_name": "Institute Jozef Stefan, Ljubljana",
         "active": true
       },
       "NIJS-R-": {
-        "description": "Inst. Josef Stefan, Ljubljana Reports",
+        "description": "Inst. Josef Stefan, Ljubljana Reports Continued June 1969 as IJS-R-",
         "publisher": "3SLNIJS",
         "publisher_name": "Institute Jozef Stefan, Ljubljana",
         "active": true
@@ -3099,7 +3099,7 @@
         "active": true
       },
       "IAEA-": {
-        "description": "I.A.E.A. technical report, Vienna",
+        "description": "I.A.E.A. technical report, Vienna =(starting with report no. 219, the full title =of this series is now IAEA-TECDOC-)",
         "publisher": "3ZZZIAE",
         "publisher_name": "International Atomic Energy Agency (IAEA), Vienna",
         "active": true
@@ -3123,7 +3123,7 @@
         "active": true
       },
       "IAEA-TECDOC": {
-        "description": "I.A.E.A. Technical Documents",
+        "description": "I.A.E.A. Technical Documents previously coded as IAEA-",
         "publisher": "3ZZZIAE",
         "publisher_name": "International Atomic Energy Agency (IAEA), Vienna",
         "active": true
@@ -3249,7 +3249,7 @@
         "active": true
       },
       "INDC(EUR)-": {
-        "description": "Comm. of the European Commun. report to I.N.D.C.",
+        "description": "Comm. of the European Commun. report to I.N.D.C. (Formerly Euratom)",
         "publisher": "3ZZZIAE",
         "publisher_name": "International Atomic Energy Agency (IAEA), Vienna",
         "active": true
@@ -3273,7 +3273,7 @@
         "active": false
       },
       "INDC(GER)-": {
-        "description": "Fed.Rep.Germ.report to the I.N.D.C.",
+        "description": "Fed.Rep.Germ.report to the I.N.D.C. Distribution code (L or LN) is mandatory for INCD(GER)-35 and 36.",
         "publisher": "3ZZZIAE",
         "publisher_name": "International Atomic Energy Agency (IAEA), Vienna",
         "active": true
@@ -3375,7 +3375,7 @@
         "active": true
       },
       "INDC(ROM)-": {
-        "description": "Romanian report to the I.N.D.C.",
+        "description": "Romanian report to the I.N.D.C. Before 1981, the code INDC(RUM) was used.",
         "publisher": "3ZZZIAE",
         "publisher_name": "International Atomic Energy Agency (IAEA), Vienna",
         "active": true
@@ -3441,13 +3441,13 @@
         "active": true
       },
       "INDC(TUK)-": {
-        "description": "Turkish report to the I.N.D.C.",
+        "description": "Turkish report to the I.N.D.C. INDC(TUR) is printed on 1, 2 and 5",
         "publisher": "3ZZZIAE",
         "publisher_name": "International Atomic Energy Agency (IAEA), Vienna",
         "active": true
       },
       "INDC(TUR)-": {
-        "description": "Turkish report to the I.N.D.C.",
+        "description": "Turkish report to the I.N.D.C. INDC(TUK) is printed on 3 and 4",
         "publisher": "3ZZZIAE",
         "publisher_name": "International Atomic Energy Agency (IAEA), Vienna",
         "active": true
@@ -3465,7 +3465,7 @@
         "active": true
       },
       "INDC(US)-": {
-        "description": "U.S. report to the I.N.D.C.",
+        "description": "U.S. report to the I.N.D.C. Use INDC(USA) although some issues have INDC(US)- on their covers",
         "publisher": "3ZZZIAE",
         "publisher_name": "International Atomic Energy Agency (IAEA), Vienna",
         "active": false
@@ -3489,25 +3489,25 @@
         "active": true
       },
       "INDC-": {
-        "description": "International Nucl. Data Committee report series",
+        "description": "International Nucl. Data Committee report series =(usually accompanied by an additional code, =e.g.,INDC(NDS)) Nr.1(1971)-15(1973) and Nr.156(1967)-274(1969) Then continued in a number of subseries Note: /G /L /U etc. are distribution-codes which should be ignored. 'E' following the report number distinguishes an English translation from its original.",
         "publisher": "3ZZZIAE",
         "publisher_name": "International Atomic Energy Agency (IAEA), Vienna",
         "active": true
       },
       "INDSWG-": {
-        "description": "Int. Nuclear Data Sci. Working Group Reports",
+        "description": "Int. Nuclear Data Sci. Working Group Reports Nr.1(1962)-155(1967),continued as INDC-. 'E' following the report no. distinguishes an English translation from its original.",
         "publisher": "3ZZZIAE",
         "publisher_name": "International Atomic Energy Agency (IAEA), Vienna",
         "active": false
       },
       "INIS-MF-": {
-        "description": "INIS microfiche",
+        "description": "INIS microfiche Identification assigned by IAEA to documents received without report code.",
         "publisher": "3ZZZIAE",
         "publisher_name": "International Atomic Energy Agency (IAEA), Vienna",
         "active": true
       },
       "INIS-SU-": {
-        "description": "INIS Reports",
+        "description": "INIS Reports Identification assigned by Atom-Inform to documents received without report code.",
         "publisher": "3ZZZIAE",
         "publisher_name": "International Atomic Energy Agency (IAEA), Vienna",
         "active": true
@@ -3549,13 +3549,13 @@
         "active": true
       },
       "IJE-": {
-        "description": "Inst. of Nucl. Energetics, Bjelorus. Acad. Sci.",
+        "description": "Inst. of Nucl. Energetics, Bjelorus. Acad. Sci. report and preprints IJE-nnn-yy  (nnn=serial no., yy=year)",
         "publisher": "4BLRIJE",
         "publisher_name": "Institute Yad. Energetiki Byeloruss.A.N., Minsk",
         "active": true
       },
       "TMO-": {
-        "description": "Inst.Teplo-Massoobmena Bjeloruss.Acad.Sci.Repts",
+        "description": "Inst.Teplo-Massoobmena Bjeloruss.Acad.Sci.Repts only a 'preprint'-number without a code. English translation of TMO-2 through TMO-7 is available as report INDC(CCP)-142.",
         "publisher": "4BLRTMO",
         "publisher_name": "Institute Teplo-Massoobmena Byeloruss. A.N., Minsk",
         "active": true
@@ -3579,13 +3579,13 @@
         "active": true
       },
       "ICD-": {
-        "description": "Bull. Centr po Jadernym Dannym, Obninsk",
+        "description": "Bull. Centr po Jadernym Dannym, Obninsk =no.1 (1964) - no.6 (1969) =continued as YK-7",
         "publisher": "4RUSCJD",
         "publisher_name": "Centr po Yadernym Dannym, Obninsk",
         "active": false
       },
       "YK-": {
-        "description": "Yadernye Konstanty",
+        "description": "Yadernye Konstanty Full title = Vopr.At.Nauki i Tekhn.,Ser.Jad.Kon =no.7 (1971) - no.27 (1977) =continues ICD-6 =continued as journal YK",
         "publisher": "4RUSCJD",
         "publisher_name": "Centr po Yadernym Dannym, Obninsk",
         "active": false
@@ -3603,7 +3603,7 @@
         "active": true
       },
       "YFI-": {
-        "description": "Yaderno-Fizicheskie Issledovaniya v SSSR",
+        "description": "Yaderno-Fizicheskie Issledovaniya v SSSR Partly translated to English in INDC(CCP) reports as \"Nuclear Physics Research in the USSR\"",
         "publisher": "4RUSFEI",
         "publisher_name": "Fiziko-Energeticheskii Institute , Obninsk",
         "active": true
@@ -3615,7 +3615,7 @@
         "active": true
       },
       "ITE-": {
-        "description": "Inst. Teoret. i Experiment. Fiziki, Moscow Repts",
+        "description": "Inst. Teoret. i Experiment. Fiziki, Moscow Repts Use ITEF-",
         "publisher": "4RUSITE",
         "publisher_name": "Institute Teoret. + Experiment. Fiziki, Moskva",
         "active": false
@@ -3639,7 +3639,7 @@
         "active": true
       },
       "KUR-": {
-        "description": "Inst. Atomnoy Energii, Kurchatov Reports",
+        "description": "Inst. Atomnoy Energii, Kurchatov Reports Had been used for  IAE-",
         "publisher": "4RUSKUR",
         "publisher_name": "National Issl.Tsentr \"Kurchatovskii Institut\", Moskva",
         "active": true
@@ -3651,7 +3651,7 @@
         "active": true
       },
       "BCDL-": {
-        "description": "Bull. Centro Dannykh LIJAF, Leningrad-Gatchina",
+        "description": "Bull. Centro Dannykh LIJAF, Leningrad-Gatchina (Bulletin of the Data Centre of LIJAF)",
         "publisher": "4RUSLIN",
         "publisher_name": "Peterburgskiy Institute Yad.Fiz.,Russ.Ak.Nauk., Gatchina",
         "active": true
@@ -3663,25 +3663,25 @@
         "active": true
       },
       "MIF-": {
-        "description": "Moscow Inst. of Engineering Physics Reports",
+        "description": "Moscow Inst. of Engineering Physics Reports MIF-nnn-yy (nnn=serial no.,yy=year)",
         "publisher": "4RUSMIF",
         "publisher_name": "National Research Nuclear University MEPhI, Moscow",
         "active": true
       },
       "CDFE-": {
-        "description": "Fotoyadernye Dannye (Photonuclear Data)",
+        "description": "Fotoyadernye Dannye (Photonuclear Data) To be used for annual series starting with no.1,1977 (Compare CDFE-IND- and book codes CDFE/..)",
         "publisher": "4RUSMOS",
         "publisher_name": "Moscow State University , Moscow",
         "active": true
       },
       "CDFE-IND-": {
-        "description": "Fotoyadernye Dannye (Photonuclear Data) Index",
+        "description": "Fotoyadernye Dannye (Photonuclear Data) Index Compare CDFE- and book codes",
         "publisher": "4RUSMOS",
         "publisher_name": "Moscow State University , Moscow",
         "active": true
       },
       "CDFE-IND2-": {
-        "description": "Photonuclear Data Index (Photofission)",
+        "description": "Photonuclear Data Index (Photofission) Fotojadernye Dannye. Compare CDFE-and book codes",
         "publisher": "4RUSMOS",
         "publisher_name": "Moscow State University , Moscow",
         "active": true
@@ -3717,7 +3717,7 @@
         "active": true
       },
       "SIB-": {
-        "description": "Inst. Jad. Fiz., Novosibirsk Reports",
+        "description": "Inst. Jad. Fiz., Novosibirsk Reports =(This is an invented code. The reports =have only a 'preprint'-number without a code)",
         "publisher": "4RUSSIB",
         "publisher_name": "Institute Yad. Fiz., Sib. A.N., Novosibirsk",
         "active": true
@@ -3747,13 +3747,13 @@
         "active": true
       },
       "KHFTI-": {
-        "description": "Ukrainsk. Fiz. Tekhn. Inst. Reports",
+        "description": "Ukrainsk. Fiz. Tekhn. Inst. Reports Until 1968 no report code was printed on the cover but only a number. Starting 1969 the report codes have the form KHFTI-69-1 which is coded KHFTI-69/1",
         "publisher": "4UKRUFT",
         "publisher_name": "Ukrainskiy Fiziko-Tekhnicheskiy Institute , Kharkov",
         "active": true
       },
       "UFT-": {
-        "description": "Ukrainskij Fiz. Tech. Inst. Reports",
+        "description": "Ukrainskij Fiz. Tech. Inst. Reports Had been used for old KHFTI- report which had no report code on the cover",
         "publisher": "4UKRUFT",
         "publisher_name": "Ukrainskiy Fiziko-Tekhnicheskiy Institute , Kharkov",
         "active": false
@@ -3765,31 +3765,31 @@
         "active": true
       },
       "DUB-": {
-        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports Use JINR-",
         "publisher": "4ZZZDUB",
         "publisher_name": "Joint Institute for Nuclear Research (JINR), Dubna",
         "active": false
       },
       "DUB-E-": {
-        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports Use JINR-E-",
         "publisher": "4ZZZDUB",
         "publisher_name": "Joint Institute for Nuclear Research (JINR), Dubna",
         "active": false
       },
       "DUB-P-": {
-        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports Use JINR-P-",
         "publisher": "4ZZZDUB",
         "publisher_name": "Joint Institute for Nuclear Research (JINR), Dubna",
         "active": false
       },
       "ISINN-": {
-        "description": "Int.Sem.on Interactions of Neutrons with Nuclei",
+        "description": "Int.Sem.on Interactions of Neutrons with Nuclei Proceedings of annual meeting held in Dubna",
         "publisher": "4ZZZDUB",
         "publisher_name": "Joint Institute for Nuclear Research (JINR), Dubna",
         "active": true
       },
       "JINR-": {
-        "description": "Joint Inst. for Nucl. Res., Dubna, reports",
+        "description": "Joint Inst. for Nucl. Res., Dubna, reports Note: the 4-digits report number is unique, the symbols between JINR and number can be omitted. They mean P=Russian, E=English, D=Engl+Russian. The digit following this character denotes the subject category, e.g. 3 = low-energy experimental physics 4 = low-energy theoretical physics 15 = exp'tl phys.of nucl.reactions at low en.",
         "publisher": "4ZZZDUB",
         "publisher_name": "Joint Institute for Nuclear Research (JINR), Dubna",
         "active": true
@@ -3939,7 +3939,7 @@
         "active": true
       },
       "P3-": {
-        "description": "Joint Inst. for Nucl. Res., Dubna Reports",
+        "description": "Joint Inst. for Nucl. Res., Dubna Reports *** Use JINR-P3- or JINR-. Similarly, use JINR-Codes for P15-, E3-,  etc.",
         "publisher": "4ZZZDUB",
         "publisher_name": "Joint Institute for Nuclear Research (JINR), Dubna",
         "active": false

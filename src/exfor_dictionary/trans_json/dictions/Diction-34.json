@@ -7,7 +7,7 @@
         "active": true
       },
       "1K2": {
-        "description": "Modifier for Legendre or cosine coefficients of the",
+        "description": "Modifier for Legendre or cosine coefficients of the form k**2 d-sig/d-Omega = Sum(a(L)*p(L)), where k = wave vector",
         "active": true
       },
       "2AG": {
@@ -19,7 +19,7 @@
         "active": true
       },
       "2L2": {
-        "description": "Modifier for Legendre or cosine coefficients of the",
+        "description": "Modifier for Legendre or cosine coefficients of the form d-sig/d-Omega = (1/2)Sum((2L+1)*a(L)*p(L))",
         "active": true
       },
       "4AG": {
@@ -31,7 +31,7 @@
         "active": true
       },
       "AA": {
-        "description": "Adler-Adler formalism",
+        "description": "Adler-Adler formalism for resonance parameters",
         "active": true
       },
       "AG": {
@@ -39,7 +39,7 @@
         "active": true
       },
       "AL1": {
-        "description": "Coefficients for first-order associated Legendre",
+        "description": "Coefficients for first-order associated Legendre functions of the first kind",
         "active": true
       },
       "AMP": {
@@ -59,11 +59,11 @@
         "active": false
       },
       "AYY": {
-        "description": "Tensor analyz.power,inc.proj.spin normal to scatt.plane",
+        "description": "Tensor analyz.power,inc.proj.spin normal to scatt.plane Tensor analyzing power, incident projectile spin normal to scattering plane",
         "active": false
       },
       "AZZ": {
-        "description": "Tensor analyz.power,inc.proj.spin parall.to scatt.plane",
+        "description": "Tensor analyz.power,inc.proj.spin parall.to scatt.plane Tensor analyzing power, incident projectile spin parallel to beam direction in scattering plane",
         "active": false
       },
       "C": {
@@ -79,7 +79,7 @@
         "active": true
       },
       "CS2": {
-        "description": "Coefficients of the form d-sig/d-Omega = a(0) +",
+        "description": "Coefficients of the form d-sig/d-Omega = a(0) + a(1)*sin**2(theta) + a(2)*sin**2(theta)*cos(theta) + a(3)*sin**2(theta)*cos**2(theta)",
         "active": true
       },
       "D": {
@@ -127,7 +127,7 @@
         "active": true
       },
       "L4P": {
-        "description": "Modifier for Legendre or cos coefficients of the form",
+        "description": "Modifier for Legendre or cos coefficients of the form 4pi*d-sig/d-Omega =Sum((2L+1)*a(L)*p(L))",
         "active": true
       },
       "LEG": {
@@ -135,7 +135,7 @@
         "active": true
       },
       "LIM": {
-        "description": "Modifier for a resonance integral given for a",
+        "description": "Modifier for a resonance integral given for a limited EN-range only",
         "active": true
       },
       "MOT": {
@@ -167,7 +167,7 @@
         "active": true
       },
       "RAB": {
-        "description": "times natural isotopic abundance, divided by isotopic",
+        "description": "times natural isotopic abundance, divided by isotopic abundance of target of first term of REACTION sum",
         "active": true
       },
       "RES": {
@@ -179,15 +179,15 @@
         "active": true
       },
       "RM": {
-        "description": "Reich-Moore formalism",
+        "description": "Reich-Moore formalism for resonance parameters",
         "active": true
       },
       "RMT": {
-        "description": "R-matrix formalism",
+        "description": "R-matrix formalism for resonance parameters",
         "active": true
       },
       "RNV": {
-        "description": "Non-1/v part",
+        "description": "Non-1/v part of cross-section or resonance-integral",
         "active": true
       },
       "RRE": {
@@ -195,19 +195,19 @@
         "active": true
       },
       "RS": {
-        "description": "Times 4pi/sigma",
+        "description": "Times 4pi/sigma Modifier for diff.cross-sections 4pi/sig d-sig/d-Omega and for Legendre or cosine coefficients of the form: (4pi/sig)*(d-sig/d-Omega) = Sum(a(L)*p(L))",
         "active": true
       },
       "RS0": {
-        "description": "Modifier for Legendre or cosine coefficients of the",
+        "description": "Modifier for Legendre or cosine coefficients of the form: (d-sig/d-Omega)/(d-sig/d-Omega at 0 deg)=Sum(a(L)*p(L))",
         "active": true
       },
       "RSD": {
-        "description": "Modifier for Legendre or cosine coefficients of the",
+        "description": "Modifier for Legendre or cosine coefficients of the form: (d-sig/d-Omega)/(d-sig/d-Omega at 90 deg) = = 1 +Sum(a(L)*p(L)) Also modifier for angular distributions of the form: sig(theta)/sig(90deg) and for the anisotropy-coeff sig(0)/sig(90deg)",
         "active": true
       },
       "RSL": {
-        "description": "Modifier for Legendre or cosine coefficients of the",
+        "description": "Modifier for Legendre or cosine coefficients of the form: (4pi/sig)*(d-sig/d-Omega)=Sum((2L+1)*a(L)*p(L))",
         "active": true
       },
       "RTE": {
@@ -227,7 +227,7 @@
         "active": true
       },
       "S2T": {
-        "description": "Coefficients of the form: d-sig/d-Omega =",
+        "description": "Coefficients of the form: d-sig/d-Omega = a(0) + a(1)*sin**2(theta) + a(2)*sin**2(2*theta)",
         "active": true
       },
       "SAT": {
@@ -283,15 +283,15 @@
         "active": true
       },
       "VGT": {
-        "description": "Vogt formalism",
+        "description": "Vogt formalism for resonance parameters The following modifiers may be added to any quantity code without entry in Dictionary 36.  These general quantity modifiers must be coded after any modifier included in Dictionary 36.",
         "active": true
       },
       "(A)": {
-        "description": "Uncertain if corrected for natural isotopic abund.",
+        "description": "Uncertain if corrected for natural isotopic abund. Unclear whether corrected for natural isotopic abundance of target. To be used only when data are given for an isotope, but were measured on a target with natural isotopic composition. For enriched targets use modifier 'FCT' instead.",
         "active": true
       },
       "A": {
-        "description": "Data times natural isotopic abundance",
+        "description": "Data times natural isotopic abundance To be used only when data are given for an isotope, but were measured on a target with natural isotopic composition. For enriched targets use modifier 'FCT' instead.",
         "active": true
       },
       "DAM": {
@@ -307,7 +307,7 @@
         "active": true
       },
       "MSC": {
-        "description": "Approximate definition only, see REACTION text",
+        "description": "Approximate definition only, see REACTION text General purpose modifier for unusual data types. Exact definition is given in free text following the reaction code. Use with code from dict.36 which is closest to data given.",
         "active": true
       },
       "RAW": {
@@ -315,7 +315,7 @@
         "active": true
       },
       "REL": {
-        "description": "Relative data",
+        "description": "Relative data To be combined with arbitrary units. Otherwise use 'FCT'.",
         "active": true
       },
       "BRA": {
@@ -339,7 +339,7 @@
         "active": true
       },
       "MXW": {
-        "description": "Maxwellian average",
+        "description": "Maxwellian average The appropriate spectrum temperature is to be given under data heading 'KT', or the mean energy under 'EN-MEAN' (if given by author) or 'EN-DUMMY' (if assumed by compiler). average'.",
         "active": true
       },
       "SDT": {

@@ -3,15 +3,15 @@
     "diction_name": "Branches (REACTION SF 5)",
     "codes": {
       "(CUM)": {
-        "description": "Compiler uncertain if cumulative",
+        "description": "Compiler uncertain if cumulative Application of the code 'CUM' uncertain. Explanation is obligatory. To be used only with process codes 'F' or 'X'",
         "active": true
       },
       "(M)": {
-        "description": "Uncertain if formation via isomeric trans. included",
+        "description": "Uncertain if formation via isomeric trans. included Whether formation via isomeric transition is included is regarded by the compiler as uncertain. Explanation is obligatory.",
         "active": true
       },
       "(SEC)": {
-        "description": "Compiler uncertain if secondary",
+        "description": "Compiler uncertain if secondary (for fission product yields)",
         "active": true
       },
       "1": {
@@ -87,11 +87,11 @@
         "active": true
       },
       "CRN": {
-        "description": "More than two fragments are specified",
+        "description": "More than two fragments are specified To be used when more than two atomic and/or mass numbers are specified under headings ELEM1, MASS1 etc.",
         "active": true
       },
       "CUM": {
-        "description": "Cumulative production of product nucleus",
+        "description": "Cumulative production of product nucleus (Cumulative) Production of the product nucleus via direct formation and radioactive decay. To be used only with process codes 'F' or 'X'.",
         "active": true
       },
       "DI": {
@@ -103,11 +103,11 @@
         "active": true
       },
       "DL": {
-        "description": "Delayed",
+        "description": "Delayed For use in fission.",
         "active": true
       },
       "EM": {
-        "description": "Emission cross section (excluding elastic scattering)",
+        "description": "Emission cross section (excluding elastic scattering) the incident particle",
         "active": true
       },
       "EP": {
@@ -147,7 +147,7 @@
         "active": true
       },
       "IND": {
-        "description": "Independent production of product nucleus",
+        "description": "Independent production of product nucleus (Independent) Production of the product nucleus via direct formation only. To be used only with process codes 'F' or 'X' and only in cases where cumulative production (SF5 = CUM) can occur also.",
         "active": true
       },
       "ISP": {
@@ -159,7 +159,7 @@
         "active": true
       },
       "LL": {
-        "description": "Longitudinal-longitudinal (zz) component",
+        "description": "Longitudinal-longitudinal (zz) component Beam and target spins parallel to beam direction in scattering plane (=zz)",
         "active": true
       },
       "LON": {
@@ -191,7 +191,7 @@
         "active": true
       },
       "NN": {
-        "description": "Normal-normal (yy) component",
+        "description": "Normal-normal (yy) component Beam and target spins normal to scattering plane (=yy)",
         "active": true
       },
       "NUM": {
@@ -199,27 +199,27 @@
         "active": true
       },
       "PAR": {
-        "description": "Partial",
+        "description": "Partial leaving the residual nucleus in a specific level or emitting a specific gamma or particle group.",
         "active": true
       },
       "PM+": {
-        "description": "Paramagnetic effects included",
+        "description": "Paramagnetic effects included (for thermal scattering)",
         "active": true
       },
       "POT": {
-        "description": "Potential",
+        "description": "Potential (for scattering)",
         "active": true
       },
       "PR": {
-        "description": "Prompt",
+        "description": "Prompt (for use in fission)",
         "active": true
       },
       "PRE": {
-        "description": "Primary",
+        "description": "Primary (for fission product yields)",
         "active": true
       },
       "PRV": {
-        "description": "Provisional",
+        "description": "Provisional (for fission product yields)",
         "active": true
       },
       "QTR": {
@@ -227,15 +227,15 @@
         "active": true
       },
       "SEC": {
-        "description": "Secondary",
+        "description": "Secondary (for fission product yields)",
         "active": true
       },
       "SEQ": {
-        "description": "Particle sequence as specified in SF3",
+        "description": "Particle sequence as specified in SF3 Indicates that the sequence of outgoing particles is as specified in subfield 3.",
         "active": true
       },
       "SL": {
-        "description": "Sideward-longitudinal (xz) component",
+        "description": "Sideward-longitudinal (xz) component Beam spin perpendicular, target spin parallel to beam direction in scattering plane",
         "active": true
       },
       "SPL": {
@@ -243,7 +243,7 @@
         "active": true
       },
       "SS": {
-        "description": "Sideward-sideward (xx) component",
+        "description": "Sideward-sideward (xx) component Target and beam spins perpendicular to beam direction in scattering plane",
         "active": true
       },
       "TER": {
@@ -258,12 +258,8 @@
         "description": "Transversely polarized",
         "active": true
       },
-      "UND": {
-        "description": "Reaction channel undefined",
-        "active": false
-      },
       "UNW": {
-        "description": "Unweighted production cross section",
+        "description": "Unweighted production cross section not weighted by multiplicity of outgoing particle",
         "active": true
       }
     }

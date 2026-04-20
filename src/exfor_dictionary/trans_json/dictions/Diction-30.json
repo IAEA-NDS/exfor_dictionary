@@ -39,7 +39,7 @@
         "active": true
       },
       "THS": {
-        "description": "Thermal neutron scattering",
+        "description": "Thermal neutron scattering involving molecular and crystalline binding vibrations",
         "active": true
       },
       "TOT": {
@@ -47,7 +47,7 @@
         "active": true
       },
       "X": {
-        "description": "Process unspecified",
+        "description": "Process unspecified Examples - (...,X)Z-S-A = production of the product specified in SF4 - (..,P+X)Z-S-A = emission of a proton plus the product specified in SF4, and of other unspecified particles - (..,P+X),SEQ,... = emission of a proton followed by the emission of other unspecified particles or other processes.",
         "active": true
       },
       "XN": {

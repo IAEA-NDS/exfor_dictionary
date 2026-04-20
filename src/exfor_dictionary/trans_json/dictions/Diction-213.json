@@ -26,12 +26,6 @@
         "x4code3": "ZAP",
         "active": true
       },
-      "APR": {
-        "description": "Most probable mass at resonance",
-        "additional_code": "MAS",
-        "x4code3": "ZAP",
-        "active": true
-      },
       "CP4": {
         "description": "Partial differential d/dAngle * 4pi",
         "additional_code": "CSP",

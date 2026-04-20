@@ -530,6 +530,12 @@
         "pulished_country_name": "Yugoslavia",
         "active": false
       },
+      "BLI": {
+        "description": "Bulletin of the Lebedev Physics Institute",
+        "pulished_country_code": "4RUS",
+        "pulished_country_name": "Russia",
+        "active": true
+      },
       "BNE": {
         "description": "Journal of the British Nuclear Energy Society",
         "pulished_country_code": "2UK",
@@ -638,6 +644,12 @@
         "pulished_country_name": "Japan",
         "active": true
       },
+      "CMPH": {
+        "description": "Communications in Physics",
+        "pulished_country_code": "3VN",
+        "pulished_country_name": "Vietnam",
+        "active": true
+      },
       "CNDP": {
         "description": "Communication of Nuclear Data Progress",
         "pulished_country_code": "3CPR",
@@ -744,6 +756,12 @@
         "description": "Abstracts of papers, American Chemical Soc.",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
+        "active": true
+      },
+      "CSB": {
+        "description": "Science Bulletin",
+        "pulished_country_code": "3CPR",
+        "pulished_country_name": "China, People's Rep.",
         "active": true
       },
       "CST": {
@@ -1581,7 +1599,7 @@
         "active": false
       },
       "JPR/S": {
-        "description": "Journal de Physique, Suppl.S, Soc.Francaise",
+        "description": "ournal de Physique, Suppl.S, Soc.Francaise",
         "pulished_country_code": "2FR",
         "pulished_country_name": "France",
         "active": true
@@ -1668,7 +1686,7 @@
         "description": "Kratkie Soobshcheniya po Fizike",
         "pulished_country_code": "4RUS",
         "pulished_country_name": "Russia",
-        "active": false
+        "active": true
       },
       "KSO": {
         "description": "Kratkie Soobscheniya OIYaI (JINR Rapid Commun.)",
@@ -1689,10 +1707,10 @@
         "active": true
       },
       "KXT": {
-        "description": "Kexue Tongbao (Chinese Sci.Letters)",
+        "description": "Kexue Tongbao (Chinese Science Letters)",
         "pulished_country_code": "3CPR",
         "pulished_country_name": "China, People's Rep.",
-        "active": true
+        "active": false
       },
       "LEB": {
         "description": "Issled.po Neitr.Fiz., Trudy Fiz. Institute Lebedeva",
@@ -1722,6 +1740,12 @@
         "description": "Medical Physics",
         "pulished_country_code": "1USA",
         "pulished_country_name": "United States of America",
+        "active": true
+      },
+      "MEK": {
+        "description": "Memoirs of the Facility of Engineering, Kyushu University ",
+        "pulished_country_code": "2JPN",
+        "pulished_country_name": "Japan",
         "active": true
       },
       "MET": {
@@ -1767,7 +1791,7 @@
         "active": true
       },
       "MSK/A": {
-        "description": "Memoirs Faculty of Sci., Kyoto University ,Ser.Physics ",
+        "description": "Memoirs Faculty of Sci., Kyoto University ,Ser.Physics",
         "pulished_country_code": "2JPN",
         "pulished_country_name": "Japan",
         "active": true
@@ -1953,9 +1977,9 @@
         "active": true
       },
       "NMB": {
-        "description": "International Journal of Nuclear Medicine and Biology",
-        "pulished_country_code": "2UK",
-        "pulished_country_name": "United Kingdom",
+        "description": "Nuclear Medicine and Biology",
+        "pulished_country_code": "2NED",
+        "pulished_country_name": "Netherlands",
         "active": true
       },
       "NNEWS": {
@@ -2286,7 +2310,7 @@
         "description": "Proc. of the Indian Academy Sciences, Sect. A",
         "pulished_country_code": "3IND",
         "pulished_country_name": "India",
-        "active": true
+        "active": false
       },
       "PJA": {
         "description": "Proceedings of the Japan Academy",
@@ -2497,6 +2521,12 @@
         "pulished_country_code": "2SWD",
         "pulished_country_name": "Sweden",
         "active": true
+      },
+      "PSI/A": {
+        "description": "Proc. of National Institute of Sci. of India Part.A",
+        "pulished_country_code": "3IND",
+        "pulished_country_name": "India",
+        "active": false
       },
       "PSPS": {
         "description": "Planetary and Space Science",
@@ -2894,8 +2924,14 @@
         "pulished_country_name": "United Kingdom",
         "active": true
       },
+      "TRKU": {
+        "description": "Technology Reports of Kyushu University",
+        "pulished_country_code": "2JPN",
+        "pulished_country_name": "Japan",
+        "active": true
+      },
       "TRTU": {
-        "description": "Facility of Engineering, Tohoku University Tech. Report",
+        "description": "Technology Reports, Tohoku University",
         "pulished_country_code": "2JPN",
         "pulished_country_name": "Japan",
         "active": true

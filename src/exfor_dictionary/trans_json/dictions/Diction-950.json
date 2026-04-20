@@ -123,6 +123,10 @@
     "description": "Alphabetic energy values",
     "active": true
   },
+  "49": {
+    "description": "ISSN identifiers",
+    "active": true
+  },
   "52": {
     "description": "CINDA readers",
     "active": true

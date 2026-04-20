@@ -52,11 +52,6 @@
         "additional_code": "",
         "active": true
       },
-      "EN-NRM1-MX": {
-        "description": "Upper limit of 1st incident energy range for normalization",
-        "additional_code": "",
-        "active": true
-      },
       "EN-NRM2": {
         "description": "2nd incident projectile energy for normalization, see MONITOR",
         "additional_code": "",
@@ -187,46 +182,6 @@
         "additional_code": "",
         "active": true
       },
-      "STAND": {
-        "description": "Numerical value Assumed",
-        "additional_code": "",
-        "active": false
-      },
-      "STAND-ERR": {
-        "description": "Standard error",
-        "additional_code": "",
-        "active": false
-      },
-      "STAND1": {
-        "description": "1st standard value, see STANDARD",
-        "additional_code": "",
-        "active": false
-      },
-      "STAND1-ERR": {
-        "description": "Error in 1st standard value",
-        "additional_code": "",
-        "active": false
-      },
-      "STAND2": {
-        "description": "2nd standard value, see STANDARD.",
-        "additional_code": "",
-        "active": false
-      },
-      "STAND2-ERR": {
-        "description": "Error in 2nd standard value",
-        "additional_code": "",
-        "active": false
-      },
-      "STAND3": {
-        "description": "3rd standard value, see STANDARD.",
-        "additional_code": "",
-        "active": false
-      },
-      "STAND3-ERR": {
-        "description": "Error in 3rd standard value",
-        "additional_code": "",
-        "active": false
-      },
       "MONIT-ERR": {
         "description": "Error in normalization value",
         "additional_code": "",
@@ -262,16 +217,6 @@
         "additional_code": "",
         "active": true
       },
-      "ASSUM1-MAX": {
-        "description": "Upper limit of 1st assumed value",
-        "additional_code": "",
-        "active": true
-      },
-      "ASSUM1-MIN": {
-        "description": "Lower limit of 1st assumed value",
-        "additional_code": "",
-        "active": true
-      },
       "ASSUM2": {
         "description": "2nd Assumed value, defined under ASSUMED.",
         "additional_code": "",
@@ -284,11 +229,6 @@
       },
       "ASSUM2-MAX": {
         "description": "Upper limit of 2nd assumed value",
-        "additional_code": "",
-        "active": true
-      },
-      "ASSUM2-MIN": {
-        "description": "Lower limit of 2nd assumed value",
         "additional_code": "",
         "active": true
       },
@@ -361,11 +301,6 @@
         "description": "Upper lim.of quant.specif.under REACTION, Center of mass system ",
         "additional_code": "DATA",
         "active": true
-      },
-      "SUM": {
-        "description": "Sum value of quantity specified under REACTION",
-        "additional_code": "",
-        "active": false
       },
       "DATA-ERR": {
         "description": "Error in value of quantity, defined under ERR-ANALYS",
@@ -512,28 +447,8 @@
         "additional_code": "DATA_E",
         "active": true
       },
-      "SUM-ERR": {
-        "description": "Error in Sum",
-        "additional_code": "",
-        "active": false
-      },
       "RATIO": {
         "description": "Ratio value of quantity specified under REACTION",
-        "additional_code": "",
-        "active": false
-      },
-      "RATIO-APRX": {
-        "description": "Approximate value of ratio",
-        "additional_code": "",
-        "active": false
-      },
-      "RATIO-MAX": {
-        "description": "Upper limit of ratio",
-        "additional_code": "",
-        "active": false
-      },
-      "RATIO-MIN": {
-        "description": "Lower limit of ratio",
         "additional_code": "",
         "active": false
       },
@@ -932,11 +847,6 @@
         "additional_code": "E",
         "active": true
       },
-      "E-MAX-CM": {
-        "description": "Upper limit of outgoing particle energy range, Center of mass system ",
-        "additional_code": "E",
-        "active": false
-      },
       "E-MAX-DN": {
         "description": "Outgoing particle energy, REACTION ratio denominator",
         "additional_code": "E",
@@ -956,11 +866,6 @@
         "description": "Lower limit of outgoing particle energy range, laboratory system ",
         "additional_code": "E",
         "active": true
-      },
-      "E-MIN-CM": {
-        "description": "Lower limit of outgoing particle energy range, Center of mass system ",
-        "additional_code": "E",
-        "active": false
       },
       "E-MIN-DN": {
         "description": "Outgoing particle energy, REACTION ratio denominator",
@@ -1137,16 +1042,6 @@
         "additional_code": "E",
         "active": true
       },
-      "E-LVL-FIN1": {
-        "description": "Final level of gamma transition, def.under EN-SEC",
-        "additional_code": "E",
-        "active": true
-      },
-      "E-LVL-FIN2": {
-        "description": "Final level of gamma transition, def.under EN-SEC",
-        "additional_code": "E",
-        "active": true
-      },
       "E-LVL-INI": {
         "description": "Initial level of gamma transition",
         "additional_code": "E",
@@ -1277,11 +1172,6 @@
         "additional_code": "E",
         "active": true
       },
-      "E-EXC3": {
-        "description": "3rd excitation energy, defined under EN-SEC.",
-        "additional_code": "E",
-        "active": true
-      },
       "E-EXC-ERR": {
         "description": "Excitation energy error",
         "additional_code": "F",
@@ -1357,20 +1247,10 @@
         "additional_code": "E",
         "active": true
       },
-      "E-GAIN-ERR": {
-        "description": "Error in gain in incident vs. outgoing particle energy",
-        "additional_code": "F",
-        "active": true
-      },
       "IAS-NUMB": {
         "description": "Level number of isobaric analog state",
         "additional_code": "E",
         "active": true
-      },
-      "ISO-NUMB": {
-        "description": "Level number of isobaric analog state",
-        "additional_code": "E",
-        "active": false
       },
       "LVL-NUM-DN": {
         "description": "Level number, REACTION ratio denominator",
@@ -1397,71 +1277,6 @@
         "additional_code": "E",
         "active": true
       },
-      "M1": {
-        "description": "Linear momentum of 1st outgoing particle",
-        "additional_code": "L",
-        "active": false
-      },
-      "M1-MAX": {
-        "description": "Upper limit of 1st outgoing particle linear momentum",
-        "additional_code": "L",
-        "active": false
-      },
-      "M1-MIN": {
-        "description": "Lower limit of 1st outgoing particle linear momentum",
-        "additional_code": "L",
-        "active": false
-      },
-      "M1-SEC-MAX": {
-        "description": "Upper limit of 1st outgoing particle linear momentum",
-        "additional_code": "L",
-        "active": true
-      },
-      "M1-SEC-MIN": {
-        "description": "Lower limit of 1st outgoing particle linear momentum",
-        "additional_code": "L",
-        "active": true
-      },
-      "M2": {
-        "description": "Linear momentum of 2nd outgoing particle",
-        "additional_code": "L",
-        "active": false
-      },
-      "M2-MAX": {
-        "description": "Upper limit of 2nd outgoing particle linear momentum",
-        "additional_code": "L",
-        "active": false
-      },
-      "M2-MIN": {
-        "description": "Lower limit of 2nd outgoing particle linear momentum",
-        "additional_code": "L",
-        "active": false
-      },
-      "M2-SEC-MAX": {
-        "description": "Upper limit of 2nd outgoing particle linear momentum",
-        "additional_code": "L",
-        "active": true
-      },
-      "M2-SEC-MIN": {
-        "description": "Lower limit of 2nd outgoing particle linear momentum",
-        "additional_code": "L",
-        "active": true
-      },
-      "M3": {
-        "description": "Linear momentum of 3rd outgoing particle",
-        "additional_code": "L",
-        "active": false
-      },
-      "M4": {
-        "description": "Linear momentum of 4th outgoing particle",
-        "additional_code": "L",
-        "active": false
-      },
-      "M5": {
-        "description": "Linear momentum of 5th outgoing particle",
-        "additional_code": "L",
-        "active": false
-      },
       "MOM-SEC": {
         "description": "Linear momentum of outgoing particle",
         "additional_code": "L",
@@ -1479,31 +1294,6 @@
       },
       "MOM-SEC-MX": {
         "description": "Maximum linear momentum of outgoing particle",
-        "additional_code": "L",
-        "active": true
-      },
-      "MOM-SEC1": {
-        "description": "1st linear momentum of outgoing particle",
-        "additional_code": "L",
-        "active": true
-      },
-      "MOM-SEC2": {
-        "description": "2nd linear momentum of outgoing particle",
-        "additional_code": "L",
-        "active": true
-      },
-      "MOM-SEC3": {
-        "description": "3rd linear momentum of outgoing particle",
-        "additional_code": "L",
-        "active": true
-      },
-      "MOM-SEC4": {
-        "description": "4th linear momentum of outgoing particle",
-        "additional_code": "L",
-        "active": true
-      },
-      "MOM-SEC5": {
-        "description": "5th linear momentum of outgoing particle",
         "additional_code": "L",
         "active": true
       },
@@ -1592,11 +1382,6 @@
         "additional_code": "G",
         "active": true
       },
-      "ANG-MN": {
-        "description": "Mean angle of correlated pair",
-        "additional_code": "G",
-        "active": true
-      },
       "ANG-NM": {
         "description": "Angle, REACTION ratio numerator",
         "additional_code": "G",
@@ -1642,16 +1427,6 @@
         "additional_code": "G",
         "active": true
       },
-      "ANG1-CM-MN": {
-        "description": "Lower limit of first angle, Center of mass system",
-        "additional_code": "G",
-        "active": true
-      },
-      "ANG1-CM-MX": {
-        "description": "Upper limit of first angle, Center of mass system",
-        "additional_code": "G",
-        "active": true
-      },
       "ANG1-MAX": {
         "description": "Upper limit of first angular range, laboratory system",
         "additional_code": "G",
@@ -1687,11 +1462,6 @@
         "additional_code": "G",
         "active": true
       },
-      "ANG4": {
-        "description": "4th Angle, definition given in BIB Section",
-        "additional_code": "G",
-        "active": true
-      },
       "ANG-ERR": {
         "description": "Angle error",
         "additional_code": "H",
@@ -1699,11 +1469,6 @@
       },
       "ANG-ERR-D": {
         "description": "Digitizing error of angle",
-        "additional_code": "H",
-        "active": true
-      },
-      "ANG-MN-ERR": {
-        "description": "Error of mean angle of correlated pair",
         "additional_code": "H",
         "active": true
       },
@@ -1812,11 +1577,6 @@
         "additional_code": "H",
         "active": true
       },
-      "WVE-NM": {
-        "description": "Wave number",
-        "additional_code": "G",
-        "active": true
-      },
       "NUMBER": {
         "description": "Fitting coefficient number",
         "additional_code": "N",
@@ -1845,6 +1605,11 @@
       "THICKNESS": {
         "description": "Sample thickness",
         "additional_code": "K",
+        "active": true
+      },
+      "THICK-ERR": {
+        "description": "Error in sample thickness",
+        "additional_code": "",
         "active": true
       },
       "POL-BM": {
@@ -1912,16 +1677,6 @@
         "additional_code": "6",
         "active": true
       },
-      "HL3": {
-        "description": "Half-life of 3rd nucleus specified",
-        "additional_code": "6",
-        "active": true
-      },
-      "HL4": {
-        "description": "Half-life of 4th nucleus specified",
-        "additional_code": "6",
-        "active": true
-      },
       "HL-ERR": {
         "description": "Error in Half-life",
         "additional_code": "7",
@@ -1939,11 +1694,6 @@
       },
       "HL3-ERR": {
         "description": "Error in Half-life of 3rd nucleus specified",
-        "additional_code": "7",
-        "active": true
-      },
-      "HL4-ERR": {
-        "description": "Error in Half-life of 4th nucleus specified",
         "additional_code": "7",
         "active": true
       },
@@ -2052,18 +1802,8 @@
         "additional_code": "J",
         "active": true
       },
-      "MASS1-MAX": {
-        "description": "Maximum atomic mass of 1st nuclide",
-        "additional_code": "J",
-        "active": true
-      },
       "MASS2": {
         "description": "Atomic mass of 2nd nuclide",
-        "additional_code": "J",
-        "active": true
-      },
-      "MASS2-MIN": {
-        "description": "Minimum atomic mass of 2nd nuclide",
         "additional_code": "J",
         "active": true
       },
@@ -2097,16 +1837,6 @@
         "additional_code": "J",
         "active": true
       },
-      "ISOMER1": {
-        "description": "1st Isomer for nuclide",
-        "additional_code": "J",
-        "active": true
-      },
-      "ISOMER2": {
-        "description": "2nd Isomer for nuclide",
-        "additional_code": "J",
-        "active": true
-      },
       "ELEM-NRM": {
         "description": "Atomic number of nuclide used for normalization",
         "additional_code": "",
@@ -2116,66 +1846,6 @@
         "description": "Atomic mass of nuclide used for normalization",
         "additional_code": "",
         "active": true
-      },
-      "EMS": {
-        "description": "Effective mass squared",
-        "additional_code": "S",
-        "active": false
-      },
-      "EMS1": {
-        "description": "1st effective mass squared, defined under MOM-SEC.",
-        "additional_code": "S",
-        "active": false
-      },
-      "EMS1-MAX": {
-        "description": "Upper limit, 1st effective mass squared, see MOM-SEC",
-        "additional_code": "S",
-        "active": false
-      },
-      "EMS1-MIN": {
-        "description": "Lower limit, 1st effective mass squared, see MOM-SEC",
-        "additional_code": "S",
-        "active": false
-      },
-      "EMS2": {
-        "description": "2nd effective mass squared, defined under MOM-SEC.",
-        "additional_code": "S",
-        "active": false
-      },
-      "EMS2-MAX": {
-        "description": "Upper limit, 2nd effective mass squared, see MOM-SEC",
-        "additional_code": "S",
-        "active": false
-      },
-      "EMS2-MIN": {
-        "description": "Lower limit, 2nd effective mass squared, see MOM-SEC",
-        "additional_code": "S",
-        "active": false
-      },
-      "EMS3": {
-        "description": "3rd effective mass squared, defined under MOM-SEC",
-        "additional_code": "S",
-        "active": false
-      },
-      "EMS4": {
-        "description": "4th effective mass squared, defined under MOM-SEC",
-        "additional_code": "S",
-        "active": false
-      },
-      "EMS5": {
-        "description": "5th effective mass squared, defined under MOM-SEC",
-        "additional_code": "S",
-        "active": false
-      },
-      "N-OUT": {
-        "description": "Number of emitted neutrons",
-        "additional_code": "P",
-        "active": false
-      },
-      "P-OUT": {
-        "description": "Number of emitted protons",
-        "additional_code": "P",
-        "active": false
       },
       "PART-OUT": {
         "description": "Number of emitted particles",

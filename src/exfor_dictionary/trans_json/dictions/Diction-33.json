@@ -115,7 +115,7 @@
         "active": true
       },
       "K0": {
-        "description": "Kaons,neutral",
+        "description": "Kaons,neutral and short-lived",
         "active": true
       },
       "KN": {

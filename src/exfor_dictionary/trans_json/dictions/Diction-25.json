@@ -44,22 +44,10 @@
         "unit_conversion_factor": "5.7296E+01",
         "active": true
       },
-      "ASEC": {
-        "description": "angular Seconds",
-        "additional_code": "A",
-        "unit_conversion_factor": "2.7778E-04",
-        "active": true
-      },
       "GAM/100N": {
         "description": "gammas per 100 neutrons",
         "additional_code": "YLD",
         "unit_conversion_factor": "1.0000E-02",
-        "active": false
-      },
-      "GAM/PART": {
-        "description": "gammas per incident projectile",
-        "additional_code": "YLD",
-        "unit_conversion_factor": "1.0000E+00",
         "active": false
       },
       "P/FS/MEVSR": {
@@ -194,35 +182,11 @@
         "unit_conversion_factor": "1.0000E+00",
         "active": true
       },
-      "PC/DECAY": {
-        "description": "particles per 100 decays",
-        "additional_code": "YLD",
-        "unit_conversion_factor": "1.0000E-02",
-        "active": true
-      },
-      "PRT/DECAY": {
-        "description": "particles per decay",
-        "additional_code": "YLD",
-        "unit_conversion_factor": "1.0000E+00",
-        "active": true
-      },
       "1/EV": {
         "description": "per eV",
         "additional_code": "1/E",
         "unit_conversion_factor": "1.0000E+00",
         "active": true
-      },
-      "1/GEV": {
-        "description": "per GeV",
-        "additional_code": "1/E",
-        "unit_conversion_factor": "1.0000E-09",
-        "active": true
-      },
-      "1/INC/KEV": {
-        "description": "per incident projectile per keV",
-        "additional_code": "1/E",
-        "unit_conversion_factor": "1.0000E-03",
-        "active": false
       },
       "1/KEV": {
         "description": "per keV",
@@ -314,12 +278,6 @@
         "unit_conversion_factor": "1.0000E+09",
         "active": true
       },
-      "KEV/C": {
-        "description": "keV per Velocity of Light",
-        "additional_code": "E/C",
-        "unit_conversion_factor": "1.0000E+03",
-        "active": true
-      },
       "MEV/C": {
         "description": "MeV per Velocity of Light",
         "additional_code": "E/C",
@@ -330,18 +288,6 @@
         "description": "eV-squared",
         "additional_code": "E2",
         "unit_conversion_factor": "1.0000E+00",
-        "active": true
-      },
-      "GEV-SQ": {
-        "description": "GeV-squared",
-        "additional_code": "E2",
-        "unit_conversion_factor": "1.0000E+18",
-        "active": true
-      },
-      "KEV-SQ": {
-        "description": "keV-squared",
-        "additional_code": "E2",
-        "unit_conversion_factor": "1.0000E+06",
         "active": true
       },
       "MEV-SQ": {
@@ -404,12 +350,6 @@
         "unit_conversion_factor": "1.0000E-15",
         "active": true
       },
-      "KM": {
-        "description": "kilometers",
-        "additional_code": "L",
-        "unit_conversion_factor": "1.0000E+03",
-        "active": true
-      },
       "M": {
         "description": "meters",
         "additional_code": "L",
@@ -432,48 +372,6 @@
         "description": "micrometers, microns",
         "additional_code": "L",
         "unit_conversion_factor": "1.0000E-06",
-        "active": true
-      },
-      "1/D": {
-        "description": "per day",
-        "additional_code": "1/T",
-        "unit_conversion_factor": "1.1574E-05",
-        "active": true
-      },
-      "1/HR": {
-        "description": "per hour",
-        "additional_code": "1/T",
-        "unit_conversion_factor": "2.7778E-04",
-        "active": true
-      },
-      "1/MICROSEC": {
-        "description": "per microsecond",
-        "additional_code": "1/T",
-        "unit_conversion_factor": "1.0000E+06",
-        "active": true
-      },
-      "1/MIN": {
-        "description": "per minute",
-        "additional_code": "1/T",
-        "unit_conversion_factor": "1.6667E-02",
-        "active": true
-      },
-      "1/MSEC": {
-        "description": "per milli-second",
-        "additional_code": "1/T",
-        "unit_conversion_factor": "1.0000E+03",
-        "active": true
-      },
-      "1/NSEC": {
-        "description": "per nano-second",
-        "additional_code": "1/T",
-        "unit_conversion_factor": "1.0000E+09",
-        "active": true
-      },
-      "1/PSEC": {
-        "description": "per pico-second",
-        "additional_code": "1/T",
-        "unit_conversion_factor": "1.0000E+12",
         "active": true
       },
       "1/SEC": {
@@ -537,7 +435,7 @@
         "active": true
       },
       "YR": {
-        "description": "years (=365.2422 Days)",
+        "description": "years",
         "additional_code": "TIME",
         "unit_conversion_factor": "3.1557E+07",
         "active": true
@@ -548,23 +446,11 @@
         "unit_conversion_factor": "",
         "active": true
       },
-      "DEG-F": {
-        "description": "degrees Fahrenheit",
-        "additional_code": "TEM",
-        "unit_conversion_factor": "",
-        "active": true
-      },
       "DEG-K": {
         "description": "degrees Kelvin",
         "additional_code": "TEM",
         "unit_conversion_factor": "",
         "active": false
-      },
-      "DEG-R": {
-        "description": "degrees Rankine",
-        "additional_code": "TEM",
-        "unit_conversion_factor": "",
-        "active": true
       },
       "K": {
         "description": "Kelvin",
@@ -643,12 +529,6 @@
         "additional_code": "TTT",
         "unit_conversion_factor": "3.7000E+04",
         "active": true
-      },
-      "PART/MUAHR": {
-        "description": "particles/micro-Ampere-hour",
-        "additional_code": "TTT",
-        "unit_conversion_factor": "",
-        "active": false
       },
       "CI/AHR/MEV": {
         "description": "Curie per Ampere-hour per MeV",
@@ -734,12 +614,6 @@
         "unit_conversion_factor": "1.0000E-06",
         "active": true
       },
-      "N/PART": {
-        "description": "neutrons per Incident Projectile",
-        "additional_code": "YLD",
-        "unit_conversion_factor": "1.0000E+00",
-        "active": false
-      },
       "NUC/PART": {
         "description": "nuclei per incident projectile",
         "additional_code": "YLD",
@@ -780,12 +654,6 @@
         "description": "particles/milli-Ampere-minute",
         "additional_code": "YLDC",
         "unit_conversion_factor": "1.6700E+01",
-        "active": true
-      },
-      "PRT/MUAHR": {
-        "description": "particles/micro-Ampere-hour",
-        "additional_code": "YLDC",
-        "unit_conversion_factor": "1.0000E+00",
         "active": true
       },
       "PRT/MUCOUL": {
@@ -894,12 +762,6 @@
         "description": "barns * eV-squared",
         "additional_code": "BE2",
         "unit_conversion_factor": "1.0000E+00",
-        "active": true
-      },
-      "MB*EV-SQ": {
-        "description": "millibarns * eV-squared",
-        "additional_code": "BE2",
-        "unit_conversion_factor": "1.0000E-03",
         "active": true
       },
       "B*EV/SR": {
@@ -1046,12 +908,6 @@
         "unit_conversion_factor": "1.0000E-09",
         "active": true
       },
-      "B/SR/KEV": {
-        "description": "barns per steradian per keV",
-        "additional_code": "DAE",
-        "unit_conversion_factor": "1.0000E-03",
-        "active": true
-      },
       "B/SR/MEV": {
         "description": "barns per steradian per MeV",
         "additional_code": "DAE",
@@ -1064,22 +920,10 @@
         "unit_conversion_factor": "1.0000E-06",
         "active": true
       },
-      "B/SR/MI-EV": {
-        "description": "barns per steradian per milli-eV",
-        "additional_code": "DAE",
-        "unit_conversion_factor": "1.0000E+03",
-        "active": true
-      },
       "MB/SR/EV": {
         "description": "millibarns per steradian per eV",
         "additional_code": "DAE",
         "unit_conversion_factor": "1.0000E-03",
-        "active": true
-      },
-      "MB/SR/GEV": {
-        "description": "millibarns per steradian per GeV",
-        "additional_code": "DAE",
-        "unit_conversion_factor": "1.0000E-12",
         "active": true
       },
       "MB/SR/KEV": {
@@ -1090,6 +934,12 @@
       },
       "MB/SR/MEV": {
         "description": "millibarns per steradian per MeV",
+        "additional_code": "DAE",
+        "unit_conversion_factor": "1.0000E-09",
+        "active": true
+      },
+      "MB/SR/MEVA": {
+        "description": "millibarns/steradian/(MeV/A)",
         "additional_code": "DAE",
         "unit_conversion_factor": "1.0000E-09",
         "active": true
@@ -1136,12 +986,6 @@
         "unit_conversion_factor": "1.0000E-12",
         "active": true
       },
-      "B/EV": {
-        "description": "barns per eV",
-        "additional_code": "DE",
-        "unit_conversion_factor": "1.0000E+00",
-        "active": true
-      },
       "B/KEV": {
         "description": "barns per keV",
         "additional_code": "DE",
@@ -1158,18 +1002,6 @@
         "description": "barns per (MeV/A)",
         "additional_code": "DE",
         "unit_conversion_factor": "1.0000E-06",
-        "active": true
-      },
-      "B/MILLI-EV": {
-        "description": "barns per milli-eV",
-        "additional_code": "DE",
-        "unit_conversion_factor": "1.0000E+03",
-        "active": true
-      },
-      "MB/EV": {
-        "description": "millibarns per eV",
-        "additional_code": "DE",
-        "unit_conversion_factor": "1.0000E-03",
         "active": true
       },
       "MB/KEV": {

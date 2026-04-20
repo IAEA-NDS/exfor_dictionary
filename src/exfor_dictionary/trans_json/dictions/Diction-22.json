@@ -51,7 +51,7 @@
         "active": true
       },
       "IMPSI": {
-        "description": "Passivated implanted planar Si detector",
+        "description": "Passivated implanted planar silicon detector",
         "active": true
       },
       "IOCH": {
@@ -191,7 +191,7 @@
         "active": true
       },
       "HPGE": {
-        "description": "Hyperpure Germanium detector",
+        "description": "Hyperpure (high purity) germanium detector",
         "active": true
       },
       "LABR3": {
@@ -215,7 +215,7 @@
         "active": true
       },
       "HE3SP": {
-        "description": "He-3 spectrometer",
+        "description": "Helium-3 spectrometer",
         "active": true
       },
       "HORBU": {

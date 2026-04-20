@@ -11,11 +11,11 @@
         "active": true
       },
       "2": {
-        "description": "JEFF",
+        "description": "JEFF until version 2.2 (1993): JEF",
         "active": true
       },
       "3": {
-        "description": "EFF",
+        "description": "EFF last version: EFF-2.4 (1994)",
         "active": false
       },
       "4": {
@@ -39,7 +39,7 @@
         "active": true
       },
       "21": {
-        "description": "IFPL",
+        "description": "IFPL International Fission Product Library of Neutron Cross section Evaluations",
         "active": true
       },
       "31": {
@@ -51,11 +51,11 @@
         "active": true
       },
       "33": {
-        "description": "FENDL/E, FENDL/C, FENDL/D",
+        "description": "FENDL/E, FENDL/C, FENDL/D FENDL/E (neutrons, full evaluations); FENDL/C (charged particles, fusion reactions); FENDL/D (decay data)",
         "active": true
       },
       "34": {
-        "description": "IRDFF",
+        "description": "IRDFF until version 2002: IRDF same as FENDL/DS (neutron dosimetry)",
         "active": true
       },
       "35": {
@@ -63,11 +63,11 @@
         "active": true
       },
       "36": {
-        "description": "INGDB-90",
+        "description": "INGDB-90 (Geophysics data)",
         "active": true
       },
       "37": {
-        "description": "FENDL/A",
+        "description": "FENDL/A (Neutron activation)",
         "active": true
       },
       "38": {
@@ -75,47 +75,47 @@
         "active": true
       },
       "41": {
-        "description": "BROND",
+        "description": "BROND (Original Version)",
         "active": true
       },
       "49": {
-        "description": "MENDL-2",
+        "description": "MENDL-2 Medium Energy Nuclear Data Library (1995-1998)",
         "active": true
       },
       "51": {
-        "description": "ADL-3",
+        "description": "ADL-3 Neutron activation data library, Rev. 2, July 1995",
         "active": true
       },
       "52": {
-        "description": "MINSK-ACT",
+        "description": "MINSK-ACT Minsk Actinides Library (Maslov et al.)",
         "active": true
       },
       "53": {
-        "description": "YAVSHITS",
+        "description": "YAVSHITS Neutron, proton induced fission for Pb-Pu (20-200 MeV)",
         "active": true
       },
       "54": {
-        "description": "WIND",
+        "description": "WIND Neutron activation data Library for U, Np, Pu (up to 100 MeV) and Pu-239 (up to 2 GeV)",
         "active": true
       },
       "55": {
-        "description": "IAEA-Medical",
+        "description": "IAEA-Medical IAEA-Medical Charged-particle cross section database for medical radioisotope production (2001)",
         "active": true
       },
       "56": {
-        "description": "IBA-EVAL",
+        "description": "IBA-EVAL IBAE-EVAL Differential charged-particle cross sections for ion beam analysis (2006-2007)",
         "active": true
       },
       "57": {
-        "description": "IAEA-STD",
+        "description": "IAEA-STD IAEA-STD Standard Cross Sections (2006)",
         "active": true
       },
       "58": {
-        "description": "PADF",
+        "description": "PADF Proton Activation Data File",
         "active": true
       },
       "59": {
-        "description": "RUSFOND",
+        "description": "RUSFOND Russian File of Evaluated Neutron Data",
         "active": true
       }
     }

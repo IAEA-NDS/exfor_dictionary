@@ -45,7 +45,7 @@ def get_trans_from_nearepo():
     """ Return name of the last commit """
     git.Repo.clone_from(NEA_DICTIONARY_REPO, "./")
     repo = git.Repo( "./dict/" )
-    return repo.git.log('--pretty=%B', file)
+    return repo.git.log('--pretty=%B')
 
 
 def get_server_trans_nums():
@@ -157,8 +157,9 @@ def get_diction_definition(latest) -> dict:
     dict950 = match.groupdict()['dict950']
 
     for line in dict950.splitlines():
-
         x4code = str(line[:11].strip())
+        if not x4code:
+            continue
         desc = line[11:66].strip()
         flag = line[79:80]
 
@@ -176,17 +177,11 @@ def parse_dictionary(latest):
 
     pattern = r"^SUBDICT *\d{5}(?P<dict_id>\d{3}).*$(?P<exfor_dict>(?s:.)*?)^ENDSUBDICT"
 
-    file = dict_filename(latest)
-    with open(file) as f:
-        lines = f.read()
-
     output_folder = os.path.join(DICTIONARY_PATH, "trans_backup", "dictions")
     # ensure folder exists
-    os.makedirs(output_folder,exist_ok=True)
+    os.makedirs(output_folder, exist_ok=True)
 
-    filename = dict_filename(latest)
-
-    with open(filename) as f:
+    with open(dict_filename(latest)) as f:
         lines = f.read()
 
     for match in re.finditer(pattern, lines, re.MULTILINE):
@@ -280,7 +275,7 @@ def conv_dictionary_to_json(latest) -> dict:
                             "active": False if flag == "O" or flag == "X" else True,
                         }
 
-                    if int(diction_num) == 5:
+                    elif int(diction_num) == 5:
                         ### for DICTION   5  Journals
                         journal_country = line[62:66].strip()
                         country_name = ""
@@ -303,8 +298,10 @@ def conv_dictionary_to_json(latest) -> dict:
                         }
 
         elif int(diction_num) in [144, 43, 38, 35, 34, 32, 31, 30, 6, 1]:
+            x4code = ""
             for line in diction:
-                is_comment_line(line)
+                if "==" in line:
+                    continue
                 if not line.startswith(" "):
                     x4code = line[:11].strip()
                     desc = line[11:66].strip()
@@ -326,6 +323,11 @@ def conv_dictionary_to_json(latest) -> dict:
                             "description": desc,
                             "active": False if flag == "O" or flag == "X" else True,
                         }
+
+                elif x4code and x4code in codes:
+                    continuation = line[11:66].strip()
+                    if continuation:
+                        codes[x4code]["description"] += " " + continuation
 
         elif int(diction_num) == 24:
             ### DICTION 24: Data headings

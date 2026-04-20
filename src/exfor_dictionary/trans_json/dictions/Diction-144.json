@@ -3,19 +3,19 @@
     "diction_name": "Data libraries",
     "codes": {
       "AUSTR-DFN": {
-        "description": "Austral.Lib.Eval.Neut.Cross Sect.for Fis.Prod.Nuclei",
+        "description": "Austral.Lib.Eval.Neut.Cross Sect.for Fis.Prod.Nuclei (Australian Library of Evaluated Neutron Cross Sections for Fission-Product Nuclei)",
         "active": true
       },
       "BENZI-DFN": {
-        "description": "Bologna Lib.Eval.Neut.Cross Sect.for Fis.Prod.Nuclei",
+        "description": "Bologna Lib.Eval.Neut.Cross Sect.for Fis.Prod.Nuclei (Bologna Library of Evaluated Neutron Cross Sections for Fission-Product Nuclei)",
         "active": true
       },
       "BROND-": {
-        "description": "Russian Recommended Evaluated Neutron Data Library",
+        "description": "Russian Recommended Evaluated Neutron Data Library 1993 BROND-2.2 1992 BROND-2",
         "active": true
       },
       "CENDL-": {
-        "description": "Chinese Evaluated Nuclear Data Library (CENDL)",
+        "description": "Chinese Evaluated Nuclear Data Library (CENDL) 2009 CENDL-3.1 1995 CENDL-2.1 1991 CENDL-2.0",
         "active": true
       },
       "CNEN-CEA": {
@@ -23,87 +23,87 @@
         "active": true
       },
       "EFF-": {
-        "description": "European Fusion File",
+        "description": "European Fusion File Last version: EFF-2.4 (1994) 1994 EFF-2.4 1986 EFF-1",
         "active": true
       },
       "ENDF/B-": {
-        "description": "US Evaluated Nuclear Data File (ENDF) B Library",
+        "description": "US Evaluated Nuclear Data File (ENDF) B Library 2024 ENDF/B-VIII.1 2018 ENDF/B-VIII.0 2011 ENDF/B-VII.1 2006 ENDF/B-VII.0 2001 ENDF/B-VI.8 2000 ENDF/B-VI.7 1999 ENDF/B-VI.6 1998 ENDF/B-VI.5 1996 ENDF/B-VI.4 1995 ENDF/B-VI.3 1993 ENDF/B-VI.2 1990 ENDF/B-VI 1978 ENDF/B-V 1974 ENDF/B-IV 1972 ENDF/B-III 1970 ENDF/B-II 1968 ENDF/B-I",
         "active": true
       },
       "ENDL-": {
-        "description": "Livermore Evaluated Nuclear Data Library (ENDL)",
+        "description": "Livermore Evaluated Nuclear Data Library (ENDL) 1986 ENDL-86 1978 ENDL-78",
         "active": true
       },
       "EXFOR": {
         "description": "EXFOR Experimental Nuclear Reaction Data Library",
         "active": true
       },
-      "FENDL": {
-        "description": "Fusion Evaluated Nuclear Data Library (FENDL)",
+      "FENDL/A-": {
+        "description": "FENDL Activation Sublibrary 1997 FENDL/A-2.0",
         "active": true
       },
       "INDL-": {
-        "description": "IAEA Nulear Data Library (INDL)",
+        "description": "IAEA Nulear Data Library (INDL) Files included in both INDL/A and INDL/V under the same accession number",
         "active": true
       },
       "INDL/A-": {
-        "description": "IAEA Nucl.Data Lib.Eval.Neut.Reac.Data of Actinides",
+        "description": "IAEA Nucl.Data Lib.Eval.Neut.Reac.Data of Actinides (IAEA Nuclear Data Library for Evaluated Neutron Reaction Data of Actinides)",
         "active": true
       },
       "INDL/V-": {
-        "description": "IAEA Nucl.Data Lib.Var.Neut.Data Eval.ENDF-5 format",
+        "description": "IAEA Nucl.Data Lib.Var.Neut.Data Eval.ENDF-5 format (IAEA Nuclear Data Library for Various Neutron Data Evaluations in ENDF-5 format)",
         "active": true
       },
       "IRDF-": {
-        "description": "International Reactor Dosimetry File (IRDF)",
+        "description": "International Reactor Dosimetry File (IRDF) in ENDF-5 format 2005 IRDF-2002 1993 IRDF-90.2 1990 IRDF-90.1",
         "active": true
       },
       "IRDFF-": {
-        "description": "International Reactor Dosimetry and Fusion File",
+        "description": "International Reactor Dosimetry and Fusion File 2019 IRDFF-II 2014 IRDFF-1.05 2012 IRDFF-1.02",
         "active": true
       },
       "JEF-": {
-        "description": "Joint Evaluated File (JEF)",
+        "description": "Joint Evaluated File (JEF) Compiled at the OECD Nuclear Energy Agency Data Bank Last version: JEF-2.2 (1992) 1993 JEF-2.2 1991 JEF-2.1 1990 JEF-2.0 1985 JEF-1",
         "active": true
       },
       "JEFF-": {
-        "description": "Joint Evaluated Fission and Fusion (JEFF) Library",
+        "description": "Joint Evaluated Fission and Fusion (JEFF) Library Compiled at the OECD Nuclear Energy Agency Data Bank 2012 JEFF-3.1.2/GP (update of neutron data) 2009 JEFF-3.1.1/GP (update of neutron data) 2009 JEFF-3.1.1/FY (update of fission yields) 2007 JEFF-3.1.1/DD (update of decay data) 2005 JEFF-3.1 (general and special purpose files) 2002 JEFF-3.0/GP (general purpose file)",
         "active": true
       },
       "JENDL-": {
-        "description": "Japanese Evaluated Nuclear Data Library (JENDL)",
+        "description": "Japanese Evaluated Nuclear Data Library (JENDL) 2010 JENDL-4.0, General Purpose File 2002 JENDL-3.3, General Purpose File 1994 JENDL-3.2, General Purpose File 1990 JENDL-3.1, General Purpose File 1985 JENDL-2 (Addition of Fission Products) 1984 JENDL-2 (Revised) 1982 JENDL-2 1977 JENDL-1",
         "active": true
       },
       "JENDL-A-": {
-        "description": "JENDL Activation File (JENDL/A)",
+        "description": "JENDL Activation File (JENDL/A) 1996 JENDL/A-96",
         "active": true
       },
       "JENDL-AC-": {
-        "description": "JENDL Actinoid File  (JENDL/AC)",
+        "description": "JENDL Actinoid File  (JENDL/AC) 2008 JENDL/AC-2008",
         "active": true
       },
       "JENDL-AN-": {
-        "description": "JENDL (alpha,n) Reaction Data File (JENDL/AN)",
+        "description": "JENDL (alpha,n) Reaction Data File (JENDL/AN) 2005 JENDL/AN-2005 2003 JENDL/AN-2003",
         "active": true
       },
       "JENDL-D-": {
-        "description": "JENDL Dosimetry File (JENDL/D)",
+        "description": "JENDL Dosimetry File (JENDL/D) 1999 JENDL/D-99 1991 JENDL/D-91",
         "active": true
       },
       "JENDL-F-": {
-        "description": "JENDL Fusion File (JENDL/F)",
+        "description": "JENDL Fusion File (JENDL/F) 1999 JENDL/F-99",
         "active": true
       },
       "JENDL-FP-": {
-        "description": "JENDL Fission Product Decay Data (JENDL/FPD)",
+        "description": "JENDL Fission Product Decay Data (JENDL/FPD) 2000 JENDL/FPD-2000",
         "active": true
       },
       "JENDL-HE-": {
-        "description": "JENDL High Energy File (JENDL/HE)",
+        "description": "JENDL High Energy File (JENDL/HE) 2007 JENDL/HE-2007 2004 JENDL/HE-2004",
         "active": true
       },
       "JENDL-PD-": {
-        "description": "JENDL Photonuclear Data File (JENDL/PD)",
+        "description": "JENDL Photonuclear Data File (JENDL/PD) 2004 JENDL/PD-2004",
         "active": true
       },
       "JNDC-FFP-WG": {
@@ -111,7 +111,7 @@
         "active": false
       },
       "JNDC-FP": {
-        "description": "JNDC Nuclear Data Library of Fission Products",
+        "description": "JNDC Nuclear Data Library of Fission Products Decay data,fission yields and one group cross sections",
         "active": false
       },
       "KEDAK-": {
@@ -123,7 +123,7 @@
         "active": true
       },
       "SOKRATOR-": {
-        "description": "USSR Evaluated Nuclear Data Library",
+        "description": "USSR Evaluated Nuclear Data Library Superseded by BROND-2",
         "active": false
       },
       "TENDL-": {
@@ -131,7 +131,7 @@
         "active": true
       },
       "UKFY2": {
-        "description": "UK Fission Yield library (UKFY) version 2",
+        "description": "UK Fission Yield library (UKFY) version 2 in ENDF-6 format",
         "active": true
       },
       "UKNDL-DFN": {
