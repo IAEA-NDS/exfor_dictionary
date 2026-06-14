@@ -169,7 +169,7 @@ class Diction:
         ]
 
 
-    def get_details(self, diction_num, key):
+    def get_description(self, diction_num, key):
         diction = self.dictionaries[diction_num]["codes"]
 
         if diction.get(key):
@@ -212,7 +212,7 @@ class Diction:
             return standard_unit
 
 
-    def get_institute(self, code):
+    def get_institute_desc(self, code):
         diction = self.dictionaries["3"]
 
         return diction["codes"][code.replace("(", "").replace(")", "").strip()][
@@ -220,7 +220,7 @@ class Diction:
         ]
 
 
-    def get_reftype(self, code):
+    def get_reftype_desc(self, code):
         diction = self.dictionaries["4"]
 
         return diction["codes"][code.replace("(", "").replace(")", "").strip()][
@@ -228,7 +228,7 @@ class Diction:
         ]
 
 
-    def get_journal(self, code):
+    def get_journal_desc(self, code):
         diction = self.dictionaries["5"]
 
         return diction["codes"][code.replace("(", "").replace(")", "").strip()][
@@ -236,7 +236,7 @@ class Diction:
         ]
 
 
-    def get_report(self, code):
+    def get_report_desc(self, code):
         diction = self.dictionaries["6"]
 
         return diction["codes"][code.replace("(", "").replace(")", "").strip()][
@@ -244,7 +244,7 @@ class Diction:
         ]
 
 
-    def get_confproceeding(self, code):
+    def get_confproceeding_desc(self, code):
         diction = self.dictionaries["7"]
 
         return diction["codes"][code.replace("(", "").replace(")", "").strip()][
@@ -252,7 +252,7 @@ class Diction:
         ]
 
 
-    def get_method(self, code):
+    def get_method_desc(self, code):
         diction = self.dictionaries["21"]
 
         return diction["codes"][code.replace("(", "").replace(")", "").strip()][
@@ -260,7 +260,7 @@ class Diction:
         ]
 
 
-    def get_detectors(self, code):
+    def get_detectors_desc(self, code):
         diction = self.dictionaries["22"]
 
         return diction["codes"][code.replace("(", "").replace(")", "").strip()][
@@ -268,7 +268,7 @@ class Diction:
         ]
 
 
-    def get_facility(self, code):
+    def get_facility_desc(self, code):
         diction = self.dictionaries["18"]
 
         return diction["codes"][code.replace("(", "").replace(")", "").strip()][
@@ -276,7 +276,7 @@ class Diction:
         ]
 
 
-    def get_err_analysis(self, code):
+    def get_err_analysis_desc(self, code):
         diction = self.dictionaries["24"]
 
         return diction["codes"][code.replace("(", "").replace(")", "").strip()][
@@ -284,21 +284,21 @@ class Diction:
         ]
 
 
-    def get_inc_sources(self, code):
+    def get_inc_sources_desc(self, code):
         diction = self.dictionaries["19"]
 
         return diction["codes"][code.replace("(", "").replace(")", "").strip()][
             "description"
         ]
 
-    def get_sf6(self, code):
+    def get_sf6_desc(self, code):
         diction = self.dictionaries["32"]
 
         return diction["codes"][code.replace("(", "").replace(")", "").strip()][
             "description"
         ]
 
-    def get_sf5(self, code):
+    def get_sf5_desc(self, code):
         diction = self.dictionaries["31"]
 
         return diction["codes"][code.replace("(", "").replace(")", "").strip()][
@@ -306,16 +306,25 @@ class Diction:
         ]
 
 
-    def get_sf8(self, code):
+    def get_sf8_desc(self, code):
         diction = self.dictionaries["34"]
 
         return diction["codes"][code.replace("(", "").replace(")", "").strip()][
             "description"
         ]
     
-    def get_sf9(self, code):
+    def get_sf9_desc(self, code):
         diction = self.dictionaries["35"]
 
         return diction["codes"][code.replace("(", "").replace(")", "").strip()][
             "description"
         ]
+    
+
+
+
+
+
+
+
+
